@@ -14,6 +14,9 @@ from .order_manager import OrderManager
 from .simulators.simulator import SimulatorBroker
 from .trading_engine import TradingEngine, Signal, SignalType, ExecutionResult
 
+# 券商适配器
+from .brokers import TdxBroker, BrokerFactory
+
 __all__ = [
     # 核心接口
     "BrokerInterface",
@@ -34,4 +37,7 @@ __all__ = [
     "Signal",
     "SignalType",
     "ExecutionResult",
+    # 券商适配器
+    "TdxBroker",
+    "BrokerFactory",
 ]

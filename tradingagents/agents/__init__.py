@@ -1,72 +1,77 @@
-﻿from .utils.agent_utils import Toolkit, create_msg_delete
-from .utils.agent_states import AgentState, InvestDebateState, RiskDebateState
-from .utils.memory import FinancialSituationMemory
-
-from .analysts.fundamentals_analyst import create_fundamentals_analyst
-from .analysts.market_analyst import create_market_analyst
-from .analysts.news_analyst import create_news_analyst
-from .analysts.social_media_analyst import create_social_media_analyst
-
-from .researchers.bear_researcher import create_bear_researcher
-from .researchers.bull_researcher import create_bull_researcher
-
-from .risk_mgmt.aggresive_debator import create_risky_debator
-from .risk_mgmt.conservative_debator import create_safe_debator
-from .risk_mgmt.neutral_debator import create_neutral_debator
-
-from .managers.research_manager import create_research_manager
-from .managers.risk_manager import create_risk_manager
-
-from .trader.trader import create_trader, get_technical_analysis
-from .trader.strategy import (
-    MACrossoverStrategy, RSIStrategy, MACDStrategy, 
-    BollingerStrategy, CombinedStrategy, create_strategy,
-    analyze_stock, Signal
+﻿"""
+多代理辩论框架
+"""
+from .base import (
+    AgentRole,
+    AgentType,
+    Decision,
+    AgentConfig,
+    AnalysisResult,
+    DebateResult,
+    TradingDecision,
+    RiskAssessment,
+    BaseAgent,
+    ROLE_CONFIGS
 )
-from .trader.backtest import BacktestEngine, run_backtest
-from .trader.monitor import StockMonitor, add_watch, check_stock, scan_all
-from .trader.daily_analysis import DailyAnalysis, analyze_stock, generate_report
+from .analysts import (
+    FourAnalysts,
+    AnalystReport,
+    MarketAnalyst,
+    FundamentalsAnalyst,
+    NewsAnalyst,
+    SentimentAnalyst
+)
+from .debate import (
+    DebateEngine,
+    BullDebater,
+    BearDebater,
+    ResearchManager
+)
+from .risk import (
+    RiskAssessmentEngine,
+    AggressiveRiskAnalyst,
+    ConservativeRiskAnalyst,
+    NeutralRiskAnalyst,
+    RiskManager
+)
+from .reporting import (
+    ReportGenerator,
+    TradingDecisionMaker,
+    MultiAgentDebateSystem
+)
 
 __all__ = [
-    "FinancialSituationMemory",
-    "Toolkit",
-    "AgentState",
-    "create_msg_delete",
-    "InvestDebateState",
-    "RiskDebateState",
-    "create_bear_researcher",
-    "create_bull_researcher",
-    "create_research_manager",
-    "create_fundamentals_analyst",
-    "create_market_analyst",
-    "create_neutral_debator",
-    "create_news_analyst",
-    "create_risky_debator",
-    "create_risk_manager",
-    "create_safe_debator",
-    "create_social_media_analyst",
-    "create_trader",
-    "get_technical_analysis",
-    # 策略库
-    "MACrossoverStrategy",
-    "RSIStrategy", 
-    "MACDStrategy",
-    "BollingerStrategy",
-    "CombinedStrategy",
-    "create_strategy",
-    "analyze_stock",
-    "Signal",
-    # 回测模块
-    "BacktestEngine",
-    "run_backtest",
-    # 监控模块
-    "StockMonitor",
-    "add_watch",
-    "check_stock",
-    "scan_all",
-    # 每日分析模块
-    "DailyAnalysis",
-    "analyze_stock",
-    "generate_report",
+    # 基础
+    'AgentRole',
+    'AgentType', 
+    'Decision',
+    'AgentConfig',
+    'AnalysisResult',
+    'DebateResult',
+    'TradingDecision',
+    'RiskAssessment',
+    'BaseAgent',
+    'ROLE_CONFIGS',
+    # 分析器
+    'FourAnalysts',
+    'AnalystReport',
+    'MarketAnalyst',
+    'FundamentalsAnalyst',
+    'NewsAnalyst',
+    'SentimentAnalyst',
+    # 辩论
+    'DebateEngine',
+    'BullDebater',
+    'BearDebater',
+    'ResearchManager',
+    # 风险
+    'RiskAssessmentEngine',
+    'AggressiveRiskAnalyst',
+    'ConservativeRiskAnalyst',
+    'NeutralRiskAnalyst',
+    'RiskManager',
+    # 报告
+    'ReportGenerator',
+    'TradingDecisionMaker',
+    'MultiAgentDebateSystem'
 ]
-

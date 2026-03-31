@@ -7,6 +7,8 @@ TradingAgents-CN Data Module
 - 实时行情 (AkShare/pytdx/WebSocket)
 - 期货数据
 - 期权数据
+- 全市场数据 (A股/港股/美股/基金/宏观/债券)
+- Dashboard 可视化
 """
 
 from .realtime import (
@@ -32,6 +34,27 @@ from .options import (
     Greeks,
 )
 
+# 全市场数据
+from .markets import (
+    MarketDataHub,
+    AStockData,
+    HKStockData,
+    USStockData,
+    FundData,
+    MacroData,
+    BondData,
+)
+
+# Dashboard
+from ..dashboard import (
+    DashboardState,
+    run_dashboard,
+    HeatmapGenerator,
+    PortfolioHeatmap,
+    ChartGenerator,
+    MetricsCalculator,
+)
+
 __all__ = [
     # 实时行情
     "RealtimeDataManager",
@@ -52,4 +75,21 @@ __all__ = [
     "ExerciseType",
     "OptionContract",
     "Greeks",
+    
+    # 全市场数据
+    "MarketDataHub",
+    "AStockData",
+    "HKStockData",
+    "USStockData",
+    "FundData",
+    "MacroData",
+    "BondData",
+    
+    # Dashboard
+    "DashboardState",
+    "run_dashboard",
+    "HeatmapGenerator",
+    "PortfolioHeatmap",
+    "ChartGenerator",
+    "MetricsCalculator",
 ]
