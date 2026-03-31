@@ -4,6 +4,7 @@
 import asyncio
 from typing import Dict, Any, List, Optional
 from dataclasses import dataclass
+from abc import abstractmethod
 
 from ..base import (
     AgentRole,
@@ -14,36 +15,60 @@ from ..base import (
 )
 
 
-class MarketAnalyst(BaseAgent):
-    """市场技术分析 Agent"""
-    
-    def __init__(self, llm_client=None):
-        config = ROLE_CONFIGS[AgentRole.MARKET_ANALYST]
+class BaseAnalystAgent(BaseAgent):
+    """分析师基类 - 消除代码重复"""
+
+    def __init__(self, role: AgentRole, llm_client=None):
+        config = ROLE_CONFIGS[role]
         super().__init__(config)
         self._llm_client = llm_client
-    
+        self._default_confidence = 0.8
+
     async def run(self, context: Dict[str, Any]) -> AnalysisResult:
+        """执行分析 - 统一流程"""
         prompt = self.build_prompt(context)
-        
+
         if self._llm_client:
             content = await self._call_llm(prompt)
         else:
             # Mock 模式
             content = self._generate_mock_analysis(context)
-        
+
         return AnalysisResult(
             agent_role=self.role,
             agent_name=self.name,
             content=content,
-            confidence=0.8,
+            confidence=self._get_confidence(),
             evidence=self._extract_evidence(content),
             metadata=context.get("metadata", {})
         )
-    
+
+    @abstractmethod
+    def _generate_mock_analysis(self, context: Dict[str, Any]) -> str:
+        """生成 Mock 分析结果 - 子类实现"""
+        pass
+
+    def _get_confidence(self) -> float:
+        """获取置信度 - 可被子类覆盖"""
+        return self._default_confidence
+
+    @abstractmethod
+    def _extract_evidence(self, content: str) -> List[str]:
+        """提取证据 - 子类实现"""
+        pass
+
+
+class MarketAnalyst(BaseAnalystAgent):
+    """市场技术分析 Agent"""
+
+    def __init__(self, llm_client=None):
+        super().__init__(AgentRole.MARKET_ANALYST, llm_client)
+        self._default_confidence = 0.8
+
     def _generate_mock_analysis(self, context: Dict[str, Any]) -> str:
         stock = context.get("stock_code", "Unknown")
         price = context.get("current_price", 0)
-        
+
         return f"""## {stock} 技术分析
 
 ### 趋势判断
@@ -63,7 +88,7 @@ class MarketAnalyst(BaseAgent):
 
 ### 结论
 技术面偏多，建议关注回调至均线支撑位的买入机会。"""
-    
+
     def _extract_evidence(self, content: str) -> List[str]:
         evidence = []
         if "MACD" in content:
@@ -77,34 +102,16 @@ class MarketAnalyst(BaseAgent):
         return evidence
 
 
-class FundamentalsAnalyst(BaseAgent):
+class FundamentalsAnalyst(BaseAnalystAgent):
     """基本面分析 Agent"""
-    
+
     def __init__(self, llm_client=None):
-        config = ROLE_CONFIGS[AgentRole.FUNDAMENTALS_ANALYST]
-        super().__init__(config)
-        self._llm_client = llm_client
-    
-    async def run(self, context: Dict[str, Any]) -> AnalysisResult:
-        prompt = self.build_prompt(context)
-        
-        if self._llm_client:
-            content = await self._call_llm(prompt)
-        else:
-            content = self._generate_mock_analysis(context)
-        
-        return AnalysisResult(
-            agent_role=self.role,
-            agent_name=self.name,
-            content=content,
-            confidence=0.85,
-            evidence=self._extract_evidence(content),
-            metadata=context.get("metadata", {})
-        )
-    
+        super().__init__(AgentRole.FUNDAMENTALS_ANALYST, llm_client)
+        self._default_confidence = 0.85
+
     def _generate_mock_analysis(self, context: Dict[str, Any]) -> str:
         stock = context.get("stock_code", "Unknown")
-        
+
         return f"""## {stock} 基本面分析
 
 ### 财务概况
@@ -131,7 +138,7 @@ class FundamentalsAnalyst(BaseAgent):
 
 ### 结论
 基本面良好，估值具有吸引力，建议关注。"""
-    
+
     def _extract_evidence(self, content: str) -> List[str]:
         evidence = []
         if "ROE" in content:
@@ -145,34 +152,16 @@ class FundamentalsAnalyst(BaseAgent):
         return evidence
 
 
-class NewsAnalyst(BaseAgent):
+class NewsAnalyst(BaseAnalystAgent):
     """新闻分析 Agent"""
-    
+
     def __init__(self, llm_client=None):
-        config = ROLE_CONFIGS[AgentRole.NEWS_ANALYST]
-        super().__init__(config)
-        self._llm_client = llm_client
-    
-    async def run(self, context: Dict[str, Any]) -> AnalysisResult:
-        prompt = self.build_prompt(context)
-        
-        if self._llm_client:
-            content = await self._call_llm(prompt)
-        else:
-            content = self._generate_mock_analysis(context)
-        
-        return AnalysisResult(
-            agent_role=self.role,
-            agent_name=self.name,
-            content=content,
-            confidence=0.75,
-            evidence=self._extract_evidence(content),
-            metadata=context.get("metadata", {})
-        )
-    
+        super().__init__(AgentRole.NEWS_ANALYST, llm_client)
+        self._default_confidence = 0.75
+
     def _generate_mock_analysis(self, context: Dict[str, Any]) -> str:
         stock = context.get("stock_code", "Unknown")
-        
+
         return f"""## {stock} 新闻分析
 
 ### 近期重要新闻
@@ -196,7 +185,7 @@ class NewsAnalyst(BaseAgent):
 
 ### 结论
 新闻面偏多，建议关注相关催化剂。"""
-    
+
     def _extract_evidence(self, content: str) -> List[str]:
         evidence = []
         if "业绩" in content:
@@ -210,34 +199,16 @@ class NewsAnalyst(BaseAgent):
         return evidence
 
 
-class SentimentAnalyst(BaseAgent):
+class SentimentAnalyst(BaseAnalystAgent):
     """情绪分析 Agent"""
-    
+
     def __init__(self, llm_client=None):
-        config = ROLE_CONFIGS[AgentRole.SENTIMENT_ANALYST]
-        super().__init__(config)
-        self._llm_client = llm_client
-    
-    async def run(self, context: Dict[str, Any]) -> AnalysisResult:
-        prompt = self.build_prompt(context)
-        
-        if self._llm_client:
-            content = await self._call_llm(prompt)
-        else:
-            content = self._generate_mock_analysis(context)
-        
-        return AnalysisResult(
-            agent_role=self.role,
-            agent_name=self.name,
-            content=content,
-            confidence=0.7,
-            evidence=self._extract_evidence(content),
-            metadata=context.get("metadata", {})
-        )
-    
+        super().__init__(AgentRole.SENTIMENT_ANALYST, llm_client)
+        self._default_confidence = 0.7
+
     def _generate_mock_analysis(self, context: Dict[str, Any]) -> str:
         stock = context.get("stock_code", "Unknown")
-        
+
         return f"""## {stock} 情绪分析
 
 ### 资金流向

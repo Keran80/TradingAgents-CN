@@ -51,7 +51,7 @@ class RPCMessage:
     trace_id: Optional[str] = None
     
     def to_bytes(self, serializer: SerializationType = SerializationType.JSON) -> bytes:
-        """序列化消息"""
+        """序列化消息（带长度前缀）"""
         obj = {
             'msg_id': self.msg_id,
             'msg_type': self.msg_type.value,
@@ -61,14 +61,18 @@ class RPCMessage:
             'timestamp': self.timestamp,
             'trace_id': self.trace_id
         }
-        
+
         if serializer == SerializationType.JSON:
-            return json.dumps(obj, ensure_ascii=False).encode('utf-8')
+            payload = json.dumps(obj, ensure_ascii=False).encode('utf-8')
         elif serializer == SerializationType.PICKLE:
-            return pickle.dumps(obj)
+            payload = pickle.dumps(obj)
         else:
-            return json.dumps(obj, ensure_ascii=False).encode('utf-8')
-    
+            payload = json.dumps(obj, ensure_ascii=False).encode('utf-8')
+
+        # 添加 4 字节长度前缀（大端序）
+        length_prefix = len(payload).to_bytes(4, byteorder='big')
+        return length_prefix + payload
+
     @classmethod
     def from_bytes(cls, data: bytes, serializer: SerializationType = SerializationType.JSON) -> 'RPCMessage':
         """反序列化消息"""
@@ -76,7 +80,7 @@ class RPCMessage:
             obj = pickle.loads(data)
         else:
             obj = json.loads(data.decode('utf-8'))
-        
+
         return cls(
             msg_id=obj['msg_id'],
             msg_type=MessageType(obj['msg_type']),
@@ -162,11 +166,13 @@ class RPCServer:
         try:
             while self._running:
                 try:
-                    # 读取数据
-                    data = await reader.read(4096)
-                    if not data:
-                        break
-                    
+                    # 读取消息长度前缀（4字节）
+                    length_data = await reader.readexactly(4)
+                    msg_length = int.from_bytes(length_data, byteorder='big')
+
+                    # 读取完整消息
+                    data = await reader.readexactly(msg_length)
+
                     # 解析消息
                     message = RPCMessage.from_bytes(data, self.serializer)
                     
@@ -357,13 +363,19 @@ class RPCClient:
                     
                     writer.write(message.to_bytes(self.serializer))
                     await writer.drain()
-                    
-                    # 等待响应
-                    data = await asyncio.wait_for(
-                        reader.read(4096),
+
+                    # 等待响应（读取长度前缀 + 消息体）
+                    length_data = await asyncio.wait_for(
+                        reader.readexactly(4),
                         timeout=self.timeout
                     )
-                    
+                    msg_length = int.from_bytes(length_data, byteorder='big')
+
+                    data = await asyncio.wait_for(
+                        reader.readexactly(msg_length),
+                        timeout=self.timeout
+                    )
+
                     response = RPCMessage.from_bytes(data, self.serializer)
                     
                     if response.msg_type == MessageType.ERROR:

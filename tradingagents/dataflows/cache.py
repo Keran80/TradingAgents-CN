@@ -9,6 +9,7 @@ import json
 import hashlib
 import time
 import logging
+import threading
 from typing import Any, Callable, Optional, TypeVar, ParamSpec
 from functools import wraps
 from datetime import datetime, timedelta
@@ -20,8 +21,9 @@ logger = logging.getLogger(__name__)
 DEFAULT_CACHE_TTL = 3600  # 默认缓存时间 1 小时
 DEFAULT_CACHE_DIR = os.path.join(os.path.dirname(__file__), "data_cache")
 
-# 内存缓存存储
+# 内存缓存存储（带线程锁保护）
 _memory_cache: dict = {}
+_cache_lock = threading.RLock()
 
 
 def _ensure_cache_dir(cache_dir: str = DEFAULT_CACHE_DIR) -> None:
@@ -56,14 +58,15 @@ def get_cache(
     Returns:
         缓存的数据，如果不存在或过期返回 None
     """
-    # 1. 先检查内存缓存
-    if key in _memory_cache:
-        cached_item = _memory_cache[key]
-        if time.time() - cached_item['timestamp'] < max_age:
-            logger.debug(f"内存缓存命中: {key}")
-            return cached_item['data']
-        else:
-            del _memory_cache[key]
+    # 1. 先检查内存缓存（线程安全）
+    with _cache_lock:
+        if key in _memory_cache:
+            cached_item = _memory_cache[key]
+            if time.time() - cached_item['timestamp'] < max_age:
+                logger.debug(f"内存缓存命中: {key}")
+                return cached_item['data']
+            else:
+                del _memory_cache[key]
     
     # 2. 检查磁盘缓存
     _ensure_cache_dir(cache_dir)
@@ -76,11 +79,12 @@ def get_cache(
             if time.time() - file_mtime < max_age:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                # 重新存入内存缓存
-                _memory_cache[key] = {
-                    'data': data,
-                    'timestamp': time.time()
-                }
+                # 重新存入内存缓存（线程安全）
+                with _cache_lock:
+                    _memory_cache[key] = {
+                        'data': data,
+                        'timestamp': time.time()
+                    }
                 logger.debug(f"磁盘缓存命中: {key}")
                 return data
             else:
@@ -109,13 +113,14 @@ def set_cache(
         use_disk: 是否使用磁盘缓存
     """
     timestamp = time.time()
-    
-    # 内存缓存
+
+    # 内存缓存（线程安全）
     if use_memory:
-        _memory_cache[key] = {
-            'data': data,
-            'timestamp': timestamp
-        }
+        with _cache_lock:
+            _memory_cache[key] = {
+                'data': data,
+                'timestamp': timestamp
+            }
     
     # 磁盘缓存
     if use_disk:

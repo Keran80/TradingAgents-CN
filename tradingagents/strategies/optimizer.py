@@ -157,15 +157,17 @@ class GridOptimizer:
         equity_curve = [cash]
         trades = []
 
-        for idx, row in data.iterrows():
+        # 使用 itertuples 替代 iterrows 提升性能
+        for row in data.itertuples(index=True):
+            idx = row.Index
             bar = BarEvent(
-                symbol=row.get("symbol", "UNKNOWN"),
+                symbol=getattr(row, "symbol", "UNKNOWN"),
                 interval="1d",
-                open_price=row["open"],
-                high_price=row["high"],
-                low_price=row["low"],
-                close_price=row["close"],
-                volume=int(row.get("volume", 0)),
+                open_price=row.open,
+                high_price=row.high,
+                low_price=row.low,
+                close_price=row.close,
+                volume=int(getattr(row, "volume", 0)),
                 datetime=idx if isinstance(idx, datetime) else pd.to_datetime(idx)
             )
 
@@ -224,8 +226,8 @@ class GridOptimizer:
         profit_factor = np.sum(wins) / np.sum(losses) if losses and np.sum(losses) > 0 else 0.0
 
         # Calmar Ratio
-        anual_return = total_return * 252 / max(len(data), 1)
-        calmar_ratio = anual_return / max_drawdown if max_drawdown > 0 else 0.0
+        annual_return = total_return * 252 / max(len(data), 1)
+        calmar_ratio = annual_return / max_drawdown if max_drawdown > 0 else 0.0
 
         return BacktestResult(
             params=params,
@@ -244,16 +246,48 @@ class GridOptimizer:
         bar: BarEvent
     ) -> Optional[Dict[str, Any]]:
         """检查策略信号"""
-        # 简化实现：检查策略状态
+        # 获取策略状态
         state = strategy.state.get(bar.symbol)
         if not state:
             return None
 
         if state.position == 0:
-            # 无持仓，检查是否有买入信号
-            return None  # 简化处理
+            # 无持仓，检查买入信号
+            # 根据策略信号状态判断
+            if getattr(state, 'signal', 0) > 0:
+                # 计算买入数量
+                quantity = self._calculate_quantity(strategy, bar)
+                if quantity > 0:
+                    return {"action": "buy", "quantity": quantity}
+            return None
         else:
-            return {"action": "sell", "quantity": state.position}
+            # 有持仓，检查卖出信号
+            if getattr(state, 'signal', 0) < 0:
+                return {"action": "sell", "quantity": state.position}
+            return None
+
+    def _calculate_quantity(
+        self,
+        strategy: StrategyTemplate,
+        bar: BarEvent
+    ) -> int:
+        """计算买入数量"""
+        # 使用固定仓位比例
+        position_pct = getattr(strategy, 'position_pct', 0.95)
+        cash = strategy.config.initial_capital * position_pct
+        price = bar.close_price
+        
+        if price <= 0:
+            return 0
+            
+        # 计算可买数量（A股100股为单位）
+        quantity = int(cash / price / 100) * 100
+        
+        # 最小买入单位检查
+        if quantity < 100:
+            return 0
+            
+        return quantity
 
 
 class WalkForwardOptimizer:

@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import logging
 from abc import ABC, abstractmethod
+from collections import deque
 from dataclasses import dataclass, field
 from datetime import datetime
 from typing import Dict, List, Optional, Any, TYPE_CHECKING
@@ -192,7 +193,10 @@ class MomentumStrategy(StrategyTemplate):
         self.name = f"Momentum_{fast_period}_{slow_period}"
         self.fast_period = fast_period
         self.slow_period = slow_period
-        self.prices: Dict[str, List[float]] = {s: [] for s in self.symbols}
+        # 使用 deque 替代 list，避免 pop(0) 的 O(n) 操作
+        self.prices: Dict[str, deque] = {
+            s: deque(maxlen=slow_period + 2) for s in self.symbols
+        }
 
     def on_bar(self, bar: "BarEvent") -> None:
         symbol = bar.symbol
@@ -201,13 +205,10 @@ class MomentumStrategy(StrategyTemplate):
 
         self.prices[symbol].append(bar.close)
 
-        if len(self.prices[symbol]) > self.slow_period + 1:
-            self.prices[symbol].pop(0)
-
         if len(self.prices[symbol]) < self.slow_period:
             return
 
-        prices = self.prices[symbol]
+        prices = list(self.prices[symbol])
         fast_ma = np.mean(prices[-self.fast_period:])
         slow_ma = np.mean(prices[-self.slow_period:])
         prev_fast_ma = np.mean(prices[-self.fast_period-1:-1])
@@ -250,7 +251,10 @@ class MeanReversionStrategy(StrategyTemplate):
         self.name = f"MeanReversion_{lookback}_{std_dev}"
         self.lookback = lookback
         self.std_dev = std_dev
-        self.prices: Dict[str, List[float]] = {s: [] for s in self.symbols}
+        # 使用 deque 替代 list，避免 pop(0) 的 O(n) 操作
+        self.prices: Dict[str, deque] = {
+            s: deque(maxlen=lookback + 2) for s in self.symbols
+        }
 
     def on_bar(self, bar: "BarEvent") -> None:
         symbol = bar.symbol
@@ -259,13 +263,10 @@ class MeanReversionStrategy(StrategyTemplate):
 
         self.prices[symbol].append(bar.close)
 
-        if len(self.prices[symbol]) > self.lookback + 1:
-            self.prices[symbol].pop(0)
-
         if len(self.prices[symbol]) < self.lookback:
             return
 
-        prices = self.prices[symbol]
+        prices = list(self.prices[symbol])
         mean = np.mean(prices[-self.lookback:])
         std = np.std(prices[-self.lookback:])
         current_price = bar.close

@@ -225,8 +225,8 @@ class StrategyIsolator:
                     logger.error(f"进程初始化失败: {msg.get('error')}")
                     sp.status = "error"
                     return False
-            except:
-                pass
+            except Exception as e:
+                logger.warning(f"等待进程初始化超时: {e}")
             
             logger.info(f"策略进程启动: {process_id}")
             return True
@@ -275,7 +275,8 @@ class StrategyIsolator:
         try:
             msg = sp.output_queue.get(timeout=30)
             return msg
-        except:
+        except Exception as e:
+            logger.debug(f"获取消息超时或失败: {e}")
             return None
     
     def get_process_status(self, process_id: str) -> Optional[Dict]:
