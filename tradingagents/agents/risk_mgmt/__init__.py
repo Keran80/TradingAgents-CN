@@ -1,1 +1,60 @@
-77u/ZnJvbSBsYW5nY2hhaW5fY29yZS5tZXNzYWdlcyBpbXBvcnQgQUlNZXNzYWdlCmltcG9ydCB0aW1lCmltcG9ydCBqc29uCgoKZGVmIGNyZWF0ZV9idWxsX3Jlc2VhcmNoZXIobGxtLCBtZW1vcnkpOgogICAgZGVmIGJ1bGxfbm9kZShzdGF0ZSkgLT4gZGljdDoKICAgICAgICBpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSA9IHN0YXRlWyJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSJdCiAgICAgICAgaGlzdG9yeSA9IGludmVzdG1lbnRfZGViYXRlX3N0YXRlLmdldCgiaGlzdG9yeSIsICIiKQogICAgICAgIGJ1bGxfaGlzdG9yeSA9IGludmVzdG1lbnRfZGViYXRlX3N0YXRlLmdldCgiYnVsbF9oaXN0b3J5IiwgIiIpCgogICAgICAgIGN1cnJlbnRfcmVzcG9uc2UgPSBpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZS5nZXQoImN1cnJlbnRfcmVzcG9uc2UiLCAiIikKICAgICAgICBtYXJrZXRfcmVzZWFyY2hfcmVwb3J0ID0gc3RhdGVbIm1hcmtldF9yZXBvcnQiXQogICAgICAgIHNlbnRpbWVudF9yZXBvcnQgPSBzdGF0ZVsic2VudGltZW50X3JlcG9ydCJdCiAgICAgICAgbmV3c19yZXBvcnQgPSBzdGF0ZVsibmV3c19yZXBvcnQiXQogICAgICAgIGZ1bmRhbWVudGFsc19yZXBvcnQgPSBzdGF0ZVsiZnVuZGFtZW50YWxzX3JlcG9ydCJdCgogICAgICAgIGN1cnJfc2l0dWF0aW9uID0gZiJ7bWFya2V0X3Jlc2VhcmNoX3JlcG9ydH1cblxue3NlbnRpbWVudF9yZXBvcnR9XG5cbntuZXdzX3JlcG9ydH1cblxue2Z1bmRhbWVudGFsc19yZXBvcnR9IgogICAgICAgIHBhc3RfbWVtb3JpZXMgPSBtZW1vcnkuZ2V0X21lbW9yaWVzKGN1cnJfc2l0dWF0aW9uLCBuX21hdGNoZXM9MikKCiAgICAgICAgcGFzdF9tZW1vcnlfc3RyID0gIiIKICAgICAgICBmb3IgaSwgcmVjIGluIGVudW1lcmF0ZShwYXN0X21lbW9yaWVzLCAxKToKICAgICAgICAgICAgcGFzdF9tZW1vcnlfc3RyICs9IHJlY1sicmVjb21tZW5kYXRpb24iXSArICJcblxuIgoKICAgICAgICBwcm9tcHQgPSBmIiIiWW91IGFyZSBhIEJ1bGwgQW5hbHlzdCBhZHZvY2F0aW5nIGZvciBpbnZlc3RpbmcgaW4gdGhlIHN0b2NrLiBZb3VyIHRhc2sgaXMgdG8gYnVpbGQgYSBzdHJvbmcsIGV2aWRlbmNlLWJhc2VkIGNhc2UgZW1waGFzaXppbmcgZ3Jvd3RoIHBvdGVudGlhbCwgY29tcGV0aXRpdmUgYWR2YW50YWdlcywgYW5kIHBvc2l0aXZlIG1hcmtldCBpbmRpY2F0b3JzLiBMZXZlcmFnZSB0aGUgcHJvdmlkZWQgcmVzZWFyY2ggYW5kIGRhdGEgdG8gYWRkcmVzcyBjb25jZXJucyBhbmQgY291bnRlciBiZWFyaXNoIGFyZ3VtZW50cyBlZmZlY3RpdmVseS4KCktleSBwb2ludHMgdG8gZm9jdXMgb246Ci0gR3Jvd3RoIFBvdGVudGlhbDogSGlnaGxpZ2h0IHRoZSBjb21wYW55J3MgbWFya2V0IG9wcG9ydHVuaXRpZXMsIHJldmVudWUgcHJvamVjdGlvbnMsIGFuZCBzY2FsYWJpbGl0eS4KLSBDb21wZXRpdGl2ZSBBZHZhbnRhZ2VzOiBFbXBoYXNpemUgZmFjdG9ycyBsaWtlIHVuaXF1ZSBwcm9kdWN0cywgc3Ryb25nIGJyYW5kaW5nLCBvciBkb21pbmFudCBtYXJrZXQgcG9zaXRpb25pbmcuCi0gUG9zaXRpdmUgSW5kaWNhdG9yczogVXNlIGZpbmFuY2lhbCBoZWFsdGgsIGluZHVzdHJ5IHRyZW5kcywgYW5kIHJlY2VudCBwb3NpdGl2ZSBuZXdzIGFzIGV2aWRlbmNlLgotIEJlYXIgQ291bnRlcnBvaW50czogQ3JpdGljYWxseSBhbmFseXplIHRoZSBiZWFyIGFyZ3VtZW50IHdpdGggc3BlY2lmaWMgZGF0YSBhbmQgc291bmQgcmVhc29uaW5nLCBhZGRyZXNzaW5nIGNvbmNlcm5zIHRob3JvdWdobHkgYW5kIHNob3dpbmcgd2h5IHRoZSBidWxsIHBlcnNwZWN0aXZlIGhvbGRzIHN0cm9uZ2VyIG1lcml0LgotIEVuZ2FnZW1lbnQ6IFByZXNlbnQgeW91ciBhcmd1bWVudCBpbiBhIGNvbnZlcnNhdGlvbmFsIHN0eWxlLCBlbmdhZ2luZyBkaXJlY3RseSB3aXRoIHRoZSBiZWFyIGFuYWx5c3QncyBwb2ludHMgYW5kIGRlYmF0aW5nIGVmZmVjdGl2ZWx5IHJhdGhlciB0aGFuIGp1c3QgbGlzdGluZyBkYXRhLgoKUmVzb3VyY2VzIGF2YWlsYWJsZToKTWFya2V0IHJlc2VhcmNoIHJlcG9ydDoge21hcmtldF9yZXNlYXJjaF9yZXBvcnR9ClNvY2lhbCBtZWRpYSBzZW50aW1lbnQgcmVwb3J0OiB7c2VudGltZW50X3JlcG9ydH0KTGF0ZXN0IHdvcmxkIGFmZmFpcnMgbmV3czoge25ld3NfcmVwb3J0fQpDb21wYW55IGZ1bmRhbWVudGFscyByZXBvcnQ6IHtmdW5kYW1lbnRhbHNfcmVwb3J0fQpDb252ZXJzYXRpb24gaGlzdG9yeSBvZiB0aGUgZGViYXRlOiB7aGlzdG9yeX0KTGFzdCBiZWFyIGFyZ3VtZW50OiB7Y3VycmVudF9yZXNwb25zZX0KUmVmbGVjdGlvbnMgZnJvbSBzaW1pbGFyIHNpdHVhdGlvbnMgYW5kIGxlc3NvbnMgbGVhcm5lZDoge3Bhc3RfbWVtb3J5X3N0cn0KVXNlIHRoaXMgaW5mb3JtYXRpb24gdG8gZGVsaXZlciBhIGNvbXBlbGxpbmcgYnVsbCBhcmd1bWVudCwgcmVmdXRlIHRoZSBiZWFyJ3MgY29uY2VybnMsIGFuZCBlbmdhZ2UgaW4gYSBkeW5hbWljIGRlYmF0ZSB0aGF0IGRlbW9uc3RyYXRlcyB0aGUgc3RyZW5ndGhzIG9mIHRoZSBidWxsIHBvc2l0aW9uLiBZb3UgbXVzdCBhbHNvIGFkZHJlc3MgcmVmbGVjdGlvbnMgYW5kIGxlYXJuIGZyb20gbGVzc29ucyBhbmQgbWlzdGFrZXMgeW91IG1hZGUgaW4gdGhlIHBhc3QuCiIiIgoKICAgICAgICByZXNwb25zZSA9IGxsbS5pbnZva2UocHJvbXB0KQoKICAgICAgICBhcmd1bWVudCA9IGYiQnVsbCBBbmFseXN0OiB7cmVzcG9uc2UuY29udGVudH0iCgogICAgICAgIG5ld19pbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSA9IHsKICAgICAgICAgICAgImhpc3RvcnkiOiBoaXN0b3J5ICsgIlxuIiArIGFyZ3VtZW50LAogICAgICAgICAgICAiYnVsbF9oaXN0b3J5IjogYnVsbF9oaXN0b3J5ICsgIlxuIiArIGFyZ3VtZW50LAogICAgICAgICAgICAiYmVhcl9oaXN0b3J5IjogaW52ZXN0bWVudF9kZWJhdGVfc3RhdGUuZ2V0KCJiZWFyX2hpc3RvcnkiLCAiIiksCiAgICAgICAgICAgICJjdXJyZW50X3Jlc3BvbnNlIjogYXJndW1lbnQsCiAgICAgICAgICAgICJjb3VudCI6IGludmVzdG1lbnRfZGViYXRlX3N0YXRlWyJjb3VudCJdICsgMSwKICAgICAgICB9CgogICAgICAgIHJldHVybiB7ImludmVzdG1lbnRfZGViYXRlX3N0YXRlIjogbmV3X2ludmVzdG1lbnRfZGViYXRlX3N0YXRlfQoKICAgIHJldHVybiBidWxsX25vZGUKDQo=
+﻿from langchain_core.messages import AIMessage
+import time
+import json
+
+
+def create_bull_researcher(llm, memory):
+    def bull_node(state) -> dict:
+        investment_debate_state = state["investment_debate_state"]
+        history = investment_debate_state.get("history", "")
+        bull_history = investment_debate_state.get("bull_history", "")
+
+        current_response = investment_debate_state.get("current_response", "")
+        market_research_report = state["market_report"]
+        sentiment_report = state["sentiment_report"]
+        news_report = state["news_report"]
+        fundamentals_report = state["fundamentals_report"]
+
+        curr_situation = f"{market_research_report}\n\n{sentiment_report}\n\n{news_report}\n\n{fundamentals_report}"
+        past_memories = memory.get_memories(curr_situation, n_matches=2)
+
+        past_memory_str = ""
+        for i, rec in enumerate(past_memories, 1):
+            past_memory_str += rec["recommendation"] + "\n\n"
+
+        prompt = f"""You are a Bull Analyst advocating for investing in the stock. Your task is to build a strong, evidence-based case emphasizing growth potential, competitive advantages, and positive market indicators. Leverage the provided research and data to address concerns and counter bearish arguments effectively.
+
+Key points to focus on:
+- Growth Potential: Highlight the company's market opportunities, revenue projections, and scalability.
+- Competitive Advantages: Emphasize factors like unique products, strong branding, or dominant market positioning.
+- Positive Indicators: Use financial health, industry trends, and recent positive news as evidence.
+- Bear Counterpoints: Critically analyze the bear argument with specific data and sound reasoning, addressing concerns thoroughly and showing why the bull perspective holds stronger merit.
+- Engagement: Present your argument in a conversational style, engaging directly with the bear analyst's points and debating effectively rather than just listing data.
+
+Resources available:
+Market research report: {market_research_report}
+Social media sentiment report: {sentiment_report}
+Latest world affairs news: {news_report}
+Company fundamentals report: {fundamentals_report}
+Conversation history of the debate: {history}
+Last bear argument: {current_response}
+Reflections from similar situations and lessons learned: {past_memory_str}
+Use this information to deliver a compelling bull argument, refute the bear's concerns, and engage in a dynamic debate that demonstrates the strengths of the bull position. You must also address reflections and learn from lessons and mistakes you made in the past.
+"""
+
+        response = llm.invoke(prompt)
+
+        argument = f"Bull Analyst: {response.content}"
+
+        new_investment_debate_state = {
+            "history": history + "\n" + argument,
+            "bull_history": bull_history + "\n" + argument,
+            "bear_history": investment_debate_state.get("bear_history", ""),
+            "current_response": argument,
+            "count": investment_debate_state["count"] + 1,
+        }
+
+        return {"investment_debate_state": new_investment_debate_state}
+
+    return bull_node
+

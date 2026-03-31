@@ -1,1 +1,206 @@
-77u/IyBUcmFkaW5nQWdlbnRzL2dyYXBoL3NldHVwLnB5Cgpmcm9tIHR5cGluZyBpbXBvcnQgRGljdCwgQW55CmZyb20gbGFuZ2NoYWluX29wZW5haSBpbXBvcnQgQ2hhdE9wZW5BSQpmcm9tIGxhbmdncmFwaC5ncmFwaCBpbXBvcnQgRU5ELCBTdGF0ZUdyYXBoLCBTVEFSVApmcm9tIGxhbmdncmFwaC5wcmVidWlsdCBpbXBvcnQgVG9vbE5vZGUKCmZyb20gdHJhZGluZ2FnZW50cy5hZ2VudHMgaW1wb3J0ICoKZnJvbSB0cmFkaW5nYWdlbnRzLmFnZW50cy51dGlscy5hZ2VudF9zdGF0ZXMgaW1wb3J0IEFnZW50U3RhdGUKZnJvbSB0cmFkaW5nYWdlbnRzLmFnZW50cy51dGlscy5hZ2VudF91dGlscyBpbXBvcnQgVG9vbGtpdAoKZnJvbSAuY29uZGl0aW9uYWxfbG9naWMgaW1wb3J0IENvbmRpdGlvbmFsTG9naWMKCgpjbGFzcyBHcmFwaFNldHVwOgogICAgIiIiSGFuZGxlcyB0aGUgc2V0dXAgYW5kIGNvbmZpZ3VyYXRpb24gb2YgdGhlIGFnZW50IGdyYXBoLiIiIgoKICAgIGRlZiBfX2luaXRfXygKICAgICAgICBzZWxmLAogICAgICAgIHF1aWNrX3RoaW5raW5nX2xsbTogQ2hhdE9wZW5BSSwKICAgICAgICBkZWVwX3RoaW5raW5nX2xsbTogQ2hhdE9wZW5BSSwKICAgICAgICB0b29sa2l0OiBUb29sa2l0LAogICAgICAgIHRvb2xfbm9kZXM6IERpY3Rbc3RyLCBUb29sTm9kZV0sCiAgICAgICAgYnVsbF9tZW1vcnksCiAgICAgICAgYmVhcl9tZW1vcnksCiAgICAgICAgdHJhZGVyX21lbW9yeSwKICAgICAgICBpbnZlc3RfanVkZ2VfbWVtb3J5LAogICAgICAgIHJpc2tfbWFuYWdlcl9tZW1vcnksCiAgICAgICAgY29uZGl0aW9uYWxfbG9naWM6IENvbmRpdGlvbmFsTG9naWMsCiAgICApOgogICAgICAgICIiIkluaXRpYWxpemUgd2l0aCByZXF1aXJlZCBjb21wb25lbnRzLiIiIgogICAgICAgIHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtID0gcXVpY2tfdGhpbmtpbmdfbGxtCiAgICAgICAgc2VsZi5kZWVwX3RoaW5raW5nX2xsbSA9IGRlZXBfdGhpbmtpbmdfbGxtCiAgICAgICAgc2VsZi50b29sa2l0ID0gdG9vbGtpdAogICAgICAgIHNlbGYudG9vbF9ub2RlcyA9IHRvb2xfbm9kZXMKICAgICAgICBzZWxmLmJ1bGxfbWVtb3J5ID0gYnVsbF9tZW1vcnkKICAgICAgICBzZWxmLmJlYXJfbWVtb3J5ID0gYmVhcl9tZW1vcnkKICAgICAgICBzZWxmLnRyYWRlcl9tZW1vcnkgPSB0cmFkZXJfbWVtb3J5CiAgICAgICAgc2VsZi5pbnZlc3RfanVkZ2VfbWVtb3J5ID0gaW52ZXN0X2p1ZGdlX21lbW9yeQogICAgICAgIHNlbGYucmlza19tYW5hZ2VyX21lbW9yeSA9IHJpc2tfbWFuYWdlcl9tZW1vcnkKICAgICAgICBzZWxmLmNvbmRpdGlvbmFsX2xvZ2ljID0gY29uZGl0aW9uYWxfbG9naWMKCiAgICBkZWYgc2V0dXBfZ3JhcGgoCiAgICAgICAgc2VsZiwgc2VsZWN0ZWRfYW5hbHlzdHM9WyJtYXJrZXQiLCAic29jaWFsIiwgIm5ld3MiLCAiZnVuZGFtZW50YWxzIl0KICAgICk6CiAgICAgICAgIiIiU2V0IHVwIGFuZCBjb21waWxlIHRoZSBhZ2VudCB3b3JrZmxvdyBncmFwaC4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgc2VsZWN0ZWRfYW5hbHlzdHMgKGxpc3QpOiBMaXN0IG9mIGFuYWx5c3QgdHlwZXMgdG8gaW5jbHVkZS4gT3B0aW9ucyBhcmU6CiAgICAgICAgICAgICAgICAtICJtYXJrZXQiOiBNYXJrZXQgYW5hbHlzdAogICAgICAgICAgICAgICAgLSAic29jaWFsIjogU29jaWFsIG1lZGlhIGFuYWx5c3QKICAgICAgICAgICAgICAgIC0gIm5ld3MiOiBOZXdzIGFuYWx5c3QKICAgICAgICAgICAgICAgIC0gImZ1bmRhbWVudGFscyI6IEZ1bmRhbWVudGFscyBhbmFseXN0CiAgICAgICAgIiIiCiAgICAgICAgaWYgbGVuKHNlbGVjdGVkX2FuYWx5c3RzKSA9PSAwOgogICAgICAgICAgICByYWlzZSBWYWx1ZUVycm9yKCJUcmFkaW5nIEFnZW50cyBHcmFwaCBTZXR1cCBFcnJvcjogbm8gYW5hbHlzdHMgc2VsZWN0ZWQhIikKCiAgICAgICAgIyBDcmVhdGUgYW5hbHlzdCBub2RlcwogICAgICAgIGFuYWx5c3Rfbm9kZXMgPSB7fQogICAgICAgIGRlbGV0ZV9ub2RlcyA9IHt9CiAgICAgICAgdG9vbF9ub2RlcyA9IHt9CgogICAgICAgIGlmICJtYXJrZXQiIGluIHNlbGVjdGVkX2FuYWx5c3RzOgogICAgICAgICAgICBhbmFseXN0X25vZGVzWyJtYXJrZXQiXSA9IGNyZWF0ZV9tYXJrZXRfYW5hbHlzdCgKICAgICAgICAgICAgICAgIHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtLCBzZWxmLnRvb2xraXQKICAgICAgICAgICAgKQogICAgICAgICAgICBkZWxldGVfbm9kZXNbIm1hcmtldCJdID0gY3JlYXRlX21zZ19kZWxldGUoKQogICAgICAgICAgICB0b29sX25vZGVzWyJtYXJrZXQiXSA9IHNlbGYudG9vbF9ub2Rlc1sibWFya2V0Il0KCiAgICAgICAgaWYgInNvY2lhbCIgaW4gc2VsZWN0ZWRfYW5hbHlzdHM6CiAgICAgICAgICAgIGFuYWx5c3Rfbm9kZXNbInNvY2lhbCJdID0gY3JlYXRlX3NvY2lhbF9tZWRpYV9hbmFseXN0KAogICAgICAgICAgICAgICAgc2VsZi5xdWlja190aGlua2luZ19sbG0sIHNlbGYudG9vbGtpdAogICAgICAgICAgICApCiAgICAgICAgICAgIGRlbGV0ZV9ub2Rlc1sic29jaWFsIl0gPSBjcmVhdGVfbXNnX2RlbGV0ZSgpCiAgICAgICAgICAgIHRvb2xfbm9kZXNbInNvY2lhbCJdID0gc2VsZi50b29sX25vZGVzWyJzb2NpYWwiXQoKICAgICAgICBpZiAibmV3cyIgaW4gc2VsZWN0ZWRfYW5hbHlzdHM6CiAgICAgICAgICAgIGFuYWx5c3Rfbm9kZXNbIm5ld3MiXSA9IGNyZWF0ZV9uZXdzX2FuYWx5c3QoCiAgICAgICAgICAgICAgICBzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSwgc2VsZi50b29sa2l0CiAgICAgICAgICAgICkKICAgICAgICAgICAgZGVsZXRlX25vZGVzWyJuZXdzIl0gPSBjcmVhdGVfbXNnX2RlbGV0ZSgpCiAgICAgICAgICAgIHRvb2xfbm9kZXNbIm5ld3MiXSA9IHNlbGYudG9vbF9ub2Rlc1sibmV3cyJdCgogICAgICAgIGlmICJmdW5kYW1lbnRhbHMiIGluIHNlbGVjdGVkX2FuYWx5c3RzOgogICAgICAgICAgICBhbmFseXN0X25vZGVzWyJmdW5kYW1lbnRhbHMiXSA9IGNyZWF0ZV9mdW5kYW1lbnRhbHNfYW5hbHlzdCgKICAgICAgICAgICAgICAgIHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtLCBzZWxmLnRvb2xraXQKICAgICAgICAgICAgKQogICAgICAgICAgICBkZWxldGVfbm9kZXNbImZ1bmRhbWVudGFscyJdID0gY3JlYXRlX21zZ19kZWxldGUoKQogICAgICAgICAgICB0b29sX25vZGVzWyJmdW5kYW1lbnRhbHMiXSA9IHNlbGYudG9vbF9ub2Rlc1siZnVuZGFtZW50YWxzIl0KCiAgICAgICAgIyBDcmVhdGUgcmVzZWFyY2hlciBhbmQgbWFuYWdlciBub2RlcwogICAgICAgIGJ1bGxfcmVzZWFyY2hlcl9ub2RlID0gY3JlYXRlX2J1bGxfcmVzZWFyY2hlcigKICAgICAgICAgICAgc2VsZi5xdWlja190aGlua2luZ19sbG0sIHNlbGYuYnVsbF9tZW1vcnkKICAgICAgICApCiAgICAgICAgYmVhcl9yZXNlYXJjaGVyX25vZGUgPSBjcmVhdGVfYmVhcl9yZXNlYXJjaGVyKAogICAgICAgICAgICBzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSwgc2VsZi5iZWFyX21lbW9yeQogICAgICAgICkKICAgICAgICByZXNlYXJjaF9tYW5hZ2VyX25vZGUgPSBjcmVhdGVfcmVzZWFyY2hfbWFuYWdlcigKICAgICAgICAgICAgc2VsZi5kZWVwX3RoaW5raW5nX2xsbSwgc2VsZi5pbnZlc3RfanVkZ2VfbWVtb3J5CiAgICAgICAgKQogICAgICAgIHRyYWRlcl9ub2RlID0gY3JlYXRlX3RyYWRlcihzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSwgc2VsZi50cmFkZXJfbWVtb3J5KQoKICAgICAgICAjIENyZWF0ZSByaXNrIGFuYWx5c2lzIG5vZGVzCiAgICAgICAgcmlza3lfYW5hbHlzdCA9IGNyZWF0ZV9yaXNreV9kZWJhdG9yKHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtKQogICAgICAgIG5ldXRyYWxfYW5hbHlzdCA9IGNyZWF0ZV9uZXV0cmFsX2RlYmF0b3Ioc2VsZi5xdWlja190aGlua2luZ19sbG0pCiAgICAgICAgc2FmZV9hbmFseXN0ID0gY3JlYXRlX3NhZmVfZGViYXRvcihzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSkKICAgICAgICByaXNrX21hbmFnZXJfbm9kZSA9IGNyZWF0ZV9yaXNrX21hbmFnZXIoCiAgICAgICAgICAgIHNlbGYuZGVlcF90aGlua2luZ19sbG0sIHNlbGYucmlza19tYW5hZ2VyX21lbW9yeQogICAgICAgICkKCiAgICAgICAgIyBDcmVhdGUgd29ya2Zsb3cKICAgICAgICB3b3JrZmxvdyA9IFN0YXRlR3JhcGgoQWdlbnRTdGF0ZSkKCiAgICAgICAgIyBBZGQgYW5hbHlzdCBub2RlcyB0byB0aGUgZ3JhcGgKICAgICAgICBmb3IgYW5hbHlzdF90eXBlLCBub2RlIGluIGFuYWx5c3Rfbm9kZXMuaXRlbXMoKToKICAgICAgICAgICAgd29ya2Zsb3cuYWRkX25vZGUoZiJ7YW5hbHlzdF90eXBlLmNhcGl0YWxpemUoKX0gQW5hbHlzdCIsIG5vZGUpCiAgICAgICAgICAgIHdvcmtmbG93LmFkZF9ub2RlKAogICAgICAgICAgICAgICAgZiJNc2cgQ2xlYXIge2FuYWx5c3RfdHlwZS5jYXBpdGFsaXplKCl9IiwgZGVsZXRlX25vZGVzW2FuYWx5c3RfdHlwZV0KICAgICAgICAgICAgKQogICAgICAgICAgICB3b3JrZmxvdy5hZGRfbm9kZShmInRvb2xzX3thbmFseXN0X3R5cGV9IiwgdG9vbF9ub2Rlc1thbmFseXN0X3R5cGVdKQoKICAgICAgICAjIEFkZCBvdGhlciBub2RlcwogICAgICAgIHdvcmtmbG93LmFkZF9ub2RlKCJCdWxsIFJlc2VhcmNoZXIiLCBidWxsX3Jlc2VhcmNoZXJfbm9kZSkKICAgICAgICB3b3JrZmxvdy5hZGRfbm9kZSgiQmVhciBSZXNlYXJjaGVyIiwgYmVhcl9yZXNlYXJjaGVyX25vZGUpCiAgICAgICAgd29ya2Zsb3cuYWRkX25vZGUoIlJlc2VhcmNoIE1hbmFnZXIiLCByZXNlYXJjaF9tYW5hZ2VyX25vZGUpCiAgICAgICAgd29ya2Zsb3cuYWRkX25vZGUoIlRyYWRlciIsIHRyYWRlcl9ub2RlKQogICAgICAgIHdvcmtmbG93LmFkZF9ub2RlKCJSaXNreSBBbmFseXN0Iiwgcmlza3lfYW5hbHlzdCkKICAgICAgICB3b3JrZmxvdy5hZGRfbm9kZSgiTmV1dHJhbCBBbmFseXN0IiwgbmV1dHJhbF9hbmFseXN0KQogICAgICAgIHdvcmtmbG93LmFkZF9ub2RlKCJTYWZlIEFuYWx5c3QiLCBzYWZlX2FuYWx5c3QpCiAgICAgICAgd29ya2Zsb3cuYWRkX25vZGUoIlJpc2sgSnVkZ2UiLCByaXNrX21hbmFnZXJfbm9kZSkKCiAgICAgICAgIyBEZWZpbmUgZWRnZXMKICAgICAgICAjIFN0YXJ0IHdpdGggdGhlIGZpcnN0IGFuYWx5c3QKICAgICAgICBmaXJzdF9hbmFseXN0ID0gc2VsZWN0ZWRfYW5hbHlzdHNbMF0KICAgICAgICB3b3JrZmxvdy5hZGRfZWRnZShTVEFSVCwgZiJ7Zmlyc3RfYW5hbHlzdC5jYXBpdGFsaXplKCl9IEFuYWx5c3QiKQoKICAgICAgICAjIENvbm5lY3QgYW5hbHlzdHMgaW4gc2VxdWVuY2UKICAgICAgICBmb3IgaSwgYW5hbHlzdF90eXBlIGluIGVudW1lcmF0ZShzZWxlY3RlZF9hbmFseXN0cyk6CiAgICAgICAgICAgIGN1cnJlbnRfYW5hbHlzdCA9IGYie2FuYWx5c3RfdHlwZS5jYXBpdGFsaXplKCl9IEFuYWx5c3QiCiAgICAgICAgICAgIGN1cnJlbnRfdG9vbHMgPSBmInRvb2xzX3thbmFseXN0X3R5cGV9IgogICAgICAgICAgICBjdXJyZW50X2NsZWFyID0gZiJNc2cgQ2xlYXIge2FuYWx5c3RfdHlwZS5jYXBpdGFsaXplKCl9IgoKICAgICAgICAgICAgIyBBZGQgY29uZGl0aW9uYWwgZWRnZXMgZm9yIGN1cnJlbnQgYW5hbHlzdAogICAgICAgICAgICB3b3JrZmxvdy5hZGRfY29uZGl0aW9uYWxfZWRnZXMoCiAgICAgICAgICAgICAgICBjdXJyZW50X2FuYWx5c3QsCiAgICAgICAgICAgICAgICBnZXRhdHRyKHNlbGYuY29uZGl0aW9uYWxfbG9naWMsIGYic2hvdWxkX2NvbnRpbnVlX3thbmFseXN0X3R5cGV9IiksCiAgICAgICAgICAgICAgICBbY3VycmVudF90b29scywgY3VycmVudF9jbGVhcl0sCiAgICAgICAgICAgICkKICAgICAgICAgICAgd29ya2Zsb3cuYWRkX2VkZ2UoY3VycmVudF90b29scywgY3VycmVudF9hbmFseXN0KQoKICAgICAgICAgICAgIyBDb25uZWN0IHRvIG5leHQgYW5hbHlzdCBvciB0byBCdWxsIFJlc2VhcmNoZXIgaWYgdGhpcyBpcyB0aGUgbGFzdCBhbmFseXN0CiAgICAgICAgICAgIGlmIGkgPCBsZW4oc2VsZWN0ZWRfYW5hbHlzdHMpIC0gMToKICAgICAgICAgICAgICAgIG5leHRfYW5hbHlzdCA9IGYie3NlbGVjdGVkX2FuYWx5c3RzW2krMV0uY2FwaXRhbGl6ZSgpfSBBbmFseXN0IgogICAgICAgICAgICAgICAgd29ya2Zsb3cuYWRkX2VkZ2UoY3VycmVudF9jbGVhciwgbmV4dF9hbmFseXN0KQogICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgd29ya2Zsb3cuYWRkX2VkZ2UoY3VycmVudF9jbGVhciwgIkJ1bGwgUmVzZWFyY2hlciIpCgogICAgICAgICMgQWRkIHJlbWFpbmluZyBlZGdlcwogICAgICAgIHdvcmtmbG93LmFkZF9jb25kaXRpb25hbF9lZGdlcygKICAgICAgICAgICAgIkJ1bGwgUmVzZWFyY2hlciIsCiAgICAgICAgICAgIHNlbGYuY29uZGl0aW9uYWxfbG9naWMuc2hvdWxkX2NvbnRpbnVlX2RlYmF0ZSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgIkJlYXIgUmVzZWFyY2hlciI6ICJCZWFyIFJlc2VhcmNoZXIiLAogICAgICAgICAgICAgICAgIlJlc2VhcmNoIE1hbmFnZXIiOiAiUmVzZWFyY2ggTWFuYWdlciIsCiAgICAgICAgICAgIH0sCiAgICAgICAgKQogICAgICAgIHdvcmtmbG93LmFkZF9jb25kaXRpb25hbF9lZGdlcygKICAgICAgICAgICAgIkJlYXIgUmVzZWFyY2hlciIsCiAgICAgICAgICAgIHNlbGYuY29uZGl0aW9uYWxfbG9naWMuc2hvdWxkX2NvbnRpbnVlX2RlYmF0ZSwKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgIkJ1bGwgUmVzZWFyY2hlciI6ICJCdWxsIFJlc2VhcmNoZXIiLAogICAgICAgICAgICAgICAgIlJlc2VhcmNoIE1hbmFnZXIiOiAiUmVzZWFyY2ggTWFuYWdlciIsCiAgICAgICAgICAgIH0sCiAgICAgICAgKQogICAgICAgIHdvcmtmbG93LmFkZF9lZGdlKCJSZXNlYXJjaCBNYW5hZ2VyIiwgIlRyYWRlciIpCiAgICAgICAgd29ya2Zsb3cuYWRkX2VkZ2UoIlRyYWRlciIsICJSaXNreSBBbmFseXN0IikKICAgICAgICB3b3JrZmxvdy5hZGRfY29uZGl0aW9uYWxfZWRnZXMoCiAgICAgICAgICAgICJSaXNreSBBbmFseXN0IiwKICAgICAgICAgICAgc2VsZi5jb25kaXRpb25hbF9sb2dpYy5zaG91bGRfY29udGludWVfcmlza19hbmFseXNpcywKICAgICAgICAgICAgewogICAgICAgICAgICAgICAgIlNhZmUgQW5hbHlzdCI6ICJTYWZlIEFuYWx5c3QiLAogICAgICAgICAgICAgICAgIlJpc2sgSnVkZ2UiOiAiUmlzayBKdWRnZSIsCiAgICAgICAgICAgIH0sCiAgICAgICAgKQogICAgICAgIHdvcmtmbG93LmFkZF9jb25kaXRpb25hbF9lZGdlcygKICAgICAgICAgICAgIlNhZmUgQW5hbHlzdCIsCiAgICAgICAgICAgIHNlbGYuY29uZGl0aW9uYWxfbG9naWMuc2hvdWxkX2NvbnRpbnVlX3Jpc2tfYW5hbHlzaXMsCiAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICJOZXV0cmFsIEFuYWx5c3QiOiAiTmV1dHJhbCBBbmFseXN0IiwKICAgICAgICAgICAgICAgICJSaXNrIEp1ZGdlIjogIlJpc2sgSnVkZ2UiLAogICAgICAgICAgICB9LAogICAgICAgICkKICAgICAgICB3b3JrZmxvdy5hZGRfY29uZGl0aW9uYWxfZWRnZXMoCiAgICAgICAgICAgICJOZXV0cmFsIEFuYWx5c3QiLAogICAgICAgICAgICBzZWxmLmNvbmRpdGlvbmFsX2xvZ2ljLnNob3VsZF9jb250aW51ZV9yaXNrX2FuYWx5c2lzLAogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAiUmlza3kgQW5hbHlzdCI6ICJSaXNreSBBbmFseXN0IiwKICAgICAgICAgICAgICAgICJSaXNrIEp1ZGdlIjogIlJpc2sgSnVkZ2UiLAogICAgICAgICAgICB9LAogICAgICAgICkKCiAgICAgICAgd29ya2Zsb3cuYWRkX2VkZ2UoIlJpc2sgSnVkZ2UiLCBFTkQpCgogICAgICAgICMgQ29tcGlsZSBhbmQgcmV0dXJuCiAgICAgICAgcmV0dXJuIHdvcmtmbG93LmNvbXBpbGUoKQoNCg==
+﻿# TradingAgents/graph/setup.py
+
+from typing import Dict, Any
+from langchain_openai import ChatOpenAI
+from langgraph.graph import END, StateGraph, START
+from langgraph.prebuilt import ToolNode
+
+from tradingagents.agents import *
+from tradingagents.agents.utils.agent_states import AgentState
+from tradingagents.agents.utils.agent_utils import Toolkit
+
+from .conditional_logic import ConditionalLogic
+
+
+class GraphSetup:
+    """Handles the setup and configuration of the agent graph."""
+
+    def __init__(
+        self,
+        quick_thinking_llm: ChatOpenAI,
+        deep_thinking_llm: ChatOpenAI,
+        toolkit: Toolkit,
+        tool_nodes: Dict[str, ToolNode],
+        bull_memory,
+        bear_memory,
+        trader_memory,
+        invest_judge_memory,
+        risk_manager_memory,
+        conditional_logic: ConditionalLogic,
+    ):
+        """Initialize with required components."""
+        self.quick_thinking_llm = quick_thinking_llm
+        self.deep_thinking_llm = deep_thinking_llm
+        self.toolkit = toolkit
+        self.tool_nodes = tool_nodes
+        self.bull_memory = bull_memory
+        self.bear_memory = bear_memory
+        self.trader_memory = trader_memory
+        self.invest_judge_memory = invest_judge_memory
+        self.risk_manager_memory = risk_manager_memory
+        self.conditional_logic = conditional_logic
+
+    def setup_graph(
+        self, selected_analysts=["market", "social", "news", "fundamentals"]
+    ):
+        """Set up and compile the agent workflow graph.
+
+        Args:
+            selected_analysts (list): List of analyst types to include. Options are:
+                - "market": Market analyst
+                - "social": Social media analyst
+                - "news": News analyst
+                - "fundamentals": Fundamentals analyst
+        """
+        if len(selected_analysts) == 0:
+            raise ValueError("Trading Agents Graph Setup Error: no analysts selected!")
+
+        # Create analyst nodes
+        analyst_nodes = {}
+        delete_nodes = {}
+        tool_nodes = {}
+
+        if "market" in selected_analysts:
+            analyst_nodes["market"] = create_market_analyst(
+                self.quick_thinking_llm, self.toolkit
+            )
+            delete_nodes["market"] = create_msg_delete()
+            tool_nodes["market"] = self.tool_nodes["market"]
+
+        if "social" in selected_analysts:
+            analyst_nodes["social"] = create_social_media_analyst(
+                self.quick_thinking_llm, self.toolkit
+            )
+            delete_nodes["social"] = create_msg_delete()
+            tool_nodes["social"] = self.tool_nodes["social"]
+
+        if "news" in selected_analysts:
+            analyst_nodes["news"] = create_news_analyst(
+                self.quick_thinking_llm, self.toolkit
+            )
+            delete_nodes["news"] = create_msg_delete()
+            tool_nodes["news"] = self.tool_nodes["news"]
+
+        if "fundamentals" in selected_analysts:
+            analyst_nodes["fundamentals"] = create_fundamentals_analyst(
+                self.quick_thinking_llm, self.toolkit
+            )
+            delete_nodes["fundamentals"] = create_msg_delete()
+            tool_nodes["fundamentals"] = self.tool_nodes["fundamentals"]
+
+        # Create researcher and manager nodes
+        bull_researcher_node = create_bull_researcher(
+            self.quick_thinking_llm, self.bull_memory
+        )
+        bear_researcher_node = create_bear_researcher(
+            self.quick_thinking_llm, self.bear_memory
+        )
+        research_manager_node = create_research_manager(
+            self.deep_thinking_llm, self.invest_judge_memory
+        )
+        trader_node = create_trader(self.quick_thinking_llm, self.trader_memory)
+
+        # Create risk analysis nodes
+        risky_analyst = create_risky_debator(self.quick_thinking_llm)
+        neutral_analyst = create_neutral_debator(self.quick_thinking_llm)
+        safe_analyst = create_safe_debator(self.quick_thinking_llm)
+        risk_manager_node = create_risk_manager(
+            self.deep_thinking_llm, self.risk_manager_memory
+        )
+
+        # Create workflow
+        workflow = StateGraph(AgentState)
+
+        # Add analyst nodes to the graph
+        for analyst_type, node in analyst_nodes.items():
+            workflow.add_node(f"{analyst_type.capitalize()} Analyst", node)
+            workflow.add_node(
+                f"Msg Clear {analyst_type.capitalize()}", delete_nodes[analyst_type]
+            )
+            workflow.add_node(f"tools_{analyst_type}", tool_nodes[analyst_type])
+
+        # Add other nodes
+        workflow.add_node("Bull Researcher", bull_researcher_node)
+        workflow.add_node("Bear Researcher", bear_researcher_node)
+        workflow.add_node("Research Manager", research_manager_node)
+        workflow.add_node("Trader", trader_node)
+        workflow.add_node("Risky Analyst", risky_analyst)
+        workflow.add_node("Neutral Analyst", neutral_analyst)
+        workflow.add_node("Safe Analyst", safe_analyst)
+        workflow.add_node("Risk Judge", risk_manager_node)
+
+        # Define edges
+        # Start with the first analyst
+        first_analyst = selected_analysts[0]
+        workflow.add_edge(START, f"{first_analyst.capitalize()} Analyst")
+
+        # Connect analysts in sequence
+        for i, analyst_type in enumerate(selected_analysts):
+            current_analyst = f"{analyst_type.capitalize()} Analyst"
+            current_tools = f"tools_{analyst_type}"
+            current_clear = f"Msg Clear {analyst_type.capitalize()}"
+
+            # Add conditional edges for current analyst
+            workflow.add_conditional_edges(
+                current_analyst,
+                getattr(self.conditional_logic, f"should_continue_{analyst_type}"),
+                [current_tools, current_clear],
+            )
+            workflow.add_edge(current_tools, current_analyst)
+
+            # Connect to next analyst or to Bull Researcher if this is the last analyst
+            if i < len(selected_analysts) - 1:
+                next_analyst = f"{selected_analysts[i+1].capitalize()} Analyst"
+                workflow.add_edge(current_clear, next_analyst)
+            else:
+                workflow.add_edge(current_clear, "Bull Researcher")
+
+        # Add remaining edges
+        workflow.add_conditional_edges(
+            "Bull Researcher",
+            self.conditional_logic.should_continue_debate,
+            {
+                "Bear Researcher": "Bear Researcher",
+                "Research Manager": "Research Manager",
+            },
+        )
+        workflow.add_conditional_edges(
+            "Bear Researcher",
+            self.conditional_logic.should_continue_debate,
+            {
+                "Bull Researcher": "Bull Researcher",
+                "Research Manager": "Research Manager",
+            },
+        )
+        workflow.add_edge("Research Manager", "Trader")
+        workflow.add_edge("Trader", "Risky Analyst")
+        workflow.add_conditional_edges(
+            "Risky Analyst",
+            self.conditional_logic.should_continue_risk_analysis,
+            {
+                "Safe Analyst": "Safe Analyst",
+                "Risk Judge": "Risk Judge",
+            },
+        )
+        workflow.add_conditional_edges(
+            "Safe Analyst",
+            self.conditional_logic.should_continue_risk_analysis,
+            {
+                "Neutral Analyst": "Neutral Analyst",
+                "Risk Judge": "Risk Judge",
+            },
+        )
+        workflow.add_conditional_edges(
+            "Neutral Analyst",
+            self.conditional_logic.should_continue_risk_analysis,
+            {
+                "Risky Analyst": "Risky Analyst",
+                "Risk Judge": "Risk Judge",
+            },
+        )
+
+        workflow.add_edge("Risk Judge", END)
+
+        # Compile and return
+        return workflow.compile()
+

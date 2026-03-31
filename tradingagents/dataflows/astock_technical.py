@@ -1,1 +1,396 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0KQeiCoeaKgOacr+WIhuaekOaMh+agh+iuoeeul+aooeWdlw0K55So5LqO5pu/5LujIHN0b2Nrc3RhdHNfdXRpbHMNCiIiIg0KDQppbXBvcnQgcGFuZGFzIGFzIHBkDQppbXBvcnQgbnVtcHkgYXMgbnANCmZyb20gdHlwaW5nIGltcG9ydCBPcHRpb25hbCwgRGljdA0KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YQ0KaW1wb3J0IGxvZ2dpbmcNCg0KbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pDQoNCg0KIyDkuK3mlofliJflkI3liLDoi7HmlofliJflkI3nmoTmmKDlsIQNCkNISU5FU0VfVE9fRU5HTElTSCA9IHsNCiAgICAn5pel5pyfJzogJ2RhdGUnLA0KICAgICfogqHnpajku6PnoIEnOiAndHNfY29kZScsDQogICAgJ+iCoeelqOeugOensCc6ICduYW1lJywNCiAgICAn5byA55uYJzogJ29wZW4nLA0KICAgICfmlLbnm5gnOiAnY2xvc2UnLA0KICAgICfmnIDpq5gnOiAnaGlnaCcsDQogICAgJ+acgOS9jic6ICdsb3cnLA0KICAgICfmiJDkuqTph48nOiAndm9sdW1lJywNCiAgICAn5oiQ5Lqk6aKdJzogJ2Ftb3VudCcsDQogICAgJ+aMr+W5hSc6ICdhbXBsaXR1ZGUnLA0KICAgICfmtqjot4zluYUnOiAncGN0X2NoYW5nZScsDQogICAgJ+a2qOi3jOminSc6ICdjaGFuZ2UnLA0KICAgICfmjaLmiYvnjocnOiAndHVybm92ZXInLA0KfQ0KDQoNCmRlZiBub3JtYWxpemVfY29sdW1ucyhkZjogcGQuRGF0YUZyYW1lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgIiIiDQogICAg5bCG5Lit5paH5YiX5ZCN6L2s5o2i5Li66Iux5paH5YiX5ZCNDQogICAgDQogICAgQXJnczoNCiAgICAgICAgZGY6IOWMheWQq+S4reaWh+WIl+WQjeeahERhdGFGcmFtZQ0KICAgICAgICANCiAgICBSZXR1cm5zOg0KICAgICAgICDliJflkI3lt7LovazmjaLnmoREYXRhRnJhbWUNCiAgICAiIiINCiAgICBpZiBkZi5lbXB0eToNCiAgICAgICAgcmV0dXJuIGRmDQogICAgDQogICAgIyDliJvlu7rlia/mnKzpgb/lhY3kv67mlLnljp/mlbDmja4NCiAgICByZXN1bHQgPSBkZi5jb3B5KCkNCiAgICANCiAgICAjIOmHjeWRveWQjeWIlw0KICAgIHJlbmFtZV9tYXAgPSB7fQ0KICAgIGZvciBjb2wgaW4gcmVzdWx0LmNvbHVtbnM6DQogICAgICAgIGlmIGNvbCBpbiBDSElORVNFX1RPX0VOR0xJU0g6DQogICAgICAgICAgICByZW5hbWVfbWFwW2NvbF0gPSBDSElORVNFX1RPX0VOR0xJU0hbY29sXQ0KICAgIA0KICAgIGlmIHJlbmFtZV9tYXA6DQogICAgICAgIHJlc3VsdCA9IHJlc3VsdC5yZW5hbWUoY29sdW1ucz1yZW5hbWVfbWFwKQ0KICAgIA0KICAgIHJldHVybiByZXN1bHQNCg0KDQpjbGFzcyBBU3RvY2tUZWNobmljYWw6DQogICAgIiIiQeiCoeaKgOacr+aMh+agh+iuoeeul+exuyIiIg0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgY2FsY3VsYXRlX21hKGRmOiBwZC5EYXRhRnJhbWUsIHBlcmlvZHM6IGxpc3QgPSBbNSwgMTAsIDIwLCAzMCwgNjAsIDEyMCwgMjUwXSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiINCiAgICAgICAg6K6h566X56e75Yqo5bmz5Z2H57q/DQogICAgICAgIA0KICAgICAgICBBcmdzOg0KICAgICAgICAgICAgZGY6IOWMheWQq+aUtuebmOS7t+eahERhdGFGcmFtZe+8jOmcgOimgeaciSAnY2xvc2UnIOWIlw0KICAgICAgICAgICAgcGVyaW9kczog5ZGo5pyf5YiX6KGoDQogICAgICAgIA0KICAgICAgICBSZXR1cm5zOg0KICAgICAgICAgICAg5re75Yqg5LqGTUHliJfnmoREYXRhRnJhbWUNCiAgICAgICAgIiIiDQogICAgICAgIHJlc3VsdCA9IGRmLmNvcHkoKQ0KICAgICAgICANCiAgICAgICAgZm9yIHBlcmlvZCBpbiBwZXJpb2RzOg0KICAgICAgICAgICAgcmVzdWx0W2YnbWF7cGVyaW9kfSddID0gcmVzdWx0WydjbG9zZSddLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWVhbigpDQogICAgICAgIA0KICAgICAgICByZXR1cm4gcmVzdWx0DQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBjYWxjdWxhdGVfZW1hKGRmOiBwZC5EYXRhRnJhbWUsIHBlcmlvZHM6IGxpc3QgPSBbMTIsIDI2XSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLorqHnrpfmjIfmlbDnp7vliqjlubPlnYfnur8iIiINCiAgICAgICAgcmVzdWx0ID0gZGYuY29weSgpDQogICAgICAgIA0KICAgICAgICBmb3IgcGVyaW9kIGluIHBlcmlvZHM6DQogICAgICAgICAgICByZXN1bHRbZidlbWF7cGVyaW9kfSddID0gcmVzdWx0WydjbG9zZSddLmV3bShzcGFuPXBlcmlvZCwgYWRqdXN0PUZhbHNlKS5tZWFuKCkNCiAgICAgICAgDQogICAgICAgIHJldHVybiByZXN1bHQNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGNhbGN1bGF0ZV9tYWNkKGRmOiBwZC5EYXRhRnJhbWUsIGZhc3Q6IGludCA9IDEyLCBzbG93OiBpbnQgPSAyNiwgDQogICAgICAgICAgICAgICAgICAgICAgIHNpZ25hbDogaW50ID0gOSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiINCiAgICAgICAg6K6h566XTUFDROaMh+aghw0KICAgICAgICANCiAgICAgICAgUmV0dXJuczoNCiAgICAgICAgICAgIOa3u+WKoOS6hiBtYWNkLCBtYWNkcywgbWFjZGgg5YiX55qERGF0YUZyYW1lDQogICAgICAgICIiIg0KICAgICAgICByZXN1bHQgPSBkZi5jb3B5KCkNCiAgICAgICAgDQogICAgICAgICMg6K6h566XRU1BDQogICAgICAgIGVtYV9mYXN0ID0gcmVzdWx0WydjbG9zZSddLmV3bShzcGFuPWZhc3QsIGFkanVzdD1GYWxzZSkubWVhbigpDQogICAgICAgIGVtYV9zbG93ID0gcmVzdWx0WydjbG9zZSddLmV3bShzcGFuPXNsb3csIGFkanVzdD1GYWxzZSkubWVhbigpDQogICAgICAgIA0KICAgICAgICAjIE1BQ0Tnur8NCiAgICAgICAgcmVzdWx0WydtYWNkJ10gPSBlbWFfZmFzdCAtIGVtYV9zbG93DQogICAgICAgIA0KICAgICAgICAjIFNpZ25hbOe6vw0KICAgICAgICByZXN1bHRbJ21hY2RzJ10gPSByZXN1bHRbJ21hY2QnXS5ld20oc3Bhbj1zaWduYWwsIGFkanVzdD1GYWxzZSkubWVhbigpDQogICAgICAgIA0KICAgICAgICAjIOafseeKtuWbvg0KICAgICAgICByZXN1bHRbJ21hY2RoJ10gPSAocmVzdWx0WydtYWNkJ10gLSByZXN1bHRbJ21hY2RzJ10pICogMg0KICAgICAgICANCiAgICAgICAgcmV0dXJuIHJlc3VsdA0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgY2FsY3VsYXRlX3JzaShkZjogcGQuRGF0YUZyYW1lLCBwZXJpb2RzOiBsaXN0ID0gWzYsIDEyLCAyNF0pIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIiDQogICAgICAgIOiuoeeul1JTSeaMh+aghw0KICAgICAgICANCiAgICAgICAgQXJnczoNCiAgICAgICAgICAgIHBlcmlvZHM6IFJTSeWRqOacn+WIl+ihqA0KICAgICAgICANCiAgICAgICAgUmV0dXJuczoNCiAgICAgICAgICAgIOa3u+WKoOS6hlJTSeWIl+eahERhdGFGcmFtZQ0KICAgICAgICAiIiINCiAgICAgICAgcmVzdWx0ID0gZGYuY29weSgpDQogICAgICAgIA0KICAgICAgICBmb3IgcGVyaW9kIGluIHBlcmlvZHM6DQogICAgICAgICAgICBkZWx0YSA9IHJlc3VsdFsnY2xvc2UnXS5kaWZmKCkNCiAgICAgICAgICAgIGdhaW4gPSAoZGVsdGEud2hlcmUoZGVsdGEgPiAwLCAwKSkucm9sbGluZyh3aW5kb3c9cGVyaW9kKS5tZWFuKCkNCiAgICAgICAgICAgIGxvc3MgPSAoLWRlbHRhLndoZXJlKGRlbHRhIDwgMCwgMCkpLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWVhbigpDQogICAgICAgICAgICANCiAgICAgICAgICAgIHJzID0gZ2FpbiAvIGxvc3MNCiAgICAgICAgICAgIHJlc3VsdFtmJ3JzaXtwZXJpb2R9J10gPSAxMDAgLSAoMTAwIC8gKDEgKyBycykpDQogICAgICAgIA0KICAgICAgICAjIOm7mOiupFJTSSgxNCkNCiAgICAgICAgZGVsdGEgPSByZXN1bHRbJ2Nsb3NlJ10uZGlmZigpDQogICAgICAgIGdhaW4gPSAoZGVsdGEud2hlcmUoZGVsdGEgPiAwLCAwKSkucm9sbGluZyh3aW5kb3c9MTQpLm1lYW4oKQ0KICAgICAgICBsb3NzID0gKC1kZWx0YS53aGVyZShkZWx0YSA8IDAsIDApKS5yb2xsaW5nKHdpbmRvdz0xNCkubWVhbigpDQogICAgICAgIHJzID0gZ2FpbiAvIGxvc3MNCiAgICAgICAgcmVzdWx0Wydyc2knXSA9IDEwMCAtICgxMDAgLyAoMSArIHJzKSkNCiAgICAgICAgDQogICAgICAgIHJldHVybiByZXN1bHQNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGNhbGN1bGF0ZV9ib2xsaW5nZXJfYmFuZHMoZGY6IHBkLkRhdGFGcmFtZSwgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGVyaW9kOiBpbnQgPSAyMCwgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RkX2RldjogZmxvYXQgPSAyLjApIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6K6h566X5biD5p6X5bimIiIiDQogICAgICAgIHJlc3VsdCA9IGRmLmNvcHkoKQ0KICAgICAgICANCiAgICAgICAgcmVzdWx0Wydib2xsX21pZCddID0gcmVzdWx0WydjbG9zZSddLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWVhbigpDQogICAgICAgIHN0ZCA9IHJlc3VsdFsnY2xvc2UnXS5yb2xsaW5nKHdpbmRvdz1wZXJpb2QpLnN0ZCgpDQogICAgICAgIHJlc3VsdFsnYm9sbF91cHBlciddID0gcmVzdWx0Wydib2xsX21pZCddICsgKHN0ZCAqIHN0ZF9kZXYpDQogICAgICAgIHJlc3VsdFsnYm9sbF9sb3dlciddID0gcmVzdWx0Wydib2xsX21pZCddIC0gKHN0ZCAqIHN0ZF9kZXYpDQogICAgICAgIA0KICAgICAgICByZXR1cm4gcmVzdWx0DQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBjYWxjdWxhdGVfa2RqKGRmOiBwZC5EYXRhRnJhbWUsIG46IGludCA9IDksIG0xOiBpbnQgPSAzLCBtMjogaW50ID0gMykgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLorqHnrpdLRErmjIfmoIciIiINCiAgICAgICAgcmVzdWx0ID0gZGYuY29weSgpDQogICAgICAgIA0KICAgICAgICBsb3dfbiA9IHJlc3VsdFsnbG93J10ucm9sbGluZyh3aW5kb3c9bikubWluKCkNCiAgICAgICAgaGlnaF9uID0gcmVzdWx0WydoaWdoJ10ucm9sbGluZyh3aW5kb3c9bikubWF4KCkNCiAgICAgICAgDQogICAgICAgIHJzdiA9IChyZXN1bHRbJ2Nsb3NlJ10gLSBsb3dfbikgLyAoaGlnaF9uIC0gbG93X24pICogMTAwDQogICAgICAgIHJzdiA9IHJzdi5maWxsbmEoNTApDQogICAgICAgIA0KICAgICAgICByZXN1bHRbJ2tkal9rJ10gPSByc3YuZXdtKGNvbT1tMS0xLCBhZGp1c3Q9RmFsc2UpLm1lYW4oKQ0KICAgICAgICByZXN1bHRbJ2tkal9kJ10gPSByZXN1bHRbJ2tkal9rJ10uZXdtKGNvbT1tMi0xLCBhZGp1c3Q9RmFsc2UpLm1lYW4oKQ0KICAgICAgICByZXN1bHRbJ2tkal9qJ10gPSAzICogcmVzdWx0WydrZGpfayddIC0gMiAqIHJlc3VsdFsna2RqX2QnXQ0KICAgICAgICANCiAgICAgICAgcmV0dXJuIHJlc3VsdA0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgY2FsY3VsYXRlX2JpYXMoZGY6IHBkLkRhdGFGcmFtZSwgcGVyaW9kczogbGlzdCA9IFs1LCAxMCwgMzBdKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiuoeeul+S5luemu+eOhyIiIg0KICAgICAgICByZXN1bHQgPSBkZi5jb3B5KCkNCiAgICAgICAgDQogICAgICAgIGZvciBwZXJpb2QgaW4gcGVyaW9kczoNCiAgICAgICAgICAgIG1hID0gcmVzdWx0WydjbG9zZSddLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWVhbigpDQogICAgICAgICAgICByZXN1bHRbZidiaWFze3BlcmlvZH0nXSA9IChyZXN1bHRbJ2Nsb3NlJ10gLSBtYSkgLyBtYSAqIDEwMA0KICAgICAgICANCiAgICAgICAgcmV0dXJuIHJlc3VsdA0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgY2FsY3VsYXRlX2NjaShkZjogcGQuRGF0YUZyYW1lLCBwZXJpb2Q6IGludCA9IDE0KSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiuoeeul0NDSeaMh+aghyIiIg0KICAgICAgICByZXN1bHQgPSBkZi5jb3B5KCkNCiAgICAgICAgDQogICAgICAgIHRwID0gKHJlc3VsdFsnaGlnaCddICsgcmVzdWx0Wydsb3cnXSArIHJlc3VsdFsnY2xvc2UnXSkgLyAzDQogICAgICAgIHNtYSA9IHRwLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWVhbigpDQogICAgICAgIG1hZCA9IHRwLnJvbGxpbmcod2luZG93PXBlcmlvZCkuYXBwbHkobGFtYmRhIHg6IG5wLmFicyh4IC0geC5tZWFuKCkpLm1lYW4oKSkNCiAgICAgICAgDQogICAgICAgIHJlc3VsdFsnY2NpJ10gPSAodHAgLSBzbWEpIC8gKDAuMDE1ICogbWFkKQ0KICAgICAgICANCiAgICAgICAgcmV0dXJuIHJlc3VsdA0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgY2FsY3VsYXRlX3dyKGRmOiBwZC5EYXRhRnJhbWUsIHBlcmlvZHM6IGxpc3QgPSBbNiwgMTBdKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiuoeeul+WogeW7ieaMh+aghyIiIg0KICAgICAgICByZXN1bHQgPSBkZi5jb3B5KCkNCiAgICAgICAgDQogICAgICAgIGZvciBwZXJpb2QgaW4gcGVyaW9kczoNCiAgICAgICAgICAgIGhpZ2hfbiA9IHJlc3VsdFsnaGlnaCddLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWF4KCkNCiAgICAgICAgICAgIGxvd19uID0gcmVzdWx0Wydsb3cnXS5yb2xsaW5nKHdpbmRvdz1wZXJpb2QpLm1pbigpDQogICAgICAgICAgICByZXN1bHRbZid3cntwZXJpb2R9J10gPSAoaGlnaF9uIC0gcmVzdWx0WydjbG9zZSddKSAvIChoaWdoX24gLSBsb3dfbikgKiAxMDANCiAgICAgICAgDQogICAgICAgIHJldHVybiByZXN1bHQNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGNhbGN1bGF0ZV9vYnYoZGY6IHBkLkRhdGFGcmFtZSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLorqHnrpdPQlbog73ph4/mva4iIiINCiAgICAgICAgcmVzdWx0ID0gZGYuY29weSgpDQogICAgICAgIA0KICAgICAgICByZXN1bHRbJ29ididdID0gKG5wLnNpZ24ocmVzdWx0WydjbG9zZSddLmRpZmYoKSkgKiByZXN1bHRbJ3ZvbHVtZSddKS5maWxsbmEoMCkuY3Vtc3VtKCkNCiAgICAgICAgDQogICAgICAgIHJldHVybiByZXN1bHQNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGNhbGN1bGF0ZV9hdHIoZGY6IHBkLkRhdGFGcmFtZSwgcGVyaW9kOiBpbnQgPSAxNCkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLorqHnrpdBVFLnnJ/lrp7ms6LluYUiIiINCiAgICAgICAgcmVzdWx0ID0gZGYuY29weSgpDQogICAgICAgIA0KICAgICAgICBoaWdoX2xvdyA9IHJlc3VsdFsnaGlnaCddIC0gcmVzdWx0Wydsb3cnXQ0KICAgICAgICBoaWdoX2Nsb3NlID0gbnAuYWJzKHJlc3VsdFsnaGlnaCddIC0gcmVzdWx0WydjbG9zZSddLnNoaWZ0KCkpDQogICAgICAgIGxvd19jbG9zZSA9IG5wLmFicyhyZXN1bHRbJ2xvdyddIC0gcmVzdWx0WydjbG9zZSddLnNoaWZ0KCkpDQogICAgICAgIA0KICAgICAgICB0ciA9IHBkLmNvbmNhdChbaGlnaF9sb3csIGhpZ2hfY2xvc2UsIGxvd19jbG9zZV0sIGF4aXM9MSkubWF4KGF4aXM9MSkNCiAgICAgICAgcmVzdWx0WydhdHInXSA9IHRyLnJvbGxpbmcod2luZG93PXBlcmlvZCkubWVhbigpDQogICAgICAgIA0KICAgICAgICByZXR1cm4gcmVzdWx0DQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBjYWxjdWxhdGVfYWxsKGRmOiBwZC5EYXRhRnJhbWUpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6K6h566X5omA5pyJ5bi455So5oqA5pyv5oyH5qCHIiIiDQogICAgICAgIHJlc3VsdCA9IGRmLmNvcHkoKQ0KICAgICAgICANCiAgICAgICAgIyDlnYfnur8NCiAgICAgICAgcmVzdWx0ID0gQVN0b2NrVGVjaG5pY2FsLmNhbGN1bGF0ZV9tYShyZXN1bHQpDQogICAgICAgIA0KICAgICAgICAjIE1BQ0QNCiAgICAgICAgcmVzdWx0ID0gQVN0b2NrVGVjaG5pY2FsLmNhbGN1bGF0ZV9tYWNkKHJlc3VsdCkNCiAgICAgICAgDQogICAgICAgICMgUlNJDQogICAgICAgIHJlc3VsdCA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfcnNpKHJlc3VsdCkNCiAgICAgICAgDQogICAgICAgICMg5biD5p6X5bimDQogICAgICAgIHJlc3VsdCA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfYm9sbGluZ2VyX2JhbmRzKHJlc3VsdCkNCiAgICAgICAgDQogICAgICAgICMgS0RKDQogICAgICAgIHJlc3VsdCA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfa2RqKHJlc3VsdCkNCiAgICAgICAgDQogICAgICAgICMgQVRSDQogICAgICAgIHJlc3VsdCA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfYXRyKHJlc3VsdCkNCiAgICAgICAgDQogICAgICAgIHJldHVybiByZXN1bHQNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9sYXRlc3RfaW5kaWNhdG9ycyhkZjogcGQuRGF0YUZyYW1lKSAtPiBEaWN0Og0KICAgICAgICAiIiLojrflj5bmnIDmlrDmioDmnK/mjIfmoIflgLwiIiINCiAgICAgICAgaWYgZGYuZW1wdHkgb3IgbGVuKGRmKSA8IDI6DQogICAgICAgICAgICByZXR1cm4ge30NCiAgICAgICAgDQogICAgICAgIGxhdGVzdCA9IGRmLmlsb2NbLTFdDQogICAgICAgIHByZXYgPSBkZi5pbG9jWy0yXSBpZiBsZW4oZGYpID4gMSBlbHNlIGxhdGVzdA0KICAgICAgICANCiAgICAgICAgaW5kaWNhdG9ycyA9IHt9DQogICAgICAgIA0KICAgICAgICAjIOWdh+e6vw0KICAgICAgICBmb3IgY29sIGluIFsnbWE1JywgJ21hMTAnLCAnbWEyMCcsICdtYTMwJywgJ21hNjAnXToNCiAgICAgICAgICAgIGlmIGNvbCBpbiBkZi5jb2x1bW5zOg0KICAgICAgICAgICAgICAgIGluZGljYXRvcnNbY29sXSA9IHJvdW5kKGxhdGVzdFtjb2xdLCAyKSBpZiBwZC5ub3RuYShsYXRlc3RbY29sXSkgZWxzZSBOb25lDQogICAgICAgIA0KICAgICAgICAjIE1BQ0QNCiAgICAgICAgaWYgJ21hY2QnIGluIGRmLmNvbHVtbnM6DQogICAgICAgICAgICBpbmRpY2F0b3JzWydtYWNkJ10gPSByb3VuZChsYXRlc3RbJ21hY2QnXSwgNCkgaWYgcGQubm90bmEobGF0ZXN0WydtYWNkJ10pIGVsc2UgTm9uZQ0KICAgICAgICAgICAgaW5kaWNhdG9yc1snbWFjZHMnXSA9IHJvdW5kKGxhdGVzdFsnbWFjZHMnXSwgNCkgaWYgcGQubm90bmEobGF0ZXN0WydtYWNkcyddKSBlbHNlIE5vbmUNCiAgICAgICAgICAgIGluZGljYXRvcnNbJ21hY2RoJ10gPSByb3VuZChsYXRlc3RbJ21hY2RoJ10sIDQpIGlmIHBkLm5vdG5hKGxhdGVzdFsnbWFjZGgnXSkgZWxzZSBOb25lDQogICAgICAgIA0KICAgICAgICAjIFJTSQ0KICAgICAgICBpZiAncnNpJyBpbiBkZi5jb2x1bW5zOg0KICAgICAgICAgICAgaW5kaWNhdG9yc1sncnNpJ10gPSByb3VuZChsYXRlc3RbJ3JzaSddLCAyKSBpZiBwZC5ub3RuYShsYXRlc3RbJ3JzaSddKSBlbHNlIE5vbmUNCiAgICAgICAgDQogICAgICAgICMgS0RKDQogICAgICAgIGZvciBjb2wgaW4gWydrZGpfaycsICdrZGpfZCcsICdrZGpfaiddOg0KICAgICAgICAgICAgaWYgY29sIGluIGRmLmNvbHVtbnM6DQogICAgICAgICAgICAgICAgaW5kaWNhdG9yc1tjb2xdID0gcm91bmQobGF0ZXN0W2NvbF0sIDIpIGlmIHBkLm5vdG5hKGxhdGVzdFtjb2xdKSBlbHNlIE5vbmUNCiAgICAgICAgDQogICAgICAgICMg5biD5p6X5bimDQogICAgICAgIGZvciBjb2wgaW4gWydib2xsX3VwcGVyJywgJ2JvbGxfbWlkJywgJ2JvbGxfbG93ZXInXToNCiAgICAgICAgICAgIGlmIGNvbCBpbiBkZi5jb2x1bW5zOg0KICAgICAgICAgICAgICAgIGluZGljYXRvcnNbY29sXSA9IHJvdW5kKGxhdGVzdFtjb2xdLCAyKSBpZiBwZC5ub3RuYShsYXRlc3RbY29sXSkgZWxzZSBOb25lDQogICAgICAgIA0KICAgICAgICAjIOaUtuebmOS7t+WSjOaIkOS6pOmHjw0KICAgICAgICBpbmRpY2F0b3JzWydjbG9zZSddID0gcm91bmQobGF0ZXN0WydjbG9zZSddLCAyKSBpZiBwZC5ub3RuYShsYXRlc3RbJ2Nsb3NlJ10pIGVsc2UgTm9uZQ0KICAgICAgICBpbmRpY2F0b3JzWyd2b2x1bWUnXSA9IGludChsYXRlc3RbJ3ZvbHVtZSddKSBpZiBwZC5ub3RuYShsYXRlc3QuZ2V0KCd2b2x1bWUnKSkgZWxzZSBOb25lDQogICAgICAgIA0KICAgICAgICByZXR1cm4gaW5kaWNhdG9ycw0KDQoNCmRlZiBnZXRfc3RvY2tfdGVjaG5pY2FsX2luZGljYXRvcnModGlja2VyOiBzdHIsIHBlcmlvZDogc3RyID0gImRhaWx5IiwNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRheXM6IGludCA9IDYwKSAtPiBEaWN0Og0KICAgICIiIg0KICAgIOiOt+WPluiCoeelqOaKgOacr+aMh+aghw0KICAgIA0KICAgIEFyZ3M6DQogICAgICAgIHRpY2tlcjog6IKh56Wo5Luj56CBDQogICAgICAgIHBlcmlvZDog5ZGo5pyfICdkYWlseScvJ3dlZWtseScvJ21vbnRobHknDQogICAgICAgIGRheXM6IOiOt+WPluWkqeaVsA0KICAgIA0KICAgIFJldHVybnM6DQogICAgICAgIERpY3Q6IOaKgOacr+aMh+agh+aVsOaNrg0KICAgICIiIg0KICAgIGZyb20gLmFzdG9ja191dGlscyBpbXBvcnQgQVN0b2NrRGF0YQ0KICAgIA0KICAgICMg6K6h566X5pel5pyf6IyD5Zu0DQogICAgZW5kX2RhdGUgPSBkYXRldGltZS5ub3coKS5zdHJmdGltZSgnJVklbSVkJykNCiAgICBzdGFydF9kYXRlID0gKGRhdGV0aW1lLm5vdygpIC0gdGltZWRlbHRhKGRheXM9ZGF5cyoyKSkuc3RyZnRpbWUoJyVZJW0lZCcpDQogICAgDQogICAgIyDojrflj5bml6Xnur/mlbDmja4NCiAgICBkZiA9IEFTdG9ja0RhdGEuZ2V0X2RhaWx5KHRpY2tlciwgc3RhcnRfZGF0ZSwgZW5kX2RhdGUpDQogICAgDQogICAgaWYgZGYuZW1wdHk6DQogICAgICAgIHJldHVybiB7J2Vycm9yJzogZifml6Dms5Xojrflj5Yge3RpY2tlcn0g55qE5pWw5o2uJ30NCiAgICANCiAgICAjIOi9rOaNouWIl+WQje+8muS4reaWhyAtPiDoi7HmlocNCiAgICBkZiA9IG5vcm1hbGl6ZV9jb2x1bW5zKGRmKQ0KICAgIA0KICAgICMg6K6h566X5oqA5pyv5oyH5qCHDQogICAgZGYgPSBBU3RvY2tUZWNobmljYWwuY2FsY3VsYXRlX2FsbChkZikNCiAgICANCiAgICAjIOiOt+WPluacgOaWsOWAvA0KICAgIGxhdGVzdCA9IEFTdG9ja1RlY2huaWNhbC5nZXRfbGF0ZXN0X2luZGljYXRvcnMoZGYpDQogICAgDQogICAgIyDmt7vliqDln7rmnKzkv6Hmga8NCiAgICBsYXRlc3RbJ3RpY2tlciddID0gdGlja2VyDQogICAgIyDmlK/mjIHkuK3oi7HmlofliJflkI0NCiAgICBsYXRlc3RbJ25hbWUnXSA9IGRmLmlsb2NbLTFdLmdldCgnbmFtZScsIGRmLmlsb2NbLTFdLmdldCgn6IKh56Wo566A56ewJywgdGlja2VyKSkNCiAgICBsYXRlc3RbJ2RhdGUnXSA9IGRmLmlsb2NbLTFdLmdldCgnZGF0ZScsIGRmLmlsb2NbLTFdLmdldCgn5pel5pyfJywgZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoJyVZLSVtLSVkJykpKQ0KICAgIA0KICAgIHJldHVybiBsYXRlc3QNCg0KDQojIOS+v+aNt+WHveaVsA0KZGVmIGdldF9zdG9ja3N0YXRzX2luZGljYXRvcih0aWNrZXI6IHN0ciwgaW5kaWNhdG9yOiBzdHIsIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Vycl9kYXRlOiBzdHIsIG9ubGluZTogYm9vbCA9IFRydWUpIC0+IHN0cjoNCiAgICAiIiLojrflj5bmioDmnK/mjIfmoIfvvIjlhbzlrrnljp/mjqXlj6PvvIkiIiINCiAgICBmcm9tIC5hc3RvY2tfdXRpbHMgaW1wb3J0IEFTdG9ja0RhdGENCiAgICANCiAgICAjIOiuoeeul+aXpeacn+iMg+WbtA0KICAgIGVuZF9kYXRlID0gY3Vycl9kYXRlLnJlcGxhY2UoJy0nLCAnJykNCiAgICBzdGFydF9kYXRlID0gKGRhdGV0aW1lLnN0cnB0aW1lKGN1cnJfZGF0ZSwgJyVZLSVtLSVkJykgLSB0aW1lZGVsdGEoZGF5cz02MCkpLnN0cmZ0aW1lKCclWSVtJWQnKQ0KICAgIA0KICAgICMg6I635Y+W5pWw5o2uDQogICAgZGYgPSBBU3RvY2tEYXRhLmdldF9kYWlseSh0aWNrZXIsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQ0KICAgIA0KICAgIGlmIGRmLmVtcHR5Og0KICAgICAgICByZXR1cm4gIiINCiAgICANCiAgICAjIOi9rOaNouWIl+WQje+8muS4reaWhyAtPiDoi7HmlocNCiAgICBkZiA9IG5vcm1hbGl6ZV9jb2x1bW5zKGRmKQ0KICAgIA0KICAgICMg6K6h566X5oyH5qCHDQogICAgaWYgaW5kaWNhdG9yID09ICdyc2knOg0KICAgICAgICBkZiA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfcnNpKGRmKQ0KICAgICAgICByZXR1cm4gc3RyKHJvdW5kKGRmWydyc2knXS5pbG9jWy0xXSwgMikpIGlmICdyc2knIGluIGRmLmNvbHVtbnMgZWxzZSAiIg0KICAgIA0KICAgIGVsaWYgaW5kaWNhdG9yIGluIFsnbWFjZCcsICdtYWNkcycsICdtYWNkaCddOg0KICAgICAgICBkZiA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfbWFjZChkZikNCiAgICAgICAgcmV0dXJuIHN0cihyb3VuZChkZltpbmRpY2F0b3JdLmlsb2NbLTFdLCA0KSkgaWYgaW5kaWNhdG9yIGluIGRmLmNvbHVtbnMgZWxzZSAiIg0KICAgIA0KICAgIGVsaWYgJ21hJyBpbiBpbmRpY2F0b3I6DQogICAgICAgIHBlcmlvZCA9IGludChpbmRpY2F0b3IucmVwbGFjZSgnbWEnLCAnJykpDQogICAgICAgIGRmID0gQVN0b2NrVGVjaG5pY2FsLmNhbGN1bGF0ZV9tYShkZiwgW3BlcmlvZF0pDQogICAgICAgIHJldHVybiBzdHIocm91bmQoZGZbZidtYXtwZXJpb2R9J10uaWxvY1stMV0sIDIpKSBpZiBmJ21he3BlcmlvZH0nIGluIGRmLmNvbHVtbnMgZWxzZSAiIg0KICAgIA0KICAgIGVsaWYgaW5kaWNhdG9yID09ICdib2xsJzoNCiAgICAgICAgZGYgPSBBU3RvY2tUZWNobmljYWwuY2FsY3VsYXRlX2JvbGxpbmdlcl9iYW5kcyhkZikNCiAgICAgICAgcmV0dXJuIHN0cihyb3VuZChkZlsnYm9sbF9taWQnXS5pbG9jWy0xXSwgMikpIGlmICdib2xsX21pZCcgaW4gZGYuY29sdW1ucyBlbHNlICIiDQogICAgDQogICAgZWxpZiBpbmRpY2F0b3IgPT0gJ2JvbGxfdWInOg0KICAgICAgICBkZiA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfYm9sbGluZ2VyX2JhbmRzKGRmKQ0KICAgICAgICByZXR1cm4gc3RyKHJvdW5kKGRmWydib2xsX3VwcGVyJ10uaWxvY1stMV0sIDIpKSBpZiAnYm9sbF91cHBlcicgaW4gZGYuY29sdW1ucyBlbHNlICIiDQogICAgDQogICAgZWxpZiBpbmRpY2F0b3IgPT0gJ2JvbGxfbGInOg0KICAgICAgICBkZiA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfYm9sbGluZ2VyX2JhbmRzKGRmKQ0KICAgICAgICByZXR1cm4gc3RyKHJvdW5kKGRmWydib2xsX2xvd2VyJ10uaWxvY1stMV0sIDIpKSBpZiAnYm9sbF9sb3dlcicgaW4gZGYuY29sdW1ucyBlbHNlICIiDQogICAgDQogICAgcmV0dXJuICIiDQo=
+# -*- coding: utf-8 -*-
+"""
+A股技术分析指标计算模块
+用于替代 stockstats_utils
+"""
+
+import pandas as pd
+import numpy as np
+from typing import Optional, Dict
+from datetime import datetime, timedelta
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+# 中文列名到英文列名的映射
+CHINESE_TO_ENGLISH = {
+    '日期': 'date',
+    '股票代码': 'ts_code',
+    '股票简称': 'name',
+    '开盘': 'open',
+    '收盘': 'close',
+    '最高': 'high',
+    '最低': 'low',
+    '成交量': 'volume',
+    '成交额': 'amount',
+    '振幅': 'amplitude',
+    '涨跌幅': 'pct_change',
+    '涨跌额': 'change',
+    '换手率': 'turnover',
+}
+
+
+def normalize_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    将中文列名转换为英文列名
+    
+    Args:
+        df: 包含中文列名的DataFrame
+        
+    Returns:
+        列名已转换的DataFrame
+    """
+    if df.empty:
+        return df
+    
+    # 创建副本避免修改原数据
+    result = df.copy()
+    
+    # 重命名列
+    rename_map = {}
+    for col in result.columns:
+        if col in CHINESE_TO_ENGLISH:
+            rename_map[col] = CHINESE_TO_ENGLISH[col]
+    
+    if rename_map:
+        result = result.rename(columns=rename_map)
+    
+    return result
+
+
+class AStockTechnical:
+    """A股技术指标计算类"""
+    
+    @staticmethod
+    def calculate_ma(df: pd.DataFrame, periods: list = [5, 10, 20, 30, 60, 120, 250]) -> pd.DataFrame:
+        """
+        计算移动平均线
+        
+        Args:
+            df: 包含收盘价的DataFrame，需要有 'close' 列
+            periods: 周期列表
+        
+        Returns:
+            添加了MA列的DataFrame
+        """
+        result = df.copy()
+        
+        for period in periods:
+            result[f'ma{period}'] = result['close'].rolling(window=period).mean()
+        
+        return result
+    
+    @staticmethod
+    def calculate_ema(df: pd.DataFrame, periods: list = [12, 26]) -> pd.DataFrame:
+        """计算指数移动平均线"""
+        result = df.copy()
+        
+        for period in periods:
+            result[f'ema{period}'] = result['close'].ewm(span=period, adjust=False).mean()
+        
+        return result
+    
+    @staticmethod
+    def calculate_macd(df: pd.DataFrame, fast: int = 12, slow: int = 26, 
+                       signal: int = 9) -> pd.DataFrame:
+        """
+        计算MACD指标
+        
+        Returns:
+            添加了 macd, macds, macdh 列的DataFrame
+        """
+        result = df.copy()
+        
+        # 计算EMA
+        ema_fast = result['close'].ewm(span=fast, adjust=False).mean()
+        ema_slow = result['close'].ewm(span=slow, adjust=False).mean()
+        
+        # MACD线
+        result['macd'] = ema_fast - ema_slow
+        
+        # Signal线
+        result['macds'] = result['macd'].ewm(span=signal, adjust=False).mean()
+        
+        # 柱状图
+        result['macdh'] = (result['macd'] - result['macds']) * 2
+        
+        return result
+    
+    @staticmethod
+    def calculate_rsi(df: pd.DataFrame, periods: list = [6, 12, 24]) -> pd.DataFrame:
+        """
+        计算RSI指标
+        
+        Args:
+            periods: RSI周期列表
+        
+        Returns:
+            添加了RSI列的DataFrame
+        """
+        result = df.copy()
+        
+        for period in periods:
+            delta = result['close'].diff()
+            gain = (delta.where(delta > 0, 0)).rolling(window=period).mean()
+            loss = (-delta.where(delta < 0, 0)).rolling(window=period).mean()
+            
+            rs = gain / loss
+            result[f'rsi{period}'] = 100 - (100 / (1 + rs))
+        
+        # 默认RSI(14)
+        delta = result['close'].diff()
+        gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+        loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+        rs = gain / loss
+        result['rsi'] = 100 - (100 / (1 + rs))
+        
+        return result
+    
+    @staticmethod
+    def calculate_bollinger_bands(df: pd.DataFrame, 
+                                  period: int = 20, 
+                                  std_dev: float = 2.0) -> pd.DataFrame:
+        """计算布林带"""
+        result = df.copy()
+        
+        result['boll_mid'] = result['close'].rolling(window=period).mean()
+        std = result['close'].rolling(window=period).std()
+        result['boll_upper'] = result['boll_mid'] + (std * std_dev)
+        result['boll_lower'] = result['boll_mid'] - (std * std_dev)
+        
+        return result
+    
+    @staticmethod
+    def calculate_kdj(df: pd.DataFrame, n: int = 9, m1: int = 3, m2: int = 3) -> pd.DataFrame:
+        """计算KDJ指标"""
+        result = df.copy()
+        
+        low_n = result['low'].rolling(window=n).min()
+        high_n = result['high'].rolling(window=n).max()
+        
+        rsv = (result['close'] - low_n) / (high_n - low_n) * 100
+        rsv = rsv.fillna(50)
+        
+        result['kdj_k'] = rsv.ewm(com=m1-1, adjust=False).mean()
+        result['kdj_d'] = result['kdj_k'].ewm(com=m2-1, adjust=False).mean()
+        result['kdj_j'] = 3 * result['kdj_k'] - 2 * result['kdj_d']
+        
+        return result
+    
+    @staticmethod
+    def calculate_bias(df: pd.DataFrame, periods: list = [5, 10, 30]) -> pd.DataFrame:
+        """计算乖离率"""
+        result = df.copy()
+        
+        for period in periods:
+            ma = result['close'].rolling(window=period).mean()
+            result[f'bias{period}'] = (result['close'] - ma) / ma * 100
+        
+        return result
+    
+    @staticmethod
+    def calculate_cci(df: pd.DataFrame, period: int = 14) -> pd.DataFrame:
+        """计算CCI指标"""
+        result = df.copy()
+        
+        tp = (result['high'] + result['low'] + result['close']) / 3
+        sma = tp.rolling(window=period).mean()
+        mad = tp.rolling(window=period).apply(lambda x: np.abs(x - x.mean()).mean())
+        
+        result['cci'] = (tp - sma) / (0.015 * mad)
+        
+        return result
+    
+    @staticmethod
+    def calculate_wr(df: pd.DataFrame, periods: list = [6, 10]) -> pd.DataFrame:
+        """计算威廉指标"""
+        result = df.copy()
+        
+        for period in periods:
+            high_n = result['high'].rolling(window=period).max()
+            low_n = result['low'].rolling(window=period).min()
+            result[f'wr{period}'] = (high_n - result['close']) / (high_n - low_n) * 100
+        
+        return result
+    
+    @staticmethod
+    def calculate_obv(df: pd.DataFrame) -> pd.DataFrame:
+        """计算OBV能量潮"""
+        result = df.copy()
+        
+        result['obv'] = (np.sign(result['close'].diff()) * result['volume']).fillna(0).cumsum()
+        
+        return result
+    
+    @staticmethod
+    def calculate_atr(df: pd.DataFrame, period: int = 14) -> pd.DataFrame:
+        """计算ATR真实波幅"""
+        result = df.copy()
+        
+        high_low = result['high'] - result['low']
+        high_close = np.abs(result['high'] - result['close'].shift())
+        low_close = np.abs(result['low'] - result['close'].shift())
+        
+        tr = pd.concat([high_low, high_close, low_close], axis=1).max(axis=1)
+        result['atr'] = tr.rolling(window=period).mean()
+        
+        return result
+    
+    @staticmethod
+    def calculate_all(df: pd.DataFrame) -> pd.DataFrame:
+        """计算所有常用技术指标"""
+        result = df.copy()
+        
+        # 均线
+        result = AStockTechnical.calculate_ma(result)
+        
+        # MACD
+        result = AStockTechnical.calculate_macd(result)
+        
+        # RSI
+        result = AStockTechnical.calculate_rsi(result)
+        
+        # 布林带
+        result = AStockTechnical.calculate_bollinger_bands(result)
+        
+        # KDJ
+        result = AStockTechnical.calculate_kdj(result)
+        
+        # ATR
+        result = AStockTechnical.calculate_atr(result)
+        
+        return result
+    
+    @staticmethod
+    def get_latest_indicators(df: pd.DataFrame) -> Dict:
+        """获取最新技术指标值"""
+        if df.empty or len(df) < 2:
+            return {}
+        
+        latest = df.iloc[-1]
+        prev = df.iloc[-2] if len(df) > 1 else latest
+        
+        indicators = {}
+        
+        # 均线
+        for col in ['ma5', 'ma10', 'ma20', 'ma30', 'ma60']:
+            if col in df.columns:
+                indicators[col] = round(latest[col], 2) if pd.notna(latest[col]) else None
+        
+        # MACD
+        if 'macd' in df.columns:
+            indicators['macd'] = round(latest['macd'], 4) if pd.notna(latest['macd']) else None
+            indicators['macds'] = round(latest['macds'], 4) if pd.notna(latest['macds']) else None
+            indicators['macdh'] = round(latest['macdh'], 4) if pd.notna(latest['macdh']) else None
+        
+        # RSI
+        if 'rsi' in df.columns:
+            indicators['rsi'] = round(latest['rsi'], 2) if pd.notna(latest['rsi']) else None
+        
+        # KDJ
+        for col in ['kdj_k', 'kdj_d', 'kdj_j']:
+            if col in df.columns:
+                indicators[col] = round(latest[col], 2) if pd.notna(latest[col]) else None
+        
+        # 布林带
+        for col in ['boll_upper', 'boll_mid', 'boll_lower']:
+            if col in df.columns:
+                indicators[col] = round(latest[col], 2) if pd.notna(latest[col]) else None
+        
+        # 收盘价和成交量
+        indicators['close'] = round(latest['close'], 2) if pd.notna(latest['close']) else None
+        indicators['volume'] = int(latest['volume']) if pd.notna(latest.get('volume')) else None
+        
+        return indicators
+
+
+def get_stock_technical_indicators(ticker: str, period: str = "daily",
+                                    days: int = 60) -> Dict:
+    """
+    获取股票技术指标
+    
+    Args:
+        ticker: 股票代码
+        period: 周期 'daily'/'weekly'/'monthly'
+        days: 获取天数
+    
+    Returns:
+        Dict: 技术指标数据
+    """
+    from .astock_utils import AStockData
+    
+    # 计算日期范围
+    end_date = datetime.now().strftime('%Y%m%d')
+    start_date = (datetime.now() - timedelta(days=days*2)).strftime('%Y%m%d')
+    
+    # 获取日线数据
+    df = AStockData.get_daily(ticker, start_date, end_date)
+    
+    if df.empty:
+        return {'error': f'无法获取 {ticker} 的数据'}
+    
+    # 转换列名：中文 -> 英文
+    df = normalize_columns(df)
+    
+    # 计算技术指标
+    df = AStockTechnical.calculate_all(df)
+    
+    # 获取最新值
+    latest = AStockTechnical.get_latest_indicators(df)
+    
+    # 添加基本信息
+    latest['ticker'] = ticker
+    # 支持中英文列名
+    latest['name'] = df.iloc[-1].get('name', df.iloc[-1].get('股票简称', ticker))
+    latest['date'] = df.iloc[-1].get('date', df.iloc[-1].get('日期', datetime.now().strftime('%Y-%m-%d')))
+    
+    return latest
+
+
+# 便捷函数
+def get_stockstats_indicator(ticker: str, indicator: str, 
+                              curr_date: str, online: bool = True) -> str:
+    """获取技术指标（兼容原接口）"""
+    from .astock_utils import AStockData
+    
+    # 计算日期范围
+    end_date = curr_date.replace('-', '')
+    start_date = (datetime.strptime(curr_date, '%Y-%m-%d') - timedelta(days=60)).strftime('%Y%m%d')
+    
+    # 获取数据
+    df = AStockData.get_daily(ticker, start_date, end_date)
+    
+    if df.empty:
+        return ""
+    
+    # 转换列名：中文 -> 英文
+    df = normalize_columns(df)
+    
+    # 计算指标
+    if indicator == 'rsi':
+        df = AStockTechnical.calculate_rsi(df)
+        return str(round(df['rsi'].iloc[-1], 2)) if 'rsi' in df.columns else ""
+    
+    elif indicator in ['macd', 'macds', 'macdh']:
+        df = AStockTechnical.calculate_macd(df)
+        return str(round(df[indicator].iloc[-1], 4)) if indicator in df.columns else ""
+    
+    elif 'ma' in indicator:
+        period = int(indicator.replace('ma', ''))
+        df = AStockTechnical.calculate_ma(df, [period])
+        return str(round(df[f'ma{period}'].iloc[-1], 2)) if f'ma{period}' in df.columns else ""
+    
+    elif indicator == 'boll':
+        df = AStockTechnical.calculate_bollinger_bands(df)
+        return str(round(df['boll_mid'].iloc[-1], 2)) if 'boll_mid' in df.columns else ""
+    
+    elif indicator == 'boll_ub':
+        df = AStockTechnical.calculate_bollinger_bands(df)
+        return str(round(df['boll_upper'].iloc[-1], 2)) if 'boll_upper' in df.columns else ""
+    
+    elif indicator == 'boll_lb':
+        df = AStockTechnical.calculate_bollinger_bands(df)
+        return str(round(df['boll_lower'].iloc[-1], 2)) if 'boll_lower' in df.columns else ""
+    
+    return ""

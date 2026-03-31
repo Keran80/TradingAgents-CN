@@ -1,1 +1,50 @@
-77u/IyBUcmFkaW5nQWdlbnRzL2dyYXBoL3Byb3BhZ2F0aW9uLnB5Cgpmcm9tIHR5cGluZyBpbXBvcnQgRGljdCwgQW55CmZyb20gdHJhZGluZ2FnZW50cy5hZ2VudHMudXRpbHMuYWdlbnRfc3RhdGVzIGltcG9ydCAoCiAgICBBZ2VudFN0YXRlLAogICAgSW52ZXN0RGViYXRlU3RhdGUsCiAgICBSaXNrRGViYXRlU3RhdGUsCikKCgpjbGFzcyBQcm9wYWdhdG9yOgogICAgIiIiSGFuZGxlcyBzdGF0ZSBpbml0aWFsaXphdGlvbiBhbmQgcHJvcGFnYXRpb24gdGhyb3VnaCB0aGUgZ3JhcGguIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIG1heF9yZWN1cl9saW1pdD0xMDApOgogICAgICAgICIiIkluaXRpYWxpemUgd2l0aCBjb25maWd1cmF0aW9uIHBhcmFtZXRlcnMuIiIiCiAgICAgICAgc2VsZi5tYXhfcmVjdXJfbGltaXQgPSBtYXhfcmVjdXJfbGltaXQKCiAgICBkZWYgY3JlYXRlX2luaXRpYWxfc3RhdGUoCiAgICAgICAgc2VsZiwgY29tcGFueV9uYW1lOiBzdHIsIHRyYWRlX2RhdGU6IHN0cgogICAgKSAtPiBEaWN0W3N0ciwgQW55XToKICAgICAgICAiIiJDcmVhdGUgdGhlIGluaXRpYWwgc3RhdGUgZm9yIHRoZSBhZ2VudCBncmFwaC4iIiIKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAibWVzc2FnZXMiOiBbKCJodW1hbiIsIGNvbXBhbnlfbmFtZSldLAogICAgICAgICAgICAiY29tcGFueV9vZl9pbnRlcmVzdCI6IGNvbXBhbnlfbmFtZSwKICAgICAgICAgICAgInRyYWRlX2RhdGUiOiBzdHIodHJhZGVfZGF0ZSksCiAgICAgICAgICAgICJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSI6IEludmVzdERlYmF0ZVN0YXRlKAogICAgICAgICAgICAgICAgeyJoaXN0b3J5IjogIiIsICJjdXJyZW50X3Jlc3BvbnNlIjogIiIsICJjb3VudCI6IDB9CiAgICAgICAgICAgICksCiAgICAgICAgICAgICJyaXNrX2RlYmF0ZV9zdGF0ZSI6IFJpc2tEZWJhdGVTdGF0ZSgKICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAiaGlzdG9yeSI6ICIiLAogICAgICAgICAgICAgICAgICAgICJjdXJyZW50X3Jpc2t5X3Jlc3BvbnNlIjogIiIsCiAgICAgICAgICAgICAgICAgICAgImN1cnJlbnRfc2FmZV9yZXNwb25zZSI6ICIiLAogICAgICAgICAgICAgICAgICAgICJjdXJyZW50X25ldXRyYWxfcmVzcG9uc2UiOiAiIiwKICAgICAgICAgICAgICAgICAgICAiY291bnQiOiAwLAogICAgICAgICAgICAgICAgfQogICAgICAgICAgICApLAogICAgICAgICAgICAibWFya2V0X3JlcG9ydCI6ICIiLAogICAgICAgICAgICAiZnVuZGFtZW50YWxzX3JlcG9ydCI6ICIiLAogICAgICAgICAgICAic2VudGltZW50X3JlcG9ydCI6ICIiLAogICAgICAgICAgICAibmV3c19yZXBvcnQiOiAiIiwKICAgICAgICB9CgogICAgZGVmIGdldF9ncmFwaF9hcmdzKHNlbGYpIC0+IERpY3Rbc3RyLCBBbnldOgogICAgICAgICIiIkdldCBhcmd1bWVudHMgZm9yIHRoZSBncmFwaCBpbnZvY2F0aW9uLiIiIgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJzdHJlYW1fbW9kZSI6ICJ2YWx1ZXMiLAogICAgICAgICAgICAiY29uZmlnIjogeyJyZWN1cnNpb25fbGltaXQiOiBzZWxmLm1heF9yZWN1cl9saW1pdH0sCiAgICAgICAgfQoNCg==
+﻿# TradingAgents/graph/propagation.py
+
+from typing import Dict, Any
+from tradingagents.agents.utils.agent_states import (
+    AgentState,
+    InvestDebateState,
+    RiskDebateState,
+)
+
+
+class Propagator:
+    """Handles state initialization and propagation through the graph."""
+
+    def __init__(self, max_recur_limit=100):
+        """Initialize with configuration parameters."""
+        self.max_recur_limit = max_recur_limit
+
+    def create_initial_state(
+        self, company_name: str, trade_date: str
+    ) -> Dict[str, Any]:
+        """Create the initial state for the agent graph."""
+        return {
+            "messages": [("human", company_name)],
+            "company_of_interest": company_name,
+            "trade_date": str(trade_date),
+            "investment_debate_state": InvestDebateState(
+                {"history": "", "current_response": "", "count": 0}
+            ),
+            "risk_debate_state": RiskDebateState(
+                {
+                    "history": "",
+                    "current_risky_response": "",
+                    "current_safe_response": "",
+                    "current_neutral_response": "",
+                    "count": 0,
+                }
+            ),
+            "market_report": "",
+            "fundamentals_report": "",
+            "sentiment_report": "",
+            "news_report": "",
+        }
+
+    def get_graph_args(self) -> Dict[str, Any]:
+        """Get arguments for the graph invocation."""
+        return {
+            "stream_mode": "values",
+            "config": {"recursion_limit": self.max_recur_limit},
+        }
+

@@ -1,1 +1,151 @@
-IiIiDQrnlJ/miJDogqHnpajliIbmnpDmiqXlkYogSFRNTA0KIiIiDQppbXBvcnQgcGFuZGFzIGFzIHBkDQppbXBvcnQgbnVtcHkgYXMgbnANCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lLCB0aW1lZGVsdGENCmltcG9ydCBwbG90bHkuZ3JhcGhfb2JqZWN0cyBhcyBnbw0KZnJvbSBwbG90bHkuc3VicGxvdHMgaW1wb3J0IG1ha2Vfc3VicGxvdHMNCmZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MgaW1wb3J0IGFrc2hhcmVfdXRpbHMgYXMgYWtzDQoNCiMg6I635Y+W5pWw5o2uDQp0aWNrZXIgPSAnMDAwMDAxJw0KZGF5cyA9IDkwDQplbmRfZGF0ZSA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWSVtJWQiKQ0Kc3RhcnRfZGF0ZV9vYmogPSBkYXRldGltZS5ub3coKSAtIHRpbWVkZWx0YShkYXlzPWRheXMpDQpzdGFydF9kYXRlID0gc3RhcnRfZGF0ZV9vYmouc3RyZnRpbWUoIiVZJW0lZCIpDQoNCmRmX2RhaWx5ID0gYWtzLmdldF9zdG9ja19kYWlseSh0aWNrZXIsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQ0KZGZfcXVvdGUgPSBha3MuZ2V0X3N0b2NrX3JlYWx0aW1lX3F1b3RlKHRpY2tlcikNCg0KcXVvdGUgPSBkZl9xdW90ZS5pbG9jWzBdDQpjdXJyZW50X3ByaWNlID0gcXVvdGUuZ2V0KCfmnIDmlrDku7cnLCAwKQ0KY2hhbmdlX3BjdCA9IHF1b3RlLmdldCgn5rao6LeM5bmFJywgMCkNCnZvbHVtZSA9IHF1b3RlLmdldCgn5oiQ5Lqk6YePJywgMCkNCmFtb3VudCA9IHF1b3RlLmdldCgn5oiQ5Lqk6aKdJywgMCkNCm9wZW5fcHJpY2UgPSBxdW90ZS5nZXQoJ+W8gOebmCcsIDApDQoNCiMg5YeG5aSHIEvnur/lm77mlbDmja4NCmRmX3Bsb3QgPSBkZl9kYWlseS5jb3B5KCkNCmRmX3Bsb3RbJ+aXpeacnyddID0gcGQudG9fZGF0ZXRpbWUoZGZfcGxvdFsnZGF0ZSddKQ0KZGZfcGxvdFsnTUE1J10gPSBkZl9wbG90WydjbG9zZSddLnJvbGxpbmcod2luZG93PTUpLm1lYW4oKQ0KZGZfcGxvdFsnTUExMCddID0gZGZfcGxvdFsnY2xvc2UnXS5yb2xsaW5nKHdpbmRvdz0xMCkubWVhbigpDQpkZl9wbG90WydNQTIwJ10gPSBkZl9wbG90WydjbG9zZSddLnJvbGxpbmcod2luZG93PTIwKS5tZWFuKCkNCg0KIyBL57q/5Zu+DQpmaWcgPSBnby5GaWd1cmUoZGF0YT1bZ28uQ2FuZGxlc3RpY2soDQogICAgeD1kZl9wbG90Wyfml6XmnJ8nXSwNCiAgICBvcGVuPWRmX3Bsb3RbJ29wZW4nXSwNCiAgICBoaWdoPWRmX3Bsb3RbJ2hpZ2gnXSwNCiAgICBsb3c9ZGZfcGxvdFsnbG93J10sDQogICAgY2xvc2U9ZGZfcGxvdFsnY2xvc2UnXSwNCiAgICBuYW1lPSdL57q/Jw0KKV0pDQpmaWcuYWRkX3RyYWNlKGdvLlNjYXR0ZXIoeD1kZl9wbG90Wyfml6XmnJ8nXSwgeT1kZl9wbG90WydNQTUnXSwgbmFtZT0nTUE1JywgbGluZT1kaWN0KGNvbG9yPSdvcmFuZ2UnLCB3aWR0aD0xKSkpDQpmaWcuYWRkX3RyYWNlKGdvLlNjYXR0ZXIoeD1kZl9wbG90Wyfml6XmnJ8nXSwgeT1kZl9wbG90WydNQTEwJ10sIG5hbWU9J01BMTAnLCBsaW5lPWRpY3QoY29sb3I9J3B1cnBsZScsIHdpZHRoPTEpKSkNCmZpZy5hZGRfdHJhY2UoZ28uU2NhdHRlcih4PWRmX3Bsb3RbJ+aXpeacnyddLCB5PWRmX3Bsb3RbJ01BMjAnXSwgbmFtZT0nTUEyMCcsIGxpbmU9ZGljdChjb2xvcj0nYmx1ZScsIHdpZHRoPTEpKSkNCmZpZy51cGRhdGVfbGF5b3V0KHhheGlzX3Jhbmdlc2xpZGVyX3Zpc2libGU9RmFsc2UsIGhlaWdodD01MDAsIHRlbXBsYXRlPSdwbG90bHlfZGFyaycsIHRpdGxlPSflubPlronpk7booYwoMDAwMDAxKSBL57q/6LWw5Yq/JykNCg0KIyDmiJDkuqTph4/lm74NCmNvbG9ycyA9IFsncmVkJyBpZiBkZl9wbG90Lmlsb2NbaV1bJ2Nsb3NlJ10gPj0gZGZfcGxvdC5pbG9jW2ldWydvcGVuJ10gZWxzZSAnZ3JlZW4nIGZvciBpIGluIHJhbmdlKGxlbihkZl9wbG90KSldDQpmaWdfdm9sID0gZ28uRmlndXJlKGRhdGE9W2dvLkJhcih4PWRmX3Bsb3RbJ+aXpeacnyddLCB5PWRmX3Bsb3RbJ3ZvbHVtZSddLCBtYXJrZXJfY29sb3I9Y29sb3JzLCBuYW1lPSfmiJDkuqTph48nKV0pDQpmaWdfdm9sLnVwZGF0ZV9sYXlvdXQoaGVpZ2h0PTI1MCwgdGVtcGxhdGU9J3Bsb3RseV9kYXJrJywgdGl0bGU9J+aIkOS6pOmHjycpDQoNCiMgUlNJDQpkZWx0YSA9IGRmX3Bsb3RbJ2Nsb3NlJ10uZGlmZigpDQpnYWluID0gKGRlbHRhLndoZXJlKGRlbHRhID4gMCwgMCkpLnJvbGxpbmcod2luZG93PTE0KS5tZWFuKCkNCmxvc3MgPSAoLWRlbHRhLndoZXJlKGRlbHRhIDwgMCwgMCkpLnJvbGxpbmcod2luZG93PTE0KS5tZWFuKCkNCnJzID0gZ2FpbiAvIGxvc3MNCmRmX3Bsb3RbJ1JTSSddID0gMTAwIC0gKDEwMCAvICgxICsgcnMpKQ0KDQojIE1BQ0QNCmV4cDEgPSBkZl9wbG90WydjbG9zZSddLmV3bShzcGFuPTEyLCBhZGp1c3Q9RmFsc2UpLm1lYW4oKQ0KZXhwMiA9IGRmX3Bsb3RbJ2Nsb3NlJ10uZXdtKHNwYW49MjYsIGFkanVzdD1GYWxzZSkubWVhbigpDQpkZl9wbG90WydNQUNEJ10gPSBleHAxIC0gZXhwMg0KZGZfcGxvdFsnU2lnbmFsJ10gPSBkZl9wbG90WydNQUNEJ10uZXdtKHNwYW49OSwgYWRqdXN0PUZhbHNlKS5tZWFuKCkNCmRmX3Bsb3RbJ0hpc3RvZ3JhbSddID0gZGZfcGxvdFsnTUFDRCddIC0gZGZfcGxvdFsnU2lnbmFsJ10NCg0KbGF0ZXN0X3JzaSA9IGRmX3Bsb3RbJ1JTSSddLmlsb2NbLTFdDQpsYXRlc3RfbWFjZCA9IGRmX3Bsb3RbJ01BQ0QnXS5pbG9jWy0xXQ0KbGF0ZXN0X3NpZ25hbCA9IGRmX3Bsb3RbJ1NpZ25hbCddLmlsb2NbLTFdDQoNCiMg55Sf5oiQIEhUTUwNCmNoYW5nZV9jbGFzcyA9ICdwb3NpdGl2ZScgaWYgY2hhbmdlX3BjdCA+IDAgZWxzZSAnbmVnYXRpdmUnDQptYWNkX2NsYXNzID0gJ3Bvc2l0aXZlJyBpZiBsYXRlc3RfbWFjZCA+IGxhdGVzdF9zaWduYWwgZWxzZSAnbmVnYXRpdmUnDQoNCmh0bWwgPSBmJycnPCFET0NUWVBFIGh0bWw+DQo8aHRtbD4NCjxoZWFkPg0KICAgIDx0aXRsZT5UcmFkaW5nQWdlbnRzIOiCoeelqOWIhuaekOaKpeWRijwvdGl0bGU+DQogICAgPHNjcmlwdCBzcmM9Imh0dHBzOi8vY2RuLnBsb3QubHkvcGxvdGx5LWxhdGVzdC5taW4uanMiPjwvc2NyaXB0Pg0KICAgIDxzdHlsZT4NCiAgICAgICAgYm9keSB7eyBmb250LWZhbWlseTogQXJpYWwsIHNhbnMtc2VyaWY7IG1hcmdpbjogMjBweDsgYmFja2dyb3VuZDogIzBlMTExNzsgY29sb3I6ICNmYWZhZmE7IH19DQogICAgICAgIC5oZWFkZXIge3sgdGV4dC1hbGlnbjogY2VudGVyOyBwYWRkaW5nOiAyMHB4OyBiYWNrZ3JvdW5kOiAjMjYyNzMwOyBib3JkZXItcmFkaXVzOiAxMHB4OyBtYXJnaW4tYm90dG9tOiAyMHB4OyB9fQ0KICAgICAgICAuc3RvY2staW5mbyB7eyBkaXNwbGF5OiBmbGV4OyBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDsgcGFkZGluZzogMjBweDsgYmFja2dyb3VuZDogIzI2MjczMDsgYm9yZGVyLXJhZGl1czogMTBweDsgbWFyZ2luLWJvdHRvbTogMjBweDsgfX0NCiAgICAgICAgLm1ldHJpYyB7eyB0ZXh0LWFsaWduOiBjZW50ZXI7IH19DQogICAgICAgIC5tZXRyaWMtdmFsdWUge3sgZm9udC1zaXplOiAyNHB4OyBmb250LXdlaWdodDogYm9sZDsgfX0NCiAgICAgICAgLm1ldHJpYy1sYWJlbCB7eyBmb250LXNpemU6IDE0cHg7IGNvbG9yOiAjYWFhOyB9fQ0KICAgICAgICAucG9zaXRpdmUge3sgY29sb3I6ICNmZjZiNmI7IH19DQogICAgICAgIC5uZWdhdGl2ZSB7eyBjb2xvcjogIzUxY2Y2NjsgfX0NCiAgICAgICAgLmNoYXJ0LWNvbnRhaW5lciB7eyBiYWNrZ3JvdW5kOiAjMjYyNzMwOyBib3JkZXItcmFkaXVzOiAxMHB4OyBwYWRkaW5nOiAxNXB4OyBtYXJnaW4tYm90dG9tOiAyMHB4OyB9fQ0KICAgICAgICAuaW5kaWNhdG9ycyB7eyBkaXNwbGF5OiBmbGV4OyBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDsgcGFkZGluZzogMTVweDsgYmFja2dyb3VuZDogIzI2MjczMDsgYm9yZGVyLXJhZGl1czogMTBweDsgbWFyZ2luLWJvdHRvbTogMjBweDsgfX0NCiAgICA8L3N0eWxlPg0KPC9oZWFkPg0KPGJvZHk+DQogICAgPGRpdiBjbGFzcz0iaGVhZGVyIj4NCiAgICAgICAgPGgxPvCfk4ggVHJhZGluZ0FnZW50cyDogqHnpajliIbmnpDmiqXlkYo8L2gxPg0KICAgICAgICA8cD7lubPlronpk7booYwgKDAwMDAwMSk8L3A+DQogICAgPC9kaXY+DQogICAgDQogICAgPGRpdiBjbGFzcz0ic3RvY2staW5mbyI+DQogICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYyI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRyaWMtdmFsdWUiPsKle2N1cnJlbnRfcHJpY2U6LjJmfTwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0cmljLWxhYmVsIj7lvZPliY3ku7fmoLw8L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYyI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRyaWMtdmFsdWUge2NoYW5nZV9jbGFzc30iPntjaGFuZ2VfcGN0OisuMmZ9JTwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0cmljLWxhYmVsIj7mtqjot4zluYU8L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYyI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRyaWMtdmFsdWUiPnt2b2x1bWUvMTAwMDA6LjJmfeS4hzwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0cmljLWxhYmVsIj7miJDkuqTph488L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYyI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRyaWMtdmFsdWUiPsKle2Ftb3VudC8xMDAwMDAwMDA6LjJmfeS6vzwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBjbGFzcz0ibWV0cmljLWxhYmVsIj7miJDkuqTpop08L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgPC9kaXY+DQogICAgDQogICAgPGRpdiBjbGFzcz0iaW5kaWNhdG9ycyI+DQogICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYyI+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRyaWMtdmFsdWUiPntsYXRlc3RfcnNpOi4yZn08L2Rpdj4NCiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYy1sYWJlbCI+UlNJKDE0KTwvZGl2Pg0KICAgICAgICA8L2Rpdj4NCiAgICAgICAgPGRpdiBjbGFzcz0ibWV0cmljIj4NCiAgICAgICAgICAgIDxkaXYgY2xhc3M9Im1ldHJpYy12YWx1ZSB7bWFjZF9jbGFzc30iPntsYXRlc3RfbWFjZDouNGZ9PC9kaXY+DQogICAgICAgICAgICA8ZGl2IGNsYXNzPSJtZXRyaWMtbGFiZWwiPk1BQ0Q8L2Rpdj4NCiAgICAgICAgPC9kaXY+DQogICAgPC9kaXY+DQogICAgDQogICAgPGRpdiBjbGFzcz0iY2hhcnQtY29udGFpbmVyIj4NCiAgICAgICAgPGRpdiBpZD0ia2xpbmUiPjwvZGl2Pg0KICAgIDwvZGl2Pg0KICAgIA0KICAgIDxkaXYgY2xhc3M9ImNoYXJ0LWNvbnRhaW5lciI+DQogICAgICAgIDxkaXYgaWQ9InZvbHVtZSI+PC9kaXY+DQogICAgPC9kaXY+DQogICAgDQogICAgPHNjcmlwdD4NCiAgICAgICAgdmFyIGtsaW5lRGF0YSA9IHtmaWcudG9fanNvbigpfTsNCiAgICAgICAgUGxvdGx5Lm5ld1Bsb3QoJ2tsaW5lJywga2xpbmVEYXRhLmRhdGEsIGtsaW5lRGF0YS5sYXlvdXQpOw0KICAgICAgICANCiAgICAgICAgdmFyIHZvbERhdGEgPSB7ZmlnX3ZvbC50b19qc29uKCl9Ow0KICAgICAgICBQbG90bHkubmV3UGxvdCgndm9sdW1lJywgdm9sRGF0YS5kYXRhLCB2b2xEYXRhLmxheW91dCk7DQogICAgPC9zY3JpcHQ+DQo8L2JvZHk+DQo8L2h0bWw+JycnDQoNCndpdGggb3Blbignc3RvY2tfcmVwb3J0Lmh0bWwnLCAndycsIGVuY29kaW5nPSd1dGYtOCcpIGFzIGY6DQogICAgZi53cml0ZShodG1sKQ0KDQpwcmludCgn5oql5ZGK5bey55Sf5oiQOiBzdG9ja19yZXBvcnQuaHRtbCcpDQo=
+"""
+生成股票分析报告 HTML
+"""
+import pandas as pd
+import numpy as np
+from datetime import datetime, timedelta
+import plotly.graph_objects as go
+from plotly.subplots import make_subplots
+from tradingagents.dataflows import akshare_utils as aks
+
+# 获取数据
+ticker = '000001'
+days = 90
+end_date = datetime.now().strftime("%Y%m%d")
+start_date_obj = datetime.now() - timedelta(days=days)
+start_date = start_date_obj.strftime("%Y%m%d")
+
+df_daily = aks.get_stock_daily(ticker, start_date, end_date)
+df_quote = aks.get_stock_realtime_quote(ticker)
+
+quote = df_quote.iloc[0]
+current_price = quote.get('最新价', 0)
+change_pct = quote.get('涨跌幅', 0)
+volume = quote.get('成交量', 0)
+amount = quote.get('成交额', 0)
+open_price = quote.get('开盘', 0)
+
+# 准备 K线图数据
+df_plot = df_daily.copy()
+df_plot['日期'] = pd.to_datetime(df_plot['date'])
+df_plot['MA5'] = df_plot['close'].rolling(window=5).mean()
+df_plot['MA10'] = df_plot['close'].rolling(window=10).mean()
+df_plot['MA20'] = df_plot['close'].rolling(window=20).mean()
+
+# K线图
+fig = go.Figure(data=[go.Candlestick(
+    x=df_plot['日期'],
+    open=df_plot['open'],
+    high=df_plot['high'],
+    low=df_plot['low'],
+    close=df_plot['close'],
+    name='K线'
+)])
+fig.add_trace(go.Scatter(x=df_plot['日期'], y=df_plot['MA5'], name='MA5', line=dict(color='orange', width=1)))
+fig.add_trace(go.Scatter(x=df_plot['日期'], y=df_plot['MA10'], name='MA10', line=dict(color='purple', width=1)))
+fig.add_trace(go.Scatter(x=df_plot['日期'], y=df_plot['MA20'], name='MA20', line=dict(color='blue', width=1)))
+fig.update_layout(xaxis_rangeslider_visible=False, height=500, template='plotly_dark', title='平安银行(000001) K线走势')
+
+# 成交量图
+colors = ['red' if df_plot.iloc[i]['close'] >= df_plot.iloc[i]['open'] else 'green' for i in range(len(df_plot))]
+fig_vol = go.Figure(data=[go.Bar(x=df_plot['日期'], y=df_plot['volume'], marker_color=colors, name='成交量')])
+fig_vol.update_layout(height=250, template='plotly_dark', title='成交量')
+
+# RSI
+delta = df_plot['close'].diff()
+gain = (delta.where(delta > 0, 0)).rolling(window=14).mean()
+loss = (-delta.where(delta < 0, 0)).rolling(window=14).mean()
+rs = gain / loss
+df_plot['RSI'] = 100 - (100 / (1 + rs))
+
+# MACD
+exp1 = df_plot['close'].ewm(span=12, adjust=False).mean()
+exp2 = df_plot['close'].ewm(span=26, adjust=False).mean()
+df_plot['MACD'] = exp1 - exp2
+df_plot['Signal'] = df_plot['MACD'].ewm(span=9, adjust=False).mean()
+df_plot['Histogram'] = df_plot['MACD'] - df_plot['Signal']
+
+latest_rsi = df_plot['RSI'].iloc[-1]
+latest_macd = df_plot['MACD'].iloc[-1]
+latest_signal = df_plot['Signal'].iloc[-1]
+
+# 生成 HTML
+change_class = 'positive' if change_pct > 0 else 'negative'
+macd_class = 'positive' if latest_macd > latest_signal else 'negative'
+
+html = f'''<!DOCTYPE html>
+<html>
+<head>
+    <title>TradingAgents 股票分析报告</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <style>
+        body {{ font-family: Arial, sans-serif; margin: 20px; background: #0e1117; color: #fafafa; }}
+        .header {{ text-align: center; padding: 20px; background: #262730; border-radius: 10px; margin-bottom: 20px; }}
+        .stock-info {{ display: flex; justify-content: space-around; padding: 20px; background: #262730; border-radius: 10px; margin-bottom: 20px; }}
+        .metric {{ text-align: center; }}
+        .metric-value {{ font-size: 24px; font-weight: bold; }}
+        .metric-label {{ font-size: 14px; color: #aaa; }}
+        .positive {{ color: #ff6b6b; }}
+        .negative {{ color: #51cf66; }}
+        .chart-container {{ background: #262730; border-radius: 10px; padding: 15px; margin-bottom: 20px; }}
+        .indicators {{ display: flex; justify-content: space-around; padding: 15px; background: #262730; border-radius: 10px; margin-bottom: 20px; }}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>📈 TradingAgents 股票分析报告</h1>
+        <p>平安银行 (000001)</p>
+    </div>
+    
+    <div class="stock-info">
+        <div class="metric">
+            <div class="metric-value">¥{current_price:.2f}</div>
+            <div class="metric-label">当前价格</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value {change_class}">{change_pct:+.2f}%</div>
+            <div class="metric-label">涨跌幅</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">{volume/10000:.2f}万</div>
+            <div class="metric-label">成交量</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value">¥{amount/100000000:.2f}亿</div>
+            <div class="metric-label">成交额</div>
+        </div>
+    </div>
+    
+    <div class="indicators">
+        <div class="metric">
+            <div class="metric-value">{latest_rsi:.2f}</div>
+            <div class="metric-label">RSI(14)</div>
+        </div>
+        <div class="metric">
+            <div class="metric-value {macd_class}">{latest_macd:.4f}</div>
+            <div class="metric-label">MACD</div>
+        </div>
+    </div>
+    
+    <div class="chart-container">
+        <div id="kline"></div>
+    </div>
+    
+    <div class="chart-container">
+        <div id="volume"></div>
+    </div>
+    
+    <script>
+        var klineData = {fig.to_json()};
+        Plotly.newPlot('kline', klineData.data, klineData.layout);
+        
+        var volData = {fig_vol.to_json()};
+        Plotly.newPlot('volume', volData.data, volData.layout);
+    </script>
+</body>
+</html>'''
+
+with open('stock_report.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+
+print('报告已生成: stock_report.html')

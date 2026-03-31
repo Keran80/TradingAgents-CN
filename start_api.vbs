@@ -1,1 +1,3 @@
-JyBTdGFydCBGbGFzayBzZXJ2ZXIgaW4gYmFja2dyb3VuZA0KU2V0IFdzaFNoZWxsID0gQ3JlYXRlT2JqZWN0KCJXU2NyaXB0LlNoZWxsIikNCldzaFNoZWxsLlJ1biAiY21kIC9rIGNkIC9kIGM6XFVzZXJzXDEzOTA1XFdvcmtCdWRkeVxDbGF3XFRyYWRpbmdBZ2VudHMtQ04gJiYgcHl0aG9uIHdlYl9hcGkucHkiLCAwLCBGYWxzZQ0K
+' Start Flask server in background
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "cmd /k cd /d c:\Users\13905\WorkBuddy\Claw\TradingAgents-CN && python web_api.py", 0, False

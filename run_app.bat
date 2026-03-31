@@ -1,1 +1,4 @@
-QGVjaG8gb2ZmDQpjZCAvZCAiJX5kcDAiDQpweXRob24gLW0gc3RyZWFtbGl0IHJ1biBhcHBfc3RyZWFtbGl0LnB5IC0tc2VydmVyLnBvcnQgODUwMQ0KcGF1c2UNCg==
+@echo off
+cd /d "%~dp0"
+python -m streamlit run app_streamlit.py --server.port 8501
+pause

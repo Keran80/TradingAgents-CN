@@ -1,1 +1,77 @@
-77u/ZnJvbSB0eXBpbmcgaW1wb3J0IEFubm90YXRlZCwgU2VxdWVuY2UKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZSwgdGltZWRlbHRhLCBkYXRldGltZQpmcm9tIHR5cGluZ19leHRlbnNpb25zIGltcG9ydCBUeXBlZERpY3QsIE9wdGlvbmFsCmZyb20gbGFuZ2NoYWluX29wZW5haSBpbXBvcnQgQ2hhdE9wZW5BSQpmcm9tIHRyYWRpbmdhZ2VudHMuYWdlbnRzIGltcG9ydCAqCmZyb20gbGFuZ2dyYXBoLnByZWJ1aWx0IGltcG9ydCBUb29sTm9kZQpmcm9tIGxhbmdncmFwaC5ncmFwaCBpbXBvcnQgRU5ELCBTdGF0ZUdyYXBoLCBTVEFSVCwgTWVzc2FnZXNTdGF0ZQoKCiMgUmVzZWFyY2hlciB0ZWFtIHN0YXRlCmNsYXNzIEludmVzdERlYmF0ZVN0YXRlKFR5cGVkRGljdCk6CiAgICBidWxsX2hpc3Rvcnk6IEFubm90YXRlZFsKICAgICAgICBzdHIsICJCdWxsaXNoIENvbnZlcnNhdGlvbiBoaXN0b3J5IgogICAgXSAgIyBCdWxsaXNoIENvbnZlcnNhdGlvbiBoaXN0b3J5CiAgICBiZWFyX2hpc3Rvcnk6IEFubm90YXRlZFsKICAgICAgICBzdHIsICJCZWFyaXNoIENvbnZlcnNhdGlvbiBoaXN0b3J5IgogICAgXSAgIyBCdWxsaXNoIENvbnZlcnNhdGlvbiBoaXN0b3J5CiAgICBoaXN0b3J5OiBBbm5vdGF0ZWRbc3RyLCAiQ29udmVyc2F0aW9uIGhpc3RvcnkiXSAgIyBDb252ZXJzYXRpb24gaGlzdG9yeQogICAgY3VycmVudF9yZXNwb25zZTogQW5ub3RhdGVkW3N0ciwgIkxhdGVzdCByZXNwb25zZSJdICAjIExhc3QgcmVzcG9uc2UKICAgIGp1ZGdlX2RlY2lzaW9uOiBBbm5vdGF0ZWRbc3RyLCAiRmluYWwganVkZ2UgZGVjaXNpb24iXSAgIyBMYXN0IHJlc3BvbnNlCiAgICBjb3VudDogQW5ub3RhdGVkW2ludCwgIkxlbmd0aCBvZiB0aGUgY3VycmVudCBjb252ZXJzYXRpb24iXSAgIyBDb252ZXJzYXRpb24gbGVuZ3RoCgoKIyBSaXNrIG1hbmFnZW1lbnQgdGVhbSBzdGF0ZQpjbGFzcyBSaXNrRGViYXRlU3RhdGUoVHlwZWREaWN0KToKICAgIHJpc2t5X2hpc3Rvcnk6IEFubm90YXRlZFsKICAgICAgICBzdHIsICJSaXNreSBBZ2VudCdzIENvbnZlcnNhdGlvbiBoaXN0b3J5IgogICAgXSAgIyBDb252ZXJzYXRpb24gaGlzdG9yeQogICAgc2FmZV9oaXN0b3J5OiBBbm5vdGF0ZWRbCiAgICAgICAgc3RyLCAiU2FmZSBBZ2VudCdzIENvbnZlcnNhdGlvbiBoaXN0b3J5IgogICAgXSAgIyBDb252ZXJzYXRpb24gaGlzdG9yeQogICAgbmV1dHJhbF9oaXN0b3J5OiBBbm5vdGF0ZWRbCiAgICAgICAgc3RyLCAiTmV1dHJhbCBBZ2VudCdzIENvbnZlcnNhdGlvbiBoaXN0b3J5IgogICAgXSAgIyBDb252ZXJzYXRpb24gaGlzdG9yeQogICAgaGlzdG9yeTogQW5ub3RhdGVkW3N0ciwgIkNvbnZlcnNhdGlvbiBoaXN0b3J5Il0gICMgQ29udmVyc2F0aW9uIGhpc3RvcnkKICAgIGxhdGVzdF9zcGVha2VyOiBBbm5vdGF0ZWRbc3RyLCAiQW5hbHlzdCB0aGF0IHNwb2tlIGxhc3QiXQogICAgY3VycmVudF9yaXNreV9yZXNwb25zZTogQW5ub3RhdGVkWwogICAgICAgIHN0ciwgIkxhdGVzdCByZXNwb25zZSBieSB0aGUgcmlza3kgYW5hbHlzdCIKICAgIF0gICMgTGFzdCByZXNwb25zZQogICAgY3VycmVudF9zYWZlX3Jlc3BvbnNlOiBBbm5vdGF0ZWRbCiAgICAgICAgc3RyLCAiTGF0ZXN0IHJlc3BvbnNlIGJ5IHRoZSBzYWZlIGFuYWx5c3QiCiAgICBdICAjIExhc3QgcmVzcG9uc2UKICAgIGN1cnJlbnRfbmV1dHJhbF9yZXNwb25zZTogQW5ub3RhdGVkWwogICAgICAgIHN0ciwgIkxhdGVzdCByZXNwb25zZSBieSB0aGUgbmV1dHJhbCBhbmFseXN0IgogICAgXSAgIyBMYXN0IHJlc3BvbnNlCiAgICBqdWRnZV9kZWNpc2lvbjogQW5ub3RhdGVkW3N0ciwgIkp1ZGdlJ3MgZGVjaXNpb24iXQogICAgY291bnQ6IEFubm90YXRlZFtpbnQsICJMZW5ndGggb2YgdGhlIGN1cnJlbnQgY29udmVyc2F0aW9uIl0gICMgQ29udmVyc2F0aW9uIGxlbmd0aAoKCmNsYXNzIEFnZW50U3RhdGUoTWVzc2FnZXNTdGF0ZSk6CiAgICBjb21wYW55X29mX2ludGVyZXN0OiBBbm5vdGF0ZWRbc3RyLCAiQ29tcGFueSB0aGF0IHdlIGFyZSBpbnRlcmVzdGVkIGluIHRyYWRpbmciXQogICAgdHJhZGVfZGF0ZTogQW5ub3RhdGVkW3N0ciwgIldoYXQgZGF0ZSB3ZSBhcmUgdHJhZGluZyBhdCJdCgogICAgc2VuZGVyOiBBbm5vdGF0ZWRbc3RyLCAiQWdlbnQgdGhhdCBzZW50IHRoaXMgbWVzc2FnZSJdCgogICAgIyByZXNlYXJjaCBzdGVwCiAgICBtYXJrZXRfcmVwb3J0OiBBbm5vdGF0ZWRbc3RyLCAiUmVwb3J0IGZyb20gdGhlIE1hcmtldCBBbmFseXN0Il0KICAgIHNlbnRpbWVudF9yZXBvcnQ6IEFubm90YXRlZFtzdHIsICJSZXBvcnQgZnJvbSB0aGUgU29jaWFsIE1lZGlhIEFuYWx5c3QiXQogICAgbmV3c19yZXBvcnQ6IEFubm90YXRlZFsKICAgICAgICBzdHIsICJSZXBvcnQgZnJvbSB0aGUgTmV3cyBSZXNlYXJjaGVyIG9mIGN1cnJlbnQgd29ybGQgYWZmYWlycyIKICAgIF0KICAgIGZ1bmRhbWVudGFsc19yZXBvcnQ6IEFubm90YXRlZFtzdHIsICJSZXBvcnQgZnJvbSB0aGUgRnVuZGFtZW50YWxzIFJlc2VhcmNoZXIiXQoKICAgICMgcmVzZWFyY2hlciB0ZWFtIGRpc2N1c3Npb24gc3RlcAogICAgaW52ZXN0bWVudF9kZWJhdGVfc3RhdGU6IEFubm90YXRlZFsKICAgICAgICBJbnZlc3REZWJhdGVTdGF0ZSwgIkN1cnJlbnQgc3RhdGUgb2YgdGhlIGRlYmF0ZSBvbiBpZiB0byBpbnZlc3Qgb3Igbm90IgogICAgXQogICAgaW52ZXN0bWVudF9wbGFuOiBBbm5vdGF0ZWRbc3RyLCAiUGxhbiBnZW5lcmF0ZWQgYnkgdGhlIEFuYWx5c3QiXQoKICAgIHRyYWRlcl9pbnZlc3RtZW50X3BsYW46IEFubm90YXRlZFtzdHIsICJQbGFuIGdlbmVyYXRlZCBieSB0aGUgVHJhZGVyIl0KCiAgICAjIHJpc2sgbWFuYWdlbWVudCB0ZWFtIGRpc2N1c3Npb24gc3RlcAogICAgcmlza19kZWJhdGVfc3RhdGU6IEFubm90YXRlZFsKICAgICAgICBSaXNrRGViYXRlU3RhdGUsICJDdXJyZW50IHN0YXRlIG9mIHRoZSBkZWJhdGUgb24gZXZhbHVhdGluZyByaXNrIgogICAgXQogICAgZmluYWxfdHJhZGVfZGVjaXNpb246IEFubm90YXRlZFtzdHIsICJGaW5hbCBkZWNpc2lvbiBtYWRlIGJ5IHRoZSBSaXNrIEFuYWx5c3RzIl0KDQo=
+﻿from typing import Annotated, Sequence
+from datetime import date, timedelta, datetime
+from typing_extensions import TypedDict, Optional
+from langchain_openai import ChatOpenAI
+from tradingagents.agents import *
+from langgraph.prebuilt import ToolNode
+from langgraph.graph import END, StateGraph, START, MessagesState
+
+
+# Researcher team state
+class InvestDebateState(TypedDict):
+    bull_history: Annotated[
+        str, "Bullish Conversation history"
+    ]  # Bullish Conversation history
+    bear_history: Annotated[
+        str, "Bearish Conversation history"
+    ]  # Bullish Conversation history
+    history: Annotated[str, "Conversation history"]  # Conversation history
+    current_response: Annotated[str, "Latest response"]  # Last response
+    judge_decision: Annotated[str, "Final judge decision"]  # Last response
+    count: Annotated[int, "Length of the current conversation"]  # Conversation length
+
+
+# Risk management team state
+class RiskDebateState(TypedDict):
+    risky_history: Annotated[
+        str, "Risky Agent's Conversation history"
+    ]  # Conversation history
+    safe_history: Annotated[
+        str, "Safe Agent's Conversation history"
+    ]  # Conversation history
+    neutral_history: Annotated[
+        str, "Neutral Agent's Conversation history"
+    ]  # Conversation history
+    history: Annotated[str, "Conversation history"]  # Conversation history
+    latest_speaker: Annotated[str, "Analyst that spoke last"]
+    current_risky_response: Annotated[
+        str, "Latest response by the risky analyst"
+    ]  # Last response
+    current_safe_response: Annotated[
+        str, "Latest response by the safe analyst"
+    ]  # Last response
+    current_neutral_response: Annotated[
+        str, "Latest response by the neutral analyst"
+    ]  # Last response
+    judge_decision: Annotated[str, "Judge's decision"]
+    count: Annotated[int, "Length of the current conversation"]  # Conversation length
+
+
+class AgentState(MessagesState):
+    company_of_interest: Annotated[str, "Company that we are interested in trading"]
+    trade_date: Annotated[str, "What date we are trading at"]
+
+    sender: Annotated[str, "Agent that sent this message"]
+
+    # research step
+    market_report: Annotated[str, "Report from the Market Analyst"]
+    sentiment_report: Annotated[str, "Report from the Social Media Analyst"]
+    news_report: Annotated[
+        str, "Report from the News Researcher of current world affairs"
+    ]
+    fundamentals_report: Annotated[str, "Report from the Fundamentals Researcher"]
+
+    # researcher team discussion step
+    investment_debate_state: Annotated[
+        InvestDebateState, "Current state of the debate on if to invest or not"
+    ]
+    investment_plan: Annotated[str, "Plan generated by the Analyst"]
+
+    trader_investment_plan: Annotated[str, "Plan generated by the Trader"]
+
+    # risk management team discussion step
+    risk_debate_state: Annotated[
+        RiskDebateState, "Current state of the debate on evaluating risk"
+    ]
+    final_trade_decision: Annotated[str, "Final decision made by the Risk Analysts"]
+

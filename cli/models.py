@@ -1,1 +1,11 @@
-77u/ZnJvbSBlbnVtIGltcG9ydCBFbnVtCmZyb20gdHlwaW5nIGltcG9ydCBMaXN0LCBPcHRpb25hbCwgRGljdApmcm9tIHB5ZGFudGljIGltcG9ydCBCYXNlTW9kZWwKCgpjbGFzcyBBbmFseXN0VHlwZShzdHIsIEVudW0pOgogICAgTUFSS0VUID0gIm1hcmtldCIKICAgIFNPQ0lBTCA9ICJzb2NpYWwiCiAgICBORVdTID0gIm5ld3MiCiAgICBGVU5EQU1FTlRBTFMgPSAiZnVuZGFtZW50YWxzIgoNCg==
+﻿from enum import Enum
+from typing import List, Optional, Dict
+from pydantic import BaseModel
+
+
+class AnalystType(str, Enum):
+    MARKET = "market"
+    SOCIAL = "social"
+    NEWS = "news"
+    FUNDAMENTALS = "fundamentals"
+

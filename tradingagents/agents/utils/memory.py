@@ -1,1 +1,157 @@
-77u/aW1wb3J0IGNocm9tYWRiCmZyb20gY2hyb21hZGIuY29uZmlnIGltcG9ydCBTZXR0aW5ncwpmcm9tIG9wZW5haSBpbXBvcnQgT3BlbkFJCmZyb20gZnVuY3Rvb2xzIGltcG9ydCBscnVfY2FjaGUKZnJvbSB0eXBpbmcgaW1wb3J0IERpY3QsIEFueSwgTGlzdCwgVHVwbGUKaW1wb3J0IGhhc2hsaWIKaW1wb3J0IHRocmVhZGluZwoKCiMg5qih5Z2X57qn5Yir55qEIEVtYmVkZGluZyDnvJPlrZjvvIjot6jlrp7kvovlhbHkuqvvvIkKX2VtYmVkZGluZ19jYWNoZTogRGljdFtzdHIsIFR1cGxlW3N0ciwgTGlzdFtmbG9hdF1dXSA9IHt9Cl9jYWNoZV9sb2NrID0gdGhyZWFkaW5nLkxvY2soKQoKCmNsYXNzIEZpbmFuY2lhbFNpdHVhdGlvbk1lbW9yeToKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBuYW1lLCBjb25maWcpOgogICAgICAgIGlmIGNvbmZpZ1siYmFja2VuZF91cmwiXSA9PSAiaHR0cDovL2xvY2FsaG9zdDoxMTQzNC92MSI6CiAgICAgICAgICAgIHNlbGYuZW1iZWRkaW5nID0gIm5vbWljLWVtYmVkLXRleHQiCiAgICAgICAgZWxzZToKICAgICAgICAgICAgc2VsZi5lbWJlZGRpbmcgPSAidGV4dC1lbWJlZGRpbmctMy1zbWFsbCIKICAgICAgICBzZWxmLmNsaWVudCA9IE9wZW5BSShiYXNlX3VybD1jb25maWdbImJhY2tlbmRfdXJsIl0pCiAgICAgICAgc2VsZi5jaHJvbWFfY2xpZW50ID0gY2hyb21hZGIuQ2xpZW50KFNldHRpbmdzKGFsbG93X3Jlc2V0PVRydWUpKQogICAgICAgIHNlbGYuc2l0dWF0aW9uX2NvbGxlY3Rpb24gPSBzZWxmLmNocm9tYV9jbGllbnQuY3JlYXRlX2NvbGxlY3Rpb24obmFtZT1uYW1lKQogICAgICAgIHNlbGYuX2VtYmVkZGluZ19jYWNoZTogRGljdFtzdHIsIExpc3RbZmxvYXRdXSA9IHt9CgogICAgZGVmIF9nZXRfY2FjaGVfa2V5KHNlbGYsIHRleHQ6IHN0cikgLT4gc3RyOgogICAgICAgICIiIueUn+aIkOe8k+WtmOmUru+8iOS9v+eUqOaWh+acrOWTiOW4jO+8iSIiIgogICAgICAgIHJldHVybiBoYXNobGliLm1kNSh0ZXh0LmVuY29kZSgpKS5oZXhkaWdlc3QoKQoKICAgIGRlZiBnZXRfZW1iZWRkaW5nKHNlbGYsIHRleHQ6IHN0cikgLT4gTGlzdFtmbG9hdF06CiAgICAgICAgIiIiR2V0IE9wZW5BSSBlbWJlZGRpbmcgZm9yIGEgdGV4dCAo5bim57yT5a2YKSIiIgogICAgICAgIAogICAgICAgIGNhY2hlX2tleSA9IHNlbGYuX2dldF9jYWNoZV9rZXkodGV4dCkKICAgICAgICAKICAgICAgICAjIOWFiOajgOafpeWunuS+i+e8k+WtmAogICAgICAgIGlmIGNhY2hlX2tleSBpbiBzZWxmLl9lbWJlZGRpbmdfY2FjaGU6CiAgICAgICAgICAgIHJldHVybiBzZWxmLl9lbWJlZGRpbmdfY2FjaGVbY2FjaGVfa2V5XQogICAgICAgIAogICAgICAgICMg5YaN5qOA5p+l5YWo5bGA57yT5a2YCiAgICAgICAgZ2xvYmFsX2tleSA9IGYie3NlbGYuZW1iZWRkaW5nfTp7Y2FjaGVfa2V5fSIKICAgICAgICB3aXRoIF9jYWNoZV9sb2NrOgogICAgICAgICAgICBpZiBnbG9iYWxfa2V5IGluIF9lbWJlZGRpbmdfY2FjaGU6CiAgICAgICAgICAgICAgICBjYWNoZWRfZW1iZWRkaW5nID0gX2VtYmVkZGluZ19jYWNoZVtnbG9iYWxfa2V5XVsxXQogICAgICAgICAgICAgICAgc2VsZi5fZW1iZWRkaW5nX2NhY2hlW2NhY2hlX2tleV0gPSBjYWNoZWRfZW1iZWRkaW5nCiAgICAgICAgICAgICAgICByZXR1cm4gY2FjaGVkX2VtYmVkZGluZwogICAgICAgIAogICAgICAgICMg6LCD55SoIEFQSSDojrflj5YKICAgICAgICByZXNwb25zZSA9IHNlbGYuY2xpZW50LmVtYmVkZGluZ3MuY3JlYXRlKAogICAgICAgICAgICBtb2RlbD1zZWxmLmVtYmVkZGluZywgaW5wdXQ9dGV4dAogICAgICAgICkKICAgICAgICBlbWJlZGRpbmcgPSByZXNwb25zZS5kYXRhWzBdLmVtYmVkZGluZwogICAgICAgIAogICAgICAgICMg5a2Y5YWl57yT5a2YCiAgICAgICAgc2VsZi5fZW1iZWRkaW5nX2NhY2hlW2NhY2hlX2tleV0gPSBlbWJlZGRpbmcKICAgICAgICB3aXRoIF9jYWNoZV9sb2NrOgogICAgICAgICAgICBfZW1iZWRkaW5nX2NhY2hlW2dsb2JhbF9rZXldID0gKHNlbGYuZW1iZWRkaW5nLCBlbWJlZGRpbmcpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIGVtYmVkZGluZwoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBjbGVhcl9lbWJlZGRpbmdfY2FjaGUoKToKICAgICAgICAiIiLmuIXpmaTmiYDmnIkgRW1iZWRkaW5nIOe8k+WtmCIiIgogICAgICAgIGdsb2JhbCBfZW1iZWRkaW5nX2NhY2hlCiAgICAgICAgd2l0aCBfY2FjaGVfbG9jazoKICAgICAgICAgICAgX2VtYmVkZGluZ19jYWNoZS5jbGVhcigpCgogICAgZGVmIGFkZF9zaXR1YXRpb25zKHNlbGYsIHNpdHVhdGlvbnNfYW5kX2FkdmljZSk6CiAgICAgICAgIiIiQWRkIGZpbmFuY2lhbCBzaXR1YXRpb25zIGFuZCB0aGVpciBjb3JyZXNwb25kaW5nIGFkdmljZS4gUGFyYW1ldGVyIGlzIGEgbGlzdCBvZiB0dXBsZXMgKHNpdHVhdGlvbiwgcmVjKSIiIgoKICAgICAgICBzaXR1YXRpb25zID0gW10KICAgICAgICBhZHZpY2UgPSBbXQogICAgICAgIGlkcyA9IFtdCiAgICAgICAgZW1iZWRkaW5ncyA9IFtdCgogICAgICAgIG9mZnNldCA9IHNlbGYuc2l0dWF0aW9uX2NvbGxlY3Rpb24uY291bnQoKQoKICAgICAgICBmb3IgaSwgKHNpdHVhdGlvbiwgcmVjb21tZW5kYXRpb24pIGluIGVudW1lcmF0ZShzaXR1YXRpb25zX2FuZF9hZHZpY2UpOgogICAgICAgICAgICBzaXR1YXRpb25zLmFwcGVuZChzaXR1YXRpb24pCiAgICAgICAgICAgIGFkdmljZS5hcHBlbmQocmVjb21tZW5kYXRpb24pCiAgICAgICAgICAgIGlkcy5hcHBlbmQoc3RyKG9mZnNldCArIGkpKQogICAgICAgICAgICBlbWJlZGRpbmdzLmFwcGVuZChzZWxmLmdldF9lbWJlZGRpbmcoc2l0dWF0aW9uKSkKCiAgICAgICAgc2VsZi5zaXR1YXRpb25fY29sbGVjdGlvbi5hZGQoCiAgICAgICAgICAgIGRvY3VtZW50cz1zaXR1YXRpb25zLAogICAgICAgICAgICBtZXRhZGF0YXM9W3sicmVjb21tZW5kYXRpb24iOiByZWN9IGZvciByZWMgaW4gYWR2aWNlXSwKICAgICAgICAgICAgZW1iZWRkaW5ncz1lbWJlZGRpbmdzLAogICAgICAgICAgICBpZHM9aWRzLAogICAgICAgICkKCiAgICBkZWYgZ2V0X21lbW9yaWVzKHNlbGYsIGN1cnJlbnRfc2l0dWF0aW9uLCBuX21hdGNoZXM9MSk6CiAgICAgICAgIiIiRmluZCBtYXRjaGluZyByZWNvbW1lbmRhdGlvbnMgdXNpbmcgT3BlbkFJIGVtYmVkZGluZ3MiIiIKICAgICAgICBxdWVyeV9lbWJlZGRpbmcgPSBzZWxmLmdldF9lbWJlZGRpbmcoY3VycmVudF9zaXR1YXRpb24pCgogICAgICAgIHJlc3VsdHMgPSBzZWxmLnNpdHVhdGlvbl9jb2xsZWN0aW9uLnF1ZXJ5KAogICAgICAgICAgICBxdWVyeV9lbWJlZGRpbmdzPVtxdWVyeV9lbWJlZGRpbmddLAogICAgICAgICAgICBuX3Jlc3VsdHM9bl9tYXRjaGVzLAogICAgICAgICAgICBpbmNsdWRlPVsibWV0YWRhdGFzIiwgImRvY3VtZW50cyIsICJkaXN0YW5jZXMiXSwKICAgICAgICApCgogICAgICAgIG1hdGNoZWRfcmVzdWx0cyA9IFtdCiAgICAgICAgZm9yIGkgaW4gcmFuZ2UobGVuKHJlc3VsdHNbImRvY3VtZW50cyJdWzBdKSk6CiAgICAgICAgICAgIG1hdGNoZWRfcmVzdWx0cy5hcHBlbmQoCiAgICAgICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAgICAgIm1hdGNoZWRfc2l0dWF0aW9uIjogcmVzdWx0c1siZG9jdW1lbnRzIl1bMF1baV0sCiAgICAgICAgICAgICAgICAgICAgInJlY29tbWVuZGF0aW9uIjogcmVzdWx0c1sibWV0YWRhdGFzIl1bMF1baV1bInJlY29tbWVuZGF0aW9uIl0sCiAgICAgICAgICAgICAgICAgICAgInNpbWlsYXJpdHlfc2NvcmUiOiAxIC0gcmVzdWx0c1siZGlzdGFuY2VzIl1bMF1baV0sCiAgICAgICAgICAgICAgICB9CiAgICAgICAgICAgICkKCiAgICAgICAgcmV0dXJuIG1hdGNoZWRfcmVzdWx0cwoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgICAjIEV4YW1wbGUgdXNhZ2UKICAgIG1hdGNoZXIgPSBGaW5hbmNpYWxTaXR1YXRpb25NZW1vcnkoKQoKICAgICMgRXhhbXBsZSBkYXRhCiAgICBleGFtcGxlX2RhdGEgPSBbCiAgICAgICAgKAogICAgICAgICAgICAiSGlnaCBpbmZsYXRpb24gcmF0ZSB3aXRoIHJpc2luZyBpbnRlcmVzdCByYXRlcyBhbmQgZGVjbGluaW5nIGNvbnN1bWVyIHNwZW5kaW5nIiwKICAgICAgICAgICAgIkNvbnNpZGVyIGRlZmVuc2l2ZSBzZWN0b3JzIGxpa2UgY29uc3VtZXIgc3RhcGxlcyBhbmQgdXRpbGl0aWVzLiBSZXZpZXcgZml4ZWQtaW5jb21lIHBvcnRmb2xpbyBkdXJhdGlvbi4iLAogICAgICAgICksCiAgICAgICAgKAogICAgICAgICAgICAiVGVjaCBzZWN0b3Igc2hvd2luZyBoaWdoIHZvbGF0aWxpdHkgd2l0aCBpbmNyZWFzaW5nIGluc3RpdHV0aW9uYWwgc2VsbGluZyBwcmVzc3VyZSIsCiAgICAgICAgICAgICJSZWR1Y2UgZXhwb3N1cmUgdG8gaGlnaC1ncm93dGggdGVjaCBzdG9ja3MuIExvb2sgZm9yIHZhbHVlIG9wcG9ydHVuaXRpZXMgaW4gZXN0YWJsaXNoZWQgdGVjaCBjb21wYW5pZXMgd2l0aCBzdHJvbmcgY2FzaCBmbG93cy4iLAogICAgICAgICksCiAgICAgICAgKAogICAgICAgICAgICAiU3Ryb25nIGRvbGxhciBhZmZlY3RpbmcgZW1lcmdpbmcgbWFya2V0cyB3aXRoIGluY3JlYXNpbmcgZm9yZXggdm9sYXRpbGl0eSIsCiAgICAgICAgICAgICJIZWRnZSBjdXJyZW5jeSBleHBvc3VyZSBpbiBpbnRlcm5hdGlvbmFsIHBvc2l0aW9ucy4gQ29uc2lkZXIgcmVkdWNpbmcgYWxsb2NhdGlvbiB0byBlbWVyZ2luZyBtYXJrZXQgZGVidC4iLAogICAgICAgICksCiAgICAgICAgKAogICAgICAgICAgICAiTWFya2V0IHNob3dpbmcgc2lnbnMgb2Ygc2VjdG9yIHJvdGF0aW9uIHdpdGggcmlzaW5nIHlpZWxkcyIsCiAgICAgICAgICAgICJSZWJhbGFuY2UgcG9ydGZvbGlvIHRvIG1haW50YWluIHRhcmdldCBhbGxvY2F0aW9ucy4gQ29uc2lkZXIgaW5jcmVhc2luZyBleHBvc3VyZSB0byBzZWN0b3JzIGJlbmVmaXRpbmcgZnJvbSBoaWdoZXIgcmF0ZXMuIiwKICAgICAgICApLAogICAgXQoKICAgICMgQWRkIHRoZSBleGFtcGxlIHNpdHVhdGlvbnMgYW5kIHJlY29tbWVuZGF0aW9ucwogICAgbWF0Y2hlci5hZGRfc2l0dWF0aW9ucyhleGFtcGxlX2RhdGEpCgogICAgIyBFeGFtcGxlIHF1ZXJ5CiAgICBjdXJyZW50X3NpdHVhdGlvbiA9ICIiIgogICAgTWFya2V0IHNob3dpbmcgaW5jcmVhc2VkIHZvbGF0aWxpdHkgaW4gdGVjaCBzZWN0b3IsIHdpdGggaW5zdGl0dXRpb25hbCBpbnZlc3RvcnMgCiAgICByZWR1Y2luZyBwb3NpdGlvbnMgYW5kIHJpc2luZyBpbnRlcmVzdCByYXRlcyBhZmZlY3RpbmcgZ3Jvd3RoIHN0b2NrIHZhbHVhdGlvbnMKICAgICIiIgoKICAgIHRyeToKICAgICAgICByZWNvbW1lbmRhdGlvbnMgPSBtYXRjaGVyLmdldF9tZW1vcmllcyhjdXJyZW50X3NpdHVhdGlvbiwgbl9tYXRjaGVzPTIpCgogICAgICAgIGZvciBpLCByZWMgaW4gZW51bWVyYXRlKHJlY29tbWVuZGF0aW9ucywgMSk6CiAgICAgICAgICAgIHByaW50KGYiXG5NYXRjaCB7aX06IikKICAgICAgICAgICAgcHJpbnQoZiJTaW1pbGFyaXR5IFNjb3JlOiB7cmVjWydzaW1pbGFyaXR5X3Njb3JlJ106LjJmfSIpCiAgICAgICAgICAgIHByaW50KGYiTWF0Y2hlZCBTaXR1YXRpb246IHtyZWNbJ21hdGNoZWRfc2l0dWF0aW9uJ119IikKICAgICAgICAgICAgcHJpbnQoZiJSZWNvbW1lbmRhdGlvbjoge3JlY1sncmVjb21tZW5kYXRpb24nXX0iKQoKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICBwcmludChmIkVycm9yIGR1cmluZyByZWNvbW1lbmRhdGlvbjoge3N0cihlKX0iKQoK
+﻿import chromadb
+from chromadb.config import Settings
+from openai import OpenAI
+from functools import lru_cache
+from typing import Dict, Any, List, Tuple
+import hashlib
+import threading
+
+
+# 模块级别的 Embedding 缓存（跨实例共享）
+_embedding_cache: Dict[str, Tuple[str, List[float]]] = {}
+_cache_lock = threading.Lock()
+
+
+class FinancialSituationMemory:
+    def __init__(self, name, config):
+        if config["backend_url"] == "http://localhost:11434/v1":
+            self.embedding = "nomic-embed-text"
+        else:
+            self.embedding = "text-embedding-3-small"
+        self.client = OpenAI(base_url=config["backend_url"])
+        self.chroma_client = chromadb.Client(Settings(allow_reset=True))
+        self.situation_collection = self.chroma_client.create_collection(name=name)
+        self._embedding_cache: Dict[str, List[float]] = {}
+
+    def _get_cache_key(self, text: str) -> str:
+        """生成缓存键（使用文本哈希）"""
+        return hashlib.md5(text.encode()).hexdigest()
+
+    def get_embedding(self, text: str) -> List[float]:
+        """Get OpenAI embedding for a text (带缓存)"""
+        
+        cache_key = self._get_cache_key(text)
+        
+        # 先检查实例缓存
+        if cache_key in self._embedding_cache:
+            return self._embedding_cache[cache_key]
+        
+        # 再检查全局缓存
+        global_key = f"{self.embedding}:{cache_key}"
+        with _cache_lock:
+            if global_key in _embedding_cache:
+                cached_embedding = _embedding_cache[global_key][1]
+                self._embedding_cache[cache_key] = cached_embedding
+                return cached_embedding
+        
+        # 调用 API 获取
+        response = self.client.embeddings.create(
+            model=self.embedding, input=text
+        )
+        embedding = response.data[0].embedding
+        
+        # 存入缓存
+        self._embedding_cache[cache_key] = embedding
+        with _cache_lock:
+            _embedding_cache[global_key] = (self.embedding, embedding)
+        
+        return embedding
+
+    @staticmethod
+    def clear_embedding_cache():
+        """清除所有 Embedding 缓存"""
+        global _embedding_cache
+        with _cache_lock:
+            _embedding_cache.clear()
+
+    def add_situations(self, situations_and_advice):
+        """Add financial situations and their corresponding advice. Parameter is a list of tuples (situation, rec)"""
+
+        situations = []
+        advice = []
+        ids = []
+        embeddings = []
+
+        offset = self.situation_collection.count()
+
+        for i, (situation, recommendation) in enumerate(situations_and_advice):
+            situations.append(situation)
+            advice.append(recommendation)
+            ids.append(str(offset + i))
+            embeddings.append(self.get_embedding(situation))
+
+        self.situation_collection.add(
+            documents=situations,
+            metadatas=[{"recommendation": rec} for rec in advice],
+            embeddings=embeddings,
+            ids=ids,
+        )
+
+    def get_memories(self, current_situation, n_matches=1):
+        """Find matching recommendations using OpenAI embeddings"""
+        query_embedding = self.get_embedding(current_situation)
+
+        results = self.situation_collection.query(
+            query_embeddings=[query_embedding],
+            n_results=n_matches,
+            include=["metadatas", "documents", "distances"],
+        )
+
+        matched_results = []
+        for i in range(len(results["documents"][0])):
+            matched_results.append(
+                {
+                    "matched_situation": results["documents"][0][i],
+                    "recommendation": results["metadatas"][0][i]["recommendation"],
+                    "similarity_score": 1 - results["distances"][0][i],
+                }
+            )
+
+        return matched_results
+
+
+if __name__ == "__main__":
+    # Example usage
+    matcher = FinancialSituationMemory()
+
+    # Example data
+    example_data = [
+        (
+            "High inflation rate with rising interest rates and declining consumer spending",
+            "Consider defensive sectors like consumer staples and utilities. Review fixed-income portfolio duration.",
+        ),
+        (
+            "Tech sector showing high volatility with increasing institutional selling pressure",
+            "Reduce exposure to high-growth tech stocks. Look for value opportunities in established tech companies with strong cash flows.",
+        ),
+        (
+            "Strong dollar affecting emerging markets with increasing forex volatility",
+            "Hedge currency exposure in international positions. Consider reducing allocation to emerging market debt.",
+        ),
+        (
+            "Market showing signs of sector rotation with rising yields",
+            "Rebalance portfolio to maintain target allocations. Consider increasing exposure to sectors benefiting from higher rates.",
+        ),
+    ]
+
+    # Add the example situations and recommendations
+    matcher.add_situations(example_data)
+
+    # Example query
+    current_situation = """
+    Market showing increased volatility in tech sector, with institutional investors 
+    reducing positions and rising interest rates affecting growth stock valuations
+    """
+
+    try:
+        recommendations = matcher.get_memories(current_situation, n_matches=2)
+
+        for i, rec in enumerate(recommendations, 1):
+            print(f"\nMatch {i}:")
+            print(f"Similarity Score: {rec['similarity_score']:.2f}")
+            print(f"Matched Situation: {rec['matched_situation']}")
+            print(f"Recommendation: {rec['recommendation']}")
+
+    except Exception as e:
+        print(f"Error during recommendation: {str(e)}")
+

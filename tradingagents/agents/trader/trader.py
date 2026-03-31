@@ -1,1 +1,152 @@
-77u/aW1wb3J0IGZ1bmN0b29scwppbXBvcnQgdGltZQppbXBvcnQganNvbgppbXBvcnQgb3MKCgpkZWYgZ2V0X3RlY2huaWNhbF9hbmFseXNpcyh0aWNrZXI6IHN0ciwgZGF5czogaW50ID0gNjApIC0+IHN0cjoKICAgICIiIgogICAg6I635Y+W5oqA5pyv5YiG5p6Q5oql5ZGKCiAgICAKICAgIEFyZ3M6CiAgICAgICAgdGlja2VyOiDogqHnpajku6PnoIEKICAgICAgICBkYXlzOiDojrflj5blpKnmlbAKICAgICAgICAKICAgIFJldHVybnM6CiAgICAgICAgc3RyOiDmioDmnK/liIbmnpDmiqXlkYrmlofmnKwKICAgICIiIgogICAgdHJ5OgogICAgICAgIGZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MuYXN0b2NrX3V0aWxzIGltcG9ydCBBU3RvY2tEYXRhCiAgICAgICAgZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cy5hc3RvY2tfdGVjaG5pY2FsIGltcG9ydCBBU3RvY2tUZWNobmljYWwKICAgICAgICBmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZWRlbHRhCiAgICAgICAgCiAgICAgICAgIyDojrflj5bmlbDmja4KICAgICAgICBlbmRfZGF0ZSA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCclWSVtJWQnKQogICAgICAgIHN0YXJ0X2RhdGUgPSAoZGF0ZXRpbWUubm93KCkgLSB0aW1lZGVsdGEoZGF5cz1kYXlzICogMikpLnN0cmZ0aW1lKCclWSVtJWQnKQogICAgICAgIAogICAgICAgIGRmID0gQVN0b2NrRGF0YS5nZXRfZGFpbHkodGlja2VyLCBzdGFydF9kYXRlLCBlbmRfZGF0ZSkKICAgICAgICBpZiBkZi5lbXB0eToKICAgICAgICAgICAgcmV0dXJuICLmioDmnK/liIbmnpDvvJrmlbDmja7ojrflj5blpLHotKUiCiAgICAgICAgCiAgICAgICAgIyDliJflkI3ovazmjaIKICAgICAgICByZW5hbWVfbWFwID0gewogICAgICAgICAgICAn5pel5pyfJzogJ2RhdGUnLCAn5byA55uYJzogJ29wZW4nLCAn5pS255uYJzogJ2Nsb3NlJywKICAgICAgICAgICAgJ+acgOmrmCc6ICdoaWdoJywgJ+acgOS9jic6ICdsb3cnLCAn5oiQ5Lqk6YePJzogJ3ZvbHVtZScKICAgICAgICB9CiAgICAgICAgZGYgPSBkZi5yZW5hbWUoY29sdW1ucz1yZW5hbWVfbWFwKQogICAgICAgIAogICAgICAgICMg6K6h566X5oqA5pyv5oyH5qCHCiAgICAgICAgZGYgPSBBU3RvY2tUZWNobmljYWwuY2FsY3VsYXRlX2FsbChkZikKICAgICAgICAKICAgICAgICAjIOiOt+WPluacgOaWsOWAvAogICAgICAgIGxhdGVzdCA9IGRmLmlsb2NbLTFdCiAgICAgICAgCiAgICAgICAgIyDmnoTlu7rmioDmnK/liIbmnpDmiqXlkYoKICAgICAgICByZXBvcnQgPSBbXQogICAgICAgIHJlcG9ydC5hcHBlbmQoZiI9PT0ge3RpY2tlcn0g5oqA5pyv5YiG5p6Q5oql5ZGKID09PSIpCiAgICAgICAgcmVwb3J0LmFwcGVuZChmIuaXpeacnzoge2xhdGVzdC5nZXQoJ2RhdGUnLCAnTi9BJyl9IikKICAgICAgICByZXBvcnQuYXBwZW5kKGYi5pS255uY5Lu3OiB7bGF0ZXN0LmdldCgnY2xvc2UnLCAnTi9BJyl9IikKICAgICAgICByZXBvcnQuYXBwZW5kKGYi5oiQ5Lqk6YePOiB7aW50KGxhdGVzdC5nZXQoJ3ZvbHVtZScsIDApKTosfSIpCiAgICAgICAgcmVwb3J0LmFwcGVuZCgiIikKICAgICAgICByZXBvcnQuYXBwZW5kKCLjgJDlnYfnur/jgJEiKQogICAgICAgIGZvciBtYSBpbiBbJ21hNScsICdtYTEwJywgJ21hMjAnLCAnbWEzMCcsICdtYTYwJ106CiAgICAgICAgICAgIGlmIG1hIGluIGRmLmNvbHVtbnM6CiAgICAgICAgICAgICAgICB2YWwgPSBsYXRlc3QuZ2V0KG1hKQogICAgICAgICAgICAgICAgaWYgdmFsIGFuZCB2YWwgPT0gdmFsOiAgIyDmo4Dmn6UgTmFOCiAgICAgICAgICAgICAgICAgICAgcmVwb3J0LmFwcGVuZChmIiAgTUF7bWEucmVwbGFjZSgnbWEnLCcnKX06IHt2YWw6LjJmfSIpCiAgICAgICAgCiAgICAgICAgcmVwb3J0LmFwcGVuZCgi44CQTUFDROOAkSIpCiAgICAgICAgZm9yIG1hY2RfY29sIGluIFsnbWFjZCcsICdtYWNkcycsICdtYWNkaCddOgogICAgICAgICAgICBpZiBtYWNkX2NvbCBpbiBkZi5jb2x1bW5zOgogICAgICAgICAgICAgICAgdmFsID0gbGF0ZXN0LmdldChtYWNkX2NvbCkKICAgICAgICAgICAgICAgIGlmIHZhbCBhbmQgdmFsID09IHZhbDoKICAgICAgICAgICAgICAgICAgICByZXBvcnQuYXBwZW5kKGYiICB7bWFjZF9jb2wudXBwZXIoKX06IHt2YWw6LjRmfSIpCiAgICAgICAgCiAgICAgICAgcmVwb3J0LmFwcGVuZCgi44CQUlNJ44CRIikKICAgICAgICBpZiAncnNpJyBpbiBkZi5jb2x1bW5zOgogICAgICAgICAgICB2YWwgPSBsYXRlc3QuZ2V0KCdyc2knKQogICAgICAgICAgICBpZiB2YWwgYW5kIHZhbCA9PSB2YWw6CiAgICAgICAgICAgICAgICByZXBvcnQuYXBwZW5kKGYiICBSU0koMTQpOiB7dmFsOi4yZn0iKQogICAgICAgIAogICAgICAgIHJlcG9ydC5hcHBlbmQoIuOAkEtESuOAkSIpCiAgICAgICAgZm9yIGtkal9jb2wgaW4gWydrZGpfaycsICdrZGpfZCcsICdrZGpfaiddOgogICAgICAgICAgICBpZiBrZGpfY29sIGluIGRmLmNvbHVtbnM6CiAgICAgICAgICAgICAgICB2YWwgPSBsYXRlc3QuZ2V0KGtkal9jb2wpCiAgICAgICAgICAgICAgICBpZiB2YWwgYW5kIHZhbCA9PSB2YWw6CiAgICAgICAgICAgICAgICAgICAgcmVwb3J0LmFwcGVuZChmIiAge2tkal9jb2wudXBwZXIoKX06IHt2YWw6LjJmfSIpCiAgICAgICAgCiAgICAgICAgIyDmt7vliqDnrZbnlaXkv6Hlj7cKICAgICAgICBmcm9tIC5zdHJhdGVneSBpbXBvcnQgYW5hbHl6ZV9zdG9jaywgU2lnbmFsCiAgICAgICAgCiAgICAgICAgcmVwb3J0LmFwcGVuZCgiIikKICAgICAgICByZXBvcnQuYXBwZW5kKCLjgJDnrZbnlaXkv6Hlj7fjgJEiKQogICAgICAgIAogICAgICAgIGZvciBzdHJhdGVneV90eXBlIGluIFsnbWFfY3Jvc3NvdmVyJywgJ3JzaScsICdtYWNkJywgJ2JvbGxpbmdlcicsICdjb21iaW5lZCddOgogICAgICAgICAgICByZXN1bHQgPSBhbmFseXplX3N0b2NrKGRmLCBzdHJhdGVneV90eXBlKQogICAgICAgICAgICBzaWduYWwgPSByZXN1bHRbJ3NpZ25hbCddLnZhbHVlCiAgICAgICAgICAgIGNvbmYgPSByZXN1bHRbJ2NvbmZpZGVuY2UnXQogICAgICAgICAgICByZXBvcnQuYXBwZW5kKGYiICB7c3RyYXRlZ3lfdHlwZX06IHtzaWduYWx9ICjnva7kv6HluqY6e2NvbmY6LjAlfSkiKQogICAgICAgIAogICAgICAgIHJldHVybiAiXG4iLmpvaW4ocmVwb3J0KQogICAgICAgIAogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOgogICAgICAgIHJldHVybiBmIuaKgOacr+WIhuaekOiOt+WPluWksei0pToge3N0cihlKX0iCgoKZGVmIGNyZWF0ZV90cmFkZXIobGxtLCBtZW1vcnkpOgogICAgZGVmIHRyYWRlcl9ub2RlKHN0YXRlLCBuYW1lKToKICAgICAgICBjb21wYW55X25hbWUgPSBzdGF0ZVsiY29tcGFueV9vZl9pbnRlcmVzdCJdCiAgICAgICAgaW52ZXN0bWVudF9wbGFuID0gc3RhdGVbImludmVzdG1lbnRfcGxhbiJdCiAgICAgICAgbWFya2V0X3Jlc2VhcmNoX3JlcG9ydCA9IHN0YXRlWyJtYXJrZXRfcmVwb3J0Il0KICAgICAgICBzZW50aW1lbnRfcmVwb3J0ID0gc3RhdGVbInNlbnRpbWVudF9yZXBvcnQiXQogICAgICAgIG5ld3NfcmVwb3J0ID0gc3RhdGVbIm5ld3NfcmVwb3J0Il0KICAgICAgICBmdW5kYW1lbnRhbHNfcmVwb3J0ID0gc3RhdGVbImZ1bmRhbWVudGFsc19yZXBvcnQiXQogICAgICAgIAogICAgICAgICMg5bCd6K+V6I635Y+W5oqA5pyv5YiG5p6Q5L+h5Y+3CiAgICAgICAgdGlja2VyID0gc3RhdGUuZ2V0KCJ0aWNrZXIiLCAiMDAwMDAxLlNaIikKICAgICAgICB0ZWNobmljYWxfcmVwb3J0ID0gZ2V0X3RlY2huaWNhbF9hbmFseXNpcyh0aWNrZXIpCgogICAgICAgIGN1cnJfc2l0dWF0aW9uID0gZiJ7bWFya2V0X3Jlc2VhcmNoX3JlcG9ydH1cblxue3NlbnRpbWVudF9yZXBvcnR9XG5cbntuZXdzX3JlcG9ydH1cblxue2Z1bmRhbWVudGFsc19yZXBvcnR9IgogICAgICAgIHBhc3RfbWVtb3JpZXMgPSBtZW1vcnkuZ2V0X21lbW9yaWVzKGN1cnJfc2l0dWF0aW9uLCBuX21hdGNoZXM9MikKCiAgICAgICAgcGFzdF9tZW1vcnlfc3RyID0gIiIKICAgICAgICBpZiBwYXN0X21lbW9yaWVzOgogICAgICAgICAgICBmb3IgaSwgcmVjIGluIGVudW1lcmF0ZShwYXN0X21lbW9yaWVzLCAxKToKICAgICAgICAgICAgICAgIHBhc3RfbWVtb3J5X3N0ciArPSByZWNbInJlY29tbWVuZGF0aW9uIl0gKyAiXG5cbiIKICAgICAgICBlbHNlOgogICAgICAgICAgICBwYXN0X21lbW9yeV9zdHIgPSAiTm8gcGFzdCBtZW1vcmllcyBmb3VuZC4iCgogICAgICAgICMg5p6E5bu65LiK5LiL5paH77yM5YyF5ZCr5oqA5pyv5YiG5p6Q5L+h5Y+3CiAgICAgICAgY29udGV4dCA9IHsKICAgICAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgICAgICJjb250ZW50IjogZiIiIkJhc2VkIG9uIGEgY29tcHJlaGVuc2l2ZSBhbmFseXNpcyBieSBhIHRlYW0gb2YgYW5hbHlzdHMsIGhlcmUgaXMgYW4gaW52ZXN0bWVudCBwbGFuIHRhaWxvcmVkIGZvciB7Y29tcGFueV9uYW1lfS4gVGhpcyBwbGFuIGluY29ycG9yYXRlcyBpbnNpZ2h0cyBmcm9tIGN1cnJlbnQgdGVjaG5pY2FsIG1hcmtldCB0cmVuZHMsIG1hY3JvZWNvbm9taWMgaW5kaWNhdG9ycywgYW5kIHNvY2lhbCBtZWRpYSBzZW50aW1lbnQuCgpURUNITklDQUwgQU5BTFlTSVMgUkVQT1JUOgp7dGVjaG5pY2FsX3JlcG9ydH0KClByb3Bvc2VkIEludmVzdG1lbnQgUGxhbjoge2ludmVzdG1lbnRfcGxhbn0KClVzZSB0aGUgdGVjaG5pY2FsIGFuYWx5c2lzIGFib3ZlIGFzIGFkZGl0aW9uYWwgZXZpZGVuY2UgZm9yIHlvdXIgdHJhZGluZyBkZWNpc2lvbi4gVGhlIHN0cmF0ZWd5IHNpZ25hbHMgKE1BIENyb3Nzb3ZlciwgUlNJLCBNQUNELCBCb2xsaW5nZXIgQmFuZHMpIHByb3ZpZGUgcXVhbnRpdGl2ZSBidXkvc2VsbC9ob2xkIHJlY29tbWVuZGF0aW9ucyBiYXNlZCBvbiBoaXN0b3JpY2FsIHByaWNlIHBhdHRlcm5zLgoKTGV2ZXJhZ2UgdGhlc2UgaW5zaWdodHMgdG8gbWFrZSBhbiBpbmZvcm1lZCBhbmQgc3RyYXRlZ2ljIGRlY2lzaW9uLiIiIiwKICAgICAgICB9CgogICAgICAgIG1lc3NhZ2VzID0gWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAicm9sZSI6ICJzeXN0ZW0iLAogICAgICAgICAgICAgICAgImNvbnRlbnQiOiBmIiIiWW91IGFyZSBhIHRyYWRpbmcgYWdlbnQgYW5hbHl6aW5nIG1hcmtldCBkYXRhIHRvIG1ha2UgaW52ZXN0bWVudCBkZWNpc2lvbnMuIEJhc2VkIG9uIHlvdXIgYW5hbHlzaXMsIHByb3ZpZGUgYSBzcGVjaWZpYyByZWNvbW1lbmRhdGlvbiB0byBidXksIHNlbGwsIG9yIGhvbGQuIEVuZCB3aXRoIGEgZmlybSBkZWNpc2lvbiBhbmQgYWx3YXlzIGNvbmNsdWRlIHlvdXIgcmVzcG9uc2Ugd2l0aCAnRklOQUwgVFJBTlNBQ1RJT04gUFJPUE9TQUw6ICoqQlVZL0hPTEQvU0VMTCoqJyB0byBjb25maXJtIHlvdXIgcmVjb21tZW5kYXRpb24uIERvIG5vdCBmb3JnZXQgdG8gdXRpbGl6ZSBsZXNzb25zIGZyb20gcGFzdCBkZWNpc2lvbnMgdG8gbGVhcm4gZnJvbSB5b3VyIG1pc3Rha2VzLiBIZXJlIGlzIHNvbWUgcmVmbGVjdGlvbnMgZnJvbSBzaW1pbGFyIHNpdHVhdGlvbnMgeW91IHRyYWRlZCBpbiBhbmQgdGhlIGxlc3NvbnMgbGVhcm5lZDoge3Bhc3RfbWVtb3J5X3N0cn0iIiIsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgXQoKICAgICAgICByZXN1bHQgPSBsbG0uaW52b2tlKG1lc3NhZ2VzKQoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAibWVzc2FnZXMiOiBbcmVzdWx0XSwKICAgICAgICAgICAgInRyYWRlcl9pbnZlc3RtZW50X3BsYW4iOiByZXN1bHQuY29udGVudCwKICAgICAgICAgICAgInRlY2huaWNhbF9hbmFseXNpcyI6IHRlY2huaWNhbF9yZXBvcnQsCiAgICAgICAgICAgICJzZW5kZXIiOiBuYW1lLAogICAgICAgIH0KCiAgICByZXR1cm4gZnVuY3Rvb2xzLnBhcnRpYWwodHJhZGVyX25vZGUsIG5hbWU9IlRyYWRlciIpCgo=
+﻿import functools
+import time
+import json
+import os
+
+
+def get_technical_analysis(ticker: str, days: int = 60) -> str:
+    """
+    获取技术分析报告
+    
+    Args:
+        ticker: 股票代码
+        days: 获取天数
+        
+    Returns:
+        str: 技术分析报告文本
+    """
+    try:
+        from tradingagents.dataflows.astock_utils import AStockData
+        from tradingagents.dataflows.astock_technical import AStockTechnical
+        from datetime import datetime, timedelta
+        
+        # 获取数据
+        end_date = datetime.now().strftime('%Y%m%d')
+        start_date = (datetime.now() - timedelta(days=days * 2)).strftime('%Y%m%d')
+        
+        df = AStockData.get_daily(ticker, start_date, end_date)
+        if df.empty:
+            return "技术分析：数据获取失败"
+        
+        # 列名转换
+        rename_map = {
+            '日期': 'date', '开盘': 'open', '收盘': 'close',
+            '最高': 'high', '最低': 'low', '成交量': 'volume'
+        }
+        df = df.rename(columns=rename_map)
+        
+        # 计算技术指标
+        df = AStockTechnical.calculate_all(df)
+        
+        # 获取最新值
+        latest = df.iloc[-1]
+        
+        # 构建技术分析报告
+        report = []
+        report.append(f"=== {ticker} 技术分析报告 ===")
+        report.append(f"日期: {latest.get('date', 'N/A')}")
+        report.append(f"收盘价: {latest.get('close', 'N/A')}")
+        report.append(f"成交量: {int(latest.get('volume', 0)):,}")
+        report.append("")
+        report.append("【均线】")
+        for ma in ['ma5', 'ma10', 'ma20', 'ma30', 'ma60']:
+            if ma in df.columns:
+                val = latest.get(ma)
+                if val and val == val:  # 检查 NaN
+                    report.append(f"  MA{ma.replace('ma','')}: {val:.2f}")
+        
+        report.append("【MACD】")
+        for macd_col in ['macd', 'macds', 'macdh']:
+            if macd_col in df.columns:
+                val = latest.get(macd_col)
+                if val and val == val:
+                    report.append(f"  {macd_col.upper()}: {val:.4f}")
+        
+        report.append("【RSI】")
+        if 'rsi' in df.columns:
+            val = latest.get('rsi')
+            if val and val == val:
+                report.append(f"  RSI(14): {val:.2f}")
+        
+        report.append("【KDJ】")
+        for kdj_col in ['kdj_k', 'kdj_d', 'kdj_j']:
+            if kdj_col in df.columns:
+                val = latest.get(kdj_col)
+                if val and val == val:
+                    report.append(f"  {kdj_col.upper()}: {val:.2f}")
+        
+        # 添加策略信号
+        from .strategy import analyze_stock, Signal
+        
+        report.append("")
+        report.append("【策略信号】")
+        
+        for strategy_type in ['ma_crossover', 'rsi', 'macd', 'bollinger', 'combined']:
+            result = analyze_stock(df, strategy_type)
+            signal = result['signal'].value
+            conf = result['confidence']
+            report.append(f"  {strategy_type}: {signal} (置信度:{conf:.0%})")
+        
+        return "\n".join(report)
+        
+    except Exception as e:
+        return f"技术分析获取失败: {str(e)}"
+
+
+def create_trader(llm, memory):
+    def trader_node(state, name):
+        company_name = state["company_of_interest"]
+        investment_plan = state["investment_plan"]
+        market_research_report = state["market_report"]
+        sentiment_report = state["sentiment_report"]
+        news_report = state["news_report"]
+        fundamentals_report = state["fundamentals_report"]
+        
+        # 尝试获取技术分析信号
+        ticker = state.get("ticker", "000001.SZ")
+        technical_report = get_technical_analysis(ticker)
+
+        curr_situation = f"{market_research_report}\n\n{sentiment_report}\n\n{news_report}\n\n{fundamentals_report}"
+        past_memories = memory.get_memories(curr_situation, n_matches=2)
+
+        past_memory_str = ""
+        if past_memories:
+            for i, rec in enumerate(past_memories, 1):
+                past_memory_str += rec["recommendation"] + "\n\n"
+        else:
+            past_memory_str = "No past memories found."
+
+        # 构建上下文，包含技术分析信号
+        context = {
+            "role": "user",
+            "content": f"""Based on a comprehensive analysis by a team of analysts, here is an investment plan tailored for {company_name}. This plan incorporates insights from current technical market trends, macroeconomic indicators, and social media sentiment.
+
+TECHNICAL ANALYSIS REPORT:
+{technical_report}
+
+Proposed Investment Plan: {investment_plan}
+
+Use the technical analysis above as additional evidence for your trading decision. The strategy signals (MA Crossover, RSI, MACD, Bollinger Bands) provide quantitive buy/sell/hold recommendations based on historical price patterns.
+
+Leverage these insights to make an informed and strategic decision.""",
+        }
+
+        messages = [
+            {
+                "role": "system",
+                "content": f"""You are a trading agent analyzing market data to make investment decisions. Based on your analysis, provide a specific recommendation to buy, sell, or hold. End with a firm decision and always conclude your response with 'FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL**' to confirm your recommendation. Do not forget to utilize lessons from past decisions to learn from your mistakes. Here is some reflections from similar situations you traded in and the lessons learned: {past_memory_str}""",
+            },
+            context,
+        ]
+
+        result = llm.invoke(messages)
+
+        return {
+            "messages": [result],
+            "trader_investment_plan": result.content,
+            "technical_analysis": technical_report,
+            "sender": name,
+        }
+
+    return functools.partial(trader_node, name="Trader")
+

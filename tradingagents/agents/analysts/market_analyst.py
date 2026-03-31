@@ -1,1 +1,90 @@
-77u/ZnJvbSBsYW5nY2hhaW5fY29yZS5wcm9tcHRzIGltcG9ydCBDaGF0UHJvbXB0VGVtcGxhdGUsIE1lc3NhZ2VzUGxhY2Vob2xkZXIKaW1wb3J0IHRpbWUKaW1wb3J0IGpzb24KCgpkZWYgY3JlYXRlX21hcmtldF9hbmFseXN0KGxsbSwgdG9vbGtpdCk6CgogICAgZGVmIG1hcmtldF9hbmFseXN0X25vZGUoc3RhdGUpOgogICAgICAgIGN1cnJlbnRfZGF0ZSA9IHN0YXRlWyJ0cmFkZV9kYXRlIl0KICAgICAgICB0aWNrZXIgPSBzdGF0ZVsiY29tcGFueV9vZl9pbnRlcmVzdCJdCiAgICAgICAgY29tcGFueV9uYW1lID0gc3RhdGVbImNvbXBhbnlfb2ZfaW50ZXJlc3QiXQoKICAgICAgICBpZiB0b29sa2l0LmNvbmZpZ1sib25saW5lX3Rvb2xzIl06CiAgICAgICAgICAgIHRvb2xzID0gWwogICAgICAgICAgICAgICAgdG9vbGtpdC5nZXRfWUZpbl9kYXRhX29ubGluZSwKICAgICAgICAgICAgICAgIHRvb2xraXQuZ2V0X3N0b2Nrc3RhdHNfaW5kaWNhdG9yc19yZXBvcnRfb25saW5lLAogICAgICAgICAgICBdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdG9vbHMgPSBbCiAgICAgICAgICAgICAgICB0b29sa2l0LmdldF9ZRmluX2RhdGEsCiAgICAgICAgICAgICAgICB0b29sa2l0LmdldF9zdG9ja3N0YXRzX2luZGljYXRvcnNfcmVwb3J0LAogICAgICAgICAgICBdCgogICAgICAgIHN5c3RlbV9tZXNzYWdlID0gKAogICAgICAgICAgICAiIiJZb3UgYXJlIGEgdHJhZGluZyBhc3Npc3RhbnQgdGFza2VkIHdpdGggYW5hbHl6aW5nIGZpbmFuY2lhbCBtYXJrZXRzLiBZb3VyIHJvbGUgaXMgdG8gc2VsZWN0IHRoZSAqKm1vc3QgcmVsZXZhbnQgaW5kaWNhdG9ycyoqIGZvciBhIGdpdmVuIG1hcmtldCBjb25kaXRpb24gb3IgdHJhZGluZyBzdHJhdGVneSBmcm9tIHRoZSBmb2xsb3dpbmcgbGlzdC4gVGhlIGdvYWwgaXMgdG8gY2hvb3NlIHVwIHRvICoqOCBpbmRpY2F0b3JzKiogdGhhdCBwcm92aWRlIGNvbXBsZW1lbnRhcnkgaW5zaWdodHMgd2l0aG91dCByZWR1bmRhbmN5LiBDYXRlZ29yaWVzIGFuZCBlYWNoIGNhdGVnb3J5J3MgaW5kaWNhdG9ycyBhcmU6CgpNb3ZpbmcgQXZlcmFnZXM6Ci0gY2xvc2VfNTBfc21hOiA1MCBTTUE6IEEgbWVkaXVtLXRlcm0gdHJlbmQgaW5kaWNhdG9yLiBVc2FnZTogSWRlbnRpZnkgdHJlbmQgZGlyZWN0aW9uIGFuZCBzZXJ2ZSBhcyBkeW5hbWljIHN1cHBvcnQvcmVzaXN0YW5jZS4gVGlwczogSXQgbGFncyBwcmljZTsgY29tYmluZSB3aXRoIGZhc3RlciBpbmRpY2F0b3JzIGZvciB0aW1lbHkgc2lnbmFscy4KLSBjbG9zZV8yMDBfc21hOiAyMDAgU01BOiBBIGxvbmctdGVybSB0cmVuZCBiZW5jaG1hcmsuIFVzYWdlOiBDb25maXJtIG92ZXJhbGwgbWFya2V0IHRyZW5kIGFuZCBpZGVudGlmeSBnb2xkZW4vZGVhdGggY3Jvc3Mgc2V0dXBzLiBUaXBzOiBJdCByZWFjdHMgc2xvd2x5OyBiZXN0IGZvciBzdHJhdGVnaWMgdHJlbmQgY29uZmlybWF0aW9uIHJhdGhlciB0aGFuIGZyZXF1ZW50IHRyYWRpbmcgZW50cmllcy4KLSBjbG9zZV8xMF9lbWE6IDEwIEVNQTogQSByZXNwb25zaXZlIHNob3J0LXRlcm0gYXZlcmFnZS4gVXNhZ2U6IENhcHR1cmUgcXVpY2sgc2hpZnRzIGluIG1vbWVudHVtIGFuZCBwb3RlbnRpYWwgZW50cnkgcG9pbnRzLiBUaXBzOiBQcm9uZSB0byBub2lzZSBpbiBjaG9wcHkgbWFya2V0czsgdXNlIGFsb25nc2lkZSBsb25nZXIgYXZlcmFnZXMgZm9yIGZpbHRlcmluZyBmYWxzZSBzaWduYWxzLgoKTUFDRCBSZWxhdGVkOgotIG1hY2Q6IE1BQ0Q6IENvbXB1dGVzIG1vbWVudHVtIHZpYSBkaWZmZXJlbmNlcyBvZiBFTUFzLiBVc2FnZTogTG9vayBmb3IgY3Jvc3NvdmVycyBhbmQgZGl2ZXJnZW5jZSBhcyBzaWduYWxzIG9mIHRyZW5kIGNoYW5nZXMuIFRpcHM6IENvbmZpcm0gd2l0aCBvdGhlciBpbmRpY2F0b3JzIGluIGxvdy12b2xhdGlsaXR5IG9yIHNpZGV3YXlzIG1hcmtldHMuCi0gbWFjZHM6IE1BQ0QgU2lnbmFsOiBBbiBFTUEgc21vb3RoaW5nIG9mIHRoZSBNQUNEIGxpbmUuIFVzYWdlOiBVc2UgY3Jvc3NvdmVycyB3aXRoIHRoZSBNQUNEIGxpbmUgdG8gdHJpZ2dlciB0cmFkZXMuIFRpcHM6IFNob3VsZCBiZSBwYXJ0IG9mIGEgYnJvYWRlciBzdHJhdGVneSB0byBhdm9pZCBmYWxzZSBwb3NpdGl2ZXMuCi0gbWFjZGg6IE1BQ0QgSGlzdG9ncmFtOiBTaG93cyB0aGUgZ2FwIGJldHdlZW4gdGhlIE1BQ0QgbGluZSBhbmQgaXRzIHNpZ25hbC4gVXNhZ2U6IFZpc3VhbGl6ZSBtb21lbnR1bSBzdHJlbmd0aCBhbmQgc3BvdCBkaXZlcmdlbmNlIGVhcmx5LiBUaXBzOiBDYW4gYmUgdm9sYXRpbGU7IGNvbXBsZW1lbnQgd2l0aCBhZGRpdGlvbmFsIGZpbHRlcnMgaW4gZmFzdC1tb3ZpbmcgbWFya2V0cy4KCk1vbWVudHVtIEluZGljYXRvcnM6Ci0gcnNpOiBSU0k6IE1lYXN1cmVzIG1vbWVudHVtIHRvIGZsYWcgb3ZlcmJvdWdodC9vdmVyc29sZCBjb25kaXRpb25zLiBVc2FnZTogQXBwbHkgNzAvMzAgdGhyZXNob2xkcyBhbmQgd2F0Y2ggZm9yIGRpdmVyZ2VuY2UgdG8gc2lnbmFsIHJldmVyc2Fscy4gVGlwczogSW4gc3Ryb25nIHRyZW5kcywgUlNJIG1heSByZW1haW4gZXh0cmVtZTsgYWx3YXlzIGNyb3NzLWNoZWNrIHdpdGggdHJlbmQgYW5hbHlzaXMuCgpWb2xhdGlsaXR5IEluZGljYXRvcnM6Ci0gYm9sbDogQm9sbGluZ2VyIE1pZGRsZTogQSAyMCBTTUEgc2VydmluZyBhcyB0aGUgYmFzaXMgZm9yIEJvbGxpbmdlciBCYW5kcy4gVXNhZ2U6IEFjdHMgYXMgYSBkeW5hbWljIGJlbmNobWFyayBmb3IgcHJpY2UgbW92ZW1lbnQuIFRpcHM6IENvbWJpbmUgd2l0aCB0aGUgdXBwZXIgYW5kIGxvd2VyIGJhbmRzIHRvIGVmZmVjdGl2ZWx5IHNwb3QgYnJlYWtvdXRzIG9yIHJldmVyc2Fscy4KLSBib2xsX3ViOiBCb2xsaW5nZXIgVXBwZXIgQmFuZDogVHlwaWNhbGx5IDIgc3RhbmRhcmQgZGV2aWF0aW9ucyBhYm92ZSB0aGUgbWlkZGxlIGxpbmUuIFVzYWdlOiBTaWduYWxzIHBvdGVudGlhbCBvdmVyYm91Z2h0IGNvbmRpdGlvbnMgYW5kIGJyZWFrb3V0IHpvbmVzLiBUaXBzOiBDb25maXJtIHNpZ25hbHMgd2l0aCBvdGhlciB0b29sczsgcHJpY2VzIG1heSByaWRlIHRoZSBiYW5kIGluIHN0cm9uZyB0cmVuZHMuCi0gYm9sbF9sYjogQm9sbGluZ2VyIExvd2VyIEJhbmQ6IFR5cGljYWxseSAyIHN0YW5kYXJkIGRldmlhdGlvbnMgYmVsb3cgdGhlIG1pZGRsZSBsaW5lLiBVc2FnZTogSW5kaWNhdGVzIHBvdGVudGlhbCBvdmVyc29sZCBjb25kaXRpb25zLiBUaXBzOiBVc2UgYWRkaXRpb25hbCBhbmFseXNpcyB0byBhdm9pZCBmYWxzZSByZXZlcnNhbCBzaWduYWxzLgotIGF0cjogQVRSOiBBdmVyYWdlcyB0cnVlIHJhbmdlIHRvIG1lYXN1cmUgdm9sYXRpbGl0eS4gVXNhZ2U6IFNldCBzdG9wLWxvc3MgbGV2ZWxzIGFuZCBhZGp1c3QgcG9zaXRpb24gc2l6ZXMgYmFzZWQgb24gY3VycmVudCBtYXJrZXQgdm9sYXRpbGl0eS4gVGlwczogSXQncyBhIHJlYWN0aXZlIG1lYXN1cmUsIHNvIHVzZSBpdCBhcyBwYXJ0IG9mIGEgYnJvYWRlciByaXNrIG1hbmFnZW1lbnQgc3RyYXRlZ3kuCgpWb2x1bWUtQmFzZWQgSW5kaWNhdG9yczoKLSB2d21hOiBWV01BOiBBIG1vdmluZyBhdmVyYWdlIHdlaWdodGVkIGJ5IHZvbHVtZS4gVXNhZ2U6IENvbmZpcm0gdHJlbmRzIGJ5IGludGVncmF0aW5nIHByaWNlIGFjdGlvbiB3aXRoIHZvbHVtZSBkYXRhLiBUaXBzOiBXYXRjaCBmb3Igc2tld2VkIHJlc3VsdHMgZnJvbSB2b2x1bWUgc3Bpa2VzOyB1c2UgaW4gY29tYmluYXRpb24gd2l0aCBvdGhlciB2b2x1bWUgYW5hbHlzZXMuCgotIFNlbGVjdCBpbmRpY2F0b3JzIHRoYXQgcHJvdmlkZSBkaXZlcnNlIGFuZCBjb21wbGVtZW50YXJ5IGluZm9ybWF0aW9uLiBBdm9pZCByZWR1bmRhbmN5IChlLmcuLCBkbyBub3Qgc2VsZWN0IGJvdGggcnNpIGFuZCBzdG9jaHJzaSkuIEFsc28gYnJpZWZseSBleHBsYWluIHdoeSB0aGV5IGFyZSBzdWl0YWJsZSBmb3IgdGhlIGdpdmVuIG1hcmtldCBjb250ZXh0LiBXaGVuIHlvdSB0b29sIGNhbGwsIHBsZWFzZSB1c2UgdGhlIGV4YWN0IG5hbWUgb2YgdGhlIGluZGljYXRvcnMgcHJvdmlkZWQgYWJvdmUgYXMgdGhleSBhcmUgZGVmaW5lZCBwYXJhbWV0ZXJzLCBvdGhlcndpc2UgeW91ciBjYWxsIHdpbGwgZmFpbC4gUGxlYXNlIG1ha2Ugc3VyZSB0byBjYWxsIGdldF9ZRmluX2RhdGEgZmlyc3QgdG8gcmV0cmlldmUgdGhlIENTViB0aGF0IGlzIG5lZWRlZCB0byBnZW5lcmF0ZSBpbmRpY2F0b3JzLiBXcml0ZSBhIHZlcnkgZGV0YWlsZWQgYW5kIG51YW5jZWQgcmVwb3J0IG9mIHRoZSB0cmVuZHMgeW91IG9ic2VydmUuIERvIG5vdCBzaW1wbHkgc3RhdGUgdGhlIHRyZW5kcyBhcmUgbWl4ZWQsIHByb3ZpZGUgZGV0YWlsZWQgYW5kIGZpbmVncmFpbmVkIGFuYWx5c2lzIGFuZCBpbnNpZ2h0cyB0aGF0IG1heSBoZWxwIHRyYWRlcnMgbWFrZSBkZWNpc2lvbnMuIiIiCiAgICAgICAgICAgICsgIiIiIE1ha2Ugc3VyZSB0byBhcHBlbmQgYSBNYXJrZG93biB0YWJsZSBhdCB0aGUgZW5kIG9mIHRoZSByZXBvcnQgdG8gb3JnYW5pemUga2V5IHBvaW50cyBpbiB0aGUgcmVwb3J0LCBvcmdhbml6ZWQgYW5kIGVhc3kgdG8gcmVhZC4iIiIKICAgICAgICApCgogICAgICAgIHByb21wdCA9IENoYXRQcm9tcHRUZW1wbGF0ZS5mcm9tX21lc3NhZ2VzKAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAoCiAgICAgICAgICAgICAgICAgICAgInN5c3RlbSIsCiAgICAgICAgICAgICAgICAgICAgIllvdSBhcmUgYSBoZWxwZnVsIEFJIGFzc2lzdGFudCwgY29sbGFib3JhdGluZyB3aXRoIG90aGVyIGFzc2lzdGFudHMuIgogICAgICAgICAgICAgICAgICAgICIgVXNlIHRoZSBwcm92aWRlZCB0b29scyB0byBwcm9ncmVzcyB0b3dhcmRzIGFuc3dlcmluZyB0aGUgcXVlc3Rpb24uIgogICAgICAgICAgICAgICAgICAgICIgSWYgeW91IGFyZSB1bmFibGUgdG8gZnVsbHkgYW5zd2VyLCB0aGF0J3MgT0s7IGFub3RoZXIgYXNzaXN0YW50IHdpdGggZGlmZmVyZW50IHRvb2xzIgogICAgICAgICAgICAgICAgICAgICIgd2lsbCBoZWxwIHdoZXJlIHlvdSBsZWZ0IG9mZi4gRXhlY3V0ZSB3aGF0IHlvdSBjYW4gdG8gbWFrZSBwcm9ncmVzcy4iCiAgICAgICAgICAgICAgICAgICAgIiBJZiB5b3Ugb3IgYW55IG90aGVyIGFzc2lzdGFudCBoYXMgdGhlIEZJTkFMIFRSQU5TQUNUSU9OIFBST1BPU0FMOiAqKkJVWS9IT0xEL1NFTEwqKiBvciBkZWxpdmVyYWJsZSwiCiAgICAgICAgICAgICAgICAgICAgIiBwcmVmaXggeW91ciByZXNwb25zZSB3aXRoIEZJTkFMIFRSQU5TQUNUSU9OIFBST1BPU0FMOiAqKkJVWS9IT0xEL1NFTEwqKiBzbyB0aGUgdGVhbSBrbm93cyB0byBzdG9wLiIKICAgICAgICAgICAgICAgICAgICAiIFlvdSBoYXZlIGFjY2VzcyB0byB0aGUgZm9sbG93aW5nIHRvb2xzOiB7dG9vbF9uYW1lc30uXG57c3lzdGVtX21lc3NhZ2V9IgogICAgICAgICAgICAgICAgICAgICJGb3IgeW91ciByZWZlcmVuY2UsIHRoZSBjdXJyZW50IGRhdGUgaXMge2N1cnJlbnRfZGF0ZX0uIFRoZSBjb21wYW55IHdlIHdhbnQgdG8gbG9vayBhdCBpcyB7dGlja2VyfSIsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgTWVzc2FnZXNQbGFjZWhvbGRlcih2YXJpYWJsZV9uYW1lPSJtZXNzYWdlcyIpLAogICAgICAgICAgICBdCiAgICAgICAgKQoKICAgICAgICBwcm9tcHQgPSBwcm9tcHQucGFydGlhbChzeXN0ZW1fbWVzc2FnZT1zeXN0ZW1fbWVzc2FnZSkKICAgICAgICBwcm9tcHQgPSBwcm9tcHQucGFydGlhbCh0b29sX25hbWVzPSIsICIuam9pbihbdG9vbC5uYW1lIGZvciB0b29sIGluIHRvb2xzXSkpCiAgICAgICAgcHJvbXB0ID0gcHJvbXB0LnBhcnRpYWwoY3VycmVudF9kYXRlPWN1cnJlbnRfZGF0ZSkKICAgICAgICBwcm9tcHQgPSBwcm9tcHQucGFydGlhbCh0aWNrZXI9dGlja2VyKQoKICAgICAgICBjaGFpbiA9IHByb21wdCB8IGxsbS5iaW5kX3Rvb2xzKHRvb2xzKQoKICAgICAgICByZXN1bHQgPSBjaGFpbi5pbnZva2Uoc3RhdGVbIm1lc3NhZ2VzIl0pCgogICAgICAgIHJlcG9ydCA9ICIiCgogICAgICAgIGlmIGxlbihyZXN1bHQudG9vbF9jYWxscykgPT0gMDoKICAgICAgICAgICAgcmVwb3J0ID0gcmVzdWx0LmNvbnRlbnQKICAgICAgIAogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJtZXNzYWdlcyI6IFtyZXN1bHRdLAogICAgICAgICAgICAibWFya2V0X3JlcG9ydCI6IHJlcG9ydCwKICAgICAgICB9CgogICAgcmV0dXJuIG1hcmtldF9hbmFseXN0X25vZGUKDQo=
+﻿from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+import time
+import json
+
+
+def create_market_analyst(llm, toolkit):
+
+    def market_analyst_node(state):
+        current_date = state["trade_date"]
+        ticker = state["company_of_interest"]
+        company_name = state["company_of_interest"]
+
+        if toolkit.config["online_tools"]:
+            tools = [
+                toolkit.get_YFin_data_online,
+                toolkit.get_stockstats_indicators_report_online,
+            ]
+        else:
+            tools = [
+                toolkit.get_YFin_data,
+                toolkit.get_stockstats_indicators_report,
+            ]
+
+        system_message = (
+            """You are a trading assistant tasked with analyzing financial markets. Your role is to select the **most relevant indicators** for a given market condition or trading strategy from the following list. The goal is to choose up to **8 indicators** that provide complementary insights without redundancy. Categories and each category's indicators are:
+
+Moving Averages:
+- close_50_sma: 50 SMA: A medium-term trend indicator. Usage: Identify trend direction and serve as dynamic support/resistance. Tips: It lags price; combine with faster indicators for timely signals.
+- close_200_sma: 200 SMA: A long-term trend benchmark. Usage: Confirm overall market trend and identify golden/death cross setups. Tips: It reacts slowly; best for strategic trend confirmation rather than frequent trading entries.
+- close_10_ema: 10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.
+
+MACD Related:
+- macd: MACD: Computes momentum via differences of EMAs. Usage: Look for crossovers and divergence as signals of trend changes. Tips: Confirm with other indicators in low-volatility or sideways markets.
+- macds: MACD Signal: An EMA smoothing of the MACD line. Usage: Use crossovers with the MACD line to trigger trades. Tips: Should be part of a broader strategy to avoid false positives.
+- macdh: MACD Histogram: Shows the gap between the MACD line and its signal. Usage: Visualize momentum strength and spot divergence early. Tips: Can be volatile; complement with additional filters in fast-moving markets.
+
+Momentum Indicators:
+- rsi: RSI: Measures momentum to flag overbought/oversold conditions. Usage: Apply 70/30 thresholds and watch for divergence to signal reversals. Tips: In strong trends, RSI may remain extreme; always cross-check with trend analysis.
+
+Volatility Indicators:
+- boll: Bollinger Middle: A 20 SMA serving as the basis for Bollinger Bands. Usage: Acts as a dynamic benchmark for price movement. Tips: Combine with the upper and lower bands to effectively spot breakouts or reversals.
+- boll_ub: Bollinger Upper Band: Typically 2 standard deviations above the middle line. Usage: Signals potential overbought conditions and breakout zones. Tips: Confirm signals with other tools; prices may ride the band in strong trends.
+- boll_lb: Bollinger Lower Band: Typically 2 standard deviations below the middle line. Usage: Indicates potential oversold conditions. Tips: Use additional analysis to avoid false reversal signals.
+- atr: ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.
+
+Volume-Based Indicators:
+- vwma: VWMA: A moving average weighted by volume. Usage: Confirm trends by integrating price action with volume data. Tips: Watch for skewed results from volume spikes; use in combination with other volume analyses.
+
+- Select indicators that provide diverse and complementary information. Avoid redundancy (e.g., do not select both rsi and stochrsi). Also briefly explain why they are suitable for the given market context. When you tool call, please use the exact name of the indicators provided above as they are defined parameters, otherwise your call will fail. Please make sure to call get_YFin_data first to retrieve the CSV that is needed to generate indicators. Write a very detailed and nuanced report of the trends you observe. Do not simply state the trends are mixed, provide detailed and finegrained analysis and insights that may help traders make decisions."""
+            + """ Make sure to append a Markdown table at the end of the report to organize key points in the report, organized and easy to read."""
+        )
+
+        prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system",
+                    "You are a helpful AI assistant, collaborating with other assistants."
+                    " Use the provided tools to progress towards answering the question."
+                    " If you are unable to fully answer, that's OK; another assistant with different tools"
+                    " will help where you left off. Execute what you can to make progress."
+                    " If you or any other assistant has the FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** or deliverable,"
+                    " prefix your response with FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** so the team knows to stop."
+                    " You have access to the following tools: {tool_names}.\n{system_message}"
+                    "For your reference, the current date is {current_date}. The company we want to look at is {ticker}",
+                ),
+                MessagesPlaceholder(variable_name="messages"),
+            ]
+        )
+
+        prompt = prompt.partial(system_message=system_message)
+        prompt = prompt.partial(tool_names=", ".join([tool.name for tool in tools]))
+        prompt = prompt.partial(current_date=current_date)
+        prompt = prompt.partial(ticker=ticker)
+
+        chain = prompt | llm.bind_tools(tools)
+
+        result = chain.invoke(state["messages"])
+
+        report = ""
+
+        if len(result.tool_calls) == 0:
+            report = result.content
+       
+        return {
+            "messages": [result],
+            "market_report": report,
+        }
+
+    return market_analyst_node
+

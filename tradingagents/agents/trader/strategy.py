@@ -1,1 +1,428 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0KQeiCoemHj+WMluetlueVpeW6kw0K5o+Q5L6b5bi455So5oqA5pyv5YiG5p6Q562W55Wl55qE5L+h5Y+355Sf5oiQDQoiIiINCg0KaW1wb3J0IHBhbmRhcyBhcyBwZA0KaW1wb3J0IG51bXB5IGFzIG5wDQpmcm9tIHR5cGluZyBpbXBvcnQgT3B0aW9uYWwsIERpY3QsIExpc3QNCmZyb20gZW51bSBpbXBvcnQgRW51bQ0KDQoNCmNsYXNzIFNpZ25hbChFbnVtKToNCiAgICAiIiLkuqTmmJPkv6Hlj7fmnprkuL4iIiINCiAgICBCVVkgPSAiQlVZIg0KICAgIFNFTEwgPSAiU0VMTCINCiAgICBIT0xEID0gIkhPTEQiDQoNCg0KY2xhc3MgU3RyYXRlZ3k6DQogICAgIiIi562W55Wl5Z+657G7IiIiDQogICAgDQogICAgZGVmIF9faW5pdF9fKHNlbGYsIG5hbWU6IHN0cik6DQogICAgICAgIHNlbGYubmFtZSA9IG5hbWUNCiAgICANCiAgICBkZWYgZ2VuZXJhdGVfc2lnbmFsKHNlbGYsIGRmOiBwZC5EYXRhRnJhbWUpIC0+IERpY3Q6DQogICAgICAgICIiIg0KICAgICAgICDnlJ/miJDkuqTmmJPkv6Hlj7cNCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBkZjog5YyF5ZCrT0hMQ1bmlbDmja7nmoREYXRhRnJhbWUNCiAgICAgICAgICAgIA0KICAgICAgICBSZXR1cm5zOg0KICAgICAgICAgICAgRGljdDogew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwsDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IHN0ciwgICMg5L+h5Y+35Y6f5ZugDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBmbG9hdCAgIyDnva7kv6HluqYgMC0xDQogICAgICAgICAgICB9DQogICAgICAgICIiIg0KICAgICAgICByYWlzZSBOb3RJbXBsZW1lbnRlZEVycm9yDQoNCg0KY2xhc3MgTUFDcm9zc292ZXJTdHJhdGVneShTdHJhdGVneSk6DQogICAgIiIi5Z2H57q/5Lqk5Y+J562W55WlIiIiDQogICAgDQogICAgZGVmIF9faW5pdF9fKHNlbGYsIHNob3J0X3BlcmlvZDogaW50ID0gNSwgbG9uZ19wZXJpb2Q6IGludCA9IDIwKToNCiAgICAgICAgc3VwZXIoKS5fX2luaXRfXyhmIk1BX0Nyb3Nzb3Zlcl97c2hvcnRfcGVyaW9kfV97bG9uZ19wZXJpb2R9IikNCiAgICAgICAgc2VsZi5zaG9ydF9wZXJpb2QgPSBzaG9ydF9wZXJpb2QNCiAgICAgICAgc2VsZi5sb25nX3BlcmlvZCA9IGxvbmdfcGVyaW9kDQogICAgDQogICAgZGVmIGdlbmVyYXRlX3NpZ25hbChzZWxmLCBkZjogcGQuRGF0YUZyYW1lKSAtPiBEaWN0Og0KICAgICAgICBpZiBsZW4oZGYpIDwgc2VsZi5sb25nX3BlcmlvZCArIDE6DQogICAgICAgICAgICByZXR1cm4geydzaWduYWwnOiBTaWduYWwuSE9MRCwgJ3JlYXNvbic6ICfmlbDmja7kuI3otrMnLCAnY29uZmlkZW5jZSc6IDB9DQogICAgICAgIA0KICAgICAgICAjIOiuoeeul+Wdh+e6vw0KICAgICAgICBkZiA9IGRmLmNvcHkoKQ0KICAgICAgICBkZlsnbWFfc2hvcnQnXSA9IGRmWydjbG9zZSddLnJvbGxpbmcod2luZG93PXNlbGYuc2hvcnRfcGVyaW9kKS5tZWFuKCkNCiAgICAgICAgZGZbJ21hX2xvbmcnXSA9IGRmWydjbG9zZSddLnJvbGxpbmcod2luZG93PXNlbGYubG9uZ19wZXJpb2QpLm1lYW4oKQ0KICAgICAgICANCiAgICAgICAgIyDojrflj5bmnIDov5HkuKTlpKnnmoTlnYfnur/lgLwNCiAgICAgICAgY3VycmVudF9zaG9ydCA9IGRmWydtYV9zaG9ydCddLmlsb2NbLTFdDQogICAgICAgIGN1cnJlbnRfbG9uZyA9IGRmWydtYV9sb25nJ10uaWxvY1stMV0NCiAgICAgICAgcHJldl9zaG9ydCA9IGRmWydtYV9zaG9ydCddLmlsb2NbLTJdDQogICAgICAgIHByZXZfbG9uZyA9IGRmWydtYV9sb25nJ10uaWxvY1stMl0NCiAgICAgICAgDQogICAgICAgIGlmIHBkLmlzbmEoY3VycmVudF9zaG9ydCkgb3IgcGQuaXNuYShjdXJyZW50X2xvbmcpOg0KICAgICAgICAgICAgcmV0dXJuIHsnc2lnbmFsJzogU2lnbmFsLkhPTEQsICdyZWFzb24nOiAn5Z2H57q/5pWw5o2u5LiN6LazJywgJ2NvbmZpZGVuY2UnOiAwfQ0KICAgICAgICANCiAgICAgICAgIyDph5Hlj4nvvJrnn63lnYfnur/ku47kuIvmlrnnqb/ov4fplb/lnYfnur8NCiAgICAgICAgaWYgcHJldl9zaG9ydCA8PSBwcmV2X2xvbmcgYW5kIGN1cnJlbnRfc2hvcnQgPiBjdXJyZW50X2xvbmc6DQogICAgICAgICAgICAjIOiuoeeul+a2qOW5heWinuW8uue9ruS/oeW6pg0KICAgICAgICAgICAgY2hhbmdlX3BjdCA9IChjdXJyZW50X3Nob3J0IC0gcHJldl9zaG9ydCkgLyBwcmV2X3Nob3J0ICogMTAwDQogICAgICAgICAgICBjb25maWRlbmNlID0gbWluKDAuNyArIGFicyhjaGFuZ2VfcGN0KSAvIDEwLCAxLjApDQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuQlVZLA0KICAgICAgICAgICAgICAgICdyZWFzb24nOiBmJ+mHkeWPieS/oeWPt++8mk1Be3NlbGYuc2hvcnRfcGVyaW9kfSh7Y3VycmVudF9zaG9ydDouMmZ9KeS4iuepv01Be3NlbGYubG9uZ19wZXJpb2R9KHtjdXJyZW50X2xvbmc6LjJmfSknLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogY29uZmlkZW5jZQ0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDmrbvlj4nvvJrnn63lnYfnur/ku47kuIrmlrnnqb/ov4fplb/lnYfnur8NCiAgICAgICAgZWxpZiBwcmV2X3Nob3J0ID49IHByZXZfbG9uZyBhbmQgY3VycmVudF9zaG9ydCA8IGN1cnJlbnRfbG9uZzoNCiAgICAgICAgICAgIGNoYW5nZV9wY3QgPSAocHJldl9zaG9ydCAtIGN1cnJlbnRfc2hvcnQpIC8gcHJldl9zaG9ydCAqIDEwMA0KICAgICAgICAgICAgY29uZmlkZW5jZSA9IG1pbigwLjcgKyBhYnMoY2hhbmdlX3BjdCkgLyAxMCwgMS4wKQ0KICAgICAgICAgICAgcmV0dXJuIHsNCiAgICAgICAgICAgICAgICAnc2lnbmFsJzogU2lnbmFsLlNFTEwsDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IGYn5q275Y+J5L+h5Y+377yaTUF7c2VsZi5zaG9ydF9wZXJpb2R9KHtjdXJyZW50X3Nob3J0Oi4yZn0p5LiL56m/TUF7c2VsZi5sb25nX3BlcmlvZH0oe2N1cnJlbnRfbG9uZzouMmZ9KScsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBjb25maWRlbmNlDQogICAgICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAjIOaMgee7reWkmuWktO+8muefreWdh+e6v+WcqOmVv+Wdh+e6v+S4iuaWuQ0KICAgICAgICBlbGlmIGN1cnJlbnRfc2hvcnQgPiBjdXJyZW50X2xvbmc6DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuSE9MRCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZiflpJrlpLTmjpLliJfvvJpNQXtzZWxmLnNob3J0X3BlcmlvZH0oe2N1cnJlbnRfc2hvcnQ6LjJmfSkgPiBNQXtzZWxmLmxvbmdfcGVyaW9kfSh7Y3VycmVudF9sb25nOi4yZn0pJywNCiAgICAgICAgICAgICAgICAnY29uZmlkZW5jZSc6IDAuNg0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDmjIHnu63nqbrlpLTvvJrnn63lnYfnur/lnKjplb/lnYfnur/kuIvmlrkNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5IT0xELA0KICAgICAgICAgICAgICAgICdyZWFzb24nOiBmJ+epuuWktOaOkuWIl++8mk1Be3NlbGYuc2hvcnRfcGVyaW9kfSh7Y3VycmVudF9zaG9ydDouMmZ9KSA8IE1Be3NlbGYubG9uZ19wZXJpb2R9KHtjdXJyZW50X2xvbmc6LjJmfSknLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogMC42DQogICAgICAgICAgICB9DQoNCg0KY2xhc3MgUlNJU3RyYXRlZ3koU3RyYXRlZ3kpOg0KICAgICIiIlJTSSDnrZbnlaUiIiINCiAgICANCiAgICBkZWYgX19pbml0X18oc2VsZiwgcGVyaW9kOiBpbnQgPSAxNCwgb3ZlcnNvbGQ6IGludCA9IDMwLCBvdmVyYm91Z2h0OiBpbnQgPSA3MCk6DQogICAgICAgIHN1cGVyKCkuX19pbml0X18oZiJSU0lfe3BlcmlvZH0iKQ0KICAgICAgICBzZWxmLnBlcmlvZCA9IHBlcmlvZA0KICAgICAgICBzZWxmLm92ZXJzb2xkID0gb3ZlcnNvbGQNCiAgICAgICAgc2VsZi5vdmVyYm91Z2h0ID0gb3ZlcmJvdWdodA0KICAgIA0KICAgIGRlZiBnZW5lcmF0ZV9zaWduYWwoc2VsZiwgZGY6IHBkLkRhdGFGcmFtZSkgLT4gRGljdDoNCiAgICAgICAgaWYgbGVuKGRmKSA8IHNlbGYucGVyaW9kICsgMToNCiAgICAgICAgICAgIHJldHVybiB7J3NpZ25hbCc6IFNpZ25hbC5IT0xELCAncmVhc29uJzogJ+aVsOaNruS4jei2sycsICdjb25maWRlbmNlJzogMH0NCiAgICAgICAgDQogICAgICAgIGRmID0gZGYuY29weSgpDQogICAgICAgIA0KICAgICAgICAjIOiuoeeul1JTSQ0KICAgICAgICBkZWx0YSA9IGRmWydjbG9zZSddLmRpZmYoKQ0KICAgICAgICBnYWluID0gKGRlbHRhLndoZXJlKGRlbHRhID4gMCwgMCkpLnJvbGxpbmcod2luZG93PXNlbGYucGVyaW9kKS5tZWFuKCkNCiAgICAgICAgbG9zcyA9ICgtZGVsdGEud2hlcmUoZGVsdGEgPCAwLCAwKSkucm9sbGluZyh3aW5kb3c9c2VsZi5wZXJpb2QpLm1lYW4oKQ0KICAgICAgICBycyA9IGdhaW4gLyBsb3NzDQogICAgICAgIGRmWydyc2knXSA9IDEwMCAtICgxMDAgLyAoMSArIHJzKSkNCiAgICAgICAgDQogICAgICAgIGN1cnJlbnRfcnNpID0gZGZbJ3JzaSddLmlsb2NbLTFdDQogICAgICAgIA0KICAgICAgICBpZiBwZC5pc25hKGN1cnJlbnRfcnNpKToNCiAgICAgICAgICAgIHJldHVybiB7J3NpZ25hbCc6IFNpZ25hbC5IT0xELCAncmVhc29uJzogJ1JTSeiuoeeul+Wksei0pScsICdjb25maWRlbmNlJzogMH0NCiAgICAgICAgDQogICAgICAgICMg6LaF5Y2W5Lmw5YWl5L+h5Y+3DQogICAgICAgIGlmIGN1cnJlbnRfcnNpIDwgc2VsZi5vdmVyc29sZDoNCiAgICAgICAgICAgIGNvbmZpZGVuY2UgPSAwLjcgKyAoc2VsZi5vdmVyc29sZCAtIGN1cnJlbnRfcnNpKSAvIHNlbGYub3ZlcnNvbGQgKiAwLjMNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5CVVksDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IGYn6LaF5Y2W5L+h5Y+377yaUlNJKHtjdXJyZW50X3JzaTouMWZ9KSA8IHtzZWxmLm92ZXJzb2xkfScsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBtaW4oY29uZmlkZW5jZSwgMS4wKQ0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDotoXkubDljZblh7rkv6Hlj7cNCiAgICAgICAgZWxpZiBjdXJyZW50X3JzaSA+IHNlbGYub3ZlcmJvdWdodDoNCiAgICAgICAgICAgIGNvbmZpZGVuY2UgPSAwLjcgKyAoY3VycmVudF9yc2kgLSBzZWxmLm92ZXJib3VnaHQpIC8gKDEwMCAtIHNlbGYub3ZlcmJvdWdodCkgKiAwLjMNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5TRUxMLA0KICAgICAgICAgICAgICAgICdyZWFzb24nOiBmJ+i2heS5sOS/oeWPt++8mlJTSSh7Y3VycmVudF9yc2k6LjFmfSkgPiB7c2VsZi5vdmVyYm91Z2h0fScsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBtaW4oY29uZmlkZW5jZSwgMS4wKQ0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyA1MOS4rei9tOWIpOaWrQ0KICAgICAgICBlbGlmIGN1cnJlbnRfcnNpID4gNTA6DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuSE9MRCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZiflgY/lvLrljLrln5/vvJpSU0koe2N1cnJlbnRfcnNpOi4xZn0pID4gNTAnLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogMC41DQogICAgICAgICAgICB9DQogICAgICAgIA0KICAgICAgICBlbHNlOg0KICAgICAgICAgICAgcmV0dXJuIHsNCiAgICAgICAgICAgICAgICAnc2lnbmFsJzogU2lnbmFsLkhPTEQsDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IGYn5YGP5byx5Yy65Z+f77yaUlNJKHtjdXJyZW50X3JzaTouMWZ9KSA8IDUwJywNCiAgICAgICAgICAgICAgICAnY29uZmlkZW5jZSc6IDAuNQ0KICAgICAgICAgICAgfQ0KDQoNCmNsYXNzIE1BQ0RTdHJhdGVneShTdHJhdGVneSk6DQogICAgIiIiTUFDRCDnrZbnlaUiIiINCiAgICANCiAgICBkZWYgX19pbml0X18oc2VsZiwgZmFzdDogaW50ID0gMTIsIHNsb3c6IGludCA9IDI2LCBzaWduYWw6IGludCA9IDkpOg0KICAgICAgICBzdXBlcigpLl9faW5pdF9fKGYiTUFDRF97ZmFzdH1fe3Nsb3d9X3tzaWduYWx9IikNCiAgICAgICAgc2VsZi5mYXN0ID0gZmFzdA0KICAgICAgICBzZWxmLnNsb3cgPSBzbG93DQogICAgICAgIHNlbGYuc2lnbmFsID0gc2lnbmFsDQogICAgDQogICAgZGVmIGdlbmVyYXRlX3NpZ25hbChzZWxmLCBkZjogcGQuRGF0YUZyYW1lKSAtPiBEaWN0Og0KICAgICAgICBpZiBsZW4oZGYpIDwgc2VsZi5zbG93ICsgc2VsZi5zaWduYWwgKyAxOg0KICAgICAgICAgICAgcmV0dXJuIHsnc2lnbmFsJzogU2lnbmFsLkhPTEQsICdyZWFzb24nOiAn5pWw5o2u5LiN6LazJywgJ2NvbmZpZGVuY2UnOiAwfQ0KICAgICAgICANCiAgICAgICAgZGYgPSBkZi5jb3B5KCkNCiAgICAgICAgDQogICAgICAgICMg6K6h566XTUFDRA0KICAgICAgICBlbWFfZmFzdCA9IGRmWydjbG9zZSddLmV3bShzcGFuPXNlbGYuZmFzdCwgYWRqdXN0PUZhbHNlKS5tZWFuKCkNCiAgICAgICAgZW1hX3Nsb3cgPSBkZlsnY2xvc2UnXS5ld20oc3Bhbj1zZWxmLnNsb3csIGFkanVzdD1GYWxzZSkubWVhbigpDQogICAgICAgIGRmWydtYWNkJ10gPSBlbWFfZmFzdCAtIGVtYV9zbG93DQogICAgICAgIGRmWydtYWNkcyddID0gZGZbJ21hY2QnXS5ld20oc3Bhbj1zZWxmLnNpZ25hbCwgYWRqdXN0PUZhbHNlKS5tZWFuKCkNCiAgICAgICAgZGZbJ21hY2RoJ10gPSAoZGZbJ21hY2QnXSAtIGRmWydtYWNkcyddKSAqIDINCiAgICAgICAgDQogICAgICAgIGN1cnJlbnRfbWFjZCA9IGRmWydtYWNkJ10uaWxvY1stMV0NCiAgICAgICAgY3VycmVudF9zaWduYWwgPSBkZlsnbWFjZHMnXS5pbG9jWy0xXQ0KICAgICAgICBjdXJyZW50X2hpc3QgPSBkZlsnbWFjZGgnXS5pbG9jWy0xXQ0KICAgICAgICANCiAgICAgICAgcHJldl9tYWNkID0gZGZbJ21hY2QnXS5pbG9jWy0yXQ0KICAgICAgICBwcmV2X3NpZ25hbCA9IGRmWydtYWNkcyddLmlsb2NbLTJdDQogICAgICAgIA0KICAgICAgICBpZiBwZC5pc25hKGN1cnJlbnRfbWFjZCkgb3IgcGQuaXNuYShjdXJyZW50X3NpZ25hbCk6DQogICAgICAgICAgICByZXR1cm4geydzaWduYWwnOiBTaWduYWwuSE9MRCwgJ3JlYXNvbic6ICdNQUNE6K6h566X5aSx6LSlJywgJ2NvbmZpZGVuY2UnOiAwfQ0KICAgICAgICANCiAgICAgICAgIyDph5Hlj4nvvJpNQUNE57q/5LuO5LiL5pa556m/6L+HU2lnbmFs57q/DQogICAgICAgIGlmIHByZXZfbWFjZCA8PSBwcmV2X3NpZ25hbCBhbmQgY3VycmVudF9tYWNkID4gY3VycmVudF9zaWduYWw6DQogICAgICAgICAgICBjb25maWRlbmNlID0gbWluKDAuNyArIGFicyhjdXJyZW50X2hpc3QpIC8gMTAsIDEuMCkNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5CVVksDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IGYn6YeR5Y+J77yaTUFDRCh7Y3VycmVudF9tYWNkOi40Zn0p5LiK56m/U2lnbmFsKHtjdXJyZW50X3NpZ25hbDouNGZ9Ke+8jOafseeKtuWbvj17Y3VycmVudF9oaXN0Oi40Zn0nLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogY29uZmlkZW5jZQ0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDmrbvlj4nvvJpNQUNE57q/5LuO5LiK5pa556m/6L+HU2lnbmFs57q/DQogICAgICAgIGVsaWYgcHJldl9tYWNkID49IHByZXZfc2lnbmFsIGFuZCBjdXJyZW50X21hY2QgPCBjdXJyZW50X3NpZ25hbDoNCiAgICAgICAgICAgIGNvbmZpZGVuY2UgPSBtaW4oMC43ICsgYWJzKGN1cnJlbnRfaGlzdCkgLyAxMCwgMS4wKQ0KICAgICAgICAgICAgcmV0dXJuIHsNCiAgICAgICAgICAgICAgICAnc2lnbmFsJzogU2lnbmFsLlNFTEwsDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IGYn5q275Y+J77yaTUFDRCh7Y3VycmVudF9tYWNkOi40Zn0p5LiL56m/U2lnbmFsKHtjdXJyZW50X3NpZ25hbDouNGZ9Ke+8jOafseeKtuWbvj17Y3VycmVudF9oaXN0Oi40Zn0nLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogY29uZmlkZW5jZQ0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDpm7bovbTkuIrmlrnlpJrlpLQNCiAgICAgICAgZWxpZiBjdXJyZW50X21hY2QgPiAwIGFuZCBjdXJyZW50X3NpZ25hbCA+IDA6DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuSE9MRCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZiflpJrlpLTljLrln5/vvJpNQUNEKHtjdXJyZW50X21hY2Q6LjRmfSkgPiAwJywNCiAgICAgICAgICAgICAgICAnY29uZmlkZW5jZSc6IDAuNg0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDpm7bovbTkuIvmlrnnqbrlpLQNCiAgICAgICAgZWxzZToNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5IT0xELA0KICAgICAgICAgICAgICAgICdyZWFzb24nOiBmJ+epuuWktOWMuuWfn++8mk1BQ0Qoe2N1cnJlbnRfbWFjZDouNGZ9KSA8IDAnLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogMC42DQogICAgICAgICAgICB9DQoNCg0KY2xhc3MgQm9sbGluZ2VyU3RyYXRlZ3koU3RyYXRlZ3kpOg0KICAgICIiIuW4g+ael+W4puetlueVpSIiIg0KICAgIA0KICAgIGRlZiBfX2luaXRfXyhzZWxmLCBwZXJpb2Q6IGludCA9IDIwLCBzdGRfZGV2OiBmbG9hdCA9IDIuMCk6DQogICAgICAgIHN1cGVyKCkuX19pbml0X18oZiJCb2xsaW5nZXJfe3BlcmlvZH1fe3N0ZF9kZXZ9IikNCiAgICAgICAgc2VsZi5wZXJpb2QgPSBwZXJpb2QNCiAgICAgICAgc2VsZi5zdGRfZGV2ID0gc3RkX2Rldg0KICAgIA0KICAgIGRlZiBnZW5lcmF0ZV9zaWduYWwoc2VsZiwgZGY6IHBkLkRhdGFGcmFtZSkgLT4gRGljdDoNCiAgICAgICAgaWYgbGVuKGRmKSA8IHNlbGYucGVyaW9kOg0KICAgICAgICAgICAgcmV0dXJuIHsnc2lnbmFsJzogU2lnbmFsLkhPTEQsICdyZWFzb24nOiAn5pWw5o2u5LiN6LazJywgJ2NvbmZpZGVuY2UnOiAwfQ0KICAgICAgICANCiAgICAgICAgZGYgPSBkZi5jb3B5KCkNCiAgICAgICAgDQogICAgICAgICMg6K6h566X5biD5p6X5bimDQogICAgICAgIGRmWydib2xsX21pZCddID0gZGZbJ2Nsb3NlJ10ucm9sbGluZyh3aW5kb3c9c2VsZi5wZXJpb2QpLm1lYW4oKQ0KICAgICAgICBzdGQgPSBkZlsnY2xvc2UnXS5yb2xsaW5nKHdpbmRvdz1zZWxmLnBlcmlvZCkuc3RkKCkNCiAgICAgICAgZGZbJ2JvbGxfdXBwZXInXSA9IGRmWydib2xsX21pZCddICsgKHN0ZCAqIHNlbGYuc3RkX2RldikNCiAgICAgICAgZGZbJ2JvbGxfbG93ZXInXSA9IGRmWydib2xsX21pZCddIC0gKHN0ZCAqIHNlbGYuc3RkX2RldikNCiAgICAgICAgDQogICAgICAgIGN1cnJlbnRfY2xvc2UgPSBkZlsnY2xvc2UnXS5pbG9jWy0xXQ0KICAgICAgICB1cHBlciA9IGRmWydib2xsX3VwcGVyJ10uaWxvY1stMV0NCiAgICAgICAgbG93ZXIgPSBkZlsnYm9sbF9sb3dlciddLmlsb2NbLTFdDQogICAgICAgIG1pZCA9IGRmWydib2xsX21pZCddLmlsb2NbLTFdDQogICAgICAgIA0KICAgICAgICBpZiBwZC5pc25hKHVwcGVyKSBvciBwZC5pc25hKGxvd2VyKToNCiAgICAgICAgICAgIHJldHVybiB7J3NpZ25hbCc6IFNpZ25hbC5IT0xELCAncmVhc29uJzogJ+W4g+ael+W4puiuoeeul+Wksei0pScsICdjb25maWRlbmNlJzogMH0NCiAgICAgICAgDQogICAgICAgICMg6Kem5Y+K5LiL6L2o5Lmw5YWlDQogICAgICAgIGlmIGN1cnJlbnRfY2xvc2UgPD0gbG93ZXI6DQogICAgICAgICAgICBkaXN0YW5jZSA9IChsb3dlciAtIGN1cnJlbnRfY2xvc2UpIC8gbG93ZXINCiAgICAgICAgICAgIGNvbmZpZGVuY2UgPSBtaW4oMC43ICsgZGlzdGFuY2UgKiAwLjMsIDEuMCkNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5CVVksDQogICAgICAgICAgICAgICAgJ3JlYXNvbic6IGYn6Kem5Y+K5LiL6L2o77ya5pS255uY5Lu3KHtjdXJyZW50X2Nsb3NlOi4yZn0pIDw9IOS4i+i9qCh7bG93ZXI6LjJmfSknLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogY29uZmlkZW5jZQ0KICAgICAgICAgICAgfQ0KICAgICAgICANCiAgICAgICAgIyDop6blj4rkuIrovajljZblh7oNCiAgICAgICAgZWxpZiBjdXJyZW50X2Nsb3NlID49IHVwcGVyOg0KICAgICAgICAgICAgZGlzdGFuY2UgPSAoY3VycmVudF9jbG9zZSAtIHVwcGVyKSAvIHVwcGVyDQogICAgICAgICAgICBjb25maWRlbmNlID0gbWluKDAuNyArIGRpc3RhbmNlICogMC4zLCAxLjApDQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuU0VMTCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZifop6blj4rkuIrovajvvJrmlLbnm5jku7coe2N1cnJlbnRfY2xvc2U6LjJmfSkgPj0g5LiK6L2oKHt1cHBlcjouMmZ9KScsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBjb25maWRlbmNlDQogICAgICAgICAgICB9DQogICAgICAgIA0KICAgICAgICAjIOS4rei9qOS4iuaWueWBj+Wkmg0KICAgICAgICBlbGlmIGN1cnJlbnRfY2xvc2UgPiBtaWQ6DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuSE9MRCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZiflgY/lpJrvvJrmlLbnm5jku7coe2N1cnJlbnRfY2xvc2U6LjJmfSkgPiDkuK3ovagoe21pZDouMmZ9KScsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiAwLjUNCiAgICAgICAgICAgIH0NCiAgICAgICAgDQogICAgICAgICMg5Lit6L2o5LiL5pa55YGP56m6DQogICAgICAgIGVsc2U6DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuSE9MRCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZiflgY/nqbrvvJrmlLbnm5jku7coe2N1cnJlbnRfY2xvc2U6LjJmfSkgPCDkuK3ovagoe21pZDouMmZ9KScsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiAwLjUNCiAgICAgICAgICAgIH0NCg0KDQpjbGFzcyBDb21iaW5lZFN0cmF0ZWd5KFN0cmF0ZWd5KToNCiAgICAiIiLnu4TlkIjnrZbnlaXvvJrlpJrnrZbnlaXkv6Hlj7fliqDmnYMiIiINCiAgICANCiAgICBkZWYgX19pbml0X18oc2VsZiwgc3RyYXRlZ2llczogTGlzdFtTdHJhdGVneV0sIHdlaWdodHM6IE9wdGlvbmFsW0xpc3RbZmxvYXRdXSA9IE5vbmUpOg0KICAgICAgICBzdXBlcigpLl9faW5pdF9fKCJDb21iaW5lZCIpDQogICAgICAgIHNlbGYuc3RyYXRlZ2llcyA9IHN0cmF0ZWdpZXMNCiAgICAgICAgc2VsZi53ZWlnaHRzID0gd2VpZ2h0cyBvciBbMS4wXSAqIGxlbihzdHJhdGVnaWVzKQ0KICAgICAgICANCiAgICAgICAgIyDlvZLkuIDljJbmnYPph40NCiAgICAgICAgdG90YWwgPSBzdW0oc2VsZi53ZWlnaHRzKQ0KICAgICAgICBzZWxmLndlaWdodHMgPSBbdyAvIHRvdGFsIGZvciB3IGluIHNlbGYud2VpZ2h0c10NCiAgICANCiAgICBkZWYgZ2VuZXJhdGVfc2lnbmFsKHNlbGYsIGRmOiBwZC5EYXRhRnJhbWUpIC0+IERpY3Q6DQogICAgICAgIHNpZ25hbHMgPSBbXQ0KICAgICAgICANCiAgICAgICAgZm9yIHN0cmF0ZWd5IGluIHNlbGYuc3RyYXRlZ2llczoNCiAgICAgICAgICAgIHJlc3VsdCA9IHN0cmF0ZWd5LmdlbmVyYXRlX3NpZ25hbChkZikNCiAgICAgICAgICAgIHNpZ25hbHMuYXBwZW5kKHJlc3VsdCkNCiAgICAgICAgDQogICAgICAgICMg57uf6K6h5L+h5Y+3DQogICAgICAgIGJ1eV9jb3VudCA9IHN1bSgxIGZvciBzIGluIHNpZ25hbHMgaWYgc1snc2lnbmFsJ10gPT0gU2lnbmFsLkJVWSkNCiAgICAgICAgc2VsbF9jb3VudCA9IHN1bSgxIGZvciBzIGluIHNpZ25hbHMgaWYgc1snc2lnbmFsJ10gPT0gU2lnbmFsLlNFTEwpDQogICAgICAgIA0KICAgICAgICAjIOWKoOadg+e9ruS/oeW6pg0KICAgICAgICBidXlfY29uZmlkZW5jZSA9IHN1bSgNCiAgICAgICAgICAgIHNbJ2NvbmZpZGVuY2UnXSAqIHcgDQogICAgICAgICAgICBmb3IgcywgdyBpbiB6aXAoc2lnbmFscywgc2VsZi53ZWlnaHRzKSANCiAgICAgICAgICAgIGlmIHNbJ3NpZ25hbCddID09IFNpZ25hbC5CVVkNCiAgICAgICAgKSAvIG1heChidXlfY291bnQsIDEpDQogICAgICAgIA0KICAgICAgICBzZWxsX2NvbmZpZGVuY2UgPSBzdW0oDQogICAgICAgICAgICBzWydjb25maWRlbmNlJ10gKiB3IA0KICAgICAgICAgICAgZm9yIHMsIHcgaW4gemlwKHNpZ25hbHMsIHNlbGYud2VpZ2h0cykgDQogICAgICAgICAgICBpZiBzWydzaWduYWwnXSA9PSBTaWduYWwuU0VMTA0KICAgICAgICApIC8gbWF4KHNlbGxfY291bnQsIDEpDQogICAgICAgIA0KICAgICAgICAjIOWkmuaVsOaKleelqA0KICAgICAgICBpZiBidXlfY291bnQgPiBzZWxsX2NvdW50IGFuZCBidXlfY291bnQgPj0gbGVuKHNlbGYuc3RyYXRlZ2llcykgLyAyOg0KICAgICAgICAgICAgcmV0dXJuIHsNCiAgICAgICAgICAgICAgICAnc2lnbmFsJzogU2lnbmFsLkJVWSwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZifnu4TlkIjkubDlhaXvvJp7YnV5X2NvdW50fS97bGVuKHNlbGYuc3RyYXRlZ2llcyl9IOetlueVpeeci+WkmicsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBidXlfY29uZmlkZW5jZSwNCiAgICAgICAgICAgICAgICAnZGV0YWlscyc6IHNpZ25hbHMNCiAgICAgICAgICAgIH0NCiAgICAgICAgZWxpZiBzZWxsX2NvdW50ID4gYnV5X2NvdW50IGFuZCBzZWxsX2NvdW50ID49IGxlbihzZWxmLnN0cmF0ZWdpZXMpIC8gMjoNCiAgICAgICAgICAgIHJldHVybiB7DQogICAgICAgICAgICAgICAgJ3NpZ25hbCc6IFNpZ25hbC5TRUxMLA0KICAgICAgICAgICAgICAgICdyZWFzb24nOiBmJ+e7hOWQiOWNluWHuu+8mntzZWxsX2NvdW50fS97bGVuKHNlbGYuc3RyYXRlZ2llcyl9IOetlueVpeeci+epuicsDQogICAgICAgICAgICAgICAgJ2NvbmZpZGVuY2UnOiBzZWxsX2NvbmZpZGVuY2UsDQogICAgICAgICAgICAgICAgJ2RldGFpbHMnOiBzaWduYWxzDQogICAgICAgICAgICB9DQogICAgICAgIGVsc2U6DQogICAgICAgICAgICByZXR1cm4gew0KICAgICAgICAgICAgICAgICdzaWduYWwnOiBTaWduYWwuSE9MRCwNCiAgICAgICAgICAgICAgICAncmVhc29uJzogZifnu4TlkIjop4LmnJvvvJrlpJrnqbrlubPooaEgKHtidXlfY291bnR9IHZzIHtzZWxsX2NvdW50fSknLA0KICAgICAgICAgICAgICAgICdjb25maWRlbmNlJzogMC41LA0KICAgICAgICAgICAgICAgICdkZXRhaWxzJzogc2lnbmFscw0KICAgICAgICAgICAgfQ0KDQoNCiMg5L6/5o235Ye95pWwDQpkZWYgY3JlYXRlX3N0cmF0ZWd5KHN0cmF0ZWd5X3R5cGU6IHN0ciwgKipwYXJhbXMpIC0+IFN0cmF0ZWd5Og0KICAgICIiIg0KICAgIOWIm+W7uuetlueVpeWunuS+iw0KICAgIA0KICAgIEFyZ3M6DQogICAgICAgIHN0cmF0ZWd5X3R5cGU6IOetlueVpeexu+WeiyAoJ21hX2Nyb3Nzb3ZlcicsICdyc2knLCAnbWFjZCcsICdib2xsaW5nZXInLCAnY29tYmluZWQnKQ0KICAgICAgICAqKnBhcmFtczog562W55Wl5Y+C5pWwDQogICAgICAgIA0KICAgIFJldHVybnM6DQogICAgICAgIFN0cmF0ZWd5OiDnrZbnlaXlrp7kvosNCiAgICAiIiINCiAgICBzdHJhdGVneV90eXBlID0gc3RyYXRlZ3lfdHlwZS5sb3dlcigpDQogICAgDQogICAgaWYgc3RyYXRlZ3lfdHlwZSA9PSAnbWFfY3Jvc3NvdmVyJzoNCiAgICAgICAgc2hvcnQgPSBwYXJhbXMuZ2V0KCdzaG9ydF9wZXJpb2QnLCA1KQ0KICAgICAgICBsb25nID0gcGFyYW1zLmdldCgnbG9uZ19wZXJpb2QnLCAyMCkNCiAgICAgICAgcmV0dXJuIE1BQ3Jvc3NvdmVyU3RyYXRlZ3koc2hvcnQsIGxvbmcpDQogICAgDQogICAgZWxpZiBzdHJhdGVneV90eXBlID09ICdyc2knOg0KICAgICAgICBwZXJpb2QgPSBwYXJhbXMuZ2V0KCdwZXJpb2QnLCAxNCkNCiAgICAgICAgb3ZlcnNvbGQgPSBwYXJhbXMuZ2V0KCdvdmVyc29sZCcsIDMwKQ0KICAgICAgICBvdmVyYm91Z2h0ID0gcGFyYW1zLmdldCgnb3ZlcmJvdWdodCcsIDcwKQ0KICAgICAgICByZXR1cm4gUlNJU3RyYXRlZ3kocGVyaW9kLCBvdmVyc29sZCwgb3ZlcmJvdWdodCkNCiAgICANCiAgICBlbGlmIHN0cmF0ZWd5X3R5cGUgPT0gJ21hY2QnOg0KICAgICAgICBmYXN0ID0gcGFyYW1zLmdldCgnZmFzdCcsIDEyKQ0KICAgICAgICBzbG93ID0gcGFyYW1zLmdldCgnc2xvdycsIDI2KQ0KICAgICAgICBzaWduYWwgPSBwYXJhbXMuZ2V0KCdzaWduYWwnLCA5KQ0KICAgICAgICByZXR1cm4gTUFDRFN0cmF0ZWd5KGZhc3QsIHNsb3csIHNpZ25hbCkNCiAgICANCiAgICBlbGlmIHN0cmF0ZWd5X3R5cGUgPT0gJ2JvbGxpbmdlcic6DQogICAgICAgIHBlcmlvZCA9IHBhcmFtcy5nZXQoJ3BlcmlvZCcsIDIwKQ0KICAgICAgICBzdGRfZGV2ID0gcGFyYW1zLmdldCgnc3RkX2RldicsIDIuMCkNCiAgICAgICAgcmV0dXJuIEJvbGxpbmdlclN0cmF0ZWd5KHBlcmlvZCwgc3RkX2RldikNCiAgICANCiAgICBlbGlmIHN0cmF0ZWd5X3R5cGUgPT0gJ2NvbWJpbmVkJzoNCiAgICAgICAgIyDnu4TlkIjpu5jorqTnrZbnlaUNCiAgICAgICAgc3RyYXRlZ2llcyA9IFsNCiAgICAgICAgICAgIE1BQ3Jvc3NvdmVyU3RyYXRlZ3koNSwgMjApLA0KICAgICAgICAgICAgUlNJU3RyYXRlZ3koKSwNCiAgICAgICAgICAgIE1BQ0RTdHJhdGVneSgpLA0KICAgICAgICBdDQogICAgICAgIHJldHVybiBDb21iaW5lZFN0cmF0ZWd5KHN0cmF0ZWdpZXMpDQogICAgDQogICAgZWxzZToNCiAgICAgICAgcmFpc2UgVmFsdWVFcnJvcihmIlVua25vd24gc3RyYXRlZ3kgdHlwZToge3N0cmF0ZWd5X3R5cGV9IikNCg0KDQpkZWYgYW5hbHl6ZV9zdG9jayhkZjogcGQuRGF0YUZyYW1lLCBzdHJhdGVneV90eXBlOiBzdHIgPSAnY29tYmluZWQnKSAtPiBEaWN0Og0KICAgICIiIg0KICAgIOWIhuaekOiCoeelqOeUn+aIkOS6pOaYk+S/oeWPtw0KICAgIA0KICAgIEFyZ3M6DQogICAgICAgIGRmOiBPSExDVuaVsOaNrg0KICAgICAgICBzdHJhdGVneV90eXBlOiDnrZbnlaXnsbvlnosNCiAgICAgICAgDQogICAgUmV0dXJuczoNCiAgICAgICAgRGljdDog5YyF5ZCr5L+h5Y+344CB572u5L+h5bqm5ZKM6K+m57uG5YiG5p6QDQogICAgIiIiDQogICAgc3RyYXRlZ3kgPSBjcmVhdGVfc3RyYXRlZ3koc3RyYXRlZ3lfdHlwZSkNCiAgICByZXN1bHQgPSBzdHJhdGVneS5nZW5lcmF0ZV9zaWduYWwoZGYpDQogICAgDQogICAgIyDmt7vliqDmnIDmlrDku7fmoLzkv6Hmga8NCiAgICBpZiBub3QgZGYuZW1wdHk6DQogICAgICAgIHJlc3VsdFsncHJpY2UnXSA9IHJvdW5kKGRmWydjbG9zZSddLmlsb2NbLTFdLCAyKQ0KICAgICAgICByZXN1bHRbJ3ZvbHVtZSddID0gaW50KGRmWyd2b2x1bWUnXS5pbG9jWy0xXSkgaWYgJ3ZvbHVtZScgaW4gZGYuY29sdW1ucyBlbHNlIE5vbmUNCiAgICANCiAgICByZXR1cm4gcmVzdWx0DQo=
+# -*- coding: utf-8 -*-
+"""
+A股量化策略库
+提供常用技术分析策略的信号生成
+"""
+
+import pandas as pd
+import numpy as np
+from typing import Optional, Dict, List
+from enum import Enum
+
+
+class Signal(Enum):
+    """交易信号枚举"""
+    BUY = "BUY"
+    SELL = "SELL"
+    HOLD = "HOLD"
+
+
+class Strategy:
+    """策略基类"""
+    
+    def __init__(self, name: str):
+        self.name = name
+    
+    def generate_signal(self, df: pd.DataFrame) -> Dict:
+        """
+        生成交易信号
+        
+        Args:
+            df: 包含OHLCV数据的DataFrame
+            
+        Returns:
+            Dict: {
+                'signal': Signal,
+                'reason': str,  # 信号原因
+                'confidence': float  # 置信度 0-1
+            }
+        """
+        raise NotImplementedError
+
+
+class MACrossoverStrategy(Strategy):
+    """均线交叉策略"""
+    
+    def __init__(self, short_period: int = 5, long_period: int = 20):
+        super().__init__(f"MA_Crossover_{short_period}_{long_period}")
+        self.short_period = short_period
+        self.long_period = long_period
+    
+    def generate_signal(self, df: pd.DataFrame) -> Dict:
+        if len(df) < self.long_period + 1:
+            return {'signal': Signal.HOLD, 'reason': '数据不足', 'confidence': 0}
+        
+        # 计算均线
+        df = df.copy()
+        df['ma_short'] = df['close'].rolling(window=self.short_period).mean()
+        df['ma_long'] = df['close'].rolling(window=self.long_period).mean()
+        
+        # 获取最近两天的均线值
+        current_short = df['ma_short'].iloc[-1]
+        current_long = df['ma_long'].iloc[-1]
+        prev_short = df['ma_short'].iloc[-2]
+        prev_long = df['ma_long'].iloc[-2]
+        
+        if pd.isna(current_short) or pd.isna(current_long):
+            return {'signal': Signal.HOLD, 'reason': '均线数据不足', 'confidence': 0}
+        
+        # 金叉：短均线从下方穿过长均线
+        if prev_short <= prev_long and current_short > current_long:
+            # 计算涨幅增强置信度
+            change_pct = (current_short - prev_short) / prev_short * 100
+            confidence = min(0.7 + abs(change_pct) / 10, 1.0)
+            return {
+                'signal': Signal.BUY,
+                'reason': f'金叉信号：MA{self.short_period}({current_short:.2f})上穿MA{self.long_period}({current_long:.2f})',
+                'confidence': confidence
+            }
+        
+        # 死叉：短均线从上方穿过长均线
+        elif prev_short >= prev_long and current_short < current_long:
+            change_pct = (prev_short - current_short) / prev_short * 100
+            confidence = min(0.7 + abs(change_pct) / 10, 1.0)
+            return {
+                'signal': Signal.SELL,
+                'reason': f'死叉信号：MA{self.short_period}({current_short:.2f})下穿MA{self.long_period}({current_long:.2f})',
+                'confidence': confidence
+            }
+        
+        # 持续多头：短均线在长均线上方
+        elif current_short > current_long:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'多头排列：MA{self.short_period}({current_short:.2f}) > MA{self.long_period}({current_long:.2f})',
+                'confidence': 0.6
+            }
+        
+        # 持续空头：短均线在长均线下方
+        else:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'空头排列：MA{self.short_period}({current_short:.2f}) < MA{self.long_period}({current_long:.2f})',
+                'confidence': 0.6
+            }
+
+
+class RSIStrategy(Strategy):
+    """RSI 策略"""
+    
+    def __init__(self, period: int = 14, oversold: int = 30, overbought: int = 70):
+        super().__init__(f"RSI_{period}")
+        self.period = period
+        self.oversold = oversold
+        self.overbought = overbought
+    
+    def generate_signal(self, df: pd.DataFrame) -> Dict:
+        if len(df) < self.period + 1:
+            return {'signal': Signal.HOLD, 'reason': '数据不足', 'confidence': 0}
+        
+        df = df.copy()
+        
+        # 计算RSI
+        delta = df['close'].diff()
+        gain = (delta.where(delta > 0, 0)).rolling(window=self.period).mean()
+        loss = (-delta.where(delta < 0, 0)).rolling(window=self.period).mean()
+        rs = gain / loss
+        df['rsi'] = 100 - (100 / (1 + rs))
+        
+        current_rsi = df['rsi'].iloc[-1]
+        
+        if pd.isna(current_rsi):
+            return {'signal': Signal.HOLD, 'reason': 'RSI计算失败', 'confidence': 0}
+        
+        # 超卖买入信号
+        if current_rsi < self.oversold:
+            confidence = 0.7 + (self.oversold - current_rsi) / self.oversold * 0.3
+            return {
+                'signal': Signal.BUY,
+                'reason': f'超卖信号：RSI({current_rsi:.1f}) < {self.oversold}',
+                'confidence': min(confidence, 1.0)
+            }
+        
+        # 超买卖出信号
+        elif current_rsi > self.overbought:
+            confidence = 0.7 + (current_rsi - self.overbought) / (100 - self.overbought) * 0.3
+            return {
+                'signal': Signal.SELL,
+                'reason': f'超买信号：RSI({current_rsi:.1f}) > {self.overbought}',
+                'confidence': min(confidence, 1.0)
+            }
+        
+        # 50中轴判断
+        elif current_rsi > 50:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'偏强区域：RSI({current_rsi:.1f}) > 50',
+                'confidence': 0.5
+            }
+        
+        else:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'偏弱区域：RSI({current_rsi:.1f}) < 50',
+                'confidence': 0.5
+            }
+
+
+class MACDStrategy(Strategy):
+    """MACD 策略"""
+    
+    def __init__(self, fast: int = 12, slow: int = 26, signal: int = 9):
+        super().__init__(f"MACD_{fast}_{slow}_{signal}")
+        self.fast = fast
+        self.slow = slow
+        self.signal = signal
+    
+    def generate_signal(self, df: pd.DataFrame) -> Dict:
+        if len(df) < self.slow + self.signal + 1:
+            return {'signal': Signal.HOLD, 'reason': '数据不足', 'confidence': 0}
+        
+        df = df.copy()
+        
+        # 计算MACD
+        ema_fast = df['close'].ewm(span=self.fast, adjust=False).mean()
+        ema_slow = df['close'].ewm(span=self.slow, adjust=False).mean()
+        df['macd'] = ema_fast - ema_slow
+        df['macds'] = df['macd'].ewm(span=self.signal, adjust=False).mean()
+        df['macdh'] = (df['macd'] - df['macds']) * 2
+        
+        current_macd = df['macd'].iloc[-1]
+        current_signal = df['macds'].iloc[-1]
+        current_hist = df['macdh'].iloc[-1]
+        
+        prev_macd = df['macd'].iloc[-2]
+        prev_signal = df['macds'].iloc[-2]
+        
+        if pd.isna(current_macd) or pd.isna(current_signal):
+            return {'signal': Signal.HOLD, 'reason': 'MACD计算失败', 'confidence': 0}
+        
+        # 金叉：MACD线从下方穿过Signal线
+        if prev_macd <= prev_signal and current_macd > current_signal:
+            confidence = min(0.7 + abs(current_hist) / 10, 1.0)
+            return {
+                'signal': Signal.BUY,
+                'reason': f'金叉：MACD({current_macd:.4f})上穿Signal({current_signal:.4f})，柱状图={current_hist:.4f}',
+                'confidence': confidence
+            }
+        
+        # 死叉：MACD线从上方穿过Signal线
+        elif prev_macd >= prev_signal and current_macd < current_signal:
+            confidence = min(0.7 + abs(current_hist) / 10, 1.0)
+            return {
+                'signal': Signal.SELL,
+                'reason': f'死叉：MACD({current_macd:.4f})下穿Signal({current_signal:.4f})，柱状图={current_hist:.4f}',
+                'confidence': confidence
+            }
+        
+        # 零轴上方多头
+        elif current_macd > 0 and current_signal > 0:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'多头区域：MACD({current_macd:.4f}) > 0',
+                'confidence': 0.6
+            }
+        
+        # 零轴下方空头
+        else:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'空头区域：MACD({current_macd:.4f}) < 0',
+                'confidence': 0.6
+            }
+
+
+class BollingerStrategy(Strategy):
+    """布林带策略"""
+    
+    def __init__(self, period: int = 20, std_dev: float = 2.0):
+        super().__init__(f"Bollinger_{period}_{std_dev}")
+        self.period = period
+        self.std_dev = std_dev
+    
+    def generate_signal(self, df: pd.DataFrame) -> Dict:
+        if len(df) < self.period:
+            return {'signal': Signal.HOLD, 'reason': '数据不足', 'confidence': 0}
+        
+        df = df.copy()
+        
+        # 计算布林带
+        df['boll_mid'] = df['close'].rolling(window=self.period).mean()
+        std = df['close'].rolling(window=self.period).std()
+        df['boll_upper'] = df['boll_mid'] + (std * self.std_dev)
+        df['boll_lower'] = df['boll_mid'] - (std * self.std_dev)
+        
+        current_close = df['close'].iloc[-1]
+        upper = df['boll_upper'].iloc[-1]
+        lower = df['boll_lower'].iloc[-1]
+        mid = df['boll_mid'].iloc[-1]
+        
+        if pd.isna(upper) or pd.isna(lower):
+            return {'signal': Signal.HOLD, 'reason': '布林带计算失败', 'confidence': 0}
+        
+        # 触及下轨买入
+        if current_close <= lower:
+            distance = (lower - current_close) / lower
+            confidence = min(0.7 + distance * 0.3, 1.0)
+            return {
+                'signal': Signal.BUY,
+                'reason': f'触及下轨：收盘价({current_close:.2f}) <= 下轨({lower:.2f})',
+                'confidence': confidence
+            }
+        
+        # 触及上轨卖出
+        elif current_close >= upper:
+            distance = (current_close - upper) / upper
+            confidence = min(0.7 + distance * 0.3, 1.0)
+            return {
+                'signal': Signal.SELL,
+                'reason': f'触及上轨：收盘价({current_close:.2f}) >= 上轨({upper:.2f})',
+                'confidence': confidence
+            }
+        
+        # 中轨上方偏多
+        elif current_close > mid:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'偏多：收盘价({current_close:.2f}) > 中轨({mid:.2f})',
+                'confidence': 0.5
+            }
+        
+        # 中轨下方偏空
+        else:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'偏空：收盘价({current_close:.2f}) < 中轨({mid:.2f})',
+                'confidence': 0.5
+            }
+
+
+class CombinedStrategy(Strategy):
+    """组合策略：多策略信号加权"""
+    
+    def __init__(self, strategies: List[Strategy], weights: Optional[List[float]] = None):
+        super().__init__("Combined")
+        self.strategies = strategies
+        self.weights = weights or [1.0] * len(strategies)
+        
+        # 归一化权重
+        total = sum(self.weights)
+        self.weights = [w / total for w in self.weights]
+    
+    def generate_signal(self, df: pd.DataFrame) -> Dict:
+        signals = []
+        
+        for strategy in self.strategies:
+            result = strategy.generate_signal(df)
+            signals.append(result)
+        
+        # 统计信号
+        buy_count = sum(1 for s in signals if s['signal'] == Signal.BUY)
+        sell_count = sum(1 for s in signals if s['signal'] == Signal.SELL)
+        
+        # 加权置信度
+        buy_confidence = sum(
+            s['confidence'] * w 
+            for s, w in zip(signals, self.weights) 
+            if s['signal'] == Signal.BUY
+        ) / max(buy_count, 1)
+        
+        sell_confidence = sum(
+            s['confidence'] * w 
+            for s, w in zip(signals, self.weights) 
+            if s['signal'] == Signal.SELL
+        ) / max(sell_count, 1)
+        
+        # 多数投票
+        if buy_count > sell_count and buy_count >= len(self.strategies) / 2:
+            return {
+                'signal': Signal.BUY,
+                'reason': f'组合买入：{buy_count}/{len(self.strategies)} 策略看多',
+                'confidence': buy_confidence,
+                'details': signals
+            }
+        elif sell_count > buy_count and sell_count >= len(self.strategies) / 2:
+            return {
+                'signal': Signal.SELL,
+                'reason': f'组合卖出：{sell_count}/{len(self.strategies)} 策略看空',
+                'confidence': sell_confidence,
+                'details': signals
+            }
+        else:
+            return {
+                'signal': Signal.HOLD,
+                'reason': f'组合观望：多空平衡 ({buy_count} vs {sell_count})',
+                'confidence': 0.5,
+                'details': signals
+            }
+
+
+# 便捷函数
+def create_strategy(strategy_type: str, **params) -> Strategy:
+    """
+    创建策略实例
+    
+    Args:
+        strategy_type: 策略类型 ('ma_crossover', 'rsi', 'macd', 'bollinger', 'combined')
+        **params: 策略参数
+        
+    Returns:
+        Strategy: 策略实例
+    """
+    strategy_type = strategy_type.lower()
+    
+    if strategy_type == 'ma_crossover':
+        short = params.get('short_period', 5)
+        long = params.get('long_period', 20)
+        return MACrossoverStrategy(short, long)
+    
+    elif strategy_type == 'rsi':
+        period = params.get('period', 14)
+        oversold = params.get('oversold', 30)
+        overbought = params.get('overbought', 70)
+        return RSIStrategy(period, oversold, overbought)
+    
+    elif strategy_type == 'macd':
+        fast = params.get('fast', 12)
+        slow = params.get('slow', 26)
+        signal = params.get('signal', 9)
+        return MACDStrategy(fast, slow, signal)
+    
+    elif strategy_type == 'bollinger':
+        period = params.get('period', 20)
+        std_dev = params.get('std_dev', 2.0)
+        return BollingerStrategy(period, std_dev)
+    
+    elif strategy_type == 'combined':
+        # 组合默认策略
+        strategies = [
+            MACrossoverStrategy(5, 20),
+            RSIStrategy(),
+            MACDStrategy(),
+        ]
+        return CombinedStrategy(strategies)
+    
+    else:
+        raise ValueError(f"Unknown strategy type: {strategy_type}")
+
+
+def analyze_stock(df: pd.DataFrame, strategy_type: str = 'combined') -> Dict:
+    """
+    分析股票生成交易信号
+    
+    Args:
+        df: OHLCV数据
+        strategy_type: 策略类型
+        
+    Returns:
+        Dict: 包含信号、置信度和详细分析
+    """
+    strategy = create_strategy(strategy_type)
+    result = strategy.generate_signal(df)
+    
+    # 添加最新价格信息
+    if not df.empty:
+        result['price'] = round(df['close'].iloc[-1], 2)
+        result['volume'] = int(df['volume'].iloc[-1]) if 'volume' in df.columns else None
+    
+    return result

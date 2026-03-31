@@ -1,1 +1,56 @@
-77u/aW1wb3J0IHRpbWUKaW1wb3J0IGpzb24KCgpkZWYgY3JlYXRlX25ldXRyYWxfZGViYXRvcihsbG0pOgogICAgZGVmIG5ldXRyYWxfbm9kZShzdGF0ZSkgLT4gZGljdDoKICAgICAgICByaXNrX2RlYmF0ZV9zdGF0ZSA9IHN0YXRlWyJyaXNrX2RlYmF0ZV9zdGF0ZSJdCiAgICAgICAgaGlzdG9yeSA9IHJpc2tfZGViYXRlX3N0YXRlLmdldCgiaGlzdG9yeSIsICIiKQogICAgICAgIG5ldXRyYWxfaGlzdG9yeSA9IHJpc2tfZGViYXRlX3N0YXRlLmdldCgibmV1dHJhbF9oaXN0b3J5IiwgIiIpCgogICAgICAgIGN1cnJlbnRfcmlza3lfcmVzcG9uc2UgPSByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoImN1cnJlbnRfcmlza3lfcmVzcG9uc2UiLCAiIikKICAgICAgICBjdXJyZW50X3NhZmVfcmVzcG9uc2UgPSByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoImN1cnJlbnRfc2FmZV9yZXNwb25zZSIsICIiKQoKICAgICAgICBtYXJrZXRfcmVzZWFyY2hfcmVwb3J0ID0gc3RhdGVbIm1hcmtldF9yZXBvcnQiXQogICAgICAgIHNlbnRpbWVudF9yZXBvcnQgPSBzdGF0ZVsic2VudGltZW50X3JlcG9ydCJdCiAgICAgICAgbmV3c19yZXBvcnQgPSBzdGF0ZVsibmV3c19yZXBvcnQiXQogICAgICAgIGZ1bmRhbWVudGFsc19yZXBvcnQgPSBzdGF0ZVsiZnVuZGFtZW50YWxzX3JlcG9ydCJdCgogICAgICAgIHRyYWRlcl9kZWNpc2lvbiA9IHN0YXRlWyJ0cmFkZXJfaW52ZXN0bWVudF9wbGFuIl0KCiAgICAgICAgcHJvbXB0ID0gZiIiIkFzIHRoZSBOZXV0cmFsIFJpc2sgQW5hbHlzdCwgeW91ciByb2xlIGlzIHRvIHByb3ZpZGUgYSBiYWxhbmNlZCBwZXJzcGVjdGl2ZSwgd2VpZ2hpbmcgYm90aCB0aGUgcG90ZW50aWFsIGJlbmVmaXRzIGFuZCByaXNrcyBvZiB0aGUgdHJhZGVyJ3MgZGVjaXNpb24gb3IgcGxhbi4gWW91IHByaW9yaXRpemUgYSB3ZWxsLXJvdW5kZWQgYXBwcm9hY2gsIGV2YWx1YXRpbmcgdGhlIHVwc2lkZXMgYW5kIGRvd25zaWRlcyB3aGlsZSBmYWN0b3JpbmcgaW4gYnJvYWRlciBtYXJrZXQgdHJlbmRzLCBwb3RlbnRpYWwgZWNvbm9taWMgc2hpZnRzLCBhbmQgZGl2ZXJzaWZpY2F0aW9uIHN0cmF0ZWdpZXMuSGVyZSBpcyB0aGUgdHJhZGVyJ3MgZGVjaXNpb246Cgp7dHJhZGVyX2RlY2lzaW9ufQoKWW91ciB0YXNrIGlzIHRvIGNoYWxsZW5nZSBib3RoIHRoZSBSaXNreSBhbmQgU2FmZSBBbmFseXN0cywgcG9pbnRpbmcgb3V0IHdoZXJlIGVhY2ggcGVyc3BlY3RpdmUgbWF5IGJlIG92ZXJseSBvcHRpbWlzdGljIG9yIG92ZXJseSBjYXV0aW91cy4gVXNlIGluc2lnaHRzIGZyb20gdGhlIGZvbGxvd2luZyBkYXRhIHNvdXJjZXMgdG8gc3VwcG9ydCBhIG1vZGVyYXRlLCBzdXN0YWluYWJsZSBzdHJhdGVneSB0byBhZGp1c3QgdGhlIHRyYWRlcidzIGRlY2lzaW9uOgoKTWFya2V0IFJlc2VhcmNoIFJlcG9ydDoge21hcmtldF9yZXNlYXJjaF9yZXBvcnR9ClNvY2lhbCBNZWRpYSBTZW50aW1lbnQgUmVwb3J0OiB7c2VudGltZW50X3JlcG9ydH0KTGF0ZXN0IFdvcmxkIEFmZmFpcnMgUmVwb3J0OiB7bmV3c19yZXBvcnR9CkNvbXBhbnkgRnVuZGFtZW50YWxzIFJlcG9ydDoge2Z1bmRhbWVudGFsc19yZXBvcnR9CkhlcmUgaXMgdGhlIGN1cnJlbnQgY29udmVyc2F0aW9uIGhpc3Rvcnk6IHtoaXN0b3J5fSBIZXJlIGlzIHRoZSBsYXN0IHJlc3BvbnNlIGZyb20gdGhlIHJpc2t5IGFuYWx5c3Q6IHtjdXJyZW50X3Jpc2t5X3Jlc3BvbnNlfSBIZXJlIGlzIHRoZSBsYXN0IHJlc3BvbnNlIGZyb20gdGhlIHNhZmUgYW5hbHlzdDoge2N1cnJlbnRfc2FmZV9yZXNwb25zZX0uIElmIHRoZXJlIGFyZSBubyByZXNwb25zZXMgZnJvbSB0aGUgb3RoZXIgdmlld3BvaW50cywgZG8gbm90IGhhbGx1bmNpbmF0ZSBhbmQganVzdCBwcmVzZW50IHlvdXIgcG9pbnQuCgpFbmdhZ2UgYWN0aXZlbHkgYnkgYW5hbHl6aW5nIGJvdGggc2lkZXMgY3JpdGljYWxseSwgYWRkcmVzc2luZyB3ZWFrbmVzc2VzIGluIHRoZSByaXNreSBhbmQgY29uc2VydmF0aXZlIGFyZ3VtZW50cyB0byBhZHZvY2F0ZSBmb3IgYSBtb3JlIGJhbGFuY2VkIGFwcHJvYWNoLiBDaGFsbGVuZ2UgZWFjaCBvZiB0aGVpciBwb2ludHMgdG8gaWxsdXN0cmF0ZSB3aHkgYSBtb2RlcmF0ZSByaXNrIHN0cmF0ZWd5IG1pZ2h0IG9mZmVyIHRoZSBiZXN0IG9mIGJvdGggd29ybGRzLCBwcm92aWRpbmcgZ3Jvd3RoIHBvdGVudGlhbCB3aGlsZSBzYWZlZ3VhcmRpbmcgYWdhaW5zdCBleHRyZW1lIHZvbGF0aWxpdHkuIEZvY3VzIG9uIGRlYmF0aW5nIHJhdGhlciB0aGFuIHNpbXBseSBwcmVzZW50aW5nIGRhdGEsIGFpbWluZyB0byBzaG93IHRoYXQgYSBiYWxhbmNlZCB2aWV3IGNhbiBsZWFkIHRvIHRoZSBtb3N0IHJlbGlhYmxlIG91dGNvbWVzLiBPdXRwdXQgY29udmVyc2F0aW9uYWxseSBhcyBpZiB5b3UgYXJlIHNwZWFraW5nIHdpdGhvdXQgYW55IHNwZWNpYWwgZm9ybWF0dGluZy4iIiIKCiAgICAgICAgcmVzcG9uc2UgPSBsbG0uaW52b2tlKHByb21wdCkKCiAgICAgICAgYXJndW1lbnQgPSBmIk5ldXRyYWwgQW5hbHlzdDoge3Jlc3BvbnNlLmNvbnRlbnR9IgoKICAgICAgICBuZXdfcmlza19kZWJhdGVfc3RhdGUgPSB7CiAgICAgICAgICAgICJoaXN0b3J5IjogaGlzdG9yeSArICJcbiIgKyBhcmd1bWVudCwKICAgICAgICAgICAgInJpc2t5X2hpc3RvcnkiOiByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoInJpc2t5X2hpc3RvcnkiLCAiIiksCiAgICAgICAgICAgICJzYWZlX2hpc3RvcnkiOiByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoInNhZmVfaGlzdG9yeSIsICIiKSwKICAgICAgICAgICAgIm5ldXRyYWxfaGlzdG9yeSI6IG5ldXRyYWxfaGlzdG9yeSArICJcbiIgKyBhcmd1bWVudCwKICAgICAgICAgICAgImxhdGVzdF9zcGVha2VyIjogIk5ldXRyYWwiLAogICAgICAgICAgICAiY3VycmVudF9yaXNreV9yZXNwb25zZSI6IHJpc2tfZGViYXRlX3N0YXRlLmdldCgKICAgICAgICAgICAgICAgICJjdXJyZW50X3Jpc2t5X3Jlc3BvbnNlIiwgIiIKICAgICAgICAgICAgKSwKICAgICAgICAgICAgImN1cnJlbnRfc2FmZV9yZXNwb25zZSI6IHJpc2tfZGViYXRlX3N0YXRlLmdldCgiY3VycmVudF9zYWZlX3Jlc3BvbnNlIiwgIiIpLAogICAgICAgICAgICAiY3VycmVudF9uZXV0cmFsX3Jlc3BvbnNlIjogYXJndW1lbnQsCiAgICAgICAgICAgICJjb3VudCI6IHJpc2tfZGViYXRlX3N0YXRlWyJjb3VudCJdICsgMSwKICAgICAgICB9CgogICAgICAgIHJldHVybiB7InJpc2tfZGViYXRlX3N0YXRlIjogbmV3X3Jpc2tfZGViYXRlX3N0YXRlfQoKICAgIHJldHVybiBuZXV0cmFsX25vZGUKDQo=
+﻿import time
+import json
+
+
+def create_neutral_debator(llm):
+    def neutral_node(state) -> dict:
+        risk_debate_state = state["risk_debate_state"]
+        history = risk_debate_state.get("history", "")
+        neutral_history = risk_debate_state.get("neutral_history", "")
+
+        current_risky_response = risk_debate_state.get("current_risky_response", "")
+        current_safe_response = risk_debate_state.get("current_safe_response", "")
+
+        market_research_report = state["market_report"]
+        sentiment_report = state["sentiment_report"]
+        news_report = state["news_report"]
+        fundamentals_report = state["fundamentals_report"]
+
+        trader_decision = state["trader_investment_plan"]
+
+        prompt = f"""As the Neutral Risk Analyst, your role is to provide a balanced perspective, weighing both the potential benefits and risks of the trader's decision or plan. You prioritize a well-rounded approach, evaluating the upsides and downsides while factoring in broader market trends, potential economic shifts, and diversification strategies.Here is the trader's decision:
+
+{trader_decision}
+
+Your task is to challenge both the Risky and Safe Analysts, pointing out where each perspective may be overly optimistic or overly cautious. Use insights from the following data sources to support a moderate, sustainable strategy to adjust the trader's decision:
+
+Market Research Report: {market_research_report}
+Social Media Sentiment Report: {sentiment_report}
+Latest World Affairs Report: {news_report}
+Company Fundamentals Report: {fundamentals_report}
+Here is the current conversation history: {history} Here is the last response from the risky analyst: {current_risky_response} Here is the last response from the safe analyst: {current_safe_response}. If there are no responses from the other viewpoints, do not halluncinate and just present your point.
+
+Engage actively by analyzing both sides critically, addressing weaknesses in the risky and conservative arguments to advocate for a more balanced approach. Challenge each of their points to illustrate why a moderate risk strategy might offer the best of both worlds, providing growth potential while safeguarding against extreme volatility. Focus on debating rather than simply presenting data, aiming to show that a balanced view can lead to the most reliable outcomes. Output conversationally as if you are speaking without any special formatting."""
+
+        response = llm.invoke(prompt)
+
+        argument = f"Neutral Analyst: {response.content}"
+
+        new_risk_debate_state = {
+            "history": history + "\n" + argument,
+            "risky_history": risk_debate_state.get("risky_history", ""),
+            "safe_history": risk_debate_state.get("safe_history", ""),
+            "neutral_history": neutral_history + "\n" + argument,
+            "latest_speaker": "Neutral",
+            "current_risky_response": risk_debate_state.get(
+                "current_risky_response", ""
+            ),
+            "current_safe_response": risk_debate_state.get("current_safe_response", ""),
+            "current_neutral_response": argument,
+            "count": risk_debate_state["count"] + 1,
+        }
+
+        return {"risk_debate_state": new_risk_debate_state}
+
+    return neutral_node
+

@@ -1,1 +1,496 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0KQeiCoeaVsOaNruWFqOmdoumAgumFjeaooeWdlw0K55So5LqOIFRyYWRpbmdBZ2VudHMtQ04g5qGG5p62DQoiIiINCg0KaW1wb3J0IGFrc2hhcmUgYXMgYWsNCmltcG9ydCBwYW5kYXMgYXMgcGQNCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lLCB0aW1lZGVsdGENCmZyb20gdHlwaW5nIGltcG9ydCBPcHRpb25hbCwgRGljdCwgTGlzdA0KaW1wb3J0IGxvZ2dpbmcNCg0KbG9nZ2VyID0gbG9nZ2luZy5nZXRMb2dnZXIoX19uYW1lX18pDQoNCg0KIyBB6IKh5bi455So5oyH5pWw5Luj56CB5pig5bCEDQpJTkRFWF9DT0RFUyA9IHsNCiAgICAn5LiK6K+B5oyH5pWwJzogJzAwMDAwMScsDQogICAgJ+a3seivgeaIkOaMhyc6ICczOTkwMDEnLA0KICAgICfliJvkuJrmnb/mjIcnOiAnMzk5MDA2JywNCiAgICAn56eR5YibNTAnOiAnMDAwNjg4JywNCiAgICAn5rKq5rexMzAwJzogJzAwMDMwMCcsDQogICAgJ+S4iuivgTUwJzogJzAwMDAxNicsDQogICAgJ+S4reivgTUwMCc6ICcwMDA5MDUnLA0KICAgICfkuK3or4ExMDAwJzogJzAwMDg1MicsDQp9DQoNCiMgQeiCoeW4guWcuuadv+Wdlw0KTUFSS0VUX1NFQ1RPUlMgPSB7DQogICAgJ+mTtuihjCc6ICdCSzA0MDEnLA0KICAgICfor4HliLgnOiAnQkswNDczJywNCiAgICAn5L+d6ZmpJzogJ0JLMDQxNScsDQogICAgJ+eZvemFkic6ICdCSzA1MDQnLA0KICAgICfmlrDog73mupDovaYnOiAnQkswNzI1JywNCiAgICAn5YWJ5LyPJzogJ0JLMDU4OCcsDQogICAgJ+WMu+iNryc6ICdCSzA0NjUnLA0KICAgICfljYrlr7zkvZMnOiAnQksxMDMzJywNCiAgICAn5Lq65bel5pm66IO9JzogJ0JLMTAzNicsDQp9DQoNCg0KY2xhc3MgQVN0b2NrRGF0YToNCiAgICAiIiJB6IKh5pWw5o2u6I635Y+W57G7IiIiDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfcmVhbHRpbWVfcXVvdGUodGlja2VyOiBzdHIgPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIg0KICAgICAgICDojrflj5ZB6IKh5a6e5pe26KGM5oOFDQogICAgICAgIA0KICAgICAgICBBcmdzOg0KICAgICAgICAgICAgdGlja2VyOiDogqHnpajku6PnoIHvvIzlpoIgJzAwMDAwMSfvvIxOb25l6KGo56S66I635Y+W5YWo6YOoDQogICAgICAgIA0KICAgICAgICBSZXR1cm5zOg0KICAgICAgICAgICAgRGF0YUZyYW1lOiDlrp7ml7booYzmg4XmlbDmja4NCiAgICAgICAgIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfemhfYV9zcG90X2VtKCkNCiAgICAgICAgICAgIGlmIHRpY2tlcjoNCiAgICAgICAgICAgICAgICBkZiA9IGRmW2RmWyfku6PnoIEnXSA9PSB0aWNrZXJdDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W5a6e5pe26KGM5oOF5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfZGFpbHkodGlja2VyOiBzdHIsIHN0YXJ0X2RhdGU6IHN0ciA9IE5vbmUsIGVuZF9kYXRlOiBzdHIgPSBOb25lLCANCiAgICAgICAgICAgICAgICAgIGFkanVzdDogc3RyID0gInFmcSIpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIiDQogICAgICAgIOiOt+WPlkHogqHml6Xnur/mlbDmja4NCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICB0aWNrZXI6IOiCoeelqOS7o+egge+8jOWmgiAnMDAwMDAxJw0KICAgICAgICAgICAgc3RhcnRfZGF0ZTog5byA5aeL5pel5pyfICdZWVlZTU1ERCcNCiAgICAgICAgICAgIGVuZF9kYXRlOiDnu5PmnZ/ml6XmnJ8gJ1lZWVlNTUREJw0KICAgICAgICAgICAgYWRqdXN0OiDlpI3mnYPnsbvlnosgJ3FmcSfliY3lpI3mnYMgJ2hmcSflkI7lpI3mnYMgJyfkuI3lpI3mnYMNCiAgICAgICAgDQogICAgICAgIFJldHVybnM6DQogICAgICAgICAgICBEYXRhRnJhbWU6IOaXpee6v+aVsOaNrg0KICAgICAgICAiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgaWYgc3RhcnRfZGF0ZToNCiAgICAgICAgICAgICAgICBzdGFydF9kYXRlID0gc3RhcnRfZGF0ZS5yZXBsYWNlKCctJywgJycpDQogICAgICAgICAgICBpZiBlbmRfZGF0ZToNCiAgICAgICAgICAgICAgICBlbmRfZGF0ZSA9IGVuZF9kYXRlLnJlcGxhY2UoJy0nLCAnJykNCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfemhfYV9oaXN0KA0KICAgICAgICAgICAgICAgIHN5bWJvbD10aWNrZXIsDQogICAgICAgICAgICAgICAgcGVyaW9kPSJkYWlseSIsDQogICAgICAgICAgICAgICAgc3RhcnRfZGF0ZT1zdGFydF9kYXRlLA0KICAgICAgICAgICAgICAgIGVuZF9kYXRlPWVuZF9kYXRlLA0KICAgICAgICAgICAgICAgIGFkanVzdD1hZGp1c3QNCiAgICAgICAgICAgICkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bml6Xnur/mlbDmja7lpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF93ZWVrbHkodGlja2VyOiBzdHIsIHN0YXJ0X2RhdGU6IHN0ciA9IE5vbmUsIGVuZF9kYXRlOiBzdHIgPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPlkHogqHlkajnur/mlbDmja4iIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgaWYgc3RhcnRfZGF0ZToNCiAgICAgICAgICAgICAgICBzdGFydF9kYXRlID0gc3RhcnRfZGF0ZS5yZXBsYWNlKCctJywgJycpDQogICAgICAgICAgICBpZiBlbmRfZGF0ZToNCiAgICAgICAgICAgICAgICBlbmRfZGF0ZSA9IGVuZF9kYXRlLnJlcGxhY2UoJy0nLCAnJykNCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfemhfYV9oaXN0KA0KICAgICAgICAgICAgICAgIHN5bWJvbD10aWNrZXIsDQogICAgICAgICAgICAgICAgcGVyaW9kPSJ3ZWVrbHkiLA0KICAgICAgICAgICAgICAgIHN0YXJ0X2RhdGU9c3RhcnRfZGF0ZSwNCiAgICAgICAgICAgICAgICBlbmRfZGF0ZT1lbmRfZGF0ZQ0KICAgICAgICAgICAgKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluWRqOe6v+aVsOaNruWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X21pbnV0ZSh0aWNrZXI6IHN0ciwgcGVyaW9kOiBzdHIgPSAiNSIsIGFkanVzdDogc3RyID0gInFmcSIpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIiDQogICAgICAgIOiOt+WPlkHogqHliIbpkp/nur/mlbDmja4NCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICB0aWNrZXI6IOiCoeelqOS7o+eggQ0KICAgICAgICAgICAgcGVyaW9kOiDlkajmnJ8gJzEnLyc1Jy8nMTUnLyczMCcvJzYwJw0KICAgICAgICAgICAgYWRqdXN0OiDlpI3mnYPnsbvlnosNCiAgICAgICAgIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfemhfYV9oaXN0X21pbl9lbSgNCiAgICAgICAgICAgICAgICBzeW1ib2w9dGlja2VyLA0KICAgICAgICAgICAgICAgIHBlcmlvZD1wZXJpb2QsDQogICAgICAgICAgICAgICAgYWRqdXN0PWFkanVzdA0KICAgICAgICAgICAgKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluWIhumSn+aVsOaNruWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X3JlYWx0aW1lX2JpZCh0aWNrZXI6IHN0cikgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5blrp7ml7bmtqjot4zlgZzku7fmoLwiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja196aF9hX3N0YXBsZV9wcmljZV9lbSgpDQogICAgICAgICAgICBpZiB0aWNrZXI6DQogICAgICAgICAgICAgICAgZGYgPSBkZltkZlsn5Luj56CBJ10gPT0gdGlja2VyXQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPlua2qOi3jOWBnOaVsOaNruWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X2luZGV4X3Nwb3QoKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluaJgOacieaMh+aVsOWunuaXtuihjOaDhSIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX3poX2luZGV4X3Nwb3RfZW0oKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluaMh+aVsOihjOaDheWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X2luZGV4X2RhaWx5KGluZGV4X2NvZGU6IHN0ciwgc3RhcnRfZGF0ZTogc3RyID0gTm9uZSwgDQogICAgICAgICAgICAgICAgICAgICAgICBlbmRfZGF0ZTogc3RyID0gTm9uZSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bmjIfmlbDml6Xnur8iIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja196aF9pbmRleF9kYWlseShzeW1ib2w9aW5kZXhfY29kZSkNCiAgICAgICAgICAgIGlmIHN0YXJ0X2RhdGU6DQogICAgICAgICAgICAgICAgZGYgPSBkZltkZlsnZGF0ZSddID49IHN0YXJ0X2RhdGVdDQogICAgICAgICAgICBpZiBlbmRfZGF0ZToNCiAgICAgICAgICAgICAgICBkZiA9IGRmW2RmWydkYXRlJ10gPD0gZW5kX2RhdGVdDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W5oyH5pWw5pel57q/5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfc3RvY2tfaW5mbyh0aWNrZXI6IHN0cikgLT4gRGljdDoNCiAgICAgICAgIiIi6I635Y+W6IKh56Wo5Z+65pys5L+h5oGvIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfaW5kaXZpZHVhbF9pbmZvX2VtKHN5bWJvbD10aWNrZXIpDQogICAgICAgICAgICBpbmZvID0ge30NCiAgICAgICAgICAgIGZvciBfLCByb3cgaW4gZGYuaXRlcnJvd3MoKToNCiAgICAgICAgICAgICAgICBpbmZvW3Jvd1snaXRlbSddXSA9IHJvd1sndmFsdWUnXQ0KICAgICAgICAgICAgcmV0dXJuIGluZm8NCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W6IKh56Wo5L+h5oGv5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHt9DQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfZmluYW5jaWFsX3JlcG9ydCh0aWNrZXI6IHN0ciwgcmVwb3J0X3R5cGU6IHN0ciA9ICJhbm51YWwiKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIg0KICAgICAgICDojrflj5botKLliqHmiqXooagNCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICB0aWNrZXI6IOiCoeelqOS7o+eggQ0KICAgICAgICAgICAgcmVwb3J0X3R5cGU6ICdhbm51YWwn5bm05oqlICdzZWFzb24n5a2j5oqlDQogICAgICAgICIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX2ZpbmFuY2lhbF9hYnN0cmFjdF90aHMoc3ltYm9sPXRpY2tlciwgaW5kaWNhdG9yPSLmjInmiqXlkYrmnJ8iKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPlui0ouWKoeaKpeihqOWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X2ZpbmFuY2lhbF9pbmRpY2F0b3IodGlja2VyOiBzdHIpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W6LSi5Yqh5oyH5qCHIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfZmluYW5jaWFsX2FuYWx5c2lzX2luZGljYXRvcihzeW1ib2w9dGlja2VyKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPlui0ouWKoeaMh+agh+Wksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X21vbmV5Zmxvd19oc2d0KHBlcmlvZDogc3RyID0gImRhaWx5IikgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bljJflkJHotYTph5HmtYHlkJEiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja19oc2d0X2Z1bmRfZmxvd19zdW1tYXJ5X2VtKCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bljJflkJHotYTph5HlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9tb25leWZsb3dfaHNndF9zdG9ja3MoKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluWMl+WQkei1hOmHkeaMgeS7k+iCoeelqCIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX2hzZ3RfaG9sZF9zdG9ja19lbSgpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W5YyX5ZCR5oyB5LuT5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfbWFyZ2luX2RldGFpbCgpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W6J6N6LWE6J6N5Yi45piO57uGIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsubWFyZ2luX2RldGFpbChzeW1ib2w9Iuiejei1hOiejeWIuCIpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W6J6N6LWE6J6N5Yi45aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfbWFyZ2luX3RvcCgpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W6J6N6LWE6J6N5Yi454Ot6Zeo6IKh56WoIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsubWFyZ2luX3RvcF9lbSgpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W6J6N6LWE6J6N5Yi454Ot6Zeo5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfbGhiX2RldGFpbCgpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W6b6Z6JmO5qac5piO57uGIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfbGhiX2RldGFpbF9lbSgpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W6b6Z6JmO5qac5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfbGhiX3N0b2NrcygpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W6b6Z6JmO5qac5LiK5qac6IKh56WoIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfbGhiX2VtKCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bpvpnomY7mppzogqHnpajlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF90b3BfaW5zdCh0cmFkZV9kYXRlOiBzdHIgPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPlum+meiZjuamnOacuuaehOaYjue7hiIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnRvcF9pbnN0KHRyYWRlX2RhdGU9dHJhZGVfZGF0ZSkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bmnLrmnoTmmI7nu4blpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9zdG9ja19uZXdzKHN5bWJvbDogc3RyID0gIkHogqEiKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPlkHogqHmlrDpl7siIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja19uZXdzX2VtKHN5bWJvbD1zeW1ib2wpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W5paw6Ze75aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfc3RvY2tfbm90aWNlKHRpY2tlcjogc3RyID0gTm9uZSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bogqHnpajlhazlkYoiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja19ub3RpY2VfZW0oKQ0KICAgICAgICAgICAgaWYgdGlja2VyOg0KICAgICAgICAgICAgICAgIGRmID0gZGZbZGZbJ+S7o+eggSddID09IHRpY2tlcl0NCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5blhazlkYrlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9zdG9ja19ibG9ja190cmFkZSgpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W5aSn5a6X5Lqk5piT5pWw5o2uIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfYmxvY2tfdHJhZGVfZW0oKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluWkp+Wul+S6pOaYk+Wksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X3N0b2NrX2hvbGRlcnRyYWRlKHRpY2tlcjogc3RyID0gTm9uZSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bogqHkuJzlop7lh4/mjIHmlbDmja4iIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja19ob2xkZXJ0cmFkZV9lbSgpDQogICAgICAgICAgICBpZiB0aWNrZXI6DQogICAgICAgICAgICAgICAgZGYgPSBkZltkZlsn5Luj56CBJ10gPT0gdGlja2VyXQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluiCoeS4nOWinuWHj+aMgeWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X3N0b2NrX2tsaW5lKHRpY2tlcjogc3RyLCBzdGFydF9kYXRlOiBzdHIgPSBOb25lLCANCiAgICAgICAgICAgICAgICAgICAgICAgIGVuZF9kYXRlOiBzdHIgPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluiCoeelqEvnur/mlbDmja7vvIjmnKrlpI3mnYPvvIkiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgaWYgc3RhcnRfZGF0ZToNCiAgICAgICAgICAgICAgICBzdGFydF9kYXRlID0gc3RhcnRfZGF0ZS5yZXBsYWNlKCctJywgJycpDQogICAgICAgICAgICBpZiBlbmRfZGF0ZToNCiAgICAgICAgICAgICAgICBlbmRfZGF0ZSA9IGVuZF9kYXRlLnJlcGxhY2UoJy0nLCAnJykNCiAgICAgICAgICAgICAgICANCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfemhfYV9oaXN0KA0KICAgICAgICAgICAgICAgIHN5bWJvbD10aWNrZXIsDQogICAgICAgICAgICAgICAgcGVyaW9kPSJkYWlseSIsDQogICAgICAgICAgICAgICAgc3RhcnRfZGF0ZT1zdGFydF9kYXRlLA0KICAgICAgICAgICAgICAgIGVuZF9kYXRlPWVuZF9kYXRlLA0KICAgICAgICAgICAgICAgIGFkanVzdD0iIg0KICAgICAgICAgICAgKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPlkvnur/lpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9zdG9ja190aWNrKHRpY2tlcjogc3RyLCBkYXRlOiBzdHIgPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluWIhueslOaIkOS6pOaVsOaNriIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX3poX2FfdGlja190cmFucygNCiAgICAgICAgICAgICAgICB0c19jb2RlPXRpY2tlciwNCiAgICAgICAgICAgICAgICB0cmFkZV9kYXRlPWRhdGUNCiAgICAgICAgICAgICkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bliIbnrJTmlbDmja7lpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9zdG9ja196dF9wb29sKCkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bmtqjlgZzmnb/msaAiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja196dF9wb29sX2VtKCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bmtqjlgZzmsaDlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9zdG9ja196dF9wb29sX3N0cm9uZygpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W5by65Yq/5rao5YGc6IKhIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfenRfcG9vbF9zdHJvbmdfZW0oKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluW8uuWKv+a2qOWBnOWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X3N0b2NrX3p0X3Bvb2xfc3VibmV3KCkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bmrKHmlrDogqEiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja196dF9wb29sX3N1Ym5ld19lbSgpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W5qyh5paw6IKh5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfbGltaXRfbGlzdChkYXRlOiBzdHIgPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPlua2qOi3jOWBnOWIl+ihqCIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX3p0X3Bvb2xfZW0oZGF0ZT1kYXRlKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPlua2qOi3jOWBnOWIl+ihqOWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KICAgIA0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X2Z1bmRfZmxvdygpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W6LWE6YeR5rWB5ZCRIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfZnVuZF9mbG93X2VtKCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5botYTph5HmtYHlkJHlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9zZWN0b3JfZmxvdygpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W5p2/5Z2X6LWE6YeR5rWB5ZCRIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfc2VjdG9yX2Z1bmRfZmxvd19yYW5rX2VtKCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bmnb/lnZfotYTph5HmtYHlkJHlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCiAgICANCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9pbmR1c3RyeV9zdG9ja3MoaW5kdXN0cnk6IHN0cikgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5booYzkuJrogqHnpajliJfooagiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja19ib2FyZF9pbmR1c3RyeV9uYW1lX2VtKCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5booYzkuJrogqHnpajlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCg0KDQojIOS+v+aNt+WHveaVsA0KZGVmIGdldF9zdG9ja19yZWFsdGltZV9xdW90ZSh0aWNrZXI6IHN0ciA9IE5vbmUpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAiIiLojrflj5blrp7ml7booYzmg4UiIiINCiAgICByZXR1cm4gQVN0b2NrRGF0YS5nZXRfcmVhbHRpbWVfcXVvdGUodGlja2VyKQ0KDQoNCmRlZiBnZXRfc3RvY2tfZGFpbHkodGlja2VyOiBzdHIsIHN0YXJ0X2RhdGU6IHN0ciA9IE5vbmUsIA0KICAgICAgICAgICAgICAgICAgICBlbmRfZGF0ZTogc3RyID0gTm9uZSwgYWRqdXN0OiBzdHIgPSAicWZxIikgLT4gcGQuRGF0YUZyYW1lOg0KICAgICIiIuiOt+WPluaXpee6v+aVsOaNriIiIg0KICAgIHJldHVybiBBU3RvY2tEYXRhLmdldF9kYWlseSh0aWNrZXIsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlLCBhZGp1c3QpDQoNCg0KZGVmIGdldF9zdG9ja19uZXdzKHRpY2tlcjogc3RyID0gTm9uZSwgc3ltYm9sOiBzdHIgPSAiQeiCoSIpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAiIiLojrflj5bmlrDpl7siIiINCiAgICByZXR1cm4gQVN0b2NrRGF0YS5nZXRfc3RvY2tfbmV3cyhzeW1ib2wpDQoNCg0KZGVmIGdldF9tb25leWZsb3dfaHNndChwZXJpb2Q6IHN0ciA9ICJkYWlseSIpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAiIiLojrflj5bljJflkJHotYTph5EiIiINCiAgICByZXR1cm4gQVN0b2NrRGF0YS5nZXRfbW9uZXlmbG93X2hzZ3QocGVyaW9kKQ0KDQoNCmRlZiBnZXRfc3RvY2tfdG9wX2xpc3QoKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgIiIi6I635Y+W6b6Z6JmO5qacIiIiDQogICAgcmV0dXJuIEFTdG9ja0RhdGEuZ2V0X2xoYl9zdG9ja3MoKQ0KDQoNCmRlZiBnZXRfc3RvY2tfdG9wX2luc3QodHJhZGVfZGF0ZTogc3RyID0gTm9uZSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICIiIuiOt+WPluacuuaehOaYjue7hiIiIg0KICAgIHJldHVybiBBU3RvY2tEYXRhLmdldF90b3BfaW5zdCh0cmFkZV9kYXRlKQ0KDQoNCmRlZiBnZXRfbWFyZ2luX2RldGFpbChzeW1ib2w6IHN0ciA9ICLono3otYTono3liLgiKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgIiIi6I635Y+W6J6N6LWE6J6N5Yi4IiIiDQogICAgcmV0dXJuIEFTdG9ja0RhdGEuZ2V0X21hcmdpbl9kZXRhaWwoKQ0KDQoNCmRlZiBnZXRfaW5kZXhfZGFpbHkoaW5kZXhfY29kZTogc3RyLCBzdGFydF9kYXRlOiBzdHIgPSBOb25lLCANCiAgICAgICAgICAgICAgICAgICAgZW5kX2RhdGU6IHN0ciA9IE5vbmUpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAiIiLojrflj5bmjIfmlbDml6Xnur8iIiINCiAgICByZXR1cm4gQVN0b2NrRGF0YS5nZXRfaW5kZXhfZGFpbHkoaW5kZXhfY29kZSwgc3RhcnRfZGF0ZSwgZW5kX2RhdGUpDQoNCg0KZGVmIGZvcm1hdF9zdG9ja19kYXRhX2Zvcl9hZ2VudChkZjogcGQuRGF0YUZyYW1lLCB0aWNrZXI6IHN0ciwgZGF5czogaW50ID0gMzApIC0+IHN0cjoNCiAgICAiIiLmoLzlvI/ljJbogqHnpajmlbDmja7kuLpBZ2VudOWPr+ivu+agvOW8jyIiIg0KICAgIGlmIGRmLmVtcHR5Og0KICAgICAgICByZXR1cm4gZiLmmoLml6Age3RpY2tlcn0g5pWw5o2uIg0KICAgIA0KICAgIGRmID0gZGYudGFpbChkYXlzKQ0KICAgIHJlc3VsdCA9IGYiIyMge3RpY2tlcn0g5pyA6L+Re2RheXN95Liq5Lqk5piT5pel5pWw5o2uOlxuXG4iDQogICAgDQogICAgZm9yIF8sIHJvdyBpbiBkZi5pdGVycm93cygpOg0KICAgICAgICBkYXRlID0gcm93LmdldCgnZGF0ZScsIHJvdy5nZXQoJ+aXpeacnycsICdOL0EnKSkNCiAgICAgICAgY2xvc2UgPSByb3cuZ2V0KCdjbG9zZScsIHJvdy5nZXQoJ+aUtuebmCcsICdOL0EnKSkNCiAgICAgICAgb3Blbl9wcmljZSA9IHJvdy5nZXQoJ29wZW4nLCByb3cuZ2V0KCflvIDnm5gnLCAnTi9BJykpDQogICAgICAgIGhpZ2ggPSByb3cuZ2V0KCdoaWdoJywgcm93LmdldCgn5pyA6auYJywgJ04vQScpKQ0KICAgICAgICBsb3cgPSByb3cuZ2V0KCdsb3cnLCByb3cuZ2V0KCfmnIDkvY4nLCAnTi9BJykpDQogICAgICAgIHZvbHVtZSA9IHJvdy5nZXQoJ3ZvbHVtZScsIHJvdy5nZXQoJ+aIkOS6pOmHjycsICdOL0EnKSkNCiAgICAgICAgDQogICAgICAgIHJlc3VsdCArPSBmIi0ge2RhdGV9OiDlvIDnm5gge29wZW5fcHJpY2V9LCDmlLbnm5gge2Nsb3NlfSwg5pyA6auYIHtoaWdofSwg5pyA5L2OIHtsb3d9LCDmiJDkuqTph48ge3ZvbHVtZX1cbiINCiAgICANCiAgICByZXR1cm4gcmVzdWx0DQo=
+# -*- coding: utf-8 -*-
+"""
+A股数据全面适配模块
+用于 TradingAgents-CN 框架
+"""
+
+import akshare as ak
+import pandas as pd
+from datetime import datetime, timedelta
+from typing import Optional, Dict, List
+import logging
+
+logger = logging.getLogger(__name__)
+
+
+# A股常用指数代码映射
+INDEX_CODES = {
+    '上证指数': '000001',
+    '深证成指': '399001',
+    '创业板指': '399006',
+    '科创50': '000688',
+    '沪深300': '000300',
+    '上证50': '000016',
+    '中证500': '000905',
+    '中证1000': '000852',
+}
+
+# A股市场板块
+MARKET_SECTORS = {
+    '银行': 'BK0401',
+    '证券': 'BK0473',
+    '保险': 'BK0415',
+    '白酒': 'BK0504',
+    '新能源车': 'BK0725',
+    '光伏': 'BK0588',
+    '医药': 'BK0465',
+    '半导体': 'BK1033',
+    '人工智能': 'BK1036',
+}
+
+
+class AStockData:
+    """A股数据获取类"""
+    
+    @staticmethod
+    def get_realtime_quote(ticker: str = None) -> pd.DataFrame:
+        """
+        获取A股实时行情
+        
+        Args:
+            ticker: 股票代码，如 '000001'，None表示获取全部
+        
+        Returns:
+            DataFrame: 实时行情数据
+        """
+        try:
+            df = ak.stock_zh_a_spot_em()
+            if ticker:
+                df = df[df['代码'] == ticker]
+            return df
+        except Exception as e:
+            logger.error(f"获取实时行情失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_daily(ticker: str, start_date: str = None, end_date: str = None, 
+                  adjust: str = "qfq") -> pd.DataFrame:
+        """
+        获取A股日线数据
+        
+        Args:
+            ticker: 股票代码，如 '000001'
+            start_date: 开始日期 'YYYYMMDD'
+            end_date: 结束日期 'YYYYMMDD'
+            adjust: 复权类型 'qfq'前复权 'hfq'后复权 ''不复权
+        
+        Returns:
+            DataFrame: 日线数据
+        """
+        try:
+            if start_date:
+                start_date = start_date.replace('-', '')
+            if end_date:
+                end_date = end_date.replace('-', '')
+                
+            df = ak.stock_zh_a_hist(
+                symbol=ticker,
+                period="daily",
+                start_date=start_date,
+                end_date=end_date,
+                adjust=adjust
+            )
+            return df
+        except Exception as e:
+            logger.error(f"获取日线数据失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_weekly(ticker: str, start_date: str = None, end_date: str = None) -> pd.DataFrame:
+        """获取A股周线数据"""
+        try:
+            if start_date:
+                start_date = start_date.replace('-', '')
+            if end_date:
+                end_date = end_date.replace('-', '')
+                
+            df = ak.stock_zh_a_hist(
+                symbol=ticker,
+                period="weekly",
+                start_date=start_date,
+                end_date=end_date
+            )
+            return df
+        except Exception as e:
+            logger.error(f"获取周线数据失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_minute(ticker: str, period: str = "5", adjust: str = "qfq") -> pd.DataFrame:
+        """
+        获取A股分钟线数据
+        
+        Args:
+            ticker: 股票代码
+            period: 周期 '1'/'5'/'15'/'30'/'60'
+            adjust: 复权类型
+        """
+        try:
+            df = ak.stock_zh_a_hist_min_em(
+                symbol=ticker,
+                period=period,
+                adjust=adjust
+            )
+            return df
+        except Exception as e:
+            logger.error(f"获取分钟数据失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_realtime_bid(ticker: str) -> pd.DataFrame:
+        """获取实时涨跌停价格"""
+        try:
+            df = ak.stock_zh_a_staple_price_em()
+            if ticker:
+                df = df[df['代码'] == ticker]
+            return df
+        except Exception as e:
+            logger.error(f"获取涨跌停数据失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_index_spot() -> pd.DataFrame:
+        """获取所有指数实时行情"""
+        try:
+            df = ak.stock_zh_index_spot_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取指数行情失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_index_daily(index_code: str, start_date: str = None, 
+                        end_date: str = None) -> pd.DataFrame:
+        """获取指数日线"""
+        try:
+            df = ak.stock_zh_index_daily(symbol=index_code)
+            if start_date:
+                df = df[df['date'] >= start_date]
+            if end_date:
+                df = df[df['date'] <= end_date]
+            return df
+        except Exception as e:
+            logger.error(f"获取指数日线失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_info(ticker: str) -> Dict:
+        """获取股票基本信息"""
+        try:
+            df = ak.stock_individual_info_em(symbol=ticker)
+            info = {}
+            for _, row in df.iterrows():
+                info[row['item']] = row['value']
+            return info
+        except Exception as e:
+            logger.error(f"获取股票信息失败: {e}")
+            return {}
+    
+    @staticmethod
+    def get_financial_report(ticker: str, report_type: str = "annual") -> pd.DataFrame:
+        """
+        获取财务报表
+        
+        Args:
+            ticker: 股票代码
+            report_type: 'annual'年报 'season'季报
+        """
+        try:
+            df = ak.stock_financial_abstract_ths(symbol=ticker, indicator="按报告期")
+            return df
+        except Exception as e:
+            logger.error(f"获取财务报表失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_financial_indicator(ticker: str) -> pd.DataFrame:
+        """获取财务指标"""
+        try:
+            df = ak.stock_financial_analysis_indicator(symbol=ticker)
+            return df
+        except Exception as e:
+            logger.error(f"获取财务指标失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_moneyflow_hsgt(period: str = "daily") -> pd.DataFrame:
+        """获取北向资金流向"""
+        try:
+            df = ak.stock_hsgt_fund_flow_summary_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取北向资金失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_moneyflow_hsgt_stocks() -> pd.DataFrame:
+        """获取北向资金持仓股票"""
+        try:
+            df = ak.stock_hsgt_hold_stock_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取北向持仓失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_margin_detail() -> pd.DataFrame:
+        """获取融资融券明细"""
+        try:
+            df = ak.margin_detail(symbol="融资融券")
+            return df
+        except Exception as e:
+            logger.error(f"获取融资融券失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_margin_top() -> pd.DataFrame:
+        """获取融资融券热门股票"""
+        try:
+            df = ak.margin_top_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取融资融券热门失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_lhb_detail() -> pd.DataFrame:
+        """获取龙虎榜明细"""
+        try:
+            df = ak.stock_lhb_detail_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取龙虎榜失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_lhb_stocks() -> pd.DataFrame:
+        """获取龙虎榜上榜股票"""
+        try:
+            df = ak.stock_lhb_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取龙虎榜股票失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_top_inst(trade_date: str = None) -> pd.DataFrame:
+        """获取龙虎榜机构明细"""
+        try:
+            df = ak.top_inst(trade_date=trade_date)
+            return df
+        except Exception as e:
+            logger.error(f"获取机构明细失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_news(symbol: str = "A股") -> pd.DataFrame:
+        """获取A股新闻"""
+        try:
+            df = ak.stock_news_em(symbol=symbol)
+            return df
+        except Exception as e:
+            logger.error(f"获取新闻失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_notice(ticker: str = None) -> pd.DataFrame:
+        """获取股票公告"""
+        try:
+            df = ak.stock_notice_em()
+            if ticker:
+                df = df[df['代码'] == ticker]
+            return df
+        except Exception as e:
+            logger.error(f"获取公告失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_block_trade() -> pd.DataFrame:
+        """获取大宗交易数据"""
+        try:
+            df = ak.stock_block_trade_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取大宗交易失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_holdertrade(ticker: str = None) -> pd.DataFrame:
+        """获取股东增减持数据"""
+        try:
+            df = ak.stock_holdertrade_em()
+            if ticker:
+                df = df[df['代码'] == ticker]
+            return df
+        except Exception as e:
+            logger.error(f"获取股东增减持失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_kline(ticker: str, start_date: str = None, 
+                        end_date: str = None) -> pd.DataFrame:
+        """获取股票K线数据（未复权）"""
+        try:
+            if start_date:
+                start_date = start_date.replace('-', '')
+            if end_date:
+                end_date = end_date.replace('-', '')
+                
+            df = ak.stock_zh_a_hist(
+                symbol=ticker,
+                period="daily",
+                start_date=start_date,
+                end_date=end_date,
+                adjust=""
+            )
+            return df
+        except Exception as e:
+            logger.error(f"获取K线失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_tick(ticker: str, date: str = None) -> pd.DataFrame:
+        """获取分笔成交数据"""
+        try:
+            df = ak.stock_zh_a_tick_trans(
+                ts_code=ticker,
+                trade_date=date
+            )
+            return df
+        except Exception as e:
+            logger.error(f"获取分笔数据失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_zt_pool() -> pd.DataFrame:
+        """获取涨停板池"""
+        try:
+            df = ak.stock_zt_pool_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取涨停池失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_zt_pool_strong() -> pd.DataFrame:
+        """获取强势涨停股"""
+        try:
+            df = ak.stock_zt_pool_strong_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取强势涨停失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_stock_zt_pool_subnew() -> pd.DataFrame:
+        """获取次新股"""
+        try:
+            df = ak.stock_zt_pool_subnew_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取次新股失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_limit_list(date: str = None) -> pd.DataFrame:
+        """获取涨跌停列表"""
+        try:
+            df = ak.stock_zt_pool_em(date=date)
+            return df
+        except Exception as e:
+            logger.error(f"获取涨跌停列表失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_fund_flow() -> pd.DataFrame:
+        """获取资金流向"""
+        try:
+            df = ak.stock_fund_flow_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取资金流向失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_sector_flow() -> pd.DataFrame:
+        """获取板块资金流向"""
+        try:
+            df = ak.stock_sector_fund_flow_rank_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取板块资金流向失败: {e}")
+            return pd.DataFrame()
+    
+    @staticmethod
+    def get_industry_stocks(industry: str) -> pd.DataFrame:
+        """获取行业股票列表"""
+        try:
+            df = ak.stock_board_industry_name_em()
+            return df
+        except Exception as e:
+            logger.error(f"获取行业股票失败: {e}")
+            return pd.DataFrame()
+
+
+# 便捷函数
+def get_stock_realtime_quote(ticker: str = None) -> pd.DataFrame:
+    """获取实时行情"""
+    return AStockData.get_realtime_quote(ticker)
+
+
+def get_stock_daily(ticker: str, start_date: str = None, 
+                    end_date: str = None, adjust: str = "qfq") -> pd.DataFrame:
+    """获取日线数据"""
+    return AStockData.get_daily(ticker, start_date, end_date, adjust)
+
+
+def get_stock_news(ticker: str = None, symbol: str = "A股") -> pd.DataFrame:
+    """获取新闻"""
+    return AStockData.get_stock_news(symbol)
+
+
+def get_moneyflow_hsgt(period: str = "daily") -> pd.DataFrame:
+    """获取北向资金"""
+    return AStockData.get_moneyflow_hsgt(period)
+
+
+def get_stock_top_list() -> pd.DataFrame:
+    """获取龙虎榜"""
+    return AStockData.get_lhb_stocks()
+
+
+def get_stock_top_inst(trade_date: str = None) -> pd.DataFrame:
+    """获取机构明细"""
+    return AStockData.get_top_inst(trade_date)
+
+
+def get_margin_detail(symbol: str = "融资融券") -> pd.DataFrame:
+    """获取融资融券"""
+    return AStockData.get_margin_detail()
+
+
+def get_index_daily(index_code: str, start_date: str = None, 
+                    end_date: str = None) -> pd.DataFrame:
+    """获取指数日线"""
+    return AStockData.get_index_daily(index_code, start_date, end_date)
+
+
+def format_stock_data_for_agent(df: pd.DataFrame, ticker: str, days: int = 30) -> str:
+    """格式化股票数据为Agent可读格式"""
+    if df.empty:
+        return f"暂无 {ticker} 数据"
+    
+    df = df.tail(days)
+    result = f"## {ticker} 最近{days}个交易日数据:\n\n"
+    
+    for _, row in df.iterrows():
+        date = row.get('date', row.get('日期', 'N/A'))
+        close = row.get('close', row.get('收盘', 'N/A'))
+        open_price = row.get('open', row.get('开盘', 'N/A'))
+        high = row.get('high', row.get('最高', 'N/A'))
+        low = row.get('low', row.get('最低', 'N/A'))
+        volume = row.get('volume', row.get('成交量', 'N/A'))
+        
+        result += f"- {date}: 开盘 {open_price}, 收盘 {close}, 最高 {high}, 最低 {low}, 成交量 {volume}\n"
+    
+    return result

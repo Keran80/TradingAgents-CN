@@ -1,1 +1,67 @@
-77u/aW1wb3J0IHRpbWUKaW1wb3J0IGpzb24KCgpkZWYgY3JlYXRlX3Jpc2tfbWFuYWdlcihsbG0sIG1lbW9yeSk6CiAgICBkZWYgcmlza19tYW5hZ2VyX25vZGUoc3RhdGUpIC0+IGRpY3Q6CgogICAgICAgIGNvbXBhbnlfbmFtZSA9IHN0YXRlWyJjb21wYW55X29mX2ludGVyZXN0Il0KCiAgICAgICAgaGlzdG9yeSA9IHN0YXRlWyJyaXNrX2RlYmF0ZV9zdGF0ZSJdWyJoaXN0b3J5Il0KICAgICAgICByaXNrX2RlYmF0ZV9zdGF0ZSA9IHN0YXRlWyJyaXNrX2RlYmF0ZV9zdGF0ZSJdCiAgICAgICAgbWFya2V0X3Jlc2VhcmNoX3JlcG9ydCA9IHN0YXRlWyJtYXJrZXRfcmVwb3J0Il0KICAgICAgICBuZXdzX3JlcG9ydCA9IHN0YXRlWyJuZXdzX3JlcG9ydCJdCiAgICAgICAgZnVuZGFtZW50YWxzX3JlcG9ydCA9IHN0YXRlWyJuZXdzX3JlcG9ydCJdCiAgICAgICAgc2VudGltZW50X3JlcG9ydCA9IHN0YXRlWyJzZW50aW1lbnRfcmVwb3J0Il0KICAgICAgICB0cmFkZXJfcGxhbiA9IHN0YXRlWyJpbnZlc3RtZW50X3BsYW4iXQoKICAgICAgICBjdXJyX3NpdHVhdGlvbiA9IGYie21hcmtldF9yZXNlYXJjaF9yZXBvcnR9XG5cbntzZW50aW1lbnRfcmVwb3J0fVxuXG57bmV3c19yZXBvcnR9XG5cbntmdW5kYW1lbnRhbHNfcmVwb3J0fSIKICAgICAgICBwYXN0X21lbW9yaWVzID0gbWVtb3J5LmdldF9tZW1vcmllcyhjdXJyX3NpdHVhdGlvbiwgbl9tYXRjaGVzPTIpCgogICAgICAgIHBhc3RfbWVtb3J5X3N0ciA9ICIiCiAgICAgICAgZm9yIGksIHJlYyBpbiBlbnVtZXJhdGUocGFzdF9tZW1vcmllcywgMSk6CiAgICAgICAgICAgIHBhc3RfbWVtb3J5X3N0ciArPSByZWNbInJlY29tbWVuZGF0aW9uIl0gKyAiXG5cbiIKCiAgICAgICAgcHJvbXB0ID0gZiIiIkFzIHRoZSBSaXNrIE1hbmFnZW1lbnQgSnVkZ2UgYW5kIERlYmF0ZSBGYWNpbGl0YXRvciwgeW91ciBnb2FsIGlzIHRvIGV2YWx1YXRlIHRoZSBkZWJhdGUgYmV0d2VlbiB0aHJlZSByaXNrIGFuYWx5c3Rz4oCUUmlza3ksIE5ldXRyYWwsIGFuZCBTYWZlL0NvbnNlcnZhdGl2ZeKAlGFuZCBkZXRlcm1pbmUgdGhlIGJlc3QgY291cnNlIG9mIGFjdGlvbiBmb3IgdGhlIHRyYWRlci4gWW91ciBkZWNpc2lvbiBtdXN0IHJlc3VsdCBpbiBhIGNsZWFyIHJlY29tbWVuZGF0aW9uOiBCdXksIFNlbGwsIG9yIEhvbGQuIENob29zZSBIb2xkIG9ubHkgaWYgc3Ryb25nbHkganVzdGlmaWVkIGJ5IHNwZWNpZmljIGFyZ3VtZW50cywgbm90IGFzIGEgZmFsbGJhY2sgd2hlbiBhbGwgc2lkZXMgc2VlbSB2YWxpZC4gU3RyaXZlIGZvciBjbGFyaXR5IGFuZCBkZWNpc2l2ZW5lc3MuCgpHdWlkZWxpbmVzIGZvciBEZWNpc2lvbi1NYWtpbmc6CjEuICoqU3VtbWFyaXplIEtleSBBcmd1bWVudHMqKjogRXh0cmFjdCB0aGUgc3Ryb25nZXN0IHBvaW50cyBmcm9tIGVhY2ggYW5hbHlzdCwgZm9jdXNpbmcgb24gcmVsZXZhbmNlIHRvIHRoZSBjb250ZXh0LgoyLiAqKlByb3ZpZGUgUmF0aW9uYWxlKio6IFN1cHBvcnQgeW91ciByZWNvbW1lbmRhdGlvbiB3aXRoIGRpcmVjdCBxdW90ZXMgYW5kIGNvdW50ZXJhcmd1bWVudHMgZnJvbSB0aGUgZGViYXRlLgozLiAqKlJlZmluZSB0aGUgVHJhZGVyJ3MgUGxhbioqOiBTdGFydCB3aXRoIHRoZSB0cmFkZXIncyBvcmlnaW5hbCBwbGFuLCAqKnt0cmFkZXJfcGxhbn0qKiwgYW5kIGFkanVzdCBpdCBiYXNlZCBvbiB0aGUgYW5hbHlzdHMnIGluc2lnaHRzLgo0LiAqKkxlYXJuIGZyb20gUGFzdCBNaXN0YWtlcyoqOiBVc2UgbGVzc29ucyBmcm9tICoqe3Bhc3RfbWVtb3J5X3N0cn0qKiB0byBhZGRyZXNzIHByaW9yIG1pc2p1ZGdtZW50cyBhbmQgaW1wcm92ZSB0aGUgZGVjaXNpb24geW91IGFyZSBtYWtpbmcgbm93IHRvIG1ha2Ugc3VyZSB5b3UgZG9uJ3QgbWFrZSBhIHdyb25nIEJVWS9TRUxML0hPTEQgY2FsbCB0aGF0IGxvc2VzIG1vbmV5LgoKRGVsaXZlcmFibGVzOgotIEEgY2xlYXIgYW5kIGFjdGlvbmFibGUgcmVjb21tZW5kYXRpb246IEJ1eSwgU2VsbCwgb3IgSG9sZC4KLSBEZXRhaWxlZCByZWFzb25pbmcgYW5jaG9yZWQgaW4gdGhlIGRlYmF0ZSBhbmQgcGFzdCByZWZsZWN0aW9ucy4KCi0tLQoKKipBbmFseXN0cyBEZWJhdGUgSGlzdG9yeToqKiAgCntoaXN0b3J5fQoKLS0tCgpGb2N1cyBvbiBhY3Rpb25hYmxlIGluc2lnaHRzIGFuZCBjb250aW51b3VzIGltcHJvdmVtZW50LiBCdWlsZCBvbiBwYXN0IGxlc3NvbnMsIGNyaXRpY2FsbHkgZXZhbHVhdGUgYWxsIHBlcnNwZWN0aXZlcywgYW5kIGVuc3VyZSBlYWNoIGRlY2lzaW9uIGFkdmFuY2VzIGJldHRlciBvdXRjb21lcy4iIiIKCiAgICAgICAgcmVzcG9uc2UgPSBsbG0uaW52b2tlKHByb21wdCkKCiAgICAgICAgbmV3X3Jpc2tfZGViYXRlX3N0YXRlID0gewogICAgICAgICAgICAianVkZ2VfZGVjaXNpb24iOiByZXNwb25zZS5jb250ZW50LAogICAgICAgICAgICAiaGlzdG9yeSI6IHJpc2tfZGViYXRlX3N0YXRlWyJoaXN0b3J5Il0sCiAgICAgICAgICAgICJyaXNreV9oaXN0b3J5Ijogcmlza19kZWJhdGVfc3RhdGVbInJpc2t5X2hpc3RvcnkiXSwKICAgICAgICAgICAgInNhZmVfaGlzdG9yeSI6IHJpc2tfZGViYXRlX3N0YXRlWyJzYWZlX2hpc3RvcnkiXSwKICAgICAgICAgICAgIm5ldXRyYWxfaGlzdG9yeSI6IHJpc2tfZGViYXRlX3N0YXRlWyJuZXV0cmFsX2hpc3RvcnkiXSwKICAgICAgICAgICAgImxhdGVzdF9zcGVha2VyIjogIkp1ZGdlIiwKICAgICAgICAgICAgImN1cnJlbnRfcmlza3lfcmVzcG9uc2UiOiByaXNrX2RlYmF0ZV9zdGF0ZVsiY3VycmVudF9yaXNreV9yZXNwb25zZSJdLAogICAgICAgICAgICAiY3VycmVudF9zYWZlX3Jlc3BvbnNlIjogcmlza19kZWJhdGVfc3RhdGVbImN1cnJlbnRfc2FmZV9yZXNwb25zZSJdLAogICAgICAgICAgICAiY3VycmVudF9uZXV0cmFsX3Jlc3BvbnNlIjogcmlza19kZWJhdGVfc3RhdGVbImN1cnJlbnRfbmV1dHJhbF9yZXNwb25zZSJdLAogICAgICAgICAgICAiY291bnQiOiByaXNrX2RlYmF0ZV9zdGF0ZVsiY291bnQiXSwKICAgICAgICB9CgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJyaXNrX2RlYmF0ZV9zdGF0ZSI6IG5ld19yaXNrX2RlYmF0ZV9zdGF0ZSwKICAgICAgICAgICAgImZpbmFsX3RyYWRlX2RlY2lzaW9uIjogcmVzcG9uc2UuY29udGVudCwKICAgICAgICB9CgogICAgcmV0dXJuIHJpc2tfbWFuYWdlcl9ub2RlCg0K
+﻿import time
+import json
+
+
+def create_risk_manager(llm, memory):
+    def risk_manager_node(state) -> dict:
+
+        company_name = state["company_of_interest"]
+
+        history = state["risk_debate_state"]["history"]
+        risk_debate_state = state["risk_debate_state"]
+        market_research_report = state["market_report"]
+        news_report = state["news_report"]
+        fundamentals_report = state["news_report"]
+        sentiment_report = state["sentiment_report"]
+        trader_plan = state["investment_plan"]
+
+        curr_situation = f"{market_research_report}\n\n{sentiment_report}\n\n{news_report}\n\n{fundamentals_report}"
+        past_memories = memory.get_memories(curr_situation, n_matches=2)
+
+        past_memory_str = ""
+        for i, rec in enumerate(past_memories, 1):
+            past_memory_str += rec["recommendation"] + "\n\n"
+
+        prompt = f"""As the Risk Management Judge and Debate Facilitator, your goal is to evaluate the debate between three risk analysts—Risky, Neutral, and Safe/Conservative—and determine the best course of action for the trader. Your decision must result in a clear recommendation: Buy, Sell, or Hold. Choose Hold only if strongly justified by specific arguments, not as a fallback when all sides seem valid. Strive for clarity and decisiveness.
+
+Guidelines for Decision-Making:
+1. **Summarize Key Arguments**: Extract the strongest points from each analyst, focusing on relevance to the context.
+2. **Provide Rationale**: Support your recommendation with direct quotes and counterarguments from the debate.
+3. **Refine the Trader's Plan**: Start with the trader's original plan, **{trader_plan}**, and adjust it based on the analysts' insights.
+4. **Learn from Past Mistakes**: Use lessons from **{past_memory_str}** to address prior misjudgments and improve the decision you are making now to make sure you don't make a wrong BUY/SELL/HOLD call that loses money.
+
+Deliverables:
+- A clear and actionable recommendation: Buy, Sell, or Hold.
+- Detailed reasoning anchored in the debate and past reflections.
+
+---
+
+**Analysts Debate History:**  
+{history}
+
+---
+
+Focus on actionable insights and continuous improvement. Build on past lessons, critically evaluate all perspectives, and ensure each decision advances better outcomes."""
+
+        response = llm.invoke(prompt)
+
+        new_risk_debate_state = {
+            "judge_decision": response.content,
+            "history": risk_debate_state["history"],
+            "risky_history": risk_debate_state["risky_history"],
+            "safe_history": risk_debate_state["safe_history"],
+            "neutral_history": risk_debate_state["neutral_history"],
+            "latest_speaker": "Judge",
+            "current_risky_response": risk_debate_state["current_risky_response"],
+            "current_safe_response": risk_debate_state["current_safe_response"],
+            "current_neutral_response": risk_debate_state["current_neutral_response"],
+            "count": risk_debate_state["count"],
+        }
+
+        return {
+            "risk_debate_state": new_risk_debate_state,
+            "final_trade_decision": response.content,
+        }
+
+    return risk_manager_node
+

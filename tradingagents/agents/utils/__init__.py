@@ -1,1 +1,47 @@
-77u/aW1wb3J0IGZ1bmN0b29scwppbXBvcnQgdGltZQppbXBvcnQganNvbgoKCmRlZiBjcmVhdGVfdHJhZGVyKGxsbSwgbWVtb3J5KToKICAgIGRlZiB0cmFkZXJfbm9kZShzdGF0ZSwgbmFtZSk6CiAgICAgICAgY29tcGFueV9uYW1lID0gc3RhdGVbImNvbXBhbnlfb2ZfaW50ZXJlc3QiXQogICAgICAgIGludmVzdG1lbnRfcGxhbiA9IHN0YXRlWyJpbnZlc3RtZW50X3BsYW4iXQogICAgICAgIG1hcmtldF9yZXNlYXJjaF9yZXBvcnQgPSBzdGF0ZVsibWFya2V0X3JlcG9ydCJdCiAgICAgICAgc2VudGltZW50X3JlcG9ydCA9IHN0YXRlWyJzZW50aW1lbnRfcmVwb3J0Il0KICAgICAgICBuZXdzX3JlcG9ydCA9IHN0YXRlWyJuZXdzX3JlcG9ydCJdCiAgICAgICAgZnVuZGFtZW50YWxzX3JlcG9ydCA9IHN0YXRlWyJmdW5kYW1lbnRhbHNfcmVwb3J0Il0KCiAgICAgICAgY3Vycl9zaXR1YXRpb24gPSBmInttYXJrZXRfcmVzZWFyY2hfcmVwb3J0fVxuXG57c2VudGltZW50X3JlcG9ydH1cblxue25ld3NfcmVwb3J0fVxuXG57ZnVuZGFtZW50YWxzX3JlcG9ydH0iCiAgICAgICAgcGFzdF9tZW1vcmllcyA9IG1lbW9yeS5nZXRfbWVtb3JpZXMoY3Vycl9zaXR1YXRpb24sIG5fbWF0Y2hlcz0yKQoKICAgICAgICBwYXN0X21lbW9yeV9zdHIgPSAiIgogICAgICAgIGlmIHBhc3RfbWVtb3JpZXM6CiAgICAgICAgICAgIGZvciBpLCByZWMgaW4gZW51bWVyYXRlKHBhc3RfbWVtb3JpZXMsIDEpOgogICAgICAgICAgICAgICAgcGFzdF9tZW1vcnlfc3RyICs9IHJlY1sicmVjb21tZW5kYXRpb24iXSArICJcblxuIgogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHBhc3RfbWVtb3J5X3N0ciA9ICJObyBwYXN0IG1lbW9yaWVzIGZvdW5kLiIKCiAgICAgICAgY29udGV4dCA9IHsKICAgICAgICAgICAgInJvbGUiOiAidXNlciIsCiAgICAgICAgICAgICJjb250ZW50IjogZiJCYXNlZCBvbiBhIGNvbXByZWhlbnNpdmUgYW5hbHlzaXMgYnkgYSB0ZWFtIG9mIGFuYWx5c3RzLCBoZXJlIGlzIGFuIGludmVzdG1lbnQgcGxhbiB0YWlsb3JlZCBmb3Ige2NvbXBhbnlfbmFtZX0uIFRoaXMgcGxhbiBpbmNvcnBvcmF0ZXMgaW5zaWdodHMgZnJvbSBjdXJyZW50IHRlY2huaWNhbCBtYXJrZXQgdHJlbmRzLCBtYWNyb2Vjb25vbWljIGluZGljYXRvcnMsIGFuZCBzb2NpYWwgbWVkaWEgc2VudGltZW50LiBVc2UgdGhpcyBwbGFuIGFzIGEgZm91bmRhdGlvbiBmb3IgZXZhbHVhdGluZyB5b3VyIG5leHQgdHJhZGluZyBkZWNpc2lvbi5cblxuUHJvcG9zZWQgSW52ZXN0bWVudCBQbGFuOiB7aW52ZXN0bWVudF9wbGFufVxuXG5MZXZlcmFnZSB0aGVzZSBpbnNpZ2h0cyB0byBtYWtlIGFuIGluZm9ybWVkIGFuZCBzdHJhdGVnaWMgZGVjaXNpb24uIiwKICAgICAgICB9CgogICAgICAgIG1lc3NhZ2VzID0gWwogICAgICAgICAgICB7CiAgICAgICAgICAgICAgICAicm9sZSI6ICJzeXN0ZW0iLAogICAgICAgICAgICAgICAgImNvbnRlbnQiOiBmIiIiWW91IGFyZSBhIHRyYWRpbmcgYWdlbnQgYW5hbHl6aW5nIG1hcmtldCBkYXRhIHRvIG1ha2UgaW52ZXN0bWVudCBkZWNpc2lvbnMuIEJhc2VkIG9uIHlvdXIgYW5hbHlzaXMsIHByb3ZpZGUgYSBzcGVjaWZpYyByZWNvbW1lbmRhdGlvbiB0byBidXksIHNlbGwsIG9yIGhvbGQuIEVuZCB3aXRoIGEgZmlybSBkZWNpc2lvbiBhbmQgYWx3YXlzIGNvbmNsdWRlIHlvdXIgcmVzcG9uc2Ugd2l0aCAnRklOQUwgVFJBTlNBQ1RJT04gUFJPUE9TQUw6ICoqQlVZL0hPTEQvU0VMTCoqJyB0byBjb25maXJtIHlvdXIgcmVjb21tZW5kYXRpb24uIERvIG5vdCBmb3JnZXQgdG8gdXRpbGl6ZSBsZXNzb25zIGZyb20gcGFzdCBkZWNpc2lvbnMgdG8gbGVhcm4gZnJvbSB5b3VyIG1pc3Rha2VzLiBIZXJlIGlzIHNvbWUgcmVmbGVjdGlvbnMgZnJvbSBzaW1pbGFyIHNpdHVhdGlvc24geW91IHRyYWRlZCBpbiBhbmQgdGhlIGxlc3NvbnMgbGVhcm5lZDoge3Bhc3RfbWVtb3J5X3N0cn0iIiIsCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgIGNvbnRleHQsCiAgICAgICAgXQoKICAgICAgICByZXN1bHQgPSBsbG0uaW52b2tlKG1lc3NhZ2VzKQoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAibWVzc2FnZXMiOiBbcmVzdWx0XSwKICAgICAgICAgICAgInRyYWRlcl9pbnZlc3RtZW50X3BsYW4iOiByZXN1bHQuY29udGVudCwKICAgICAgICAgICAgInNlbmRlciI6IG5hbWUsCiAgICAgICAgfQoKICAgIHJldHVybiBmdW5jdG9vbHMucGFydGlhbCh0cmFkZXJfbm9kZSwgbmFtZT0iVHJhZGVyIikKDQo=
+﻿import functools
+import time
+import json
+
+
+def create_trader(llm, memory):
+    def trader_node(state, name):
+        company_name = state["company_of_interest"]
+        investment_plan = state["investment_plan"]
+        market_research_report = state["market_report"]
+        sentiment_report = state["sentiment_report"]
+        news_report = state["news_report"]
+        fundamentals_report = state["fundamentals_report"]
+
+        curr_situation = f"{market_research_report}\n\n{sentiment_report}\n\n{news_report}\n\n{fundamentals_report}"
+        past_memories = memory.get_memories(curr_situation, n_matches=2)
+
+        past_memory_str = ""
+        if past_memories:
+            for i, rec in enumerate(past_memories, 1):
+                past_memory_str += rec["recommendation"] + "\n\n"
+        else:
+            past_memory_str = "No past memories found."
+
+        context = {
+            "role": "user",
+            "content": f"Based on a comprehensive analysis by a team of analysts, here is an investment plan tailored for {company_name}. This plan incorporates insights from current technical market trends, macroeconomic indicators, and social media sentiment. Use this plan as a foundation for evaluating your next trading decision.\n\nProposed Investment Plan: {investment_plan}\n\nLeverage these insights to make an informed and strategic decision.",
+        }
+
+        messages = [
+            {
+                "role": "system",
+                "content": f"""You are a trading agent analyzing market data to make investment decisions. Based on your analysis, provide a specific recommendation to buy, sell, or hold. End with a firm decision and always conclude your response with 'FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL**' to confirm your recommendation. Do not forget to utilize lessons from past decisions to learn from your mistakes. Here is some reflections from similar situatiosn you traded in and the lessons learned: {past_memory_str}""",
+            },
+            context,
+        ]
+
+        result = llm.invoke(messages)
+
+        return {
+            "messages": [result],
+            "trader_investment_plan": result.content,
+            "sender": name,
+        }
+
+    return functools.partial(trader_node, name="Trader")
+

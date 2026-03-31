@@ -1,1 +1,109 @@
-77u/aW1wb3J0IGpzb24KaW1wb3J0IHJlcXVlc3RzCmZyb20gYnM0IGltcG9ydCBCZWF1dGlmdWxTb3VwCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lCmltcG9ydCB0aW1lCmltcG9ydCByYW5kb20KZnJvbSB0ZW5hY2l0eSBpbXBvcnQgKAogICAgcmV0cnksCiAgICBzdG9wX2FmdGVyX2F0dGVtcHQsCiAgICB3YWl0X2V4cG9uZW50aWFsLAogICAgcmV0cnlfaWZfZXhjZXB0aW9uX3R5cGUsCiAgICByZXRyeV9pZl9yZXN1bHQsCikKCgpkZWYgaXNfcmF0ZV9saW1pdGVkKHJlc3BvbnNlKToKICAgICIiIkNoZWNrIGlmIHRoZSByZXNwb25zZSBpbmRpY2F0ZXMgcmF0ZSBsaW1pdGluZyAoc3RhdHVzIGNvZGUgNDI5KSIiIgogICAgcmV0dXJuIHJlc3BvbnNlLnN0YXR1c19jb2RlID09IDQyOQoKCkByZXRyeSgKICAgIHJldHJ5PShyZXRyeV9pZl9yZXN1bHQoaXNfcmF0ZV9saW1pdGVkKSksCiAgICB3YWl0PXdhaXRfZXhwb25lbnRpYWwobXVsdGlwbGllcj0xLCBtaW49NCwgbWF4PTYwKSwKICAgIHN0b3A9c3RvcF9hZnRlcl9hdHRlbXB0KDUpLAopCmRlZiBtYWtlX3JlcXVlc3QodXJsLCBoZWFkZXJzKToKICAgICIiIk1ha2UgYSByZXF1ZXN0IHdpdGggcmV0cnkgbG9naWMgZm9yIHJhdGUgbGltaXRpbmciIiIKICAgICMgUmFuZG9tIGRlbGF5IGJlZm9yZSBlYWNoIHJlcXVlc3QgdG8gYXZvaWQgZGV0ZWN0aW9uCiAgICB0aW1lLnNsZWVwKHJhbmRvbS51bmlmb3JtKDIsIDYpKQogICAgcmVzcG9uc2UgPSByZXF1ZXN0cy5nZXQodXJsLCBoZWFkZXJzPWhlYWRlcnMpCiAgICByZXR1cm4gcmVzcG9uc2UKCgpkZWYgZ2V0TmV3c0RhdGEocXVlcnksIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKToKICAgICIiIgogICAgU2NyYXBlIEdvb2dsZSBOZXdzIHNlYXJjaCByZXN1bHRzIGZvciBhIGdpdmVuIHF1ZXJ5IGFuZCBkYXRlIHJhbmdlLgogICAgcXVlcnk6IHN0ciAtIHNlYXJjaCBxdWVyeQogICAgc3RhcnRfZGF0ZTogc3RyIC0gc3RhcnQgZGF0ZSBpbiB0aGUgZm9ybWF0IHl5eXktbW0tZGQgb3IgbW0vZGQveXl5eQogICAgZW5kX2RhdGU6IHN0ciAtIGVuZCBkYXRlIGluIHRoZSBmb3JtYXQgeXl5eS1tbS1kZCBvciBtbS9kZC95eXl5CiAgICAiIiIKICAgIGlmICItIiBpbiBzdGFydF9kYXRlOgogICAgICAgIHN0YXJ0X2RhdGUgPSBkYXRldGltZS5zdHJwdGltZShzdGFydF9kYXRlLCAiJVktJW0tJWQiKQogICAgICAgIHN0YXJ0X2RhdGUgPSBzdGFydF9kYXRlLnN0cmZ0aW1lKCIlbS8lZC8lWSIpCiAgICBpZiAiLSIgaW4gZW5kX2RhdGU6CiAgICAgICAgZW5kX2RhdGUgPSBkYXRldGltZS5zdHJwdGltZShlbmRfZGF0ZSwgIiVZLSVtLSVkIikKICAgICAgICBlbmRfZGF0ZSA9IGVuZF9kYXRlLnN0cmZ0aW1lKCIlbS8lZC8lWSIpCgogICAgaGVhZGVycyA9IHsKICAgICAgICAiVXNlci1BZ2VudCI6ICgKICAgICAgICAgICAgIk1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpICIKICAgICAgICAgICAgIkFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pICIKICAgICAgICAgICAgIkNocm9tZS8xMDEuMC40OTUxLjU0IFNhZmFyaS81MzcuMzYiCiAgICAgICAgKQogICAgfQoKICAgIG5ld3NfcmVzdWx0cyA9IFtdCiAgICBwYWdlID0gMAogICAgd2hpbGUgVHJ1ZToKICAgICAgICBvZmZzZXQgPSBwYWdlICogMTAKICAgICAgICB1cmwgPSAoCiAgICAgICAgICAgIGYiaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS9zZWFyY2g/cT17cXVlcnl9IgogICAgICAgICAgICBmIiZ0YnM9Y2RyOjEsY2RfbWluOntzdGFydF9kYXRlfSxjZF9tYXg6e2VuZF9kYXRlfSIKICAgICAgICAgICAgZiImdGJtPW53cyZzdGFydD17b2Zmc2V0fSIKICAgICAgICApCgogICAgICAgIHRyeToKICAgICAgICAgICAgcmVzcG9uc2UgPSBtYWtlX3JlcXVlc3QodXJsLCBoZWFkZXJzKQogICAgICAgICAgICBzb3VwID0gQmVhdXRpZnVsU291cChyZXNwb25zZS5jb250ZW50LCAiaHRtbC5wYXJzZXIiKQogICAgICAgICAgICByZXN1bHRzX29uX3BhZ2UgPSBzb3VwLnNlbGVjdCgiZGl2LlNvYUJFZiIpCgogICAgICAgICAgICBpZiBub3QgcmVzdWx0c19vbl9wYWdlOgogICAgICAgICAgICAgICAgYnJlYWsgICMgTm8gbW9yZSByZXN1bHRzIGZvdW5kCgogICAgICAgICAgICBmb3IgZWwgaW4gcmVzdWx0c19vbl9wYWdlOgogICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgIGxpbmsgPSBlbC5maW5kKCJhIilbImhyZWYiXQogICAgICAgICAgICAgICAgICAgIHRpdGxlID0gZWwuc2VsZWN0X29uZSgiZGl2Lk1CZXVPIikuZ2V0X3RleHQoKQogICAgICAgICAgICAgICAgICAgIHNuaXBwZXQgPSBlbC5zZWxlY3Rfb25lKCIuR0k3NFJlIikuZ2V0X3RleHQoKQogICAgICAgICAgICAgICAgICAgIGRhdGUgPSBlbC5zZWxlY3Rfb25lKCIuTGZWVnIiKS5nZXRfdGV4dCgpCiAgICAgICAgICAgICAgICAgICAgc291cmNlID0gZWwuc2VsZWN0X29uZSgiLk5Vbkc5ZCBzcGFuIikuZ2V0X3RleHQoKQogICAgICAgICAgICAgICAgICAgIG5ld3NfcmVzdWx0cy5hcHBlbmQoCiAgICAgICAgICAgICAgICAgICAgICAgIHsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJsaW5rIjogbGluaywKICAgICAgICAgICAgICAgICAgICAgICAgICAgICJ0aXRsZSI6IHRpdGxlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInNuaXBwZXQiOiBzbmlwcGV0LAogICAgICAgICAgICAgICAgICAgICAgICAgICAgImRhdGUiOiBkYXRlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgInNvdXJjZSI6IHNvdXJjZSwKICAgICAgICAgICAgICAgICAgICAgICAgfQogICAgICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgICAgICAgICBwcmludChmIkVycm9yIHByb2Nlc3NpbmcgcmVzdWx0OiB7ZX0iKQogICAgICAgICAgICAgICAgICAgICMgSWYgb25lIG9mIHRoZSBmaWVsZHMgaXMgbm90IGZvdW5kLCBza2lwIHRoaXMgcmVzdWx0CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICMgVXBkYXRlIHRoZSBwcm9ncmVzcyBiYXIgd2l0aCB0aGUgY3VycmVudCBjb3VudCBvZiByZXN1bHRzIHNjcmFwZWQKCiAgICAgICAgICAgICMgQ2hlY2sgZm9yIHRoZSAiTmV4dCIgbGluayAocGFnaW5hdGlvbikKICAgICAgICAgICAgbmV4dF9saW5rID0gc291cC5maW5kKCJhIiwgaWQ9InBubmV4dCIpCiAgICAgICAgICAgIGlmIG5vdCBuZXh0X2xpbms6CiAgICAgICAgICAgICAgICBicmVhawoKICAgICAgICAgICAgcGFnZSArPSAxCgogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToKICAgICAgICAgICAgcHJpbnQoZiJGYWlsZWQgYWZ0ZXIgbXVsdGlwbGUgcmV0cmllczoge2V9IikKICAgICAgICAgICAgYnJlYWsKCiAgICByZXR1cm4gbmV3c19yZXN1bHRzCg0K
+﻿import json
+import requests
+from bs4 import BeautifulSoup
+from datetime import datetime
+import time
+import random
+from tenacity import (
+    retry,
+    stop_after_attempt,
+    wait_exponential,
+    retry_if_exception_type,
+    retry_if_result,
+)
+
+
+def is_rate_limited(response):
+    """Check if the response indicates rate limiting (status code 429)"""
+    return response.status_code == 429
+
+
+@retry(
+    retry=(retry_if_result(is_rate_limited)),
+    wait=wait_exponential(multiplier=1, min=4, max=60),
+    stop=stop_after_attempt(5),
+)
+def make_request(url, headers):
+    """Make a request with retry logic for rate limiting"""
+    # Random delay before each request to avoid detection
+    time.sleep(random.uniform(2, 6))
+    response = requests.get(url, headers=headers)
+    return response
+
+
+def getNewsData(query, start_date, end_date):
+    """
+    Scrape Google News search results for a given query and date range.
+    query: str - search query
+    start_date: str - start date in the format yyyy-mm-dd or mm/dd/yyyy
+    end_date: str - end date in the format yyyy-mm-dd or mm/dd/yyyy
+    """
+    if "-" in start_date:
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        start_date = start_date.strftime("%m/%d/%Y")
+    if "-" in end_date:
+        end_date = datetime.strptime(end_date, "%Y-%m-%d")
+        end_date = end_date.strftime("%m/%d/%Y")
+
+    headers = {
+        "User-Agent": (
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+            "AppleWebKit/537.36 (KHTML, like Gecko) "
+            "Chrome/101.0.4951.54 Safari/537.36"
+        )
+    }
+
+    news_results = []
+    page = 0
+    while True:
+        offset = page * 10
+        url = (
+            f"https://www.google.com/search?q={query}"
+            f"&tbs=cdr:1,cd_min:{start_date},cd_max:{end_date}"
+            f"&tbm=nws&start={offset}"
+        )
+
+        try:
+            response = make_request(url, headers)
+            soup = BeautifulSoup(response.content, "html.parser")
+            results_on_page = soup.select("div.SoaBEf")
+
+            if not results_on_page:
+                break  # No more results found
+
+            for el in results_on_page:
+                try:
+                    link = el.find("a")["href"]
+                    title = el.select_one("div.MBeuO").get_text()
+                    snippet = el.select_one(".GI74Re").get_text()
+                    date = el.select_one(".LfVVr").get_text()
+                    source = el.select_one(".NUnG9d span").get_text()
+                    news_results.append(
+                        {
+                            "link": link,
+                            "title": title,
+                            "snippet": snippet,
+                            "date": date,
+                            "source": source,
+                        }
+                    )
+                except Exception as e:
+                    print(f"Error processing result: {e}")
+                    # If one of the fields is not found, skip this result
+                    continue
+
+            # Update the progress bar with the current count of results scraped
+
+            # Check for the "Next" link (pagination)
+            next_link = soup.find("a", id="pnnext")
+            if not next_link:
+                break
+
+            page += 1
+
+        except Exception as e:
+            print(f"Failed after multiple retries: {e}")
+            break
+
+    return news_results
+

@@ -1,1 +1,47 @@
-IiIiDQpB6IKh6IKh56Wo5YiG5p6QIC0g5pWw5o2u6I635Y+W5rWL6K+VDQoiIiINCmltcG9ydCBvcw0KaW1wb3J0IHN5cw0Kc3lzLnBhdGguaW5zZXJ0KDAsIG9zLnBhdGguZGlybmFtZShvcy5wYXRoLmFic3BhdGgoX19maWxlX18pKSkNCg0KZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cyBpbXBvcnQgYWtzaGFyZV91dGlscyBhcyBhaw0KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YQ0KDQojIOa1i+ivleaVsOaNruiOt+WPlg0KdGlja2VyID0gIjAwMDAwMSIgICMg5bmz5a6J6ZO26KGMDQoNCnByaW50KGYi5rWL6K+V6I635Y+WIHt0aWNrZXJ9IOeahOaVsOaNri4uLiIpDQpwcmludCgiPSIqNTApDQoNCiMgMS4g6I635Y+W5pel57q/5pWw5o2uDQplbmRfZGF0ZSA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWSVtJWQiKQ0Kc3RhcnRfZGF0ZV9vYmogPSBkYXRldGltZS5ub3coKSAtIHRpbWVkZWx0YShkYXlzPTMwKQ0Kc3RhcnRfZGF0ZSA9IHN0YXJ0X2RhdGVfb2JqLnN0cmZ0aW1lKCIlWSVtJWQiKQ0KDQpwcmludChmIlxuWzFdIOaXpee6v+aVsOaNriAoe3N0YXJ0X2RhdGV9IC0ge2VuZF9kYXRlfSkuLi4iKQ0KZGZfZGFpbHkgPSBhay5nZXRfc3RvY2tfZGFpbHkodGlja2VyLCBzdGFydF9kYXRlLCBlbmRfZGF0ZSkNCnByaW50KGYi6I635Y+W5YiwIHtsZW4oZGZfZGFpbHkpfSDmnaHorrDlvZUiKQ0KaWYgbm90IGRmX2RhaWx5LmVtcHR5Og0KICAgIHByaW50KGRmX2RhaWx5LnRhaWwoMykpDQoNCiMgMi4g6I635Y+W5a6e5pe26KGM5oOFDQpwcmludChmIlxuWzJdIOWunuaXtuihjOaDhS4uLiIpDQpkZl9xdW90ZSA9IGFrLmdldF9zdG9ja19yZWFsdGltZV9xdW90ZSh0aWNrZXIpDQppZiBub3QgZGZfcXVvdGUuZW1wdHk6DQogICAgcXVvdGUgPSBkZl9xdW90ZS5pbG9jWzBdDQogICAgcHJpbnQoZiLlkI3np7A6IHtxdW90ZS5nZXQoJ+WQjeensCcpfSIpDQogICAgcHJpbnQoZiLlvZPliY3ku7fmoLw6IHtxdW90ZS5nZXQoJ+acgOaWsOS7tycpfSIpDQogICAgcHJpbnQoZiLmtqjot4zluYU6IHtxdW90ZS5nZXQoJ+a2qOi3jOW5hScpfSUiKQ0KICAgIHByaW50KGYi5oiQ5Lqk6YePOiB7cXVvdGUuZ2V0KCfmiJDkuqTph48nKX0iKQ0KZWxzZToNCiAgICBwcmludCgi5peg5rOV6I635Y+W5a6e5pe26KGM5oOFIikNCg0KIyAzLiDojrflj5bljJflkJHotYTph5ENCnByaW50KGYiXG5bM10g5YyX5ZCR6LWE6YeRLi4uIikNCmRmX21vbmV5ID0gYWsuZ2V0X21vbmV5Zmxvd19oc2d0KCkNCmlmIG5vdCBkZl9tb25leS5lbXB0eToNCiAgICBwcmludChkZl9tb25leS5oZWFkKDMpKQ0KDQpwcmludCgiXG4iICsgIj0iKjUwKQ0KcHJpbnQoIuaVsOaNruiOt+WPlua1i+ivleWujOaIkCEiKQ0K
+"""
+A股股票分析 - 数据获取测试
+"""
+import os
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from tradingagents.dataflows import akshare_utils as ak
+from datetime import datetime, timedelta
+
+# 测试数据获取
+ticker = "000001"  # 平安银行
+
+print(f"测试获取 {ticker} 的数据...")
+print("="*50)
+
+# 1. 获取日线数据
+end_date = datetime.now().strftime("%Y%m%d")
+start_date_obj = datetime.now() - timedelta(days=30)
+start_date = start_date_obj.strftime("%Y%m%d")
+
+print(f"\n[1] 日线数据 ({start_date} - {end_date})...")
+df_daily = ak.get_stock_daily(ticker, start_date, end_date)
+print(f"获取到 {len(df_daily)} 条记录")
+if not df_daily.empty:
+    print(df_daily.tail(3))
+
+# 2. 获取实时行情
+print(f"\n[2] 实时行情...")
+df_quote = ak.get_stock_realtime_quote(ticker)
+if not df_quote.empty:
+    quote = df_quote.iloc[0]
+    print(f"名称: {quote.get('名称')}")
+    print(f"当前价格: {quote.get('最新价')}")
+    print(f"涨跌幅: {quote.get('涨跌幅')}%")
+    print(f"成交量: {quote.get('成交量')}")
+else:
+    print("无法获取实时行情")
+
+# 3. 获取北向资金
+print(f"\n[3] 北向资金...")
+df_money = ak.get_moneyflow_hsgt()
+if not df_money.empty:
+    print(df_money.head(3))
+
+print("\n" + "="*50)
+print("数据获取测试完成!")

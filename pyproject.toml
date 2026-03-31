@@ -1,1 +1,35 @@
-77u/W3Byb2plY3RdCm5hbWUgPSAidHJhZGluZ2FnZW50cyIKdmVyc2lvbiA9ICIwLjEuMCIKZGVzY3JpcHRpb24gPSAiQWRkIHlvdXIgZGVzY3JpcHRpb24gaGVyZSIKcmVhZG1lID0gIlJFQURNRS5tZCIKcmVxdWlyZXMtcHl0aG9uID0gIj49My4xMCIKZGVwZW5kZW5jaWVzID0gWwogICAgImFrc2hhcmU+PTEuMTYuOTgiLAogICAgImJhY2t0cmFkZXI+PTEuOS43OC4xMjMiLAogICAgImNoYWlubGl0Pj0yLjUuNSIsCiAgICAiY2hyb21hZGI+PTEuMC4xMiIsCiAgICAiZW9kaGQ+PTEuMC4zMiIsCiAgICAiZmVlZHBhcnNlcj49Ni4wLjExIiwKICAgICJmaW5uaHViLXB5dGhvbj49Mi40LjIzIiwKICAgICJsYW5nY2hhaW4tYW50aHJvcGljPj0wLjMuMTUiLAogICAgImxhbmdjaGFpbi1leHBlcmltZW50YWw+PTAuMy40IiwKICAgICJsYW5nY2hhaW4tZ29vZ2xlLWdlbmFpPj0yLjEuNSIsCiAgICAibGFuZ2NoYWluLW9wZW5haT49MC4zLjIzIiwKICAgICJsYW5nZ3JhcGg+PTAuNC44IiwKICAgICJwYW5kYXM+PTIuMy4wIiwKICAgICJwYXJzZWw+PTEuMTAuMCIsCiAgICAicHJhdz49Ny44LjEiLAogICAgInB5dHo+PTIwMjUuMiIsCiAgICAicXVlc3Rpb25hcnk+PTIuMS4wIiwKICAgICJyZWRpcz49Ni4yLjAiLAogICAgInJlcXVlc3RzPj0yLjMyLjQiLAogICAgInJpY2g+PTE0LjAuMCIsCiAgICAic2V0dXB0b29scz49ODAuOS4wIiwKICAgICJzdG9ja3N0YXRzPj0wLjYuNSIsCiAgICAidHFkbT49NC42Ny4xIiwKICAgICJ0dXNoYXJlPj0xLjQuMjEiLAogICAgInR5cGluZy1leHRlbnNpb25zPj00LjE0LjAiLAogICAgInlmaW5hbmNlPj0wLjIuNjMiLApdCg0K
+﻿[project]
+name = "tradingagents"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "akshare>=1.16.98",
+    "backtrader>=1.9.78.123",
+    "chainlit>=2.5.5",
+    "chromadb>=1.0.12",
+    "eodhd>=1.0.32",
+    "feedparser>=6.0.11",
+    "finnhub-python>=2.4.23",
+    "langchain-anthropic>=0.3.15",
+    "langchain-experimental>=0.3.4",
+    "langchain-google-genai>=2.1.5",
+    "langchain-openai>=0.3.23",
+    "langgraph>=0.4.8",
+    "pandas>=2.3.0",
+    "parsel>=1.10.0",
+    "praw>=7.8.1",
+    "pytz>=2025.2",
+    "questionary>=2.1.0",
+    "redis>=6.2.0",
+    "requests>=2.32.4",
+    "rich>=14.0.0",
+    "setuptools>=80.9.0",
+    "stockstats>=0.6.5",
+    "tqdm>=4.67.1",
+    "tushare>=1.4.21",
+    "typing-extensions>=4.14.0",
+    "yfinance>=0.2.63",
+]
+

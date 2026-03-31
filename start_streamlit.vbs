@@ -1,1 +1,3 @@
-U2V0IFdzaFNoZWxsID0gQ3JlYXRlT2JqZWN0KCJXU2NyaXB0LlNoZWxsIikNCldzaFNoZWxsLlJ1biAicG93ZXJzaGVsbC5leGUgLU5vRXhpdCAtQ29tbWFuZCBjZCBjOlxVc2Vyc1wxMzkwNVxXb3JrQnVkZHlcQ2xhd1xUcmFkaW5nQWdlbnRzLUNOOyBlY2hvICcnIHwgcHl0aG9uIC1tIHN0cmVhbWxpdCBydW4gYXBwX3N0cmVhbWxpdC5weSAtLXNlcnZlci5wb3J0IDg1MDEiLCAwLCBGYWxzZQ0KU2V0IFdzaFNoZWxsID0gTm90aGluZw0K
+Set WshShell = CreateObject("WScript.Shell")
+WshShell.Run "powershell.exe -NoExit -Command cd c:\Users\13905\WorkBuddy\Claw\TradingAgents-CN; echo '' | python -m streamlit run app_streamlit.py --server.port 8501", 0, False
+Set WshShell = Nothing

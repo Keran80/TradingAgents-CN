@@ -1,1 +1,22 @@
-77u/ZnJvbSB0cmFkaW5nYWdlbnRzLmdyYXBoLnRyYWRpbmdfZ3JhcGggaW1wb3J0IFRyYWRpbmdBZ2VudHNHcmFwaApmcm9tIHRyYWRpbmdhZ2VudHMuZGVmYXVsdF9jb25maWcgaW1wb3J0IERFRkFVTFRfQ09ORklHCgojIENyZWF0ZSBhIGN1c3RvbSBjb25maWcKY29uZmlnID0gREVGQVVMVF9DT05GSUcuY29weSgpCmNvbmZpZ1sibGxtX3Byb3ZpZGVyIl0gPSAiZ29vZ2xlIiAgIyBVc2UgYSBkaWZmZXJlbnQgbW9kZWwKY29uZmlnWyJiYWNrZW5kX3VybCJdID0gImh0dHBzOi8vZ2VuZXJhdGl2ZWxhbmd1YWdlLmdvb2dsZWFwaXMuY29tL3YxIiAgIyBVc2UgYSBkaWZmZXJlbnQgYmFja2VuZApjb25maWdbImRlZXBfdGhpbmtfbGxtIl0gPSAiZ2VtaW5pLTIuMC1mbGFzaCIgICMgVXNlIGEgZGlmZmVyZW50IG1vZGVsCmNvbmZpZ1sicXVpY2tfdGhpbmtfbGxtIl0gPSAiZ2VtaW5pLTIuMC1mbGFzaCIgICMgVXNlIGEgZGlmZmVyZW50IG1vZGVsCmNvbmZpZ1sibWF4X2RlYmF0ZV9yb3VuZHMiXSA9IDEgICMgSW5jcmVhc2UgZGViYXRlIHJvdW5kcwpjb25maWdbIm9ubGluZV90b29scyJdID0gVHJ1ZSAgIyBJbmNyZWFzZSBkZWJhdGUgcm91bmRzCgojIEluaXRpYWxpemUgd2l0aCBjdXN0b20gY29uZmlnCnRhID0gVHJhZGluZ0FnZW50c0dyYXBoKGRlYnVnPVRydWUsIGNvbmZpZz1jb25maWcpCgojIGZvcndhcmQgcHJvcGFnYXRlCl8sIGRlY2lzaW9uID0gdGEucHJvcGFnYXRlKCJOVkRBIiwgIjIwMjQtMDUtMTAiKQpwcmludChkZWNpc2lvbikKCiMgTWVtb3JpemUgbWlzdGFrZXMgYW5kIHJlZmxlY3QKIyB0YS5yZWZsZWN0X2FuZF9yZW1lbWJlcigxMDAwKSAjIHBhcmFtZXRlciBpcyB0aGUgcG9zaXRpb24gcmV0dXJucwoNCg==
+﻿from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
+
+# Create a custom config
+config = DEFAULT_CONFIG.copy()
+config["llm_provider"] = "google"  # Use a different model
+config["backend_url"] = "https://generativelanguage.googleapis.com/v1"  # Use a different backend
+config["deep_think_llm"] = "gemini-2.0-flash"  # Use a different model
+config["quick_think_llm"] = "gemini-2.0-flash"  # Use a different model
+config["max_debate_rounds"] = 1  # Increase debate rounds
+config["online_tools"] = True  # Increase debate rounds
+
+# Initialize with custom config
+ta = TradingAgentsGraph(debug=True, config=config)
+
+# forward propagate
+_, decision = ta.propagate("NVDA", "2024-05-10")
+print(decision)
+
+# Memorize mistakes and reflect
+# ta.reflect_and_remember(1000) # parameter is the position returns
+

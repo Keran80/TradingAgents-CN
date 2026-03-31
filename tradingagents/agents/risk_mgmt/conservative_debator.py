@@ -1,1 +1,59 @@
-77u/ZnJvbSBsYW5nY2hhaW5fY29yZS5tZXNzYWdlcyBpbXBvcnQgQUlNZXNzYWdlCmltcG9ydCB0aW1lCmltcG9ydCBqc29uCgoKZGVmIGNyZWF0ZV9zYWZlX2RlYmF0b3IobGxtKToKICAgIGRlZiBzYWZlX25vZGUoc3RhdGUpIC0+IGRpY3Q6CiAgICAgICAgcmlza19kZWJhdGVfc3RhdGUgPSBzdGF0ZVsicmlza19kZWJhdGVfc3RhdGUiXQogICAgICAgIGhpc3RvcnkgPSByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoImhpc3RvcnkiLCAiIikKICAgICAgICBzYWZlX2hpc3RvcnkgPSByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoInNhZmVfaGlzdG9yeSIsICIiKQoKICAgICAgICBjdXJyZW50X3Jpc2t5X3Jlc3BvbnNlID0gcmlza19kZWJhdGVfc3RhdGUuZ2V0KCJjdXJyZW50X3Jpc2t5X3Jlc3BvbnNlIiwgIiIpCiAgICAgICAgY3VycmVudF9uZXV0cmFsX3Jlc3BvbnNlID0gcmlza19kZWJhdGVfc3RhdGUuZ2V0KCJjdXJyZW50X25ldXRyYWxfcmVzcG9uc2UiLCAiIikKCiAgICAgICAgbWFya2V0X3Jlc2VhcmNoX3JlcG9ydCA9IHN0YXRlWyJtYXJrZXRfcmVwb3J0Il0KICAgICAgICBzZW50aW1lbnRfcmVwb3J0ID0gc3RhdGVbInNlbnRpbWVudF9yZXBvcnQiXQogICAgICAgIG5ld3NfcmVwb3J0ID0gc3RhdGVbIm5ld3NfcmVwb3J0Il0KICAgICAgICBmdW5kYW1lbnRhbHNfcmVwb3J0ID0gc3RhdGVbImZ1bmRhbWVudGFsc19yZXBvcnQiXQoKICAgICAgICB0cmFkZXJfZGVjaXNpb24gPSBzdGF0ZVsidHJhZGVyX2ludmVzdG1lbnRfcGxhbiJdCgogICAgICAgIHByb21wdCA9IGYiIiJBcyB0aGUgU2FmZS9Db25zZXJ2YXRpdmUgUmlzayBBbmFseXN0LCB5b3VyIHByaW1hcnkgb2JqZWN0aXZlIGlzIHRvIHByb3RlY3QgYXNzZXRzLCBtaW5pbWl6ZSB2b2xhdGlsaXR5LCBhbmQgZW5zdXJlIHN0ZWFkeSwgcmVsaWFibGUgZ3Jvd3RoLiBZb3UgcHJpb3JpdGl6ZSBzdGFiaWxpdHksIHNlY3VyaXR5LCBhbmQgcmlzayBtaXRpZ2F0aW9uLCBjYXJlZnVsbHkgYXNzZXNzaW5nIHBvdGVudGlhbCBsb3NzZXMsIGVjb25vbWljIGRvd250dXJucywgYW5kIG1hcmtldCB2b2xhdGlsaXR5LiBXaGVuIGV2YWx1YXRpbmcgdGhlIHRyYWRlcidzIGRlY2lzaW9uIG9yIHBsYW4sIGNyaXRpY2FsbHkgZXhhbWluZSBoaWdoLXJpc2sgZWxlbWVudHMsIHBvaW50aW5nIG91dCB3aGVyZSB0aGUgZGVjaXNpb24gbWF5IGV4cG9zZSB0aGUgZmlybSB0byB1bmR1ZSByaXNrIGFuZCB3aGVyZSBtb3JlIGNhdXRpb3VzIGFsdGVybmF0aXZlcyBjb3VsZCBzZWN1cmUgbG9uZy10ZXJtIGdhaW5zLiBIZXJlIGlzIHRoZSB0cmFkZXIncyBkZWNpc2lvbjoKCnt0cmFkZXJfZGVjaXNpb259CgpZb3VyIHRhc2sgaXMgdG8gYWN0aXZlbHkgY291bnRlciB0aGUgYXJndW1lbnRzIG9mIHRoZSBSaXNreSBhbmQgTmV1dHJhbCBBbmFseXN0cywgaGlnaGxpZ2h0aW5nIHdoZXJlIHRoZWlyIHZpZXdzIG1heSBvdmVybG9vayBwb3RlbnRpYWwgdGhyZWF0cyBvciBmYWlsIHRvIHByaW9yaXRpemUgc3VzdGFpbmFiaWxpdHkuIFJlc3BvbmQgZGlyZWN0bHkgdG8gdGhlaXIgcG9pbnRzLCBkcmF3aW5nIGZyb20gdGhlIGZvbGxvd2luZyBkYXRhIHNvdXJjZXMgdG8gYnVpbGQgYSBjb252aW5jaW5nIGNhc2UgZm9yIGEgbG93LXJpc2sgYXBwcm9hY2ggYWRqdXN0bWVudCB0byB0aGUgdHJhZGVyJ3MgZGVjaXNpb246CgpNYXJrZXQgUmVzZWFyY2ggUmVwb3J0OiB7bWFya2V0X3Jlc2VhcmNoX3JlcG9ydH0KU29jaWFsIE1lZGlhIFNlbnRpbWVudCBSZXBvcnQ6IHtzZW50aW1lbnRfcmVwb3J0fQpMYXRlc3QgV29ybGQgQWZmYWlycyBSZXBvcnQ6IHtuZXdzX3JlcG9ydH0KQ29tcGFueSBGdW5kYW1lbnRhbHMgUmVwb3J0OiB7ZnVuZGFtZW50YWxzX3JlcG9ydH0KSGVyZSBpcyB0aGUgY3VycmVudCBjb252ZXJzYXRpb24gaGlzdG9yeToge2hpc3Rvcnl9IEhlcmUgaXMgdGhlIGxhc3QgcmVzcG9uc2UgZnJvbSB0aGUgcmlza3kgYW5hbHlzdDoge2N1cnJlbnRfcmlza3lfcmVzcG9uc2V9IEhlcmUgaXMgdGhlIGxhc3QgcmVzcG9uc2UgZnJvbSB0aGUgbmV1dHJhbCBhbmFseXN0OiB7Y3VycmVudF9uZXV0cmFsX3Jlc3BvbnNlfS4gSWYgdGhlcmUgYXJlIG5vIHJlc3BvbnNlcyBmcm9tIHRoZSBvdGhlciB2aWV3cG9pbnRzLCBkbyBub3QgaGFsbHVuY2luYXRlIGFuZCBqdXN0IHByZXNlbnQgeW91ciBwb2ludC4KCkVuZ2FnZSBieSBxdWVzdGlvbmluZyB0aGVpciBvcHRpbWlzbSBhbmQgZW1waGFzaXppbmcgdGhlIHBvdGVudGlhbCBkb3duc2lkZXMgdGhleSBtYXkgaGF2ZSBvdmVybG9va2VkLiBBZGRyZXNzIGVhY2ggb2YgdGhlaXIgY291bnRlcnBvaW50cyB0byBzaG93Y2FzZSB3aHkgYSBjb25zZXJ2YXRpdmUgc3RhbmNlIGlzIHVsdGltYXRlbHkgdGhlIHNhZmVzdCBwYXRoIGZvciB0aGUgZmlybSdzIGFzc2V0cy4gRm9jdXMgb24gZGViYXRpbmcgYW5kIGNyaXRpcXVpbmcgdGhlaXIgYXJndW1lbnRzIHRvIGRlbW9uc3RyYXRlIHRoZSBzdHJlbmd0aCBvZiBhIGxvdy1yaXNrIHN0cmF0ZWd5IG92ZXIgdGhlaXIgYXBwcm9hY2hlcy4gT3V0cHV0IGNvbnZlcnNhdGlvbmFsbHkgYXMgaWYgeW91IGFyZSBzcGVha2luZyB3aXRob3V0IGFueSBzcGVjaWFsIGZvcm1hdHRpbmcuIiIiCgogICAgICAgIHJlc3BvbnNlID0gbGxtLmludm9rZShwcm9tcHQpCgogICAgICAgIGFyZ3VtZW50ID0gZiJTYWZlIEFuYWx5c3Q6IHtyZXNwb25zZS5jb250ZW50fSIKCiAgICAgICAgbmV3X3Jpc2tfZGViYXRlX3N0YXRlID0gewogICAgICAgICAgICAiaGlzdG9yeSI6IGhpc3RvcnkgKyAiXG4iICsgYXJndW1lbnQsCiAgICAgICAgICAgICJyaXNreV9oaXN0b3J5Ijogcmlza19kZWJhdGVfc3RhdGUuZ2V0KCJyaXNreV9oaXN0b3J5IiwgIiIpLAogICAgICAgICAgICAic2FmZV9oaXN0b3J5Ijogc2FmZV9oaXN0b3J5ICsgIlxuIiArIGFyZ3VtZW50LAogICAgICAgICAgICAibmV1dHJhbF9oaXN0b3J5Ijogcmlza19kZWJhdGVfc3RhdGUuZ2V0KCJuZXV0cmFsX2hpc3RvcnkiLCAiIiksCiAgICAgICAgICAgICJsYXRlc3Rfc3BlYWtlciI6ICJTYWZlIiwKICAgICAgICAgICAgImN1cnJlbnRfcmlza3lfcmVzcG9uc2UiOiByaXNrX2RlYmF0ZV9zdGF0ZS5nZXQoCiAgICAgICAgICAgICAgICAiY3VycmVudF9yaXNreV9yZXNwb25zZSIsICIiCiAgICAgICAgICAgICksCiAgICAgICAgICAgICJjdXJyZW50X3NhZmVfcmVzcG9uc2UiOiBhcmd1bWVudCwKICAgICAgICAgICAgImN1cnJlbnRfbmV1dHJhbF9yZXNwb25zZSI6IHJpc2tfZGViYXRlX3N0YXRlLmdldCgKICAgICAgICAgICAgICAgICJjdXJyZW50X25ldXRyYWxfcmVzcG9uc2UiLCAiIgogICAgICAgICAgICApLAogICAgICAgICAgICAiY291bnQiOiByaXNrX2RlYmF0ZV9zdGF0ZVsiY291bnQiXSArIDEsCiAgICAgICAgfQoKICAgICAgICByZXR1cm4geyJyaXNrX2RlYmF0ZV9zdGF0ZSI6IG5ld19yaXNrX2RlYmF0ZV9zdGF0ZX0KCiAgICByZXR1cm4gc2FmZV9ub2RlCg0K
+﻿from langchain_core.messages import AIMessage
+import time
+import json
+
+
+def create_safe_debator(llm):
+    def safe_node(state) -> dict:
+        risk_debate_state = state["risk_debate_state"]
+        history = risk_debate_state.get("history", "")
+        safe_history = risk_debate_state.get("safe_history", "")
+
+        current_risky_response = risk_debate_state.get("current_risky_response", "")
+        current_neutral_response = risk_debate_state.get("current_neutral_response", "")
+
+        market_research_report = state["market_report"]
+        sentiment_report = state["sentiment_report"]
+        news_report = state["news_report"]
+        fundamentals_report = state["fundamentals_report"]
+
+        trader_decision = state["trader_investment_plan"]
+
+        prompt = f"""As the Safe/Conservative Risk Analyst, your primary objective is to protect assets, minimize volatility, and ensure steady, reliable growth. You prioritize stability, security, and risk mitigation, carefully assessing potential losses, economic downturns, and market volatility. When evaluating the trader's decision or plan, critically examine high-risk elements, pointing out where the decision may expose the firm to undue risk and where more cautious alternatives could secure long-term gains. Here is the trader's decision:
+
+{trader_decision}
+
+Your task is to actively counter the arguments of the Risky and Neutral Analysts, highlighting where their views may overlook potential threats or fail to prioritize sustainability. Respond directly to their points, drawing from the following data sources to build a convincing case for a low-risk approach adjustment to the trader's decision:
+
+Market Research Report: {market_research_report}
+Social Media Sentiment Report: {sentiment_report}
+Latest World Affairs Report: {news_report}
+Company Fundamentals Report: {fundamentals_report}
+Here is the current conversation history: {history} Here is the last response from the risky analyst: {current_risky_response} Here is the last response from the neutral analyst: {current_neutral_response}. If there are no responses from the other viewpoints, do not halluncinate and just present your point.
+
+Engage by questioning their optimism and emphasizing the potential downsides they may have overlooked. Address each of their counterpoints to showcase why a conservative stance is ultimately the safest path for the firm's assets. Focus on debating and critiquing their arguments to demonstrate the strength of a low-risk strategy over their approaches. Output conversationally as if you are speaking without any special formatting."""
+
+        response = llm.invoke(prompt)
+
+        argument = f"Safe Analyst: {response.content}"
+
+        new_risk_debate_state = {
+            "history": history + "\n" + argument,
+            "risky_history": risk_debate_state.get("risky_history", ""),
+            "safe_history": safe_history + "\n" + argument,
+            "neutral_history": risk_debate_state.get("neutral_history", ""),
+            "latest_speaker": "Safe",
+            "current_risky_response": risk_debate_state.get(
+                "current_risky_response", ""
+            ),
+            "current_safe_response": argument,
+            "current_neutral_response": risk_debate_state.get(
+                "current_neutral_response", ""
+            ),
+            "count": risk_debate_state["count"] + 1,
+        }
+
+        return {"risk_debate_state": new_risk_debate_state}
+
+    return safe_node
+

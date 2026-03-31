@@ -1,1 +1,112 @@
-IiIiDQpB6IKh6IKh56Wo5YiG5p6Q5rWL6K+VDQrkvb/nlKggQWtTaGFyZSDojrflj5bmlbDmja4gKyDmmbrosLFBSSDliIbmnpANCiIiIg0KaW1wb3J0IG9zDQppbXBvcnQganNvbg0KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YQ0KDQojIOehruS/nSAuZW52IOWKoOi9vQ0KZnJvbSBkb3RlbnYgaW1wb3J0IGxvYWRfZG90ZW52DQpsb2FkX2RvdGVudigpDQoNCiMg5a+85YWlIEFrU2hhcmUg5pWw5o2u6I635Y+WDQpmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzIGltcG9ydCBha3NoYXJlX3V0aWxzIGFzIGFrDQoNCiMg5a+85YWl5pm66LCxQUkNCmZyb20gb3BlbmFpIGltcG9ydCBPcGVuQUkNCg0KIyDphY3nva7mmbrosLFBSQ0KY2xpZW50ID0gT3BlbkFJKA0KICAgIGFwaV9rZXk9b3MuZ2V0ZW52KCJPUEVOQUlfQVBJX0tFWSIsICI1YzliNDI5MWE5NDU0MDg3OGM4ZmFiMGNkZGM4YmM3MS5JbExVUGJ2R3RpVzMyaXNRIiksDQogICAgYmFzZV91cmw9b3MuZ2V0ZW52KCJCQUNLRU5EX1VSTCIsICJodHRwczovL29wZW4uYmlnbW9kZWwuY24vYXBpL3BhYXMvdjQiKQ0KKQ0KDQpkZWYgZ2V0X3N0b2NrX2RhdGEodGlja2VyOiBzdHIsIGRheXM6IGludCA9IDMwKToNCiAgICAiIiLojrflj5bogqHnpajmlbDmja4iIiINCiAgICBlbmRfZGF0ZSA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWSVtJWQiKQ0KICAgIHN0YXJ0X2RhdGVfb2JqID0gZGF0ZXRpbWUubm93KCkgLSB0aW1lZGVsdGEoZGF5cz1kYXlzKQ0KICAgIHN0YXJ0X2RhdGUgPSBzdGFydF9kYXRlX29iai5zdHJmdGltZSgiJVklbSVkIikNCiAgICANCiAgICAjIOiOt+WPluaXpee6v+aVsOaNrg0KICAgIGRmX2RhaWx5ID0gYWsuZ2V0X3N0b2NrX2RhaWx5KHRpY2tlciwgc3RhcnRfZGF0ZSwgZW5kX2RhdGUpDQogICAgDQogICAgIyDojrflj5blrp7ml7booYzmg4UNCiAgICBkZl9xdW90ZSA9IGFrLmdldF9zdG9ja19yZWFsdGltZV9xdW90ZSh0aWNrZXIpDQogICAgDQogICAgcmV0dXJuIGRmX2RhaWx5LCBkZl9xdW90ZQ0KDQpkZWYgYW5hbHl6ZV9zdG9jayh0aWNrZXI6IHN0cik6DQogICAgIiIi5YiG5p6Q6IKh56WoIiIiDQogICAgcHJpbnQoZiJcbnsnPScqNTB9IikNCiAgICBwcmludChmIuWIhuaekOiCoeelqDoge3RpY2tlcn0iKQ0KICAgIHByaW50KGYieyc9Jyo1MH0iKQ0KICAgIA0KICAgICMg6I635Y+W5pWw5o2uDQogICAgcHJpbnQoIlxuWzEvM10g6I635Y+W5pWw5o2uLi4uIikNCiAgICBkZl9kYWlseSwgZGZfcXVvdGUgPSBnZXRfc3RvY2tfZGF0YSh0aWNrZXIsIDMwKQ0KICAgIA0KICAgIGlmIGRmX3F1b3RlLmVtcHR5Og0KICAgICAgICBwcmludChmIuaXoOazleiOt+WPliB7dGlja2VyfSDnmoTmlbDmja4iKQ0KICAgICAgICByZXR1cm4NCiAgICANCiAgICAjIOaPkOWPluWFs+mUruS/oeaBrw0KICAgIHF1b3RlID0gZGZfcXVvdGUuaWxvY1swXQ0KICAgIHN0b2NrX25hbWUgPSBxdW90ZS5nZXQoJ+WQjeensCcsICdOL0EnKQ0KICAgIGN1cnJlbnRfcHJpY2UgPSBxdW90ZS5nZXQoJ+acgOaWsOS7tycsICdOL0EnKQ0KICAgIGNoYW5nZV9wY3QgPSBxdW90ZS5nZXQoJ+a2qOi3jOW5hScsICdOL0EnKQ0KICAgIHZvbHVtZSA9IHF1b3RlLmdldCgn5oiQ5Lqk6YePJywgJ04vQScpDQogICAgYW1vdW50ID0gcXVvdGUuZ2V0KCfmiJDkuqTpop0nLCAnTi9BJykNCiAgICANCiAgICBwcmludChmIlxuWzIvM10g6IKh56Wo5L+h5oGvOiIpDQogICAgcHJpbnQoZiIgIOWQjeensDoge3N0b2NrX25hbWV9IikNCiAgICBwcmludChmIiAg5b2T5YmN5Lu35qC8OiB7Y3VycmVudF9wcmljZX0iKQ0KICAgIHByaW50KGYiICDmtqjot4zluYU6IHtjaGFuZ2VfcGN0fSUiKQ0KICAgIHByaW50KGYiICDmiJDkuqTph486IHt2b2x1bWV9IikNCiAgICBwcmludChmIiAg5oiQ5Lqk6aKdOiB7YW1vdW50fSIpDQogICAgDQogICAgIyDmnoTlu7rmj5DnpLror40NCiAgICBwcm9tcHQgPSBmIiIi6K+35YiG5p6Q6L+Z5Y+qQeiCoeiCoeelqDoNCg0K6IKh56Wo5Luj56CBOiB7dGlja2VyfQ0K6IKh56Wo5ZCN56ewOiB7c3RvY2tfbmFtZX0NCuW9k+WJjeS7t+agvDoge2N1cnJlbnRfcHJpY2V9DQrmtqjot4zluYU6IHtjaGFuZ2VfcGN0fSUNCuaIkOS6pOmHjzoge3ZvbHVtZX0NCuaIkOS6pOminToge2Ftb3VudH0NCg0K6K+35o+Q5L6bOg0KMS4g5Z+65pys6Z2i5YiG5p6QICjooYzkuJrjgIHkuJrnu6kpDQoyLiDmioDmnK/pnaLliIbmnpAgKOi2i+WKv+OAgeaUr+aSkeS9jeOAgeWOi+WKm+S9jSkNCjMuIOi1hOmHkemdouWIhuaekCAo5Li75Yqb6LWE6YeR5rWB5ZCRKQ0KNC4g57u85ZCI5oqV6LWE5bu66K6uICjkubDlhaUv5Y2W5Ye6L+aMgeaciSkNCiIiIg0KDQogICAgcHJpbnQoZiJcblszLzNdIOiwg+eUqOaZuuiwsUFJ5YiG5p6QLi4uIikNCiAgICANCiAgICB0cnk6DQogICAgICAgIHJlc3BvbnNlID0gY2xpZW50LmNoYXQuY29tcGxldGlvbnMuY3JlYXRlKA0KICAgICAgICAgICAgbW9kZWw9ImdsbS00LWZsYXNoIiwNCiAgICAgICAgICAgIG1lc3NhZ2VzPVsNCiAgICAgICAgICAgICAgICB7InJvbGUiOiAic3lzdGVtIiwgImNvbnRlbnQiOiAi5L2g5piv5LiA5Liq5LiT5Lia55qEQeiCoeiCoeelqOWIhuaekOW4iO+8jOWWhOS6juWIhuaekOiCoeelqOeahOWfuuacrOmdouOAgeaKgOacr+mdouWSjOi1hOmHkemdou+8jOe7meWHuuaKlei1hOW7uuiuruOAgiJ9LA0KICAgICAgICAgICAgICAgIHsicm9sZSI6ICJ1c2VyIiwgImNvbnRlbnQiOiBwcm9tcHR9DQogICAgICAgICAgICBdLA0KICAgICAgICAgICAgdGVtcGVyYXR1cmU9MC43LA0KICAgICAgICApDQogICAgICAgIA0KICAgICAgICByZXN1bHQgPSByZXNwb25zZS5jaG9pY2VzWzBdLm1lc3NhZ2UuY29udGVudA0KICAgICAgICANCiAgICAgICAgcHJpbnQoZiJcbnsnPScqNTB9IikNCiAgICAgICAgcHJpbnQoIuWIhuaekOe7k+aenDoiKQ0KICAgICAgICBwcmludChmInsnPScqNTB9IikNCiAgICAgICAgcHJpbnQocmVzdWx0KQ0KICAgICAgICANCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgIHByaW50KGYiXG7osIPnlKjmmbrosLFBSeWksei0pToge2V9IikNCiAgICAgICAgIyDmiZPljbDlrozmlbTplJnor68NCiAgICAgICAgaW1wb3J0IHRyYWNlYmFjaw0KICAgICAgICB0cmFjZWJhY2sucHJpbnRfZXhjKCkNCg0KaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoNCiAgICAjIOWIhuaekOW5s+WuiemTtuihjCAoMDAwMDAxKQ0KICAgIGFuYWx5emVfc3RvY2soIjAwMDAwMSIpDQo=
+"""
+A股股票分析测试
+使用 AkShare 获取数据 + 智谱AI 分析
+"""
+import os
+import json
+from datetime import datetime, timedelta
+
+# 确保 .env 加载
+from dotenv import load_dotenv
+load_dotenv()
+
+# 导入 AkShare 数据获取
+from tradingagents.dataflows import akshare_utils as ak
+
+# 导入智谱AI
+from openai import OpenAI
+
+# 配置智谱AI
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY", "5c9b4291a94540878c8fab0cddc8bc71.IlLUPbvGtiW32isQ"),
+    base_url=os.getenv("BACKEND_URL", "https://open.bigmodel.cn/api/paas/v4")
+)
+
+def get_stock_data(ticker: str, days: int = 30):
+    """获取股票数据"""
+    end_date = datetime.now().strftime("%Y%m%d")
+    start_date_obj = datetime.now() - timedelta(days=days)
+    start_date = start_date_obj.strftime("%Y%m%d")
+    
+    # 获取日线数据
+    df_daily = ak.get_stock_daily(ticker, start_date, end_date)
+    
+    # 获取实时行情
+    df_quote = ak.get_stock_realtime_quote(ticker)
+    
+    return df_daily, df_quote
+
+def analyze_stock(ticker: str):
+    """分析股票"""
+    print(f"\n{'='*50}")
+    print(f"分析股票: {ticker}")
+    print(f"{'='*50}")
+    
+    # 获取数据
+    print("\n[1/3] 获取数据...")
+    df_daily, df_quote = get_stock_data(ticker, 30)
+    
+    if df_quote.empty:
+        print(f"无法获取 {ticker} 的数据")
+        return
+    
+    # 提取关键信息
+    quote = df_quote.iloc[0]
+    stock_name = quote.get('名称', 'N/A')
+    current_price = quote.get('最新价', 'N/A')
+    change_pct = quote.get('涨跌幅', 'N/A')
+    volume = quote.get('成交量', 'N/A')
+    amount = quote.get('成交额', 'N/A')
+    
+    print(f"\n[2/3] 股票信息:")
+    print(f"  名称: {stock_name}")
+    print(f"  当前价格: {current_price}")
+    print(f"  涨跌幅: {change_pct}%")
+    print(f"  成交量: {volume}")
+    print(f"  成交额: {amount}")
+    
+    # 构建提示词
+    prompt = f"""请分析这只A股股票:
+
+股票代码: {ticker}
+股票名称: {stock_name}
+当前价格: {current_price}
+涨跌幅: {change_pct}%
+成交量: {volume}
+成交额: {amount}
+
+请提供:
+1. 基本面分析 (行业、业绩)
+2. 技术面分析 (趋势、支撑位、压力位)
+3. 资金面分析 (主力资金流向)
+4. 综合投资建议 (买入/卖出/持有)
+"""
+
+    print(f"\n[3/3] 调用智谱AI分析...")
+    
+    try:
+        response = client.chat.completions.create(
+            model="glm-4-flash",
+            messages=[
+                {"role": "system", "content": "你是一个专业的A股股票分析师，善于分析股票的基本面、技术面和资金面，给出投资建议。"},
+                {"role": "user", "content": prompt}
+            ],
+            temperature=0.7,
+        )
+        
+        result = response.choices[0].message.content
+        
+        print(f"\n{'='*50}")
+        print("分析结果:")
+        print(f"{'='*50}")
+        print(result)
+        
+    except Exception as e:
+        print(f"\n调用智谱AI失败: {e}")
+        # 打印完整错误
+        import traceback
+        traceback.print_exc()
+
+if __name__ == "__main__":
+    # 分析平安银行 (000001)
+    analyze_stock("000001")

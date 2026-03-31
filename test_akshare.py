@@ -1,1 +1,73 @@
-IiIiDQpB6IKh5YiG5p6Q5rWL6K+V6ISa5pysDQrkvb/nlKjmmbrosLFBSSArIEFrU2hhcmUNCiIiIg0KaW1wb3J0IG9zDQppbXBvcnQgc3lzDQoNCiMg5re75Yqg6aG555uu6Lev5b6EDQpzeXMucGF0aC5pbnNlcnQoMCwgb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpKQ0KDQpmcm9tIHRyYWRpbmdhZ2VudHMuZ3JhcGgudHJhZGluZ19ncmFwaCBpbXBvcnQgVHJhZGluZ0FnZW50c0dyYXBoDQoNCiMg6K+75Y+W546v5aKD5Y+Y6YePDQpmcm9tIGRvdGVudiBpbXBvcnQgbG9hZF9kb3RlbnYNCmxvYWRfZG90ZW52KCkNCg0KIyDliJvlu7roh6rlrprkuYnphY3nva7vvIjkvb/nlKjmmbrosLFBSe+8iQ0KY29uZmlnID0gew0KICAgICMg6aG555uu6Lev5b6EDQogICAgInByb2plY3RfZGlyIjogb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpLA0KICAgIA0KICAgICMgTExNIOmFjee9riAtIOaZuuiwsUFJIChPcGVuQUnlhbzlrrnmoLzlvI8pDQogICAgImxsbV9wcm92aWRlciI6IG9zLmdldGVudigiTExNX1BST1ZJREVSIiwgIm9wZW5haSIpLA0KICAgICJkZWVwX3RoaW5rX2xsbSI6IG9zLmdldGVudigiREVFUF9USElOS19MTE0iLCAiZ2xtLTQtZmxhc2giKSwNCiAgICAicXVpY2tfdGhpbmtfbGxtIjogb3MuZ2V0ZW52KCJRVUlDS19USElOS19MTE0iLCAiZ2xtLTQtZmxhc2giKSwNCiAgICAiYmFja2VuZF91cmwiOiBvcy5nZXRlbnYoIkJBQ0tFTkRfVVJMIiwgImh0dHBzOi8vb3Blbi5iaWdtb2RlbC5jbi9hcGkvcGFhcy92NCIpLA0KICAgICJvcGVuYWlfYXBpX2tleSI6IG9zLmdldGVudigiT1BFTkFJX0FQSV9LRVkiLCAiIiksDQogICAgDQogICAgIyDliIbmnpDorr7nva4NCiAgICAibWF4X2RlYmF0ZV9yb3VuZHMiOiAxLA0KICAgICJtYXhfcmlza19kaXNjdXNzX3JvdW5kcyI6IDEsDQogICAgIm1heF9yZWN1cl9saW1pdCI6IDUwLA0KICAgIA0KICAgICMg5bel5YW36K6+572uDQogICAgIm9ubGluZV90b29scyI6IFRydWUsDQogICAgDQogICAgIyDnu5Pmnpzkv53lrZgNCiAgICAicmVzdWx0c19kaXIiOiBvcy5nZXRlbnYoIlRSQURJTkdBR0VOVFNfUkVTVUxUU19ESVIiLCAiLi9yZXN1bHRzIiksDQp9DQoNCiMg5omT5Y2w6YWN572u5L+h5oGvDQpwcmludCgiPSIgKiA1MCkNCnByaW50KCJUcmFkaW5nQWdlbnRzLUNOIEHogqHliIbmnpDmtYvor5UiKQ0KcHJpbnQoIj0iICogNTApDQpwcmludChmIkxMTSBQcm92aWRlcjoge2NvbmZpZ1snbGxtX3Byb3ZpZGVyJ119IikNCnByaW50KGYiTW9kZWw6IHtjb25maWdbJ2RlZXBfdGhpbmtfbGxtJ119IikNCnByaW50KGYiQmFja2VuZDoge2NvbmZpZ1snYmFja2VuZF91cmwnXX0iKQ0KcHJpbnQoZiJBUEkgS2V5OiB7Y29uZmlnWydvcGVuYWlfYXBpX2tleSddWzoyMF19Li4uIiBpZiBjb25maWdbJ29wZW5haV9hcGlfa2V5J10gZWxzZSAiQVBJIEtleTog5pyq6K6+572uIikNCnByaW50KCI9IiAqIDUwKQ0KDQojIOWIneWni+WMliBUcmFkaW5nQWdlbnRzDQpwcmludCgiXG7mraPlnKjliJ3lp4vljJYgVHJhZGluZ0FnZW50cy4uLiIpDQp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChkZWJ1Zz1UcnVlLCBjb25maWc9Y29uZmlnKQ0KDQojIOa1i+ivleWIhuaekEHogqHogqHnpaggLSDlubPlronpk7booYwgKDAwMDAwMSkNCiMg5L2/55So5pyA6L+R55qE5Lqk5piT5pelDQp0aWNrZXIgPSAiMDAwMDAxIg0KYW5hbHlzaXNfZGF0ZSA9ICIyMDI2LTAzLTI4Ig0KDQpwcmludChmIlxu5byA5aeL5YiG5p6QOiB7dGlja2VyfSAo5bmz5a6J6ZO26KGMKSIpDQpwcmludChmIuWIhuaekOaXpeacnzoge2FuYWx5c2lzX2RhdGV9IikNCnByaW50KCItIiAqIDUwKQ0KDQp0cnk6DQogICAgXywgZGVjaXNpb24gPSB0YS5wcm9wYWdhdGUodGlja2VyLCBhbmFseXNpc19kYXRlKQ0KICAgIHByaW50KCJcbiIgKyAiPSIgKiA1MCkNCiAgICBwcmludCgi5YiG5p6Q57uT5p6cOiIpDQogICAgcHJpbnQoIj0iICogNTApDQogICAgcHJpbnQoZGVjaXNpb24pDQpleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgcHJpbnQoZiJcbuWIhuaekOWHuumUmToge2V9IikNCiAgICBpbXBvcnQgdHJhY2ViYWNrDQogICAgdHJhY2ViYWNrLnByaW50X2V4YygpDQo=
+"""
+A股分析测试脚本
+使用智谱AI + AkShare
+"""
+import os
+import sys
+
+# 添加项目路径
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+
+# 读取环境变量
+from dotenv import load_dotenv
+load_dotenv()
+
+# 创建自定义配置（使用智谱AI）
+config = {
+    # 项目路径
+    "project_dir": os.path.dirname(os.path.abspath(__file__)),
+    
+    # LLM 配置 - 智谱AI (OpenAI兼容格式)
+    "llm_provider": os.getenv("LLM_PROVIDER", "openai"),
+    "deep_think_llm": os.getenv("DEEP_THINK_LLM", "glm-4-flash"),
+    "quick_think_llm": os.getenv("QUICK_THINK_LLM", "glm-4-flash"),
+    "backend_url": os.getenv("BACKEND_URL", "https://open.bigmodel.cn/api/paas/v4"),
+    "openai_api_key": os.getenv("OPENAI_API_KEY", ""),
+    
+    # 分析设置
+    "max_debate_rounds": 1,
+    "max_risk_discuss_rounds": 1,
+    "max_recur_limit": 50,
+    
+    # 工具设置
+    "online_tools": True,
+    
+    # 结果保存
+    "results_dir": os.getenv("TRADINGAGENTS_RESULTS_DIR", "./results"),
+}
+
+# 打印配置信息
+print("=" * 50)
+print("TradingAgents-CN A股分析测试")
+print("=" * 50)
+print(f"LLM Provider: {config['llm_provider']}")
+print(f"Model: {config['deep_think_llm']}")
+print(f"Backend: {config['backend_url']}")
+print(f"API Key: {config['openai_api_key'][:20]}..." if config['openai_api_key'] else "API Key: 未设置")
+print("=" * 50)
+
+# 初始化 TradingAgents
+print("\n正在初始化 TradingAgents...")
+ta = TradingAgentsGraph(debug=True, config=config)
+
+# 测试分析A股股票 - 平安银行 (000001)
+# 使用最近的交易日
+ticker = "000001"
+analysis_date = "2026-03-28"
+
+print(f"\n开始分析: {ticker} (平安银行)")
+print(f"分析日期: {analysis_date}")
+print("-" * 50)
+
+try:
+    _, decision = ta.propagate(ticker, analysis_date)
+    print("\n" + "=" * 50)
+    print("分析结果:")
+    print("=" * 50)
+    print(decision)
+except Exception as e:
+    print(f"\n分析出错: {e}")
+    import traceback
+    traceback.print_exc()

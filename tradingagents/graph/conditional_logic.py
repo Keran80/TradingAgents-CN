@@ -1,1 +1,68 @@
-77u/IyBUcmFkaW5nQWdlbnRzL2dyYXBoL2NvbmRpdGlvbmFsX2xvZ2ljLnB5Cgpmcm9tIHRyYWRpbmdhZ2VudHMuYWdlbnRzLnV0aWxzLmFnZW50X3N0YXRlcyBpbXBvcnQgQWdlbnRTdGF0ZQoKCmNsYXNzIENvbmRpdGlvbmFsTG9naWM6CiAgICAiIiJIYW5kbGVzIGNvbmRpdGlvbmFsIGxvZ2ljIGZvciBkZXRlcm1pbmluZyBncmFwaCBmbG93LiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBtYXhfZGViYXRlX3JvdW5kcz0xLCBtYXhfcmlza19kaXNjdXNzX3JvdW5kcz0xKToKICAgICAgICAiIiJJbml0aWFsaXplIHdpdGggY29uZmlndXJhdGlvbiBwYXJhbWV0ZXJzLiIiIgogICAgICAgIHNlbGYubWF4X2RlYmF0ZV9yb3VuZHMgPSBtYXhfZGViYXRlX3JvdW5kcwogICAgICAgIHNlbGYubWF4X3Jpc2tfZGlzY3Vzc19yb3VuZHMgPSBtYXhfcmlza19kaXNjdXNzX3JvdW5kcwoKICAgIGRlZiBzaG91bGRfY29udGludWVfbWFya2V0KHNlbGYsIHN0YXRlOiBBZ2VudFN0YXRlKToKICAgICAgICAiIiJEZXRlcm1pbmUgaWYgbWFya2V0IGFuYWx5c2lzIHNob3VsZCBjb250aW51ZS4iIiIKICAgICAgICBtZXNzYWdlcyA9IHN0YXRlWyJtZXNzYWdlcyJdCiAgICAgICAgbGFzdF9tZXNzYWdlID0gbWVzc2FnZXNbLTFdCiAgICAgICAgaWYgbGFzdF9tZXNzYWdlLnRvb2xfY2FsbHM6CiAgICAgICAgICAgIHJldHVybiAidG9vbHNfbWFya2V0IgogICAgICAgIHJldHVybiAiTXNnIENsZWFyIE1hcmtldCIKCiAgICBkZWYgc2hvdWxkX2NvbnRpbnVlX3NvY2lhbChzZWxmLCBzdGF0ZTogQWdlbnRTdGF0ZSk6CiAgICAgICAgIiIiRGV0ZXJtaW5lIGlmIHNvY2lhbCBtZWRpYSBhbmFseXNpcyBzaG91bGQgY29udGludWUuIiIiCiAgICAgICAgbWVzc2FnZXMgPSBzdGF0ZVsibWVzc2FnZXMiXQogICAgICAgIGxhc3RfbWVzc2FnZSA9IG1lc3NhZ2VzWy0xXQogICAgICAgIGlmIGxhc3RfbWVzc2FnZS50b29sX2NhbGxzOgogICAgICAgICAgICByZXR1cm4gInRvb2xzX3NvY2lhbCIKICAgICAgICByZXR1cm4gIk1zZyBDbGVhciBTb2NpYWwiCgogICAgZGVmIHNob3VsZF9jb250aW51ZV9uZXdzKHNlbGYsIHN0YXRlOiBBZ2VudFN0YXRlKToKICAgICAgICAiIiJEZXRlcm1pbmUgaWYgbmV3cyBhbmFseXNpcyBzaG91bGQgY29udGludWUuIiIiCiAgICAgICAgbWVzc2FnZXMgPSBzdGF0ZVsibWVzc2FnZXMiXQogICAgICAgIGxhc3RfbWVzc2FnZSA9IG1lc3NhZ2VzWy0xXQogICAgICAgIGlmIGxhc3RfbWVzc2FnZS50b29sX2NhbGxzOgogICAgICAgICAgICByZXR1cm4gInRvb2xzX25ld3MiCiAgICAgICAgcmV0dXJuICJNc2cgQ2xlYXIgTmV3cyIKCiAgICBkZWYgc2hvdWxkX2NvbnRpbnVlX2Z1bmRhbWVudGFscyhzZWxmLCBzdGF0ZTogQWdlbnRTdGF0ZSk6CiAgICAgICAgIiIiRGV0ZXJtaW5lIGlmIGZ1bmRhbWVudGFscyBhbmFseXNpcyBzaG91bGQgY29udGludWUuIiIiCiAgICAgICAgbWVzc2FnZXMgPSBzdGF0ZVsibWVzc2FnZXMiXQogICAgICAgIGxhc3RfbWVzc2FnZSA9IG1lc3NhZ2VzWy0xXQogICAgICAgIGlmIGxhc3RfbWVzc2FnZS50b29sX2NhbGxzOgogICAgICAgICAgICByZXR1cm4gInRvb2xzX2Z1bmRhbWVudGFscyIKICAgICAgICByZXR1cm4gIk1zZyBDbGVhciBGdW5kYW1lbnRhbHMiCgogICAgZGVmIHNob3VsZF9jb250aW51ZV9kZWJhdGUoc2VsZiwgc3RhdGU6IEFnZW50U3RhdGUpIC0+IHN0cjoKICAgICAgICAiIiJEZXRlcm1pbmUgaWYgZGViYXRlIHNob3VsZCBjb250aW51ZS4iIiIKCiAgICAgICAgaWYgKAogICAgICAgICAgICBzdGF0ZVsiaW52ZXN0bWVudF9kZWJhdGVfc3RhdGUiXVsiY291bnQiXSA+PSAyICogc2VsZi5tYXhfZGViYXRlX3JvdW5kcwogICAgICAgICk6ICAjIDMgcm91bmRzIG9mIGJhY2stYW5kLWZvcnRoIGJldHdlZW4gMiBhZ2VudHMKICAgICAgICAgICAgcmV0dXJuICJSZXNlYXJjaCBNYW5hZ2VyIgogICAgICAgIGlmIHN0YXRlWyJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSJdWyJjdXJyZW50X3Jlc3BvbnNlIl0uc3RhcnRzd2l0aCgiQnVsbCIpOgogICAgICAgICAgICByZXR1cm4gIkJlYXIgUmVzZWFyY2hlciIKICAgICAgICByZXR1cm4gIkJ1bGwgUmVzZWFyY2hlciIKCiAgICBkZWYgc2hvdWxkX2NvbnRpbnVlX3Jpc2tfYW5hbHlzaXMoc2VsZiwgc3RhdGU6IEFnZW50U3RhdGUpIC0+IHN0cjoKICAgICAgICAiIiJEZXRlcm1pbmUgaWYgcmlzayBhbmFseXNpcyBzaG91bGQgY29udGludWUuIiIiCiAgICAgICAgaWYgKAogICAgICAgICAgICBzdGF0ZVsicmlza19kZWJhdGVfc3RhdGUiXVsiY291bnQiXSA+PSAzICogc2VsZi5tYXhfcmlza19kaXNjdXNzX3JvdW5kcwogICAgICAgICk6ICAjIDMgcm91bmRzIG9mIGJhY2stYW5kLWZvcnRoIGJldHdlZW4gMyBhZ2VudHMKICAgICAgICAgICAgcmV0dXJuICJSaXNrIEp1ZGdlIgogICAgICAgIGlmIHN0YXRlWyJyaXNrX2RlYmF0ZV9zdGF0ZSJdWyJsYXRlc3Rfc3BlYWtlciJdLnN0YXJ0c3dpdGgoIlJpc2t5Iik6CiAgICAgICAgICAgIHJldHVybiAiU2FmZSBBbmFseXN0IgogICAgICAgIGlmIHN0YXRlWyJyaXNrX2RlYmF0ZV9zdGF0ZSJdWyJsYXRlc3Rfc3BlYWtlciJdLnN0YXJ0c3dpdGgoIlNhZmUiKToKICAgICAgICAgICAgcmV0dXJuICJOZXV0cmFsIEFuYWx5c3QiCiAgICAgICAgcmV0dXJuICJSaXNreSBBbmFseXN0IgoNCg==
+﻿# TradingAgents/graph/conditional_logic.py
+
+from tradingagents.agents.utils.agent_states import AgentState
+
+
+class ConditionalLogic:
+    """Handles conditional logic for determining graph flow."""
+
+    def __init__(self, max_debate_rounds=1, max_risk_discuss_rounds=1):
+        """Initialize with configuration parameters."""
+        self.max_debate_rounds = max_debate_rounds
+        self.max_risk_discuss_rounds = max_risk_discuss_rounds
+
+    def should_continue_market(self, state: AgentState):
+        """Determine if market analysis should continue."""
+        messages = state["messages"]
+        last_message = messages[-1]
+        if last_message.tool_calls:
+            return "tools_market"
+        return "Msg Clear Market"
+
+    def should_continue_social(self, state: AgentState):
+        """Determine if social media analysis should continue."""
+        messages = state["messages"]
+        last_message = messages[-1]
+        if last_message.tool_calls:
+            return "tools_social"
+        return "Msg Clear Social"
+
+    def should_continue_news(self, state: AgentState):
+        """Determine if news analysis should continue."""
+        messages = state["messages"]
+        last_message = messages[-1]
+        if last_message.tool_calls:
+            return "tools_news"
+        return "Msg Clear News"
+
+    def should_continue_fundamentals(self, state: AgentState):
+        """Determine if fundamentals analysis should continue."""
+        messages = state["messages"]
+        last_message = messages[-1]
+        if last_message.tool_calls:
+            return "tools_fundamentals"
+        return "Msg Clear Fundamentals"
+
+    def should_continue_debate(self, state: AgentState) -> str:
+        """Determine if debate should continue."""
+
+        if (
+            state["investment_debate_state"]["count"] >= 2 * self.max_debate_rounds
+        ):  # 3 rounds of back-and-forth between 2 agents
+            return "Research Manager"
+        if state["investment_debate_state"]["current_response"].startswith("Bull"):
+            return "Bear Researcher"
+        return "Bull Researcher"
+
+    def should_continue_risk_analysis(self, state: AgentState) -> str:
+        """Determine if risk analysis should continue."""
+        if (
+            state["risk_debate_state"]["count"] >= 3 * self.max_risk_discuss_rounds
+        ):  # 3 rounds of back-and-forth between 3 agents
+            return "Risk Judge"
+        if state["risk_debate_state"]["latest_speaker"].startswith("Risky"):
+            return "Safe Analyst"
+        if state["risk_debate_state"]["latest_speaker"].startswith("Safe"):
+            return "Neutral Analyst"
+        return "Risky Analyst"
+

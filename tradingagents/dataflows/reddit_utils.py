@@ -1,1 +1,136 @@
-77u/aW1wb3J0IHJlcXVlc3RzCmltcG9ydCB0aW1lCmltcG9ydCBqc29uCmZyb20gZGF0ZXRpbWUgaW1wb3J0IGRhdGV0aW1lLCB0aW1lZGVsdGEKZnJvbSBjb250ZXh0bGliIGltcG9ydCBjb250ZXh0bWFuYWdlcgpmcm9tIHR5cGluZyBpbXBvcnQgQW5ub3RhdGVkCmltcG9ydCBvcwppbXBvcnQgcmUKCnRpY2tlcl90b19jb21wYW55ID0gewogICAgIkFBUEwiOiAiQXBwbGUiLAogICAgIk1TRlQiOiAiTWljcm9zb2Z0IiwKICAgICJHT09HTCI6ICJHb29nbGUiLAogICAgIkFNWk4iOiAiQW1hem9uIiwKICAgICJUU0xBIjogIlRlc2xhIiwKICAgICJOVkRBIjogIk52aWRpYSIsCiAgICAiVFNNIjogIlRhaXdhbiBTZW1pY29uZHVjdG9yIE1hbnVmYWN0dXJpbmcgQ29tcGFueSBPUiBUU01DIiwKICAgICJKUE0iOiAiSlBNb3JnYW4gQ2hhc2UgT1IgSlAgTW9yZ2FuIiwKICAgICJKTkoiOiAiSm9obnNvbiAmIEpvaG5zb24gT1IgSk5KIiwKICAgICJWIjogIlZpc2EiLAogICAgIldNVCI6ICJXYWxtYXJ0IiwKICAgICJNRVRBIjogIk1ldGEgT1IgRmFjZWJvb2siLAogICAgIkFNRCI6ICJBTUQiLAogICAgIklOVEMiOiAiSW50ZWwiLAogICAgIlFDT00iOiAiUXVhbGNvbW0iLAogICAgIkJBQkEiOiAiQWxpYmFiYSIsCiAgICAiQURCRSI6ICJBZG9iZSIsCiAgICAiTkZMWCI6ICJOZXRmbGl4IiwKICAgICJDUk0iOiAiU2FsZXNmb3JjZSIsCiAgICAiUFlQTCI6ICJQYXlQYWwiLAogICAgIlBMVFIiOiAiUGFsYW50aXIiLAogICAgIk1VIjogIk1pY3JvbiIsCiAgICAiU1EiOiAiQmxvY2sgT1IgU3F1YXJlIiwKICAgICJaTSI6ICJab29tIiwKICAgICJDU0NPIjogIkNpc2NvIiwKICAgICJTSE9QIjogIlNob3BpZnkiLAogICAgIk9SQ0wiOiAiT3JhY2xlIiwKICAgICJYIjogIlR3aXR0ZXIgT1IgWCIsCiAgICAiU1BPVCI6ICJTcG90aWZ5IiwKICAgICJBVkdPIjogIkJyb2FkY29tIiwKICAgICJBU01MIjogIkFTTUwgIiwKICAgICJUV0xPIjogIlR3aWxpbyIsCiAgICAiU05BUCI6ICJTbmFwIEluYy4iLAogICAgIlRFQU0iOiAiQXRsYXNzaWFuIiwKICAgICJTUVNQIjogIlNxdWFyZXNwYWNlIiwKICAgICJVQkVSIjogIlViZXIiLAogICAgIlJPS1UiOiAiUm9rdSIsCiAgICAiUElOUyI6ICJQaW50ZXJlc3QiLAp9CgoKZGVmIGZldGNoX3RvcF9mcm9tX2NhdGVnb3J5KAogICAgY2F0ZWdvcnk6IEFubm90YXRlZFsKICAgICAgICBzdHIsICJDYXRlZ29yeSB0byBmZXRjaCB0b3AgcG9zdCBmcm9tLiBDb2xsZWN0aW9uIG9mIHN1YnJlZGRpdHMuIgogICAgXSwKICAgIGRhdGU6IEFubm90YXRlZFtzdHIsICJEYXRlIHRvIGZldGNoIHRvcCBwb3N0cyBmcm9tLiJdLAogICAgbWF4X2xpbWl0OiBBbm5vdGF0ZWRbaW50LCAiTWF4aW11bSBudW1iZXIgb2YgcG9zdHMgdG8gZmV0Y2guIl0sCiAgICBxdWVyeTogQW5ub3RhdGVkW3N0ciwgIk9wdGlvbmFsIHF1ZXJ5IHRvIHNlYXJjaCBmb3IgaW4gdGhlIHN1YnJlZGRpdC4iXSA9IE5vbmUsCiAgICBkYXRhX3BhdGg6IEFubm90YXRlZFsKICAgICAgICBzdHIsCiAgICAgICAgIlBhdGggdG8gdGhlIGRhdGEgZm9sZGVyLiBEZWZhdWx0IGlzICdyZWRkaXRfZGF0YScuIiwKICAgIF0gPSAicmVkZGl0X2RhdGEiLAopOgogICAgYmFzZV9wYXRoID0gZGF0YV9wYXRoCgogICAgYWxsX2NvbnRlbnQgPSBbXQoKICAgIGlmIG1heF9saW1pdCA8IGxlbihvcy5saXN0ZGlyKG9zLnBhdGguam9pbihiYXNlX3BhdGgsIGNhdGVnb3J5KSkpOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoCiAgICAgICAgICAgICJSRURESVQgRkVUQ0hJTkcgRVJST1I6IG1heCBsaW1pdCBpcyBsZXNzIHRoYW4gdGhlIG51bWJlciBvZiBmaWxlcyBpbiB0aGUgY2F0ZWdvcnkuIFdpbGwgbm90IGJlIGFibGUgdG8gZmV0Y2ggYW55IHBvc3RzIgogICAgICAgICkKCiAgICBsaW1pdF9wZXJfc3VicmVkZGl0ID0gbWF4X2xpbWl0IC8vIGxlbigKICAgICAgICBvcy5saXN0ZGlyKG9zLnBhdGguam9pbihiYXNlX3BhdGgsIGNhdGVnb3J5KSkKICAgICkKCiAgICBmb3IgZGF0YV9maWxlIGluIG9zLmxpc3RkaXIob3MucGF0aC5qb2luKGJhc2VfcGF0aCwgY2F0ZWdvcnkpKToKICAgICAgICAjIGNoZWNrIGlmIGRhdGFfZmlsZSBpcyBhIC5qc29ubCBmaWxlCiAgICAgICAgaWYgbm90IGRhdGFfZmlsZS5lbmRzd2l0aCgiLmpzb25sIik6CiAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgIGFsbF9jb250ZW50X2N1cnJfc3VicmVkZGl0ID0gW10KCiAgICAgICAgd2l0aCBvcGVuKG9zLnBhdGguam9pbihiYXNlX3BhdGgsIGNhdGVnb3J5LCBkYXRhX2ZpbGUpLCAicmIiKSBhcyBmOgogICAgICAgICAgICBmb3IgaSwgbGluZSBpbiBlbnVtZXJhdGUoZik6CiAgICAgICAgICAgICAgICAjIHNraXAgZW1wdHkgbGluZXMKICAgICAgICAgICAgICAgIGlmIG5vdCBsaW5lLnN0cmlwKCk6CiAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICBwYXJzZWRfbGluZSA9IGpzb24ubG9hZHMobGluZSkKCiAgICAgICAgICAgICAgICAjIHNlbGVjdCBvbmx5IGxpbmVzIHRoYXQgYXJlIGZyb20gdGhlIGRhdGUKICAgICAgICAgICAgICAgIHBvc3RfZGF0ZSA9IGRhdGV0aW1lLnV0Y2Zyb210aW1lc3RhbXAoCiAgICAgICAgICAgICAgICAgICAgcGFyc2VkX2xpbmVbImNyZWF0ZWRfdXRjIl0KICAgICAgICAgICAgICAgICkuc3RyZnRpbWUoIiVZLSVtLSVkIikKICAgICAgICAgICAgICAgIGlmIHBvc3RfZGF0ZSAhPSBkYXRlOgogICAgICAgICAgICAgICAgICAgIGNvbnRpbnVlCgogICAgICAgICAgICAgICAgIyBpZiBpcyBjb21wYW55X25ld3MsIGNoZWNrIHRoYXQgdGhlIHRpdGxlIG9yIHRoZSBjb250ZW50IGhhcyB0aGUgY29tcGFueSdzIG5hbWUgKHF1ZXJ5KSBtZW50aW9uZWQKICAgICAgICAgICAgICAgIGlmICJjb21wYW55IiBpbiBjYXRlZ29yeSBhbmQgcXVlcnk6CiAgICAgICAgICAgICAgICAgICAgc2VhcmNoX3Rlcm1zID0gW10KICAgICAgICAgICAgICAgICAgICBpZiAiT1IiIGluIHRpY2tlcl90b19jb21wYW55W3F1ZXJ5XToKICAgICAgICAgICAgICAgICAgICAgICAgc2VhcmNoX3Rlcm1zID0gdGlja2VyX3RvX2NvbXBhbnlbcXVlcnldLnNwbGl0KCIgT1IgIikKICAgICAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgICAgICBzZWFyY2hfdGVybXMgPSBbdGlja2VyX3RvX2NvbXBhbnlbcXVlcnldXQoKICAgICAgICAgICAgICAgICAgICBzZWFyY2hfdGVybXMuYXBwZW5kKHF1ZXJ5KQoKICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IEZhbHNlCiAgICAgICAgICAgICAgICAgICAgZm9yIHRlcm0gaW4gc2VhcmNoX3Rlcm1zOgogICAgICAgICAgICAgICAgICAgICAgICBpZiByZS5zZWFyY2goCiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXJtLCBwYXJzZWRfbGluZVsidGl0bGUiXSwgcmUuSUdOT1JFQ0FTRQogICAgICAgICAgICAgICAgICAgICAgICApIG9yIHJlLnNlYXJjaCh0ZXJtLCBwYXJzZWRfbGluZVsic2VsZnRleHQiXSwgcmUuSUdOT1JFQ0FTRSk6CiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb3VuZCA9IFRydWUKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJyZWFrCgogICAgICAgICAgICAgICAgICAgIGlmIG5vdCBmb3VuZDoKICAgICAgICAgICAgICAgICAgICAgICAgY29udGludWUKCiAgICAgICAgICAgICAgICBwb3N0ID0gewogICAgICAgICAgICAgICAgICAgICJ0aXRsZSI6IHBhcnNlZF9saW5lWyJ0aXRsZSJdLAogICAgICAgICAgICAgICAgICAgICJjb250ZW50IjogcGFyc2VkX2xpbmVbInNlbGZ0ZXh0Il0sCiAgICAgICAgICAgICAgICAgICAgInVybCI6IHBhcnNlZF9saW5lWyJ1cmwiXSwKICAgICAgICAgICAgICAgICAgICAidXB2b3RlcyI6IHBhcnNlZF9saW5lWyJ1cHMiXSwKICAgICAgICAgICAgICAgICAgICAicG9zdGVkX2RhdGUiOiBwb3N0X2RhdGUsCiAgICAgICAgICAgICAgICB9CgogICAgICAgICAgICAgICAgYWxsX2NvbnRlbnRfY3Vycl9zdWJyZWRkaXQuYXBwZW5kKHBvc3QpCgogICAgICAgICMgc29ydCBhbGxfY29udGVudF9jdXJyX3N1YnJlZGRpdCBieSB1cHZvdGVfcmF0aW8gaW4gZGVzY2VuZGluZyBvcmRlcgogICAgICAgIGFsbF9jb250ZW50X2N1cnJfc3VicmVkZGl0LnNvcnQoa2V5PWxhbWJkYSB4OiB4WyJ1cHZvdGVzIl0sIHJldmVyc2U9VHJ1ZSkKCiAgICAgICAgYWxsX2NvbnRlbnQuZXh0ZW5kKGFsbF9jb250ZW50X2N1cnJfc3VicmVkZGl0WzpsaW1pdF9wZXJfc3VicmVkZGl0XSkKCiAgICByZXR1cm4gYWxsX2NvbnRlbnQKDQo=
+﻿import requests
+import time
+import json
+from datetime import datetime, timedelta
+from contextlib import contextmanager
+from typing import Annotated
+import os
+import re
+
+ticker_to_company = {
+    "AAPL": "Apple",
+    "MSFT": "Microsoft",
+    "GOOGL": "Google",
+    "AMZN": "Amazon",
+    "TSLA": "Tesla",
+    "NVDA": "Nvidia",
+    "TSM": "Taiwan Semiconductor Manufacturing Company OR TSMC",
+    "JPM": "JPMorgan Chase OR JP Morgan",
+    "JNJ": "Johnson & Johnson OR JNJ",
+    "V": "Visa",
+    "WMT": "Walmart",
+    "META": "Meta OR Facebook",
+    "AMD": "AMD",
+    "INTC": "Intel",
+    "QCOM": "Qualcomm",
+    "BABA": "Alibaba",
+    "ADBE": "Adobe",
+    "NFLX": "Netflix",
+    "CRM": "Salesforce",
+    "PYPL": "PayPal",
+    "PLTR": "Palantir",
+    "MU": "Micron",
+    "SQ": "Block OR Square",
+    "ZM": "Zoom",
+    "CSCO": "Cisco",
+    "SHOP": "Shopify",
+    "ORCL": "Oracle",
+    "X": "Twitter OR X",
+    "SPOT": "Spotify",
+    "AVGO": "Broadcom",
+    "ASML": "ASML ",
+    "TWLO": "Twilio",
+    "SNAP": "Snap Inc.",
+    "TEAM": "Atlassian",
+    "SQSP": "Squarespace",
+    "UBER": "Uber",
+    "ROKU": "Roku",
+    "PINS": "Pinterest",
+}
+
+
+def fetch_top_from_category(
+    category: Annotated[
+        str, "Category to fetch top post from. Collection of subreddits."
+    ],
+    date: Annotated[str, "Date to fetch top posts from."],
+    max_limit: Annotated[int, "Maximum number of posts to fetch."],
+    query: Annotated[str, "Optional query to search for in the subreddit."] = None,
+    data_path: Annotated[
+        str,
+        "Path to the data folder. Default is 'reddit_data'.",
+    ] = "reddit_data",
+):
+    base_path = data_path
+
+    all_content = []
+
+    if max_limit < len(os.listdir(os.path.join(base_path, category))):
+        raise ValueError(
+            "REDDIT FETCHING ERROR: max limit is less than the number of files in the category. Will not be able to fetch any posts"
+        )
+
+    limit_per_subreddit = max_limit // len(
+        os.listdir(os.path.join(base_path, category))
+    )
+
+    for data_file in os.listdir(os.path.join(base_path, category)):
+        # check if data_file is a .jsonl file
+        if not data_file.endswith(".jsonl"):
+            continue
+
+        all_content_curr_subreddit = []
+
+        with open(os.path.join(base_path, category, data_file), "rb") as f:
+            for i, line in enumerate(f):
+                # skip empty lines
+                if not line.strip():
+                    continue
+
+                parsed_line = json.loads(line)
+
+                # select only lines that are from the date
+                post_date = datetime.utcfromtimestamp(
+                    parsed_line["created_utc"]
+                ).strftime("%Y-%m-%d")
+                if post_date != date:
+                    continue
+
+                # if is company_news, check that the title or the content has the company's name (query) mentioned
+                if "company" in category and query:
+                    search_terms = []
+                    if "OR" in ticker_to_company[query]:
+                        search_terms = ticker_to_company[query].split(" OR ")
+                    else:
+                        search_terms = [ticker_to_company[query]]
+
+                    search_terms.append(query)
+
+                    found = False
+                    for term in search_terms:
+                        if re.search(
+                            term, parsed_line["title"], re.IGNORECASE
+                        ) or re.search(term, parsed_line["selftext"], re.IGNORECASE):
+                            found = True
+                            break
+
+                    if not found:
+                        continue
+
+                post = {
+                    "title": parsed_line["title"],
+                    "content": parsed_line["selftext"],
+                    "url": parsed_line["url"],
+                    "upvotes": parsed_line["ups"],
+                    "posted_date": post_date,
+                }
+
+                all_content_curr_subreddit.append(post)
+
+        # sort all_content_curr_subreddit by upvote_ratio in descending order
+        all_content_curr_subreddit.sort(key=lambda x: x["upvotes"], reverse=True)
+
+        all_content.extend(all_content_curr_subreddit[:limit_per_subreddit])
+
+    return all_content
+

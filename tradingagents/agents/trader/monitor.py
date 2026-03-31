@@ -1,1 +1,322 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0K6Ieq6YCJ6IKh55uR5o6n5qih5Z2XDQrpm4bmiJAgc3RvY2stbW9uaXRvciBza2lsbCDnmoTpooTorabop4TliJkNCiIiIg0KDQppbXBvcnQgcGFuZGFzIGFzIHBkDQppbXBvcnQgbnVtcHkgYXMgbnANCmZyb20gdHlwaW5nIGltcG9ydCBEaWN0LCBMaXN0LCBPcHRpb25hbA0KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUNCmltcG9ydCBqc29uDQoNCg0KY2xhc3MgU3RvY2tNb25pdG9yOg0KICAgICIiIuiHqumAieiCoeebkeaOp+WZqCIiIg0KICAgIA0KICAgIGRlZiBfX2luaXRfXyhzZWxmKToNCiAgICAgICAgc2VsZi53YXRjaGxpc3Q6IExpc3RbRGljdF0gPSBbXQ0KICAgICAgICBzZWxmLmFsZXJ0czogTGlzdFtEaWN0XSA9IFtdDQogICAgDQogICAgZGVmIGFkZF9zdG9jayhzZWxmLCBjb2RlOiBzdHIsIG5hbWU6IHN0ciwgDQogICAgICAgICAgICAgICAgIHN0b2NrX3R5cGU6IHN0ciA9ICJpbmRpdmlkdWFsIiwNCiAgICAgICAgICAgICAgICAgbWFya2V0OiBzdHIgPSAic2giLA0KICAgICAgICAgICAgICAgICBjb3N0OiBmbG9hdCA9IDAsDQogICAgICAgICAgICAgICAgIGFsZXJ0c19jb25maWc6IE9wdGlvbmFsW0RpY3RdID0gTm9uZSk6DQogICAgICAgICIiIg0KICAgICAgICDmt7vliqDoh6rpgInogqENCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBjb2RlOiDogqHnpajku6PnoIHvvIg25L2N5pWw5a2X77yM5aaCIDYwMDM2Mu+8iQ0KICAgICAgICAgICAgbmFtZTog6IKh56Wo5ZCN56ewDQogICAgICAgICAgICBzdG9ja190eXBlOiDkuKrogqHnsbvlnosgKGluZGl2aWR1YWwvZXRmL2dvbGQpDQogICAgICAgICAgICBtYXJrZXQ6IOW4guWcuiAoc2gvc3opDQogICAgICAgICAgICBjb3N0OiDmjIHku5PmiJDmnKwNCiAgICAgICAgICAgIGFsZXJ0c19jb25maWc6IOmihOitpumFjee9rg0KICAgICAgICAiIiINCiAgICAgICAgIyDpu5jorqTpooTorabphY3nva4NCiAgICAgICAgZGVmYXVsdF9jb25maWcgPSB7DQogICAgICAgICAgICAiY29zdF9wY3RfYWJvdmUiOiAxNS4wLA0KICAgICAgICAgICAgImNvc3RfcGN0X2JlbG93IjogLTEyLjAsDQogICAgICAgICAgICAiY2hhbmdlX3BjdF9hYm92ZSI6IDQuMCBpZiBzdG9ja190eXBlID09ICJpbmRpdmlkdWFsIiBlbHNlIDIuMCwNCiAgICAgICAgICAgICJjaGFuZ2VfcGN0X2JlbG93IjogLTQuMCBpZiBzdG9ja190eXBlID09ICJpbmRpdmlkdWFsIiBlbHNlIC0yLjAsDQogICAgICAgICAgICAidm9sdW1lX3N1cmdlIjogMi4wLA0KICAgICAgICAgICAgIm1hX21vbml0b3IiOiBUcnVlLA0KICAgICAgICAgICAgInJzaV9tb25pdG9yIjogVHJ1ZSwNCiAgICAgICAgICAgICJnYXBfbW9uaXRvciI6IFRydWUsDQogICAgICAgICAgICAidHJhaWxpbmdfc3RvcCI6IFRydWUsDQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIGNvbmZpZyA9IGFsZXJ0c19jb25maWcgb3IgZGVmYXVsdF9jb25maWcNCiAgICAgICAgDQogICAgICAgIHN0b2NrID0gew0KICAgICAgICAgICAgImNvZGUiOiBjb2RlLA0KICAgICAgICAgICAgIm5hbWUiOiBuYW1lLA0KICAgICAgICAgICAgInR5cGUiOiBzdG9ja190eXBlLA0KICAgICAgICAgICAgIm1hcmtldCI6IG1hcmtldCwNCiAgICAgICAgICAgICJjb3N0IjogY29zdCwNCiAgICAgICAgICAgICJhbGVydHMiOiBjb25maWcsDQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIHNlbGYud2F0Y2hsaXN0LmFwcGVuZChzdG9jaykNCiAgICAgICAgcmV0dXJuIHNlbGYNCiAgICANCiAgICBkZWYgY2hlY2tfYWxlcnRzKHNlbGYsIHN0b2NrX2RhdGE6IERpY3QpIC0+IExpc3RbRGljdF06DQogICAgICAgICIiIg0KICAgICAgICDmo4Dmn6XogqHnpajmmK/lkKbop6blj5HpooToraYNCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBzdG9ja19kYXRhOiDogqHnpajlrp7ml7bmlbDmja4NCiAgICAgICAgICAgIA0KICAgICAgICBSZXR1cm5zOg0KICAgICAgICAgICAgTGlzdFtEaWN0XTog6Kem5Y+R6aKE6K2m5YiX6KGoDQogICAgICAgICIiIg0KICAgICAgICBhbGVydHMgPSBbXQ0KICAgICAgICBjb2RlID0gc3RvY2tfZGF0YS5nZXQoJ2NvZGUnLCBzdG9ja19kYXRhLmdldCgndHNfY29kZScsICcnKSkNCiAgICAgICAgDQogICAgICAgICMg5p+l5om+5a+55bqU6Ieq6YCJ6IKh6YWN572uDQogICAgICAgIHdhdGNoID0gbmV4dCgocyBmb3IgcyBpbiBzZWxmLndhdGNobGlzdCBpZiBzWydjb2RlJ10gPT0gY29kZSksIE5vbmUpDQogICAgICAgIGlmIG5vdCB3YXRjaDoNCiAgICAgICAgICAgIHJldHVybiBhbGVydHMNCiAgICAgICAgDQogICAgICAgIGNvbmZpZyA9IHdhdGNoWydhbGVydHMnXQ0KICAgICAgICANCiAgICAgICAgIyAxLiDmiJDmnKznmb7liIbmr5TpooToraYNCiAgICAgICAgaWYgd2F0Y2hbJ2Nvc3QnXSA+IDA6DQogICAgICAgICAgICBjdXJyZW50X3ByaWNlID0gc3RvY2tfZGF0YS5nZXQoJ2Nsb3NlJywgMCkNCiAgICAgICAgICAgIGlmIGN1cnJlbnRfcHJpY2UgPiAwOg0KICAgICAgICAgICAgICAgIHBjdF9jaGFuZ2UgPSAoY3VycmVudF9wcmljZSAtIHdhdGNoWydjb3N0J10pIC8gd2F0Y2hbJ2Nvc3QnXSAqIDEwMA0KICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIGlmIHBjdF9jaGFuZ2UgPj0gY29uZmlnLmdldCgnY29zdF9wY3RfYWJvdmUnLCAxNSk6DQogICAgICAgICAgICAgICAgICAgIGFsZXJ0cy5hcHBlbmQoew0KICAgICAgICAgICAgICAgICAgICAgICAgImxldmVsIjogIuitpuWRiiIsDQogICAgICAgICAgICAgICAgICAgICAgICAicnVsZSI6ICLmiJDmnKznmb7liIbmr5QiLA0KICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UiOiBmIuebiOWIqSB7cGN0X2NoYW5nZTouMWZ9JSAoPntjb25maWcuZ2V0KCdjb3N0X3BjdF9hYm92ZScpfSUpIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJhY3Rpb24iOiAi6ICD6JmR5q2i55uIIg0KICAgICAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgIGVsaWYgcGN0X2NoYW5nZSA8PSBjb25maWcuZ2V0KCdjb3N0X3BjdF9iZWxvdycsIC0xMik6DQogICAgICAgICAgICAgICAgICAgIGFsZXJ0cy5hcHBlbmQoew0KICAgICAgICAgICAgICAgICAgICAgICAgImxldmVsIjogIue0p+aApSIsDQogICAgICAgICAgICAgICAgICAgICAgICAicnVsZSI6ICLmiJDmnKznmb7liIbmr5QiLA0KICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UiOiBmIuS6j+aNnyB7YWJzKHBjdF9jaGFuZ2UpOi4xZn0lICg8e2NvbmZpZy5nZXQoJ2Nvc3RfcGN0X2JlbG93Jyl9JSkiLA0KICAgICAgICAgICAgICAgICAgICAgICAgImFjdGlvbiI6ICLogIPomZHmraLmjZ8iDQogICAgICAgICAgICAgICAgICAgIH0pDQogICAgICAgIA0KICAgICAgICAjIDIuIOaXpeWGhea2qOi3jOW5hemihOitpg0KICAgICAgICBjaGFuZ2VfcGN0ID0gc3RvY2tfZGF0YS5nZXQoJ3BjdF9jaGFuZ2UnLCAwKQ0KICAgICAgICB0aHJlc2hvbGQgPSBjb25maWcuZ2V0KCdjaGFuZ2VfcGN0X2Fib3ZlJywgNC4wKQ0KICAgICAgICANCiAgICAgICAgaWYgY2hhbmdlX3BjdCA+PSB0aHJlc2hvbGQ6DQogICAgICAgICAgICBhbGVydHMuYXBwZW5kKHsNCiAgICAgICAgICAgICAgICAibGV2ZWwiOiAi5o+Q6YaSIiwNCiAgICAgICAgICAgICAgICAicnVsZSI6ICLml6XlhoXmtqjluYUiLA0KICAgICAgICAgICAgICAgICJtZXNzYWdlIjogZiLmtqjluYUge2NoYW5nZV9wY3Q6LjJmfSUgKD57dGhyZXNob2xkfSUpIiwNCiAgICAgICAgICAgICAgICAiYWN0aW9uIjogIuWFs+azqOaYr+WQpuWwgeadvyINCiAgICAgICAgICAgIH0pDQogICAgICAgIGVsaWYgY2hhbmdlX3BjdCA8PSAtdGhyZXNob2xkOg0KICAgICAgICAgICAgYWxlcnRzLmFwcGVuZCh7DQogICAgICAgICAgICAgICAgImxldmVsIjogIuitpuWRiiIsDQogICAgICAgICAgICAgICAgInJ1bGUiOiAi5pel5YaF6LeM5bmFIiwNCiAgICAgICAgICAgICAgICAibWVzc2FnZSI6IGYi6LeM5bmFIHthYnMoY2hhbmdlX3BjdCk6LjJmfSUgKDx7LXRocmVzaG9sZH0lKSIsDQogICAgICAgICAgICAgICAgImFjdGlvbiI6ICLlhbPms6jmlK/mkpHkvY0iDQogICAgICAgICAgICB9KQ0KICAgICAgICANCiAgICAgICAgIyAzLiDmiJDkuqTph4/lvILliqgNCiAgICAgICAgaWYgJ3ZvbHVtZScgaW4gc3RvY2tfZGF0YSBhbmQgJ2F2Z192b2x1bWUnIGluIHN0b2NrX2RhdGE6DQogICAgICAgICAgICBpZiBzdG9ja19kYXRhWydhdmdfdm9sdW1lJ10gPiAwOg0KICAgICAgICAgICAgICAgIHZvbHVtZV9yYXRpbyA9IHN0b2NrX2RhdGFbJ3ZvbHVtZSddIC8gc3RvY2tfZGF0YVsnYXZnX3ZvbHVtZSddDQogICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgaWYgdm9sdW1lX3JhdGlvID49IGNvbmZpZy5nZXQoJ3ZvbHVtZV9zdXJnZScsIDIuMCk6DQogICAgICAgICAgICAgICAgICAgIGFsZXJ0cy5hcHBlbmQoew0KICAgICAgICAgICAgICAgICAgICAgICAgImxldmVsIjogIuitpuWRiiIsDQogICAgICAgICAgICAgICAgICAgICAgICAicnVsZSI6ICLmlL7ph48iLA0KICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UiOiBmIuaIkOS6pOmHj+aYr+Wdh+mHj+eahCB7dm9sdW1lX3JhdGlvOi4xZn0g5YCNIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJhY3Rpb24iOiAi5YWz5rOo6YeP5Lu36YWN5ZCIIg0KICAgICAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgIGVsaWYgdm9sdW1lX3JhdGlvIDw9IDAuNToNCiAgICAgICAgICAgICAgICAgICAgYWxlcnRzLmFwcGVuZCh7DQogICAgICAgICAgICAgICAgICAgICAgICAibGV2ZWwiOiAi5o+Q6YaSIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJydWxlIjogIue8qemHjyIsDQogICAgICAgICAgICAgICAgICAgICAgICAibWVzc2FnZSI6IGYi5oiQ5Lqk6YeP5piv5Z2H6YeP55qEIHt2b2x1bWVfcmF0aW86LjFmfSDlgI0iLA0KICAgICAgICAgICAgICAgICAgICAgICAgImFjdGlvbiI6ICLop4LmnJvkuLrkuLsiDQogICAgICAgICAgICAgICAgICAgIH0pDQogICAgICAgIA0KICAgICAgICAjIDQuIOWdh+e6v+mHkeWPiS/mrbvlj4kNCiAgICAgICAgaWYgY29uZmlnLmdldCgnbWFfbW9uaXRvcicsIFRydWUpIGFuZCAnbWE1JyBpbiBzdG9ja19kYXRhIGFuZCAnbWExMCcgaW4gc3RvY2tfZGF0YToNCiAgICAgICAgICAgIG1hNSA9IHN0b2NrX2RhdGFbJ21hNSddDQogICAgICAgICAgICBtYTEwID0gc3RvY2tfZGF0YVsnbWExMCddDQogICAgICAgICAgICANCiAgICAgICAgICAgIGlmIG1hNSBhbmQgbWExMDoNCiAgICAgICAgICAgICAgICAjIOeugOWMluWIpOaWre+8muW9k+WJjeWkmuWktOaOkuWIlw0KICAgICAgICAgICAgICAgIGlmIG1hNSA+IG1hMTA6DQogICAgICAgICAgICAgICAgICAgIGFsZXJ0cy5hcHBlbmQoew0KICAgICAgICAgICAgICAgICAgICAgICAgImxldmVsIjogIuaPkOmGkiIsDQogICAgICAgICAgICAgICAgICAgICAgICAicnVsZSI6ICLlnYfnur/lpJrlpLQiLA0KICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UiOiBmIk1BNSh7bWE1Oi4yZn0pID4gTUExMCh7bWExMDouMmZ9KSIsDQogICAgICAgICAgICAgICAgICAgICAgICAiYWN0aW9uIjogIuS/neaMgeWkmuWktOaAnee7tCINCiAgICAgICAgICAgICAgICAgICAgfSkNCiAgICAgICAgICAgICAgICBlbHNlOg0KICAgICAgICAgICAgICAgICAgICBhbGVydHMuYXBwZW5kKHsNCiAgICAgICAgICAgICAgICAgICAgICAgICJsZXZlbCI6ICLorablkYoiLA0KICAgICAgICAgICAgICAgICAgICAgICAgInJ1bGUiOiAi5Z2H57q/56m65aS0IiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJtZXNzYWdlIjogZiJNQTUoe21hNTouMmZ9KSA8IE1BMTAoe21hMTA6LjJmfSkiLA0KICAgICAgICAgICAgICAgICAgICAgICAgImFjdGlvbiI6ICLosKjmhY7op4LmnJsiDQogICAgICAgICAgICAgICAgICAgIH0pDQogICAgICAgIA0KICAgICAgICAjIDUuIFJTSSDotoXkubDotoXljZYNCiAgICAgICAgaWYgY29uZmlnLmdldCgncnNpX21vbml0b3InLCBUcnVlKSBhbmQgJ3JzaScgaW4gc3RvY2tfZGF0YToNCiAgICAgICAgICAgIHJzaSA9IHN0b2NrX2RhdGFbJ3JzaSddDQogICAgICAgICAgICANCiAgICAgICAgICAgIGlmIHJzaToNCiAgICAgICAgICAgICAgICBpZiByc2kgPj0gNzA6DQogICAgICAgICAgICAgICAgICAgIGFsZXJ0cy5hcHBlbmQoew0KICAgICAgICAgICAgICAgICAgICAgICAgImxldmVsIjogIuitpuWRiiIsDQogICAgICAgICAgICAgICAgICAgICAgICAicnVsZSI6ICJSU0notoXkubAiLA0KICAgICAgICAgICAgICAgICAgICAgICAgIm1lc3NhZ2UiOiBmIlJTSSh7cnNpOi4xZn0pID49IDcwIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJhY3Rpb24iOiAi6ICD6JmR5YeP5LuTIg0KICAgICAgICAgICAgICAgICAgICB9KQ0KICAgICAgICAgICAgICAgIGVsaWYgcnNpIDw9IDMwOg0KICAgICAgICAgICAgICAgICAgICBhbGVydHMuYXBwZW5kKHsNCiAgICAgICAgICAgICAgICAgICAgICAgICJsZXZlbCI6ICLorablkYoiLA0KICAgICAgICAgICAgICAgICAgICAgICAgInJ1bGUiOiAiUlNJ6LaF5Y2WIiwNCiAgICAgICAgICAgICAgICAgICAgICAgICJtZXNzYWdlIjogZiJSU0koe3JzaTouMWZ9KSA8PSAzMCIsDQogICAgICAgICAgICAgICAgICAgICAgICAiYWN0aW9uIjogIuWFs+azqOWPjeW8ueacuuS8miINCiAgICAgICAgICAgICAgICAgICAgfSkNCiAgICAgICAgDQogICAgICAgIHJldHVybiBhbGVydHMNCiAgICANCiAgICBkZWYgc2Nhbl93YXRjaGxpc3Qoc2VsZiwgbWFya2V0X2RhdGE6IERpY3QpIC0+IERpY3Q6DQogICAgICAgICIiIg0KICAgICAgICDmiavmj4/mlbTkuKroh6rpgInogqHliJfooagNCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBtYXJrZXRfZGF0YTog5biC5Zy65pWw5o2uIHtjb2RlOiBkYXRhfQ0KICAgICAgICAgICAgDQogICAgICAgIFJldHVybnM6DQogICAgICAgICAgICBEaWN0OiDmiavmj4/nu5PmnpwNCiAgICAgICAgIiIiDQogICAgICAgIHJlc3VsdHMgPSB7DQogICAgICAgICAgICAidGltZXN0YW1wIjogZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoIiVZLSVtLSVkICVIOiVNOiVTIiksDQogICAgICAgICAgICAidG90YWxfc3RvY2tzIjogbGVuKHNlbGYud2F0Y2hsaXN0KSwNCiAgICAgICAgICAgICJhbGVydHMiOiBbXSwNCiAgICAgICAgICAgICJzdW1tYXJ5Ijogew0KICAgICAgICAgICAgICAgICJ1cmdlbnQiOiAwLA0KICAgICAgICAgICAgICAgICJ3YXJuaW5nIjogMCwNCiAgICAgICAgICAgICAgICAiaW5mbyI6IDAsDQogICAgICAgICAgICB9DQogICAgICAgIH0NCiAgICAgICAgDQogICAgICAgIGZvciBzdG9jayBpbiBzZWxmLndhdGNobGlzdDoNCiAgICAgICAgICAgIGNvZGUgPSBzdG9ja1snY29kZSddDQogICAgICAgICAgICBkYXRhID0gbWFya2V0X2RhdGEuZ2V0KGNvZGUsIHt9KQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBpZiBub3QgZGF0YToNCiAgICAgICAgICAgICAgICBjb250aW51ZQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBzdG9ja19hbGVydHMgPSBzZWxmLmNoZWNrX2FsZXJ0cyhkYXRhKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBmb3IgYWxlcnQgaW4gc3RvY2tfYWxlcnRzOg0KICAgICAgICAgICAgICAgIGFsZXJ0Wydjb2RlJ10gPSBjb2RlDQogICAgICAgICAgICAgICAgYWxlcnRbJ25hbWUnXSA9IHN0b2NrWyduYW1lJ10NCiAgICAgICAgICAgICAgICByZXN1bHRzWydhbGVydHMnXS5hcHBlbmQoYWxlcnQpDQogICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgIyDnu5/orqHliIbnuqcNCiAgICAgICAgICAgICAgICBpZiBhbGVydFsnbGV2ZWwnXSA9PSAn57Sn5oClJzoNCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0c1snc3VtbWFyeSddWyd1cmdlbnQnXSArPSAxDQogICAgICAgICAgICAgICAgZWxpZiBhbGVydFsnbGV2ZWwnXSA9PSAn6K2m5ZGKJzoNCiAgICAgICAgICAgICAgICAgICAgcmVzdWx0c1snc3VtbWFyeSddWyd3YXJuaW5nJ10gKz0gMQ0KICAgICAgICAgICAgICAgIGVsc2U6DQogICAgICAgICAgICAgICAgICAgIHJlc3VsdHNbJ3N1bW1hcnknXVsnaW5mbyddICs9IDENCiAgICAgICAgDQogICAgICAgIHJldHVybiByZXN1bHRzDQogICAgDQogICAgZGVmIGZvcm1hdF9hbGVydHMoc2VsZiwgcmVzdWx0czogRGljdCkgLT4gc3RyOg0KICAgICAgICAiIiLmoLzlvI/ljJbpooTorabnu5PmnpwiIiINCiAgICAgICAgbGluZXMgPSBbXQ0KICAgICAgICBsaW5lcy5hcHBlbmQoZiJcbnsnPScqNjB9IikNCiAgICAgICAgbGluZXMuYXBwZW5kKGYiICDoh6rpgInogqHnm5HmjqfmiqXlkYogLSB7cmVzdWx0c1sndGltZXN0YW1wJ119IikNCiAgICAgICAgbGluZXMuYXBwZW5kKGYieyc9Jyo2MH0iKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoZiLnm5HmjqfogqHnpajmlbA6IHtyZXN1bHRzWyd0b3RhbF9zdG9ja3MnXX0iKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoZiLpooTorabmgLvmlbA6IHtsZW4ocmVzdWx0c1snYWxlcnRzJ10pfSIpDQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAg57Sn5oClOiB7cmVzdWx0c1snc3VtbWFyeSddWyd1cmdlbnQnXX0iKQ0KICAgICAgICBsaW5lcy5hcHBlbmQoZiIgIOitpuWRijoge3Jlc3VsdHNbJ3N1bW1hcnknXVsnd2FybmluZyddfSIpDQogICAgICAgIGxpbmVzLmFwcGVuZChmIiAg5o+Q6YaSOiB7cmVzdWx0c1snc3VtbWFyeSddWydpbmZvJ119IikNCiAgICAgICAgDQogICAgICAgIGlmIHJlc3VsdHNbJ2FsZXJ0cyddOg0KICAgICAgICAgICAgbGluZXMuYXBwZW5kKCJcbuOAkOmihOitpuivpuaDheOAkSIpDQogICAgICAgICAgICANCiAgICAgICAgICAgICMg5oyJ57qn5Yir5o6S5bqPDQogICAgICAgICAgICBsZXZlbF9vcmRlciA9IHsn57Sn5oClJzogMCwgJ+itpuWRiic6IDEsICfmj5DphpInOiAyfQ0KICAgICAgICAgICAgc29ydGVkX2FsZXJ0cyA9IHNvcnRlZChyZXN1bHRzWydhbGVydHMnXSwgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAga2V5PWxhbWJkYSB4OiBsZXZlbF9vcmRlci5nZXQoeFsnbGV2ZWwnXSwgMykpDQogICAgICAgICAgICANCiAgICAgICAgICAgIGZvciBhbGVydCBpbiBzb3J0ZWRfYWxlcnRzOg0KICAgICAgICAgICAgICAgIGxldmVsX2ljb24gPSB7DQogICAgICAgICAgICAgICAgICAgICfntKfmgKUnOiAnWyFdJywNCiAgICAgICAgICAgICAgICAgICAgJ+itpuWRiic6ICdbKl0nLA0KICAgICAgICAgICAgICAgICAgICAn5o+Q6YaSJzogJ1tpXScNCiAgICAgICAgICAgICAgICB9LmdldChhbGVydFsnbGV2ZWwnXSwgJ1s/XScpDQogICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiXG57bGV2ZWxfaWNvbn0gW3thbGVydFsnbGV2ZWwnXX1dIHthbGVydFsnY29kZSddfSB7YWxlcnRbJ25hbWUnXX0iKQ0KICAgICAgICAgICAgICAgIGxpbmVzLmFwcGVuZChmIiAgIOinhOWImToge2FsZXJ0WydydWxlJ119IikNCiAgICAgICAgICAgICAgICBsaW5lcy5hcHBlbmQoZiIgICDnirbmgIE6IHthbGVydFsnbWVzc2FnZSddfSIpDQogICAgICAgICAgICAgICAgbGluZXMuYXBwZW5kKGYiICAg5bu66K6uOiB7YWxlcnRbJ2FjdGlvbiddfSIpDQogICAgICAgIGVsc2U6DQogICAgICAgICAgICBsaW5lcy5hcHBlbmQoIlxu4pyFIOaXoOmihOitpuS/oeWPt++8jOS/neaMgeeOsOacieS7k+S9jSIpDQogICAgICAgIA0KICAgICAgICByZXR1cm4gIlxuIi5qb2luKGxpbmVzKQ0KDQoNCiMg5YWo5bGA55uR5o6n5Zmo5a6e5L6LDQpfbW9uaXRvciA9IFN0b2NrTW9uaXRvcigpDQoNCg0KZGVmIGFkZF93YXRjaChjb2RlOiBzdHIsIG5hbWU6IHN0ciwgKiprd2FyZ3MpOg0KICAgICIiIua3u+WKoOiHqumAieiCoeS+v+aNt+WHveaVsCIiIg0KICAgIHJldHVybiBfbW9uaXRvci5hZGRfc3RvY2soY29kZSwgbmFtZSwgKiprd2FyZ3MpDQoNCg0KZGVmIGNoZWNrX3N0b2NrKGNvZGU6IHN0ciwgZGF0YTogRGljdCkgLT4gTGlzdFtEaWN0XToNCiAgICAiIiLmo4Dmn6XljZXlj6rogqHnpajkvr/mjbflh73mlbAiIiINCiAgICByZXR1cm4gX21vbml0b3IuY2hlY2tfYWxlcnRzKHsiY29kZSI6IGNvZGUsICoqZGF0YX0pDQoNCg0KZGVmIHNjYW5fYWxsKG1hcmtldF9kYXRhOiBEaWN0KSAtPiBEaWN0Og0KICAgICIiIuaJq+aPj+WFqOmDqOiHqumAieiCoeS+v+aNt+WHveaVsCIiIg0KICAgIHJldHVybiBfbW9uaXRvci5zY2FuX3dhdGNobGlzdChtYXJrZXRfZGF0YSkNCg0KDQppZiBfX25hbWVfXyA9PSAiX19tYWluX18iOg0KICAgICMg5rWL6K+V55uR5o6n5Yqf6IO9DQogICAgcHJpbnQoIuiHqumAieiCoeebkeaOp+a1i+ivlSIpDQogICAgDQogICAgIyDmt7vliqDoh6rpgInogqENCiAgICBtb25pdG9yID0gU3RvY2tNb25pdG9yKCkNCiAgICBtb25pdG9yLmFkZF9zdG9jaygiNjAwNTE5IiwgIui0teW3nuiMheWPsCIsIGNvc3Q9MTYwMCkNCiAgICBtb25pdG9yLmFkZF9zdG9jaygiMDAwMDAxIiwgIuW5s+WuiemTtuihjCIsIGNvc3Q9MTIpDQogICAgbW9uaXRvci5hZGRfc3RvY2soIjYwMDM2MiIsICLmsZ/opb/pk5zkuJoiLCBzdG9ja190eXBlPSJpbmRpdmlkdWFsIiwgY29zdD01NykNCiAgICANCiAgICAjIOaooeaLn+W4guWcuuaVsOaNrg0KICAgIHRlc3RfZGF0YSA9IHsNCiAgICAgICAgIjYwMDUxOSI6IHsNCiAgICAgICAgICAgICJjbG9zZSI6IDE4NTAuMCwNCiAgICAgICAgICAgICJwY3RfY2hhbmdlIjogMy41LA0KICAgICAgICAgICAgInZvbHVtZSI6IDUwMDAwMDAwLA0KICAgICAgICAgICAgImF2Z192b2x1bWUiOiAzMDAwMDAwMCwNCiAgICAgICAgICAgICJtYTUiOiAxODAwLA0KICAgICAgICAgICAgIm1hMTAiOiAxNzUwLA0KICAgICAgICAgICAgInJzaSI6IDcyLA0KICAgICAgICB9LA0KICAgICAgICAiMDAwMDAxIjogew0KICAgICAgICAgICAgImNsb3NlIjogMTEuNSwNCiAgICAgICAgICAgICJwY3RfY2hhbmdlIjogLTUuMiwNCiAgICAgICAgICAgICJ2b2x1bWUiOiAxNTAwMDAwMDAsDQogICAgICAgICAgICAiYXZnX3ZvbHVtZSI6IDgwMDAwMDAwLA0KICAgICAgICAgICAgIm1hNSI6IDExLjIsDQogICAgICAgICAgICAibWExMCI6IDExLjgsDQogICAgICAgICAgICAicnNpIjogMjgsDQogICAgICAgIH0sDQogICAgfQ0KICAgIA0KICAgIHJlc3VsdHMgPSBtb25pdG9yLnNjYW5fd2F0Y2hsaXN0KHRlc3RfZGF0YSkNCiAgICBwcmludChtb25pdG9yLmZvcm1hdF9hbGVydHMocmVzdWx0cykpDQo=
+# -*- coding: utf-8 -*-
+"""
+自选股监控模块
+集成 stock-monitor skill 的预警规则
+"""
+
+import pandas as pd
+import numpy as np
+from typing import Dict, List, Optional
+from datetime import datetime
+import json
+
+
+class StockMonitor:
+    """自选股监控器"""
+    
+    def __init__(self):
+        self.watchlist: List[Dict] = []
+        self.alerts: List[Dict] = []
+    
+    def add_stock(self, code: str, name: str, 
+                 stock_type: str = "individual",
+                 market: str = "sh",
+                 cost: float = 0,
+                 alerts_config: Optional[Dict] = None):
+        """
+        添加自选股
+        
+        Args:
+            code: 股票代码（6位数字，如 600362）
+            name: 股票名称
+            stock_type: 个股类型 (individual/etf/gold)
+            market: 市场 (sh/sz)
+            cost: 持仓成本
+            alerts_config: 预警配置
+        """
+        # 默认预警配置
+        default_config = {
+            "cost_pct_above": 15.0,
+            "cost_pct_below": -12.0,
+            "change_pct_above": 4.0 if stock_type == "individual" else 2.0,
+            "change_pct_below": -4.0 if stock_type == "individual" else -2.0,
+            "volume_surge": 2.0,
+            "ma_monitor": True,
+            "rsi_monitor": True,
+            "gap_monitor": True,
+            "trailing_stop": True,
+        }
+        
+        config = alerts_config or default_config
+        
+        stock = {
+            "code": code,
+            "name": name,
+            "type": stock_type,
+            "market": market,
+            "cost": cost,
+            "alerts": config,
+        }
+        
+        self.watchlist.append(stock)
+        return self
+    
+    def check_alerts(self, stock_data: Dict) -> List[Dict]:
+        """
+        检查股票是否触发预警
+        
+        Args:
+            stock_data: 股票实时数据
+            
+        Returns:
+            List[Dict]: 触发预警列表
+        """
+        alerts = []
+        code = stock_data.get('code', stock_data.get('ts_code', ''))
+        
+        # 查找对应自选股配置
+        watch = next((s for s in self.watchlist if s['code'] == code), None)
+        if not watch:
+            return alerts
+        
+        config = watch['alerts']
+        
+        # 1. 成本百分比预警
+        if watch['cost'] > 0:
+            current_price = stock_data.get('close', 0)
+            if current_price > 0:
+                pct_change = (current_price - watch['cost']) / watch['cost'] * 100
+                
+                if pct_change >= config.get('cost_pct_above', 15):
+                    alerts.append({
+                        "level": "警告",
+                        "rule": "成本百分比",
+                        "message": f"盈利 {pct_change:.1f}% (>{config.get('cost_pct_above')}%)",
+                        "action": "考虑止盈"
+                    })
+                elif pct_change <= config.get('cost_pct_below', -12):
+                    alerts.append({
+                        "level": "紧急",
+                        "rule": "成本百分比",
+                        "message": f"亏损 {abs(pct_change):.1f}% (<{config.get('cost_pct_below')}%)",
+                        "action": "考虑止损"
+                    })
+        
+        # 2. 日内涨跌幅预警
+        change_pct = stock_data.get('pct_change', 0)
+        threshold = config.get('change_pct_above', 4.0)
+        
+        if change_pct >= threshold:
+            alerts.append({
+                "level": "提醒",
+                "rule": "日内涨幅",
+                "message": f"涨幅 {change_pct:.2f}% (>{threshold}%)",
+                "action": "关注是否封板"
+            })
+        elif change_pct <= -threshold:
+            alerts.append({
+                "level": "警告",
+                "rule": "日内跌幅",
+                "message": f"跌幅 {abs(change_pct):.2f}% (<{-threshold}%)",
+                "action": "关注支撑位"
+            })
+        
+        # 3. 成交量异动
+        if 'volume' in stock_data and 'avg_volume' in stock_data:
+            if stock_data['avg_volume'] > 0:
+                volume_ratio = stock_data['volume'] / stock_data['avg_volume']
+                
+                if volume_ratio >= config.get('volume_surge', 2.0):
+                    alerts.append({
+                        "level": "警告",
+                        "rule": "放量",
+                        "message": f"成交量是均量的 {volume_ratio:.1f} 倍",
+                        "action": "关注量价配合"
+                    })
+                elif volume_ratio <= 0.5:
+                    alerts.append({
+                        "level": "提醒",
+                        "rule": "缩量",
+                        "message": f"成交量是均量的 {volume_ratio:.1f} 倍",
+                        "action": "观望为主"
+                    })
+        
+        # 4. 均线金叉/死叉
+        if config.get('ma_monitor', True) and 'ma5' in stock_data and 'ma10' in stock_data:
+            ma5 = stock_data['ma5']
+            ma10 = stock_data['ma10']
+            
+            if ma5 and ma10:
+                # 简化判断：当前多头排列
+                if ma5 > ma10:
+                    alerts.append({
+                        "level": "提醒",
+                        "rule": "均线多头",
+                        "message": f"MA5({ma5:.2f}) > MA10({ma10:.2f})",
+                        "action": "保持多头思维"
+                    })
+                else:
+                    alerts.append({
+                        "level": "警告",
+                        "rule": "均线空头",
+                        "message": f"MA5({ma5:.2f}) < MA10({ma10:.2f})",
+                        "action": "谨慎观望"
+                    })
+        
+        # 5. RSI 超买超卖
+        if config.get('rsi_monitor', True) and 'rsi' in stock_data:
+            rsi = stock_data['rsi']
+            
+            if rsi:
+                if rsi >= 70:
+                    alerts.append({
+                        "level": "警告",
+                        "rule": "RSI超买",
+                        "message": f"RSI({rsi:.1f}) >= 70",
+                        "action": "考虑减仓"
+                    })
+                elif rsi <= 30:
+                    alerts.append({
+                        "level": "警告",
+                        "rule": "RSI超卖",
+                        "message": f"RSI({rsi:.1f}) <= 30",
+                        "action": "关注反弹机会"
+                    })
+        
+        return alerts
+    
+    def scan_watchlist(self, market_data: Dict) -> Dict:
+        """
+        扫描整个自选股列表
+        
+        Args:
+            market_data: 市场数据 {code: data}
+            
+        Returns:
+            Dict: 扫描结果
+        """
+        results = {
+            "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            "total_stocks": len(self.watchlist),
+            "alerts": [],
+            "summary": {
+                "urgent": 0,
+                "warning": 0,
+                "info": 0,
+            }
+        }
+        
+        for stock in self.watchlist:
+            code = stock['code']
+            data = market_data.get(code, {})
+            
+            if not data:
+                continue
+            
+            stock_alerts = self.check_alerts(data)
+            
+            for alert in stock_alerts:
+                alert['code'] = code
+                alert['name'] = stock['name']
+                results['alerts'].append(alert)
+                
+                # 统计分级
+                if alert['level'] == '紧急':
+                    results['summary']['urgent'] += 1
+                elif alert['level'] == '警告':
+                    results['summary']['warning'] += 1
+                else:
+                    results['summary']['info'] += 1
+        
+        return results
+    
+    def format_alerts(self, results: Dict) -> str:
+        """格式化预警结果"""
+        lines = []
+        lines.append(f"\n{'='*60}")
+        lines.append(f"  自选股监控报告 - {results['timestamp']}")
+        lines.append(f"{'='*60}")
+        lines.append(f"监控股票数: {results['total_stocks']}")
+        lines.append(f"预警总数: {len(results['alerts'])}")
+        lines.append(f"  紧急: {results['summary']['urgent']}")
+        lines.append(f"  警告: {results['summary']['warning']}")
+        lines.append(f"  提醒: {results['summary']['info']}")
+        
+        if results['alerts']:
+            lines.append("\n【预警详情】")
+            
+            # 按级别排序
+            level_order = {'紧急': 0, '警告': 1, '提醒': 2}
+            sorted_alerts = sorted(results['alerts'], 
+                                  key=lambda x: level_order.get(x['level'], 3))
+            
+            for alert in sorted_alerts:
+                level_icon = {
+                    '紧急': '[!]',
+                    '警告': '[*]',
+                    '提醒': '[i]'
+                }.get(alert['level'], '[?]')
+                
+                lines.append(f"\n{level_icon} [{alert['level']}] {alert['code']} {alert['name']}")
+                lines.append(f"   规则: {alert['rule']}")
+                lines.append(f"   状态: {alert['message']}")
+                lines.append(f"   建议: {alert['action']}")
+        else:
+            lines.append("\n✅ 无预警信号，保持现有仓位")
+        
+        return "\n".join(lines)
+
+
+# 全局监控器实例
+_monitor = StockMonitor()
+
+
+def add_watch(code: str, name: str, **kwargs):
+    """添加自选股便捷函数"""
+    return _monitor.add_stock(code, name, **kwargs)
+
+
+def check_stock(code: str, data: Dict) -> List[Dict]:
+    """检查单只股票便捷函数"""
+    return _monitor.check_alerts({"code": code, **data})
+
+
+def scan_all(market_data: Dict) -> Dict:
+    """扫描全部自选股便捷函数"""
+    return _monitor.scan_watchlist(market_data)
+
+
+if __name__ == "__main__":
+    # 测试监控功能
+    print("自选股监控测试")
+    
+    # 添加自选股
+    monitor = StockMonitor()
+    monitor.add_stock("600519", "贵州茅台", cost=1600)
+    monitor.add_stock("000001", "平安银行", cost=12)
+    monitor.add_stock("600362", "江西铜业", stock_type="individual", cost=57)
+    
+    # 模拟市场数据
+    test_data = {
+        "600519": {
+            "close": 1850.0,
+            "pct_change": 3.5,
+            "volume": 50000000,
+            "avg_volume": 30000000,
+            "ma5": 1800,
+            "ma10": 1750,
+            "rsi": 72,
+        },
+        "000001": {
+            "close": 11.5,
+            "pct_change": -5.2,
+            "volume": 150000000,
+            "avg_volume": 80000000,
+            "ma5": 11.2,
+            "ma10": 11.8,
+            "rsi": 28,
+        },
+    }
+    
+    results = monitor.scan_watchlist(test_data)
+    print(monitor.format_alerts(results))

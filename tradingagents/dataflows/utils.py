@@ -1,1 +1,40 @@
-77u/aW1wb3J0IG9zCmltcG9ydCBqc29uCmltcG9ydCBwYW5kYXMgYXMgcGQKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZSwgdGltZWRlbHRhLCBkYXRldGltZQpmcm9tIHR5cGluZyBpbXBvcnQgQW5ub3RhdGVkCgpTYXZlUGF0aFR5cGUgPSBBbm5vdGF0ZWRbc3RyLCAiRmlsZSBwYXRoIHRvIHNhdmUgZGF0YS4gSWYgTm9uZSwgZGF0YSBpcyBub3Qgc2F2ZWQuIl0KCmRlZiBzYXZlX291dHB1dChkYXRhOiBwZC5EYXRhRnJhbWUsIHRhZzogc3RyLCBzYXZlX3BhdGg6IFNhdmVQYXRoVHlwZSA9IE5vbmUpIC0+IE5vbmU6CiAgICBpZiBzYXZlX3BhdGg6CiAgICAgICAgZGF0YS50b19jc3Yoc2F2ZV9wYXRoKQogICAgICAgIHByaW50KGYie3RhZ30gc2F2ZWQgdG8ge3NhdmVfcGF0aH0iKQoKCmRlZiBnZXRfY3VycmVudF9kYXRlKCk6CiAgICByZXR1cm4gZGF0ZS50b2RheSgpLnN0cmZ0aW1lKCIlWS0lbS0lZCIpCgoKZGVmIGRlY29yYXRlX2FsbF9tZXRob2RzKGRlY29yYXRvcik6CiAgICBkZWYgY2xhc3NfZGVjb3JhdG9yKGNscyk6CiAgICAgICAgZm9yIGF0dHJfbmFtZSwgYXR0cl92YWx1ZSBpbiBjbHMuX19kaWN0X18uaXRlbXMoKToKICAgICAgICAgICAgaWYgY2FsbGFibGUoYXR0cl92YWx1ZSk6CiAgICAgICAgICAgICAgICBzZXRhdHRyKGNscywgYXR0cl9uYW1lLCBkZWNvcmF0b3IoYXR0cl92YWx1ZSkpCiAgICAgICAgcmV0dXJuIGNscwoKICAgIHJldHVybiBjbGFzc19kZWNvcmF0b3IKCgpkZWYgZ2V0X25leHRfd2Vla2RheShkYXRlKToKCiAgICBpZiBub3QgaXNpbnN0YW5jZShkYXRlLCBkYXRldGltZSk6CiAgICAgICAgZGF0ZSA9IGRhdGV0aW1lLnN0cnB0aW1lKGRhdGUsICIlWS0lbS0lZCIpCgogICAgaWYgZGF0ZS53ZWVrZGF5KCkgPj0gNToKICAgICAgICBkYXlzX3RvX2FkZCA9IDcgLSBkYXRlLndlZWtkYXkoKQogICAgICAgIG5leHRfd2Vla2RheSA9IGRhdGUgKyB0aW1lZGVsdGEoZGF5cz1kYXlzX3RvX2FkZCkKICAgICAgICByZXR1cm4gbmV4dF93ZWVrZGF5CiAgICBlbHNlOgogICAgICAgIHJldHVybiBkYXRlCg0K
+﻿import os
+import json
+import pandas as pd
+from datetime import date, timedelta, datetime
+from typing import Annotated
+
+SavePathType = Annotated[str, "File path to save data. If None, data is not saved."]
+
+def save_output(data: pd.DataFrame, tag: str, save_path: SavePathType = None) -> None:
+    if save_path:
+        data.to_csv(save_path)
+        print(f"{tag} saved to {save_path}")
+
+
+def get_current_date():
+    return date.today().strftime("%Y-%m-%d")
+
+
+def decorate_all_methods(decorator):
+    def class_decorator(cls):
+        for attr_name, attr_value in cls.__dict__.items():
+            if callable(attr_value):
+                setattr(cls, attr_name, decorator(attr_value))
+        return cls
+
+    return class_decorator
+
+
+def get_next_weekday(date):
+
+    if not isinstance(date, datetime):
+        date = datetime.strptime(date, "%Y-%m-%d")
+
+    if date.weekday() >= 5:
+        days_to_add = 7 - date.weekday()
+        next_weekday = date + timedelta(days=days_to_add)
+        return next_weekday
+    else:
+        return date
+

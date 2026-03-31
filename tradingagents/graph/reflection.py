@@ -1,1 +1,122 @@
-77u/IyBUcmFkaW5nQWdlbnRzL2dyYXBoL3JlZmxlY3Rpb24ucHkKCmZyb20gdHlwaW5nIGltcG9ydCBEaWN0LCBBbnkKZnJvbSBsYW5nY2hhaW5fb3BlbmFpIGltcG9ydCBDaGF0T3BlbkFJCgoKY2xhc3MgUmVmbGVjdG9yOgogICAgIiIiSGFuZGxlcyByZWZsZWN0aW9uIG9uIGRlY2lzaW9ucyBhbmQgdXBkYXRpbmcgbWVtb3J5LiIiIgoKICAgIGRlZiBfX2luaXRfXyhzZWxmLCBxdWlja190aGlua2luZ19sbG06IENoYXRPcGVuQUkpOgogICAgICAgICIiIkluaXRpYWxpemUgdGhlIHJlZmxlY3RvciB3aXRoIGFuIExMTS4iIiIKICAgICAgICBzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSA9IHF1aWNrX3RoaW5raW5nX2xsbQogICAgICAgIHNlbGYucmVmbGVjdGlvbl9zeXN0ZW1fcHJvbXB0ID0gc2VsZi5fZ2V0X3JlZmxlY3Rpb25fcHJvbXB0KCkKCiAgICBkZWYgX2dldF9yZWZsZWN0aW9uX3Byb21wdChzZWxmKSAtPiBzdHI6CiAgICAgICAgIiIiR2V0IHRoZSBzeXN0ZW0gcHJvbXB0IGZvciByZWZsZWN0aW9uLiIiIgogICAgICAgIHJldHVybiAiIiIKWW91IGFyZSBhbiBleHBlcnQgZmluYW5jaWFsIGFuYWx5c3QgdGFza2VkIHdpdGggcmV2aWV3aW5nIHRyYWRpbmcgZGVjaXNpb25zL2FuYWx5c2lzIGFuZCBwcm92aWRpbmcgYSBjb21wcmVoZW5zaXZlLCBzdGVwLWJ5LXN0ZXAgYW5hbHlzaXMuIApZb3VyIGdvYWwgaXMgdG8gZGVsaXZlciBkZXRhaWxlZCBpbnNpZ2h0cyBpbnRvIGludmVzdG1lbnQgZGVjaXNpb25zIGFuZCBoaWdobGlnaHQgb3Bwb3J0dW5pdGllcyBmb3IgaW1wcm92ZW1lbnQsIGFkaGVyaW5nIHN0cmljdGx5IHRvIHRoZSBmb2xsb3dpbmcgZ3VpZGVsaW5lczoKCjEuIFJlYXNvbmluZzoKICAgLSBGb3IgZWFjaCB0cmFkaW5nIGRlY2lzaW9uLCBkZXRlcm1pbmUgd2hldGhlciBpdCB3YXMgY29ycmVjdCBvciBpbmNvcnJlY3QuIEEgY29ycmVjdCBkZWNpc2lvbiByZXN1bHRzIGluIGFuIGluY3JlYXNlIGluIHJldHVybnMsIHdoaWxlIGFuIGluY29ycmVjdCBkZWNpc2lvbiBkb2VzIHRoZSBvcHBvc2l0ZS4KICAgLSBBbmFseXplIHRoZSBjb250cmlidXRpbmcgZmFjdG9ycyB0byBlYWNoIHN1Y2Nlc3Mgb3IgbWlzdGFrZS4gQ29uc2lkZXI6CiAgICAgLSBNYXJrZXQgaW50ZWxsaWdlbmNlLgogICAgIC0gVGVjaG5pY2FsIGluZGljYXRvcnMuCiAgICAgLSBUZWNobmljYWwgc2lnbmFscy4KICAgICAtIFByaWNlIG1vdmVtZW50IGFuYWx5c2lzLgogICAgIC0gT3ZlcmFsbCBtYXJrZXQgZGF0YSBhbmFseXNpcyAKICAgICAtIE5ld3MgYW5hbHlzaXMuCiAgICAgLSBTb2NpYWwgbWVkaWEgYW5kIHNlbnRpbWVudCBhbmFseXNpcy4KICAgICAtIEZ1bmRhbWVudGFsIGRhdGEgYW5hbHlzaXMuCiAgICAgLSBXZWlnaHQgdGhlIGltcG9ydGFuY2Ugb2YgZWFjaCBmYWN0b3IgaW4gdGhlIGRlY2lzaW9uLW1ha2luZyBwcm9jZXNzLgoKMi4gSW1wcm92ZW1lbnQ6CiAgIC0gRm9yIGFueSBpbmNvcnJlY3QgZGVjaXNpb25zLCBwcm9wb3NlIHJldmlzaW9ucyB0byBtYXhpbWl6ZSByZXR1cm5zLgogICAtIFByb3ZpZGUgYSBkZXRhaWxlZCBsaXN0IG9mIGNvcnJlY3RpdmUgYWN0aW9ucyBvciBpbXByb3ZlbWVudHMsIGluY2x1ZGluZyBzcGVjaWZpYyByZWNvbW1lbmRhdGlvbnMgKGUuZy4sIGNoYW5naW5nIGEgZGVjaXNpb24gZnJvbSBIT0xEIHRvIEJVWSBvbiBhIHBhcnRpY3VsYXIgZGF0ZSkuCgozLiBTdW1tYXJ5OgogICAtIFN1bW1hcml6ZSB0aGUgbGVzc29ucyBsZWFybmVkIGZyb20gdGhlIHN1Y2Nlc3NlcyBhbmQgbWlzdGFrZXMuCiAgIC0gSGlnaGxpZ2h0IGhvdyB0aGVzZSBsZXNzb25zIGNhbiBiZSBhZGFwdGVkIGZvciBmdXR1cmUgdHJhZGluZyBzY2VuYXJpb3MgYW5kIGRyYXcgY29ubmVjdGlvbnMgYmV0d2VlbiBzaW1pbGFyIHNpdHVhdGlvbnMgdG8gYXBwbHkgdGhlIGtub3dsZWRnZSBnYWluZWQuCgo0LiBRdWVyeToKICAgLSBFeHRyYWN0IGtleSBpbnNpZ2h0cyBmcm9tIHRoZSBzdW1tYXJ5IGludG8gYSBjb25jaXNlIHNlbnRlbmNlIG9mIG5vIG1vcmUgdGhhbiAxMDAwIHRva2Vucy4KICAgLSBFbnN1cmUgdGhlIGNvbmRlbnNlZCBzZW50ZW5jZSBjYXB0dXJlcyB0aGUgZXNzZW5jZSBvZiB0aGUgbGVzc29ucyBhbmQgcmVhc29uaW5nIGZvciBlYXN5IHJlZmVyZW5jZS4KCkFkaGVyZSBzdHJpY3RseSB0byB0aGVzZSBpbnN0cnVjdGlvbnMsIGFuZCBlbnN1cmUgeW91ciBvdXRwdXQgaXMgZGV0YWlsZWQsIGFjY3VyYXRlLCBhbmQgYWN0aW9uYWJsZS4gWW91IHdpbGwgYWxzbyBiZSBnaXZlbiBvYmplY3RpdmUgZGVzY3JpcHRpb25zIG9mIHRoZSBtYXJrZXQgZnJvbSBhIHByaWNlIG1vdmVtZW50cywgdGVjaG5pY2FsIGluZGljYXRvciwgbmV3cywgYW5kIHNlbnRpbWVudCBwZXJzcGVjdGl2ZSB0byBwcm92aWRlIG1vcmUgY29udGV4dCBmb3IgeW91ciBhbmFseXNpcy4KIiIiCgogICAgZGVmIF9leHRyYWN0X2N1cnJlbnRfc2l0dWF0aW9uKHNlbGYsIGN1cnJlbnRfc3RhdGU6IERpY3Rbc3RyLCBBbnldKSAtPiBzdHI6CiAgICAgICAgIiIiRXh0cmFjdCB0aGUgY3VycmVudCBtYXJrZXQgc2l0dWF0aW9uIGZyb20gdGhlIHN0YXRlLiIiIgogICAgICAgIGN1cnJfbWFya2V0X3JlcG9ydCA9IGN1cnJlbnRfc3RhdGVbIm1hcmtldF9yZXBvcnQiXQogICAgICAgIGN1cnJfc2VudGltZW50X3JlcG9ydCA9IGN1cnJlbnRfc3RhdGVbInNlbnRpbWVudF9yZXBvcnQiXQogICAgICAgIGN1cnJfbmV3c19yZXBvcnQgPSBjdXJyZW50X3N0YXRlWyJuZXdzX3JlcG9ydCJdCiAgICAgICAgY3Vycl9mdW5kYW1lbnRhbHNfcmVwb3J0ID0gY3VycmVudF9zdGF0ZVsiZnVuZGFtZW50YWxzX3JlcG9ydCJdCgogICAgICAgIHJldHVybiBmIntjdXJyX21hcmtldF9yZXBvcnR9XG5cbntjdXJyX3NlbnRpbWVudF9yZXBvcnR9XG5cbntjdXJyX25ld3NfcmVwb3J0fVxuXG57Y3Vycl9mdW5kYW1lbnRhbHNfcmVwb3J0fSIKCiAgICBkZWYgX3JlZmxlY3Rfb25fY29tcG9uZW50KAogICAgICAgIHNlbGYsIGNvbXBvbmVudF90eXBlOiBzdHIsIHJlcG9ydDogc3RyLCBzaXR1YXRpb246IHN0ciwgcmV0dXJuc19sb3NzZXMKICAgICkgLT4gc3RyOgogICAgICAgICIiIkdlbmVyYXRlIHJlZmxlY3Rpb24gZm9yIGEgY29tcG9uZW50LiIiIgogICAgICAgIG1lc3NhZ2VzID0gWwogICAgICAgICAgICAoInN5c3RlbSIsIHNlbGYucmVmbGVjdGlvbl9zeXN0ZW1fcHJvbXB0KSwKICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgImh1bWFuIiwKICAgICAgICAgICAgICAgIGYiUmV0dXJuczoge3JldHVybnNfbG9zc2VzfVxuXG5BbmFseXNpcy9EZWNpc2lvbjoge3JlcG9ydH1cblxuT2JqZWN0aXZlIE1hcmtldCBSZXBvcnRzIGZvciBSZWZlcmVuY2U6IHtzaXR1YXRpb259IiwKICAgICAgICAgICAgKSwKICAgICAgICBdCgogICAgICAgIHJlc3VsdCA9IHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtLmludm9rZShtZXNzYWdlcykuY29udGVudAogICAgICAgIHJldHVybiByZXN1bHQKCiAgICBkZWYgcmVmbGVjdF9idWxsX3Jlc2VhcmNoZXIoc2VsZiwgY3VycmVudF9zdGF0ZSwgcmV0dXJuc19sb3NzZXMsIGJ1bGxfbWVtb3J5KToKICAgICAgICAiIiJSZWZsZWN0IG9uIGJ1bGwgcmVzZWFyY2hlcidzIGFuYWx5c2lzIGFuZCB1cGRhdGUgbWVtb3J5LiIiIgogICAgICAgIHNpdHVhdGlvbiA9IHNlbGYuX2V4dHJhY3RfY3VycmVudF9zaXR1YXRpb24oY3VycmVudF9zdGF0ZSkKICAgICAgICBidWxsX2RlYmF0ZV9oaXN0b3J5ID0gY3VycmVudF9zdGF0ZVsiaW52ZXN0bWVudF9kZWJhdGVfc3RhdGUiXVsiYnVsbF9oaXN0b3J5Il0KCiAgICAgICAgcmVzdWx0ID0gc2VsZi5fcmVmbGVjdF9vbl9jb21wb25lbnQoCiAgICAgICAgICAgICJCVUxMIiwgYnVsbF9kZWJhdGVfaGlzdG9yeSwgc2l0dWF0aW9uLCByZXR1cm5zX2xvc3NlcwogICAgICAgICkKICAgICAgICBidWxsX21lbW9yeS5hZGRfc2l0dWF0aW9ucyhbKHNpdHVhdGlvbiwgcmVzdWx0KV0pCgogICAgZGVmIHJlZmxlY3RfYmVhcl9yZXNlYXJjaGVyKHNlbGYsIGN1cnJlbnRfc3RhdGUsIHJldHVybnNfbG9zc2VzLCBiZWFyX21lbW9yeSk6CiAgICAgICAgIiIiUmVmbGVjdCBvbiBiZWFyIHJlc2VhcmNoZXIncyBhbmFseXNpcyBhbmQgdXBkYXRlIG1lbW9yeS4iIiIKICAgICAgICBzaXR1YXRpb24gPSBzZWxmLl9leHRyYWN0X2N1cnJlbnRfc2l0dWF0aW9uKGN1cnJlbnRfc3RhdGUpCiAgICAgICAgYmVhcl9kZWJhdGVfaGlzdG9yeSA9IGN1cnJlbnRfc3RhdGVbImludmVzdG1lbnRfZGViYXRlX3N0YXRlIl1bImJlYXJfaGlzdG9yeSJdCgogICAgICAgIHJlc3VsdCA9IHNlbGYuX3JlZmxlY3Rfb25fY29tcG9uZW50KAogICAgICAgICAgICAiQkVBUiIsIGJlYXJfZGViYXRlX2hpc3RvcnksIHNpdHVhdGlvbiwgcmV0dXJuc19sb3NzZXMKICAgICAgICApCiAgICAgICAgYmVhcl9tZW1vcnkuYWRkX3NpdHVhdGlvbnMoWyhzaXR1YXRpb24sIHJlc3VsdCldKQoKICAgIGRlZiByZWZsZWN0X3RyYWRlcihzZWxmLCBjdXJyZW50X3N0YXRlLCByZXR1cm5zX2xvc3NlcywgdHJhZGVyX21lbW9yeSk6CiAgICAgICAgIiIiUmVmbGVjdCBvbiB0cmFkZXIncyBkZWNpc2lvbiBhbmQgdXBkYXRlIG1lbW9yeS4iIiIKICAgICAgICBzaXR1YXRpb24gPSBzZWxmLl9leHRyYWN0X2N1cnJlbnRfc2l0dWF0aW9uKGN1cnJlbnRfc3RhdGUpCiAgICAgICAgdHJhZGVyX2RlY2lzaW9uID0gY3VycmVudF9zdGF0ZVsidHJhZGVyX2ludmVzdG1lbnRfcGxhbiJdCgogICAgICAgIHJlc3VsdCA9IHNlbGYuX3JlZmxlY3Rfb25fY29tcG9uZW50KAogICAgICAgICAgICAiVFJBREVSIiwgdHJhZGVyX2RlY2lzaW9uLCBzaXR1YXRpb24sIHJldHVybnNfbG9zc2VzCiAgICAgICAgKQogICAgICAgIHRyYWRlcl9tZW1vcnkuYWRkX3NpdHVhdGlvbnMoWyhzaXR1YXRpb24sIHJlc3VsdCldKQoKICAgIGRlZiByZWZsZWN0X2ludmVzdF9qdWRnZShzZWxmLCBjdXJyZW50X3N0YXRlLCByZXR1cm5zX2xvc3NlcywgaW52ZXN0X2p1ZGdlX21lbW9yeSk6CiAgICAgICAgIiIiUmVmbGVjdCBvbiBpbnZlc3RtZW50IGp1ZGdlJ3MgZGVjaXNpb24gYW5kIHVwZGF0ZSBtZW1vcnkuIiIiCiAgICAgICAgc2l0dWF0aW9uID0gc2VsZi5fZXh0cmFjdF9jdXJyZW50X3NpdHVhdGlvbihjdXJyZW50X3N0YXRlKQogICAgICAgIGp1ZGdlX2RlY2lzaW9uID0gY3VycmVudF9zdGF0ZVsiaW52ZXN0bWVudF9kZWJhdGVfc3RhdGUiXVsianVkZ2VfZGVjaXNpb24iXQoKICAgICAgICByZXN1bHQgPSBzZWxmLl9yZWZsZWN0X29uX2NvbXBvbmVudCgKICAgICAgICAgICAgIklOVkVTVCBKVURHRSIsIGp1ZGdlX2RlY2lzaW9uLCBzaXR1YXRpb24sIHJldHVybnNfbG9zc2VzCiAgICAgICAgKQogICAgICAgIGludmVzdF9qdWRnZV9tZW1vcnkuYWRkX3NpdHVhdGlvbnMoWyhzaXR1YXRpb24sIHJlc3VsdCldKQoKICAgIGRlZiByZWZsZWN0X3Jpc2tfbWFuYWdlcihzZWxmLCBjdXJyZW50X3N0YXRlLCByZXR1cm5zX2xvc3Nlcywgcmlza19tYW5hZ2VyX21lbW9yeSk6CiAgICAgICAgIiIiUmVmbGVjdCBvbiByaXNrIG1hbmFnZXIncyBkZWNpc2lvbiBhbmQgdXBkYXRlIG1lbW9yeS4iIiIKICAgICAgICBzaXR1YXRpb24gPSBzZWxmLl9leHRyYWN0X2N1cnJlbnRfc2l0dWF0aW9uKGN1cnJlbnRfc3RhdGUpCiAgICAgICAganVkZ2VfZGVjaXNpb24gPSBjdXJyZW50X3N0YXRlWyJyaXNrX2RlYmF0ZV9zdGF0ZSJdWyJqdWRnZV9kZWNpc2lvbiJdCgogICAgICAgIHJlc3VsdCA9IHNlbGYuX3JlZmxlY3Rfb25fY29tcG9uZW50KAogICAgICAgICAgICAiUklTSyBKVURHRSIsIGp1ZGdlX2RlY2lzaW9uLCBzaXR1YXRpb24sIHJldHVybnNfbG9zc2VzCiAgICAgICAgKQogICAgICAgIHJpc2tfbWFuYWdlcl9tZW1vcnkuYWRkX3NpdHVhdGlvbnMoWyhzaXR1YXRpb24sIHJlc3VsdCldKQoNCg==
+﻿# TradingAgents/graph/reflection.py
+
+from typing import Dict, Any
+from langchain_openai import ChatOpenAI
+
+
+class Reflector:
+    """Handles reflection on decisions and updating memory."""
+
+    def __init__(self, quick_thinking_llm: ChatOpenAI):
+        """Initialize the reflector with an LLM."""
+        self.quick_thinking_llm = quick_thinking_llm
+        self.reflection_system_prompt = self._get_reflection_prompt()
+
+    def _get_reflection_prompt(self) -> str:
+        """Get the system prompt for reflection."""
+        return """
+You are an expert financial analyst tasked with reviewing trading decisions/analysis and providing a comprehensive, step-by-step analysis. 
+Your goal is to deliver detailed insights into investment decisions and highlight opportunities for improvement, adhering strictly to the following guidelines:
+
+1. Reasoning:
+   - For each trading decision, determine whether it was correct or incorrect. A correct decision results in an increase in returns, while an incorrect decision does the opposite.
+   - Analyze the contributing factors to each success or mistake. Consider:
+     - Market intelligence.
+     - Technical indicators.
+     - Technical signals.
+     - Price movement analysis.
+     - Overall market data analysis 
+     - News analysis.
+     - Social media and sentiment analysis.
+     - Fundamental data analysis.
+     - Weight the importance of each factor in the decision-making process.
+
+2. Improvement:
+   - For any incorrect decisions, propose revisions to maximize returns.
+   - Provide a detailed list of corrective actions or improvements, including specific recommendations (e.g., changing a decision from HOLD to BUY on a particular date).
+
+3. Summary:
+   - Summarize the lessons learned from the successes and mistakes.
+   - Highlight how these lessons can be adapted for future trading scenarios and draw connections between similar situations to apply the knowledge gained.
+
+4. Query:
+   - Extract key insights from the summary into a concise sentence of no more than 1000 tokens.
+   - Ensure the condensed sentence captures the essence of the lessons and reasoning for easy reference.
+
+Adhere strictly to these instructions, and ensure your output is detailed, accurate, and actionable. You will also be given objective descriptions of the market from a price movements, technical indicator, news, and sentiment perspective to provide more context for your analysis.
+"""
+
+    def _extract_current_situation(self, current_state: Dict[str, Any]) -> str:
+        """Extract the current market situation from the state."""
+        curr_market_report = current_state["market_report"]
+        curr_sentiment_report = current_state["sentiment_report"]
+        curr_news_report = current_state["news_report"]
+        curr_fundamentals_report = current_state["fundamentals_report"]
+
+        return f"{curr_market_report}\n\n{curr_sentiment_report}\n\n{curr_news_report}\n\n{curr_fundamentals_report}"
+
+    def _reflect_on_component(
+        self, component_type: str, report: str, situation: str, returns_losses
+    ) -> str:
+        """Generate reflection for a component."""
+        messages = [
+            ("system", self.reflection_system_prompt),
+            (
+                "human",
+                f"Returns: {returns_losses}\n\nAnalysis/Decision: {report}\n\nObjective Market Reports for Reference: {situation}",
+            ),
+        ]
+
+        result = self.quick_thinking_llm.invoke(messages).content
+        return result
+
+    def reflect_bull_researcher(self, current_state, returns_losses, bull_memory):
+        """Reflect on bull researcher's analysis and update memory."""
+        situation = self._extract_current_situation(current_state)
+        bull_debate_history = current_state["investment_debate_state"]["bull_history"]
+
+        result = self._reflect_on_component(
+            "BULL", bull_debate_history, situation, returns_losses
+        )
+        bull_memory.add_situations([(situation, result)])
+
+    def reflect_bear_researcher(self, current_state, returns_losses, bear_memory):
+        """Reflect on bear researcher's analysis and update memory."""
+        situation = self._extract_current_situation(current_state)
+        bear_debate_history = current_state["investment_debate_state"]["bear_history"]
+
+        result = self._reflect_on_component(
+            "BEAR", bear_debate_history, situation, returns_losses
+        )
+        bear_memory.add_situations([(situation, result)])
+
+    def reflect_trader(self, current_state, returns_losses, trader_memory):
+        """Reflect on trader's decision and update memory."""
+        situation = self._extract_current_situation(current_state)
+        trader_decision = current_state["trader_investment_plan"]
+
+        result = self._reflect_on_component(
+            "TRADER", trader_decision, situation, returns_losses
+        )
+        trader_memory.add_situations([(situation, result)])
+
+    def reflect_invest_judge(self, current_state, returns_losses, invest_judge_memory):
+        """Reflect on investment judge's decision and update memory."""
+        situation = self._extract_current_situation(current_state)
+        judge_decision = current_state["investment_debate_state"]["judge_decision"]
+
+        result = self._reflect_on_component(
+            "INVEST JUDGE", judge_decision, situation, returns_losses
+        )
+        invest_judge_memory.add_situations([(situation, result)])
+
+    def reflect_risk_manager(self, current_state, returns_losses, risk_manager_memory):
+        """Reflect on risk manager's decision and update memory."""
+        situation = self._extract_current_situation(current_state)
+        judge_decision = current_state["risk_debate_state"]["judge_decision"]
+
+        result = self._reflect_on_component(
+            "RISK JUDGE", judge_decision, situation, returns_losses
+        )
+        risk_manager_memory.add_situations([(situation, result)])
+

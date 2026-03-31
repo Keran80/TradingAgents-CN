@@ -1,1 +1,452 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0KQWtTaGFyZSDogqHnpajmlbDmja7mjqXlj6MgLSDmm7/ku6MgeWZpbmFuY2UNCuaPkOS+m+S4jiB5ZmluX3V0aWxzIOexu+S8vOeahOWKn+iDveaOpeWPo++8jOS9huS9v+eUqCBBa1NoYXJlIOiOt+WPluaVsOaNrg0K6YCC55So5LqOQeiCoeW4guWcug0KIiIiDQoNCmltcG9ydCBha3NoYXJlIGFzIGFrDQppbXBvcnQgcGFuZGFzIGFzIHBkDQpmcm9tIHR5cGluZyBpbXBvcnQgQW5ub3RhdGVkLCBDYWxsYWJsZSwgQW55LCBPcHRpb25hbCwgTGlzdCwgRGljdCwgVHVwbGUsIFVuaW9uDQpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZWRlbHRhDQpmcm9tIGZ1bmN0b29scyBpbXBvcnQgd3JhcHMNCmltcG9ydCBsb2dnaW5nDQppbXBvcnQgdGltZQ0KaW1wb3J0IGhhc2hsaWINCmltcG9ydCBvcw0KDQojIOWvvOWFpee8k+WtmOaooeWdlw0KZnJvbSAuY2FjaGUgaW1wb3J0ICgNCiAgICBjYWNoZWQsIHJldHJ5LCBnZXRfY2FjaGUsIHNldF9jYWNoZSwgX2dlbmVyYXRlX2NhY2hlX2tleSwNCiAgICBSYXRlTGltaXRlciwgZ2V0X3JhdGVfbGltaXRlcg0KKQ0KDQpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykNCg0KIyDnvJPlrZjphY3nva4NClNUT0NLX0RBVEFfQ0FDSEVfVFRMID0gMzYwMCAgIyDogqHnpajmlbDmja7nvJPlrZggMSDlsI/ml7YNClNUT0NLX0lORk9fQ0FDSEVfVFRMID0gMzAwICAgIyDogqHnpajkv6Hmga/nvJPlrZggNSDliIbpkp8NCg0KIyDpmZDmtYHlmajphY3nva7vvIhBa1NoYXJlIOi+g+WuveWuue+8jOiuvue9rui+g+mrmOmZkOWItu+8iQ0KX3N0b2NrX3JhdGVfbGltaXRlciA9IFJhdGVMaW1pdGVyKGNhbGxzPTMwLCBwZXJpb2Q9NjAuMCkgICMg5q+P5YiG6ZKf5pyA5aSaIDMwIOasoQ0KDQoNCmRlZiBpbml0X2Frc2hhcmVfdGlja2VyKGZ1bmM6IENhbGxhYmxlKSAtPiBDYWxsYWJsZToNCiAgICAiIiLoo4XppbDlmajvvJrovazmjaLogqHnpajku6PnoIHmoLzlvI8iIiINCiAgICBAd3JhcHMoZnVuYykNCiAgICBkZWYgd3JhcHBlcihzeW1ib2w6IEFubm90YXRlZFtzdHIsICJ0aWNrZXIgc3ltYm9sIl0sICphcmdzLCAqKmt3YXJncyk6DQogICAgICAgICMg6L2s5o2i6IKh56Wo5Luj56CB5Li6IEFrU2hhcmUg5qC85byPDQogICAgICAgIGFrc2hhcmVfc3ltYm9sID0gY29udmVydF90b19ha3NoYXJlX2Zvcm1hdChzeW1ib2wpDQogICAgICAgIHJldHVybiBmdW5jKGFrc2hhcmVfc3ltYm9sLCAqYXJncywgKiprd2FyZ3MpDQogICAgcmV0dXJuIHdyYXBwZXINCg0KDQpAaW5pdF9ha3NoYXJlX3RpY2tlcg0KY2xhc3MgQWtTaGFyZVV0aWxzOg0KICAgICIiIuS9v+eUqCBBa1NoYXJlIOiOt+WPlkHogqHmlbDmja7nmoTlt6XlhbfnsbsiIiINCg0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBAcmV0cnkobWF4X2F0dGVtcHRzPTMsIGRlbGF5PTEuMCwgYmFja29mZj0yLjApDQogICAgZGVmIGdldF9zdG9ja19kYXRhKA0KICAgICAgICBzeW1ib2w6IEFubm90YXRlZFtzdHIsICJ0aWNrZXIgc3ltYm9sIl0sDQogICAgICAgIHN0YXJ0X2RhdGU6IEFubm90YXRlZFtzdHIsICJzdGFydCBkYXRlIFlZWVktbW0tZGQiXSwNCiAgICAgICAgZW5kX2RhdGU6IEFubm90YXRlZFtzdHIsICJlbmQgZGF0ZSBZWVlZLW1tLWRkIl0sDQogICAgICAgIHNhdmVfcGF0aDogT3B0aW9uYWxbc3RyXSA9IE5vbmUsDQogICAgICAgIHVzZV9jYWNoZTogYm9vbCA9IFRydWUsDQogICAgKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIg0KICAgICAgICDojrflj5bogqHnpajml6Xnur/mlbDmja7vvIjluKbnvJPlrZjlkozph43or5XmnLrliLbvvIkNCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBzeW1ib2w6IOiCoeelqOS7o+egge+8jOWmgiAnMDAwMDAxJw0KICAgICAgICAgICAgc3RhcnRfZGF0ZTog5byA5aeL5pel5pyfDQogICAgICAgICAgICBlbmRfZGF0ZTog57uT5p2f5pel5pyfDQogICAgICAgICAgICBzYXZlX3BhdGg6IOS/neWtmOi3r+W+hO+8iOWPr+mAie+8iQ0KICAgICAgICAgICAgdXNlX2NhY2hlOiDmmK/lkKbkvb/nlKjnvJPlrZgNCiAgICAgICAgDQogICAgICAgIFJldHVybnM6DQogICAgICAgICAgICBwZC5EYXRhRnJhbWU6IOWMheWQqyBPcGVuLCBIaWdoLCBMb3csIENsb3NlLCBWb2x1bWUNCiAgICAgICAgIiIiDQogICAgICAgICMg55Sf5oiQ57yT5a2Y6ZSuDQogICAgICAgIGNhY2hlX2tleSA9IF9nZW5lcmF0ZV9jYWNoZV9rZXkoImFrc2hhcmVfc3RvY2tfZGF0YSIsIHN5bWJvbCwgc3RhcnRfZGF0ZSwgZW5kX2RhdGUpDQogICAgICAgIA0KICAgICAgICAjIOWwneivleS7jue8k+WtmOiOt+WPlg0KICAgICAgICBpZiB1c2VfY2FjaGU6DQogICAgICAgICAgICBjYWNoZWRfZGF0YSA9IGdldF9jYWNoZShjYWNoZV9rZXksIFNUT0NLX0RBVEFfQ0FDSEVfVFRMKQ0KICAgICAgICAgICAgaWYgY2FjaGVkX2RhdGEgaXMgbm90IE5vbmU6DQogICAgICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKGYi57yT5a2Y5ZG95LitOiB7c3ltYm9sfSB7c3RhcnRfZGF0ZX0te2VuZF9kYXRlfSIpDQogICAgICAgICAgICAgICAgaWYgc2F2ZV9wYXRoOg0KICAgICAgICAgICAgICAgICAgICBjYWNoZWRfZGF0YS50b19jc3Yoc2F2ZV9wYXRoKQ0KICAgICAgICAgICAgICAgIHJldHVybiBjYWNoZWRfZGF0YQ0KICAgICAgICANCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgIyDpmZDmtYHmo4Dmn6XvvIjmr4/liIbpkp/mnIDlpJogMzAg5qyhIEFQSSDosIPnlKjvvIkNCiAgICAgICAgICAgIGlmIG5vdCBfc3RvY2tfcmF0ZV9saW1pdGVyLndhaXRfYW5kX2FjcXVpcmUoZiJzdG9ja19kYXRhX3tzeW1ib2x9IiwgdGltZW91dD0zMC4wKToNCiAgICAgICAgICAgICAgICBsb2dnZXIud2FybmluZyhmIkFQSSDor7fmsYLpopHnjofotoXpmZA6IHtzeW1ib2x9IikNCiAgICAgICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoZiJSYXRlIGxpbWl0IGV4Y2VlZGVkIGZvciBzdG9jayBkYXRhOiB7c3ltYm9sfSIpDQogICAgICAgICAgICANCiAgICAgICAgICAgICMg6L2s5o2i5pel5pyf5qC85byPDQogICAgICAgICAgICBzdGFydF9zdHIgPSBzdGFydF9kYXRlLnJlcGxhY2UoJy0nLCAnJykNCiAgICAgICAgICAgIGVuZF9zdHIgPSBlbmRfZGF0ZS5yZXBsYWNlKCctJywgJycpDQogICAgICAgICAgICANCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfemhfYV9oaXN0KA0KICAgICAgICAgICAgICAgIHN5bWJvbD1zeW1ib2wsDQogICAgICAgICAgICAgICAgcGVyaW9kPSJkYWlseSIsDQogICAgICAgICAgICAgICAgc3RhcnRfZGF0ZT1zdGFydF9zdHIsDQogICAgICAgICAgICAgICAgZW5kX2RhdGU9ZW5kX3N0ciwNCiAgICAgICAgICAgICAgICBhZGp1c3Q9InFmcSINCiAgICAgICAgICAgICkNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgaWYgZGYuZW1wdHk6DQogICAgICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgICAgICANCiAgICAgICAgICAgICMg6L2s5o2i5Li65LiOIHlmaW5hbmNlIOebuOWQjOeahOWIl+WQjeagvOW8jw0KICAgICAgICAgICAgZGYgPSBkZi5yZW5hbWUoY29sdW1ucz17DQogICAgICAgICAgICAgICAgJ+aXpeacnyc6ICdEYXRlJywNCiAgICAgICAgICAgICAgICAn5byA55uYJzogJ09wZW4nLA0KICAgICAgICAgICAgICAgICfmlLbnm5gnOiAnQ2xvc2UnLA0KICAgICAgICAgICAgICAgICfmnIDpq5gnOiAnSGlnaCcsDQogICAgICAgICAgICAgICAgJ+acgOS9jic6ICdMb3cnLA0KICAgICAgICAgICAgICAgICfmiJDkuqTph48nOiAnVm9sdW1lJywNCiAgICAgICAgICAgICAgICAn5oiQ5Lqk6aKdJzogJ0Ftb3VudCcsDQogICAgICAgICAgICAgICAgJ+aMr+W5hSc6ICdBbXBsaXR1ZGUnLA0KICAgICAgICAgICAgICAgICfmtqjot4zluYUnOiAnUGN0X0NoYW5nZScsDQogICAgICAgICAgICAgICAgJ+a2qOi3jOminSc6ICdDaGFuZ2UnLA0KICAgICAgICAgICAgICAgICfmjaLmiYvnjocnOiAnVHVybm92ZXInDQogICAgICAgICAgICB9KQ0KICAgICAgICAgICAgDQogICAgICAgICAgICAjIOiuvue9ruaXpeacn+e0ouW8lQ0KICAgICAgICAgICAgZGZbJ0RhdGUnXSA9IHBkLnRvX2RhdGV0aW1lKGRmWydEYXRlJ10pDQogICAgICAgICAgICBkZiA9IGRmLnNldF9pbmRleCgnRGF0ZScpDQogICAgICAgICAgICANCiAgICAgICAgICAgICMg5re75YqgIEFkaiBDbG9zZe+8iOS4jiBDbG9zZSDnm7jlkIzvvIkNCiAgICAgICAgICAgIGRmWydBZGogQ2xvc2UnXSA9IGRmWydDbG9zZSddDQogICAgICAgICAgICANCiAgICAgICAgICAgICMg5L+d5a2Y5Yiw57yT5a2YDQogICAgICAgICAgICBpZiB1c2VfY2FjaGU6DQogICAgICAgICAgICAgICAgc2V0X2NhY2hlKGNhY2hlX2tleSwgZGYpDQogICAgICAgICAgICANCiAgICAgICAgICAgIGlmIHNhdmVfcGF0aDoNCiAgICAgICAgICAgICAgICBkZi50b19jc3Yoc2F2ZV9wYXRoKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgICAgIA0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bogqHnpajmlbDmja7lpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCg0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBAcmV0cnkobWF4X2F0dGVtcHRzPTMsIGRlbGF5PTAuNSwgYmFja29mZj0yLjApDQogICAgZGVmIGdldF9zdG9ja19pbmZvKHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wiXSwgdXNlX2NhY2hlOiBib29sID0gVHJ1ZSkgLT4gRGljdFtzdHIsIEFueV06DQogICAgICAgICIiIg0KICAgICAgICDojrflj5bogqHnpajln7rmnKzkv6Hmga/vvIjluKbnvJPlrZjlkozph43or5XmnLrliLbvvIkNCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBzeW1ib2w6IOiCoeelqOS7o+eggQ0KICAgICAgICAgICAgdXNlX2NhY2hlOiDmmK/lkKbkvb/nlKjnvJPlrZgNCiAgICAgICAgDQogICAgICAgIFJldHVybnM6DQogICAgICAgICAgICBEaWN0W3N0ciwgQW55XTog5YyF5ZCr6IKh56Wo5Z+65pys5L+h5oGvDQogICAgICAgICIiIg0KICAgICAgICAjIOeUn+aIkOe8k+WtmOmUrg0KICAgICAgICBjYWNoZV9rZXkgPSBfZ2VuZXJhdGVfY2FjaGVfa2V5KCJha3NoYXJlX3N0b2NrX2luZm8iLCBzeW1ib2wpDQogICAgICAgIA0KICAgICAgICAjIOWwneivleS7jue8k+WtmOiOt+WPlg0KICAgICAgICBpZiB1c2VfY2FjaGU6DQogICAgICAgICAgICBjYWNoZWRfZGF0YSA9IGdldF9jYWNoZShjYWNoZV9rZXksIFNUT0NLX0lORk9fQ0FDSEVfVFRMKQ0KICAgICAgICAgICAgaWYgY2FjaGVkX2RhdGEgaXMgbm90IE5vbmU6DQogICAgICAgICAgICAgICAgbG9nZ2VyLmRlYnVnKGYi57yT5a2Y5ZG95LitOiB7c3ltYm9sfSBpbmZvIikNCiAgICAgICAgICAgICAgICByZXR1cm4gY2FjaGVkX2RhdGENCiAgICAgICAgDQogICAgICAgIHRyeToNCiAgICAgICAgICAgICMg6ZmQ5rWB5qOA5p+lDQogICAgICAgICAgICBpZiBub3QgX3N0b2NrX3JhdGVfbGltaXRlci53YWl0X2FuZF9hY3F1aXJlKGYic3RvY2tfaW5mb197c3ltYm9sfSIsIHRpbWVvdXQ9MzAuMCk6DQogICAgICAgICAgICAgICAgbG9nZ2VyLndhcm5pbmcoZiJBUEkg6K+35rGC6aKR546H6LaF6ZmQOiB7c3ltYm9sfSIpDQogICAgICAgICAgICAgICAgcmFpc2UgUnVudGltZUVycm9yKGYiUmF0ZSBsaW1pdCBleGNlZWRlZCBmb3Igc3RvY2sgaW5mbzoge3N5bWJvbH0iKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICAjIOS9v+eUqOWNleWPquiCoeelqOS/oeaBr+aOpeWPo++8iOabtOW/q++8iQ0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja19pbmRpdmlkdWFsX2luZm9fZW0oc3ltYm9sPXN5bWJvbCkNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgaWYgZGYuZW1wdHk6DQogICAgICAgICAgICAgICAgcmV0dXJuIHt9DQogICAgICAgICAgICANCiAgICAgICAgICAgICMg6L2s5o2i5Li6IGRpY3QNCiAgICAgICAgICAgIGluZm86IERpY3Rbc3RyLCBBbnldID0ge30NCiAgICAgICAgICAgIGZvciBfLCByb3cgaW4gZGYuaXRlcnJvd3MoKToNCiAgICAgICAgICAgICAgICBpbmZvW3Jvd1snaXRlbSddXSA9IHJvd1sndmFsdWUnXQ0KICAgICAgICAgICAgDQogICAgICAgICAgICByZXN1bHQ6IERpY3Rbc3RyLCBBbnldID0gew0KICAgICAgICAgICAgICAgICdzaG9ydE5hbWUnOiBpbmZvLmdldCgn6IKh56Wo566A56ewJywgJycpLA0KICAgICAgICAgICAgICAgICdpbmR1c3RyeSc6IGluZm8uZ2V0KCfooYzkuJonLCAnJyksDQogICAgICAgICAgICAgICAgJ3NlY3Rvcic6IGluZm8uZ2V0KCfooYzkuJonLCAnJyksDQogICAgICAgICAgICAgICAgJ3RvdGFsU2hhcmVzJzogaW5mby5nZXQoJ+aAu+iCoeacrCcsIDApLA0KICAgICAgICAgICAgICAgICdjaXJjdWxhdGluZ1NoYXJlcyc6IGluZm8uZ2V0KCfmtYHpgJrogqEnLCAwKSwNCiAgICAgICAgICAgICAgICAndG90YWxNYXJrZXRDYXAnOiBpbmZvLmdldCgn5oC75biC5YC8JywgMCksDQogICAgICAgICAgICAgICAgJ2NpcmN1bGF0aW5nTWFya2V0Q2FwJzogaW5mby5nZXQoJ+a1gemAmuW4guWAvCcsIDApLA0KICAgICAgICAgICAgICAgICdsaXN0aW5nRGF0ZSc6IGluZm8uZ2V0KCfkuIrluILml7bpl7QnLCAnJyksDQogICAgICAgICAgICB9DQogICAgICAgICAgICANCiAgICAgICAgICAgICMg5L+d5a2Y5Yiw57yT5a2YDQogICAgICAgICAgICBpZiB1c2VfY2FjaGU6DQogICAgICAgICAgICAgICAgc2V0X2NhY2hlKGNhY2hlX2tleSwgcmVzdWx0KQ0KICAgICAgICAgICAgDQogICAgICAgICAgICByZXR1cm4gcmVzdWx0DQogICAgICAgICAgICANCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W6IKh56Wo5L+h5oGv5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHt9DQoNCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9jb21wYW55X2luZm8oDQogICAgICAgIHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wiXSwNCiAgICAgICAgc2F2ZV9wYXRoOiBPcHRpb25hbFtzdHJdID0gTm9uZSwNCiAgICApIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIiDQogICAgICAgIOiOt+WPluWFrOWPuOS/oeaBrw0KICAgICAgICANCiAgICAgICAgQXJnczoNCiAgICAgICAgICAgIHN5bWJvbDog6IKh56Wo5Luj56CBDQogICAgICAgICAgICBzYXZlX3BhdGg6IOS/neWtmOi3r+W+hO+8iOWPr+mAie+8iQ0KICAgICAgICANCiAgICAgICAgUmV0dXJuczoNCiAgICAgICAgICAgIERhdGFGcmFtZSDljIXlkKvlhazlj7jkv6Hmga8NCiAgICAgICAgIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGluZm8gPSBBa1NoYXJlVXRpbHMuZ2V0X3N0b2NrX2luZm8oc3ltYm9sKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBjb21wYW55X2luZm8gPSB7DQogICAgICAgICAgICAgICAgIkNvbXBhbnkgTmFtZSI6IGluZm8uZ2V0KCJzaG9ydE5hbWUiLCAiTi9BIiksDQogICAgICAgICAgICAgICAgIkluZHVzdHJ5IjogaW5mby5nZXQoImluZHVzdHJ5IiwgIk4vQSIpLA0KICAgICAgICAgICAgICAgICJTZWN0b3IiOiBpbmZvLmdldCgic2VjdG9yIiwgIk4vQSIpLA0KICAgICAgICAgICAgICAgICJNYXJrZXQiOiBpbmZvLmdldCgibWFya2V0IiwgIk4vQSIpLA0KICAgICAgICAgICAgfQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBjb21wYW55X2RmID0gcGQuRGF0YUZyYW1lKFtjb21wYW55X2luZm9dKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBpZiBzYXZlX3BhdGg6DQogICAgICAgICAgICAgICAgY29tcGFueV9kZi50b19jc3Yoc2F2ZV9wYXRoLCBpbmRleD1GYWxzZSkNCiAgICAgICAgICAgICAgICBwcmludChmIkNvbXBhbnkgaW5mbyBmb3Ige3N5bWJvbH0gc2F2ZWQgdG8ge3NhdmVfcGF0aH0iKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICByZXR1cm4gY29tcGFueV9kZg0KICAgICAgICAgICAgDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluWFrOWPuOS/oeaBr+Wksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfc3RvY2tfZGl2aWRlbmRzKA0KICAgICAgICBzeW1ib2w6IEFubm90YXRlZFtzdHIsICJ0aWNrZXIgc3ltYm9sIl0sDQogICAgICAgIHNhdmVfcGF0aDogT3B0aW9uYWxbc3RyXSA9IE5vbmUsDQogICAgKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIg0KICAgICAgICDojrflj5bogqHnpajliIbnuqLpgIHovazmlbDmja4NCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBzeW1ib2w6IOiCoeelqOS7o+eggQ0KICAgICAgICAgICAgc2F2ZV9wYXRoOiDkv53lrZjot6/lvoTvvIjlj6/pgInvvIkNCiAgICAgICAgDQogICAgICAgIFJldHVybnM6DQogICAgICAgICAgICBEYXRhRnJhbWUg5YyF5ZCr5YiG57qi5pWw5o2uDQogICAgICAgICIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICAjIEFrU2hhcmUg5YiG57qi5pWw5o2u5o6l5Y+jDQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX2RpdmlkZW5kX2Zsb3dfZW0oc3ltYm9sPXN5bWJvbCkNCiAgICAgICAgICAgIA0KICAgICAgICAgICAgaWYgZGYuZW1wdHk6DQogICAgICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQogICAgICAgICAgICANCiAgICAgICAgICAgIGlmIHNhdmVfcGF0aDoNCiAgICAgICAgICAgICAgICBkZi50b19jc3Yoc2F2ZV9wYXRoLCBpbmRleD1GYWxzZSkNCiAgICAgICAgICAgICAgICBwcmludChmIkRpdmlkZW5kcyBmb3Ige3N5bWJvbH0gc2F2ZWQgdG8ge3NhdmVfcGF0aH0iKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgICAgIA0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bliIbnuqLmlbDmja7lpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCg0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X2luY29tZV9zdG10KHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wiXSkgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiINCiAgICAgICAg6I635Y+W5Yip5ram6KGo5pWw5o2uDQogICAgICAgIA0KICAgICAgICBBcmdzOg0KICAgICAgICAgICAgc3ltYm9sOiDogqHnpajku6PnoIENCiAgICAgICAgDQogICAgICAgIFJldHVybnM6DQogICAgICAgICAgICBEYXRhRnJhbWUg5YyF5ZCr5Yip5ram6KGoDQogICAgICAgICIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICBkZiA9IGFrLnN0b2NrX2ZpbmFuY2lhbF9hbmFseXNpc19pbmRpY2F0b3Ioc3ltYm9sPXN5bWJvbCkNCiAgICAgICAgICAgIHJldHVybiBkZg0KICAgICAgICAgICAgDQogICAgICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgICAgIGxvZ2dlci5lcnJvcihmIuiOt+WPluWIqea2puihqOWksei0pToge2V9IikNCiAgICAgICAgICAgIHJldHVybiBwZC5EYXRhRnJhbWUoKQ0KDQogICAgQHN0YXRpY21ldGhvZA0KICAgIGRlZiBnZXRfYmFsYW5jZV9zaGVldChzeW1ib2w6IEFubm90YXRlZFtzdHIsICJ0aWNrZXIgc3ltYm9sIl0pIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIiDQogICAgICAgIOiOt+WPlui1hOS6p+i0n+WAuuihqOaVsOaNrg0KICAgICAgICANCiAgICAgICAgQXJnczoNCiAgICAgICAgICAgIHN5bWJvbDog6IKh56Wo5Luj56CBDQogICAgICAgIA0KICAgICAgICBSZXR1cm5zOg0KICAgICAgICAgICAgRGF0YUZyYW1lIOWMheWQq+i1hOS6p+i0n+WAuuihqA0KICAgICAgICAiIiINCiAgICAgICAgdHJ5Og0KICAgICAgICAgICAgIyDkvb/nlKjotYTkuqfotJ/lgLrooajmjqXlj6MNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfYmFsYW5jZV9zaGVldF9lbShzeW1ib2w9c3ltYm9sKQ0KICAgICAgICAgICAgcmV0dXJuIGRmDQogICAgICAgICAgICANCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W6LWE5Lqn6LSf5YC66KGo5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIHBkLkRhdGFGcmFtZSgpDQoNCiAgICBAc3RhdGljbWV0aG9kDQogICAgZGVmIGdldF9jYXNoX2Zsb3coc3ltYm9sOiBBbm5vdGF0ZWRbc3RyLCAidGlja2VyIHN5bWJvbCJdKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIg0KICAgICAgICDojrflj5bnjrDph5HmtYHph4/ooajmlbDmja4NCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBzeW1ib2w6IOiCoeelqOS7o+eggQ0KICAgICAgICANCiAgICAgICAgUmV0dXJuczoNCiAgICAgICAgICAgIERhdGFGcmFtZSDljIXlkKvnjrDph5HmtYHph4/ooagNCiAgICAgICAgIiIiDQogICAgICAgIHRyeToNCiAgICAgICAgICAgIGRmID0gYWsuc3RvY2tfY2FzaF9mbG93X2VtKHN5bWJvbD1zeW1ib2wpDQogICAgICAgICAgICByZXR1cm4gZGYNCiAgICAgICAgICAgIA0KICAgICAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgICAgICBsb2dnZXIuZXJyb3IoZiLojrflj5bnjrDph5HmtYHph4/ooajlpLHotKU6IHtlfSIpDQogICAgICAgICAgICByZXR1cm4gcGQuRGF0YUZyYW1lKCkNCg0KICAgIEBzdGF0aWNtZXRob2QNCiAgICBkZWYgZ2V0X2FuYWx5c3RfcmVjb21tZW5kYXRpb25zKHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wiXSkgLT4gdHVwbGU6DQogICAgICAgICIiIg0KICAgICAgICDojrflj5bliIbmnpDluIjlu7rorq4NCiAgICAgICAgDQogICAgICAgIEFyZ3M6DQogICAgICAgICAgICBzeW1ib2w6IOiCoeelqOS7o+eggQ0KICAgICAgICANCiAgICAgICAgUmV0dXJuczoNCiAgICAgICAgICAgIHR1cGxlOiAo5o6o6I2Q6K+E57qnLCDor4TnuqfmlbDph48pDQogICAgICAgICIiIg0KICAgICAgICB0cnk6DQogICAgICAgICAgICAjIOS9v+eUqOacuuaehOivhOe6p+aOpeWPow0KICAgICAgICAgICAgZGYgPSBhay5zdG9ja196aF9hX3JlcG9ydF9yY19lbShzeW1ib2w9c3ltYm9sKQ0KICAgICAgICAgICAgDQogICAgICAgICAgICBpZiBkZi5lbXB0eToNCiAgICAgICAgICAgICAgICByZXR1cm4gTm9uZSwgMA0KICAgICAgICAgICAgDQogICAgICAgICAgICAjIOiOt+WPluacgOaWsOivhOe6pw0KICAgICAgICAgICAgbGF0ZXN0ID0gZGYuaWxvY1swXQ0KICAgICAgICAgICAgcmVjb21tZW5kYXRpb24gPSBsYXRlc3QuZ2V0KCfor4TnuqfnsbvliKsnLCAnTi9BJykNCiAgICAgICAgICAgIGNvdW50ID0gMQ0KICAgICAgICAgICAgDQogICAgICAgICAgICByZXR1cm4gcmVjb21tZW5kYXRpb24sIGNvdW50DQogICAgICAgICAgICANCiAgICAgICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICAgICAgbG9nZ2VyLmVycm9yKGYi6I635Y+W5YiG5p6Q5biI5bu66K6u5aSx6LSlOiB7ZX0iKQ0KICAgICAgICAgICAgcmV0dXJuIE5vbmUsIDANCg0KDQpkZWYgY29udmVydF90b19ha3NoYXJlX2Zvcm1hdChzeW1ib2w6IHN0cikgLT4gc3RyOg0KICAgICIiIg0KICAgIOWwhuiCoeelqOS7o+eggei9rOaNouS4uiBBa1NoYXJlIOagvOW8jw0KICAgIA0KICAgIEFyZ3M6DQogICAgICAgIHN5bWJvbDog5Y6f5aeL6IKh56Wo5Luj56CBDQogICAgDQogICAgUmV0dXJuczoNCiAgICAgICAgc3RyOiBBa1NoYXJlIOagvOW8j+eahOiCoeelqOS7o+eggQ0KICAgICIiIg0KICAgICMg5aaC5p6c5bey57uP5piv57qv5pWw5a2X5qC85byP77yM55u05o6l6L+U5ZueDQogICAgaWYgc3ltYm9sLmlzZGlnaXQoKToNCiAgICAgICAgcmV0dXJuIHN5bWJvbA0KICAgIA0KICAgICMg5Y676Zmk5Y+v6IO955qE5ZCO57yA77yI5aaCIC5TSCwgLlNa77yJDQogICAgc3ltYm9sID0gc3ltYm9sLnNwbGl0KCcuJylbMF0NCiAgICANCiAgICByZXR1cm4gc3ltYm9sDQoNCg0KIyDliJvlu7rkvr/mjbflh73mlbDvvIjmm7/ku6MgeWZpbmFuY2Ug55qE6LCD55So5pa55byP77yJDQpkZWYgZ2V0X3N0b2NrX2RhdGEoc3ltYm9sLCBzdGFydF9kYXRlLCBlbmRfZGF0ZSwgc2F2ZV9wYXRoPU5vbmUpOg0KICAgICIiIuiOt+WPluiCoeelqOaXpee6v+aVsOaNriIiIg0KICAgIHJldHVybiBBa1NoYXJlVXRpbHMuZ2V0X3N0b2NrX2RhdGEoc3ltYm9sLCBzdGFydF9kYXRlLCBlbmRfZGF0ZSwgc2F2ZV9wYXRoKQ0KDQpkZWYgZ2V0X3N0b2NrX2luZm8oc3ltYm9sKToNCiAgICAiIiLojrflj5bogqHnpajkv6Hmga8iIiINCiAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9zdG9ja19pbmZvKHN5bWJvbCkNCg0KZGVmIGdldF9jb21wYW55X2luZm8oc3ltYm9sLCBzYXZlX3BhdGg9Tm9uZSk6DQogICAgIiIi6I635Y+W5YWs5Y+45L+h5oGvIiIiDQogICAgcmV0dXJuIEFrU2hhcmVVdGlscy5nZXRfY29tcGFueV9pbmZvKHN5bWJvbCwgc2F2ZV9wYXRoKQ0KDQpkZWYgZ2V0X3N0b2NrX2RpdmlkZW5kcyhzeW1ib2wsIHNhdmVfcGF0aD1Ob25lKToNCiAgICAiIiLojrflj5bliIbnuqLmlbDmja4iIiINCiAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9zdG9ja19kaXZpZGVuZHMoc3ltYm9sLCBzYXZlX3BhdGgpDQoNCmRlZiBnZXRfaW5jb21lX3N0bXQoc3ltYm9sKToNCiAgICAiIiLojrflj5bliKnmtqbooagiIiINCiAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9pbmNvbWVfc3RtdChzeW1ib2wpDQoNCmRlZiBnZXRfYmFsYW5jZV9zaGVldChzeW1ib2wpOg0KICAgICIiIuiOt+WPlui1hOS6p+i0n+WAuuihqCIiIg0KICAgIHJldHVybiBBa1NoYXJlVXRpbHMuZ2V0X2JhbGFuY2Vfc2hlZXQoc3ltYm9sKQ0KDQpkZWYgZ2V0X2Nhc2hfZmxvdyhzeW1ib2wpOg0KICAgICIiIuiOt+WPlueOsOmHkea1gemHj+ihqCIiIg0KICAgIHJldHVybiBBa1NoYXJlVXRpbHMuZ2V0X2Nhc2hfZmxvdyhzeW1ib2wpDQoNCmRlZiBnZXRfYW5hbHlzdF9yZWNvbW1lbmRhdGlvbnMoc3ltYm9sKToNCiAgICAiIiLojrflj5bliIbmnpDluIjlu7rorq4iIiINCiAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9hbmFseXN0X3JlY29tbWVuZGF0aW9ucyhzeW1ib2wpDQoNCiMg5Yib5bu65L6/5o235a6e5L6LDQpjbGFzcyBfQWtTaGFyZUhlbHBlcjoNCiAgICAiIiLkvr/mjbfosIPnlKjnsbsiIiINCiAgICANCiAgICBkZWYgZ2V0X3N0b2NrX2RhdGEoDQogICAgICAgIHNlbGYsDQogICAgICAgIHN5bWJvbDogc3RyLA0KICAgICAgICBzdGFydF9kYXRlOiBzdHIsDQogICAgICAgIGVuZF9kYXRlOiBzdHIsDQogICAgICAgIHNhdmVfcGF0aDogT3B0aW9uYWxbc3RyXSA9IE5vbmUsDQogICAgICAgIHVzZV9jYWNoZTogYm9vbCA9IFRydWUsDQogICAgKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluiCoeelqOaXpee6v+aVsOaNriIiIg0KICAgICAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9zdG9ja19kYXRhKHN5bWJvbCwgc3RhcnRfZGF0ZSwgZW5kX2RhdGUsIHNhdmVfcGF0aCwgdXNlX2NhY2hlKQ0KICAgIA0KICAgIGRlZiBnZXRfc3RvY2tfaW5mbyhzZWxmLCBzeW1ib2w6IHN0ciwgdXNlX2NhY2hlOiBib29sID0gVHJ1ZSkgLT4gRGljdFtzdHIsIEFueV06DQogICAgICAgICIiIuiOt+WPluiCoeelqOS/oeaBryIiIg0KICAgICAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9zdG9ja19pbmZvKHN5bWJvbCwgdXNlX2NhY2hlKQ0KICAgIA0KICAgIGRlZiBnZXRfY29tcGFueV9pbmZvKHNlbGYsIHN5bWJvbDogc3RyLCBzYXZlX3BhdGg6IE9wdGlvbmFsW3N0cl0gPSBOb25lKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluWFrOWPuOS/oeaBryIiIg0KICAgICAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9jb21wYW55X2luZm8oc3ltYm9sLCBzYXZlX3BhdGgpDQogICAgDQogICAgZGVmIGdldF9zdG9ja19kaXZpZGVuZHMoc2VsZiwgc3ltYm9sOiBzdHIsIHNhdmVfcGF0aDogT3B0aW9uYWxbc3RyXSA9IE5vbmUpIC0+IHBkLkRhdGFGcmFtZToNCiAgICAgICAgIiIi6I635Y+W5YiG57qi5pWw5o2uIiIiDQogICAgICAgIHJldHVybiBBa1NoYXJlVXRpbHMuZ2V0X3N0b2NrX2RpdmlkZW5kcyhzeW1ib2wsIHNhdmVfcGF0aCkNCiAgICANCiAgICBkZWYgZ2V0X2luY29tZV9zdG10KHNlbGYsIHN5bWJvbDogc3RyKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPluWIqea2puihqCIiIg0KICAgICAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9pbmNvbWVfc3RtdChzeW1ib2wpDQogICAgDQogICAgZGVmIGdldF9iYWxhbmNlX3NoZWV0KHNlbGYsIHN5bWJvbDogc3RyKSAtPiBwZC5EYXRhRnJhbWU6DQogICAgICAgICIiIuiOt+WPlui1hOS6p+i0n+WAuuihqCIiIg0KICAgICAgICByZXR1cm4gQWtTaGFyZVV0aWxzLmdldF9iYWxhbmNlX3NoZWV0KHN5bWJvbCkNCiAgICANCiAgICBkZWYgZ2V0X2Nhc2hfZmxvdyhzZWxmLCBzeW1ib2w6IHN0cikgLT4gcGQuRGF0YUZyYW1lOg0KICAgICAgICAiIiLojrflj5bnjrDph5HmtYHph4/ooagiIiINCiAgICAgICAgcmV0dXJuIEFrU2hhcmVVdGlscy5nZXRfY2FzaF9mbG93KHN5bWJvbCkNCiAgICANCiAgICBkZWYgZ2V0X2FuYWx5c3RfcmVjb21tZW5kYXRpb25zKHNlbGYsIHN5bWJvbDogc3RyKSAtPiBUdXBsZVtPcHRpb25hbFtzdHJdLCBpbnRdOg0KICAgICAgICAiIiLojrflj5bliIbmnpDluIjlu7rorq4iIiINCiAgICAgICAgcmV0dXJuIEFrU2hhcmVVdGlscy5nZXRfYW5hbHlzdF9yZWNvbW1lbmRhdGlvbnMoc3ltYm9sKQ0KDQpha3MgPSBfQWtTaGFyZUhlbHBlcigpDQo=
+# -*- coding: utf-8 -*-
+"""
+AkShare 股票数据接口 - 替代 yfinance
+提供与 yfin_utils 类似的功能接口，但使用 AkShare 获取数据
+适用于A股市场
+"""
+
+import akshare as ak
+import pandas as pd
+from typing import Annotated, Callable, Any, Optional, List, Dict, Tuple, Union
+from datetime import datetime, timedelta
+from functools import wraps
+import logging
+import time
+import hashlib
+import os
+
+# 导入缓存模块
+from .cache import (
+    cached, retry, get_cache, set_cache, _generate_cache_key,
+    RateLimiter, get_rate_limiter
+)
+
+logger = logging.getLogger(__name__)
+
+# 缓存配置
+STOCK_DATA_CACHE_TTL = 3600  # 股票数据缓存 1 小时
+STOCK_INFO_CACHE_TTL = 300   # 股票信息缓存 5 分钟
+
+# 限流器配置（AkShare 较宽容，设置较高限制）
+_stock_rate_limiter = RateLimiter(calls=30, period=60.0)  # 每分钟最多 30 次
+
+
+def init_akshare_ticker(func: Callable) -> Callable:
+    """装饰器：转换股票代码格式"""
+    @wraps(func)
+    def wrapper(symbol: Annotated[str, "ticker symbol"], *args, **kwargs):
+        # 转换股票代码为 AkShare 格式
+        akshare_symbol = convert_to_akshare_format(symbol)
+        return func(akshare_symbol, *args, **kwargs)
+    return wrapper
+
+
+@init_akshare_ticker
+class AkShareUtils:
+    """使用 AkShare 获取A股数据的工具类"""
+
+    @staticmethod
+    @retry(max_attempts=3, delay=1.0, backoff=2.0)
+    def get_stock_data(
+        symbol: Annotated[str, "ticker symbol"],
+        start_date: Annotated[str, "start date YYYY-mm-dd"],
+        end_date: Annotated[str, "end date YYYY-mm-dd"],
+        save_path: Optional[str] = None,
+        use_cache: bool = True,
+    ) -> pd.DataFrame:
+        """
+        获取股票日线数据（带缓存和重试机制）
+        
+        Args:
+            symbol: 股票代码，如 '000001'
+            start_date: 开始日期
+            end_date: 结束日期
+            save_path: 保存路径（可选）
+            use_cache: 是否使用缓存
+        
+        Returns:
+            pd.DataFrame: 包含 Open, High, Low, Close, Volume
+        """
+        # 生成缓存键
+        cache_key = _generate_cache_key("akshare_stock_data", symbol, start_date, end_date)
+        
+        # 尝试从缓存获取
+        if use_cache:
+            cached_data = get_cache(cache_key, STOCK_DATA_CACHE_TTL)
+            if cached_data is not None:
+                logger.debug(f"缓存命中: {symbol} {start_date}-{end_date}")
+                if save_path:
+                    cached_data.to_csv(save_path)
+                return cached_data
+        
+        try:
+            # 限流检查（每分钟最多 30 次 API 调用）
+            if not _stock_rate_limiter.wait_and_acquire(f"stock_data_{symbol}", timeout=30.0):
+                logger.warning(f"API 请求频率超限: {symbol}")
+                raise RuntimeError(f"Rate limit exceeded for stock data: {symbol}")
+            
+            # 转换日期格式
+            start_str = start_date.replace('-', '')
+            end_str = end_date.replace('-', '')
+            
+            df = ak.stock_zh_a_hist(
+                symbol=symbol,
+                period="daily",
+                start_date=start_str,
+                end_date=end_str,
+                adjust="qfq"
+            )
+            
+            if df.empty:
+                return df
+            
+            # 转换为与 yfinance 相同的列名格式
+            df = df.rename(columns={
+                '日期': 'Date',
+                '开盘': 'Open',
+                '收盘': 'Close',
+                '最高': 'High',
+                '最低': 'Low',
+                '成交量': 'Volume',
+                '成交额': 'Amount',
+                '振幅': 'Amplitude',
+                '涨跌幅': 'Pct_Change',
+                '涨跌额': 'Change',
+                '换手率': 'Turnover'
+            })
+            
+            # 设置日期索引
+            df['Date'] = pd.to_datetime(df['Date'])
+            df = df.set_index('Date')
+            
+            # 添加 Adj Close（与 Close 相同）
+            df['Adj Close'] = df['Close']
+            
+            # 保存到缓存
+            if use_cache:
+                set_cache(cache_key, df)
+            
+            if save_path:
+                df.to_csv(save_path)
+            
+            return df
+            
+        except Exception as e:
+            logger.error(f"获取股票数据失败: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    @retry(max_attempts=3, delay=0.5, backoff=2.0)
+    def get_stock_info(symbol: Annotated[str, "ticker symbol"], use_cache: bool = True) -> Dict[str, Any]:
+        """
+        获取股票基本信息（带缓存和重试机制）
+        
+        Args:
+            symbol: 股票代码
+            use_cache: 是否使用缓存
+        
+        Returns:
+            Dict[str, Any]: 包含股票基本信息
+        """
+        # 生成缓存键
+        cache_key = _generate_cache_key("akshare_stock_info", symbol)
+        
+        # 尝试从缓存获取
+        if use_cache:
+            cached_data = get_cache(cache_key, STOCK_INFO_CACHE_TTL)
+            if cached_data is not None:
+                logger.debug(f"缓存命中: {symbol} info")
+                return cached_data
+        
+        try:
+            # 限流检查
+            if not _stock_rate_limiter.wait_and_acquire(f"stock_info_{symbol}", timeout=30.0):
+                logger.warning(f"API 请求频率超限: {symbol}")
+                raise RuntimeError(f"Rate limit exceeded for stock info: {symbol}")
+            
+            # 使用单只股票信息接口（更快）
+            df = ak.stock_individual_info_em(symbol=symbol)
+            
+            if df.empty:
+                return {}
+            
+            # 转换为 dict
+            info: Dict[str, Any] = {}
+            for _, row in df.iterrows():
+                info[row['item']] = row['value']
+            
+            result: Dict[str, Any] = {
+                'shortName': info.get('股票简称', ''),
+                'industry': info.get('行业', ''),
+                'sector': info.get('行业', ''),
+                'totalShares': info.get('总股本', 0),
+                'circulatingShares': info.get('流通股', 0),
+                'totalMarketCap': info.get('总市值', 0),
+                'circulatingMarketCap': info.get('流通市值', 0),
+                'listingDate': info.get('上市时间', ''),
+            }
+            
+            # 保存到缓存
+            if use_cache:
+                set_cache(cache_key, result)
+            
+            return result
+            
+        except Exception as e:
+            logger.error(f"获取股票信息失败: {e}")
+            return {}
+
+    @staticmethod
+    def get_company_info(
+        symbol: Annotated[str, "ticker symbol"],
+        save_path: Optional[str] = None,
+    ) -> pd.DataFrame:
+        """
+        获取公司信息
+        
+        Args:
+            symbol: 股票代码
+            save_path: 保存路径（可选）
+        
+        Returns:
+            DataFrame 包含公司信息
+        """
+        try:
+            info = AkShareUtils.get_stock_info(symbol)
+            
+            company_info = {
+                "Company Name": info.get("shortName", "N/A"),
+                "Industry": info.get("industry", "N/A"),
+                "Sector": info.get("sector", "N/A"),
+                "Market": info.get("market", "N/A"),
+            }
+            
+            company_df = pd.DataFrame([company_info])
+            
+            if save_path:
+                company_df.to_csv(save_path, index=False)
+                print(f"Company info for {symbol} saved to {save_path}")
+            
+            return company_df
+            
+        except Exception as e:
+            logger.error(f"获取公司信息失败: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_stock_dividends(
+        symbol: Annotated[str, "ticker symbol"],
+        save_path: Optional[str] = None,
+    ) -> pd.DataFrame:
+        """
+        获取股票分红送转数据
+        
+        Args:
+            symbol: 股票代码
+            save_path: 保存路径（可选）
+        
+        Returns:
+            DataFrame 包含分红数据
+        """
+        try:
+            # AkShare 分红数据接口
+            df = ak.stock_dividend_flow_em(symbol=symbol)
+            
+            if df.empty:
+                return pd.DataFrame()
+            
+            if save_path:
+                df.to_csv(save_path, index=False)
+                print(f"Dividends for {symbol} saved to {save_path}")
+            
+            return df
+            
+        except Exception as e:
+            logger.error(f"获取分红数据失败: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_income_stmt(symbol: Annotated[str, "ticker symbol"]) -> pd.DataFrame:
+        """
+        获取利润表数据
+        
+        Args:
+            symbol: 股票代码
+        
+        Returns:
+            DataFrame 包含利润表
+        """
+        try:
+            df = ak.stock_financial_analysis_indicator(symbol=symbol)
+            return df
+            
+        except Exception as e:
+            logger.error(f"获取利润表失败: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_balance_sheet(symbol: Annotated[str, "ticker symbol"]) -> pd.DataFrame:
+        """
+        获取资产负债表数据
+        
+        Args:
+            symbol: 股票代码
+        
+        Returns:
+            DataFrame 包含资产负债表
+        """
+        try:
+            # 使用资产负债表接口
+            df = ak.stock_balance_sheet_em(symbol=symbol)
+            return df
+            
+        except Exception as e:
+            logger.error(f"获取资产负债表失败: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_cash_flow(symbol: Annotated[str, "ticker symbol"]) -> pd.DataFrame:
+        """
+        获取现金流量表数据
+        
+        Args:
+            symbol: 股票代码
+        
+        Returns:
+            DataFrame 包含现金流量表
+        """
+        try:
+            df = ak.stock_cash_flow_em(symbol=symbol)
+            return df
+            
+        except Exception as e:
+            logger.error(f"获取现金流量表失败: {e}")
+            return pd.DataFrame()
+
+    @staticmethod
+    def get_analyst_recommendations(symbol: Annotated[str, "ticker symbol"]) -> tuple:
+        """
+        获取分析师建议
+        
+        Args:
+            symbol: 股票代码
+        
+        Returns:
+            tuple: (推荐评级, 评级数量)
+        """
+        try:
+            # 使用机构评级接口
+            df = ak.stock_zh_a_report_rc_em(symbol=symbol)
+            
+            if df.empty:
+                return None, 0
+            
+            # 获取最新评级
+            latest = df.iloc[0]
+            recommendation = latest.get('评级类别', 'N/A')
+            count = 1
+            
+            return recommendation, count
+            
+        except Exception as e:
+            logger.error(f"获取分析师建议失败: {e}")
+            return None, 0
+
+
+def convert_to_akshare_format(symbol: str) -> str:
+    """
+    将股票代码转换为 AkShare 格式
+    
+    Args:
+        symbol: 原始股票代码
+    
+    Returns:
+        str: AkShare 格式的股票代码
+    """
+    # 如果已经是纯数字格式，直接返回
+    if symbol.isdigit():
+        return symbol
+    
+    # 去除可能的后缀（如 .SH, .SZ）
+    symbol = symbol.split('.')[0]
+    
+    return symbol
+
+
+# 创建便捷函数（替代 yfinance 的调用方式）
+def get_stock_data(symbol, start_date, end_date, save_path=None):
+    """获取股票日线数据"""
+    return AkShareUtils.get_stock_data(symbol, start_date, end_date, save_path)
+
+def get_stock_info(symbol):
+    """获取股票信息"""
+    return AkShareUtils.get_stock_info(symbol)
+
+def get_company_info(symbol, save_path=None):
+    """获取公司信息"""
+    return AkShareUtils.get_company_info(symbol, save_path)
+
+def get_stock_dividends(symbol, save_path=None):
+    """获取分红数据"""
+    return AkShareUtils.get_stock_dividends(symbol, save_path)
+
+def get_income_stmt(symbol):
+    """获取利润表"""
+    return AkShareUtils.get_income_stmt(symbol)
+
+def get_balance_sheet(symbol):
+    """获取资产负债表"""
+    return AkShareUtils.get_balance_sheet(symbol)
+
+def get_cash_flow(symbol):
+    """获取现金流量表"""
+    return AkShareUtils.get_cash_flow(symbol)
+
+def get_analyst_recommendations(symbol):
+    """获取分析师建议"""
+    return AkShareUtils.get_analyst_recommendations(symbol)
+
+# 创建便捷实例
+class _AkShareHelper:
+    """便捷调用类"""
+    
+    def get_stock_data(
+        self,
+        symbol: str,
+        start_date: str,
+        end_date: str,
+        save_path: Optional[str] = None,
+        use_cache: bool = True,
+    ) -> pd.DataFrame:
+        """获取股票日线数据"""
+        return AkShareUtils.get_stock_data(symbol, start_date, end_date, save_path, use_cache)
+    
+    def get_stock_info(self, symbol: str, use_cache: bool = True) -> Dict[str, Any]:
+        """获取股票信息"""
+        return AkShareUtils.get_stock_info(symbol, use_cache)
+    
+    def get_company_info(self, symbol: str, save_path: Optional[str] = None) -> pd.DataFrame:
+        """获取公司信息"""
+        return AkShareUtils.get_company_info(symbol, save_path)
+    
+    def get_stock_dividends(self, symbol: str, save_path: Optional[str] = None) -> pd.DataFrame:
+        """获取分红数据"""
+        return AkShareUtils.get_stock_dividends(symbol, save_path)
+    
+    def get_income_stmt(self, symbol: str) -> pd.DataFrame:
+        """获取利润表"""
+        return AkShareUtils.get_income_stmt(symbol)
+    
+    def get_balance_sheet(self, symbol: str) -> pd.DataFrame:
+        """获取资产负债表"""
+        return AkShareUtils.get_balance_sheet(symbol)
+    
+    def get_cash_flow(self, symbol: str) -> pd.DataFrame:
+        """获取现金流量表"""
+        return AkShareUtils.get_cash_flow(symbol)
+    
+    def get_analyst_recommendations(self, symbol: str) -> Tuple[Optional[str], int]:
+        """获取分析师建议"""
+        return AkShareUtils.get_analyst_recommendations(symbol)
+
+aks = _AkShareHelper()

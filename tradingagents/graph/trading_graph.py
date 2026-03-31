@@ -1,1 +1,317 @@
-77u/IyBUcmFkaW5nQWdlbnRzL2dyYXBoL3RyYWRpbmdfZ3JhcGgucHkKCmltcG9ydCBvcwpmcm9tIHBhdGhsaWIgaW1wb3J0IFBhdGgKaW1wb3J0IGpzb24KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZQpmcm9tIHR5cGluZyBpbXBvcnQgRGljdCwgQW55LCBUdXBsZSwgTGlzdCwgT3B0aW9uYWwsIFR5cGUKCmZyb20gbGFuZ2NoYWluX29wZW5haSBpbXBvcnQgQ2hhdE9wZW5BSQpmcm9tIGxhbmdjaGFpbl9hbnRocm9waWMgaW1wb3J0IENoYXRBbnRocm9waWMKZnJvbSBsYW5nY2hhaW5fZ29vZ2xlX2dlbmFpIGltcG9ydCBDaGF0R29vZ2xlR2VuZXJhdGl2ZUFJCmZyb20gbGFuZ2NoYWluX2NvcmUubGFuZ3VhZ2VfbW9kZWxzIGltcG9ydCBCYXNlQ2hhdE1vZGVsCgpmcm9tIGxhbmdncmFwaC5wcmVidWlsdCBpbXBvcnQgVG9vbE5vZGUKCmZyb20gdHJhZGluZ2FnZW50cy5hZ2VudHMgaW1wb3J0ICoKZnJvbSB0cmFkaW5nYWdlbnRzLmRlZmF1bHRfY29uZmlnIGltcG9ydCBERUZBVUxUX0NPTkZJRywgQ0hJTkFfTExNX0NPTkZJR1MKZnJvbSB0cmFkaW5nYWdlbnRzLmFnZW50cy51dGlscy5tZW1vcnkgaW1wb3J0IEZpbmFuY2lhbFNpdHVhdGlvbk1lbW9yeQpmcm9tIHRyYWRpbmdhZ2VudHMuYWdlbnRzLnV0aWxzLmFnZW50X3N0YXRlcyBpbXBvcnQgKAogICAgQWdlbnRTdGF0ZSwKICAgIEludmVzdERlYmF0ZVN0YXRlLAogICAgUmlza0RlYmF0ZVN0YXRlLAopCmZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MuaW50ZXJmYWNlIGltcG9ydCBzZXRfY29uZmlnCgpmcm9tIC5jb25kaXRpb25hbF9sb2dpYyBpbXBvcnQgQ29uZGl0aW9uYWxMb2dpYwpmcm9tIC5zZXR1cCBpbXBvcnQgR3JhcGhTZXR1cApmcm9tIC5wcm9wYWdhdGlvbiBpbXBvcnQgUHJvcGFnYXRvcgpmcm9tIC5yZWZsZWN0aW9uIGltcG9ydCBSZWZsZWN0b3IKZnJvbSAuc2lnbmFsX3Byb2Nlc3NpbmcgaW1wb3J0IFNpZ25hbFByb2Nlc3NvcgoKCiMgTExNIFByb3ZpZGVyIOaYoOWwhOihqO+8iOaUr+aMgeaJqeWxle+8iQojIOazqOaEj++8muaJgOacieS4reWbvSBMTE0g6YO95L2/55SoIE9wZW5BSSDlhbzlrrkgQVBJ77yM6YCa6L+HIGJhc2VfdXJsIOmFjee9rgpMTE1fUFJPVklERVJfTUFQOiBEaWN0W3N0ciwgVHVwbGVbVHlwZVtCYXNlQ2hhdE1vZGVsXSwgRGljdFtzdHIsIEFueV1dXSA9IHsKICAgICJvcGVuYWkiOiAoQ2hhdE9wZW5BSSwgeyJiYXNlX3VybCI6IE5vbmV9KSwgICMgYmFzZV91cmwg5LuO6YWN572u6K+75Y+WCiAgICAib2xsYW1hIjogKENoYXRPcGVuQUksIHsiYmFzZV91cmwiOiAiaHR0cDovL2xvY2FsaG9zdDoxMTQzNC92MSJ9KSwKICAgICJvcGVucm91dGVyIjogKENoYXRPcGVuQUksIHsiYmFzZV91cmwiOiAiaHR0cHM6Ly9vcGVucm91dGVyLmFpL2FwaS92MSJ9KSwKICAgICJhbnRocm9waWMiOiAoQ2hhdEFudGhyb3BpYywgeyJiYXNlX3VybCI6IE5vbmV9KSwKICAgICJnb29nbGUiOiAoQ2hhdEdvb2dsZUdlbmVyYXRpdmVBSSwgeyJiYXNlX3VybCI6IE5vbmV9KSwKICAgICMg5Lit5Zu9IExMTSDmj5DkvpvllYbvvIjlnYfkvb/nlKggT3BlbkFJIOWFvOWuuSBBUEnvvIkKICAgICJkZWVwc2VlayI6IChDaGF0T3BlbkFJLCB7ImJhc2VfdXJsIjogImh0dHBzOi8vYXBpLmRlZXBzZWVrLmNvbS92MSJ9KSwKICAgICJ6aGlwdSI6IChDaGF0T3BlbkFJLCB7ImJhc2VfdXJsIjogImh0dHBzOi8vb3Blbi5iaWdtb2RlbC5jbi9hcGkvcGFhcy92NCJ9KSwKICAgICJxd2VuIjogKENoYXRPcGVuQUksIHsiYmFzZV91cmwiOiAiaHR0cHM6Ly9kYXNoc2NvcGUuYWxpeXVuY3MuY29tL2NvbXBhdGlibGUtbW9kZS92MSJ9KSwKICAgICJ3ZW54aW4iOiAoQ2hhdE9wZW5BSSwgeyJiYXNlX3VybCI6ICJodHRwczovL3FpYW5mYW4uYmFpZHViY2UuY29tL3YyIn0pLAogICAgInNwYXJrIjogKENoYXRPcGVuQUksIHsiYmFzZV91cmwiOiAiaHR0cHM6Ly9zcGFyay1hcGkueGYteXVuLmNvbS92My41In0pLAp9CgoKZGVmIF9jcmVhdGVfbGxtKHByb3ZpZGVyOiBzdHIsIG1vZGVsOiBzdHIsIGNvbmZpZzogRGljdFtzdHIsIEFueV0pIC0+IEJhc2VDaGF0TW9kZWw6CiAgICAiIiLmoLnmja7phY3nva7liJvlu7ogTExNIOWunuS+iyIiIgogICAgcHJvdmlkZXJfbG93ZXIgPSBwcm92aWRlci5sb3dlcigpCiAgICAKICAgIGlmIHByb3ZpZGVyX2xvd2VyIG5vdCBpbiBMTE1fUFJPVklERVJfTUFQOgogICAgICAgIHJhaXNlIFZhbHVlRXJyb3IoZiJVbnN1cHBvcnRlZCBMTE0gcHJvdmlkZXI6IHtwcm92aWRlcn0uIFN1cHBvcnRlZDoge2xpc3QoTExNX1BST1ZJREVSX01BUC5rZXlzKCkpfSIpCiAgICAKICAgIGxsbV9jbGFzcywgZGVmYXVsdF9rd2FyZ3MgPSBMTE1fUFJPVklERVJfTUFQW3Byb3ZpZGVyX2xvd2VyXQogICAgCiAgICAjIOWQiOW5tuWPguaVsO+8mum7mOiupOWPguaVsCArIOmFjee9ruimhueblgogICAga3dhcmdzID0geyoqZGVmYXVsdF9rd2FyZ3MsICJtb2RlbCI6IG1vZGVsfQogICAgCiAgICAjIOWkhOeQhiBiYXNlX3VybO+8iOS7heW9k+m7mOiupOWAvOWtmOWcqOaXtuimhueblu+8iQogICAgaWYgcHJvdmlkZXJfbG93ZXIgaW4gKCJvcGVuYWkiLCAib2xsYW1hIiwgIm9wZW5yb3V0ZXIiLCAiYW50aHJvcGljIik6CiAgICAgICAgaWYgY29uZmlnLmdldCgiYmFja2VuZF91cmwiKToKICAgICAgICAgICAga3dhcmdzWyJiYXNlX3VybCJdID0gY29uZmlnWyJiYWNrZW5kX3VybCJdCiAgICAKICAgICMgQVBJIEtleSDlpITnkIYKICAgIGlmIHByb3ZpZGVyX2xvd2VyID09ICJhbnRocm9waWMiOgogICAgICAgIGlmIGNvbmZpZy5nZXQoImFudGhyb3BpY19hcGlfa2V5Iik6CiAgICAgICAgICAgIGt3YXJnc1siYXBpX2tleSJdID0gY29uZmlnWyJhbnRocm9waWNfYXBpX2tleSJdCiAgICBlbGlmIHByb3ZpZGVyX2xvd2VyID09ICJkZWVwc2VlayI6CiAgICAgICAgaWYgY29uZmlnLmdldCgiZGVlcHNlZWtfYXBpX2tleSIpOgogICAgICAgICAgICBrd2FyZ3NbImFwaV9rZXkiXSA9IGNvbmZpZ1siZGVlcHNlZWtfYXBpX2tleSJdCiAgICBlbGlmIHByb3ZpZGVyX2xvd2VyID09ICJ6aGlwdSI6CiAgICAgICAgaWYgY29uZmlnLmdldCgiemhpcHVfYXBpX2tleSIpOgogICAgICAgICAgICBrd2FyZ3NbImFwaV9rZXkiXSA9IGNvbmZpZ1siemhpcHVfYXBpX2tleSJdCiAgICBlbGlmIHByb3ZpZGVyX2xvd2VyID09ICJxd2VuIjoKICAgICAgICBpZiBjb25maWcuZ2V0KCJxd2VuX2FwaV9rZXkiKToKICAgICAgICAgICAga3dhcmdzWyJhcGlfa2V5Il0gPSBjb25maWdbInF3ZW5fYXBpX2tleSJdCiAgICBlbGlmIHByb3ZpZGVyX2xvd2VyID09ICJ3ZW54aW4iOgogICAgICAgIGlmIGNvbmZpZy5nZXQoIndlbnhpbl9hcGlfa2V5Iik6CiAgICAgICAgICAgIGt3YXJnc1siYXBpX2tleSJdID0gY29uZmlnWyJ3ZW54aW5fYXBpX2tleSJdCiAgICBlbGlmIHByb3ZpZGVyX2xvd2VyID09ICJzcGFyayI6CiAgICAgICAgIyDorq/po57mmJ/ngavkvb/nlKjnibnmrornmoTorqTor4HmlrnlvI8KICAgICAgICBpZiBjb25maWcuZ2V0KCJzcGFya19hcGlfa2V5Iik6CiAgICAgICAgICAgIGt3YXJnc1siYXBpX2tleSJdID0gY29uZmlnWyJzcGFya19hcGlfa2V5Il0KICAgICAgICAjIGFwcF9pZCDkvZzkuLrpop3lpJblj4LmlbDkvKDpgJLvvIjorq/po57kvb/nlKjoh6rlrprkuYnlj4LmlbDvvIkKICAgIGVsc2U6CiAgICAgICAgaWYgY29uZmlnLmdldCgib3BlbmFpX2FwaV9rZXkiKToKICAgICAgICAgICAga3dhcmdzWyJhcGlfa2V5Il0gPSBjb25maWdbIm9wZW5haV9hcGlfa2V5Il0KICAgIAogICAgcmV0dXJuIGxsbV9jbGFzcygqKntrOiB2IGZvciBrLCB2IGluIGt3YXJncy5pdGVtcygpIGlmIHYgaXMgbm90IE5vbmV9KQoKCmNsYXNzIFRyYWRpbmdBZ2VudHNHcmFwaDoKICAgICIiIk1haW4gY2xhc3MgdGhhdCBvcmNoZXN0cmF0ZXMgdGhlIHRyYWRpbmcgYWdlbnRzIGZyYW1ld29yay4iIiIKCiAgICBkZWYgX19pbml0X18oCiAgICAgICAgc2VsZiwKICAgICAgICBzZWxlY3RlZF9hbmFseXN0cz1bIm1hcmtldCIsICJzb2NpYWwiLCAibmV3cyIsICJmdW5kYW1lbnRhbHMiXSwKICAgICAgICBkZWJ1Zz1GYWxzZSwKICAgICAgICBjb25maWc6IERpY3Rbc3RyLCBBbnldID0gTm9uZSwKICAgICk6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB0aGUgdHJhZGluZyBhZ2VudHMgZ3JhcGggYW5kIGNvbXBvbmVudHMuCgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHNlbGVjdGVkX2FuYWx5c3RzOiBMaXN0IG9mIGFuYWx5c3QgdHlwZXMgdG8gaW5jbHVkZQogICAgICAgICAgICBkZWJ1ZzogV2hldGhlciB0byBydW4gaW4gZGVidWcgbW9kZQogICAgICAgICAgICBjb25maWc6IENvbmZpZ3VyYXRpb24gZGljdGlvbmFyeS4gSWYgTm9uZSwgdXNlcyBkZWZhdWx0IGNvbmZpZwogICAgICAgICIiIgogICAgICAgIHNlbGYuZGVidWcgPSBkZWJ1ZwogICAgICAgIHNlbGYuY29uZmlnID0gY29uZmlnIG9yIERFRkFVTFRfQ09ORklHCgogICAgICAgICMgVXBkYXRlIHRoZSBpbnRlcmZhY2UncyBjb25maWcKICAgICAgICBzZXRfY29uZmlnKHNlbGYuY29uZmlnKQoKICAgICAgICAjIENyZWF0ZSBuZWNlc3NhcnkgZGlyZWN0b3JpZXMKICAgICAgICBvcy5tYWtlZGlycygKICAgICAgICAgICAgb3MucGF0aC5qb2luKHNlbGYuY29uZmlnWyJwcm9qZWN0X2RpciJdLCAiZGF0YWZsb3dzL2RhdGFfY2FjaGUiKSwKICAgICAgICAgICAgZXhpc3Rfb2s9VHJ1ZSwKICAgICAgICApCgogICAgICAgICMgSW5pdGlhbGl6ZSBMTE1zICjkvb/nlKjlrZflhbjmmKDlsITnroDljJYpCiAgICAgICAgc2VsZi5kZWVwX3RoaW5raW5nX2xsbSA9IF9jcmVhdGVfbGxtKAogICAgICAgICAgICBzZWxmLmNvbmZpZ1sibGxtX3Byb3ZpZGVyIl0sCiAgICAgICAgICAgIHNlbGYuY29uZmlnWyJkZWVwX3RoaW5rX2xsbSJdLAogICAgICAgICAgICBzZWxmLmNvbmZpZwogICAgICAgICkKICAgICAgICBzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSA9IF9jcmVhdGVfbGxtKAogICAgICAgICAgICBzZWxmLmNvbmZpZ1sibGxtX3Byb3ZpZGVyIl0sCiAgICAgICAgICAgIHNlbGYuY29uZmlnWyJxdWlja190aGlua19sbG0iXSwKICAgICAgICAgICAgc2VsZi5jb25maWcKICAgICAgICApCiAgICAgICAgCiAgICAgICAgc2VsZi50b29sa2l0ID0gVG9vbGtpdChjb25maWc9c2VsZi5jb25maWcpCgogICAgICAgICMgSW5pdGlhbGl6ZSBtZW1vcmllcwogICAgICAgIHNlbGYuYnVsbF9tZW1vcnkgPSBGaW5hbmNpYWxTaXR1YXRpb25NZW1vcnkoImJ1bGxfbWVtb3J5Iiwgc2VsZi5jb25maWcpCiAgICAgICAgc2VsZi5iZWFyX21lbW9yeSA9IEZpbmFuY2lhbFNpdHVhdGlvbk1lbW9yeSgiYmVhcl9tZW1vcnkiLCBzZWxmLmNvbmZpZykKICAgICAgICBzZWxmLnRyYWRlcl9tZW1vcnkgPSBGaW5hbmNpYWxTaXR1YXRpb25NZW1vcnkoInRyYWRlcl9tZW1vcnkiLCBzZWxmLmNvbmZpZykKICAgICAgICBzZWxmLmludmVzdF9qdWRnZV9tZW1vcnkgPSBGaW5hbmNpYWxTaXR1YXRpb25NZW1vcnkoImludmVzdF9qdWRnZV9tZW1vcnkiLCBzZWxmLmNvbmZpZykKICAgICAgICBzZWxmLnJpc2tfbWFuYWdlcl9tZW1vcnkgPSBGaW5hbmNpYWxTaXR1YXRpb25NZW1vcnkoInJpc2tfbWFuYWdlcl9tZW1vcnkiLCBzZWxmLmNvbmZpZykKCiAgICAgICAgIyBDcmVhdGUgdG9vbCBub2RlcwogICAgICAgIHNlbGYudG9vbF9ub2RlcyA9IHNlbGYuX2NyZWF0ZV90b29sX25vZGVzKCkKCiAgICAgICAgIyBJbml0aWFsaXplIGNvbXBvbmVudHMKICAgICAgICBzZWxmLmNvbmRpdGlvbmFsX2xvZ2ljID0gQ29uZGl0aW9uYWxMb2dpYygpCiAgICAgICAgc2VsZi5ncmFwaF9zZXR1cCA9IEdyYXBoU2V0dXAoCiAgICAgICAgICAgIHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtLAogICAgICAgICAgICBzZWxmLmRlZXBfdGhpbmtpbmdfbGxtLAogICAgICAgICAgICBzZWxmLnRvb2xraXQsCiAgICAgICAgICAgIHNlbGYudG9vbF9ub2RlcywKICAgICAgICAgICAgc2VsZi5idWxsX21lbW9yeSwKICAgICAgICAgICAgc2VsZi5iZWFyX21lbW9yeSwKICAgICAgICAgICAgc2VsZi50cmFkZXJfbWVtb3J5LAogICAgICAgICAgICBzZWxmLmludmVzdF9qdWRnZV9tZW1vcnksCiAgICAgICAgICAgIHNlbGYucmlza19tYW5hZ2VyX21lbW9yeSwKICAgICAgICAgICAgc2VsZi5jb25kaXRpb25hbF9sb2dpYywKICAgICAgICApCgogICAgICAgIHNlbGYucHJvcGFnYXRvciA9IFByb3BhZ2F0b3IoKQogICAgICAgIHNlbGYucmVmbGVjdG9yID0gUmVmbGVjdG9yKHNlbGYucXVpY2tfdGhpbmtpbmdfbGxtKQogICAgICAgIHNlbGYuc2lnbmFsX3Byb2Nlc3NvciA9IFNpZ25hbFByb2Nlc3NvcihzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSkKCiAgICAgICAgIyBTdGF0ZSB0cmFja2luZwogICAgICAgIHNlbGYuY3Vycl9zdGF0ZSA9IE5vbmUKICAgICAgICBzZWxmLnRpY2tlciA9IE5vbmUKICAgICAgICBzZWxmLmxvZ19zdGF0ZXNfZGljdCA9IHt9ICAjIGRhdGUgdG8gZnVsbCBzdGF0ZSBkaWN0CgogICAgICAgICMgU2V0IHVwIHRoZSBncmFwaAogICAgICAgIHNlbGYuZ3JhcGggPSBzZWxmLmdyYXBoX3NldHVwLnNldHVwX2dyYXBoKHNlbGVjdGVkX2FuYWx5c3RzKQoKICAgIGRlZiBfY3JlYXRlX3Rvb2xfbm9kZXMoc2VsZikgLT4gRGljdFtzdHIsIFRvb2xOb2RlXToKICAgICAgICAiIiJDcmVhdGUgdG9vbCBub2RlcyBmb3IgZGlmZmVyZW50IGRhdGEgc291cmNlcy4iIiIKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAibWFya2V0IjogVG9vbE5vZGUoCiAgICAgICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAgICAgIyBvbmxpbmUgdG9vbHMKICAgICAgICAgICAgICAgICAgICBzZWxmLnRvb2xraXQuZ2V0X1lGaW5fZGF0YV9vbmxpbmUsCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9zdG9ja3N0YXRzX2luZGljYXRvcnNfcmVwb3J0X29ubGluZSwKICAgICAgICAgICAgICAgICAgICAjIG9mZmxpbmUgdG9vbHMKICAgICAgICAgICAgICAgICAgICBzZWxmLnRvb2xraXQuZ2V0X1lGaW5fZGF0YSwKICAgICAgICAgICAgICAgICAgICBzZWxmLnRvb2xraXQuZ2V0X3N0b2Nrc3RhdHNfaW5kaWNhdG9yc19yZXBvcnQsCiAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICksCiAgICAgICAgICAgICJzb2NpYWwiOiBUb29sTm9kZSgKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAjIG9ubGluZSB0b29scwogICAgICAgICAgICAgICAgICAgIHNlbGYudG9vbGtpdC5nZXRfc3RvY2tfbmV3c19vcGVuYWksCiAgICAgICAgICAgICAgICAgICAgIyBvZmZsaW5lIHRvb2xzCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9yZWRkaXRfc3RvY2tfaW5mbywKICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgKSwKICAgICAgICAgICAgIm5ld3MiOiBUb29sTm9kZSgKICAgICAgICAgICAgICAgIFsKICAgICAgICAgICAgICAgICAgICAjIG9ubGluZSB0b29scwogICAgICAgICAgICAgICAgICAgIHNlbGYudG9vbGtpdC5nZXRfZ2xvYmFsX25ld3Nfb3BlbmFpLAogICAgICAgICAgICAgICAgICAgIHNlbGYudG9vbGtpdC5nZXRfZ29vZ2xlX25ld3MsCiAgICAgICAgICAgICAgICAgICAgIyBvZmZsaW5lIHRvb2xzCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9maW5uaHViX25ld3MsCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9yZWRkaXRfbmV3cywKICAgICAgICAgICAgICAgIF0KICAgICAgICAgICAgKSwKICAgICAgICAgICAgImZ1bmRhbWVudGFscyI6IFRvb2xOb2RlKAogICAgICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgICAgICMgb25saW5lIHRvb2xzCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9mdW5kYW1lbnRhbHNfb3BlbmFpLAogICAgICAgICAgICAgICAgICAgICMgb2ZmbGluZSB0b29scwogICAgICAgICAgICAgICAgICAgIHNlbGYudG9vbGtpdC5nZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfc2VudGltZW50LAogICAgICAgICAgICAgICAgICAgIHNlbGYudG9vbGtpdC5nZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfdHJhbnNhY3Rpb25zLAogICAgICAgICAgICAgICAgICAgIHNlbGYudG9vbGtpdC5nZXRfc2ltZmluX2JhbGFuY2Vfc2hlZXQsCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9zaW1maW5fY2FzaGZsb3csCiAgICAgICAgICAgICAgICAgICAgc2VsZi50b29sa2l0LmdldF9zaW1maW5faW5jb21lX3N0bXQsCiAgICAgICAgICAgICAgICBdCiAgICAgICAgICAgICksCiAgICAgICAgfQoKICAgIGRlZiBwcm9wYWdhdGUoc2VsZiwgY29tcGFueV9uYW1lLCB0cmFkZV9kYXRlKToKICAgICAgICAiIiJSdW4gdGhlIHRyYWRpbmcgYWdlbnRzIGdyYXBoIGZvciBhIGNvbXBhbnkgb24gYSBzcGVjaWZpYyBkYXRlLiIiIgoKICAgICAgICBzZWxmLnRpY2tlciA9IGNvbXBhbnlfbmFtZQoKICAgICAgICAjIEluaXRpYWxpemUgc3RhdGUKICAgICAgICBpbml0X2FnZW50X3N0YXRlID0gc2VsZi5wcm9wYWdhdG9yLmNyZWF0ZV9pbml0aWFsX3N0YXRlKAogICAgICAgICAgICBjb21wYW55X25hbWUsIHRyYWRlX2RhdGUKICAgICAgICApCiAgICAgICAgYXJncyA9IHNlbGYucHJvcGFnYXRvci5nZXRfZ3JhcGhfYXJncygpCgogICAgICAgIGlmIHNlbGYuZGVidWc6CiAgICAgICAgICAgICMgRGVidWcgbW9kZSB3aXRoIHRyYWNpbmcKICAgICAgICAgICAgdHJhY2UgPSBbXQogICAgICAgICAgICBmb3IgY2h1bmsgaW4gc2VsZi5ncmFwaC5zdHJlYW0oaW5pdF9hZ2VudF9zdGF0ZSwgKiphcmdzKToKICAgICAgICAgICAgICAgIGlmIGxlbihjaHVua1sibWVzc2FnZXMiXSkgPT0gMDoKICAgICAgICAgICAgICAgICAgICBwYXNzCiAgICAgICAgICAgICAgICBlbHNlOgogICAgICAgICAgICAgICAgICAgIGNodW5rWyJtZXNzYWdlcyJdWy0xXS5wcmV0dHlfcHJpbnQoKQogICAgICAgICAgICAgICAgICAgIHRyYWNlLmFwcGVuZChjaHVuaykKCiAgICAgICAgICAgIGZpbmFsX3N0YXRlID0gdHJhY2VbLTFdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgIyBTdGFuZGFyZCBtb2RlIHdpdGhvdXQgdHJhY2luZwogICAgICAgICAgICBmaW5hbF9zdGF0ZSA9IHNlbGYuZ3JhcGguaW52b2tlKGluaXRfYWdlbnRfc3RhdGUsICoqYXJncykKCiAgICAgICAgIyBTdG9yZSBjdXJyZW50IHN0YXRlIGZvciByZWZsZWN0aW9uCiAgICAgICAgc2VsZi5jdXJyX3N0YXRlID0gZmluYWxfc3RhdGUKCiAgICAgICAgIyBMb2cgc3RhdGUKICAgICAgICBzZWxmLl9sb2dfc3RhdGUodHJhZGVfZGF0ZSwgZmluYWxfc3RhdGUpCgogICAgICAgICMgUmV0dXJuIGRlY2lzaW9uIGFuZCBwcm9jZXNzZWQgc2lnbmFsCiAgICAgICAgcmV0dXJuIGZpbmFsX3N0YXRlLCBzZWxmLnByb2Nlc3Nfc2lnbmFsKGZpbmFsX3N0YXRlWyJmaW5hbF90cmFkZV9kZWNpc2lvbiJdKQoKICAgIGRlZiBfbG9nX3N0YXRlKHNlbGYsIHRyYWRlX2RhdGUsIGZpbmFsX3N0YXRlKToKICAgICAgICAiIiJMb2cgdGhlIGZpbmFsIHN0YXRlIHRvIGEgSlNPTiBmaWxlLiIiIgogICAgICAgIHNlbGYubG9nX3N0YXRlc19kaWN0W3N0cih0cmFkZV9kYXRlKV0gPSB7CiAgICAgICAgICAgICJjb21wYW55X29mX2ludGVyZXN0IjogZmluYWxfc3RhdGVbImNvbXBhbnlfb2ZfaW50ZXJlc3QiXSwKICAgICAgICAgICAgInRyYWRlX2RhdGUiOiBmaW5hbF9zdGF0ZVsidHJhZGVfZGF0ZSJdLAogICAgICAgICAgICAibWFya2V0X3JlcG9ydCI6IGZpbmFsX3N0YXRlWyJtYXJrZXRfcmVwb3J0Il0sCiAgICAgICAgICAgICJzZW50aW1lbnRfcmVwb3J0IjogZmluYWxfc3RhdGVbInNlbnRpbWVudF9yZXBvcnQiXSwKICAgICAgICAgICAgIm5ld3NfcmVwb3J0IjogZmluYWxfc3RhdGVbIm5ld3NfcmVwb3J0Il0sCiAgICAgICAgICAgICJmdW5kYW1lbnRhbHNfcmVwb3J0IjogZmluYWxfc3RhdGVbImZ1bmRhbWVudGFsc19yZXBvcnQiXSwKICAgICAgICAgICAgImludmVzdG1lbnRfZGViYXRlX3N0YXRlIjogewogICAgICAgICAgICAgICAgImJ1bGxfaGlzdG9yeSI6IGZpbmFsX3N0YXRlWyJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSJdWyJidWxsX2hpc3RvcnkiXSwKICAgICAgICAgICAgICAgICJiZWFyX2hpc3RvcnkiOiBmaW5hbF9zdGF0ZVsiaW52ZXN0bWVudF9kZWJhdGVfc3RhdGUiXVsiYmVhcl9oaXN0b3J5Il0sCiAgICAgICAgICAgICAgICAiaGlzdG9yeSI6IGZpbmFsX3N0YXRlWyJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSJdWyJoaXN0b3J5Il0sCiAgICAgICAgICAgICAgICAiY3VycmVudF9yZXNwb25zZSI6IGZpbmFsX3N0YXRlWyJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSJdWwogICAgICAgICAgICAgICAgICAgICJjdXJyZW50X3Jlc3BvbnNlIgogICAgICAgICAgICAgICAgXSwKICAgICAgICAgICAgICAgICJqdWRnZV9kZWNpc2lvbiI6IGZpbmFsX3N0YXRlWyJpbnZlc3RtZW50X2RlYmF0ZV9zdGF0ZSJdWwogICAgICAgICAgICAgICAgICAgICJqdWRnZV9kZWNpc2lvbiIKICAgICAgICAgICAgICAgIF0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJ0cmFkZXJfaW52ZXN0bWVudF9kZWNpc2lvbiI6IGZpbmFsX3N0YXRlWyJ0cmFkZXJfaW52ZXN0bWVudF9wbGFuIl0sCiAgICAgICAgICAgICJyaXNrX2RlYmF0ZV9zdGF0ZSI6IHsKICAgICAgICAgICAgICAgICJyaXNreV9oaXN0b3J5IjogZmluYWxfc3RhdGVbInJpc2tfZGViYXRlX3N0YXRlIl1bInJpc2t5X2hpc3RvcnkiXSwKICAgICAgICAgICAgICAgICJzYWZlX2hpc3RvcnkiOiBmaW5hbF9zdGF0ZVsicmlza19kZWJhdGVfc3RhdGUiXVsic2FmZV9oaXN0b3J5Il0sCiAgICAgICAgICAgICAgICAibmV1dHJhbF9oaXN0b3J5IjogZmluYWxfc3RhdGVbInJpc2tfZGViYXRlX3N0YXRlIl1bIm5ldXRyYWxfaGlzdG9yeSJdLAogICAgICAgICAgICAgICAgImhpc3RvcnkiOiBmaW5hbF9zdGF0ZVsicmlza19kZWJhdGVfc3RhdGUiXVsiaGlzdG9yeSJdLAogICAgICAgICAgICAgICAgImp1ZGdlX2RlY2lzaW9uIjogZmluYWxfc3RhdGVbInJpc2tfZGViYXRlX3N0YXRlIl1bImp1ZGdlX2RlY2lzaW9uIl0sCiAgICAgICAgICAgIH0sCiAgICAgICAgICAgICJpbnZlc3RtZW50X3BsYW4iOiBmaW5hbF9zdGF0ZVsiaW52ZXN0bWVudF9wbGFuIl0sCiAgICAgICAgICAgICJmaW5hbF90cmFkZV9kZWNpc2lvbiI6IGZpbmFsX3N0YXRlWyJmaW5hbF90cmFkZV9kZWNpc2lvbiJdLAogICAgICAgIH0KCiAgICAgICAgIyBTYXZlIHRvIGZpbGUKICAgICAgICBkaXJlY3RvcnkgPSBQYXRoKGYiZXZhbF9yZXN1bHRzL3tzZWxmLnRpY2tlcn0vVHJhZGluZ0FnZW50c1N0cmF0ZWd5X2xvZ3MvIikKICAgICAgICBkaXJlY3RvcnkubWtkaXIocGFyZW50cz1UcnVlLCBleGlzdF9vaz1UcnVlKQoKICAgICAgICB3aXRoIG9wZW4oCiAgICAgICAgICAgIGYiZXZhbF9yZXN1bHRzL3tzZWxmLnRpY2tlcn0vVHJhZGluZ0FnZW50c1N0cmF0ZWd5X2xvZ3MvZnVsbF9zdGF0ZXNfbG9nX3t0cmFkZV9kYXRlfS5qc29uIiwKICAgICAgICAgICAgInciLAogICAgICAgICkgYXMgZjoKICAgICAgICAgICAganNvbi5kdW1wKHNlbGYubG9nX3N0YXRlc19kaWN0LCBmLCBpbmRlbnQ9NCkKCiAgICBkZWYgcmVmbGVjdF9hbmRfcmVtZW1iZXIoc2VsZiwgcmV0dXJuc19sb3NzZXMpOgogICAgICAgICIiIlJlZmxlY3Qgb24gZGVjaXNpb25zIGFuZCB1cGRhdGUgbWVtb3J5IGJhc2VkIG9uIHJldHVybnMuIiIiCiAgICAgICAgc2VsZi5yZWZsZWN0b3IucmVmbGVjdF9idWxsX3Jlc2VhcmNoZXIoCiAgICAgICAgICAgIHNlbGYuY3Vycl9zdGF0ZSwgcmV0dXJuc19sb3NzZXMsIHNlbGYuYnVsbF9tZW1vcnkKICAgICAgICApCiAgICAgICAgc2VsZi5yZWZsZWN0b3IucmVmbGVjdF9iZWFyX3Jlc2VhcmNoZXIoCiAgICAgICAgICAgIHNlbGYuY3Vycl9zdGF0ZSwgcmV0dXJuc19sb3NzZXMsIHNlbGYuYmVhcl9tZW1vcnkKICAgICAgICApCiAgICAgICAgc2VsZi5yZWZsZWN0b3IucmVmbGVjdF90cmFkZXIoCiAgICAgICAgICAgIHNlbGYuY3Vycl9zdGF0ZSwgcmV0dXJuc19sb3NzZXMsIHNlbGYudHJhZGVyX21lbW9yeQogICAgICAgICkKICAgICAgICBzZWxmLnJlZmxlY3Rvci5yZWZsZWN0X2ludmVzdF9qdWRnZSgKICAgICAgICAgICAgc2VsZi5jdXJyX3N0YXRlLCByZXR1cm5zX2xvc3Nlcywgc2VsZi5pbnZlc3RfanVkZ2VfbWVtb3J5CiAgICAgICAgKQogICAgICAgIHNlbGYucmVmbGVjdG9yLnJlZmxlY3Rfcmlza19tYW5hZ2VyKAogICAgICAgICAgICBzZWxmLmN1cnJfc3RhdGUsIHJldHVybnNfbG9zc2VzLCBzZWxmLnJpc2tfbWFuYWdlcl9tZW1vcnkKICAgICAgICApCgogICAgZGVmIHByb2Nlc3Nfc2lnbmFsKHNlbGYsIGZ1bGxfc2lnbmFsKToKICAgICAgICAiIiJQcm9jZXNzIGEgc2lnbmFsIHRvIGV4dHJhY3QgdGhlIGNvcmUgZGVjaXNpb24uIiIiCiAgICAgICAgcmV0dXJuIHNlbGYuc2lnbmFsX3Byb2Nlc3Nvci5wcm9jZXNzX3NpZ25hbChmdWxsX3NpZ25hbCkKCg==
+﻿# TradingAgents/graph/trading_graph.py
+
+import os
+from pathlib import Path
+import json
+from datetime import date
+from typing import Dict, Any, Tuple, List, Optional, Type
+
+from langchain_openai import ChatOpenAI
+from langchain_anthropic import ChatAnthropic
+from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_core.language_models import BaseChatModel
+
+from langgraph.prebuilt import ToolNode
+
+from tradingagents.agents import *
+from tradingagents.default_config import DEFAULT_CONFIG, CHINA_LLM_CONFIGS
+from tradingagents.agents.utils.memory import FinancialSituationMemory
+from tradingagents.agents.utils.agent_states import (
+    AgentState,
+    InvestDebateState,
+    RiskDebateState,
+)
+from tradingagents.dataflows.interface import set_config
+
+from .conditional_logic import ConditionalLogic
+from .setup import GraphSetup
+from .propagation import Propagator
+from .reflection import Reflector
+from .signal_processing import SignalProcessor
+
+
+# LLM Provider 映射表（支持扩展）
+# 注意：所有中国 LLM 都使用 OpenAI 兼容 API，通过 base_url 配置
+LLM_PROVIDER_MAP: Dict[str, Tuple[Type[BaseChatModel], Dict[str, Any]]] = {
+    "openai": (ChatOpenAI, {"base_url": None}),  # base_url 从配置读取
+    "ollama": (ChatOpenAI, {"base_url": "http://localhost:11434/v1"}),
+    "openrouter": (ChatOpenAI, {"base_url": "https://openrouter.ai/api/v1"}),
+    "anthropic": (ChatAnthropic, {"base_url": None}),
+    "google": (ChatGoogleGenerativeAI, {"base_url": None}),
+    # 中国 LLM 提供商（均使用 OpenAI 兼容 API）
+    "deepseek": (ChatOpenAI, {"base_url": "https://api.deepseek.com/v1"}),
+    "zhipu": (ChatOpenAI, {"base_url": "https://open.bigmodel.cn/api/paas/v4"}),
+    "qwen": (ChatOpenAI, {"base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1"}),
+    "wenxin": (ChatOpenAI, {"base_url": "https://qianfan.baidubce.com/v2"}),
+    "spark": (ChatOpenAI, {"base_url": "https://spark-api.xf-yun.com/v3.5"}),
+}
+
+
+def _create_llm(provider: str, model: str, config: Dict[str, Any]) -> BaseChatModel:
+    """根据配置创建 LLM 实例"""
+    provider_lower = provider.lower()
+    
+    if provider_lower not in LLM_PROVIDER_MAP:
+        raise ValueError(f"Unsupported LLM provider: {provider}. Supported: {list(LLM_PROVIDER_MAP.keys())}")
+    
+    llm_class, default_kwargs = LLM_PROVIDER_MAP[provider_lower]
+    
+    # 合并参数：默认参数 + 配置覆盖
+    kwargs = {**default_kwargs, "model": model}
+    
+    # 处理 base_url（仅当默认值存在时覆盖）
+    if provider_lower in ("openai", "ollama", "openrouter", "anthropic"):
+        if config.get("backend_url"):
+            kwargs["base_url"] = config["backend_url"]
+    
+    # API Key 处理
+    if provider_lower == "anthropic":
+        if config.get("anthropic_api_key"):
+            kwargs["api_key"] = config["anthropic_api_key"]
+    elif provider_lower == "deepseek":
+        if config.get("deepseek_api_key"):
+            kwargs["api_key"] = config["deepseek_api_key"]
+    elif provider_lower == "zhipu":
+        if config.get("zhipu_api_key"):
+            kwargs["api_key"] = config["zhipu_api_key"]
+    elif provider_lower == "qwen":
+        if config.get("qwen_api_key"):
+            kwargs["api_key"] = config["qwen_api_key"]
+    elif provider_lower == "wenxin":
+        if config.get("wenxin_api_key"):
+            kwargs["api_key"] = config["wenxin_api_key"]
+    elif provider_lower == "spark":
+        # 讯飞星火使用特殊的认证方式
+        if config.get("spark_api_key"):
+            kwargs["api_key"] = config["spark_api_key"]
+        # app_id 作为额外参数传递（讯飞使用自定义参数）
+    else:
+        if config.get("openai_api_key"):
+            kwargs["api_key"] = config["openai_api_key"]
+    
+    return llm_class(**{k: v for k, v in kwargs.items() if v is not None})
+
+
+class TradingAgentsGraph:
+    """Main class that orchestrates the trading agents framework."""
+
+    def __init__(
+        self,
+        selected_analysts=["market", "social", "news", "fundamentals"],
+        debug=False,
+        config: Dict[str, Any] = None,
+    ):
+        """Initialize the trading agents graph and components.
+
+        Args:
+            selected_analysts: List of analyst types to include
+            debug: Whether to run in debug mode
+            config: Configuration dictionary. If None, uses default config
+        """
+        self.debug = debug
+        self.config = config or DEFAULT_CONFIG
+
+        # Update the interface's config
+        set_config(self.config)
+
+        # Create necessary directories
+        os.makedirs(
+            os.path.join(self.config["project_dir"], "dataflows/data_cache"),
+            exist_ok=True,
+        )
+
+        # Initialize LLMs (使用字典映射简化)
+        self.deep_thinking_llm = _create_llm(
+            self.config["llm_provider"],
+            self.config["deep_think_llm"],
+            self.config
+        )
+        self.quick_thinking_llm = _create_llm(
+            self.config["llm_provider"],
+            self.config["quick_think_llm"],
+            self.config
+        )
+        
+        self.toolkit = Toolkit(config=self.config)
+
+        # Initialize memories
+        self.bull_memory = FinancialSituationMemory("bull_memory", self.config)
+        self.bear_memory = FinancialSituationMemory("bear_memory", self.config)
+        self.trader_memory = FinancialSituationMemory("trader_memory", self.config)
+        self.invest_judge_memory = FinancialSituationMemory("invest_judge_memory", self.config)
+        self.risk_manager_memory = FinancialSituationMemory("risk_manager_memory", self.config)
+
+        # Create tool nodes
+        self.tool_nodes = self._create_tool_nodes()
+
+        # Initialize components
+        self.conditional_logic = ConditionalLogic()
+        self.graph_setup = GraphSetup(
+            self.quick_thinking_llm,
+            self.deep_thinking_llm,
+            self.toolkit,
+            self.tool_nodes,
+            self.bull_memory,
+            self.bear_memory,
+            self.trader_memory,
+            self.invest_judge_memory,
+            self.risk_manager_memory,
+            self.conditional_logic,
+        )
+
+        self.propagator = Propagator()
+        self.reflector = Reflector(self.quick_thinking_llm)
+        self.signal_processor = SignalProcessor(self.quick_thinking_llm)
+
+        # State tracking
+        self.curr_state = None
+        self.ticker = None
+        self.log_states_dict = {}  # date to full state dict
+
+        # Set up the graph
+        self.graph = self.graph_setup.setup_graph(selected_analysts)
+
+    def _create_tool_nodes(self) -> Dict[str, ToolNode]:
+        """Create tool nodes for different data sources."""
+        return {
+            "market": ToolNode(
+                [
+                    # online tools
+                    self.toolkit.get_YFin_data_online,
+                    self.toolkit.get_stockstats_indicators_report_online,
+                    # offline tools
+                    self.toolkit.get_YFin_data,
+                    self.toolkit.get_stockstats_indicators_report,
+                ]
+            ),
+            "social": ToolNode(
+                [
+                    # online tools
+                    self.toolkit.get_stock_news_openai,
+                    # offline tools
+                    self.toolkit.get_reddit_stock_info,
+                ]
+            ),
+            "news": ToolNode(
+                [
+                    # online tools
+                    self.toolkit.get_global_news_openai,
+                    self.toolkit.get_google_news,
+                    # offline tools
+                    self.toolkit.get_finnhub_news,
+                    self.toolkit.get_reddit_news,
+                ]
+            ),
+            "fundamentals": ToolNode(
+                [
+                    # online tools
+                    self.toolkit.get_fundamentals_openai,
+                    # offline tools
+                    self.toolkit.get_finnhub_company_insider_sentiment,
+                    self.toolkit.get_finnhub_company_insider_transactions,
+                    self.toolkit.get_simfin_balance_sheet,
+                    self.toolkit.get_simfin_cashflow,
+                    self.toolkit.get_simfin_income_stmt,
+                ]
+            ),
+        }
+
+    def propagate(self, company_name, trade_date):
+        """Run the trading agents graph for a company on a specific date."""
+
+        self.ticker = company_name
+
+        # Initialize state
+        init_agent_state = self.propagator.create_initial_state(
+            company_name, trade_date
+        )
+        args = self.propagator.get_graph_args()
+
+        if self.debug:
+            # Debug mode with tracing
+            trace = []
+            for chunk in self.graph.stream(init_agent_state, **args):
+                if len(chunk["messages"]) == 0:
+                    pass
+                else:
+                    chunk["messages"][-1].pretty_print()
+                    trace.append(chunk)
+
+            final_state = trace[-1]
+        else:
+            # Standard mode without tracing
+            final_state = self.graph.invoke(init_agent_state, **args)
+
+        # Store current state for reflection
+        self.curr_state = final_state
+
+        # Log state
+        self._log_state(trade_date, final_state)
+
+        # Return decision and processed signal
+        return final_state, self.process_signal(final_state["final_trade_decision"])
+
+    def _log_state(self, trade_date, final_state):
+        """Log the final state to a JSON file."""
+        self.log_states_dict[str(trade_date)] = {
+            "company_of_interest": final_state["company_of_interest"],
+            "trade_date": final_state["trade_date"],
+            "market_report": final_state["market_report"],
+            "sentiment_report": final_state["sentiment_report"],
+            "news_report": final_state["news_report"],
+            "fundamentals_report": final_state["fundamentals_report"],
+            "investment_debate_state": {
+                "bull_history": final_state["investment_debate_state"]["bull_history"],
+                "bear_history": final_state["investment_debate_state"]["bear_history"],
+                "history": final_state["investment_debate_state"]["history"],
+                "current_response": final_state["investment_debate_state"][
+                    "current_response"
+                ],
+                "judge_decision": final_state["investment_debate_state"][
+                    "judge_decision"
+                ],
+            },
+            "trader_investment_decision": final_state["trader_investment_plan"],
+            "risk_debate_state": {
+                "risky_history": final_state["risk_debate_state"]["risky_history"],
+                "safe_history": final_state["risk_debate_state"]["safe_history"],
+                "neutral_history": final_state["risk_debate_state"]["neutral_history"],
+                "history": final_state["risk_debate_state"]["history"],
+                "judge_decision": final_state["risk_debate_state"]["judge_decision"],
+            },
+            "investment_plan": final_state["investment_plan"],
+            "final_trade_decision": final_state["final_trade_decision"],
+        }
+
+        # Save to file
+        directory = Path(f"eval_results/{self.ticker}/TradingAgentsStrategy_logs/")
+        directory.mkdir(parents=True, exist_ok=True)
+
+        with open(
+            f"eval_results/{self.ticker}/TradingAgentsStrategy_logs/full_states_log_{trade_date}.json",
+            "w",
+        ) as f:
+            json.dump(self.log_states_dict, f, indent=4)
+
+    def reflect_and_remember(self, returns_losses):
+        """Reflect on decisions and update memory based on returns."""
+        self.reflector.reflect_bull_researcher(
+            self.curr_state, returns_losses, self.bull_memory
+        )
+        self.reflector.reflect_bear_researcher(
+            self.curr_state, returns_losses, self.bear_memory
+        )
+        self.reflector.reflect_trader(
+            self.curr_state, returns_losses, self.trader_memory
+        )
+        self.reflector.reflect_invest_judge(
+            self.curr_state, returns_losses, self.invest_judge_memory
+        )
+        self.reflector.reflect_risk_manager(
+            self.curr_state, returns_losses, self.risk_manager_memory
+        )
+
+    def process_signal(self, full_signal):
+        """Process a signal to extract the core decision."""
+        return self.signal_processor.process_signal(full_signal)
+

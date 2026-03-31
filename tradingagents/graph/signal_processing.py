@@ -1,1 +1,32 @@
-77u/IyBUcmFkaW5nQWdlbnRzL2dyYXBoL3NpZ25hbF9wcm9jZXNzaW5nLnB5Cgpmcm9tIGxhbmdjaGFpbl9vcGVuYWkgaW1wb3J0IENoYXRPcGVuQUkKCgpjbGFzcyBTaWduYWxQcm9jZXNzb3I6CiAgICAiIiJQcm9jZXNzZXMgdHJhZGluZyBzaWduYWxzIHRvIGV4dHJhY3QgYWN0aW9uYWJsZSBkZWNpc2lvbnMuIiIiCgogICAgZGVmIF9faW5pdF9fKHNlbGYsIHF1aWNrX3RoaW5raW5nX2xsbTogQ2hhdE9wZW5BSSk6CiAgICAgICAgIiIiSW5pdGlhbGl6ZSB3aXRoIGFuIExMTSBmb3IgcHJvY2Vzc2luZy4iIiIKICAgICAgICBzZWxmLnF1aWNrX3RoaW5raW5nX2xsbSA9IHF1aWNrX3RoaW5raW5nX2xsbQoKICAgIGRlZiBwcm9jZXNzX3NpZ25hbChzZWxmLCBmdWxsX3NpZ25hbDogc3RyKSAtPiBzdHI6CiAgICAgICAgIiIiCiAgICAgICAgUHJvY2VzcyBhIGZ1bGwgdHJhZGluZyBzaWduYWwgdG8gZXh0cmFjdCB0aGUgY29yZSBkZWNpc2lvbi4KCiAgICAgICAgQXJnczoKICAgICAgICAgICAgZnVsbF9zaWduYWw6IENvbXBsZXRlIHRyYWRpbmcgc2lnbmFsIHRleHQKCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgRXh0cmFjdGVkIGRlY2lzaW9uIChCVVksIFNFTEwsIG9yIEhPTEQpCiAgICAgICAgIiIiCiAgICAgICAgbWVzc2FnZXMgPSBbCiAgICAgICAgICAgICgKICAgICAgICAgICAgICAgICJzeXN0ZW0iLAogICAgICAgICAgICAgICAgIllvdSBhcmUgYW4gZWZmaWNpZW50IGFzc2lzdGFudCBkZXNpZ25lZCB0byBhbmFseXplIHBhcmFncmFwaHMgb3IgZmluYW5jaWFsIHJlcG9ydHMgcHJvdmlkZWQgYnkgYSBncm91cCBvZiBhbmFseXN0cy4gWW91ciB0YXNrIGlzIHRvIGV4dHJhY3QgdGhlIGludmVzdG1lbnQgZGVjaXNpb246IFNFTEwsIEJVWSwgb3IgSE9MRC4gUHJvdmlkZSBvbmx5IHRoZSBleHRyYWN0ZWQgZGVjaXNpb24gKFNFTEwsIEJVWSwgb3IgSE9MRCkgYXMgeW91ciBvdXRwdXQsIHdpdGhvdXQgYWRkaW5nIGFueSBhZGRpdGlvbmFsIHRleHQgb3IgaW5mb3JtYXRpb24uIiwKICAgICAgICAgICAgKSwKICAgICAgICAgICAgKCJodW1hbiIsIGZ1bGxfc2lnbmFsKSwKICAgICAgICBdCgogICAgICAgIHJldHVybiBzZWxmLnF1aWNrX3RoaW5raW5nX2xsbS5pbnZva2UobWVzc2FnZXMpLmNvbnRlbnQKDQo=
+﻿# TradingAgents/graph/signal_processing.py
+
+from langchain_openai import ChatOpenAI
+
+
+class SignalProcessor:
+    """Processes trading signals to extract actionable decisions."""
+
+    def __init__(self, quick_thinking_llm: ChatOpenAI):
+        """Initialize with an LLM for processing."""
+        self.quick_thinking_llm = quick_thinking_llm
+
+    def process_signal(self, full_signal: str) -> str:
+        """
+        Process a full trading signal to extract the core decision.
+
+        Args:
+            full_signal: Complete trading signal text
+
+        Returns:
+            Extracted decision (BUY, SELL, or HOLD)
+        """
+        messages = [
+            (
+                "system",
+                "You are an efficient assistant designed to analyze paragraphs or financial reports provided by a group of analysts. Your task is to extract the investment decision: SELL, BUY, or HOLD. Provide only the extracted decision (SELL, BUY, or HOLD) as your output, without adding any additional text or information.",
+            ),
+            ("human", full_signal),
+        ]
+
+        return self.quick_thinking_llm.invoke(messages).content
+

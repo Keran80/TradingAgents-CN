@@ -1,1 +1,277 @@
-77u/aW1wb3J0IHF1ZXN0aW9uYXJ5CmZyb20gdHlwaW5nIGltcG9ydCBMaXN0LCBPcHRpb25hbCwgVHVwbGUsIERpY3QKCmZyb20gY2xpLm1vZGVscyBpbXBvcnQgQW5hbHlzdFR5cGUKCkFOQUxZU1RfT1JERVIgPSBbCiAgICAoIk1hcmtldCBBbmFseXN0IiwgQW5hbHlzdFR5cGUuTUFSS0VUKSwKICAgICgiU29jaWFsIE1lZGlhIEFuYWx5c3QiLCBBbmFseXN0VHlwZS5TT0NJQUwpLAogICAgKCJOZXdzIEFuYWx5c3QiLCBBbmFseXN0VHlwZS5ORVdTKSwKICAgICgiRnVuZGFtZW50YWxzIEFuYWx5c3QiLCBBbmFseXN0VHlwZS5GVU5EQU1FTlRBTFMpLApdCgoKZGVmIGdldF90aWNrZXIoKSAtPiBzdHI6CiAgICAiIiJQcm9tcHQgdGhlIHVzZXIgdG8gZW50ZXIgYSB0aWNrZXIgc3ltYm9sLiIiIgogICAgdGlja2VyID0gcXVlc3Rpb25hcnkudGV4dCgKICAgICAgICAiRW50ZXIgdGhlIHRpY2tlciBzeW1ib2wgdG8gYW5hbHl6ZToiLAogICAgICAgIHZhbGlkYXRlPWxhbWJkYSB4OiBsZW4oeC5zdHJpcCgpKSA+IDAgb3IgIlBsZWFzZSBlbnRlciBhIHZhbGlkIHRpY2tlciBzeW1ib2wuIiwKICAgICAgICBzdHlsZT1xdWVzdGlvbmFyeS5TdHlsZSgKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKCJ0ZXh0IiwgImZnOmdyZWVuIiksCiAgICAgICAgICAgICAgICAoImhpZ2hsaWdodGVkIiwgIm5vaW5oZXJpdCIpLAogICAgICAgICAgICBdCiAgICAgICAgKSwKICAgICkuYXNrKCkKCiAgICBpZiBub3QgdGlja2VyOgogICAgICAgIGNvbnNvbGUucHJpbnQoIlxuW3JlZF1ObyB0aWNrZXIgc3ltYm9sIHByb3ZpZGVkLiBFeGl0aW5nLi4uWy9yZWRdIikKICAgICAgICBleGl0KDEpCgogICAgcmV0dXJuIHRpY2tlci5zdHJpcCgpLnVwcGVyKCkKCgpkZWYgZ2V0X2FuYWx5c2lzX2RhdGUoKSAtPiBzdHI6CiAgICAiIiJQcm9tcHQgdGhlIHVzZXIgdG8gZW50ZXIgYSBkYXRlIGluIFlZWVktTU0tREQgZm9ybWF0LiIiIgogICAgaW1wb3J0IHJlCiAgICBmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQoKICAgIGRlZiB2YWxpZGF0ZV9kYXRlKGRhdGVfc3RyOiBzdHIpIC0+IGJvb2w6CiAgICAgICAgaWYgbm90IHJlLm1hdGNoKHIiXlxkezR9LVxkezJ9LVxkezJ9JCIsIGRhdGVfc3RyKToKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCiAgICAgICAgdHJ5OgogICAgICAgICAgICBkYXRldGltZS5zdHJwdGltZShkYXRlX3N0ciwgIiVZLSVtLSVkIikKICAgICAgICAgICAgcmV0dXJuIFRydWUKICAgICAgICBleGNlcHQgVmFsdWVFcnJvcjoKICAgICAgICAgICAgcmV0dXJuIEZhbHNlCgogICAgZGF0ZSA9IHF1ZXN0aW9uYXJ5LnRleHQoCiAgICAgICAgIkVudGVyIHRoZSBhbmFseXNpcyBkYXRlIChZWVlZLU1NLUREKToiLAogICAgICAgIHZhbGlkYXRlPWxhbWJkYSB4OiB2YWxpZGF0ZV9kYXRlKHguc3RyaXAoKSkKICAgICAgICBvciAiUGxlYXNlIGVudGVyIGEgdmFsaWQgZGF0ZSBpbiBZWVlZLU1NLUREIGZvcm1hdC4iLAogICAgICAgIHN0eWxlPXF1ZXN0aW9uYXJ5LlN0eWxlKAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAoInRleHQiLCAiZmc6Z3JlZW4iKSwKICAgICAgICAgICAgICAgICgiaGlnaGxpZ2h0ZWQiLCAibm9pbmhlcml0IiksCiAgICAgICAgICAgIF0KICAgICAgICApLAogICAgKS5hc2soKQoKICAgIGlmIG5vdCBkYXRlOgogICAgICAgIGNvbnNvbGUucHJpbnQoIlxuW3JlZF1ObyBkYXRlIHByb3ZpZGVkLiBFeGl0aW5nLi4uWy9yZWRdIikKICAgICAgICBleGl0KDEpCgogICAgcmV0dXJuIGRhdGUuc3RyaXAoKQoKCmRlZiBzZWxlY3RfYW5hbHlzdHMoKSAtPiBMaXN0W0FuYWx5c3RUeXBlXToKICAgICIiIlNlbGVjdCBhbmFseXN0cyB1c2luZyBhbiBpbnRlcmFjdGl2ZSBjaGVja2JveC4iIiIKICAgIGNob2ljZXMgPSBxdWVzdGlvbmFyeS5jaGVja2JveCgKICAgICAgICAiU2VsZWN0IFlvdXIgW0FuYWx5c3RzIFRlYW1dOiIsCiAgICAgICAgY2hvaWNlcz1bCiAgICAgICAgICAgIHF1ZXN0aW9uYXJ5LkNob2ljZShkaXNwbGF5LCB2YWx1ZT12YWx1ZSkgZm9yIGRpc3BsYXksIHZhbHVlIGluIEFOQUxZU1RfT1JERVIKICAgICAgICBdLAogICAgICAgIGluc3RydWN0aW9uPSJcbi0gUHJlc3MgU3BhY2UgdG8gc2VsZWN0L3Vuc2VsZWN0IGFuYWx5c3RzXG4tIFByZXNzICdhJyB0byBzZWxlY3QvdW5zZWxlY3QgYWxsXG4tIFByZXNzIEVudGVyIHdoZW4gZG9uZSIsCiAgICAgICAgdmFsaWRhdGU9bGFtYmRhIHg6IGxlbih4KSA+IDAgb3IgIllvdSBtdXN0IHNlbGVjdCBhdCBsZWFzdCBvbmUgYW5hbHlzdC4iLAogICAgICAgIHN0eWxlPXF1ZXN0aW9uYXJ5LlN0eWxlKAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAoImNoZWNrYm94LXNlbGVjdGVkIiwgImZnOmdyZWVuIiksCiAgICAgICAgICAgICAgICAoInNlbGVjdGVkIiwgImZnOmdyZWVuIG5vaW5oZXJpdCIpLAogICAgICAgICAgICAgICAgKCJoaWdobGlnaHRlZCIsICJub2luaGVyaXQiKSwKICAgICAgICAgICAgICAgICgicG9pbnRlciIsICJub2luaGVyaXQiKSwKICAgICAgICAgICAgXQogICAgICAgICksCiAgICApLmFzaygpCgogICAgaWYgbm90IGNob2ljZXM6CiAgICAgICAgY29uc29sZS5wcmludCgiXG5bcmVkXU5vIGFuYWx5c3RzIHNlbGVjdGVkLiBFeGl0aW5nLi4uWy9yZWRdIikKICAgICAgICBleGl0KDEpCgogICAgcmV0dXJuIGNob2ljZXMKCgpkZWYgc2VsZWN0X3Jlc2VhcmNoX2RlcHRoKCkgLT4gaW50OgogICAgIiIiU2VsZWN0IHJlc2VhcmNoIGRlcHRoIHVzaW5nIGFuIGludGVyYWN0aXZlIHNlbGVjdGlvbi4iIiIKCiAgICAjIERlZmluZSByZXNlYXJjaCBkZXB0aCBvcHRpb25zIHdpdGggdGhlaXIgY29ycmVzcG9uZGluZyB2YWx1ZXMKICAgIERFUFRIX09QVElPTlMgPSBbCiAgICAgICAgKCJTaGFsbG93IC0gUXVpY2sgcmVzZWFyY2gsIGZldyBkZWJhdGUgYW5kIHN0cmF0ZWd5IGRpc2N1c3Npb24gcm91bmRzIiwgMSksCiAgICAgICAgKCJNZWRpdW0gLSBNaWRkbGUgZ3JvdW5kLCBtb2RlcmF0ZSBkZWJhdGUgcm91bmRzIGFuZCBzdHJhdGVneSBkaXNjdXNzaW9uIiwgMyksCiAgICAgICAgKCJEZWVwIC0gQ29tcHJlaGVuc2l2ZSByZXNlYXJjaCwgaW4gZGVwdGggZGViYXRlIGFuZCBzdHJhdGVneSBkaXNjdXNzaW9uIiwgNSksCiAgICBdCgogICAgY2hvaWNlID0gcXVlc3Rpb25hcnkuc2VsZWN0KAogICAgICAgICJTZWxlY3QgWW91ciBbUmVzZWFyY2ggRGVwdGhdOiIsCiAgICAgICAgY2hvaWNlcz1bCiAgICAgICAgICAgIHF1ZXN0aW9uYXJ5LkNob2ljZShkaXNwbGF5LCB2YWx1ZT12YWx1ZSkgZm9yIGRpc3BsYXksIHZhbHVlIGluIERFUFRIX09QVElPTlMKICAgICAgICBdLAogICAgICAgIGluc3RydWN0aW9uPSJcbi0gVXNlIGFycm93IGtleXMgdG8gbmF2aWdhdGVcbi0gUHJlc3MgRW50ZXIgdG8gc2VsZWN0IiwKICAgICAgICBzdHlsZT1xdWVzdGlvbmFyeS5TdHlsZSgKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKCJzZWxlY3RlZCIsICJmZzp5ZWxsb3cgbm9pbmhlcml0IiksCiAgICAgICAgICAgICAgICAoImhpZ2hsaWdodGVkIiwgImZnOnllbGxvdyBub2luaGVyaXQiKSwKICAgICAgICAgICAgICAgICgicG9pbnRlciIsICJmZzp5ZWxsb3cgbm9pbmhlcml0IiksCiAgICAgICAgICAgIF0KICAgICAgICApLAogICAgKS5hc2soKQoKICAgIGlmIGNob2ljZSBpcyBOb25lOgogICAgICAgIGNvbnNvbGUucHJpbnQoIlxuW3JlZF1ObyByZXNlYXJjaCBkZXB0aCBzZWxlY3RlZC4gRXhpdGluZy4uLlsvcmVkXSIpCiAgICAgICAgZXhpdCgxKQoKICAgIHJldHVybiBjaG9pY2UKCgpkZWYgc2VsZWN0X3NoYWxsb3dfdGhpbmtpbmdfYWdlbnQocHJvdmlkZXIpIC0+IHN0cjoKICAgICIiIlNlbGVjdCBzaGFsbG93IHRoaW5raW5nIGxsbSBlbmdpbmUgdXNpbmcgYW4gaW50ZXJhY3RpdmUgc2VsZWN0aW9uLiIiIgoKICAgICMgRGVmaW5lIHNoYWxsb3cgdGhpbmtpbmcgbGxtIGVuZ2luZSBvcHRpb25zIHdpdGggdGhlaXIgY29ycmVzcG9uZGluZyBtb2RlbCBuYW1lcwogICAgU0hBTExPV19BR0VOVF9PUFRJT05TID0gewogICAgICAgICJvcGVuYWkiOiBbCiAgICAgICAgICAgICgiR1BULTRvLW1pbmkgLSBGYXN0IGFuZCBlZmZpY2llbnQgZm9yIHF1aWNrIHRhc2tzIiwgImdwdC00by1taW5pIiksCiAgICAgICAgICAgICgiR1BULTQuMS1uYW5vIC0gVWx0cmEtbGlnaHR3ZWlnaHQgbW9kZWwgZm9yIGJhc2ljIG9wZXJhdGlvbnMiLCAiZ3B0LTQuMS1uYW5vIiksCiAgICAgICAgICAgICgiR1BULTQuMS1taW5pIC0gQ29tcGFjdCBtb2RlbCB3aXRoIGdvb2QgcGVyZm9ybWFuY2UiLCAiZ3B0LTQuMS1taW5pIiksCiAgICAgICAgICAgICgiR1BULTRvIC0gU3RhbmRhcmQgbW9kZWwgd2l0aCBzb2xpZCBjYXBhYmlsaXRpZXMiLCAiZ3B0LTRvIiksCiAgICAgICAgXSwKICAgICAgICAiYW50aHJvcGljIjogWwogICAgICAgICAgICAoIkNsYXVkZSBIYWlrdSAzLjUgLSBGYXN0IGluZmVyZW5jZSBhbmQgc3RhbmRhcmQgY2FwYWJpbGl0aWVzIiwgImNsYXVkZS0zLTUtaGFpa3UtbGF0ZXN0IiksCiAgICAgICAgICAgICgiQ2xhdWRlIFNvbm5ldCAzLjUgLSBIaWdobHkgY2FwYWJsZSBzdGFuZGFyZCBtb2RlbCIsICJjbGF1ZGUtMy01LXNvbm5ldC1sYXRlc3QiKSwKICAgICAgICAgICAgKCJDbGF1ZGUgU29ubmV0IDMuNyAtIEV4Y2VwdGlvbmFsIGh5YnJpZCByZWFzb25pbmcgYW5kIGFnZW50aWMgY2FwYWJpbGl0aWVzIiwgImNsYXVkZS0zLTctc29ubmV0LWxhdGVzdCIpLAogICAgICAgICAgICAoIkNsYXVkZSBTb25uZXQgNCAtIEhpZ2ggcGVyZm9ybWFuY2UgYW5kIGV4Y2VsbGVudCByZWFzb25pbmciLCAiY2xhdWRlLXNvbm5ldC00LTAiKSwKICAgICAgICBdLAogICAgICAgICJnb29nbGUiOiBbCiAgICAgICAgICAgICgiR2VtaW5pIDIuMCBGbGFzaC1MaXRlIC0gQ29zdCBlZmZpY2llbmN5IGFuZCBsb3cgbGF0ZW5jeSIsICJnZW1pbmktMi4wLWZsYXNoLWxpdGUiKSwKICAgICAgICAgICAgKCJHZW1pbmkgMi4wIEZsYXNoIC0gTmV4dCBnZW5lcmF0aW9uIGZlYXR1cmVzLCBzcGVlZCwgYW5kIHRoaW5raW5nIiwgImdlbWluaS0yLjAtZmxhc2giKSwKICAgICAgICAgICAgKCJHZW1pbmkgMi41IEZsYXNoIC0gQWRhcHRpdmUgdGhpbmtpbmcsIGNvc3QgZWZmaWNpZW5jeSIsICJnZW1pbmktMi41LWZsYXNoLXByZXZpZXctMDUtMjAiKSwKICAgICAgICBdLAogICAgICAgICJvcGVucm91dGVyIjogWwogICAgICAgICAgICAoIk1ldGE6IExsYW1hIDQgU2NvdXQiLCAibWV0YS1sbGFtYS9sbGFtYS00LXNjb3V0OmZyZWUiKSwKICAgICAgICAgICAgKCJNZXRhOiBMbGFtYSAzLjMgOEIgSW5zdHJ1Y3QgLSBBIGxpZ2h0d2VpZ2h0IGFuZCB1bHRyYS1mYXN0IHZhcmlhbnQgb2YgTGxhbWEgMy4zIDcwQiIsICJtZXRhLWxsYW1hL2xsYW1hLTMuMy04Yi1pbnN0cnVjdDpmcmVlIiksCiAgICAgICAgICAgICgiZ29vZ2xlL2dlbWluaS0yLjAtZmxhc2gtZXhwOmZyZWUgLSBHZW1pbmkgRmxhc2ggMi4wIG9mZmVycyBhIHNpZ25pZmljYW50bHkgZmFzdGVyIHRpbWUgdG8gZmlyc3QgdG9rZW4iLCAiZ29vZ2xlL2dlbWluaS0yLjAtZmxhc2gtZXhwOmZyZWUiKSwKICAgICAgICBdLAogICAgICAgICJvbGxhbWEiOiBbCiAgICAgICAgICAgICgibGxhbWEzLjEgbG9jYWwiLCAibGxhbWEzLjEiKSwKICAgICAgICAgICAgKCJsbGFtYTMuMiBsb2NhbCIsICJsbGFtYTMuMiIpLAogICAgICAgIF0KICAgIH0KCiAgICBjaG9pY2UgPSBxdWVzdGlvbmFyeS5zZWxlY3QoCiAgICAgICAgIlNlbGVjdCBZb3VyIFtRdWljay1UaGlua2luZyBMTE0gRW5naW5lXToiLAogICAgICAgIGNob2ljZXM9WwogICAgICAgICAgICBxdWVzdGlvbmFyeS5DaG9pY2UoZGlzcGxheSwgdmFsdWU9dmFsdWUpCiAgICAgICAgICAgIGZvciBkaXNwbGF5LCB2YWx1ZSBpbiBTSEFMTE9XX0FHRU5UX09QVElPTlNbcHJvdmlkZXIubG93ZXIoKV0KICAgICAgICBdLAogICAgICAgIGluc3RydWN0aW9uPSJcbi0gVXNlIGFycm93IGtleXMgdG8gbmF2aWdhdGVcbi0gUHJlc3MgRW50ZXIgdG8gc2VsZWN0IiwKICAgICAgICBzdHlsZT1xdWVzdGlvbmFyeS5TdHlsZSgKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKCJzZWxlY3RlZCIsICJmZzptYWdlbnRhIG5vaW5oZXJpdCIpLAogICAgICAgICAgICAgICAgKCJoaWdobGlnaHRlZCIsICJmZzptYWdlbnRhIG5vaW5oZXJpdCIpLAogICAgICAgICAgICAgICAgKCJwb2ludGVyIiwgImZnOm1hZ2VudGEgbm9pbmhlcml0IiksCiAgICAgICAgICAgIF0KICAgICAgICApLAogICAgKS5hc2soKQoKICAgIGlmIGNob2ljZSBpcyBOb25lOgogICAgICAgIGNvbnNvbGUucHJpbnQoCiAgICAgICAgICAgICJcbltyZWRdTm8gc2hhbGxvdyB0aGlua2luZyBsbG0gZW5naW5lIHNlbGVjdGVkLiBFeGl0aW5nLi4uWy9yZWRdIgogICAgICAgICkKICAgICAgICBleGl0KDEpCgogICAgcmV0dXJuIGNob2ljZQoKCmRlZiBzZWxlY3RfZGVlcF90aGlua2luZ19hZ2VudChwcm92aWRlcikgLT4gc3RyOgogICAgIiIiU2VsZWN0IGRlZXAgdGhpbmtpbmcgbGxtIGVuZ2luZSB1c2luZyBhbiBpbnRlcmFjdGl2ZSBzZWxlY3Rpb24uIiIiCgogICAgIyBEZWZpbmUgZGVlcCB0aGlua2luZyBsbG0gZW5naW5lIG9wdGlvbnMgd2l0aCB0aGVpciBjb3JyZXNwb25kaW5nIG1vZGVsIG5hbWVzCiAgICBERUVQX0FHRU5UX09QVElPTlMgPSB7CiAgICAgICAgIm9wZW5haSI6IFsKICAgICAgICAgICAgKCJHUFQtNC4xLW5hbm8gLSBVbHRyYS1saWdodHdlaWdodCBtb2RlbCBmb3IgYmFzaWMgb3BlcmF0aW9ucyIsICJncHQtNC4xLW5hbm8iKSwKICAgICAgICAgICAgKCJHUFQtNC4xLW1pbmkgLSBDb21wYWN0IG1vZGVsIHdpdGggZ29vZCBwZXJmb3JtYW5jZSIsICJncHQtNC4xLW1pbmkiKSwKICAgICAgICAgICAgKCJHUFQtNG8gLSBTdGFuZGFyZCBtb2RlbCB3aXRoIHNvbGlkIGNhcGFiaWxpdGllcyIsICJncHQtNG8iKSwKICAgICAgICAgICAgKCJvNC1taW5pIC0gU3BlY2lhbGl6ZWQgcmVhc29uaW5nIG1vZGVsIChjb21wYWN0KSIsICJvNC1taW5pIiksCiAgICAgICAgICAgICgibzMtbWluaSAtIEFkdmFuY2VkIHJlYXNvbmluZyBtb2RlbCAobGlnaHR3ZWlnaHQpIiwgIm8zLW1pbmkiKSwKICAgICAgICAgICAgKCJvMyAtIEZ1bGwgYWR2YW5jZWQgcmVhc29uaW5nIG1vZGVsIiwgIm8zIiksCiAgICAgICAgICAgICgibzEgLSBQcmVtaWVyIHJlYXNvbmluZyBhbmQgcHJvYmxlbS1zb2x2aW5nIG1vZGVsIiwgIm8xIiksCiAgICAgICAgXSwKICAgICAgICAiYW50aHJvcGljIjogWwogICAgICAgICAgICAoIkNsYXVkZSBIYWlrdSAzLjUgLSBGYXN0IGluZmVyZW5jZSBhbmQgc3RhbmRhcmQgY2FwYWJpbGl0aWVzIiwgImNsYXVkZS0zLTUtaGFpa3UtbGF0ZXN0IiksCiAgICAgICAgICAgICgiQ2xhdWRlIFNvbm5ldCAzLjUgLSBIaWdobHkgY2FwYWJsZSBzdGFuZGFyZCBtb2RlbCIsICJjbGF1ZGUtMy01LXNvbm5ldC1sYXRlc3QiKSwKICAgICAgICAgICAgKCJDbGF1ZGUgU29ubmV0IDMuNyAtIEV4Y2VwdGlvbmFsIGh5YnJpZCByZWFzb25pbmcgYW5kIGFnZW50aWMgY2FwYWJpbGl0aWVzIiwgImNsYXVkZS0zLTctc29ubmV0LWxhdGVzdCIpLAogICAgICAgICAgICAoIkNsYXVkZSBTb25uZXQgNCAtIEhpZ2ggcGVyZm9ybWFuY2UgYW5kIGV4Y2VsbGVudCByZWFzb25pbmciLCAiY2xhdWRlLXNvbm5ldC00LTAiKSwKICAgICAgICAgICAgKCJDbGF1ZGUgT3B1cyA0IC0gTW9zdCBwb3dlcmZ1bCBBbnRocm9waWMgbW9kZWwiLCAiCWNsYXVkZS1vcHVzLTQtMCIpLAogICAgICAgIF0sCiAgICAgICAgImdvb2dsZSI6IFsKICAgICAgICAgICAgKCJHZW1pbmkgMi4wIEZsYXNoLUxpdGUgLSBDb3N0IGVmZmljaWVuY3kgYW5kIGxvdyBsYXRlbmN5IiwgImdlbWluaS0yLjAtZmxhc2gtbGl0ZSIpLAogICAgICAgICAgICAoIkdlbWluaSAyLjAgRmxhc2ggLSBOZXh0IGdlbmVyYXRpb24gZmVhdHVyZXMsIHNwZWVkLCBhbmQgdGhpbmtpbmciLCAiZ2VtaW5pLTIuMC1mbGFzaCIpLAogICAgICAgICAgICAoIkdlbWluaSAyLjUgRmxhc2ggLSBBZGFwdGl2ZSB0aGlua2luZywgY29zdCBlZmZpY2llbmN5IiwgImdlbWluaS0yLjUtZmxhc2gtcHJldmlldy0wNS0yMCIpLAogICAgICAgICAgICAoIkdlbWluaSAyLjUgUHJvIiwgImdlbWluaS0yLjUtcHJvLXByZXZpZXctMDYtMDUiKSwKICAgICAgICBdLAogICAgICAgICJvcGVucm91dGVyIjogWwogICAgICAgICAgICAoIkRlZXBTZWVrIFYzIC0gYSA2ODVCLXBhcmFtZXRlciwgbWl4dHVyZS1vZi1leHBlcnRzIG1vZGVsIiwgImRlZXBzZWVrL2RlZXBzZWVrLWNoYXQtdjMtMDMyNDpmcmVlIiksCiAgICAgICAgICAgICgiRGVlcHNlZWsgLSBsYXRlc3QgaXRlcmF0aW9uIG9mIHRoZSBmbGFnc2hpcCBjaGF0IG1vZGVsIGZhbWlseSBmcm9tIHRoZSBEZWVwU2VlayB0ZWFtLiIsICJkZWVwc2Vlay9kZWVwc2Vlay1jaGF0LXYzLTAzMjQ6ZnJlZSIpLAogICAgICAgIF0sCiAgICAgICAgIm9sbGFtYSI6IFsKICAgICAgICAgICAgKCJsbGFtYTMuMSBsb2NhbCIsICJsbGFtYTMuMSIpLAogICAgICAgICAgICAoInF3ZW4zIiwgInF3ZW4zIiksCiAgICAgICAgXQogICAgfQogICAgCiAgICBjaG9pY2UgPSBxdWVzdGlvbmFyeS5zZWxlY3QoCiAgICAgICAgIlNlbGVjdCBZb3VyIFtEZWVwLVRoaW5raW5nIExMTSBFbmdpbmVdOiIsCiAgICAgICAgY2hvaWNlcz1bCiAgICAgICAgICAgIHF1ZXN0aW9uYXJ5LkNob2ljZShkaXNwbGF5LCB2YWx1ZT12YWx1ZSkKICAgICAgICAgICAgZm9yIGRpc3BsYXksIHZhbHVlIGluIERFRVBfQUdFTlRfT1BUSU9OU1twcm92aWRlci5sb3dlcigpXQogICAgICAgIF0sCiAgICAgICAgaW5zdHJ1Y3Rpb249IlxuLSBVc2UgYXJyb3cga2V5cyB0byBuYXZpZ2F0ZVxuLSBQcmVzcyBFbnRlciB0byBzZWxlY3QiLAogICAgICAgIHN0eWxlPXF1ZXN0aW9uYXJ5LlN0eWxlKAogICAgICAgICAgICBbCiAgICAgICAgICAgICAgICAoInNlbGVjdGVkIiwgImZnOm1hZ2VudGEgbm9pbmhlcml0IiksCiAgICAgICAgICAgICAgICAoImhpZ2hsaWdodGVkIiwgImZnOm1hZ2VudGEgbm9pbmhlcml0IiksCiAgICAgICAgICAgICAgICAoInBvaW50ZXIiLCAiZmc6bWFnZW50YSBub2luaGVyaXQiKSwKICAgICAgICAgICAgXQogICAgICAgICksCiAgICApLmFzaygpCgogICAgaWYgY2hvaWNlIGlzIE5vbmU6CiAgICAgICAgY29uc29sZS5wcmludCgiXG5bcmVkXU5vIGRlZXAgdGhpbmtpbmcgbGxtIGVuZ2luZSBzZWxlY3RlZC4gRXhpdGluZy4uLlsvcmVkXSIpCiAgICAgICAgZXhpdCgxKQoKICAgIHJldHVybiBjaG9pY2UKCmRlZiBzZWxlY3RfbGxtX3Byb3ZpZGVyKCkgLT4gdHVwbGVbc3RyLCBzdHJdOgogICAgIiIiU2VsZWN0IHRoZSBPcGVuQUkgYXBpIHVybCB1c2luZyBpbnRlcmFjdGl2ZSBzZWxlY3Rpb24uIiIiCiAgICAjIERlZmluZSBPcGVuQUkgYXBpIG9wdGlvbnMgd2l0aCB0aGVpciBjb3JyZXNwb25kaW5nIGVuZHBvaW50cwogICAgQkFTRV9VUkxTID0gWwogICAgICAgICgiT3BlbkFJIiwgImh0dHBzOi8vYXBpLm9wZW5haS5jb20vdjEiKSwKICAgICAgICAoIkFudGhyb3BpYyIsICJodHRwczovL2FwaS5hbnRocm9waWMuY29tLyIpLAogICAgICAgICgiR29vZ2xlIiwgImh0dHBzOi8vZ2VuZXJhdGl2ZWxhbmd1YWdlLmdvb2dsZWFwaXMuY29tL3YxIiksCiAgICAgICAgKCJPcGVucm91dGVyIiwgImh0dHBzOi8vb3BlbnJvdXRlci5haS9hcGkvdjEiKSwKICAgICAgICAoIk9sbGFtYSIsICJodHRwOi8vbG9jYWxob3N0OjExNDM0L3YxIiksICAgICAgICAKICAgIF0KICAgIAogICAgY2hvaWNlID0gcXVlc3Rpb25hcnkuc2VsZWN0KAogICAgICAgICJTZWxlY3QgeW91ciBMTE0gUHJvdmlkZXI6IiwKICAgICAgICBjaG9pY2VzPVsKICAgICAgICAgICAgcXVlc3Rpb25hcnkuQ2hvaWNlKGRpc3BsYXksIHZhbHVlPShkaXNwbGF5LCB2YWx1ZSkpCiAgICAgICAgICAgIGZvciBkaXNwbGF5LCB2YWx1ZSBpbiBCQVNFX1VSTFMKICAgICAgICBdLAogICAgICAgIGluc3RydWN0aW9uPSJcbi0gVXNlIGFycm93IGtleXMgdG8gbmF2aWdhdGVcbi0gUHJlc3MgRW50ZXIgdG8gc2VsZWN0IiwKICAgICAgICBzdHlsZT1xdWVzdGlvbmFyeS5TdHlsZSgKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKCJzZWxlY3RlZCIsICJmZzptYWdlbnRhIG5vaW5oZXJpdCIpLAogICAgICAgICAgICAgICAgKCJoaWdobGlnaHRlZCIsICJmZzptYWdlbnRhIG5vaW5oZXJpdCIpLAogICAgICAgICAgICAgICAgKCJwb2ludGVyIiwgImZnOm1hZ2VudGEgbm9pbmhlcml0IiksCiAgICAgICAgICAgIF0KICAgICAgICApLAogICAgKS5hc2soKQogICAgCiAgICBpZiBjaG9pY2UgaXMgTm9uZToKICAgICAgICBjb25zb2xlLnByaW50KCJcbltyZWRdbm8gT3BlbkFJIGJhY2tlbmQgc2VsZWN0ZWQuIEV4aXRpbmcuLi5bL3JlZF0iKQogICAgICAgIGV4aXQoMSkKICAgIAogICAgZGlzcGxheV9uYW1lLCB1cmwgPSBjaG9pY2UKICAgIHByaW50KGYiWW91IHNlbGVjdGVkOiB7ZGlzcGxheV9uYW1lfVx0VVJMOiB7dXJsfSIpCiAgICAKICAgIHJldHVybiBkaXNwbGF5X25hbWUsIHVybAoNCg==
+﻿import questionary
+from typing import List, Optional, Tuple, Dict
+
+from cli.models import AnalystType
+
+ANALYST_ORDER = [
+    ("Market Analyst", AnalystType.MARKET),
+    ("Social Media Analyst", AnalystType.SOCIAL),
+    ("News Analyst", AnalystType.NEWS),
+    ("Fundamentals Analyst", AnalystType.FUNDAMENTALS),
+]
+
+
+def get_ticker() -> str:
+    """Prompt the user to enter a ticker symbol."""
+    ticker = questionary.text(
+        "Enter the ticker symbol to analyze:",
+        validate=lambda x: len(x.strip()) > 0 or "Please enter a valid ticker symbol.",
+        style=questionary.Style(
+            [
+                ("text", "fg:green"),
+                ("highlighted", "noinherit"),
+            ]
+        ),
+    ).ask()
+
+    if not ticker:
+        console.print("\n[red]No ticker symbol provided. Exiting...[/red]")
+        exit(1)
+
+    return ticker.strip().upper()
+
+
+def get_analysis_date() -> str:
+    """Prompt the user to enter a date in YYYY-MM-DD format."""
+    import re
+    from datetime import datetime
+
+    def validate_date(date_str: str) -> bool:
+        if not re.match(r"^\d{4}-\d{2}-\d{2}$", date_str):
+            return False
+        try:
+            datetime.strptime(date_str, "%Y-%m-%d")
+            return True
+        except ValueError:
+            return False
+
+    date = questionary.text(
+        "Enter the analysis date (YYYY-MM-DD):",
+        validate=lambda x: validate_date(x.strip())
+        or "Please enter a valid date in YYYY-MM-DD format.",
+        style=questionary.Style(
+            [
+                ("text", "fg:green"),
+                ("highlighted", "noinherit"),
+            ]
+        ),
+    ).ask()
+
+    if not date:
+        console.print("\n[red]No date provided. Exiting...[/red]")
+        exit(1)
+
+    return date.strip()
+
+
+def select_analysts() -> List[AnalystType]:
+    """Select analysts using an interactive checkbox."""
+    choices = questionary.checkbox(
+        "Select Your [Analysts Team]:",
+        choices=[
+            questionary.Choice(display, value=value) for display, value in ANALYST_ORDER
+        ],
+        instruction="\n- Press Space to select/unselect analysts\n- Press 'a' to select/unselect all\n- Press Enter when done",
+        validate=lambda x: len(x) > 0 or "You must select at least one analyst.",
+        style=questionary.Style(
+            [
+                ("checkbox-selected", "fg:green"),
+                ("selected", "fg:green noinherit"),
+                ("highlighted", "noinherit"),
+                ("pointer", "noinherit"),
+            ]
+        ),
+    ).ask()
+
+    if not choices:
+        console.print("\n[red]No analysts selected. Exiting...[/red]")
+        exit(1)
+
+    return choices
+
+
+def select_research_depth() -> int:
+    """Select research depth using an interactive selection."""
+
+    # Define research depth options with their corresponding values
+    DEPTH_OPTIONS = [
+        ("Shallow - Quick research, few debate and strategy discussion rounds", 1),
+        ("Medium - Middle ground, moderate debate rounds and strategy discussion", 3),
+        ("Deep - Comprehensive research, in depth debate and strategy discussion", 5),
+    ]
+
+    choice = questionary.select(
+        "Select Your [Research Depth]:",
+        choices=[
+            questionary.Choice(display, value=value) for display, value in DEPTH_OPTIONS
+        ],
+        instruction="\n- Use arrow keys to navigate\n- Press Enter to select",
+        style=questionary.Style(
+            [
+                ("selected", "fg:yellow noinherit"),
+                ("highlighted", "fg:yellow noinherit"),
+                ("pointer", "fg:yellow noinherit"),
+            ]
+        ),
+    ).ask()
+
+    if choice is None:
+        console.print("\n[red]No research depth selected. Exiting...[/red]")
+        exit(1)
+
+    return choice
+
+
+def select_shallow_thinking_agent(provider) -> str:
+    """Select shallow thinking llm engine using an interactive selection."""
+
+    # Define shallow thinking llm engine options with their corresponding model names
+    SHALLOW_AGENT_OPTIONS = {
+        "openai": [
+            ("GPT-4o-mini - Fast and efficient for quick tasks", "gpt-4o-mini"),
+            ("GPT-4.1-nano - Ultra-lightweight model for basic operations", "gpt-4.1-nano"),
+            ("GPT-4.1-mini - Compact model with good performance", "gpt-4.1-mini"),
+            ("GPT-4o - Standard model with solid capabilities", "gpt-4o"),
+        ],
+        "anthropic": [
+            ("Claude Haiku 3.5 - Fast inference and standard capabilities", "claude-3-5-haiku-latest"),
+            ("Claude Sonnet 3.5 - Highly capable standard model", "claude-3-5-sonnet-latest"),
+            ("Claude Sonnet 3.7 - Exceptional hybrid reasoning and agentic capabilities", "claude-3-7-sonnet-latest"),
+            ("Claude Sonnet 4 - High performance and excellent reasoning", "claude-sonnet-4-0"),
+        ],
+        "google": [
+            ("Gemini 2.0 Flash-Lite - Cost efficiency and low latency", "gemini-2.0-flash-lite"),
+            ("Gemini 2.0 Flash - Next generation features, speed, and thinking", "gemini-2.0-flash"),
+            ("Gemini 2.5 Flash - Adaptive thinking, cost efficiency", "gemini-2.5-flash-preview-05-20"),
+        ],
+        "openrouter": [
+            ("Meta: Llama 4 Scout", "meta-llama/llama-4-scout:free"),
+            ("Meta: Llama 3.3 8B Instruct - A lightweight and ultra-fast variant of Llama 3.3 70B", "meta-llama/llama-3.3-8b-instruct:free"),
+            ("google/gemini-2.0-flash-exp:free - Gemini Flash 2.0 offers a significantly faster time to first token", "google/gemini-2.0-flash-exp:free"),
+        ],
+        "ollama": [
+            ("llama3.1 local", "llama3.1"),
+            ("llama3.2 local", "llama3.2"),
+        ]
+    }
+
+    choice = questionary.select(
+        "Select Your [Quick-Thinking LLM Engine]:",
+        choices=[
+            questionary.Choice(display, value=value)
+            for display, value in SHALLOW_AGENT_OPTIONS[provider.lower()]
+        ],
+        instruction="\n- Use arrow keys to navigate\n- Press Enter to select",
+        style=questionary.Style(
+            [
+                ("selected", "fg:magenta noinherit"),
+                ("highlighted", "fg:magenta noinherit"),
+                ("pointer", "fg:magenta noinherit"),
+            ]
+        ),
+    ).ask()
+
+    if choice is None:
+        console.print(
+            "\n[red]No shallow thinking llm engine selected. Exiting...[/red]"
+        )
+        exit(1)
+
+    return choice
+
+
+def select_deep_thinking_agent(provider) -> str:
+    """Select deep thinking llm engine using an interactive selection."""
+
+    # Define deep thinking llm engine options with their corresponding model names
+    DEEP_AGENT_OPTIONS = {
+        "openai": [
+            ("GPT-4.1-nano - Ultra-lightweight model for basic operations", "gpt-4.1-nano"),
+            ("GPT-4.1-mini - Compact model with good performance", "gpt-4.1-mini"),
+            ("GPT-4o - Standard model with solid capabilities", "gpt-4o"),
+            ("o4-mini - Specialized reasoning model (compact)", "o4-mini"),
+            ("o3-mini - Advanced reasoning model (lightweight)", "o3-mini"),
+            ("o3 - Full advanced reasoning model", "o3"),
+            ("o1 - Premier reasoning and problem-solving model", "o1"),
+        ],
+        "anthropic": [
+            ("Claude Haiku 3.5 - Fast inference and standard capabilities", "claude-3-5-haiku-latest"),
+            ("Claude Sonnet 3.5 - Highly capable standard model", "claude-3-5-sonnet-latest"),
+            ("Claude Sonnet 3.7 - Exceptional hybrid reasoning and agentic capabilities", "claude-3-7-sonnet-latest"),
+            ("Claude Sonnet 4 - High performance and excellent reasoning", "claude-sonnet-4-0"),
+            ("Claude Opus 4 - Most powerful Anthropic model", "	claude-opus-4-0"),
+        ],
+        "google": [
+            ("Gemini 2.0 Flash-Lite - Cost efficiency and low latency", "gemini-2.0-flash-lite"),
+            ("Gemini 2.0 Flash - Next generation features, speed, and thinking", "gemini-2.0-flash"),
+            ("Gemini 2.5 Flash - Adaptive thinking, cost efficiency", "gemini-2.5-flash-preview-05-20"),
+            ("Gemini 2.5 Pro", "gemini-2.5-pro-preview-06-05"),
+        ],
+        "openrouter": [
+            ("DeepSeek V3 - a 685B-parameter, mixture-of-experts model", "deepseek/deepseek-chat-v3-0324:free"),
+            ("Deepseek - latest iteration of the flagship chat model family from the DeepSeek team.", "deepseek/deepseek-chat-v3-0324:free"),
+        ],
+        "ollama": [
+            ("llama3.1 local", "llama3.1"),
+            ("qwen3", "qwen3"),
+        ]
+    }
+    
+    choice = questionary.select(
+        "Select Your [Deep-Thinking LLM Engine]:",
+        choices=[
+            questionary.Choice(display, value=value)
+            for display, value in DEEP_AGENT_OPTIONS[provider.lower()]
+        ],
+        instruction="\n- Use arrow keys to navigate\n- Press Enter to select",
+        style=questionary.Style(
+            [
+                ("selected", "fg:magenta noinherit"),
+                ("highlighted", "fg:magenta noinherit"),
+                ("pointer", "fg:magenta noinherit"),
+            ]
+        ),
+    ).ask()
+
+    if choice is None:
+        console.print("\n[red]No deep thinking llm engine selected. Exiting...[/red]")
+        exit(1)
+
+    return choice
+
+def select_llm_provider() -> tuple[str, str]:
+    """Select the OpenAI api url using interactive selection."""
+    # Define OpenAI api options with their corresponding endpoints
+    BASE_URLS = [
+        ("OpenAI", "https://api.openai.com/v1"),
+        ("Anthropic", "https://api.anthropic.com/"),
+        ("Google", "https://generativelanguage.googleapis.com/v1"),
+        ("Openrouter", "https://openrouter.ai/api/v1"),
+        ("Ollama", "http://localhost:11434/v1"),        
+    ]
+    
+    choice = questionary.select(
+        "Select your LLM Provider:",
+        choices=[
+            questionary.Choice(display, value=(display, value))
+            for display, value in BASE_URLS
+        ],
+        instruction="\n- Use arrow keys to navigate\n- Press Enter to select",
+        style=questionary.Style(
+            [
+                ("selected", "fg:magenta noinherit"),
+                ("highlighted", "fg:magenta noinherit"),
+                ("pointer", "fg:magenta noinherit"),
+            ]
+        ),
+    ).ask()
+    
+    if choice is None:
+        console.print("\n[red]no OpenAI backend selected. Exiting...[/red]")
+        exit(1)
+    
+    display_name, url = choice
+    print(f"You selected: {display_name}\tURL: {url}")
+    
+    return display_name, url
+

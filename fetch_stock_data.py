@@ -1,1 +1,146 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0K6I635Y+WQeiCoeWunuaXtuiCoeelqOaVsOaNruW5tuS/neWtmOS4ukpTT04NCuS9v+eUqCB3ZWJfYXBpLmdldF9zdG9ja19kYXRhIOiOt+WPluecn+WunuaKgOacr+aMh+aghw0KIiIiDQppbXBvcnQganNvbg0KaW1wb3J0IHN5cw0KaW1wb3J0IHdhcm5pbmdzDQp3YXJuaW5ncy5maWx0ZXJ3YXJuaW5ncygnaWdub3JlJykNCg0KIyDlsJ3or5Xlr7zlhaUgd2ViX2Fwae+8iOWmguaenOWPr+eUqOWImeS9v+eUqOecn+WunuaKgOacr+aMh+agh++8iQ0KdHJ5Og0KICAgIGZyb20gd2ViX2FwaSBpbXBvcnQgZ2V0X3N0b2NrX2RhdGEgYXMgZ2V0X3N0b2NrX3RlY2hfZGF0YQ0KICAgIEhBU19XRUJfQVBJID0gVHJ1ZQ0KZXhjZXB0IEltcG9ydEVycm9yOg0KICAgIEhBU19XRUJfQVBJID0gRmFsc2UNCiAgICAjIOWbnumAgOWIsOebtOaOpeS9v+eUqCBha3NoYXJlDQogICAgZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cyBpbXBvcnQgYWtzaGFyZV91dGlscyBhcyBha3MNCg0KIyDopoHojrflj5bnmoTogqHnpajliJfooagNCnN0b2NrcyA9IFsnMDAwMDAxJywgJzAwMDgzMycsICc2MDA1MTknLCAnMzAwNzUwJywgJzYwMDAzNicsICc2MDEzMTgnLCAnMDAwODU4JywgJzAwMjU5NCddDQoNCiMg5aSH55So6IKh56Wo5ZCN56ew5pig5bCEDQpzdG9ja19uYW1lX21hcCA9IHsNCiAgICAnMDAwMDAxJzogJ+W5s+WuiemTtuihjCcsICc2MDAwMzYnOiAn5oub5ZWG6ZO26KGMJywgJzYwMTM5OCc6ICflt6XllYbpk7booYwnLA0KICAgICc2MDE5MzknOiAn5bu66K6+6ZO26KGMJywgJzYwMTI4OCc6ICflhpzkuJrpk7booYwnLCAnNjAxOTg4JzogJ+S4reWbvemTtuihjCcsDQogICAgJzYwMDAxNSc6ICfljY7lpI/pk7booYwnLCAnNjAwMDE2JzogJ+awkeeUn+mTtuihjCcsICc2MDEyMjknOiAn5LiK5rW36ZO26KGMJywNCiAgICAnNjAwOTI2JzogJ+adreW3numTtuihjCcsICc2MDA5MTknOiAn5rGf6IuP6ZO26KGMJywgJzAwMjE0Mic6ICflroHms6Lpk7booYwnLA0KICAgICcwMDI4MDcnOiAn5peg6ZSh6ZO26KGMJywgJzAwMjk0OCc6ICfpnZLlspvpk7booYwnLCAnMDAyOTY2JzogJ+iLj+W3numTtuihjCcsDQogICAgJzYwMDUxOSc6ICfotLXlt57ojIXlj7AnLCAnMDAwODU4JzogJ+S6lOeyrua2sicsICcwMDA1NjgnOiAn5rO45bee6ICB56qWJywNCiAgICAnMDAwNTk2JzogJ+WPpOS6lei0oemFkicsICc2MDA4MDknOiAn5bGx6KW/5rG+6YWSJywgJzAwMjMwNCc6ICfmtIvmsrPogqHku70nLA0KICAgICc2MDM1ODknOiAn6YeR56eN5a2Q6YWSJywgJzAwMDc5OSc6ICfphZLprLzphZInLCAnNjAwMTk3JzogJ+S8iuWKm+eJuScsDQogICAgJzYwMzE5OCc6ICfov47pqb7otKHphZInLCAnNjAwNzc5JzogJ+awtOS6leWdiicsICc2MDM1MTcnOiAn57ud5ZGz6aOf5ZOBJywNCiAgICAnMzAwNzUwJzogJ+WugeW+t+aXtuS7oycsICcwMDI1OTQnOiAn5q+U5Lqa6L+qJywgJzAwMjQ3NSc6ICfnq4vorq/nsr7lr4YnLA0KICAgICcwMDAzMzMnOiAn576O55qE6ZuG5ZuiJywgJzAwMDY1MSc6ICfmoLzlipvnlLXlmagnLCAnNjAwMjc2JzogJ+aBkueRnuWMu+iNrycsDQogICAgJzAwMjIzMCc6ICfnp5HlpKforq/po54nLCAnNjAxMDEyJzogJ+mahuWfuue7v+iDvScsICc2MDA3MDMnOiAn5LiJ5a6J5YWJ55S1JywNCiAgICAnMzAwMDU5JzogJ+S4nOaWuei0ouWvjCcsICczMDAwMTUnOiAn54ix5bCU55y856eRJywgJzAwMjQxMCc6ICflub/ogZTovr4nLA0KICAgICcwMDI0NDQnOiAn5beo5pif56eR5oqAJywgJzYwMTg4OCc6ICfkuK3lm73kuK3lhY0nLCAnNjAwMDMwJzogJ+S4reS/oeivgeWIuCcsDQogICAgJzYwMTY4OCc6ICfkuK3lm73kuK3ovaYnLCAnNjAxMzE4JzogJ+S4reWbveW5s+WuiScsICc2MDExNjYnOiAn5YW05Lia6ZO26KGMJywNCiAgICAnNjAwMDAwJzogJ+a1puWPkemTtuihjCcsICcwMDIwMjcnOiAn5YiG5LyX5Lyg5aqSJywgJzAwMjQxNSc6ICfmtbflurflqIHop4YnLA0KICAgICcwMDAwMDInOiAn5LiH56eRQScsICc2MDAwMDknOiAn5LiK5rW35py65Zy6JywgJzMwMDE0Mic6ICfmsoPmo67nlJ/niaknLA0KICAgICczMDA4OTYnOiAn54ix5Y2a5Yy755aXJywgJzAwMjMxMSc6ICfmtbflpKfpm4blm6InLCAnMDAyMzUzJzogJ+adsOeRnuiCoeS7vScsDQogICAgJzAwMDgzMyc6ICfnsqTmoYLogqHku70nLCAnMDAwODYxJzogJ+a1t+WNsOiCoeS7vScsICcwMDA4OTUnOiAn57O75pWw5pyq5ZCNJw0KfQ0KDQpyZXN1bHQgPSB7fQ0KDQpwcmludCgiPSIgKiA1MCkNCnByaW50KCLojrflj5ZB6IKh5a6e5pe26IKh56Wo5pWw5o2uIikNCnByaW50KCI9IiAqIDUwKQ0KcHJpbnQoZiLmlbDmja7mupA6IHsnd2ViX2FwaSAo55yf5a6e5oqA5pyv5oyH5qCHKScgaWYgSEFTX1dFQl9BUEkgZWxzZSAnYWtzaGFyZSAo5Z+656GA5pWw5o2uKSd9IikNCnByaW50KCItIiAqIDUwKQ0KDQpmb3IgY29kZSBpbiBzdG9ja3M6DQogICAgdHJ5Og0KICAgICAgICBpZiBIQVNfV0VCX0FQSToNCiAgICAgICAgICAgICMg5L2/55SoIHdlYl9hcGkg6I635Y+W5a6M5pW05pWw5o2u77yI5YyF5ous5oqA5pyv5oyH5qCH77yJDQogICAgICAgICAgICBkYXRhLCBlcnJvciA9IGdldF9zdG9ja190ZWNoX2RhdGEoY29kZSkNCiAgICAgICAgICAgIGlmIGVycm9yOg0KICAgICAgICAgICAgICAgIHByaW50KGYie2NvZGV9OiDojrflj5blpLHotKUgLSB7ZXJyb3J9IikNCiAgICAgICAgICAgICAgICBzdG9ja19uYW1lID0gc3RvY2tfbmFtZV9tYXAuZ2V0KGNvZGUsICfmnKrnn6UnKQ0KICAgICAgICAgICAgICAgIHJlc3VsdFtjb2RlXSA9IHsNCiAgICAgICAgICAgICAgICAgICAgJ25hbWUnOiBzdG9ja19uYW1lLA0KICAgICAgICAgICAgICAgICAgICAncHJpY2UnOiAwLCAnY2hhbmdlX3BjdCc6IDAsICd2b2x1bWUnOiAwLCAnYW1vdW50JzogMCwNCiAgICAgICAgICAgICAgICAgICAgJ3JzaSc6IDUwLjAsICdtYWNkJzogMC4wLCAnbWE1JzogMCwgJ21hMTAnOiAwLCAnbWEyMCc6IDAsDQogICAgICAgICAgICAgICAgICAgICd0cmVuZCc6ICfmnKrnn6UnLCAnc3VwcG9ydCc6IDAsICdyZXNpc3RhbmNlJzogMCwgJ3ZvbF9jaGFuZ2UnOiAwDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGNvbnRpbnVlDQogICAgICAgICAgICANCiAgICAgICAgICAgIHJlc3VsdFtjb2RlXSA9IHsNCiAgICAgICAgICAgICAgICAnbmFtZSc6IGRhdGEuZ2V0KCduYW1lJywgc3RvY2tfbmFtZV9tYXAuZ2V0KGNvZGUsICfmnKrnn6UnKSksDQogICAgICAgICAgICAgICAgJ3ByaWNlJzogZGF0YS5nZXQoJ3ByaWNlJywgMCksDQogICAgICAgICAgICAgICAgJ2NoYW5nZV9wY3QnOiBkYXRhLmdldCgnY2hhbmdlX3BjdCcsIDApLA0KICAgICAgICAgICAgICAgICd2b2x1bWUnOiBkYXRhLmdldCgndm9sdW1lJywgMCksDQogICAgICAgICAgICAgICAgJ2Ftb3VudCc6IGRhdGEuZ2V0KCdhbW91bnQnLCAwKSwNCiAgICAgICAgICAgICAgICAncnNpJzogZGF0YS5nZXQoJ3JzaScsIDUwLjApLA0KICAgICAgICAgICAgICAgICdtYWNkJzogZGF0YS5nZXQoJ21hY2QnLCAwLjApLA0KICAgICAgICAgICAgICAgICdtYTUnOiBkYXRhLmdldCgnbWE1JywgMCksDQogICAgICAgICAgICAgICAgJ21hMTAnOiBkYXRhLmdldCgnbWExMCcsIDApLA0KICAgICAgICAgICAgICAgICdtYTIwJzogZGF0YS5nZXQoJ21hMjAnLCAwKSwNCiAgICAgICAgICAgICAgICAndHJlbmQnOiBkYXRhLmdldCgndHJlbmQnLCAn5pyq55+lJyksDQogICAgICAgICAgICAgICAgJ3N1cHBvcnQnOiBkYXRhLmdldCgnc3VwcG9ydCcsIDApLA0KICAgICAgICAgICAgICAgICdyZXNpc3RhbmNlJzogZGF0YS5nZXQoJ3Jlc2lzdGFuY2UnLCAwKSwNCiAgICAgICAgICAgICAgICAndm9sX2NoYW5nZSc6IGRhdGEuZ2V0KCd2b2xfY2hhbmdlJywgMCkNCiAgICAgICAgICAgIH0NCiAgICAgICAgICAgIG5hbWUgPSByZXN1bHRbY29kZV1bJ25hbWUnXQ0KICAgICAgICAgICAgcHJpY2UgPSByZXN1bHRbY29kZV1bJ3ByaWNlJ10NCiAgICAgICAgICAgIGNoYW5nZV9wY3QgPSByZXN1bHRbY29kZV1bJ2NoYW5nZV9wY3QnXQ0KICAgICAgICAgICAgcnNpID0gcmVzdWx0W2NvZGVdWydyc2knXQ0KICAgICAgICAgICAgcHJpbnQoZiJ7Y29kZX06IHtuYW1lfSAtIMKle3ByaWNlOi4yZn0gKHtjaGFuZ2VfcGN0OisuMmZ9JSkgUlNJOntyc2k6LjFmfSIpDQogICAgICAgIGVsc2U6DQogICAgICAgICAgICAjIOWbnumAgOaooeW8j++8muS9v+eUqCBha3NoYXJlIOiOt+WPluWfuuehgOaVsOaNrg0KICAgICAgICAgICAgcSA9IGFrcy5nZXRfc3RvY2tfcmVhbHRpbWVfcXVvdGUoY29kZSkNCiAgICAgICAgICAgIGlmIHEgaXMgbm90IE5vbmUgYW5kIGxlbihxKSA+IDA6DQogICAgICAgICAgICAgICAgcm93ID0gcS5pbG9jWzBdDQogICAgICAgICAgICAgICAgcHJpY2UgPSBmbG9hdChyb3cuZ2V0KCfmnIDmlrDku7cnLCAwKSBvciAwKQ0KICAgICAgICAgICAgICAgIGNoYW5nZV9wY3QgPSBmbG9hdChyb3cuZ2V0KCfmtqjot4zluYUnLCAwKSBvciAwKQ0KICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgIGFwaV9uYW1lID0gcm93LmdldCgn5ZCN56ewJywgJycpIG9yIHJvdy5nZXQoJ+iCoeelqOeugOensCcsICcnKQ0KICAgICAgICAgICAgICAgIHN0b2NrX25hbWUgPSBhcGlfbmFtZSBpZiBhcGlfbmFtZSBhbmQgYXBpX25hbWUgIT0gJ+acquefpScgZWxzZSBzdG9ja19uYW1lX21hcC5nZXQoY29kZSwgJ+acquefpScpDQogICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgcmVzdWx0W2NvZGVdID0gew0KICAgICAgICAgICAgICAgICAgICAnbmFtZSc6IHN0b2NrX25hbWUsDQogICAgICAgICAgICAgICAgICAgICdwcmljZSc6IHByaWNlLA0KICAgICAgICAgICAgICAgICAgICAnY2hhbmdlX3BjdCc6IGNoYW5nZV9wY3QsDQogICAgICAgICAgICAgICAgICAgICd2b2x1bWUnOiBpbnQocm93LmdldCgn5oiQ5Lqk6YePJywgMCkgb3IgMCksDQogICAgICAgICAgICAgICAgICAgICdhbW91bnQnOiBmbG9hdChyb3cuZ2V0KCfmiJDkuqTpop0nLCAwKSBvciAwKSwNCiAgICAgICAgICAgICAgICAgICAgJ3JzaSc6IDUwLjAsICAjIOehrOe8luegge+8iOaXoOWOhuWPsuaVsOaNruaXoOazleiuoeeul++8iQ0KICAgICAgICAgICAgICAgICAgICAnbWFjZCc6IDAuMCwNCiAgICAgICAgICAgICAgICAgICAgJ21hNSc6IHByaWNlICogMC45OSwNCiAgICAgICAgICAgICAgICAgICAgJ21hMTAnOiBwcmljZSAqIDAuOTgsDQogICAgICAgICAgICAgICAgICAgICdtYTIwJzogcHJpY2UgKiAwLjk3LA0KICAgICAgICAgICAgICAgICAgICAndHJlbmQnOiAn5LiK5raoJyBpZiBjaGFuZ2VfcGN0ID4gMCBlbHNlICfkuIvot4wnLA0KICAgICAgICAgICAgICAgICAgICAnc3VwcG9ydCc6IHByaWNlICogMC45NSwNCiAgICAgICAgICAgICAgICAgICAgJ3Jlc2lzdGFuY2UnOiBwcmljZSAqIDEuMDUsDQogICAgICAgICAgICAgICAgICAgICd2b2xfY2hhbmdlJzogY2hhbmdlX3BjdA0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgICAgICBwcmludChmIntjb2RlfToge3N0b2NrX25hbWV9IC0gwqV7cHJpY2U6LjJmfSAoe2NoYW5nZV9wY3Q6Ky4yZn0lKSBb5Z+656GA5pWw5o2uXSIpDQogICAgICAgICAgICBlbHNlOg0KICAgICAgICAgICAgICAgIHN0b2NrX25hbWUgPSBzdG9ja19uYW1lX21hcC5nZXQoY29kZSwgJ+acquefpScpDQogICAgICAgICAgICAgICAgcmVzdWx0W2NvZGVdID0gew0KICAgICAgICAgICAgICAgICAgICAnbmFtZSc6IHN0b2NrX25hbWUsDQogICAgICAgICAgICAgICAgICAgICdwcmljZSc6IDAsICdjaGFuZ2VfcGN0JzogMCwgJ3ZvbHVtZSc6IDAsICdhbW91bnQnOiAwLA0KICAgICAgICAgICAgICAgICAgICAncnNpJzogNTAuMCwgJ21hY2QnOiAwLjAsICdtYTUnOiAwLCAnbWExMCc6IDAsICdtYTIwJzogMCwNCiAgICAgICAgICAgICAgICAgICAgJ3RyZW5kJzogJ+acquefpScsICdzdXBwb3J0JzogMCwgJ3Jlc2lzdGFuY2UnOiAwLCAndm9sX2NoYW5nZSc6IDANCiAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgcHJpbnQoZiJ7Y29kZX06IHtzdG9ja19uYW1lfSAo5peg5pWw5o2uKSIpDQogICAgICAgICAgICAgICAgDQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICBzdG9ja19uYW1lID0gc3RvY2tfbmFtZV9tYXAuZ2V0KGNvZGUsICfmnKrnn6UnKQ0KICAgICAgICByZXN1bHRbY29kZV0gPSB7DQogICAgICAgICAgICAnbmFtZSc6IHN0b2NrX25hbWUsDQogICAgICAgICAgICAncHJpY2UnOiAwLCAnY2hhbmdlX3BjdCc6IDAsICd2b2x1bWUnOiAwLCAnYW1vdW50JzogMCwNCiAgICAgICAgICAgICdyc2knOiA1MC4wLCAnbWFjZCc6IDAuMCwgJ21hNSc6IDAsICdtYTEwJzogMCwgJ21hMjAnOiAwLA0KICAgICAgICAgICAgJ3RyZW5kJzogJ+acquefpScsICdzdXBwb3J0JzogMCwgJ3Jlc2lzdGFuY2UnOiAwLCAndm9sX2NoYW5nZSc6IDANCiAgICAgICAgfQ0KICAgICAgICBwcmludChmIntjb2RlfToge3N0b2NrX25hbWV9ICjplJnor686IHtzdHIoZSlbOjMwXX0pIikNCg0KcHJpbnQoIi0iICogNTApDQoNCiMg5L+d5a2Y5Yiw5paH5Lu2DQp3aXRoIG9wZW4oJ3N0b2NrX2RhdGEuanNvbicsICd3JywgZW5jb2Rpbmc9J3V0Zi04JykgYXMgZjoNCiAgICBqc29uLmR1bXAocmVzdWx0LCBmLCBlbnN1cmVfYXNjaWk9RmFsc2UsIGluZGVudD0yKQ0KDQpwcmludChmIuaIkOWKn+iOt+WPliB7bGVuKHJlc3VsdCl9IOWPquiCoeelqOaVsOaNriIpDQpwcmludCgi5bey5L+d5a2Y5YiwIHN0b2NrX2RhdGEuanNvbiIpDQo=
+# -*- coding: utf-8 -*-
+"""
+获取A股实时股票数据并保存为JSON
+使用 web_api.get_stock_data 获取真实技术指标
+"""
+import json
+import sys
+import warnings
+warnings.filterwarnings('ignore')
+
+# 尝试导入 web_api（如果可用则使用真实技术指标）
+try:
+    from web_api import get_stock_data as get_stock_tech_data
+    HAS_WEB_API = True
+except ImportError:
+    HAS_WEB_API = False
+    # 回退到直接使用 akshare
+    from tradingagents.dataflows import akshare_utils as aks
+
+# 要获取的股票列表
+stocks = ['000001', '000833', '600519', '300750', '600036', '601318', '000858', '002594']
+
+# 备用股票名称映射
+stock_name_map = {
+    '000001': '平安银行', '600036': '招商银行', '601398': '工商银行',
+    '601939': '建设银行', '601288': '农业银行', '601988': '中国银行',
+    '600015': '华夏银行', '600016': '民生银行', '601229': '上海银行',
+    '600926': '杭州银行', '600919': '江苏银行', '002142': '宁波银行',
+    '002807': '无锡银行', '002948': '青岛银行', '002966': '苏州银行',
+    '600519': '贵州茅台', '000858': '五粮液', '000568': '泸州老窖',
+    '000596': '古井贡酒', '600809': '山西汾酒', '002304': '洋河股份',
+    '603589': '金种子酒', '000799': '酒鬼酒', '600197': '伊力特',
+    '603198': '迎驾贡酒', '600779': '水井坊', '603517': '绝味食品',
+    '300750': '宁德时代', '002594': '比亚迪', '002475': '立讯精密',
+    '000333': '美的集团', '000651': '格力电器', '600276': '恒瑞医药',
+    '002230': '科大讯飞', '601012': '隆基绿能', '600703': '三安光电',
+    '300059': '东方财富', '300015': '爱尔眼科', '002410': '广联达',
+    '002444': '巨星科技', '601888': '中国中免', '600030': '中信证券',
+    '601688': '中国中车', '601318': '中国平安', '601166': '兴业银行',
+    '600000': '浦发银行', '002027': '分众传媒', '002415': '海康威视',
+    '000002': '万科A', '600009': '上海机场', '300142': '沃森生物',
+    '300896': '爱博医疗', '002311': '海大集团', '002353': '杰瑞股份',
+    '000833': '粤桂股份', '000861': '海印股份', '000895': '系数未名'
+}
+
+result = {}
+
+print("=" * 50)
+print("获取A股实时股票数据")
+print("=" * 50)
+print(f"数据源: {'web_api (真实技术指标)' if HAS_WEB_API else 'akshare (基础数据)'}")
+print("-" * 50)
+
+for code in stocks:
+    try:
+        if HAS_WEB_API:
+            # 使用 web_api 获取完整数据（包括技术指标）
+            data, error = get_stock_tech_data(code)
+            if error:
+                print(f"{code}: 获取失败 - {error}")
+                stock_name = stock_name_map.get(code, '未知')
+                result[code] = {
+                    'name': stock_name,
+                    'price': 0, 'change_pct': 0, 'volume': 0, 'amount': 0,
+                    'rsi': 50.0, 'macd': 0.0, 'ma5': 0, 'ma10': 0, 'ma20': 0,
+                    'trend': '未知', 'support': 0, 'resistance': 0, 'vol_change': 0
+                }
+                continue
+            
+            result[code] = {
+                'name': data.get('name', stock_name_map.get(code, '未知')),
+                'price': data.get('price', 0),
+                'change_pct': data.get('change_pct', 0),
+                'volume': data.get('volume', 0),
+                'amount': data.get('amount', 0),
+                'rsi': data.get('rsi', 50.0),
+                'macd': data.get('macd', 0.0),
+                'ma5': data.get('ma5', 0),
+                'ma10': data.get('ma10', 0),
+                'ma20': data.get('ma20', 0),
+                'trend': data.get('trend', '未知'),
+                'support': data.get('support', 0),
+                'resistance': data.get('resistance', 0),
+                'vol_change': data.get('vol_change', 0)
+            }
+            name = result[code]['name']
+            price = result[code]['price']
+            change_pct = result[code]['change_pct']
+            rsi = result[code]['rsi']
+            print(f"{code}: {name} - ¥{price:.2f} ({change_pct:+.2f}%) RSI:{rsi:.1f}")
+        else:
+            # 回退模式：使用 akshare 获取基础数据
+            q = aks.get_stock_realtime_quote(code)
+            if q is not None and len(q) > 0:
+                row = q.iloc[0]
+                price = float(row.get('最新价', 0) or 0)
+                change_pct = float(row.get('涨跌幅', 0) or 0)
+                
+                api_name = row.get('名称', '') or row.get('股票简称', '')
+                stock_name = api_name if api_name and api_name != '未知' else stock_name_map.get(code, '未知')
+                
+                result[code] = {
+                    'name': stock_name,
+                    'price': price,
+                    'change_pct': change_pct,
+                    'volume': int(row.get('成交量', 0) or 0),
+                    'amount': float(row.get('成交额', 0) or 0),
+                    'rsi': 50.0,  # 硬编码（无历史数据无法计算）
+                    'macd': 0.0,
+                    'ma5': price * 0.99,
+                    'ma10': price * 0.98,
+                    'ma20': price * 0.97,
+                    'trend': '上涨' if change_pct > 0 else '下跌',
+                    'support': price * 0.95,
+                    'resistance': price * 1.05,
+                    'vol_change': change_pct
+                }
+                print(f"{code}: {stock_name} - ¥{price:.2f} ({change_pct:+.2f}%) [基础数据]")
+            else:
+                stock_name = stock_name_map.get(code, '未知')
+                result[code] = {
+                    'name': stock_name,
+                    'price': 0, 'change_pct': 0, 'volume': 0, 'amount': 0,
+                    'rsi': 50.0, 'macd': 0.0, 'ma5': 0, 'ma10': 0, 'ma20': 0,
+                    'trend': '未知', 'support': 0, 'resistance': 0, 'vol_change': 0
+                }
+                print(f"{code}: {stock_name} (无数据)")
+                
+    except Exception as e:
+        stock_name = stock_name_map.get(code, '未知')
+        result[code] = {
+            'name': stock_name,
+            'price': 0, 'change_pct': 0, 'volume': 0, 'amount': 0,
+            'rsi': 50.0, 'macd': 0.0, 'ma5': 0, 'ma10': 0, 'ma20': 0,
+            'trend': '未知', 'support': 0, 'resistance': 0, 'vol_change': 0
+        }
+        print(f"{code}: {stock_name} (错误: {str(e)[:30]})")
+
+print("-" * 50)
+
+# 保存到文件
+with open('stock_data.json', 'w', encoding='utf-8') as f:
+    json.dump(result, f, ensure_ascii=False, indent=2)
+
+print(f"成功获取 {len(result)} 只股票数据")
+print("已保存到 stock_data.json")

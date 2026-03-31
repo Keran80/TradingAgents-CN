@@ -1,1 +1,214 @@
-77u/PHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9ImFzc2V0cy9UYXVyaWNSZXNlYXJjaC5wbmciIHN0eWxlPSJ3aWR0aDogNjAlOyBoZWlnaHQ6IGF1dG87Ij4KPC9wPgoKPGRpdiBhbGlnbj0iY2VudGVyIiBzdHlsZT0ibGluZS1oZWlnaHQ6IDE7Ij4KICA8YSBocmVmPSJodHRwczovL2FyeGl2Lm9yZy9hYnMvMjQxMi4yMDEzOCIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgYWx0PSJhclhpdiIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL2FyWGl2LTI0MTIuMjAxMzgtQjMxQjFCP2xvZ289YXJ4aXYiLz48L2E+CiAgPGEgaHJlZj0iaHR0cHM6Ly9kaXNjb3JkLmNvbS9pbnZpdGUvaGs5UEdLU2hQSyIgdGFyZ2V0PSJfYmxhbmsiPjxpbWcgYWx0PSJEaXNjb3JkIiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvRGlzY29yZC1UcmFkaW5nUmVzZWFyY2gtNzI4OWRhP2xvZ289ZGlzY29yZCZsb2dvQ29sb3I9d2hpdGUmY29sb3I9NzI4OWRhIi8+PC9hPgogIDxhIGhyZWY9Ii4vYXNzZXRzL3dlY2hhdC5wbmciIHRhcmdldD0iX2JsYW5rIj48aW1nIGFsdD0iV2VDaGF0IiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvV2VDaGF0LVRhdXJpY1Jlc2VhcmNoLWJyaWdodGdyZWVuP2xvZ289d2VjaGF0JmxvZ29Db2xvcj13aGl0ZSIvPjwvYT4KICA8YSBocmVmPSJodHRwczovL3guY29tL1RhdXJpY1Jlc2VhcmNoIiB0YXJnZXQ9Il9ibGFuayI+PGltZyBhbHQ9IlggRm9sbG93IiBzcmM9Imh0dHBzOi8vaW1nLnNoaWVsZHMuaW8vYmFkZ2UvWC1UYXVyaWNSZXNlYXJjaC13aGl0ZT9sb2dvPXgmbG9nb0NvbG9yPXdoaXRlIi8+PC9hPgogIDxicj4KICA8YSBocmVmPSJodHRwczovL2dpdGh1Yi5jb20vVGF1cmljUmVzZWFyY2gvIiB0YXJnZXQ9Il9ibGFuayI+PGltZyBhbHQ9IkNvbW11bml0eSIgc3JjPSJodHRwczovL2ltZy5zaGllbGRzLmlvL2JhZGdlL0pvaW5fR2l0SHViX0NvbW11bml0eS1UYXVyaWNSZXNlYXJjaC0xNEMyOTA/bG9nbz1kaXNjb3Vyc2UiLz48L2E+CjwvZGl2PgoKPGRpdiBhbGlnbj0iY2VudGVyIj4KICA8IS0tIEtlZXAgdGhlc2UgbGlua3MuIFRyYW5zbGF0aW9ucyB3aWxsIGF1dG9tYXRpY2FsbHkgdXBkYXRlIHdpdGggdGhlIFJFQURNRS4gLS0+CiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cucmVhZG1lLWkxOG4uY29tL1RhdXJpY1Jlc2VhcmNoL1RyYWRpbmdBZ2VudHM/bGFuZz1kZSI+RGV1dHNjaDwvYT4gfCAKICA8YSBocmVmPSJodHRwczovL3d3dy5yZWFkbWUtaTE4bi5jb20vVGF1cmljUmVzZWFyY2gvVHJhZGluZ0FnZW50cz9sYW5nPWVzIj5Fc3Bhw7FvbDwvYT4gfCAKICA8YSBocmVmPSJodHRwczovL3d3dy5yZWFkbWUtaTE4bi5jb20vVGF1cmljUmVzZWFyY2gvVHJhZGluZ0FnZW50cz9sYW5nPWZyIj5mcmFuw6dhaXM8L2E+IHwgCiAgPGEgaHJlZj0iaHR0cHM6Ly93d3cucmVhZG1lLWkxOG4uY29tL1RhdXJpY1Jlc2VhcmNoL1RyYWRpbmdBZ2VudHM/bGFuZz1qYSI+5pel5pys6KqePC9hPiB8IAogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnJlYWRtZS1pMThuLmNvbS9UYXVyaWNSZXNlYXJjaC9UcmFkaW5nQWdlbnRzP2xhbmc9a28iPu2VnOq1reyWtDwvYT4gfCAKICA8YSBocmVmPSJodHRwczovL3d3dy5yZWFkbWUtaTE4bi5jb20vVGF1cmljUmVzZWFyY2gvVHJhZGluZ0FnZW50cz9sYW5nPXB0Ij5Qb3J0dWd1w6pzPC9hPiB8IAogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnJlYWRtZS1pMThuLmNvbS9UYXVyaWNSZXNlYXJjaC9UcmFkaW5nQWdlbnRzP2xhbmc9cnUiPtCg0YPRgdGB0LrQuNC5PC9hPiB8IAogIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnJlYWRtZS1pMThuLmNvbS9UYXVyaWNSZXNlYXJjaC9UcmFkaW5nQWdlbnRzP2xhbmc9emgiPuS4reaWhzwvYT4KPC9kaXY+CgotLS0KCiMgVHJhZGluZ0FnZW50czogTXVsdGktQWdlbnRzIExMTSBGaW5hbmNpYWwgVHJhZGluZyBGcmFtZXdvcmsgCgo+IPCfjokgKipUcmFkaW5nQWdlbnRzKiogb2ZmaWNpYWxseSByZWxlYXNlZCEgV2UgaGF2ZSByZWNlaXZlZCBudW1lcm91cyBpbnF1aXJpZXMgYWJvdXQgdGhlIHdvcmssIGFuZCB3ZSB3b3VsZCBsaWtlIHRvIGV4cHJlc3Mgb3VyIHRoYW5rcyBmb3IgdGhlIGVudGh1c2lhc20gaW4gb3VyIGNvbW11bml0eS4KPgo+IFNvIHdlIGRlY2lkZWQgdG8gZnVsbHkgb3Blbi1zb3VyY2UgdGhlIGZyYW1ld29yay4gTG9va2luZyBmb3J3YXJkIHRvIGJ1aWxkaW5nIGltcGFjdGZ1bCBwcm9qZWN0cyB3aXRoIHlvdSEKCjxkaXYgYWxpZ249ImNlbnRlciI+CjxhIGhyZWY9Imh0dHBzOi8vd3d3LnN0YXItaGlzdG9yeS5jb20vI1RhdXJpY1Jlc2VhcmNoL1RyYWRpbmdBZ2VudHMmRGF0ZSI+CiA8cGljdHVyZT4KICAgPHNvdXJjZSBtZWRpYT0iKHByZWZlcnMtY29sb3Itc2NoZW1lOiBkYXJrKSIgc3Jjc2V0PSJodHRwczovL2FwaS5zdGFyLWhpc3RvcnkuY29tL3N2Zz9yZXBvcz1UYXVyaWNSZXNlYXJjaC9UcmFkaW5nQWdlbnRzJnR5cGU9RGF0ZSZ0aGVtZT1kYXJrIiAvPgogICA8c291cmNlIG1lZGlhPSIocHJlZmVycy1jb2xvci1zY2hlbWU6IGxpZ2h0KSIgc3Jjc2V0PSJodHRwczovL2FwaS5zdGFyLWhpc3RvcnkuY29tL3N2Zz9yZXBvcz1UYXVyaWNSZXNlYXJjaC9UcmFkaW5nQWdlbnRzJnR5cGU9RGF0ZSIgLz4KICAgPGltZyBhbHQ9IlRyYWRpbmdBZ2VudHMgU3RhciBIaXN0b3J5IiBzcmM9Imh0dHBzOi8vYXBpLnN0YXItaGlzdG9yeS5jb20vc3ZnP3JlcG9zPVRhdXJpY1Jlc2VhcmNoL1RyYWRpbmdBZ2VudHMmdHlwZT1EYXRlIiBzdHlsZT0id2lkdGg6IDgwJTsgaGVpZ2h0OiBhdXRvOyIgLz4KIDwvcGljdHVyZT4KPC9hPgo8L2Rpdj4KCjxkaXYgYWxpZ249ImNlbnRlciI+Cgrwn5qAIFtUcmFkaW5nQWdlbnRzXSgjdHJhZGluZ2FnZW50cy1mcmFtZXdvcmspIHwg4pqhIFtJbnN0YWxsYXRpb24gJiBDTEldKCNpbnN0YWxsYXRpb24tYW5kLWNsaSkgfCDwn46sIFtEZW1vXShodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTkwZ3I1bHdqSWhvKSB8IPCfk6YgW1BhY2thZ2UgVXNhZ2VdKCN0cmFkaW5nYWdlbnRzLXBhY2thZ2UpIHwg8J+knSBbQ29udHJpYnV0aW5nXSgjY29udHJpYnV0aW5nKSB8IPCfk4QgW0NpdGF0aW9uXSgjY2l0YXRpb24pCgo8L2Rpdj4KCiMjIFRyYWRpbmdBZ2VudHMgRnJhbWV3b3JrCgpUcmFkaW5nQWdlbnRzIGlzIGEgbXVsdGktYWdlbnQgdHJhZGluZyBmcmFtZXdvcmsgdGhhdCBtaXJyb3JzIHRoZSBkeW5hbWljcyBvZiByZWFsLXdvcmxkIHRyYWRpbmcgZmlybXMuIEJ5IGRlcGxveWluZyBzcGVjaWFsaXplZCBMTE0tcG93ZXJlZCBhZ2VudHM6IGZyb20gZnVuZGFtZW50YWwgYW5hbHlzdHMsIHNlbnRpbWVudCBleHBlcnRzLCBhbmQgdGVjaG5pY2FsIGFuYWx5c3RzLCB0byB0cmFkZXIsIHJpc2sgbWFuYWdlbWVudCB0ZWFtLCB0aGUgcGxhdGZvcm0gY29sbGFib3JhdGl2ZWx5IGV2YWx1YXRlcyBtYXJrZXQgY29uZGl0aW9ucyBhbmQgaW5mb3JtcyB0cmFkaW5nIGRlY2lzaW9ucy4gTW9yZW92ZXIsIHRoZXNlIGFnZW50cyBlbmdhZ2UgaW4gZHluYW1pYyBkaXNjdXNzaW9ucyB0byBwaW5wb2ludCB0aGUgb3B0aW1hbCBzdHJhdGVneS4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJhc3NldHMvc2NoZW1hLnBuZyIgc3R5bGU9IndpZHRoOiAxMDAlOyBoZWlnaHQ6IGF1dG87Ij4KPC9wPgoKPiBUcmFkaW5nQWdlbnRzIGZyYW1ld29yayBpcyBkZXNpZ25lZCBmb3IgcmVzZWFyY2ggcHVycG9zZXMuIFRyYWRpbmcgcGVyZm9ybWFuY2UgbWF5IHZhcnkgYmFzZWQgb24gbWFueSBmYWN0b3JzLCBpbmNsdWRpbmcgdGhlIGNob3NlbiBiYWNrYm9uZSBsYW5ndWFnZSBtb2RlbHMsIG1vZGVsIHRlbXBlcmF0dXJlLCB0cmFkaW5nIHBlcmlvZHMsIHRoZSBxdWFsaXR5IG9mIGRhdGEsIGFuZCBvdGhlciBub24tZGV0ZXJtaW5pc3RpYyBmYWN0b3JzLiBbSXQgaXMgbm90IGludGVuZGVkIGFzIGZpbmFuY2lhbCwgaW52ZXN0bWVudCwgb3IgdHJhZGluZyBhZHZpY2UuXShodHRwczovL3RhdXJpYy5haS9kaXNjbGFpbWVyLykKCk91ciBmcmFtZXdvcmsgZGVjb21wb3NlcyBjb21wbGV4IHRyYWRpbmcgdGFza3MgaW50byBzcGVjaWFsaXplZCByb2xlcy4gVGhpcyBlbnN1cmVzIHRoZSBzeXN0ZW0gYWNoaWV2ZXMgYSByb2J1c3QsIHNjYWxhYmxlIGFwcHJvYWNoIHRvIG1hcmtldCBhbmFseXNpcyBhbmQgZGVjaXNpb24tbWFraW5nLgoKIyMjIEFuYWx5c3QgVGVhbQotIEZ1bmRhbWVudGFscyBBbmFseXN0OiBFdmFsdWF0ZXMgY29tcGFueSBmaW5hbmNpYWxzIGFuZCBwZXJmb3JtYW5jZSBtZXRyaWNzLCBpZGVudGlmeWluZyBpbnRyaW5zaWMgdmFsdWVzIGFuZCBwb3RlbnRpYWwgcmVkIGZsYWdzLgotIFNlbnRpbWVudCBBbmFseXN0OiBBbmFseXplcyBzb2NpYWwgbWVkaWEgYW5kIHB1YmxpYyBzZW50aW1lbnQgdXNpbmcgc2VudGltZW50IHNjb3JpbmcgYWxnb3JpdGhtcyB0byBnYXVnZSBzaG9ydC10ZXJtIG1hcmtldCBtb29kLgotIE5ld3MgQW5hbHlzdDogTW9uaXRvcnMgZ2xvYmFsIG5ld3MgYW5kIG1hY3JvZWNvbm9taWMgaW5kaWNhdG9ycywgaW50ZXJwcmV0aW5nIHRoZSBpbXBhY3Qgb2YgZXZlbnRzIG9uIG1hcmtldCBjb25kaXRpb25zLgotIFRlY2huaWNhbCBBbmFseXN0OiBVdGlsaXplcyB0ZWNobmljYWwgaW5kaWNhdG9ycyAobGlrZSBNQUNEIGFuZCBSU0kpIHRvIGRldGVjdCB0cmFkaW5nIHBhdHRlcm5zIGFuZCBmb3JlY2FzdCBwcmljZSBtb3ZlbWVudHMuCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iYXNzZXRzL2FuYWx5c3QucG5nIiB3aWR0aD0iMTAwJSIgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgbWFyZ2luOiAwIDIlOyI+CjwvcD4KCiMjIyBSZXNlYXJjaGVyIFRlYW0KLSBDb21wcmlzZXMgYm90aCBidWxsaXNoIGFuZCBiZWFyaXNoIHJlc2VhcmNoZXJzIHdobyBjcml0aWNhbGx5IGFzc2VzcyB0aGUgaW5zaWdodHMgcHJvdmlkZWQgYnkgdGhlIEFuYWx5c3QgVGVhbS4gVGhyb3VnaCBzdHJ1Y3R1cmVkIGRlYmF0ZXMsIHRoZXkgYmFsYW5jZSBwb3RlbnRpYWwgZ2FpbnMgYWdhaW5zdCBpbmhlcmVudCByaXNrcy4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJhc3NldHMvcmVzZWFyY2hlci5wbmciIHdpZHRoPSI3MCUiIHN0eWxlPSJkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IG1hcmdpbjogMCAyJTsiPgo8L3A+CgojIyMgVHJhZGVyIEFnZW50Ci0gQ29tcG9zZXMgcmVwb3J0cyBmcm9tIHRoZSBhbmFseXN0cyBhbmQgcmVzZWFyY2hlcnMgdG8gbWFrZSBpbmZvcm1lZCB0cmFkaW5nIGRlY2lzaW9ucy4gSXQgZGV0ZXJtaW5lcyB0aGUgdGltaW5nIGFuZCBtYWduaXR1ZGUgb2YgdHJhZGVzIGJhc2VkIG9uIGNvbXByZWhlbnNpdmUgbWFya2V0IGluc2lnaHRzLgoKPHAgYWxpZ249ImNlbnRlciI+CiAgPGltZyBzcmM9ImFzc2V0cy90cmFkZXIucG5nIiB3aWR0aD0iNzAlIiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBtYXJnaW46IDAgMiU7Ij4KPC9wPgoKIyMjIFJpc2sgTWFuYWdlbWVudCBhbmQgUG9ydGZvbGlvIE1hbmFnZXIKLSBDb250aW51b3VzbHkgZXZhbHVhdGVzIHBvcnRmb2xpbyByaXNrIGJ5IGFzc2Vzc2luZyBtYXJrZXQgdm9sYXRpbGl0eSwgbGlxdWlkaXR5LCBhbmQgb3RoZXIgcmlzayBmYWN0b3JzLiBUaGUgcmlzayBtYW5hZ2VtZW50IHRlYW0gZXZhbHVhdGVzIGFuZCBhZGp1c3RzIHRyYWRpbmcgc3RyYXRlZ2llcywgcHJvdmlkaW5nIGFzc2Vzc21lbnQgcmVwb3J0cyB0byB0aGUgUG9ydGZvbGlvIE1hbmFnZXIgZm9yIGZpbmFsIGRlY2lzaW9uLgotIFRoZSBQb3J0Zm9saW8gTWFuYWdlciBhcHByb3Zlcy9yZWplY3RzIHRoZSB0cmFuc2FjdGlvbiBwcm9wb3NhbC4gSWYgYXBwcm92ZWQsIHRoZSBvcmRlciB3aWxsIGJlIHNlbnQgdG8gdGhlIHNpbXVsYXRlZCBleGNoYW5nZSBhbmQgZXhlY3V0ZWQuCgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iYXNzZXRzL3Jpc2sucG5nIiB3aWR0aD0iNzAlIiBzdHlsZT0iZGlzcGxheTogaW5saW5lLWJsb2NrOyBtYXJnaW46IDAgMiU7Ij4KPC9wPgoKIyMgSW5zdGFsbGF0aW9uIGFuZCBDTEkKCiMjIyBJbnN0YWxsYXRpb24KCkNsb25lIFRyYWRpbmdBZ2VudHM6CmBgYGJhc2gKZ2l0IGNsb25lIGh0dHBzOi8vZ2l0aHViLmNvbS9UYXVyaWNSZXNlYXJjaC9UcmFkaW5nQWdlbnRzLmdpdApjZCBUcmFkaW5nQWdlbnRzCmBgYAoKQ3JlYXRlIGEgdmlydHVhbCBlbnZpcm9ubWVudCBpbiBhbnkgb2YgeW91ciBmYXZvcml0ZSBlbnZpcm9ubWVudCBtYW5hZ2VyczoKYGBgYmFzaApjb25kYSBjcmVhdGUgLW4gdHJhZGluZ2FnZW50cyBweXRob249My4xMwpjb25kYSBhY3RpdmF0ZSB0cmFkaW5nYWdlbnRzCmBgYAoKSW5zdGFsbCBkZXBlbmRlbmNpZXM6CmBgYGJhc2gKcGlwIGluc3RhbGwgLXIgcmVxdWlyZW1lbnRzLnR4dApgYGAKCiMjIyBSZXF1aXJlZCBBUElzCgpZb3Ugd2lsbCBhbHNvIG5lZWQgdGhlIEZpbm5IdWIgQVBJIGZvciBmaW5hbmNpYWwgZGF0YS4gQWxsIG9mIG91ciBjb2RlIGlzIGltcGxlbWVudGVkIHdpdGggdGhlIGZyZWUgdGllci4KYGBgYmFzaApleHBvcnQgRklOTkhVQl9BUElfS0VZPSRZT1VSX0ZJTk5IVUJfQVBJX0tFWQpgYGAKCllvdSB3aWxsIG5lZWQgdGhlIE9wZW5BSSBBUEkgZm9yIGFsbCB0aGUgYWdlbnRzLgpgYGBiYXNoCmV4cG9ydCBPUEVOQUlfQVBJX0tFWT0kWU9VUl9PUEVOQUlfQVBJX0tFWQpgYGAKCiMjIyBDTEkgVXNhZ2UKCllvdSBjYW4gYWxzbyB0cnkgb3V0IHRoZSBDTEkgZGlyZWN0bHkgYnkgcnVubmluZzoKYGBgYmFzaApweXRob24gLW0gY2xpLm1haW4KYGBgCllvdSB3aWxsIHNlZSBhIHNjcmVlbiB3aGVyZSB5b3UgY2FuIHNlbGVjdCB5b3VyIGRlc2lyZWQgdGlja2VycywgZGF0ZSwgTExNcywgcmVzZWFyY2ggZGVwdGgsIGV0Yy4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJhc3NldHMvY2xpL2NsaV9pbml0LnBuZyIgd2lkdGg9IjEwMCUiIHN0eWxlPSJkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IG1hcmdpbjogMCAyJTsiPgo8L3A+CgpBbiBpbnRlcmZhY2Ugd2lsbCBhcHBlYXIgc2hvd2luZyByZXN1bHRzIGFzIHRoZXkgbG9hZCwgbGV0dGluZyB5b3UgdHJhY2sgdGhlIGFnZW50J3MgcHJvZ3Jlc3MgYXMgaXQgcnVucy4KCjxwIGFsaWduPSJjZW50ZXIiPgogIDxpbWcgc3JjPSJhc3NldHMvY2xpL2NsaV9uZXdzLnBuZyIgd2lkdGg9IjEwMCUiIHN0eWxlPSJkaXNwbGF5OiBpbmxpbmUtYmxvY2s7IG1hcmdpbjogMCAyJTsiPgo8L3A+Cgo8cCBhbGlnbj0iY2VudGVyIj4KICA8aW1nIHNyYz0iYXNzZXRzL2NsaS9jbGlfdHJhbnNhY3Rpb24ucG5nIiB3aWR0aD0iMTAwJSIgc3R5bGU9ImRpc3BsYXk6IGlubGluZS1ibG9jazsgbWFyZ2luOiAwIDIlOyI+CjwvcD4KCiMjIFRyYWRpbmdBZ2VudHMgUGFja2FnZQoKIyMjIEltcGxlbWVudGF0aW9uIERldGFpbHMKCldlIGJ1aWx0IFRyYWRpbmdBZ2VudHMgd2l0aCBMYW5nR3JhcGggdG8gZW5zdXJlIGZsZXhpYmlsaXR5IGFuZCBtb2R1bGFyaXR5LiBXZSB1dGlsaXplIGBvMS1wcmV2aWV3YCBhbmQgYGdwdC00b2AgYXMgb3VyIGRlZXAgdGhpbmtpbmcgYW5kIGZhc3QgdGhpbmtpbmcgTExNcyBmb3Igb3VyIGV4cGVyaW1lbnRzLiBIb3dldmVyLCBmb3IgdGVzdGluZyBwdXJwb3Nlcywgd2UgcmVjb21tZW5kIHlvdSB1c2UgYG80LW1pbmlgIGFuZCBgZ3B0LTQuMS1taW5pYCB0byBzYXZlIG9uIGNvc3RzIGFzIG91ciBmcmFtZXdvcmsgbWFrZXMgKipsb3RzIG9mKiogQVBJIGNhbGxzLgoKIyMjIFB5dGhvbiBVc2FnZQoKVG8gdXNlIFRyYWRpbmdBZ2VudHMgaW5zaWRlIHlvdXIgY29kZSwgeW91IGNhbiBpbXBvcnQgdGhlIGB0cmFkaW5nYWdlbnRzYCBtb2R1bGUgYW5kIGluaXRpYWxpemUgYSBgVHJhZGluZ0FnZW50c0dyYXBoKClgIG9iamVjdC4gVGhlIGAucHJvcGFnYXRlKClgIGZ1bmN0aW9uIHdpbGwgcmV0dXJuIGEgZGVjaXNpb24uIFlvdSBjYW4gcnVuIGBtYWluLnB5YCwgaGVyZSdzIGFsc28gYSBxdWljayBleGFtcGxlOgoKYGBgcHl0aG9uCmZyb20gdHJhZGluZ2FnZW50cy5ncmFwaC50cmFkaW5nX2dyYXBoIGltcG9ydCBUcmFkaW5nQWdlbnRzR3JhcGgKZnJvbSB0cmFkaW5nYWdlbnRzLmRlZmF1bHRfY29uZmlnIGltcG9ydCBERUZBVUxUX0NPTkZJRwoKdGEgPSBUcmFkaW5nQWdlbnRzR3JhcGgoZGVidWc9VHJ1ZSwgY29uZmlnPURFRkFVTFRfQ09ORklHLmNvcHkoKSkKCiMgZm9yd2FyZCBwcm9wYWdhdGUKXywgZGVjaXNpb24gPSB0YS5wcm9wYWdhdGUoIk5WREEiLCAiMjAyNC0wNS0xMCIpCnByaW50KGRlY2lzaW9uKQpgYGAKCllvdSBjYW4gYWxzbyBhZGp1c3QgdGhlIGRlZmF1bHQgY29uZmlndXJhdGlvbiB0byBzZXQgeW91ciBvd24gY2hvaWNlIG9mIExMTXMsIGRlYmF0ZSByb3VuZHMsIGV0Yy4KCmBgYHB5dGhvbgpmcm9tIHRyYWRpbmdhZ2VudHMuZ3JhcGgudHJhZGluZ19ncmFwaCBpbXBvcnQgVHJhZGluZ0FnZW50c0dyYXBoCmZyb20gdHJhZGluZ2FnZW50cy5kZWZhdWx0X2NvbmZpZyBpbXBvcnQgREVGQVVMVF9DT05GSUcKCiMgQ3JlYXRlIGEgY3VzdG9tIGNvbmZpZwpjb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkKY29uZmlnWyJkZWVwX3RoaW5rX2xsbSJdID0gImdwdC00LjEtbmFubyIgICMgVXNlIGEgZGlmZmVyZW50IG1vZGVsCmNvbmZpZ1sicXVpY2tfdGhpbmtfbGxtIl0gPSAiZ3B0LTQuMS1uYW5vIiAgIyBVc2UgYSBkaWZmZXJlbnQgbW9kZWwKY29uZmlnWyJtYXhfZGViYXRlX3JvdW5kcyJdID0gMSAgIyBJbmNyZWFzZSBkZWJhdGUgcm91bmRzCmNvbmZpZ1sib25saW5lX3Rvb2xzIl0gPSBUcnVlICMgVXNlIG9ubGluZSB0b29scyBvciBjYWNoZWQgZGF0YQoKIyBJbml0aWFsaXplIHdpdGggY3VzdG9tIGNvbmZpZwp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChkZWJ1Zz1UcnVlLCBjb25maWc9Y29uZmlnKQoKIyBmb3J3YXJkIHByb3BhZ2F0ZQpfLCBkZWNpc2lvbiA9IHRhLnByb3BhZ2F0ZSgiTlZEQSIsICIyMDI0LTA1LTEwIikKcHJpbnQoZGVjaXNpb24pCmBgYAoKPiBGb3IgYG9ubGluZV90b29sc2AsIHdlIHJlY29tbWVuZCBlbmFibGluZyB0aGVtIGZvciBleHBlcmltZW50YXRpb24sIGFzIHRoZXkgcHJvdmlkZSBhY2Nlc3MgdG8gcmVhbC10aW1lIGRhdGEuIFRoZSBhZ2VudHMnIG9mZmxpbmUgdG9vbHMgcmVseSBvbiBjYWNoZWQgZGF0YSBmcm9tIG91ciAqKlRhdXJpYyBUcmFkaW5nREIqKiwgYSBjdXJhdGVkIGRhdGFzZXQgd2UgdXNlIGZvciBiYWNrdGVzdGluZy4gV2UncmUgY3VycmVudGx5IGluIHRoZSBwcm9jZXNzIG9mIHJlZmluaW5nIHRoaXMgZGF0YXNldCwgYW5kIHdlIHBsYW4gdG8gcmVsZWFzZSBpdCBzb29uIGFsb25nc2lkZSBvdXIgdXBjb21pbmcgcHJvamVjdHMuIFN0YXkgdHVuZWQhCgpZb3UgY2FuIHZpZXcgdGhlIGZ1bGwgbGlzdCBvZiBjb25maWd1cmF0aW9ucyBpbiBgdHJhZGluZ2FnZW50cy9kZWZhdWx0X2NvbmZpZy5weWAuCgojIyBDb250cmlidXRpbmcKCldlIHdlbGNvbWUgY29udHJpYnV0aW9ucyBmcm9tIHRoZSBjb21tdW5pdHkhIFdoZXRoZXIgaXQncyBmaXhpbmcgYSBidWcsIGltcHJvdmluZyBkb2N1bWVudGF0aW9uLCBvciBzdWdnZXN0aW5nIGEgbmV3IGZlYXR1cmUsIHlvdXIgaW5wdXQgaGVscHMgbWFrZSB0aGlzIHByb2plY3QgYmV0dGVyLiBJZiB5b3UgYXJlIGludGVyZXN0ZWQgaW4gdGhpcyBsaW5lIG9mIHJlc2VhcmNoLCBwbGVhc2UgY29uc2lkZXIgam9pbmluZyBvdXIgb3Blbi1zb3VyY2UgZmluYW5jaWFsIEFJIHJlc2VhcmNoIGNvbW11bml0eSBbVGF1cmljIFJlc2VhcmNoXShodHRwczovL3RhdXJpYy5haS8pLgoKIyMgQ2l0YXRpb24KClBsZWFzZSByZWZlcmVuY2Ugb3VyIHdvcmsgaWYgeW91IGZpbmQgKlRyYWRpbmdBZ2VudHMqIHByb3ZpZGVzIHlvdSB3aXRoIHNvbWUgaGVscCA6KQoKYGBgCkBtaXNje3hpYW8yMDI1dHJhZGluZ2FnZW50c211bHRpYWdlbnRzbGxtZmluYW5jaWFsLAogICAgICB0aXRsZT17VHJhZGluZ0FnZW50czogTXVsdGktQWdlbnRzIExMTSBGaW5hbmNpYWwgVHJhZGluZyBGcmFtZXdvcmt9LCAKICAgICAgYXV0aG9yPXtZaWppYSBYaWFvIGFuZCBFZHdhcmQgU3VuIGFuZCBEaSBMdW8gYW5kIFdlaSBXYW5nfSwKICAgICAgeWVhcj17MjAyNX0sCiAgICAgIGVwcmludD17MjQxMi4yMDEzOH0sCiAgICAgIGFyY2hpdmVQcmVmaXg9e2FyWGl2fSwKICAgICAgcHJpbWFyeUNsYXNzPXtxLWZpbi5UUn0sCiAgICAgIHVybD17aHR0cHM6Ly9hcnhpdi5vcmcvYWJzLzI0MTIuMjAxMzh9LCAKfQpgYGAKDQo=
+﻿<p align="center">
+  <img src="assets/TauricResearch.png" style="width: 60%; height: auto;">
+</p>
+
+<div align="center" style="line-height: 1;">
+  <a href="https://arxiv.org/abs/2412.20138" target="_blank"><img alt="arXiv" src="https://img.shields.io/badge/arXiv-2412.20138-B31B1B?logo=arxiv"/></a>
+  <a href="https://discord.com/invite/hk9PGKShPK" target="_blank"><img alt="Discord" src="https://img.shields.io/badge/Discord-TradingResearch-7289da?logo=discord&logoColor=white&color=7289da"/></a>
+  <a href="./assets/wechat.png" target="_blank"><img alt="WeChat" src="https://img.shields.io/badge/WeChat-TauricResearch-brightgreen?logo=wechat&logoColor=white"/></a>
+  <a href="https://x.com/TauricResearch" target="_blank"><img alt="X Follow" src="https://img.shields.io/badge/X-TauricResearch-white?logo=x&logoColor=white"/></a>
+  <br>
+  <a href="https://github.com/TauricResearch/" target="_blank"><img alt="Community" src="https://img.shields.io/badge/Join_GitHub_Community-TauricResearch-14C290?logo=discourse"/></a>
+</div>
+
+<div align="center">
+  <!-- Keep these links. Translations will automatically update with the README. -->
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=de">Deutsch</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=es">Español</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=fr">français</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=ja">日本語</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=ko">한국어</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=pt">Português</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=ru">Русский</a> | 
+  <a href="https://www.readme-i18n.com/TauricResearch/TradingAgents?lang=zh">中文</a>
+</div>
+
+---
+
+# TradingAgents: Multi-Agents LLM Financial Trading Framework 
+
+> 🎉 **TradingAgents** officially released! We have received numerous inquiries about the work, and we would like to express our thanks for the enthusiasm in our community.
+>
+> So we decided to fully open-source the framework. Looking forward to building impactful projects with you!
+
+<div align="center">
+<a href="https://www.star-history.com/#TauricResearch/TradingAgents&Date">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=TauricResearch/TradingAgents&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=TauricResearch/TradingAgents&type=Date" />
+   <img alt="TradingAgents Star History" src="https://api.star-history.com/svg?repos=TauricResearch/TradingAgents&type=Date" style="width: 80%; height: auto;" />
+ </picture>
+</a>
+</div>
+
+<div align="center">
+
+🚀 [TradingAgents](#tradingagents-framework) | ⚡ [Installation & CLI](#installation-and-cli) | 🎬 [Demo](https://www.youtube.com/watch?v=90gr5lwjIho) | 📦 [Package Usage](#tradingagents-package) | 🤝 [Contributing](#contributing) | 📄 [Citation](#citation)
+
+</div>
+
+## TradingAgents Framework
+
+TradingAgents is a multi-agent trading framework that mirrors the dynamics of real-world trading firms. By deploying specialized LLM-powered agents: from fundamental analysts, sentiment experts, and technical analysts, to trader, risk management team, the platform collaboratively evaluates market conditions and informs trading decisions. Moreover, these agents engage in dynamic discussions to pinpoint the optimal strategy.
+
+<p align="center">
+  <img src="assets/schema.png" style="width: 100%; height: auto;">
+</p>
+
+> TradingAgents framework is designed for research purposes. Trading performance may vary based on many factors, including the chosen backbone language models, model temperature, trading periods, the quality of data, and other non-deterministic factors. [It is not intended as financial, investment, or trading advice.](https://tauric.ai/disclaimer/)
+
+Our framework decomposes complex trading tasks into specialized roles. This ensures the system achieves a robust, scalable approach to market analysis and decision-making.
+
+### Analyst Team
+- Fundamentals Analyst: Evaluates company financials and performance metrics, identifying intrinsic values and potential red flags.
+- Sentiment Analyst: Analyzes social media and public sentiment using sentiment scoring algorithms to gauge short-term market mood.
+- News Analyst: Monitors global news and macroeconomic indicators, interpreting the impact of events on market conditions.
+- Technical Analyst: Utilizes technical indicators (like MACD and RSI) to detect trading patterns and forecast price movements.
+
+<p align="center">
+  <img src="assets/analyst.png" width="100%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+### Researcher Team
+- Comprises both bullish and bearish researchers who critically assess the insights provided by the Analyst Team. Through structured debates, they balance potential gains against inherent risks.
+
+<p align="center">
+  <img src="assets/researcher.png" width="70%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+### Trader Agent
+- Composes reports from the analysts and researchers to make informed trading decisions. It determines the timing and magnitude of trades based on comprehensive market insights.
+
+<p align="center">
+  <img src="assets/trader.png" width="70%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+### Risk Management and Portfolio Manager
+- Continuously evaluates portfolio risk by assessing market volatility, liquidity, and other risk factors. The risk management team evaluates and adjusts trading strategies, providing assessment reports to the Portfolio Manager for final decision.
+- The Portfolio Manager approves/rejects the transaction proposal. If approved, the order will be sent to the simulated exchange and executed.
+
+<p align="center">
+  <img src="assets/risk.png" width="70%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+## Installation and CLI
+
+### Installation
+
+Clone TradingAgents:
+```bash
+git clone https://github.com/TauricResearch/TradingAgents.git
+cd TradingAgents
+```
+
+Create a virtual environment in any of your favorite environment managers:
+```bash
+conda create -n tradingagents python=3.13
+conda activate tradingagents
+```
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+### Required APIs
+
+You will also need the FinnHub API for financial data. All of our code is implemented with the free tier.
+```bash
+export FINNHUB_API_KEY=$YOUR_FINNHUB_API_KEY
+```
+
+You will need the OpenAI API for all the agents.
+```bash
+export OPENAI_API_KEY=$YOUR_OPENAI_API_KEY
+```
+
+### CLI Usage
+
+You can also try out the CLI directly by running:
+```bash
+python -m cli.main
+```
+You will see a screen where you can select your desired tickers, date, LLMs, research depth, etc.
+
+<p align="center">
+  <img src="assets/cli/cli_init.png" width="100%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+An interface will appear showing results as they load, letting you track the agent's progress as it runs.
+
+<p align="center">
+  <img src="assets/cli/cli_news.png" width="100%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+<p align="center">
+  <img src="assets/cli/cli_transaction.png" width="100%" style="display: inline-block; margin: 0 2%;">
+</p>
+
+## TradingAgents Package
+
+### Implementation Details
+
+We built TradingAgents with LangGraph to ensure flexibility and modularity. We utilize `o1-preview` and `gpt-4o` as our deep thinking and fast thinking LLMs for our experiments. However, for testing purposes, we recommend you use `o4-mini` and `gpt-4.1-mini` to save on costs as our framework makes **lots of** API calls.
+
+### Python Usage
+
+To use TradingAgents inside your code, you can import the `tradingagents` module and initialize a `TradingAgentsGraph()` object. The `.propagate()` function will return a decision. You can run `main.py`, here's also a quick example:
+
+```python
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
+
+ta = TradingAgentsGraph(debug=True, config=DEFAULT_CONFIG.copy())
+
+# forward propagate
+_, decision = ta.propagate("NVDA", "2024-05-10")
+print(decision)
+```
+
+You can also adjust the default configuration to set your own choice of LLMs, debate rounds, etc.
+
+```python
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
+
+# Create a custom config
+config = DEFAULT_CONFIG.copy()
+config["deep_think_llm"] = "gpt-4.1-nano"  # Use a different model
+config["quick_think_llm"] = "gpt-4.1-nano"  # Use a different model
+config["max_debate_rounds"] = 1  # Increase debate rounds
+config["online_tools"] = True # Use online tools or cached data
+
+# Initialize with custom config
+ta = TradingAgentsGraph(debug=True, config=config)
+
+# forward propagate
+_, decision = ta.propagate("NVDA", "2024-05-10")
+print(decision)
+```
+
+> For `online_tools`, we recommend enabling them for experimentation, as they provide access to real-time data. The agents' offline tools rely on cached data from our **Tauric TradingDB**, a curated dataset we use for backtesting. We're currently in the process of refining this dataset, and we plan to release it soon alongside our upcoming projects. Stay tuned!
+
+You can view the full list of configurations in `tradingagents/default_config.py`.
+
+## Contributing
+
+We welcome contributions from the community! Whether it's fixing a bug, improving documentation, or suggesting a new feature, your input helps make this project better. If you are interested in this line of research, please consider joining our open-source financial AI research community [Tauric Research](https://tauric.ai/).
+
+## Citation
+
+Please reference our work if you find *TradingAgents* provides you with some help :)
+
+```
+@misc{xiao2025tradingagentsmultiagentsllmfinancial,
+      title={TradingAgents: Multi-Agents LLM Financial Trading Framework}, 
+      author={Yijia Xiao and Edward Sun and Di Luo and Wei Wang},
+      year={2025},
+      eprint={2412.20138},
+      archivePrefix={arXiv},
+      primaryClass={q-fin.TR},
+      url={https://arxiv.org/abs/2412.20138}, 
+}
+```
+

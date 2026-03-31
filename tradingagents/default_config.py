@@ -1,1 +1,102 @@
-77u/aW1wb3J0IG9zCgojIOiOt+WPlumhueebruagueebruW9lQpQUk9KRUNUX1JPT1QgPSBvcy5wYXRoLmFic3BhdGgob3MucGF0aC5qb2luKG9zLnBhdGguZGlybmFtZShfX2ZpbGVfXyksICIuLiIpKQoKREVGQVVMVF9DT05GSUcgPSB7CiAgICAicHJvamVjdF9kaXIiOiBQUk9KRUNUX1JPT1QsCiAgICAicmVzdWx0c19kaXIiOiBvcy5nZXRlbnYoIlRSQURJTkdBR0VOVFNfUkVTVUxUU19ESVIiLCBvcy5wYXRoLmpvaW4oUFJPSkVDVF9ST09ULCAicmVzdWx0cyIpKSwKICAgICJkYXRhX2RpciI6IG9zLmdldGVudigiVFJBRElOR0FHRU5UU19EQVRBX0RJUiIsIG9zLnBhdGguam9pbihQUk9KRUNUX1JPT1QsICJkYXRhIikpLAogICAgImRhdGFfY2FjaGVfZGlyIjogb3MuZ2V0ZW52KAogICAgICAgICJUUkFESU5HQUdFTlRTX0NBQ0hFX0RJUiIsCiAgICAgICAgb3MucGF0aC5qb2luKFBST0pFQ1RfUk9PVCwgImRhdGFmbG93cyIsICJkYXRhX2NhY2hlIikKICAgICksCiAgICAjIExMTSBzZXR0aW5ncwogICAgImxsbV9wcm92aWRlciI6IG9zLmdldGVudigiVFJBRElOR0FHRU5UU19MTE1fUFJPVklERVIiLCAib3BlbmFpIiksCiAgICAiZGVlcF90aGlua19sbG0iOiBvcy5nZXRlbnYoIlRSQURJTkdBR0VOVFNfREVFUF9MTE0iLCAibzQtbWluaSIpLAogICAgInF1aWNrX3RoaW5rX2xsbSI6IG9zLmdldGVudigiVFJBRElOR0FHRU5UU19RVUlDS19MTE0iLCAiZ3B0LTRvLW1pbmkiKSwKICAgICJiYWNrZW5kX3VybCI6IG9zLmdldGVudigiVFJBRElOR0FHRU5UU19CQUNLRU5EX1VSTCIsICJodHRwczovL2FwaS5vcGVuYWkuY29tL3YxIiksCiAgICAjIERlYmF0ZSBhbmQgZGlzY3Vzc2lvbiBzZXR0aW5ncwogICAgIm1heF9kZWJhdGVfcm91bmRzIjogMSwKICAgICJtYXhfcmlza19kaXNjdXNzX3JvdW5kcyI6IDEsCiAgICAibWF4X3JlY3VyX2xpbWl0IjogMTAwLAogICAgIyBUb29sIHNldHRpbmdzCiAgICAib25saW5lX3Rvb2xzIjogVHJ1ZSwKICAgICMg5pWw5o2u5rqQ6YWN572uIChkYXRhX3NvdXJjZTogInRkeCIgfCAiYWtzaGFyZSIgfCAiYXV0byIpCiAgICAjIHRkeCAgICA9IOmAmui+vuS/oeebtOi/nu+8jOmAn+W6puacgOW/q++8jOaXoOmcgCBBUEkgS2V577yM6YCC5ZCI5a6e5pe25Lqk5piT5Zy65pmvCiAgICAjIGFrc2hhcmUgPSBBa1NoYXJlIEhUVFAg5pWw5o2u5rqQ77yM5pWw5o2u5pu05Liw5a+M77yI5paw6Ze7L+aDhee7qi/lro/op4LvvIkKICAgICMgYXV0byAgID0g6Ieq5Yqo6YCJ5oup77yI5LyY5YWIIFREWO+8jOWksei0peaXtuWbnumAgCBBa1NoYXJl77yJCiAgICAiZGF0YV9zb3VyY2UiOiBvcy5nZXRlbnYoIlRSQURJTkdBR0VOVFNfREFUQV9TT1VSQ0UiLCAiYXV0byIpLAogICAgIyDpgJrovr7kv6HmnI3liqHlmajphY3nva7vvIhhdXRvIOaooeW8j+S8muiHquWKqOmAieaLqeacgOS8mOacjeWKoeWZqO+8iQogICAgInRkeF9zZXJ2ZXIiOiBvcy5nZXRlbnYoIlRSQURJTkdBR0VOVFNfVERYX1NFUlZFUiIsICJhdXRvIiksCiAgICAidGR4X3BvcnQiOiBpbnQob3MuZ2V0ZW52KCJUUkFESU5HQUdFTlRTX1REWF9QT1JUIiwgIjc3MDkiKSksCiAgICAjIEFQSSBLZXkgc2V0dGluZ3MgKOaUr+aMgeeOr+Wig+WPmOmHj+imhueblikKICAgICJvcGVuYWlfYXBpX2tleSI6IG9zLmdldGVudigiT1BFTkFJX0FQSV9LRVkiLCAiIiksCiAgICAiZ29vZ2xlX2FwaV9rZXkiOiBvcy5nZXRlbnYoIkdPT0dMRV9BUElfS0VZIiwgIiIpLAogICAgIyDkuK3lm70gTExNIOaPkOS+m+WVhumFjee9rgogICAgImRlZXBzZWVrX2FwaV9rZXkiOiBvcy5nZXRlbnYoIkRFRVBTRUVLX0FQSV9LRVkiLCAiIiksCiAgICAiemhpcHVfYXBpX2tleSI6IG9zLmdldGVudigiWkhJUFVfQVBJX0tFWSIsICIiKSwKICAgICJxd2VuX2FwaV9rZXkiOiBvcy5nZXRlbnYoIlFXRU5fQVBJX0tFWSIsICIiKSwKICAgICJ3ZW54aW5fYXBpX2tleSI6IG9zLmdldGVudigiV0VOWElOX0FQSV9LRVkiLCAiIiksCiAgICAic3BhcmtfYXBpX2tleSI6IG9zLmdldGVudigiU1BBUktfQVBJX0tFWSIsICIiKSwKICAgICJzcGFya19hcHBfaWQiOiBvcy5nZXRlbnYoIlNQQVJLX0FQUF9JRCIsICIiKSwKfQoKCiMg5Lit5Zu9IExMTSDmj5DkvpvllYbphY3nva7mqKHmnb8KQ0hJTkFfTExNX0NPTkZJR1MgPSB7CiAgICAjIERlZXBTZWVrICjmt7HluqbmsYLntKIpCiAgICAiZGVlcHNlZWsiOiB7CiAgICAgICAgImJhc2VfdXJsIjogImh0dHBzOi8vYXBpLmRlZXBzZWVrLmNvbS92MSIsCiAgICAgICAgIm1vZGVsX21hcCI6IHsKICAgICAgICAgICAgImRlZXBzZWVrLWNoYXQiOiAiRGVlcFNlZWsgQ2hhdCIsCiAgICAgICAgICAgICJkZWVwc2Vlay1jb2RlciI6ICJEZWVwU2VlayBDb2RlciIsCiAgICAgICAgfSwKICAgICAgICAiZW52X2tleSI6ICJERUVQU0VFS19BUElfS0VZIiwKICAgIH0sCiAgICAjIOaZuuiwsea4heiogCAoWmhpcHVBSSkKICAgICJ6aGlwdSI6IHsKICAgICAgICAiYmFzZV91cmwiOiAiaHR0cHM6Ly9vcGVuLmJpZ21vZGVsLmNuL2FwaS9wYWFzL3Y0IiwKICAgICAgICAibW9kZWxfbWFwIjogewogICAgICAgICAgICAiZ2xtLTQiOiAiR0xNLTQiLAogICAgICAgICAgICAiZ2xtLTQtZmxhc2giOiAiR0xNLTQgRmxhc2giLAogICAgICAgICAgICAiZ2xtLTQtcGx1cyI6ICJHTE0tNCBQbHVzIiwKICAgICAgICAgICAgImdsbS0zLXR1cmJvIjogIkdMTS0zIFR1cmJvIiwKICAgICAgICB9LAogICAgICAgICJlbnZfa2V5IjogIlpISVBVX0FQSV9LRVkiLAogICAgfSwKICAgICMg6YCa5LmJ5Y2D6ZeuIChRd2VuL+mYv+mHjOS6kSkKICAgICJxd2VuIjogewogICAgICAgICJiYXNlX3VybCI6ICJodHRwczovL2Rhc2hzY29wZS5hbGl5dW5jcy5jb20vY29tcGF0aWJsZS1tb2RlL3YxIiwKICAgICAgICAibW9kZWxfbWFwIjogewogICAgICAgICAgICAicXdlbi10dXJibyI6ICJRd2VuIFR1cmJvIiwKICAgICAgICAgICAgInF3ZW4tcGx1cyI6ICJRd2VuIFBsdXMiLAogICAgICAgICAgICAicXdlbi1tYXgiOiAiUXdlbiBNYXgiLAogICAgICAgICAgICAicXdlbi1tYXgtbG9uZ2NvbnRleHQiOiAiUXdlbiBNYXggTG9uZ0NvbnRleHQiLAogICAgICAgIH0sCiAgICAgICAgImVudl9rZXkiOiAiUVdFTl9BUElfS0VZIiwKICAgIH0sCiAgICAjIOaWh+W/g+S4gOiogCAoRVJOSUUv55m+5bqmKQogICAgIndlbnhpbiI6IHsKICAgICAgICAiYmFzZV91cmwiOiAiaHR0cHM6Ly9xaWFuZmFuLmJhaWR1YmNlLmNvbS92MiIsCiAgICAgICAgIm1vZGVsX21hcCI6IHsKICAgICAgICAgICAgImVybmllLTQuMC04ayI6ICJFUk5JRS00LjAtOEsiLAogICAgICAgICAgICAiZXJuaWUtMy41LThrIjogIkVSTklFLTMuNS04SyIsCiAgICAgICAgICAgICJlcm5pZS1zcGVlZC04ayI6ICJFUk5JRS1TcGVlZC04SyIsCiAgICAgICAgICAgICJlcm5pZS1zcGVlZC0xMjhrIjogIkVSTklFLVNwZWVkLTEyOEsiLAogICAgICAgIH0sCiAgICAgICAgImVudl9rZXkiOiAiV0VOWElOX0FQSV9LRVkiLAogICAgfSwKICAgICMg6K6v6aOe5pif54GrIChTcGFyay/np5HlpKforq/po54pCiAgICAic3BhcmsiOiB7CiAgICAgICAgImJhc2VfdXJsIjogImh0dHBzOi8vc3BhcmstYXBpLnhmLXl1bi5jb20vdjMuNSIsCiAgICAgICAgIm1vZGVsX21hcCI6IHsKICAgICAgICAgICAgInNwYXJrLXYzLjUiOiAiU3BhcmsgVjMuNSIsCiAgICAgICAgICAgICJzcGFyay12My4xIjogIlNwYXJrIFYzLjEiLAogICAgICAgICAgICAic3BhcmstdjIuMSI6ICJTcGFyayBWMi4xIiwKICAgICAgICB9LAogICAgICAgICJlbnZfa2V5IjogIlNQQVJLX0FQSV9LRVkiLAogICAgICAgICJleHRyYV9jb25maWciOiAiYXBwX2lkIiwgICMg6ZyA6KaB6aKd5aSW55qEIGFwcF9pZAogICAgfSwKfQoK
+﻿import os
+
+# 获取项目根目录
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+
+DEFAULT_CONFIG = {
+    "project_dir": PROJECT_ROOT,
+    "results_dir": os.getenv("TRADINGAGENTS_RESULTS_DIR", os.path.join(PROJECT_ROOT, "results")),
+    "data_dir": os.getenv("TRADINGAGENTS_DATA_DIR", os.path.join(PROJECT_ROOT, "data")),
+    "data_cache_dir": os.getenv(
+        "TRADINGAGENTS_CACHE_DIR",
+        os.path.join(PROJECT_ROOT, "dataflows", "data_cache")
+    ),
+    # LLM settings
+    "llm_provider": os.getenv("TRADINGAGENTS_LLM_PROVIDER", "openai"),
+    "deep_think_llm": os.getenv("TRADINGAGENTS_DEEP_LLM", "o4-mini"),
+    "quick_think_llm": os.getenv("TRADINGAGENTS_QUICK_LLM", "gpt-4o-mini"),
+    "backend_url": os.getenv("TRADINGAGENTS_BACKEND_URL", "https://api.openai.com/v1"),
+    # Debate and discussion settings
+    "max_debate_rounds": 1,
+    "max_risk_discuss_rounds": 1,
+    "max_recur_limit": 100,
+    # Tool settings
+    "online_tools": True,
+    # 数据源配置 (data_source: "tdx" | "akshare" | "auto")
+    # tdx    = 通达信直连，速度最快，无需 API Key，适合实时交易场景
+    # akshare = AkShare HTTP 数据源，数据更丰富（新闻/情绪/宏观）
+    # auto   = 自动选择（优先 TDX，失败时回退 AkShare）
+    "data_source": os.getenv("TRADINGAGENTS_DATA_SOURCE", "auto"),
+    # 通达信服务器配置（auto 模式会自动选择最优服务器）
+    "tdx_server": os.getenv("TRADINGAGENTS_TDX_SERVER", "auto"),
+    "tdx_port": int(os.getenv("TRADINGAGENTS_TDX_PORT", "7709")),
+    # API Key settings (支持环境变量覆盖)
+    "openai_api_key": os.getenv("OPENAI_API_KEY", ""),
+    "google_api_key": os.getenv("GOOGLE_API_KEY", ""),
+    # 中国 LLM 提供商配置
+    "deepseek_api_key": os.getenv("DEEPSEEK_API_KEY", ""),
+    "zhipu_api_key": os.getenv("ZHIPU_API_KEY", ""),
+    "qwen_api_key": os.getenv("QWEN_API_KEY", ""),
+    "wenxin_api_key": os.getenv("WENXIN_API_KEY", ""),
+    "spark_api_key": os.getenv("SPARK_API_KEY", ""),
+    "spark_app_id": os.getenv("SPARK_APP_ID", ""),
+}
+
+
+# 中国 LLM 提供商配置模板
+CHINA_LLM_CONFIGS = {
+    # DeepSeek (深度求索)
+    "deepseek": {
+        "base_url": "https://api.deepseek.com/v1",
+        "model_map": {
+            "deepseek-chat": "DeepSeek Chat",
+            "deepseek-coder": "DeepSeek Coder",
+        },
+        "env_key": "DEEPSEEK_API_KEY",
+    },
+    # 智谱清言 (ZhipuAI)
+    "zhipu": {
+        "base_url": "https://open.bigmodel.cn/api/paas/v4",
+        "model_map": {
+            "glm-4": "GLM-4",
+            "glm-4-flash": "GLM-4 Flash",
+            "glm-4-plus": "GLM-4 Plus",
+            "glm-3-turbo": "GLM-3 Turbo",
+        },
+        "env_key": "ZHIPU_API_KEY",
+    },
+    # 通义千问 (Qwen/阿里云)
+    "qwen": {
+        "base_url": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+        "model_map": {
+            "qwen-turbo": "Qwen Turbo",
+            "qwen-plus": "Qwen Plus",
+            "qwen-max": "Qwen Max",
+            "qwen-max-longcontext": "Qwen Max LongContext",
+        },
+        "env_key": "QWEN_API_KEY",
+    },
+    # 文心一言 (ERNIE/百度)
+    "wenxin": {
+        "base_url": "https://qianfan.baidubce.com/v2",
+        "model_map": {
+            "ernie-4.0-8k": "ERNIE-4.0-8K",
+            "ernie-3.5-8k": "ERNIE-3.5-8K",
+            "ernie-speed-8k": "ERNIE-Speed-8K",
+            "ernie-speed-128k": "ERNIE-Speed-128K",
+        },
+        "env_key": "WENXIN_API_KEY",
+    },
+    # 讯飞星火 (Spark/科大讯飞)
+    "spark": {
+        "base_url": "https://spark-api.xf-yun.com/v3.5",
+        "model_map": {
+            "spark-v3.5": "Spark V3.5",
+            "spark-v3.1": "Spark V3.1",
+            "spark-v2.1": "Spark V2.1",
+        },
+        "env_key": "SPARK_API_KEY",
+        "extra_config": "app_id",  # 需要额外的 app_id
+    },
+}
+

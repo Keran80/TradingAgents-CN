@@ -1,1 +1,443 @@
-IyBUcmFkaW5nQWdlbnRzLUNOIEHogqHlhajpnaLpgILphY3mjIfljZcNCg0KIyMg5qaC6L+wDQoNCuacrOaWh+aho+ivpue7huS7i+e7jSBUcmFkaW5nQWdlbnRzLUNOIOahhuaetueahOS4reWbvUHogqHmlbDmja7pgILphY3mlrnmoYjjgIINCg0KLS0tDQoNCiMjIOaVsOaNrua6kOaetuaehA0KDQojIyMg5paw5aKe5qih5Z2XDQoNCnwg5qih5Z2X5paH5Lu2IHwg5Yqf6IO9IHwNCnwtLS0tLS0tLS18LS0tLS0tfA0KfCBgYXN0b2NrX3V0aWxzLnB5YCB8IEHogqHmlbDmja7ojrflj5bmoLjlv4PnsbsgfA0KfCBgYXN0b2NrX3RlY2huaWNhbC5weWAgfCBB6IKh5oqA5pyv5oyH5qCH6K6h566XIHwNCnwgYHRlc3RfYXN0b2NrLnB5YCB8IOa1i+ivleWSjOWvvOWHuuW3peWFtyB8DQoNCi0tLQ0KDQojIyBB6IKh5pWw5o2u5o6l5Y+jDQoNCiMjIyAxLiDlrp7ml7booYzmg4UNCg0KYGBgcHl0aG9uDQpmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzIGltcG9ydCBBU3RvY2tEYXRhDQoNCiMg6I635Y+W5Y2V5Y+q6IKh56Wo5a6e5pe26KGM5oOFDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X3JlYWx0aW1lX3F1b3RlKCcwMDAwMDEnKSAgIyDlubPlronpk7booYwNCg0KIyDojrflj5bmiYDmnIlB6IKh5a6e5pe26KGM5oOFDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X3JlYWx0aW1lX3F1b3RlKCkgICMg6L+U5Zue5YWo6YOoDQoNCiMg6I635Y+W5aSa5Y+q6IKh56WoDQpzdG9ja3MgPSBbJzAwMDAwMScsICc2MDA1MTknLCAnMzAwNzUwJ10NCmZvciBjb2RlIGluIHN0b2NrczoNCiAgICBkZiA9IEFTdG9ja0RhdGEuZ2V0X3JlYWx0aW1lX3F1b3RlKGNvZGUpDQogICAgaWYgbm90IGRmLmVtcHR5Og0KICAgICAgICBwcmludChkZi5pbG9jWzBdWyfogqHnpajnroDnp7AnXSwgZGYuaWxvY1swXVsn5pyA5paw5Lu3J10pDQpgYGANCg0KIyMjIDIuIOaXpee6v+aVsOaNrg0KDQpgYGBweXRob24NCiMg6I635Y+W5pel57q/5pWw5o2uDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X2RhaWx5KCc2MDA1MTknLCAnMjAyNTAxMDEnLCAnMjAyNTAzMjgnKQ0KDQojIOWPguaVsOivtOaYjjoNCiMgdGlja2VyOiDogqHnpajku6PnoIENCiMgc3RhcnRfZGF0ZTog5byA5aeL5pel5pyfICdZWVlZTU1ERCcNCiMgZW5kX2RhdGU6IOe7k+adn+aXpeacnyAnWVlZWU1NREQnICANCiMgYWRqdXN0OiDlpI3mnYPnsbvlnosgJ3FmcSco5YmN5aSN5p2DKSAvICdoZnEnKOWQjuWkjeadgykgLyAnJyAo5LiN5aSN5p2DKQ0KDQojIOiOt+WPluWRqOe6v+aVsOaNrg0KZGYgPSBBU3RvY2tEYXRhLmdldF93ZWVrbHkoJzYwMDUxOScsICcyMDI1MDEwMScsICcyMDI1MDMyOCcpDQoNCiMg6I635Y+W5YiG6ZKf57q/5pWw5o2uDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X21pbnV0ZSgnNjAwNTE5JywgcGVyaW9kPSc1JykgICMgNeWIhumSn+e6vw0KYGBgDQoNCiMjIyAzLiDmioDmnK/mjIfmoIcNCg0KYGBgcHl0aG9uDQpmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzIGltcG9ydCBBU3RvY2tUZWNobmljYWwNCg0KIyDojrflj5bml6Xnur/mlbDmja4NCmRmID0gQVN0b2NrRGF0YS5nZXRfZGFpbHkoJzYwMDUxOScsICcyMDI1MDEwMScsICcyMDI1MDMyOCcpDQoNCiMg6K6h566X5omA5pyJ5bi455So5oqA5pyv5oyH5qCHDQpkZiA9IEFTdG9ja1RlY2huaWNhbC5jYWxjdWxhdGVfYWxsKGRmKQ0KDQojIOiOt+WPluacgOaWsOaMh+agh+WAvA0KbGF0ZXN0ID0gQVN0b2NrVGVjaG5pY2FsLmdldF9sYXRlc3RfaW5kaWNhdG9ycyhkZikNCg0KcHJpbnQobGF0ZXN0KQ0KIyB7DQojICAgICAnY2xvc2UnOiAxNjg1LjUwLA0KIyAgICAgJ21hNSc6IDE2NjAuMjAsDQojICAgICAnbWExMCc6IDE2NDUuODAsDQojICAgICAnbWEyMCc6IDE2MjAuMzUsDQojICAgICAncnNpJzogNzIuNDUsDQojICAgICAnbWFjZCc6IDE1LjY3ODksDQojICAgICAnbWFjZHMnOiAxMi4zNDU2LA0KIyAgICAgJ21hY2RoJzogMy4zMzMzLA0KIyAgICAgJ2tkal9rJzogODUuMzIsDQojICAgICAna2RqX2QnOiA3OC40NSwNCiMgICAgICdrZGpfaic6IDk5LjA2LA0KIyAgICAgJ2JvbGxfdXBwZXInOiAxNzUwLjAwLA0KIyAgICAgJ2JvbGxfbWlkJzogMTY4MC4wMCwNCiMgICAgICdib2xsX2xvd2VyJzogMTYxMC4wMA0KIyB9DQpgYGANCg0KIyMjIDQuIOi1hOmHkea1geWQkQ0KDQpgYGBweXRob24NCiMg5YyX5ZCR6LWE6YeR5rWB5ZCR77yI5pel5bqmL+aciOW6pu+8iQ0KZGYgPSBBU3RvY2tEYXRhLmdldF9tb25leWZsb3dfaHNndChwZXJpb2Q9J2RhaWx5JykNCg0KIyDljJflkJHotYTph5HmjIHku5PogqHnpagNCmRmID0gQVN0b2NrRGF0YS5nZXRfbW9uZXlmbG93X2hzZ3Rfc3RvY2tzKCkNCg0KIyDono3otYTono3liLjmmI7nu4YNCmRmID0gQVN0b2NrRGF0YS5nZXRfbWFyZ2luX2RldGFpbCgpDQoNCiMg6J6N6LWE6J6N5Yi454Ot6Zeo6IKh56WoDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X21hcmdpbl90b3AoKQ0KDQojIOWkp+WNlei1hOmHkea1geWQkQ0KZGYgPSBBU3RvY2tEYXRhLmdldF9mdW5kX2Zsb3coKQ0KDQojIOadv+Wdl+i1hOmHkea1geWQkQ0KZGYgPSBBU3RvY2tEYXRhLmdldF9zZWN0b3JfZmxvdygpDQpgYGANCg0KIyMjIDUuIOm+meiZjuamnA0KDQpgYGBweXRob24NCiMg6b6Z6JmO5qac5LiK5qac6IKh56WoDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X2xoYl9zdG9ja3MoKQ0KDQojIOm+meiZjuamnOaYjue7hg0KZGYgPSBBU3RvY2tEYXRhLmdldF9saGJfZGV0YWlsKCkNCg0KIyDmnLrmnoTkubDljZbmmI7nu4YNCmRmID0gQVN0b2NrRGF0YS5nZXRfdG9wX2luc3QoKQ0KYGBgDQoNCiMjIyA2LiDmtqjot4zlgZzmlbDmja4NCg0KYGBgcHl0aG9uDQojIOa2qOWBnOadv+axoA0KZGYgPSBBU3RvY2tEYXRhLmdldF9zdG9ja196dF9wb29sKCkNCg0KIyDlvLrlir/mtqjlgZzogqENCmRmID0gQVN0b2NrRGF0YS5nZXRfc3RvY2tfenRfcG9vbF9zdHJvbmcoKQ0KDQojIOasoeaWsOiCoQ0KZGYgPSBBU3RvY2tEYXRhLmdldF9zdG9ja196dF9wb29sX3N1Ym5ldygpDQoNCiMg5rao6LeM5YGc5YiX6KGoDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X2xpbWl0X2xpc3QoKQ0KYGBgDQoNCiMjIyA3LiDmlrDpl7vlhazlkYoNCg0KYGBgcHl0aG9uDQojIEHogqHmlrDpl7sNCmRmID0gQVN0b2NrRGF0YS5nZXRfc3RvY2tfbmV3cygpDQoNCiMg6IKh56Wo5YWs5ZGKDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X3N0b2NrX25vdGljZSgpDQoNCiMg5aSn5a6X5Lqk5piTDQpkZiA9IEFTdG9ja0RhdGEuZ2V0X3N0b2NrX2Jsb2NrX3RyYWRlKCkNCg0KIyDogqHkuJzlop7lh4/mjIENCmRmID0gQVN0b2NrRGF0YS5nZXRfc3RvY2tfaG9sZGVydHJhZGUoKQ0KYGBgDQoNCiMjIyA4LiDotKLliqHmlbDmja4NCg0KYGBgcHl0aG9uDQojIOiCoeelqOWfuuacrOS/oeaBrw0KaW5mbyA9IEFTdG9ja0RhdGEuZ2V0X3N0b2NrX2luZm8oJzYwMDUxOScpDQojIOi/lOWbnjogeyfogqHnpajlkI3np7AnOiAn6LS15bee6IyF5Y+wJywgJ+aAu+W4guWAvCc6ICcuLi4nLCAn5biC55uI546HJzogJy4uLicsIC4uLn0NCg0KIyDotKLliqHmiqXooagNCmRmID0gQVN0b2NrRGF0YS5nZXRfZmluYW5jaWFsX3JlcG9ydCgnNjAwNTE5JykNCg0KIyDotKLliqHmjIfmoIcNCmRmID0gQVN0b2NrRGF0YS5nZXRfZmluYW5jaWFsX2luZGljYXRvcignNjAwNTE5JykNCmBgYA0KDQojIyMgOS4g5oyH5pWw5pWw5o2uDQoNCmBgYHB5dGhvbg0KIyDmjIfmlbDml6Xnur8NCmRmID0gQVN0b2NrRGF0YS5nZXRfaW5kZXhfZGFpbHkoJzAwMDMwMCcsICcyMDI1MDEwMScsICcyMDI1MDMyOCcpICAjIOayqua3sTMwMA0KDQojIOW4uOeUqOaMh+aVsOS7o+eggQ0KSU5ERVhfQ09ERVMgPSB7DQogICAgJ+S4iuivgeaMh+aVsCc6ICcwMDAwMDEnLA0KICAgICfmt7Hor4HmiJDmjIcnOiAnMzk5MDAxJywgDQogICAgJ+WIm+S4muadv+aMhyc6ICczOTkwMDYnLA0KICAgICfnp5HliJs1MCc6ICcwMDA2ODgnLA0KICAgICfmsqrmt7EzMDAnOiAnMDAwMzAwJywNCiAgICAn5LiK6K+BNTAnOiAnMDAwMDE2JywNCiAgICAn5Lit6K+BNTAwJzogJzAwMDkwNScsDQogICAgJ+S4reivgTEwMDAnOiAnMDAwODUyJywNCn0NCmBgYA0KDQotLS0NCg0KIyMg5oqA5pyv5oyH5qCH6K+05piODQoNCiMjIyDmlK/mjIHnmoTmjIfmoIcNCg0KfCDmjIfmoIcgfCDor7TmmI4gfCDorqHnrpfmlrnms5UgfA0KfC0tLS0tfC0tLS0tLXwtLS0tLS0tLS18DQp8IE1BNS8xMC8yMC8zMC82MC8xMjAvMjUwIHwg56e75Yqo5bmz5Z2H57q/IHwg566A5Y2V56e75Yqo5bmz5Z2HIHwNCnwgRU1BMTIvMjYgfCDmjIfmlbDnp7vliqjlubPlnYcgfCDmjIfmlbDliqDmnYMgfA0KfCBNQUNEIHwg5oyH5pWw5bmz5ruR5byC5ZCM56e75Yqo5bmz5Z2H57q/IHwgRU1BMTItRU1BMjYgfA0KfCBSU0kgfCDnm7jlr7nlvLrlvLHmjIfmoIcgfCAxNOWRqOacnyB8DQp8IEtESiB8IOmaj+acuuaMh+aghyB8IDksMywz5ZGo5pyfIHwNCnwgQk9MTCB8IOW4g+ael+W4piB8IDIw5ZGo5pyfwrEy5YCN5qCH5YeG5beuIHwNCnwgQVRSIHwg55yf5a6e5rOi5bmFIHwgMTTlkajmnJ8gfA0KfCBDQ0kgfCDllYblk4HpgJrpgZPmjIfmlbAgfCAxNOWRqOacnyB8DQp8IFdSIHwg5aiB5buJ5oyH5qCHIHwgNiwxMOWRqOacnyB8DQp8IE9CViB8IOiDvemHj+a9riB8IOaIkOS6pOmHj+e0r+iuoSB8DQoNCi0tLQ0KDQojIyDkvr/mjbflh73mlbANCg0K55u05o6l5a+85YWl5L2/55SoOg0KDQpgYGBweXRob24NCmZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MgaW1wb3J0ICgNCiAgICBnZXRfc3RvY2tfcmVhbHRpbWVfcXVvdGUsICAjIOWunuaXtuihjOaDhQ0KICAgIGdldF9zdG9ja19kYWlseSwgICAgICAgICAgICAjIOaXpee6v+aVsOaNrg0KICAgIGdldF9zdG9ja19uZXdzLCAgICAgICAgICAgICAjIOaWsOmXuw0KICAgIGdldF9tb25leWZsb3dfaHNndCwgICAgICAgICAjIOWMl+WQkei1hOmHkQ0KICAgIGdldF9zdG9ja190b3BfbGlzdCwgICAgICAgICAjIOm+meiZjuamnA0KICAgIGdldF9zdG9ja190b3BfaW5zdCwgICAgICAgICAjIOacuuaehOaYjue7hg0KICAgIGdldF9tYXJnaW5fZGV0YWlsLCAgICAgICAgICAjIOiejei1hOiejeWIuA0KICAgIGdldF9pbmRleF9kYWlseSwgICAgICAgICAgICAjIOaMh+aVsOaXpee6vw0KICAgIGdldF9zdG9ja190ZWNobmljYWxfaW5kaWNhdG9ycywgICMg5oqA5pyv5oyH5qCHDQopDQpgYGANCg0KLS0tDQoNCiMjIOS9v+eUqOekuuS+iw0KDQojIyMg56S65L6LMTog6I635Y+W6IKh56Wo5oqA5pyv5YiG5p6QDQoNCmBgYHB5dGhvbg0KZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cyBpbXBvcnQgZ2V0X3N0b2NrX3RlY2huaWNhbF9pbmRpY2F0b3JzDQoNCiMg6I635Y+W6LS15bee6IyF5Y+w5oqA5pyv5oyH5qCHDQpyZXN1bHQgPSBnZXRfc3RvY2tfdGVjaG5pY2FsX2luZGljYXRvcnMoJzYwMDUxOScsIGRheXM9NjApDQoNCnByaW50KHJlc3VsdCkNCiMgew0KIyAgICAgJ3RpY2tlcic6ICc2MDA1MTknLA0KIyAgICAgJ25hbWUnOiAn6LS15bee6IyF5Y+wJywNCiMgICAgICdjbG9zZSc6IDE2ODUuNTAsDQojICAgICAndm9sdW1lJzogMTIzNDU2NywNCiMgICAgICdtYTUnOiAxNjYwLjIwLA0KIyAgICAgJ3JzaSc6IDcyLjQ1LA0KIyAgICAgJ21hY2QnOiAxNS42Nzg5LA0KIyAgICAgLi4uDQojIH0NCmBgYA0KDQojIyMg56S65L6LMjog5om56YeP5a+85Ye66IKh56Wo5pWw5o2uDQoNCmBgYHB5dGhvbg0KZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cyBpbXBvcnQgQVN0b2NrRGF0YSwgQVN0b2NrVGVjaG5pY2FsDQppbXBvcnQganNvbg0KDQpzdG9ja3MgPSB7DQogICAgJzAwMDAwMSc6ICflubPlronpk7booYwnLA0KICAgICc2MDA1MTknOiAn6LS15bee6IyF5Y+wJywgDQogICAgJzMwMDc1MCc6ICflroHlvrfml7bku6MnLA0KfQ0KDQpyZXN1bHQgPSB7fQ0KDQpmb3IgY29kZSwgbmFtZSBpbiBzdG9ja3MuaXRlbXMoKToNCiAgICAjIOiOt+WPluWunuaXtuaVsOaNrg0KICAgIHF1b3RlID0gQVN0b2NrRGF0YS5nZXRfcmVhbHRpbWVfcXVvdGUoY29kZSkNCiAgICBpZiBub3QgcXVvdGUuZW1wdHk6DQogICAgICAgIHEgPSBxdW90ZS5pbG9jWzBdDQogICAgICAgIA0KICAgICAgICAjIOiOt+WPluaKgOacr+aMh+aghw0KICAgICAgICBkYWlseSA9IEFTdG9ja0RhdGEuZ2V0X2RhaWx5KGNvZGUsICcyMDI1MDEwMScsICcyMDI1MDMyOCcpDQogICAgICAgIGlmIG5vdCBkYWlseS5lbXB0eToNCiAgICAgICAgICAgIGRhaWx5ID0gQVN0b2NrVGVjaG5pY2FsLmNhbGN1bGF0ZV9hbGwoZGFpbHkpDQogICAgICAgICAgICB0ZWNoID0gQVN0b2NrVGVjaG5pY2FsLmdldF9sYXRlc3RfaW5kaWNhdG9ycyhkYWlseSkNCiAgICAgICAgDQogICAgICAgIHJlc3VsdFtjb2RlXSA9IHsNCiAgICAgICAgICAgICduYW1lJzogbmFtZSwNCiAgICAgICAgICAgICdwcmljZSc6IGZsb2F0KHEuZ2V0KCfmnIDmlrDku7cnLCAwKSksDQogICAgICAgICAgICAnY2hhbmdlX3BjdCc6IGZsb2F0KHEuZ2V0KCfmtqjot4zluYUnLCAwKSksDQogICAgICAgICAgICAncnNpJzogdGVjaC5nZXQoJ3JzaScsIDUwKSwNCiAgICAgICAgICAgICdtYWNkJzogdGVjaC5nZXQoJ21hY2QnLCAwKSwNCiAgICAgICAgfQ0KDQojIOS/neWtmOWIsEpTT04NCndpdGggb3Blbignc3RvY2tfZGF0YS5qc29uJywgJ3cnLCBlbmNvZGluZz0ndXRmLTgnKSBhcyBmOg0KICAgIGpzb24uZHVtcChyZXN1bHQsIGYsIGVuc3VyZV9hc2NpaT1GYWxzZSwgaW5kZW50PTIpDQpgYGANCg0KLS0tDQoNCiMjIOaWsOmXu+WSjOaDhee7quWIhuaekOaooeWdlw0KDQojIyMg5qih5Z2XOiBhc3RvY2tfc2VudGltZW50LnB5DQoNCuWfuuS6jiBBa1NoYXJlIDEuMTguNDgg6aqM6K+B5o6l5Y+j77yM5o+Q5L6b5Zu95YaF5paw6Ze75ZKM5oOF57uq5pWw5o2u44CCDQoNCiMjIyAxMC4g5paw6Ze75pWw5o2uDQoNCmBgYHB5dGhvbg0KZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cyBpbXBvcnQgQVN0b2NrTmV3cw0KDQojIOiOt+WPlkHogqHmlrDpl7sNCmRmID0gQVN0b2NrTmV3cy5nZXRfc3RvY2tfbmV3cygnQeiCoScpDQoNCiMg6I635Y+W5Liq6IKh5YWs5ZGKDQpkZiA9IEFTdG9ja05ld3MuZ2V0X25vdGljZSgpDQoNCiMg6I635Y+W5paw6Ze76IGU5pKt5paH5a2X56i/DQpkZiA9IEFTdG9ja05ld3MuZ2V0X2NjdHZfbmV3cygpDQoNCiMg6I635Y+W55m+5bqm5paw6Ze75oql6YGT5pe26Ze0DQpkZiA9IEFTdG9ja05ld3MuZ2V0X25ld3NfcmVwb3J0KCkNCmBgYA0KDQojIyMgMTEuIOaDhee7quWIhuaekOaVsOaNrg0KDQpgYGBweXRob24NCmZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MgaW1wb3J0IEFTdG9ja1NlbnRpbWVudCwgQVN0b2NrQW5hbHlzdA0KDQojIOS4nOaWuei0ouWvjOeDreW6puaVsOaNrg0KZGYgPSBBU3RvY2tTZW50aW1lbnQuZ2V0X+S4nOi0oueDreW6puaOkuihjCg1MCkgICAgICAjIOeDreW6puaOkuihjOamnA0KZGYgPSBBU3RvY2tTZW50aW1lbnQuZ2V0X+S4nOi0oumjmeWNh+amnCg1MCkgICAgICAgICAjIOmjmeWNh+amnA0KZGYgPSBBU3RvY2tTZW50aW1lbnQuZ2V0X+S4nOi0oueDreW6puacgOaWsCg1MCkgICAgICAgIyDmnIDmlrDng63luqbmjpLooYwNCg0KIyDmuK/ogqHng63luqYNCmRmID0gQVN0b2NrU2VudGltZW50LmdldF/muK/ogqHng63luqbmjpLooYwoNTApDQoNCiMg6LWE6YeR5rWB5ZCRDQpkZiA9IEFTdG9ja1NlbnRpbWVudC5nZXRf6LWE6YeR5rWB5ZCR5o6S6KGMKDUwKQ0KDQojIOacuuaehOivhOe6pw0KZGYgPSBBU3RvY2tTZW50aW1lbnQuZ2V0X+acuuaehOivhOe6p+aOkuihjCg1MCkNCg0KIyDpm6rnkIPng63luqYgKOWKoOi9vei+g+aFou+8jOmmluasoee6pjMwLTYw56eSKQ0KZGYgPSBBU3RvY2tTZW50aW1lbnQuZ2V0X+mbqueQg+eDreW6puiuqOiuuigzMCkgICAgICAgIyDorqjorrrng63luqYNCmRmID0gQVN0b2NrU2VudGltZW50LmdldF/pm6rnkIPng63luqblhbPms6goMzApICAgICAgICAjIOWFs+azqOeDreW6pg0KZGYgPSBBU3RvY2tTZW50aW1lbnQuZ2V0X+mbqueQg+eDreW6puS6pOaYkygzMCkgICAgICAgICMg5Lqk5piT54Ot5bqmDQpgYGANCg0KIyMjIDEyLiDkuKrogqHotYTph5HmtYHlkJHlkozliIbmnpDluIjor4TnuqcNCg0KYGBgcHl0aG9uDQpmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzIGltcG9ydCBBU3RvY2tBbmFseXN0DQoNCiMg6I635Y+W5Y2V5Y+q6IKh56Wo6LWE6YeR5rWB5ZCRDQpkZiA9IEFTdG9ja0FuYWx5c3QuZ2V0X+i1hOmHkea1geWQkSgnNjAwNTE5JykgICMg6IyF5Y+wDQoNCiMg6I635Y+W5py65p6E6K+E57qnDQpkZiA9IEFTdG9ja0FuYWx5c3QuZ2V0X+acuuaehOivhOe6pygnNjAwNTE5JykNCg0KIyDojrflj5bliLjllYbnoJTmiqUNCmRmID0gQVN0b2NrQW5hbHlzdC5nZXRf56CU5oqlKCc2MDA1MTknKQ0KYGBgDQoNCiMjIyAxMy4g5L6/5o235Ye95pWwDQoNCmBgYHB5dGhvbg0KZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cyBpbXBvcnQgKA0KICAgIEFTdG9ja05ld3MsDQogICAgQVN0b2NrU2VudGltZW50LA0KICAgIEFTdG9ja0FuYWx5c3QsDQogICAgZ2V0X25ld3NfYWxsLA0KICAgIGdldF9zZW50aW1lbnRfYWxsLA0KICAgIGdldF9zdG9ja19zZW50aW1lbnRfc3VtbWFyeSwNCikNCg0KIyDojrflj5bmiYDmnInmlrDpl7vnsbvlnosNCm5ld3MgPSBnZXRfbmV3c19hbGwoKQ0KDQojIOiOt+WPluaJgOacieaDhee7quaVsOaNrg0Kc2VudGltZW50ID0gZ2V0X3NlbnRpbWVudF9hbGwoKSAgIyDlhajlsYANCnNlbnRpbWVudCA9IGdldF9zZW50aW1lbnRfYWxsKCc2MDA1MTknKSAgIyDljIXlkKvkuKrogqHmlbDmja4NCg0KIyDojrflj5bljZXlj6rogqHnpajmg4Xnu6rmkZjopoENCnN1bW1hcnkgPSBnZXRfc3RvY2tfc2VudGltZW50X3N1bW1hcnkoJzYwMDUxOScpDQojIOi/lOWbnjogeyd0aWNrZXInOiAnNjAwNTE5JywgJ3RpbWVzdGFtcCc6ICcuLi4nLCAnZnVuZF9mbG93Jzogey4uLn0sICdhbmFseXN0Jzogey4uLn19DQpgYGANCg0KIyMjIOaVsOaNrua6kOivtOaYjg0KDQp8IOaVsOaNruexu+WeiyB8IOaVsOaNruadpea6kCB8IOWkh+azqCB8DQp8LS0tLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS18DQp8IOS4quiCoeaWsOmXuyB8IOS4nOaWuei0ouWvjCB8IOWunuaXtuaWsOmXu+a1gSB8DQp8IOiCoeelqOWFrOWRiiB8IOS4nOaWuei0ouWvjCB8IOS4iuW4guWFrOWPuOWFrOWRiiB8DQp8IOeDreW6puaOkuihjCB8IOS4nOaWuei0ouWvjCB8IOWunuaXtueDreW6piB8DQp8IOmjmeWNh+amnCB8IOS4nOaWuei0ouWvjCB8IOeDreW6puS4iuWNh+acgOW/qyB8DQp8IOi1hOmHkea1geWQkSB8IOS4nOaWuei0ouWvjCB8IOS4quiCoei1hOmHkei/m+WHuiB8DQp8IOacuuaehOivhOe6pyB8IOS4nOaWuei0ouWvjCB8IOWIuOWVhuWIhuaekOW4iOivhOe6pyB8DQp8IOmbqueQg+eDreW6piB8IOmbqueQg+ekvuWMuiB8IOiuqOiuui/lhbPms6gv5Lqk5piTIHwNCg0KIyMjIOmmluasoeS9v+eUqOazqOaEjw0KDQotICoq6aaW5qyh5a+85YWl5qih5Z2X5pe2KirvvIxBa1NoYXJlIOmcgOimgeS4i+i9veaVsOaNruWMhe+8iOe6pjQ156eS77yJDQotICoq6Zuq55CD5o6l5Y+jKirpppbmrKHosIPnlKjpnIDopoEzMC02MOenkg0KLSDlkI7nu63kvb/nlKjkvJrkvb/nlKjnvJPlrZjvvIzpgJ/luqbmm7Tlv6sNCg0KLS0tDQoNCiMjIOazqOaEj+S6i+mhuQ0KDQoxLiAqKue9kee7nOimgeaxgioqOiBBa1NoYXJlIOmcgOimgei/nuaOpeWbveWGheacjeWKoeWZqOiOt+WPluaVsOaNrg0KMi4gKirpopHnjofpmZDliLYqKjog6YG/5YWN55+t5pe26Ze05YaF5aSn6YeP6K+35rGCDQozLiAqKuaVsOaNruW7tui/nyoqOiDlrp7ml7booYzmg4XmnIkxNeWIhumSn+W7tui/nw0KNC4gKirlpI3mnYPnsbvlnosqKjog5oqA5pyv5YiG5p6Q5bu66K6u5L2/55So5YmN5aSN5p2DKHFmcSnmlbDmja4NCjUuICoq6aaW5qyh5a+85YWlKio6IOmmluasoeWvvOWFpeaooeWdl+mcgOimgeS4i+i9veaVsOaNruWMhe+8jOivt+iAkOW/g+etieW+hQ0KDQotLS0NCg0KIyMg5pWF6Zqc5o6S6ZmkDQoNCiMjIyDpl67popg6IOiOt+WPluaVsOaNruWksei0pQ0KDQpgYGBweXRob24NCiMg5bCd6K+V5o2V6I635byC5bi4DQp0cnk6DQogICAgZGYgPSBBU3RvY2tEYXRhLmdldF9kYWlseSgnNjAwNTE5JywgJzIwMjUwMTAxJywgJzIwMjUwMzI4JykNCiAgICBpZiBkZi5lbXB0eToNCiAgICAgICAgcHJpbnQoIuacquiOt+WPluWIsOaVsOaNru+8jOWPr+iDveaYr+iCoeelqOS7o+eggemUmeivr+aIlue9kee7nOmXrumimCIpDQpleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgcHJpbnQoZiLplJnor686IHtlfSIpDQpgYGANCg0KIyMjIOmXrumimDog5oqA5pyv5oyH5qCH6K6h566X6ZSZ6K+vDQoNCmBgYHB5dGhvbg0KIyDnoa7kv53mlbDmja7otrPlpJ/plb8NCmRmID0gQVN0b2NrRGF0YS5nZXRfZGFpbHkoJzYwMDUxOScsICcyMDI1MDEwMScsICcyMDI1MDMyOCcpDQpwcmludChmIuaVsOaNruadoeaVsDoge2xlbihkZil9IikgICMg6ZyA6KaB6Iez5bCRMjUw5p2h6K6h566X5omA5pyJ5oyH5qCHDQpgYGANCg0KLS0tDQoNCiMjIOabtOaWsOaXpeW/lw0KDQotIDIwMjYtMDMtMjk6IOWIneWni+eJiOacrO+8jOaUr+aMgeWunuaXtuihjOaDheOAgeaXpee6v+OAgeaKgOacr+aMh+agh+OAgei1hOmHkea1geWQkeOAgem+meiZjuamnOetiQ0K
+# TradingAgents-CN A股全面适配指南
+
+## 概述
+
+本文档详细介绍 TradingAgents-CN 框架的中国A股数据适配方案。
+
+---
+
+## 数据源架构
+
+### 新增模块
+
+| 模块文件 | 功能 |
+|---------|------|
+| `astock_utils.py` | A股数据获取核心类 |
+| `astock_technical.py` | A股技术指标计算 |
+| `test_astock.py` | 测试和导出工具 |
+
+---
+
+## A股数据接口
+
+### 1. 实时行情
+
+```python
+from tradingagents.dataflows import AStockData
+
+# 获取单只股票实时行情
+df = AStockData.get_realtime_quote('000001')  # 平安银行
+
+# 获取所有A股实时行情
+df = AStockData.get_realtime_quote()  # 返回全部
+
+# 获取多只股票
+stocks = ['000001', '600519', '300750']
+for code in stocks:
+    df = AStockData.get_realtime_quote(code)
+    if not df.empty:
+        print(df.iloc[0]['股票简称'], df.iloc[0]['最新价'])
+```
+
+### 2. 日线数据
+
+```python
+# 获取日线数据
+df = AStockData.get_daily('600519', '20250101', '20250328')
+
+# 参数说明:
+# ticker: 股票代码
+# start_date: 开始日期 'YYYYMMDD'
+# end_date: 结束日期 'YYYYMMDD'  
+# adjust: 复权类型 'qfq'(前复权) / 'hfq'(后复权) / '' (不复权)
+
+# 获取周线数据
+df = AStockData.get_weekly('600519', '20250101', '20250328')
+
+# 获取分钟线数据
+df = AStockData.get_minute('600519', period='5')  # 5分钟线
+```
+
+### 3. 技术指标
+
+```python
+from tradingagents.dataflows import AStockTechnical
+
+# 获取日线数据
+df = AStockData.get_daily('600519', '20250101', '20250328')
+
+# 计算所有常用技术指标
+df = AStockTechnical.calculate_all(df)
+
+# 获取最新指标值
+latest = AStockTechnical.get_latest_indicators(df)
+
+print(latest)
+# {
+#     'close': 1685.50,
+#     'ma5': 1660.20,
+#     'ma10': 1645.80,
+#     'ma20': 1620.35,
+#     'rsi': 72.45,
+#     'macd': 15.6789,
+#     'macds': 12.3456,
+#     'macdh': 3.3333,
+#     'kdj_k': 85.32,
+#     'kdj_d': 78.45,
+#     'kdj_j': 99.06,
+#     'boll_upper': 1750.00,
+#     'boll_mid': 1680.00,
+#     'boll_lower': 1610.00
+# }
+```
+
+### 4. 资金流向
+
+```python
+# 北向资金流向（日度/月度）
+df = AStockData.get_moneyflow_hsgt(period='daily')
+
+# 北向资金持仓股票
+df = AStockData.get_moneyflow_hsgt_stocks()
+
+# 融资融券明细
+df = AStockData.get_margin_detail()
+
+# 融资融券热门股票
+df = AStockData.get_margin_top()
+
+# 大单资金流向
+df = AStockData.get_fund_flow()
+
+# 板块资金流向
+df = AStockData.get_sector_flow()
+```
+
+### 5. 龙虎榜
+
+```python
+# 龙虎榜上榜股票
+df = AStockData.get_lhb_stocks()
+
+# 龙虎榜明细
+df = AStockData.get_lhb_detail()
+
+# 机构买卖明细
+df = AStockData.get_top_inst()
+```
+
+### 6. 涨跌停数据
+
+```python
+# 涨停板池
+df = AStockData.get_stock_zt_pool()
+
+# 强势涨停股
+df = AStockData.get_stock_zt_pool_strong()
+
+# 次新股
+df = AStockData.get_stock_zt_pool_subnew()
+
+# 涨跌停列表
+df = AStockData.get_limit_list()
+```
+
+### 7. 新闻公告
+
+```python
+# A股新闻
+df = AStockData.get_stock_news()
+
+# 股票公告
+df = AStockData.get_stock_notice()
+
+# 大宗交易
+df = AStockData.get_stock_block_trade()
+
+# 股东增减持
+df = AStockData.get_stock_holdertrade()
+```
+
+### 8. 财务数据
+
+```python
+# 股票基本信息
+info = AStockData.get_stock_info('600519')
+# 返回: {'股票名称': '贵州茅台', '总市值': '...', '市盈率': '...', ...}
+
+# 财务报表
+df = AStockData.get_financial_report('600519')
+
+# 财务指标
+df = AStockData.get_financial_indicator('600519')
+```
+
+### 9. 指数数据
+
+```python
+# 指数日线
+df = AStockData.get_index_daily('000300', '20250101', '20250328')  # 沪深300
+
+# 常用指数代码
+INDEX_CODES = {
+    '上证指数': '000001',
+    '深证成指': '399001', 
+    '创业板指': '399006',
+    '科创50': '000688',
+    '沪深300': '000300',
+    '上证50': '000016',
+    '中证500': '000905',
+    '中证1000': '000852',
+}
+```
+
+---
+
+## 技术指标说明
+
+### 支持的指标
+
+| 指标 | 说明 | 计算方法 |
+|-----|------|---------|
+| MA5/10/20/30/60/120/250 | 移动平均线 | 简单移动平均 |
+| EMA12/26 | 指数移动平均 | 指数加权 |
+| MACD | 指数平滑异同移动平均线 | EMA12-EMA26 |
+| RSI | 相对强弱指标 | 14周期 |
+| KDJ | 随机指标 | 9,3,3周期 |
+| BOLL | 布林带 | 20周期±2倍标准差 |
+| ATR | 真实波幅 | 14周期 |
+| CCI | 商品通道指数 | 14周期 |
+| WR | 威廉指标 | 6,10周期 |
+| OBV | 能量潮 | 成交量累计 |
+
+---
+
+## 便捷函数
+
+直接导入使用:
+
+```python
+from tradingagents.dataflows import (
+    get_stock_realtime_quote,  # 实时行情
+    get_stock_daily,            # 日线数据
+    get_stock_news,             # 新闻
+    get_moneyflow_hsgt,         # 北向资金
+    get_stock_top_list,         # 龙虎榜
+    get_stock_top_inst,         # 机构明细
+    get_margin_detail,          # 融资融券
+    get_index_daily,            # 指数日线
+    get_stock_technical_indicators,  # 技术指标
+)
+```
+
+---
+
+## 使用示例
+
+### 示例1: 获取股票技术分析
+
+```python
+from tradingagents.dataflows import get_stock_technical_indicators
+
+# 获取贵州茅台技术指标
+result = get_stock_technical_indicators('600519', days=60)
+
+print(result)
+# {
+#     'ticker': '600519',
+#     'name': '贵州茅台',
+#     'close': 1685.50,
+#     'volume': 1234567,
+#     'ma5': 1660.20,
+#     'rsi': 72.45,
+#     'macd': 15.6789,
+#     ...
+# }
+```
+
+### 示例2: 批量导出股票数据
+
+```python
+from tradingagents.dataflows import AStockData, AStockTechnical
+import json
+
+stocks = {
+    '000001': '平安银行',
+    '600519': '贵州茅台', 
+    '300750': '宁德时代',
+}
+
+result = {}
+
+for code, name in stocks.items():
+    # 获取实时数据
+    quote = AStockData.get_realtime_quote(code)
+    if not quote.empty:
+        q = quote.iloc[0]
+        
+        # 获取技术指标
+        daily = AStockData.get_daily(code, '20250101', '20250328')
+        if not daily.empty:
+            daily = AStockTechnical.calculate_all(daily)
+            tech = AStockTechnical.get_latest_indicators(daily)
+        
+        result[code] = {
+            'name': name,
+            'price': float(q.get('最新价', 0)),
+            'change_pct': float(q.get('涨跌幅', 0)),
+            'rsi': tech.get('rsi', 50),
+            'macd': tech.get('macd', 0),
+        }
+
+# 保存到JSON
+with open('stock_data.json', 'w', encoding='utf-8') as f:
+    json.dump(result, f, ensure_ascii=False, indent=2)
+```
+
+---
+
+## 新闻和情绪分析模块
+
+### 模块: astock_sentiment.py
+
+基于 AkShare 1.18.48 验证接口，提供国内新闻和情绪数据。
+
+### 10. 新闻数据
+
+```python
+from tradingagents.dataflows import AStockNews
+
+# 获取A股新闻
+df = AStockNews.get_stock_news('A股')
+
+# 获取个股公告
+df = AStockNews.get_notice()
+
+# 获取新闻联播文字稿
+df = AStockNews.get_cctv_news()
+
+# 获取百度新闻报道时间
+df = AStockNews.get_news_report()
+```
+
+### 11. 情绪分析数据
+
+```python
+from tradingagents.dataflows import AStockSentiment, AStockAnalyst
+
+# 东方财富热度数据
+df = AStockSentiment.get_东财热度排行(50)      # 热度排行榜
+df = AStockSentiment.get_东财飙升榜(50)         # 飙升榜
+df = AStockSentiment.get_东财热度最新(50)       # 最新热度排行
+
+# 港股热度
+df = AStockSentiment.get_港股热度排行(50)
+
+# 资金流向
+df = AStockSentiment.get_资金流向排行(50)
+
+# 机构评级
+df = AStockSentiment.get_机构评级排行(50)
+
+# 雪球热度 (加载较慢，首次约30-60秒)
+df = AStockSentiment.get_雪球热度讨论(30)       # 讨论热度
+df = AStockSentiment.get_雪球热度关注(30)        # 关注热度
+df = AStockSentiment.get_雪球热度交易(30)        # 交易热度
+```
+
+### 12. 个股资金流向和分析师评级
+
+```python
+from tradingagents.dataflows import AStockAnalyst
+
+# 获取单只股票资金流向
+df = AStockAnalyst.get_资金流向('600519')  # 茅台
+
+# 获取机构评级
+df = AStockAnalyst.get_机构评级('600519')
+
+# 获取券商研报
+df = AStockAnalyst.get_研报('600519')
+```
+
+### 13. 便捷函数
+
+```python
+from tradingagents.dataflows import (
+    AStockNews,
+    AStockSentiment,
+    AStockAnalyst,
+    get_news_all,
+    get_sentiment_all,
+    get_stock_sentiment_summary,
+)
+
+# 获取所有新闻类型
+news = get_news_all()
+
+# 获取所有情绪数据
+sentiment = get_sentiment_all()  # 全局
+sentiment = get_sentiment_all('600519')  # 包含个股数据
+
+# 获取单只股票情绪摘要
+summary = get_stock_sentiment_summary('600519')
+# 返回: {'ticker': '600519', 'timestamp': '...', 'fund_flow': {...}, 'analyst': {...}}
+```
+
+### 数据源说明
+
+| 数据类型 | 数据来源 | 备注 |
+|---------|---------|------|
+| 个股新闻 | 东方财富 | 实时新闻流 |
+| 股票公告 | 东方财富 | 上市公司公告 |
+| 热度排行 | 东方财富 | 实时热度 |
+| 飙升榜 | 东方财富 | 热度上升最快 |
+| 资金流向 | 东方财富 | 个股资金进出 |
+| 机构评级 | 东方财富 | 券商分析师评级 |
+| 雪球热度 | 雪球社区 | 讨论/关注/交易 |
+
+### 首次使用注意
+
+- **首次导入模块时**，AkShare 需要下载数据包（约45秒）
+- **雪球接口**首次调用需要30-60秒
+- 后续使用会使用缓存，速度更快
+
+---
+
+## 注意事项
+
+1. **网络要求**: AkShare 需要连接国内服务器获取数据
+2. **频率限制**: 避免短时间内大量请求
+3. **数据延迟**: 实时行情有15分钟延迟
+4. **复权类型**: 技术分析建议使用前复权(qfq)数据
+5. **首次导入**: 首次导入模块需要下载数据包，请耐心等待
+
+---
+
+## 故障排除
+
+### 问题: 获取数据失败
+
+```python
+# 尝试捕获异常
+try:
+    df = AStockData.get_daily('600519', '20250101', '20250328')
+    if df.empty:
+        print("未获取到数据，可能是股票代码错误或网络问题")
+except Exception as e:
+    print(f"错误: {e}")
+```
+
+### 问题: 技术指标计算错误
+
+```python
+# 确保数据足够长
+df = AStockData.get_daily('600519', '20250101', '20250328')
+print(f"数据条数: {len(df)}")  # 需要至少250条计算所有指标
+```
+
+---
+
+## 更新日志
+
+- 2026-03-29: 初始版本，支持实时行情、日线、技术指标、资金流向、龙虎榜等

@@ -1,1 +1,99 @@
-IyBUcmFkaW5nQWdlbnRzLUNOIOS4reWbvSBMTE0g6YWN572u5paH5Lu25qih5p2/DQojIOS9v+eUqOaWueazle+8muWwhuatpOaWh+S7tuWkjeWItuS4uiBjb25maWcucHkg5bm25aGr5YWl5L2g55qEIEFQSSBLZXkNCg0KaW1wb3J0IG9zDQoNCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09DQojIOaWueazleS4gO+8muebtOaOpemFjee9ru+8iOaOqOiNkO+8iQ0KIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCg0KIyDmlrnlvI8gMTog5L2/55SoIERlZXBTZWVr77yI5oCn5Lu35q+U6auY77yJDQpERUVQU0VFS19DT05GSUcgPSB7DQogICAgImxsbV9wcm92aWRlciI6ICJkZWVwc2VlayIsDQogICAgImRlZXBfdGhpbmtfbGxtIjogImRlZXBzZWVrLWNoYXQiLA0KICAgICJxdWlja190aGlua19sbG0iOiAiZGVlcHNlZWstY2hhdCIsDQogICAgImRlZXBzZWVrX2FwaV9rZXkiOiAieW91ci1kZWVwc2Vlay1hcGkta2V5LWhlcmUiLCAgIyDmm7/mjaLkuLrkvaDnmoQgQVBJIEtleQ0KfQ0KDQojIOaWueW8jyAyOiDkvb/nlKjmmbrosLHmuIXoqIAgR0xNLTQNClpISVBVX0NPTkZJRyA9IHsNCiAgICAibGxtX3Byb3ZpZGVyIjogInpoaXB1IiwNCiAgICAiZGVlcF90aGlua19sbG0iOiAiZ2xtLTQiLA0KICAgICJxdWlja190aGlua19sbG0iOiAiZ2xtLTQtZmxhc2giLA0KICAgICJ6aGlwdV9hcGlfa2V5IjogInlvdXItemhpcHUtYXBpLWtleS1oZXJlIiwgICMg5pu/5o2i5Li65L2g55qEIEFQSSBLZXkNCn0NCg0KIyDmlrnlvI8gMzog5L2/55So6YCa5LmJ5Y2D6ZeuIFF3ZW4NClFXRU5fQ09ORklHID0gew0KICAgICJsbG1fcHJvdmlkZXIiOiAicXdlbiIsDQogICAgImRlZXBfdGhpbmtfbGxtIjogInF3ZW4tcGx1cyIsDQogICAgInF1aWNrX3RoaW5rX2xsbSI6ICJxd2VuLXR1cmJvIiwNCiAgICAicXdlbl9hcGlfa2V5IjogInlvdXItcXdlbi1hcGkta2V5LWhlcmUiLCAgIyDmm7/mjaLkuLrkvaDnmoQgQVBJIEtleQ0KfQ0KDQojIOaWueW8jyA0OiDkvb/nlKjmloflv4PkuIDoqIAgRVJOSUUNCldFTlhJTl9DT05GSUcgPSB7DQogICAgImxsbV9wcm92aWRlciI6ICJ3ZW54aW4iLA0KICAgICJkZWVwX3RoaW5rX2xsbSI6ICJlcm5pZS0zLjUtOGsiLA0KICAgICJxdWlja190aGlua19sbG0iOiAiZXJuaWUtc3BlZWQtOGsiLA0KICAgICJ3ZW54aW5fYXBpX2tleSI6ICJ5b3VyLXdlbnhpbi1hcGkta2V5LWhlcmUiLCAgIyDmm7/mjaLkuLrkvaDnmoQgQVBJIEtleQ0KfQ0KDQojIOaWueW8jyA1OiDkvb/nlKjorq/po57mmJ/ngasgU3BhcmsNClNQQVJLX0NPTkZJRyA9IHsNCiAgICAibGxtX3Byb3ZpZGVyIjogInNwYXJrIiwNCiAgICAiZGVlcF90aGlua19sbG0iOiAic3BhcmstdjMuNSIsDQogICAgInF1aWNrX3RoaW5rX2xsbSI6ICJzcGFyay12My41IiwNCiAgICAic3BhcmtfYXBpX2tleSI6ICJ5b3VyLXNwYXJrLWFwaS1rZXktaGVyZSIsICAjIOabv+aNouS4uuS9oOeahCBBUEkgS2V5DQogICAgInNwYXJrX2FwcF9pZCI6ICJ5b3VyLXNwYXJrLWFwcC1pZC1oZXJlIiwgICAgIyDmm7/mjaLkuLrkvaDnmoQgQXBwIElEDQp9DQoNCg0KIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiMg5pa55rOV5LqM77ya546v5aKD5Y+Y6YeP6YWN572uDQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KIw0KIyDorr7nva7njq/looPlj5jph4/lkI7vvIzmoYbmnrbkvJroh6rliqjor7vlj5bvvJoNCiMgDQojIGV4cG9ydCBERUVQU0VFS19BUElfS0VZPSJ5b3VyLWtleSINCiMgZXhwb3J0IFpISVBVX0FQSV9LRVk9InlvdXIta2V5Ig0KIyBleHBvcnQgUVdFTl9BUElfS0VZPSJ5b3VyLWtleSINCiMgZXhwb3J0IFdFTlhJTl9BUElfS0VZPSJ5b3VyLWtleSINCiMgZXhwb3J0IFNQQVJLX0FQSV9LRVk9InlvdXIta2V5Ig0KIyBleHBvcnQgU1BBUktfQVBQX0lEPSJ5b3VyLWFwcC1pZCINCiMNCiMgZXhwb3J0IFRSQURJTkdBR0VOVFNfTExNX1BST1ZJREVSPSJkZWVwc2VlayIgICMg5oiWIHpoaXB1L3F3ZW4vd2VueGluL3NwYXJrDQojIGV4cG9ydCBUUkFESU5HQUdFTlRTX0RFRVBfTExNPSJkZWVwc2Vlay1jaGF0Ig0KIyBleHBvcnQgVFJBRElOR0FHRU5UU19RVUlDS19MTE09ImRlZXBzZWVrLWNoYXQiDQoNCg0KIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0NCiMg5L2/55So56S65L6LDQojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQ0KDQojIOekuuS+iyAxOiDkvb/nlKggRGVlcFNlZWsNCiIiIg0KZnJvbSB0cmFkaW5nYWdlbnRzLmdyYXBoLnRyYWRpbmdfZ3JhcGggaW1wb3J0IFRyYWRpbmdBZ2VudHNHcmFwaA0KZnJvbSB0cmFkaW5nYWdlbnRzLmRlZmF1bHRfY29uZmlnIGltcG9ydCBERUZBVUxUX0NPTkZJRw0KDQpjb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkNCmNvbmZpZy51cGRhdGUoREVFUFNFRUtfQ09ORklHKQ0KDQp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChkZWJ1Zz1UcnVlLCBjb25maWc9Y29uZmlnKQ0KcmVzdWx0LCBkZWNpc2lvbiA9IHRhLnByb3BhZ2F0ZSgiNjAwNTE5IiwgIjIwMjYtMDMtMjkiKQ0KcHJpbnQoZGVjaXNpb24pDQoiIiINCg0KIyDnpLrkvosgMjog5L2/55So5pm66LCx5riF6KiADQoiIiINCmNvbmZpZyA9IERFRkFVTFRfQ09ORklHLmNvcHkoKQ0KY29uZmlnLnVwZGF0ZShaSElQVV9DT05GSUcpDQp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChjb25maWc9Y29uZmlnKQ0KIiIiDQoNCiMg56S65L6LIDM6IOS9v+eUqOmAmuS5ieWNg+mXrg0KIiIiDQpjb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkNCmNvbmZpZy51cGRhdGUoUVdFTl9DT05GSUcpDQp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChjb25maWc9Y29uZmlnKQ0KIiIiDQo=
+# TradingAgents-CN 中国 LLM 配置文件模板
+# 使用方法：将此文件复制为 config.py 并填入你的 API Key
+
+import os
+
+# ============================================================
+# 方法一：直接配置（推荐）
+# ============================================================
+
+# 方式 1: 使用 DeepSeek（性价比高）
+DEEPSEEK_CONFIG = {
+    "llm_provider": "deepseek",
+    "deep_think_llm": "deepseek-chat",
+    "quick_think_llm": "deepseek-chat",
+    "deepseek_api_key": "your-deepseek-api-key-here",  # 替换为你的 API Key
+}
+
+# 方式 2: 使用智谱清言 GLM-4
+ZHIPU_CONFIG = {
+    "llm_provider": "zhipu",
+    "deep_think_llm": "glm-4",
+    "quick_think_llm": "glm-4-flash",
+    "zhipu_api_key": "your-zhipu-api-key-here",  # 替换为你的 API Key
+}
+
+# 方式 3: 使用通义千问 Qwen
+QWEN_CONFIG = {
+    "llm_provider": "qwen",
+    "deep_think_llm": "qwen-plus",
+    "quick_think_llm": "qwen-turbo",
+    "qwen_api_key": "your-qwen-api-key-here",  # 替换为你的 API Key
+}
+
+# 方式 4: 使用文心一言 ERNIE
+WENXIN_CONFIG = {
+    "llm_provider": "wenxin",
+    "deep_think_llm": "ernie-3.5-8k",
+    "quick_think_llm": "ernie-speed-8k",
+    "wenxin_api_key": "your-wenxin-api-key-here",  # 替换为你的 API Key
+}
+
+# 方式 5: 使用讯飞星火 Spark
+SPARK_CONFIG = {
+    "llm_provider": "spark",
+    "deep_think_llm": "spark-v3.5",
+    "quick_think_llm": "spark-v3.5",
+    "spark_api_key": "your-spark-api-key-here",  # 替换为你的 API Key
+    "spark_app_id": "your-spark-app-id-here",    # 替换为你的 App ID
+}
+
+
+# ============================================================
+# 方法二：环境变量配置
+# ============================================================
+#
+# 设置环境变量后，框架会自动读取：
+# 
+# export DEEPSEEK_API_KEY="your-key"
+# export ZHIPU_API_KEY="your-key"
+# export QWEN_API_KEY="your-key"
+# export WENXIN_API_KEY="your-key"
+# export SPARK_API_KEY="your-key"
+# export SPARK_APP_ID="your-app-id"
+#
+# export TRADINGAGENTS_LLM_PROVIDER="deepseek"  # 或 zhipu/qwen/wenxin/spark
+# export TRADINGAGENTS_DEEP_LLM="deepseek-chat"
+# export TRADINGAGENTS_QUICK_LLM="deepseek-chat"
+
+
+# ============================================================
+# 使用示例
+# ============================================================
+
+# 示例 1: 使用 DeepSeek
+"""
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
+
+config = DEFAULT_CONFIG.copy()
+config.update(DEEPSEEK_CONFIG)
+
+ta = TradingAgentsGraph(debug=True, config=config)
+result, decision = ta.propagate("600519", "2026-03-29")
+print(decision)
+"""
+
+# 示例 2: 使用智谱清言
+"""
+config = DEFAULT_CONFIG.copy()
+config.update(ZHIPU_CONFIG)
+ta = TradingAgentsGraph(config=config)
+"""
+
+# 示例 3: 使用通义千问
+"""
+config = DEFAULT_CONFIG.copy()
+config.update(QWEN_CONFIG)
+ta = TradingAgentsGraph(config=config)
+"""

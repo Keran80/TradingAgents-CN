@@ -1,1 +1,156 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0K562W55Wl5bqT5rWL6K+V6ISa5pysDQoiIiINCg0KaW1wb3J0IHN5cw0KaW1wb3J0IG9zDQoNCiMg5re75Yqg6aG555uu5qC555uu5b2V5Yiw6Lev5b6EDQpzeXMucGF0aC5pbnNlcnQoMCwgb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpKQ0KDQpmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzLmFzdG9ja191dGlscyBpbXBvcnQgQVN0b2NrRGF0YQ0KZnJvbSB0cmFkaW5nYWdlbnRzLmFnZW50cy50cmFkZXIuc3RyYXRlZ3kgaW1wb3J0ICgNCiAgICBNQUNyb3Nzb3ZlclN0cmF0ZWd5LCBSU0lTdHJhdGVneSwgTUFDRFN0cmF0ZWd5LCANCiAgICBCb2xsaW5nZXJTdHJhdGVneSwgQ29tYmluZWRTdHJhdGVneSwgY3JlYXRlX3N0cmF0ZWd5LA0KICAgIGFuYWx5emVfc3RvY2ssIFNpZ25hbA0KKQ0KZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUsIHRpbWVkZWx0YQ0KDQoNCmRlZiB0ZXN0X3dpdGhfcmVhbF9kYXRhKCk6DQogICAgIiIi5L2/55So55yf5a6e5pWw5o2u5rWL6K+V562W55WlIiIiDQogICAgcHJpbnQoIj0iICogNjApDQogICAgcHJpbnQoIuetlueVpeW6k+a1i+ivlSAtIOecn+WunuaVsOaNriIpDQogICAgcHJpbnQoIj0iICogNjApDQogICAgDQogICAgIyDojrflj5blubPlronpk7booYzml6Xnur/mlbDmja4NCiAgICB0aWNrZXIgPSAiMDAwMDAxLlNaIg0KICAgIGVuZF9kYXRlID0gZGF0ZXRpbWUubm93KCkuc3RyZnRpbWUoJyVZJW0lZCcpDQogICAgc3RhcnRfZGF0ZSA9IChkYXRldGltZS5ub3coKSAtIHRpbWVkZWx0YShkYXlzPTEyMCkpLnN0cmZ0aW1lKCclWSVtJWQnKQ0KICAgIA0KICAgIHByaW50KGYiXG7ojrflj5Yge3RpY2tlcn0g5pel57q/5pWw5o2uICh7c3RhcnRfZGF0ZX0gfiB7ZW5kX2RhdGV9KS4uLiIpDQogICAgZGYgPSBBU3RvY2tEYXRhLmdldF9kYWlseSh0aWNrZXIsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQ0KICAgIA0KICAgIGlmIGRmLmVtcHR5Og0KICAgICAgICBwcmludCgi6I635Y+W5pWw5o2u5aSx6LSl77yM5L2/55So5qih5ouf5pWw5o2u5rWL6K+VIikNCiAgICAgICAgcmV0dXJuIHRlc3Rfd2l0aF9tb2NrX2RhdGEoKQ0KICAgIA0KICAgIHByaW50KGYi6I635Y+W5oiQ5Yqf77yM5YWxIHtsZW4oZGYpfSDmnaHmlbDmja4iKQ0KICAgIA0KICAgICMg6YeN5ZG95ZCN5YiX5Li66Iux5paH77yI566A5YyW5aSE55CG77yJDQogICAgcmVuYW1lX21hcCA9IHsNCiAgICAgICAgJ+aXpeacnyc6ICdkYXRlJywgJ+W8gOebmCc6ICdvcGVuJywgJ+aUtuebmCc6ICdjbG9zZScsDQogICAgICAgICfmnIDpq5gnOiAnaGlnaCcsICfmnIDkvY4nOiAnbG93JywgJ+aIkOS6pOmHjyc6ICd2b2x1bWUnDQogICAgfQ0KICAgIGRmID0gZGYucmVuYW1lKGNvbHVtbnM9cmVuYW1lX21hcCkNCiAgICANCiAgICAjIOa1i+ivleWQhOetlueVpQ0KICAgIHN0cmF0ZWdpZXMgPSBbDQogICAgICAgICgiTUFfQ3Jvc3NvdmVyKDUsMjApIiwgTUFDcm9zc292ZXJTdHJhdGVneSg1LCAyMCkpLA0KICAgICAgICAoIlJTSSgxNCkiLCBSU0lTdHJhdGVneSgpKSwNCiAgICAgICAgKCJNQUNEKDEyLDI2LDkpIiwgTUFDRFN0cmF0ZWd5KCkpLA0KICAgICAgICAoIkJvbGxpbmdlcigyMCwyLjApIiwgQm9sbGluZ2VyU3RyYXRlZ3koKSksDQogICAgXQ0KICAgIA0KICAgIHByaW50KCJcbiIgKyAiLSIgKiA2MCkNCiAgICBwcmludCgi5Y2V562W55Wl5rWL6K+VIikNCiAgICBwcmludCgiLSIgKiA2MCkNCiAgICANCiAgICBmb3IgbmFtZSwgc3RyYXRlZ3kgaW4gc3RyYXRlZ2llczoNCiAgICAgICAgcmVzdWx0ID0gc3RyYXRlZ3kuZ2VuZXJhdGVfc2lnbmFsKGRmKQ0KICAgICAgICBzaWduYWxfaWNvbiA9IHsNCiAgICAgICAgICAgIFNpZ25hbC5CVVk6ICLkubDlhaUiLA0KICAgICAgICAgICAgU2lnbmFsLlNFTEw6ICLljZblh7oiLA0KICAgICAgICAgICAgU2lnbmFsLkhPTEQ6ICLop4LmnJsiDQogICAgICAgIH0uZ2V0KHJlc3VsdFsnc2lnbmFsJ10sICLmnKrnn6UiKQ0KICAgICAgICANCiAgICAgICAgcHJpbnQoZiJcbuOAkHtuYW1lfeOAkSIpDQogICAgICAgIHByaW50KGYiICDkv6Hlj7c6IHtzaWduYWxfaWNvbn0gKOe9ruS/oeW6pjoge3Jlc3VsdFsnY29uZmlkZW5jZSddOi4yZn0pIikNCiAgICAgICAgcHJpbnQoZiIgIOWOn+WboDoge3Jlc3VsdFsncmVhc29uJ119IikNCiAgICANCiAgICAjIOa1i+ivlee7hOWQiOetlueVpQ0KICAgIHByaW50KCJcbiIgKyAiLSIgKiA2MCkNCiAgICBwcmludCgi57uE5ZCI562W55Wl5rWL6K+VIikNCiAgICBwcmludCgiLSIgKiA2MCkNCiAgICANCiAgICBjb21iaW5lZCA9IENvbWJpbmVkU3RyYXRlZ3koWw0KICAgICAgICBNQUNyb3Nzb3ZlclN0cmF0ZWd5KDUsIDIwKSwNCiAgICAgICAgUlNJU3RyYXRlZ3koKSwNCiAgICAgICAgTUFDRFN0cmF0ZWd5KCksDQogICAgXSkNCiAgICANCiAgICByZXN1bHQgPSBjb21iaW5lZC5nZW5lcmF0ZV9zaWduYWwoZGYpDQogICAgc2lnbmFsX2ljb24gPSB7DQogICAgICAgIFNpZ25hbC5CVVk6ICLkubDlhaUiLA0KICAgICAgICBTaWduYWwuU0VMTDogIuWNluWHuiIsDQogICAgICAgIFNpZ25hbC5IT0xEOiAi6KeC5pybIg0KICAgIH0uZ2V0KHJlc3VsdFsnc2lnbmFsJ10sICLmnKrnn6UiKQ0KICAgIA0KICAgIHByaW50KGYiXG7jgJDnu4TlkIjnrZbnlaXjgJEiKQ0KICAgIHByaW50KGYiICDkv6Hlj7c6IHtzaWduYWxfaWNvbn0gKOe9ruS/oeW6pjoge3Jlc3VsdFsnY29uZmlkZW5jZSddOi4yZn0pIikNCiAgICBwcmludChmIiAg5Y6f5ZugOiB7cmVzdWx0WydyZWFzb24nXX0iKQ0KICAgIA0KICAgICMg5rWL6K+V5L6/5o235Ye95pWwDQogICAgcHJpbnQoIlxuIiArICItIiAqIDYwKQ0KICAgIHByaW50KCLkvr/mjbflh73mlbDmtYvor5UiKQ0KICAgIHByaW50KCItIiAqIDYwKQ0KICAgIA0KICAgIGZvciBzdHJhdGVneV90eXBlIGluIFsnbWFfY3Jvc3NvdmVyJywgJ3JzaScsICdtYWNkJywgJ2JvbGxpbmdlcicsICdjb21iaW5lZCddOg0KICAgICAgICByZXN1bHQgPSBhbmFseXplX3N0b2NrKGRmLCBzdHJhdGVneV90eXBlKQ0KICAgICAgICBzaWduYWxfaWNvbiA9IHsNCiAgICAgICAgICAgIFNpZ25hbC5CVVk6ICLkubDlhaUiLA0KICAgICAgICAgICAgU2lnbmFsLlNFTEw6ICLljZblh7oiLA0KICAgICAgICAgICAgU2lnbmFsLkhPTEQ6ICLop4LmnJsiDQogICAgICAgIH0uZ2V0KHJlc3VsdFsnc2lnbmFsJ10sICLmnKrnn6UiKQ0KICAgICAgICANCiAgICAgICAgcHJpbnQoZiJcbntzdHJhdGVneV90eXBlfToge3NpZ25hbF9pY29ufSAoe3Jlc3VsdFsnY29uZmlkZW5jZSddOi4yZn0pIikNCiAgICAgICAgcHJpbnQoZiIgIOWOn+WboDoge3Jlc3VsdFsncmVhc29uJ11bOjYwXX0uLi4iKQ0KICAgIA0KICAgIHJldHVybiBUcnVlDQoNCg0KZGVmIHRlc3Rfd2l0aF9tb2NrX2RhdGEoKToNCiAgICAiIiLkvb/nlKjmqKHmi5/mlbDmja7mtYvor5XnrZbnlaUiIiINCiAgICBwcmludCgiXG7kvb/nlKjmqKHmi5/mlbDmja7mtYvor5UuLi4iKQ0KICAgIGltcG9ydCBwYW5kYXMgYXMgcGQNCiAgICBpbXBvcnQgbnVtcHkgYXMgbnANCiAgICANCiAgICAjIOeUn+aIkOaooeaLn+aVsOaNrg0KICAgIGRhdGVzID0gcGQuZGF0ZV9yYW5nZShlbmQ9ZGF0ZXRpbWUubm93KCksIHBlcmlvZHM9MTAwLCBmcmVxPSdEJykNCiAgICBucC5yYW5kb20uc2VlZCg0MikNCiAgICANCiAgICAjIOaooeaLn+S4iua2qOi2i+WKvw0KICAgIGJhc2VfcHJpY2UgPSAxMDANCiAgICBwcmljZXMgPSBiYXNlX3ByaWNlICsgbnAuY3Vtc3VtKG5wLnJhbmRvbS5yYW5kbigxMDApICogMikNCiAgICBwcmljZXMgPSBucC5tYXhpbXVtKHByaWNlcywgNTApICAjIOmYsuatoui0n+S7t+agvA0KICAgIA0KICAgIGRmID0gcGQuRGF0YUZyYW1lKHsNCiAgICAgICAgJ2RhdGUnOiBkYXRlcywNCiAgICAgICAgJ29wZW4nOiBwcmljZXMgKiAwLjk5LA0KICAgICAgICAnY2xvc2UnOiBwcmljZXMsDQogICAgICAgICdoaWdoJzogcHJpY2VzICogMS4wMiwNCiAgICAgICAgJ2xvdyc6IHByaWNlcyAqIDAuOTgsDQogICAgICAgICd2b2x1bWUnOiBucC5yYW5kb20ucmFuZGludCgxMDAwMDAwLCAxMDAwMDAwMCwgMTAwKQ0KICAgIH0pDQogICAgDQogICAgIyDmtYvor5XnrZbnlaUNCiAgICBzdHJhdGVneSA9IE1BQ3Jvc3NvdmVyU3RyYXRlZ3koNSwgMjApDQogICAgcmVzdWx0ID0gc3RyYXRlZ3kuZ2VuZXJhdGVfc2lnbmFsKGRmKQ0KICAgIA0KICAgIHByaW50KGYi5qih5ouf5pWw5o2u5rWL6K+V57uT5p6cOiB7cmVzdWx0WydzaWduYWwnXS52YWx1ZX0iKQ0KICAgIHByaW50KGYi5Y6f5ZugOiB7cmVzdWx0WydyZWFzb24nXX0iKQ0KICAgIA0KICAgIHJldHVybiBUcnVlDQoNCg0KaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoNCiAgICB0cnk6DQogICAgICAgIHRlc3Rfd2l0aF9yZWFsX2RhdGEoKQ0KICAgICAgICBwcmludCgiXG4iICsgIj0iICogNjApDQogICAgICAgIHByaW50KCLmtYvor5XlrozmiJAhIikNCiAgICAgICAgcHJpbnQoIj0iICogNjApDQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICBwcmludChmIua1i+ivleWksei0pToge2V9IikNCiAgICAgICAgaW1wb3J0IHRyYWNlYmFjaw0KICAgICAgICB0cmFjZWJhY2sucHJpbnRfZXhjKCkNCg==
+# -*- coding: utf-8 -*-
+"""
+策略库测试脚本
+"""
+
+import sys
+import os
+
+# 添加项目根目录到路径
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+from tradingagents.dataflows.astock_utils import AStockData
+from tradingagents.agents.trader.strategy import (
+    MACrossoverStrategy, RSIStrategy, MACDStrategy, 
+    BollingerStrategy, CombinedStrategy, create_strategy,
+    analyze_stock, Signal
+)
+from datetime import datetime, timedelta
+
+
+def test_with_real_data():
+    """使用真实数据测试策略"""
+    print("=" * 60)
+    print("策略库测试 - 真实数据")
+    print("=" * 60)
+    
+    # 获取平安银行日线数据
+    ticker = "000001.SZ"
+    end_date = datetime.now().strftime('%Y%m%d')
+    start_date = (datetime.now() - timedelta(days=120)).strftime('%Y%m%d')
+    
+    print(f"\n获取 {ticker} 日线数据 ({start_date} ~ {end_date})...")
+    df = AStockData.get_daily(ticker, start_date, end_date)
+    
+    if df.empty:
+        print("获取数据失败，使用模拟数据测试")
+        return test_with_mock_data()
+    
+    print(f"获取成功，共 {len(df)} 条数据")
+    
+    # 重命名列为英文（简化处理）
+    rename_map = {
+        '日期': 'date', '开盘': 'open', '收盘': 'close',
+        '最高': 'high', '最低': 'low', '成交量': 'volume'
+    }
+    df = df.rename(columns=rename_map)
+    
+    # 测试各策略
+    strategies = [
+        ("MA_Crossover(5,20)", MACrossoverStrategy(5, 20)),
+        ("RSI(14)", RSIStrategy()),
+        ("MACD(12,26,9)", MACDStrategy()),
+        ("Bollinger(20,2.0)", BollingerStrategy()),
+    ]
+    
+    print("\n" + "-" * 60)
+    print("单策略测试")
+    print("-" * 60)
+    
+    for name, strategy in strategies:
+        result = strategy.generate_signal(df)
+        signal_icon = {
+            Signal.BUY: "买入",
+            Signal.SELL: "卖出",
+            Signal.HOLD: "观望"
+        }.get(result['signal'], "未知")
+        
+        print(f"\n【{name}】")
+        print(f"  信号: {signal_icon} (置信度: {result['confidence']:.2f})")
+        print(f"  原因: {result['reason']}")
+    
+    # 测试组合策略
+    print("\n" + "-" * 60)
+    print("组合策略测试")
+    print("-" * 60)
+    
+    combined = CombinedStrategy([
+        MACrossoverStrategy(5, 20),
+        RSIStrategy(),
+        MACDStrategy(),
+    ])
+    
+    result = combined.generate_signal(df)
+    signal_icon = {
+        Signal.BUY: "买入",
+        Signal.SELL: "卖出",
+        Signal.HOLD: "观望"
+    }.get(result['signal'], "未知")
+    
+    print(f"\n【组合策略】")
+    print(f"  信号: {signal_icon} (置信度: {result['confidence']:.2f})")
+    print(f"  原因: {result['reason']}")
+    
+    # 测试便捷函数
+    print("\n" + "-" * 60)
+    print("便捷函数测试")
+    print("-" * 60)
+    
+    for strategy_type in ['ma_crossover', 'rsi', 'macd', 'bollinger', 'combined']:
+        result = analyze_stock(df, strategy_type)
+        signal_icon = {
+            Signal.BUY: "买入",
+            Signal.SELL: "卖出",
+            Signal.HOLD: "观望"
+        }.get(result['signal'], "未知")
+        
+        print(f"\n{strategy_type}: {signal_icon} ({result['confidence']:.2f})")
+        print(f"  原因: {result['reason'][:60]}...")
+    
+    return True
+
+
+def test_with_mock_data():
+    """使用模拟数据测试策略"""
+    print("\n使用模拟数据测试...")
+    import pandas as pd
+    import numpy as np
+    
+    # 生成模拟数据
+    dates = pd.date_range(end=datetime.now(), periods=100, freq='D')
+    np.random.seed(42)
+    
+    # 模拟上涨趋势
+    base_price = 100
+    prices = base_price + np.cumsum(np.random.randn(100) * 2)
+    prices = np.maximum(prices, 50)  # 防止负价格
+    
+    df = pd.DataFrame({
+        'date': dates,
+        'open': prices * 0.99,
+        'close': prices,
+        'high': prices * 1.02,
+        'low': prices * 0.98,
+        'volume': np.random.randint(1000000, 10000000, 100)
+    })
+    
+    # 测试策略
+    strategy = MACrossoverStrategy(5, 20)
+    result = strategy.generate_signal(df)
+    
+    print(f"模拟数据测试结果: {result['signal'].value}")
+    print(f"原因: {result['reason']}")
+    
+    return True
+
+
+if __name__ == "__main__":
+    try:
+        test_with_real_data()
+        print("\n" + "=" * 60)
+        print("测试完成!")
+        print("=" * 60)
+    except Exception as e:
+        print(f"测试失败: {e}")
+        import traceback
+        traceback.print_exc()

@@ -1,1 +1,65 @@
-77u/ZnJvbSBsYW5nY2hhaW5fY29yZS5wcm9tcHRzIGltcG9ydCBDaGF0UHJvbXB0VGVtcGxhdGUsIE1lc3NhZ2VzUGxhY2Vob2xkZXIKaW1wb3J0IHRpbWUKaW1wb3J0IGpzb24KCgpkZWYgY3JlYXRlX2Z1bmRhbWVudGFsc19hbmFseXN0KGxsbSwgdG9vbGtpdCk6CiAgICBkZWYgZnVuZGFtZW50YWxzX2FuYWx5c3Rfbm9kZShzdGF0ZSk6CiAgICAgICAgY3VycmVudF9kYXRlID0gc3RhdGVbInRyYWRlX2RhdGUiXQogICAgICAgIHRpY2tlciA9IHN0YXRlWyJjb21wYW55X29mX2ludGVyZXN0Il0KICAgICAgICBjb21wYW55X25hbWUgPSBzdGF0ZVsiY29tcGFueV9vZl9pbnRlcmVzdCJdCgogICAgICAgIGlmIHRvb2xraXQuY29uZmlnWyJvbmxpbmVfdG9vbHMiXToKICAgICAgICAgICAgdG9vbHMgPSBbdG9vbGtpdC5nZXRfZnVuZGFtZW50YWxzX29wZW5haV0KICAgICAgICBlbHNlOgogICAgICAgICAgICB0b29scyA9IFsKICAgICAgICAgICAgICAgIHRvb2xraXQuZ2V0X2Zpbm5odWJfY29tcGFueV9pbnNpZGVyX3NlbnRpbWVudCwKICAgICAgICAgICAgICAgIHRvb2xraXQuZ2V0X2Zpbm5odWJfY29tcGFueV9pbnNpZGVyX3RyYW5zYWN0aW9ucywKICAgICAgICAgICAgICAgIHRvb2xraXQuZ2V0X3NpbWZpbl9iYWxhbmNlX3NoZWV0LAogICAgICAgICAgICAgICAgdG9vbGtpdC5nZXRfc2ltZmluX2Nhc2hmbG93LAogICAgICAgICAgICAgICAgdG9vbGtpdC5nZXRfc2ltZmluX2luY29tZV9zdG10LAogICAgICAgICAgICBdCgogICAgICAgIHN5c3RlbV9tZXNzYWdlID0gKAogICAgICAgICAgICAiWW91IGFyZSBhIHJlc2VhcmNoZXIgdGFza2VkIHdpdGggYW5hbHl6aW5nIGZ1bmRhbWVudGFsIGluZm9ybWF0aW9uIG92ZXIgdGhlIHBhc3Qgd2VlayBhYm91dCBhIGNvbXBhbnkuIFBsZWFzZSB3cml0ZSBhIGNvbXByZWhlbnNpdmUgcmVwb3J0IG9mIHRoZSBjb21wYW55J3MgZnVuZGFtZW50YWwgaW5mb3JtYXRpb24gc3VjaCBhcyBmaW5hbmNpYWwgZG9jdW1lbnRzLCBjb21wYW55IHByb2ZpbGUsIGJhc2ljIGNvbXBhbnkgZmluYW5jaWFscywgY29tcGFueSBmaW5hbmNpYWwgaGlzdG9yeSwgaW5zaWRlciBzZW50aW1lbnQgYW5kIGluc2lkZXIgdHJhbnNhY3Rpb25zIHRvIGdhaW4gYSBmdWxsIHZpZXcgb2YgdGhlIGNvbXBhbnkncyBmdW5kYW1lbnRhbCBpbmZvcm1hdGlvbiB0byBpbmZvcm0gdHJhZGVycy4gTWFrZSBzdXJlIHRvIGluY2x1ZGUgYXMgbXVjaCBkZXRhaWwgYXMgcG9zc2libGUuIERvIG5vdCBzaW1wbHkgc3RhdGUgdGhlIHRyZW5kcyBhcmUgbWl4ZWQsIHByb3ZpZGUgZGV0YWlsZWQgYW5kIGZpbmVncmFpbmVkIGFuYWx5c2lzIGFuZCBpbnNpZ2h0cyB0aGF0IG1heSBoZWxwIHRyYWRlcnMgbWFrZSBkZWNpc2lvbnMuIgogICAgICAgICAgICArICIgTWFrZSBzdXJlIHRvIGFwcGVuZCBhIE1hcmtkb3duIHRhYmxlIGF0IHRoZSBlbmQgb2YgdGhlIHJlcG9ydCB0byBvcmdhbml6ZSBrZXkgcG9pbnRzIGluIHRoZSByZXBvcnQsIG9yZ2FuaXplZCBhbmQgZWFzeSB0byByZWFkLiIsCiAgICAgICAgKQoKICAgICAgICBwcm9tcHQgPSBDaGF0UHJvbXB0VGVtcGxhdGUuZnJvbV9tZXNzYWdlcygKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICJzeXN0ZW0iLAogICAgICAgICAgICAgICAgICAgICJZb3UgYXJlIGEgaGVscGZ1bCBBSSBhc3Npc3RhbnQsIGNvbGxhYm9yYXRpbmcgd2l0aCBvdGhlciBhc3Npc3RhbnRzLiIKICAgICAgICAgICAgICAgICAgICAiIFVzZSB0aGUgcHJvdmlkZWQgdG9vbHMgdG8gcHJvZ3Jlc3MgdG93YXJkcyBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9uLiIKICAgICAgICAgICAgICAgICAgICAiIElmIHlvdSBhcmUgdW5hYmxlIHRvIGZ1bGx5IGFuc3dlciwgdGhhdCdzIE9LOyBhbm90aGVyIGFzc2lzdGFudCB3aXRoIGRpZmZlcmVudCB0b29scyIKICAgICAgICAgICAgICAgICAgICAiIHdpbGwgaGVscCB3aGVyZSB5b3UgbGVmdCBvZmYuIEV4ZWN1dGUgd2hhdCB5b3UgY2FuIHRvIG1ha2UgcHJvZ3Jlc3MuIgogICAgICAgICAgICAgICAgICAgICIgSWYgeW91IG9yIGFueSBvdGhlciBhc3Npc3RhbnQgaGFzIHRoZSBGSU5BTCBUUkFOU0FDVElPTiBQUk9QT1NBTDogKipCVVkvSE9MRC9TRUxMKiogb3IgZGVsaXZlcmFibGUsIgogICAgICAgICAgICAgICAgICAgICIgcHJlZml4IHlvdXIgcmVzcG9uc2Ugd2l0aCBGSU5BTCBUUkFOU0FDVElPTiBQUk9QT1NBTDogKipCVVkvSE9MRC9TRUxMKiogc28gdGhlIHRlYW0ga25vd3MgdG8gc3RvcC4iCiAgICAgICAgICAgICAgICAgICAgIiBZb3UgaGF2ZSBhY2Nlc3MgdG8gdGhlIGZvbGxvd2luZyB0b29sczoge3Rvb2xfbmFtZXN9Llxue3N5c3RlbV9tZXNzYWdlfSIKICAgICAgICAgICAgICAgICAgICAiRm9yIHlvdXIgcmVmZXJlbmNlLCB0aGUgY3VycmVudCBkYXRlIGlzIHtjdXJyZW50X2RhdGV9LiBUaGUgY29tcGFueSB3ZSB3YW50IHRvIGxvb2sgYXQgaXMge3RpY2tlcn0iLAogICAgICAgICAgICAgICAgKSwKICAgICAgICAgICAgICAgIE1lc3NhZ2VzUGxhY2Vob2xkZXIodmFyaWFibGVfbmFtZT0ibWVzc2FnZXMiKSwKICAgICAgICAgICAgXQogICAgICAgICkKCiAgICAgICAgcHJvbXB0ID0gcHJvbXB0LnBhcnRpYWwoc3lzdGVtX21lc3NhZ2U9c3lzdGVtX21lc3NhZ2UpCiAgICAgICAgcHJvbXB0ID0gcHJvbXB0LnBhcnRpYWwodG9vbF9uYW1lcz0iLCAiLmpvaW4oW3Rvb2wubmFtZSBmb3IgdG9vbCBpbiB0b29sc10pKQogICAgICAgIHByb21wdCA9IHByb21wdC5wYXJ0aWFsKGN1cnJlbnRfZGF0ZT1jdXJyZW50X2RhdGUpCiAgICAgICAgcHJvbXB0ID0gcHJvbXB0LnBhcnRpYWwodGlja2VyPXRpY2tlcikKCiAgICAgICAgY2hhaW4gPSBwcm9tcHQgfCBsbG0uYmluZF90b29scyh0b29scykKCiAgICAgICAgcmVzdWx0ID0gY2hhaW4uaW52b2tlKHN0YXRlWyJtZXNzYWdlcyJdKQoKICAgICAgICByZXBvcnQgPSAiIgoKICAgICAgICBpZiBsZW4ocmVzdWx0LnRvb2xfY2FsbHMpID09IDA6CiAgICAgICAgICAgIHJlcG9ydCA9IHJlc3VsdC5jb250ZW50CgogICAgICAgIHJldHVybiB7CiAgICAgICAgICAgICJtZXNzYWdlcyI6IFtyZXN1bHRdLAogICAgICAgICAgICAiZnVuZGFtZW50YWxzX3JlcG9ydCI6IHJlcG9ydCwKICAgICAgICB9CgogICAgcmV0dXJuIGZ1bmRhbWVudGFsc19hbmFseXN0X25vZGUKDQo=
+﻿from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+import time
+import json
+
+
+def create_fundamentals_analyst(llm, toolkit):
+    def fundamentals_analyst_node(state):
+        current_date = state["trade_date"]
+        ticker = state["company_of_interest"]
+        company_name = state["company_of_interest"]
+
+        if toolkit.config["online_tools"]:
+            tools = [toolkit.get_fundamentals_openai]
+        else:
+            tools = [
+                toolkit.get_finnhub_company_insider_sentiment,
+                toolkit.get_finnhub_company_insider_transactions,
+                toolkit.get_simfin_balance_sheet,
+                toolkit.get_simfin_cashflow,
+                toolkit.get_simfin_income_stmt,
+            ]
+
+        system_message = (
+            "You are a researcher tasked with analyzing fundamental information over the past week about a company. Please write a comprehensive report of the company's fundamental information such as financial documents, company profile, basic company financials, company financial history, insider sentiment and insider transactions to gain a full view of the company's fundamental information to inform traders. Make sure to include as much detail as possible. Do not simply state the trends are mixed, provide detailed and finegrained analysis and insights that may help traders make decisions."
+            + " Make sure to append a Markdown table at the end of the report to organize key points in the report, organized and easy to read.",
+        )
+
+        prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system",
+                    "You are a helpful AI assistant, collaborating with other assistants."
+                    " Use the provided tools to progress towards answering the question."
+                    " If you are unable to fully answer, that's OK; another assistant with different tools"
+                    " will help where you left off. Execute what you can to make progress."
+                    " If you or any other assistant has the FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** or deliverable,"
+                    " prefix your response with FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** so the team knows to stop."
+                    " You have access to the following tools: {tool_names}.\n{system_message}"
+                    "For your reference, the current date is {current_date}. The company we want to look at is {ticker}",
+                ),
+                MessagesPlaceholder(variable_name="messages"),
+            ]
+        )
+
+        prompt = prompt.partial(system_message=system_message)
+        prompt = prompt.partial(tool_names=", ".join([tool.name for tool in tools]))
+        prompt = prompt.partial(current_date=current_date)
+        prompt = prompt.partial(ticker=ticker)
+
+        chain = prompt | llm.bind_tools(tools)
+
+        result = chain.invoke(state["messages"])
+
+        report = ""
+
+        if len(result.tool_calls) == 0:
+            report = result.content
+
+        return {
+            "messages": [result],
+            "fundamentals_report": report,
+        }
+
+    return fundamentals_analyst_node
+

@@ -1,1 +1,183 @@
-IyBUcmFkaW5nQWdlbnRzLUNOIOS4reWbvSBMTE0g5L2/55So5oyH5Y2XDQoNCiMjIOamgui/sA0KDQpUcmFkaW5nQWdlbnRzLUNOIOW3suWFqOmdouaUr+aMgeS4reWbveS4u+a1gSBMTE0g5o+Q5L6b5ZWG77yM5YyF5ousIERlZXBTZWVr44CB5pm66LCx5riF6KiA44CB6YCa5LmJ5Y2D6Zeu44CB5paH5b+D5LiA6KiA5ZKM6K6v6aOe5pif54Gr44CC6L+Z5Lqb5o+Q5L6b5ZWG6YO96YCa6L+HIE9wZW5BSSDlhbzlrrkgQVBJIOaPkOS+m+acjeWKoe+8jOWbveWGheiuv+mXrueos+Wumu+8jOS7t+agvOebuOWvueS8mOaDoOOAgg0KDQojIyDmlK/mjIHnmoQgTExNIOaPkOS+m+WVhg0KDQojIyMgMS4gRGVlcFNlZWvvvIjmt7HluqbmsYLntKLvvIkNCi0gKirlrpjnvZEqKjogaHR0cHM6Ly9wbGF0Zm9ybS5kZWVwc2Vlay5jb20NCi0gKipBUEkg5paH5qGjKio6IGh0dHBzOi8vaGVscC5kZWVwc2Vlay5jb20vemgvYXBpDQotICoq5qih5Z6LKio6IGRlZXBzZWVrLWNoYXTvvIjmjqjojZDvvIksIGRlZXBzZWVrLWNvZGVyDQotICoq54m554K5Kio6IOaAp+S7t+avlOmrmO+8jOaUr+aMgemVv+S4iuS4i+aWh++8jOS7o+eggeiDveWKm+W8ug0KLSAqKuS7t+agvCoqOiDnuqYgJDAuMTQvMU0gdG9rZW5z77yI6L6T5YWl77yJDQoNCiMjIyAyLiDmmbrosLHmuIXoqIDvvIhaaGlwdUFJ77yJDQotICoq5a6Y572RKio6IGh0dHBzOi8vb3Blbi5iaWdtb2RlbC5jbg0KLSAqKuaooeWeiyoqOiBnbG0tNO+8iOaOqOiNkO+8iSwgZ2xtLTQtZmxhc2gsIGdsbS00LXBsdXMsIGdsbS0zLXR1cmJvDQotICoq54m554K5Kio6IOa4heWNjuaKgOacr+iDjOaZr++8jOS4reaWh+eQhuino+iDveWKm+W8ug0KLSAqKuS7t+agvCoqOiBnbG0tNC1mbGFzaCDlhY3otLnvvIxnbG0tNCDnuqYgwqUxLzFNIHRva2Vucw0KDQojIyMgMy4g6YCa5LmJ5Y2D6Zeu77yIUXdlbi/pmL/ph4zkupHvvIkNCi0gKirlrpjnvZEqKjogaHR0cHM6Ly9kYXNoc2NvcGUuY29uc29sZS5hbGl5dW4uY29tDQotICoq5qih5Z6LKio6IHF3ZW4tcGx1c++8iOaOqOiNkO+8iSwgcXdlbi10dXJibywgcXdlbi1tYXgNCi0gKirnibnngrkqKjog6Zi/6YeM5LqR6IOM5Lmm77yM55Sf5oCB5Liw5a+MDQotICoq5Lu35qC8Kio6IHF3ZW4tdHVyYm8g57qmIMKlMC4wMDIvMUsgdG9rZW5zDQoNCiMjIyA0LiDmloflv4PkuIDoqIDvvIhFUk5JRS/nmb7luqbvvIkNCi0gKirlrpjnvZEqKjogaHR0cHM6Ly9jb25zb2xlLmJhaWR1Y2xvdWQuY29tDQotICoq5qih5Z6LKio6IGVybmllLTMuNS04a++8iOaOqOiNkO+8iSwgZXJuaWUtc3BlZWQtOGsNCi0gKirnibnngrkqKjog55m+5bqm5oqA5pyv56ev57Sv77yM5pCc57Si5aKe5by6DQotICoq5Lu35qC8Kio6IOe6piDCpTAuMDEyLzFLIHRva2Vucw0KDQojIyMgNS4g6K6v6aOe5pif54Gr77yIU3BhcmvvvIkNCi0gKirlrpjnvZEqKjogaHR0cHM6Ly9jb25zb2xlLnhmeXVuLmNuDQotICoq5qih5Z6LKio6IHNwYXJrLXYzLjXvvIjmjqjojZDvvIksIHNwYXJrLXYzLjENCi0gKirnibnngrkqKjog6K+t6Z+z5oqA5pyv6aKG5YWI77yM5aSa5pa56KiA5pSv5oyBDQotICoq5Lu35qC8Kio6IOe6piDCpTAuMDMyLzFLIHRva2Vucw0KDQojIyDlv6vpgJ/phY3nva4NCg0KIyMjIOaWueW8j+S4gO+8mueOr+Wig+WPmOmHj+mFjee9ru+8iOaOqOiNkO+8iQ0KDQpgYGBiYXNoDQojIOiuvue9riBBUEkgS2V5DQpleHBvcnQgREVFUFNFRUtfQVBJX0tFWT0ieW91ci1kZWVwc2Vlay1hcGkta2V5Ig0KZXhwb3J0IFpISVBVX0FQSV9LRVk9InlvdXItemhpcHUtYXBpLWtleSINCmV4cG9ydCBRV0VOX0FQSV9LRVk9InlvdXItcXdlbi1hcGkta2V5Ig0KZXhwb3J0IFdFTlhJTl9BUElfS0VZPSJ5b3VyLXdlbnhpbi1hcGkta2V5Ig0KZXhwb3J0IFNQQVJLX0FQSV9LRVk9InlvdXItc3BhcmstYXBpLWtleSINCg0KIyDpgInmi6kgTExNIOaPkOS+m+WVhg0KZXhwb3J0IFRSQURJTkdBR0VOVFNfTExNX1BST1ZJREVSPSJkZWVwc2VlayINCmV4cG9ydCBUUkFESU5HQUdFTlRTX0RFRVBfTExNPSJkZWVwc2Vlay1jaGF0Ig0KZXhwb3J0IFRSQURJTkdBR0VOVFNfUVVJQ0tfTExNPSJkZWVwc2Vlay1jaGF0Ig0KYGBgDQoNCiMjIyDmlrnlvI/kuozvvJrku6PnoIHphY3nva4NCg0KYGBgcHl0aG9uDQpmcm9tIHRyYWRpbmdhZ2VudHMuZ3JhcGgudHJhZGluZ19ncmFwaCBpbXBvcnQgVHJhZGluZ0FnZW50c0dyYXBoDQpmcm9tIHRyYWRpbmdhZ2VudHMuZGVmYXVsdF9jb25maWcgaW1wb3J0IERFRkFVTFRfQ09ORklHDQoNCiMg5pa55byPIDE6IERlZXBTZWVrDQpjb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkNCmNvbmZpZy51cGRhdGUoew0KICAgICJsbG1fcHJvdmlkZXIiOiAiZGVlcHNlZWsiLA0KICAgICJkZWVwX3RoaW5rX2xsbSI6ICJkZWVwc2Vlay1jaGF0IiwNCiAgICAicXVpY2tfdGhpbmtfbGxtIjogImRlZXBzZWVrLWNoYXQiLA0KICAgICJkZWVwc2Vla19hcGlfa2V5IjogInlvdXItYXBpLWtleSIsDQp9KQ0KDQp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChkZWJ1Zz1UcnVlLCBjb25maWc9Y29uZmlnKQ0KDQojIOaWueW8jyAyOiDmmbrosLHmuIXoqIANCmNvbmZpZyA9IERFRkFVTFRfQ09ORklHLmNvcHkoKQ0KY29uZmlnLnVwZGF0ZSh7DQogICAgImxsbV9wcm92aWRlciI6ICJ6aGlwdSIsDQogICAgImRlZXBfdGhpbmtfbGxtIjogImdsbS00IiwNCiAgICAicXVpY2tfdGhpbmtfbGxtIjogImdsbS00LWZsYXNoIiwNCiAgICAiemhpcHVfYXBpX2tleSI6ICJ5b3VyLWFwaS1rZXkiLA0KfSkNCg0KIyDmlrnlvI8gMzog6YCa5LmJ5Y2D6ZeuDQpjb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkNCmNvbmZpZy51cGRhdGUoew0KICAgICJsbG1fcHJvdmlkZXIiOiAicXdlbiIsDQogICAgImRlZXBfdGhpbmtfbGxtIjogInF3ZW4tcGx1cyIsDQogICAgInF1aWNrX3RoaW5rX2xsbSI6ICJxd2VuLXR1cmJvIiwNCiAgICAicXdlbl9hcGlfa2V5IjogInlvdXItYXBpLWtleSIsDQp9KQ0KDQojIOaWueW8jyA0OiDmloflv4PkuIDoqIANCmNvbmZpZyA9IERFRkFVTFRfQ09ORklHLmNvcHkoKQ0KY29uZmlnLnVwZGF0ZSh7DQogICAgImxsbV9wcm92aWRlciI6ICJ3ZW54aW4iLA0KICAgICJkZWVwX3RoaW5rX2xsbSI6ICJlcm5pZS0zLjUtOGsiLA0KICAgICJxdWlja190aGlua19sbG0iOiAiZXJuaWUtc3BlZWQtOGsiLA0KICAgICJ3ZW54aW5fYXBpX2tleSI6ICJ5b3VyLWFwaS1rZXkiLA0KfSkNCg0KIyDmlrnlvI8gNTog6K6v6aOe5pif54GrDQpjb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkNCmNvbmZpZy51cGRhdGUoew0KICAgICJsbG1fcHJvdmlkZXIiOiAic3BhcmsiLA0KICAgICJkZWVwX3RoaW5rX2xsbSI6ICJzcGFyay12My41IiwNCiAgICAicXVpY2tfdGhpbmtfbGxtIjogInNwYXJrLXYzLjUiLA0KICAgICJzcGFya19hcGlfa2V5IjogInlvdXItYXBpLWtleSIsDQp9KQ0KYGBgDQoNCiMjIOS9v+eUqOekuuS+iw0KDQpgYGBweXRob24NCmZyb20gdHJhZGluZ2FnZW50cy5ncmFwaC50cmFkaW5nX2dyYXBoIGltcG9ydCBUcmFkaW5nQWdlbnRzR3JhcGgNCmZyb20gdHJhZGluZ2FnZW50cy5kZWZhdWx0X2NvbmZpZyBpbXBvcnQgREVGQVVMVF9DT05GSUcNCg0KIyDphY3nva4gRGVlcFNlZWsNCmNvbmZpZyA9IERFRkFVTFRfQ09ORklHLmNvcHkoKQ0KY29uZmlnLnVwZGF0ZSh7DQogICAgImxsbV9wcm92aWRlciI6ICJkZWVwc2VlayIsDQogICAgImRlZXBfdGhpbmtfbGxtIjogImRlZXBzZWVrLWNoYXQiLA0KICAgICJxdWlja190aGlua19sbG0iOiAiZGVlcHNlZWstY2hhdCIsDQogICAgImRlZXBzZWVrX2FwaV9rZXkiOiAieW91ci1rZXkiLA0KICAgICJvbmxpbmVfdG9vbHMiOiBUcnVlLCAgIyDlkK/nlKjlnKjnur/lt6Xlhbfojrflj5blrp7ml7bmlbDmja4NCn0pDQoNCiMg5Yid5aeL5YyWDQp0YSA9IFRyYWRpbmdBZ2VudHNHcmFwaChkZWJ1Zz1UcnVlLCBjb25maWc9Y29uZmlnKQ0KDQojIOWIhuaekOiCoeelqA0KcmVzdWx0LCBkZWNpc2lvbiA9IHRhLnByb3BhZ2F0ZSgiNjAwNTE5IiwgIjIwMjYtMDMtMjkiKQ0KcHJpbnQoZiLlhrPnrZY6IHtkZWNpc2lvbn0iKQ0KYGBgDQoNCiMjIEFQSSBLZXkg6I635Y+W5pa55byPDQoNCiMjIyBEZWVwU2Vlaw0KMS4g6K6/6ZeuIGh0dHBzOi8vcGxhdGZvcm0uZGVlcHNlZWsuY29tDQoyLiDms6jlhowv55m75b2V6LSm5Y+3DQozLiDov5vlhaXjgIxBUEkgS2V5c+OAjeWIm+W7uuaWsOWvhumSpQ0KNC4g5YWF5YC85ZCO5Y2z5Y+v5L2/55SoDQoNCiMjIyDmmbrosLHmuIXoqIANCjEuIOiuv+mXriBodHRwczovL29wZW4uYmlnbW9kZWwuY24NCjIuIOazqOWGjC/nmbvlvZUNCjMuIOi/m+WFpeOAjEFQSSBLZXlz44CN5Yib5bu6DQo0LiDlhYXlgLzlkI7kvb/nlKgNCg0KIyMjIOmAmuS5ieWNg+mXrg0KMS4g6K6/6ZeuIGh0dHBzOi8vZGFzaHNjb3BlLmNvbnNvbGUuYWxpeXVuLmNvbQ0KMi4g5byA6YCa5qih5Z6L5pyN5YqhDQozLiDliJvlu7ogQVBJIEtleQ0KNC4g5oyJ6YeP5LuY6LS5DQoNCiMjIyDmloflv4PkuIDoqIANCjEuIOiuv+mXriBodHRwczovL2NvbnNvbGUuYmFpZHVjbG91ZC5jb20NCjIuIOW8gOmAmuWNg+W4huWkp+aooeWei+W5s+WPsA0KMy4g5Yib5bu65bqU55So6I635Y+WIEFQSSBLZXkNCjQuIOiuoei0ueaooeW8jw0KDQojIyMg6K6v6aOe5pif54GrDQoxLiDorr/pl64gaHR0cHM6Ly9jb25zb2xlLnhmeXVuLmNuDQoyLiDlvIDpgJrmmJ/ngavorqTnn6XlpKfmqKHlnosNCjMuIOWIm+W7uiBBUEkgS2V5IOWSjCBBUFAgSUQNCjQuIOaMieiwg+eUqOmHj+iuoei0uQ0KDQojIyDmqKHlnovpgInmi6nlu7rorq4NCg0KfCDlnLrmma8gfCDmjqjojZDmqKHlnosgfCDljp/lm6AgfA0KfC0tLS0tLXwtLS0tLS0tLS18LS0tLS0tfA0KfCDlv6vpgJ/mtYvor5UgfCBxd2VuLXR1cmJvIC8gZ2xtLTQtZmxhc2ggfCDlhY3otLnmiJbkvY7ku7cgfA0KfCDnu7zlkIjliIbmnpAgfCBkZWVwc2Vlay1jaGF0IC8gZ2xtLTQgfCDmgKfku7fmr5Tpq5ggfA0KfCDmt7HluqbnoJTnqbYgfCBxd2VuLW1heCAvIGRlZXBzZWVrLWNoYXQgfCDog73lipvlvLogfA0KfCDkuK3mlofkvJjljJYgfCBnbG0tNCAvIGVybmllLTMuNSB8IOS4reaWh+eQhuino+WlvSB8DQoNCiMjIOazqOaEj+S6i+mhuQ0KDQoxLiAqKkFQSSBLZXkg5a6J5YWoKio6IOS4jeimgeWwhiBBUEkgS2V5IOaPkOS6pOWIsOWFrOW8gOS7k+W6kw0KMi4gKirpop3luqbnm5HmjqcqKjog5a6a5pyf5qOA5p+lIEFQSSDkvb/nlKjph4/vvIzpgb/lhY3otoXpop0NCjMuICoq572R57uc6K6/6ZeuKio6IOWbveWGhSBMTE0g5peg6ZyA5Luj55CG77yM55u06L+e5Y2z5Y+vDQo0LiAqKuaooeWei+eJiOacrCoqOiDlhbPms6jmqKHlnovmm7TmlrDvvIzpgInmi6nnqLPlrprniYjmnKwNCjUuICoq5bm25Y+R6ZmQ5Yi2Kio6IOmBteWuiOWQhOW5s+WPsOeahCBRUFMg6ZmQ5Yi2DQo=
+# TradingAgents-CN 中国 LLM 使用指南
+
+## 概述
+
+TradingAgents-CN 已全面支持中国主流 LLM 提供商，包括 DeepSeek、智谱清言、通义千问、文心一言和讯飞星火。这些提供商都通过 OpenAI 兼容 API 提供服务，国内访问稳定，价格相对优惠。
+
+## 支持的 LLM 提供商
+
+### 1. DeepSeek（深度求索）
+- **官网**: https://platform.deepseek.com
+- **API 文档**: https://help.deepseek.com/zh/api
+- **模型**: deepseek-chat（推荐）, deepseek-coder
+- **特点**: 性价比高，支持长上下文，代码能力强
+- **价格**: 约 $0.14/1M tokens（输入）
+
+### 2. 智谱清言（ZhipuAI）
+- **官网**: https://open.bigmodel.cn
+- **模型**: glm-4（推荐）, glm-4-flash, glm-4-plus, glm-3-turbo
+- **特点**: 清华技术背景，中文理解能力强
+- **价格**: glm-4-flash 免费，glm-4 约 ¥1/1M tokens
+
+### 3. 通义千问（Qwen/阿里云）
+- **官网**: https://dashscope.console.aliyun.com
+- **模型**: qwen-plus（推荐）, qwen-turbo, qwen-max
+- **特点**: 阿里云背书，生态丰富
+- **价格**: qwen-turbo 约 ¥0.002/1K tokens
+
+### 4. 文心一言（ERNIE/百度）
+- **官网**: https://console.baiducloud.com
+- **模型**: ernie-3.5-8k（推荐）, ernie-speed-8k
+- **特点**: 百度技术积累，搜索增强
+- **价格**: 约 ¥0.012/1K tokens
+
+### 5. 讯飞星火（Spark）
+- **官网**: https://console.xfyun.cn
+- **模型**: spark-v3.5（推荐）, spark-v3.1
+- **特点**: 语音技术领先，多方言支持
+- **价格**: 约 ¥0.032/1K tokens
+
+## 快速配置
+
+### 方式一：环境变量配置（推荐）
+
+```bash
+# 设置 API Key
+export DEEPSEEK_API_KEY="your-deepseek-api-key"
+export ZHIPU_API_KEY="your-zhipu-api-key"
+export QWEN_API_KEY="your-qwen-api-key"
+export WENXIN_API_KEY="your-wenxin-api-key"
+export SPARK_API_KEY="your-spark-api-key"
+
+# 选择 LLM 提供商
+export TRADINGAGENTS_LLM_PROVIDER="deepseek"
+export TRADINGAGENTS_DEEP_LLM="deepseek-chat"
+export TRADINGAGENTS_QUICK_LLM="deepseek-chat"
+```
+
+### 方式二：代码配置
+
+```python
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
+
+# 方式 1: DeepSeek
+config = DEFAULT_CONFIG.copy()
+config.update({
+    "llm_provider": "deepseek",
+    "deep_think_llm": "deepseek-chat",
+    "quick_think_llm": "deepseek-chat",
+    "deepseek_api_key": "your-api-key",
+})
+
+ta = TradingAgentsGraph(debug=True, config=config)
+
+# 方式 2: 智谱清言
+config = DEFAULT_CONFIG.copy()
+config.update({
+    "llm_provider": "zhipu",
+    "deep_think_llm": "glm-4",
+    "quick_think_llm": "glm-4-flash",
+    "zhipu_api_key": "your-api-key",
+})
+
+# 方式 3: 通义千问
+config = DEFAULT_CONFIG.copy()
+config.update({
+    "llm_provider": "qwen",
+    "deep_think_llm": "qwen-plus",
+    "quick_think_llm": "qwen-turbo",
+    "qwen_api_key": "your-api-key",
+})
+
+# 方式 4: 文心一言
+config = DEFAULT_CONFIG.copy()
+config.update({
+    "llm_provider": "wenxin",
+    "deep_think_llm": "ernie-3.5-8k",
+    "quick_think_llm": "ernie-speed-8k",
+    "wenxin_api_key": "your-api-key",
+})
+
+# 方式 5: 讯飞星火
+config = DEFAULT_CONFIG.copy()
+config.update({
+    "llm_provider": "spark",
+    "deep_think_llm": "spark-v3.5",
+    "quick_think_llm": "spark-v3.5",
+    "spark_api_key": "your-api-key",
+})
+```
+
+## 使用示例
+
+```python
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+from tradingagents.default_config import DEFAULT_CONFIG
+
+# 配置 DeepSeek
+config = DEFAULT_CONFIG.copy()
+config.update({
+    "llm_provider": "deepseek",
+    "deep_think_llm": "deepseek-chat",
+    "quick_think_llm": "deepseek-chat",
+    "deepseek_api_key": "your-key",
+    "online_tools": True,  # 启用在线工具获取实时数据
+})
+
+# 初始化
+ta = TradingAgentsGraph(debug=True, config=config)
+
+# 分析股票
+result, decision = ta.propagate("600519", "2026-03-29")
+print(f"决策: {decision}")
+```
+
+## API Key 获取方式
+
+### DeepSeek
+1. 访问 https://platform.deepseek.com
+2. 注册/登录账号
+3. 进入「API Keys」创建新密钥
+4. 充值后即可使用
+
+### 智谱清言
+1. 访问 https://open.bigmodel.cn
+2. 注册/登录
+3. 进入「API Keys」创建
+4. 充值后使用
+
+### 通义千问
+1. 访问 https://dashscope.console.aliyun.com
+2. 开通模型服务
+3. 创建 API Key
+4. 按量付费
+
+### 文心一言
+1. 访问 https://console.baiducloud.com
+2. 开通千帆大模型平台
+3. 创建应用获取 API Key
+4. 计费模式
+
+### 讯飞星火
+1. 访问 https://console.xfyun.cn
+2. 开通星火认知大模型
+3. 创建 API Key 和 APP ID
+4. 按调用量计费
+
+## 模型选择建议
+
+| 场景 | 推荐模型 | 原因 |
+|------|---------|------|
+| 快速测试 | qwen-turbo / glm-4-flash | 免费或低价 |
+| 综合分析 | deepseek-chat / glm-4 | 性价比高 |
+| 深度研究 | qwen-max / deepseek-chat | 能力强 |
+| 中文优化 | glm-4 / ernie-3.5 | 中文理解好 |
+
+## 注意事项
+
+1. **API Key 安全**: 不要将 API Key 提交到公开仓库
+2. **额度监控**: 定期检查 API 使用量，避免超额
+3. **网络访问**: 国内 LLM 无需代理，直连即可
+4. **模型版本**: 关注模型更新，选择稳定版本
+5. **并发限制**: 遵守各平台的 QPS 限制

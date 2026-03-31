@@ -1,1 +1,88 @@
-77u/aW1wb3J0IHBhbmRhcyBhcyBwZAppbXBvcnQgeWZpbmFuY2UgYXMgeWYKZnJvbSBzdG9ja3N0YXRzIGltcG9ydCB3cmFwCmZyb20gdHlwaW5nIGltcG9ydCBBbm5vdGF0ZWQKaW1wb3J0IG9zCmZyb20gLmNvbmZpZyBpbXBvcnQgZ2V0X2NvbmZpZwoKCmNsYXNzIFN0b2Nrc3RhdHNVdGlsczoKICAgIEBzdGF0aWNtZXRob2QKICAgIGRlZiBnZXRfc3RvY2tfc3RhdHMoCiAgICAgICAgc3ltYm9sOiBBbm5vdGF0ZWRbc3RyLCAidGlja2VyIHN5bWJvbCBmb3IgdGhlIGNvbXBhbnkiXSwKICAgICAgICBpbmRpY2F0b3I6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLCAicXVhbnRpdGF0aXZlIGluZGljYXRvcnMgYmFzZWQgb2ZmIG9mIHRoZSBzdG9jayBkYXRhIGZvciB0aGUgY29tcGFueSIKICAgICAgICBdLAogICAgICAgIGN1cnJfZGF0ZTogQW5ub3RhdGVkWwogICAgICAgICAgICBzdHIsICJjdXJyIGRhdGUgZm9yIHJldHJpZXZpbmcgc3RvY2sgcHJpY2UgZGF0YSwgWVlZWS1tbS1kZCIKICAgICAgICBdLAogICAgICAgIGRhdGFfZGlyOiBBbm5vdGF0ZWRbCiAgICAgICAgICAgIHN0ciwKICAgICAgICAgICAgImRpcmVjdG9yeSB3aGVyZSB0aGUgc3RvY2sgZGF0YSBpcyBzdG9yZWQuIiwKICAgICAgICBdLAogICAgICAgIG9ubGluZTogQW5ub3RhdGVkWwogICAgICAgICAgICBib29sLAogICAgICAgICAgICAid2hldGhlciB0byB1c2Ugb25saW5lIHRvb2xzIHRvIGZldGNoIGRhdGEgb3Igb2ZmbGluZSB0b29scy4gSWYgVHJ1ZSwgd2lsbCB1c2Ugb25saW5lIHRvb2xzLiIsCiAgICAgICAgXSA9IEZhbHNlLAogICAgKToKICAgICAgICBkZiA9IE5vbmUKICAgICAgICBkYXRhID0gTm9uZQoKICAgICAgICBpZiBub3Qgb25saW5lOgogICAgICAgICAgICB0cnk6CiAgICAgICAgICAgICAgICBkYXRhID0gcGQucmVhZF9jc3YoCiAgICAgICAgICAgICAgICAgICAgb3MucGF0aC5qb2luKAogICAgICAgICAgICAgICAgICAgICAgICBkYXRhX2RpciwKICAgICAgICAgICAgICAgICAgICAgICAgZiJ7c3ltYm9sfS1ZRmluLWRhdGEtMjAxNS0wMS0wMS0yMDI1LTAzLTI1LmNzdiIsCiAgICAgICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgKQogICAgICAgICAgICAgICAgZGYgPSB3cmFwKGRhdGEpCiAgICAgICAgICAgIGV4Y2VwdCBGaWxlTm90Rm91bmRFcnJvcjoKICAgICAgICAgICAgICAgIHJhaXNlIEV4Y2VwdGlvbigiU3RvY2tzdGF0cyBmYWlsOiBZYWhvbyBGaW5hbmNlIGRhdGEgbm90IGZldGNoZWQgeWV0ISIpCiAgICAgICAgZWxzZToKICAgICAgICAgICAgIyBHZXQgdG9kYXkncyBkYXRlIGFzIFlZWVktbW0tZGQgdG8gYWRkIHRvIGNhY2hlCiAgICAgICAgICAgIHRvZGF5X2RhdGUgPSBwZC5UaW1lc3RhbXAudG9kYXkoKQogICAgICAgICAgICBjdXJyX2RhdGUgPSBwZC50b19kYXRldGltZShjdXJyX2RhdGUpCgogICAgICAgICAgICBlbmRfZGF0ZSA9IHRvZGF5X2RhdGUKICAgICAgICAgICAgc3RhcnRfZGF0ZSA9IHRvZGF5X2RhdGUgLSBwZC5EYXRlT2Zmc2V0KHllYXJzPTE1KQogICAgICAgICAgICBzdGFydF9kYXRlID0gc3RhcnRfZGF0ZS5zdHJmdGltZSgiJVktJW0tJWQiKQogICAgICAgICAgICBlbmRfZGF0ZSA9IGVuZF9kYXRlLnN0cmZ0aW1lKCIlWS0lbS0lZCIpCgogICAgICAgICAgICAjIEdldCBjb25maWcgYW5kIGVuc3VyZSBjYWNoZSBkaXJlY3RvcnkgZXhpc3RzCiAgICAgICAgICAgIGNvbmZpZyA9IGdldF9jb25maWcoKQogICAgICAgICAgICBvcy5tYWtlZGlycyhjb25maWdbImRhdGFfY2FjaGVfZGlyIl0sIGV4aXN0X29rPVRydWUpCgogICAgICAgICAgICBkYXRhX2ZpbGUgPSBvcy5wYXRoLmpvaW4oCiAgICAgICAgICAgICAgICBjb25maWdbImRhdGFfY2FjaGVfZGlyIl0sCiAgICAgICAgICAgICAgICBmIntzeW1ib2x9LVlGaW4tZGF0YS17c3RhcnRfZGF0ZX0te2VuZF9kYXRlfS5jc3YiLAogICAgICAgICAgICApCgogICAgICAgICAgICBpZiBvcy5wYXRoLmV4aXN0cyhkYXRhX2ZpbGUpOgogICAgICAgICAgICAgICAgZGF0YSA9IHBkLnJlYWRfY3N2KGRhdGFfZmlsZSkKICAgICAgICAgICAgICAgIGRhdGFbIkRhdGUiXSA9IHBkLnRvX2RhdGV0aW1lKGRhdGFbIkRhdGUiXSkKICAgICAgICAgICAgZWxzZToKICAgICAgICAgICAgICAgIGRhdGEgPSB5Zi5kb3dubG9hZCgKICAgICAgICAgICAgICAgICAgICBzeW1ib2wsCiAgICAgICAgICAgICAgICAgICAgc3RhcnQ9c3RhcnRfZGF0ZSwKICAgICAgICAgICAgICAgICAgICBlbmQ9ZW5kX2RhdGUsCiAgICAgICAgICAgICAgICAgICAgbXVsdGlfbGV2ZWxfaW5kZXg9RmFsc2UsCiAgICAgICAgICAgICAgICAgICAgcHJvZ3Jlc3M9RmFsc2UsCiAgICAgICAgICAgICAgICAgICAgYXV0b19hZGp1c3Q9VHJ1ZSwKICAgICAgICAgICAgICAgICkKICAgICAgICAgICAgICAgIGRhdGEgPSBkYXRhLnJlc2V0X2luZGV4KCkKICAgICAgICAgICAgICAgIGRhdGEudG9fY3N2KGRhdGFfZmlsZSwgaW5kZXg9RmFsc2UpCgogICAgICAgICAgICBkZiA9IHdyYXAoZGF0YSkKICAgICAgICAgICAgZGZbIkRhdGUiXSA9IGRmWyJEYXRlIl0uZHQuc3RyZnRpbWUoIiVZLSVtLSVkIikKICAgICAgICAgICAgY3Vycl9kYXRlID0gY3Vycl9kYXRlLnN0cmZ0aW1lKCIlWS0lbS0lZCIpCgogICAgICAgIGRmW2luZGljYXRvcl0gICMgdHJpZ2dlciBzdG9ja3N0YXRzIHRvIGNhbGN1bGF0ZSB0aGUgaW5kaWNhdG9yCiAgICAgICAgbWF0Y2hpbmdfcm93cyA9IGRmW2RmWyJEYXRlIl0uc3RyLnN0YXJ0c3dpdGgoY3Vycl9kYXRlKV0KCiAgICAgICAgaWYgbm90IG1hdGNoaW5nX3Jvd3MuZW1wdHk6CiAgICAgICAgICAgIGluZGljYXRvcl92YWx1ZSA9IG1hdGNoaW5nX3Jvd3NbaW5kaWNhdG9yXS52YWx1ZXNbMF0KICAgICAgICAgICAgcmV0dXJuIGluZGljYXRvcl92YWx1ZQogICAgICAgIGVsc2U6CiAgICAgICAgICAgIHJldHVybiAiTi9BOiBOb3QgYSB0cmFkaW5nIGRheSAod2Vla2VuZCBvciBob2xpZGF5KSIKDQo=
+﻿import pandas as pd
+import yfinance as yf
+from stockstats import wrap
+from typing import Annotated
+import os
+from .config import get_config
+
+
+class StockstatsUtils:
+    @staticmethod
+    def get_stock_stats(
+        symbol: Annotated[str, "ticker symbol for the company"],
+        indicator: Annotated[
+            str, "quantitative indicators based off of the stock data for the company"
+        ],
+        curr_date: Annotated[
+            str, "curr date for retrieving stock price data, YYYY-mm-dd"
+        ],
+        data_dir: Annotated[
+            str,
+            "directory where the stock data is stored.",
+        ],
+        online: Annotated[
+            bool,
+            "whether to use online tools to fetch data or offline tools. If True, will use online tools.",
+        ] = False,
+    ):
+        df = None
+        data = None
+
+        if not online:
+            try:
+                data = pd.read_csv(
+                    os.path.join(
+                        data_dir,
+                        f"{symbol}-YFin-data-2015-01-01-2025-03-25.csv",
+                    )
+                )
+                df = wrap(data)
+            except FileNotFoundError:
+                raise Exception("Stockstats fail: Yahoo Finance data not fetched yet!")
+        else:
+            # Get today's date as YYYY-mm-dd to add to cache
+            today_date = pd.Timestamp.today()
+            curr_date = pd.to_datetime(curr_date)
+
+            end_date = today_date
+            start_date = today_date - pd.DateOffset(years=15)
+            start_date = start_date.strftime("%Y-%m-%d")
+            end_date = end_date.strftime("%Y-%m-%d")
+
+            # Get config and ensure cache directory exists
+            config = get_config()
+            os.makedirs(config["data_cache_dir"], exist_ok=True)
+
+            data_file = os.path.join(
+                config["data_cache_dir"],
+                f"{symbol}-YFin-data-{start_date}-{end_date}.csv",
+            )
+
+            if os.path.exists(data_file):
+                data = pd.read_csv(data_file)
+                data["Date"] = pd.to_datetime(data["Date"])
+            else:
+                data = yf.download(
+                    symbol,
+                    start=start_date,
+                    end=end_date,
+                    multi_level_index=False,
+                    progress=False,
+                    auto_adjust=True,
+                )
+                data = data.reset_index()
+                data.to_csv(data_file, index=False)
+
+            df = wrap(data)
+            df["Date"] = df["Date"].dt.strftime("%Y-%m-%d")
+            curr_date = curr_date.strftime("%Y-%m-%d")
+
+        df[indicator]  # trigger stockstats to calculate the indicator
+        matching_rows = df[df["Date"].str.startswith(curr_date)]
+
+        if not matching_rows.empty:
+            indicator_value = matching_rows[indicator].values[0]
+            return indicator_value
+        else:
+            return "N/A: Not a trading day (weekend or holiday)"
+

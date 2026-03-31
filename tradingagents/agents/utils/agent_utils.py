@@ -1,1 +1,420 @@
-77u/ZnJvbSBsYW5nY2hhaW5fY29yZS5tZXNzYWdlcyBpbXBvcnQgQmFzZU1lc3NhZ2UsIEh1bWFuTWVzc2FnZSwgVG9vbE1lc3NhZ2UsIEFJTWVzc2FnZQpmcm9tIHR5cGluZyBpbXBvcnQgTGlzdApmcm9tIHR5cGluZyBpbXBvcnQgQW5ub3RhdGVkCmZyb20gbGFuZ2NoYWluX2NvcmUucHJvbXB0cyBpbXBvcnQgQ2hhdFByb21wdFRlbXBsYXRlLCBNZXNzYWdlc1BsYWNlaG9sZGVyCmZyb20gbGFuZ2NoYWluX2NvcmUubWVzc2FnZXMgaW1wb3J0IFJlbW92ZU1lc3NhZ2UKZnJvbSBsYW5nY2hhaW5fY29yZS50b29scyBpbXBvcnQgdG9vbApmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRlLCB0aW1lZGVsdGEsIGRhdGV0aW1lCmltcG9ydCBmdW5jdG9vbHMKaW1wb3J0IHBhbmRhcyBhcyBwZAppbXBvcnQgb3MKZnJvbSBkYXRldXRpbC5yZWxhdGl2ZWRlbHRhIGltcG9ydCByZWxhdGl2ZWRlbHRhCmZyb20gbGFuZ2NoYWluX29wZW5haSBpbXBvcnQgQ2hhdE9wZW5BSQppbXBvcnQgdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MuaW50ZXJmYWNlIGFzIGludGVyZmFjZQpmcm9tIHRyYWRpbmdhZ2VudHMuZGVmYXVsdF9jb25maWcgaW1wb3J0IERFRkFVTFRfQ09ORklHCmZyb20gbGFuZ2NoYWluX2NvcmUubWVzc2FnZXMgaW1wb3J0IEh1bWFuTWVzc2FnZQoKCmRlZiBjcmVhdGVfbXNnX2RlbGV0ZSgpOgogICAgZGVmIGRlbGV0ZV9tZXNzYWdlcyhzdGF0ZSk6CiAgICAgICAgIiIiQ2xlYXIgbWVzc2FnZXMgYW5kIGFkZCBwbGFjZWhvbGRlciBmb3IgQW50aHJvcGljIGNvbXBhdGliaWxpdHkiIiIKICAgICAgICBtZXNzYWdlcyA9IHN0YXRlWyJtZXNzYWdlcyJdCiAgICAgICAgCiAgICAgICAgIyBSZW1vdmUgYWxsIG1lc3NhZ2VzCiAgICAgICAgcmVtb3ZhbF9vcGVyYXRpb25zID0gW1JlbW92ZU1lc3NhZ2UoaWQ9bS5pZCkgZm9yIG0gaW4gbWVzc2FnZXNdCiAgICAgICAgCiAgICAgICAgIyBBZGQgYSBtaW5pbWFsIHBsYWNlaG9sZGVyIG1lc3NhZ2UKICAgICAgICBwbGFjZWhvbGRlciA9IEh1bWFuTWVzc2FnZShjb250ZW50PSJDb250aW51ZSIpCiAgICAgICAgCiAgICAgICAgcmV0dXJuIHsibWVzc2FnZXMiOiByZW1vdmFsX29wZXJhdGlvbnMgKyBbcGxhY2Vob2xkZXJdfQogICAgCiAgICByZXR1cm4gZGVsZXRlX21lc3NhZ2VzCgoKY2xhc3MgVG9vbGtpdDoKICAgIF9jb25maWcgPSBERUZBVUxUX0NPTkZJRy5jb3B5KCkKCiAgICBAY2xhc3NtZXRob2QKICAgIGRlZiB1cGRhdGVfY29uZmlnKGNscywgY29uZmlnKToKICAgICAgICAiIiJVcGRhdGUgdGhlIGNsYXNzLWxldmVsIGNvbmZpZ3VyYXRpb24uIiIiCiAgICAgICAgY2xzLl9jb25maWcudXBkYXRlKGNvbmZpZykKCiAgICBAcHJvcGVydHkKICAgIGRlZiBjb25maWcoc2VsZik6CiAgICAgICAgIiIiQWNjZXNzIHRoZSBjb25maWd1cmF0aW9uLiIiIgogICAgICAgIHJldHVybiBzZWxmLl9jb25maWcKCiAgICBkZWYgX19pbml0X18oc2VsZiwgY29uZmlnPU5vbmUpOgogICAgICAgIGlmIGNvbmZpZzoKICAgICAgICAgICAgc2VsZi51cGRhdGVfY29uZmlnKGNvbmZpZykKCiAgICBAc3RhdGljbWV0aG9kCiAgICBAdG9vbAogICAgZGVmIGdldF9yZWRkaXRfbmV3cygKICAgICAgICBjdXJyX2RhdGU6IEFubm90YXRlZFtzdHIsICJEYXRlIHlvdSB3YW50IHRvIGdldCBuZXdzIGZvciBpbiB5eXl5LW1tLWRkIGZvcm1hdCJdLAogICAgKSAtPiBzdHI6CiAgICAgICAgIiIiCiAgICAgICAgUmV0cmlldmUgZ2xvYmFsIG5ld3MgZnJvbSBSZWRkaXQgd2l0aGluIGEgc3BlY2lmaWVkIHRpbWUgZnJhbWUuCiAgICAgICAgQXJnczoKICAgICAgICAgICAgY3Vycl9kYXRlIChzdHIpOiBEYXRlIHlvdSB3YW50IHRvIGdldCBuZXdzIGZvciBpbiB5eXl5LW1tLWRkIGZvcm1hdAogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogQSBmb3JtYXR0ZWQgZGF0YWZyYW1lIGNvbnRhaW5pbmcgdGhlIGxhdGVzdCBnbG9iYWwgbmV3cyBmcm9tIFJlZGRpdCBpbiB0aGUgc3BlY2lmaWVkIHRpbWUgZnJhbWUuCiAgICAgICAgIiIiCiAgICAgICAgCiAgICAgICAgZ2xvYmFsX25ld3NfcmVzdWx0ID0gaW50ZXJmYWNlLmdldF9yZWRkaXRfZ2xvYmFsX25ld3MoY3Vycl9kYXRlLCA3LCA1KQoKICAgICAgICByZXR1cm4gZ2xvYmFsX25ld3NfcmVzdWx0CgogICAgQHN0YXRpY21ldGhvZAogICAgQHRvb2wKICAgIGRlZiBnZXRfZmlubmh1Yl9uZXdzKAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkWwogICAgICAgICAgICBzdHIsCiAgICAgICAgICAgICJTZWFyY2ggcXVlcnkgb2YgYSBjb21wYW55LCBlLmcuICdBQVBMLCBUU00sIGV0Yy4iLAogICAgICAgIF0sCiAgICAgICAgc3RhcnRfZGF0ZTogQW5ub3RhdGVkW3N0ciwgIlN0YXJ0IGRhdGUgaW4geXl5eS1tbS1kZCBmb3JtYXQiXSwKICAgICAgICBlbmRfZGF0ZTogQW5ub3RhdGVkW3N0ciwgIkVuZCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0Il0sCiAgICApOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIHRoZSBsYXRlc3QgbmV3cyBhYm91dCBhIGdpdmVuIHN0b2NrIGZyb20gRmlubmh1YiB3aXRoaW4gYSBkYXRlIHJhbmdlCiAgICAgICAgQXJnczoKICAgICAgICAgICAgdGlja2VyIChzdHIpOiBUaWNrZXIgb2YgYSBjb21wYW55LiBlLmcuIEFBUEwsIFRTTQogICAgICAgICAgICBzdGFydF9kYXRlIChzdHIpOiBTdGFydCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0CiAgICAgICAgICAgIGVuZF9kYXRlIChzdHIpOiBFbmQgZGF0ZSBpbiB5eXl5LW1tLWRkIGZvcm1hdAogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogQSBmb3JtYXR0ZWQgZGF0YWZyYW1lIGNvbnRhaW5pbmcgbmV3cyBhYm91dCB0aGUgY29tcGFueSB3aXRoaW4gdGhlIGRhdGUgcmFuZ2UgZnJvbSBzdGFydF9kYXRlIHRvIGVuZF9kYXRlCiAgICAgICAgIiIiCgogICAgICAgIGVuZF9kYXRlX3N0ciA9IGVuZF9kYXRlCgogICAgICAgIGVuZF9kYXRlID0gZGF0ZXRpbWUuc3RycHRpbWUoZW5kX2RhdGUsICIlWS0lbS0lZCIpCiAgICAgICAgc3RhcnRfZGF0ZSA9IGRhdGV0aW1lLnN0cnB0aW1lKHN0YXJ0X2RhdGUsICIlWS0lbS0lZCIpCiAgICAgICAgbG9va19iYWNrX2RheXMgPSAoZW5kX2RhdGUgLSBzdGFydF9kYXRlKS5kYXlzCgogICAgICAgIGZpbm5odWJfbmV3c19yZXN1bHQgPSBpbnRlcmZhY2UuZ2V0X2Zpbm5odWJfbmV3cygKICAgICAgICAgICAgdGlja2VyLCBlbmRfZGF0ZV9zdHIsIGxvb2tfYmFja19kYXlzCiAgICAgICAgKQoKICAgICAgICByZXR1cm4gZmlubmh1Yl9uZXdzX3Jlc3VsdAoKICAgIEBzdGF0aWNtZXRob2QKICAgIEB0b29sCiAgICBkZWYgZ2V0X3JlZGRpdF9zdG9ja19pbmZvKAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkWwogICAgICAgICAgICBzdHIsCiAgICAgICAgICAgICJUaWNrZXIgb2YgYSBjb21wYW55LiBlLmcuIEFBUEwsIFRTTSIsCiAgICAgICAgXSwKICAgICAgICBjdXJyX2RhdGU6IEFubm90YXRlZFtzdHIsICJDdXJyZW50IGRhdGUgeW91IHdhbnQgdG8gZ2V0IG5ld3MgZm9yIl0sCiAgICApIC0+IHN0cjoKICAgICAgICAiIiIKICAgICAgICBSZXRyaWV2ZSB0aGUgbGF0ZXN0IG5ld3MgYWJvdXQgYSBnaXZlbiBzdG9jayBmcm9tIFJlZGRpdCwgZ2l2ZW4gdGhlIGN1cnJlbnQgZGF0ZS4KICAgICAgICBBcmdzOgogICAgICAgICAgICB0aWNrZXIgKHN0cik6IFRpY2tlciBvZiBhIGNvbXBhbnkuIGUuZy4gQUFQTCwgVFNNCiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogY3VycmVudCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0IHRvIGdldCBuZXdzIGZvcgogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogQSBmb3JtYXR0ZWQgZGF0YWZyYW1lIGNvbnRhaW5pbmcgdGhlIGxhdGVzdCBuZXdzIGFib3V0IHRoZSBjb21wYW55IG9uIHRoZSBnaXZlbiBkYXRlCiAgICAgICAgIiIiCgogICAgICAgIHN0b2NrX25ld3NfcmVzdWx0cyA9IGludGVyZmFjZS5nZXRfcmVkZGl0X2NvbXBhbnlfbmV3cyh0aWNrZXIsIGN1cnJfZGF0ZSwgNywgNSkKCiAgICAgICAgcmV0dXJuIHN0b2NrX25ld3NfcmVzdWx0cwoKICAgIEBzdGF0aWNtZXRob2QKICAgIEB0b29sCiAgICBkZWYgZ2V0X1lGaW5fZGF0YSgKICAgICAgICBzeW1ib2w6IEFubm90YXRlZFtzdHIsICJ0aWNrZXIgc3ltYm9sIG9mIHRoZSBjb21wYW55Il0sCiAgICAgICAgc3RhcnRfZGF0ZTogQW5ub3RhdGVkW3N0ciwgIlN0YXJ0IGRhdGUgaW4geXl5eS1tbS1kZCBmb3JtYXQiXSwKICAgICAgICBlbmRfZGF0ZTogQW5ub3RhdGVkW3N0ciwgIkVuZCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0Il0sCiAgICApIC0+IHN0cjoKICAgICAgICAiIiIKICAgICAgICBSZXRyaWV2ZSB0aGUgc3RvY2sgcHJpY2UgZGF0YSBmb3IgYSBnaXZlbiB0aWNrZXIgc3ltYm9sIGZyb20gWWFob28gRmluYW5jZS4KICAgICAgICBBcmdzOgogICAgICAgICAgICBzeW1ib2wgKHN0cik6IFRpY2tlciBzeW1ib2wgb2YgdGhlIGNvbXBhbnksIGUuZy4gQUFQTCwgVFNNCiAgICAgICAgICAgIHN0YXJ0X2RhdGUgKHN0cik6IFN0YXJ0IGRhdGUgaW4geXl5eS1tbS1kZCBmb3JtYXQKICAgICAgICAgICAgZW5kX2RhdGUgKHN0cik6IEVuZCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0CiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgc3RyOiBBIGZvcm1hdHRlZCBkYXRhZnJhbWUgY29udGFpbmluZyB0aGUgc3RvY2sgcHJpY2UgZGF0YSBmb3IgdGhlIHNwZWNpZmllZCB0aWNrZXIgc3ltYm9sIGluIHRoZSBzcGVjaWZpZWQgZGF0ZSByYW5nZS4KICAgICAgICAiIiIKCiAgICAgICAgcmVzdWx0X2RhdGEgPSBpbnRlcmZhY2UuZ2V0X1lGaW5fZGF0YShzeW1ib2wsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQoKICAgICAgICByZXR1cm4gcmVzdWx0X2RhdGEKCiAgICBAc3RhdGljbWV0aG9kCiAgICBAdG9vbAogICAgZGVmIGdldF9ZRmluX2RhdGFfb25saW5lKAogICAgICAgIHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wgb2YgdGhlIGNvbXBhbnkiXSwKICAgICAgICBzdGFydF9kYXRlOiBBbm5vdGF0ZWRbc3RyLCAiU3RhcnQgZGF0ZSBpbiB5eXl5LW1tLWRkIGZvcm1hdCJdLAogICAgICAgIGVuZF9kYXRlOiBBbm5vdGF0ZWRbc3RyLCAiRW5kIGRhdGUgaW4geXl5eS1tbS1kZCBmb3JtYXQiXSwKICAgICkgLT4gc3RyOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIHRoZSBzdG9jayBwcmljZSBkYXRhIGZvciBhIGdpdmVuIHRpY2tlciBzeW1ib2wgZnJvbSBZYWhvbyBGaW5hbmNlLgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHN5bWJvbCAoc3RyKTogVGlja2VyIHN5bWJvbCBvZiB0aGUgY29tcGFueSwgZS5nLiBBQVBMLCBUU00KICAgICAgICAgICAgc3RhcnRfZGF0ZSAoc3RyKTogU3RhcnQgZGF0ZSBpbiB5eXl5LW1tLWRkIGZvcm1hdAogICAgICAgICAgICBlbmRfZGF0ZSAoc3RyKTogRW5kIGRhdGUgaW4geXl5eS1tbS1kZCBmb3JtYXQKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBzdHI6IEEgZm9ybWF0dGVkIGRhdGFmcmFtZSBjb250YWluaW5nIHRoZSBzdG9jayBwcmljZSBkYXRhIGZvciB0aGUgc3BlY2lmaWVkIHRpY2tlciBzeW1ib2wgaW4gdGhlIHNwZWNpZmllZCBkYXRlIHJhbmdlLgogICAgICAgICIiIgoKICAgICAgICByZXN1bHRfZGF0YSA9IGludGVyZmFjZS5nZXRfWUZpbl9kYXRhX29ubGluZShzeW1ib2wsIHN0YXJ0X2RhdGUsIGVuZF9kYXRlKQoKICAgICAgICByZXR1cm4gcmVzdWx0X2RhdGEKCiAgICBAc3RhdGljbWV0aG9kCiAgICBAdG9vbAogICAgZGVmIGdldF9zdG9ja3N0YXRzX2luZGljYXRvcnNfcmVwb3J0KAogICAgICAgIHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wgb2YgdGhlIGNvbXBhbnkiXSwKICAgICAgICBpbmRpY2F0b3I6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLCAidGVjaG5pY2FsIGluZGljYXRvciB0byBnZXQgdGhlIGFuYWx5c2lzIGFuZCByZXBvcnQgb2YiCiAgICAgICAgXSwKICAgICAgICBjdXJyX2RhdGU6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLCAiVGhlIGN1cnJlbnQgdHJhZGluZyBkYXRlIHlvdSBhcmUgdHJhZGluZyBvbiwgWVlZWS1tbS1kZCIKICAgICAgICBdLAogICAgICAgIGxvb2tfYmFja19kYXlzOiBBbm5vdGF0ZWRbaW50LCAiaG93IG1hbnkgZGF5cyB0byBsb29rIGJhY2siXSA9IDMwLAogICAgKSAtPiBzdHI6CiAgICAgICAgIiIiCiAgICAgICAgUmV0cmlldmUgc3RvY2sgc3RhdHMgaW5kaWNhdG9ycyBmb3IgYSBnaXZlbiB0aWNrZXIgc3ltYm9sIGFuZCBpbmRpY2F0b3IuCiAgICAgICAgQXJnczoKICAgICAgICAgICAgc3ltYm9sIChzdHIpOiBUaWNrZXIgc3ltYm9sIG9mIHRoZSBjb21wYW55LCBlLmcuIEFBUEwsIFRTTQogICAgICAgICAgICBpbmRpY2F0b3IgKHN0cik6IFRlY2huaWNhbCBpbmRpY2F0b3IgdG8gZ2V0IHRoZSBhbmFseXNpcyBhbmQgcmVwb3J0IG9mCiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogVGhlIGN1cnJlbnQgdHJhZGluZyBkYXRlIHlvdSBhcmUgdHJhZGluZyBvbiwgWVlZWS1tbS1kZAogICAgICAgICAgICBsb29rX2JhY2tfZGF5cyAoaW50KTogSG93IG1hbnkgZGF5cyB0byBsb29rIGJhY2ssIGRlZmF1bHQgaXMgMzAKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBzdHI6IEEgZm9ybWF0dGVkIGRhdGFmcmFtZSBjb250YWluaW5nIHRoZSBzdG9jayBzdGF0cyBpbmRpY2F0b3JzIGZvciB0aGUgc3BlY2lmaWVkIHRpY2tlciBzeW1ib2wgYW5kIGluZGljYXRvci4KICAgICAgICAiIiIKCiAgICAgICAgcmVzdWx0X3N0b2Nrc3RhdHMgPSBpbnRlcmZhY2UuZ2V0X3N0b2NrX3N0YXRzX2luZGljYXRvcnNfd2luZG93KAogICAgICAgICAgICBzeW1ib2wsIGluZGljYXRvciwgY3Vycl9kYXRlLCBsb29rX2JhY2tfZGF5cywgRmFsc2UKICAgICAgICApCgogICAgICAgIHJldHVybiByZXN1bHRfc3RvY2tzdGF0cwoKICAgIEBzdGF0aWNtZXRob2QKICAgIEB0b29sCiAgICBkZWYgZ2V0X3N0b2Nrc3RhdHNfaW5kaWNhdG9yc19yZXBvcnRfb25saW5lKAogICAgICAgIHN5bWJvbDogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wgb2YgdGhlIGNvbXBhbnkiXSwKICAgICAgICBpbmRpY2F0b3I6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLCAidGVjaG5pY2FsIGluZGljYXRvciB0byBnZXQgdGhlIGFuYWx5c2lzIGFuZCByZXBvcnQgb2YiCiAgICAgICAgXSwKICAgICAgICBjdXJyX2RhdGU6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLCAiVGhlIGN1cnJlbnQgdHJhZGluZyBkYXRlIHlvdSBhcmUgdHJhZGluZyBvbiwgWVlZWS1tbS1kZCIKICAgICAgICBdLAogICAgICAgIGxvb2tfYmFja19kYXlzOiBBbm5vdGF0ZWRbaW50LCAiaG93IG1hbnkgZGF5cyB0byBsb29rIGJhY2siXSA9IDMwLAogICAgKSAtPiBzdHI6CiAgICAgICAgIiIiCiAgICAgICAgUmV0cmlldmUgc3RvY2sgc3RhdHMgaW5kaWNhdG9ycyBmb3IgYSBnaXZlbiB0aWNrZXIgc3ltYm9sIGFuZCBpbmRpY2F0b3IuCiAgICAgICAgQXJnczoKICAgICAgICAgICAgc3ltYm9sIChzdHIpOiBUaWNrZXIgc3ltYm9sIG9mIHRoZSBjb21wYW55LCBlLmcuIEFBUEwsIFRTTQogICAgICAgICAgICBpbmRpY2F0b3IgKHN0cik6IFRlY2huaWNhbCBpbmRpY2F0b3IgdG8gZ2V0IHRoZSBhbmFseXNpcyBhbmQgcmVwb3J0IG9mCiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogVGhlIGN1cnJlbnQgdHJhZGluZyBkYXRlIHlvdSBhcmUgdHJhZGluZyBvbiwgWVlZWS1tbS1kZAogICAgICAgICAgICBsb29rX2JhY2tfZGF5cyAoaW50KTogSG93IG1hbnkgZGF5cyB0byBsb29rIGJhY2ssIGRlZmF1bHQgaXMgMzAKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBzdHI6IEEgZm9ybWF0dGVkIGRhdGFmcmFtZSBjb250YWluaW5nIHRoZSBzdG9jayBzdGF0cyBpbmRpY2F0b3JzIGZvciB0aGUgc3BlY2lmaWVkIHRpY2tlciBzeW1ib2wgYW5kIGluZGljYXRvci4KICAgICAgICAiIiIKCiAgICAgICAgcmVzdWx0X3N0b2Nrc3RhdHMgPSBpbnRlcmZhY2UuZ2V0X3N0b2NrX3N0YXRzX2luZGljYXRvcnNfd2luZG93KAogICAgICAgICAgICBzeW1ib2wsIGluZGljYXRvciwgY3Vycl9kYXRlLCBsb29rX2JhY2tfZGF5cywgVHJ1ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIHJlc3VsdF9zdG9ja3N0YXRzCgogICAgQHN0YXRpY21ldGhvZAogICAgQHRvb2wKICAgIGRlZiBnZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfc2VudGltZW50KAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wgZm9yIHRoZSBjb21wYW55Il0sCiAgICAgICAgY3Vycl9kYXRlOiBBbm5vdGF0ZWRbCiAgICAgICAgICAgIHN0ciwKICAgICAgICAgICAgImN1cnJlbnQgZGF0ZSBvZiB5b3UgYXJlIHRyYWRpbmcgYXQsIHl5eXktbW0tZGQiLAogICAgICAgIF0sCiAgICApOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIGluc2lkZXIgc2VudGltZW50IGluZm9ybWF0aW9uIGFib3V0IGEgY29tcGFueSAocmV0cmlldmVkIGZyb20gcHVibGljIFNFQyBpbmZvcm1hdGlvbikgZm9yIHRoZSBwYXN0IDMwIGRheXMKICAgICAgICBBcmdzOgogICAgICAgICAgICB0aWNrZXIgKHN0cik6IHRpY2tlciBzeW1ib2wgb2YgdGhlIGNvbXBhbnkKICAgICAgICAgICAgY3Vycl9kYXRlIChzdHIpOiBjdXJyZW50IGRhdGUgeW91IGFyZSB0cmFkaW5nIGF0LCB5eXl5LW1tLWRkCiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgc3RyOiBhIHJlcG9ydCBvZiB0aGUgc2VudGltZW50IGluIHRoZSBwYXN0IDMwIGRheXMgc3RhcnRpbmcgYXQgY3Vycl9kYXRlCiAgICAgICAgIiIiCgogICAgICAgIGRhdGFfc2VudGltZW50ID0gaW50ZXJmYWNlLmdldF9maW5uaHViX2NvbXBhbnlfaW5zaWRlcl9zZW50aW1lbnQoCiAgICAgICAgICAgIHRpY2tlciwgY3Vycl9kYXRlLCAzMAogICAgICAgICkKCiAgICAgICAgcmV0dXJuIGRhdGFfc2VudGltZW50CgogICAgQHN0YXRpY21ldGhvZAogICAgQHRvb2wKICAgIGRlZiBnZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfdHJhbnNhY3Rpb25zKAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wiXSwKICAgICAgICBjdXJyX2RhdGU6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLAogICAgICAgICAgICAiY3VycmVudCBkYXRlIHlvdSBhcmUgdHJhZGluZyBhdCwgeXl5eS1tbS1kZCIsCiAgICAgICAgXSwKICAgICk6CiAgICAgICAgIiIiCiAgICAgICAgUmV0cmlldmUgaW5zaWRlciB0cmFuc2FjdGlvbiBpbmZvcm1hdGlvbiBhYm91dCBhIGNvbXBhbnkgKHJldHJpZXZlZCBmcm9tIHB1YmxpYyBTRUMgaW5mb3JtYXRpb24pIGZvciB0aGUgcGFzdCAzMCBkYXlzCiAgICAgICAgQXJnczoKICAgICAgICAgICAgdGlja2VyIChzdHIpOiB0aWNrZXIgc3ltYm9sIG9mIHRoZSBjb21wYW55CiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogY3VycmVudCBkYXRlIHlvdSBhcmUgdHJhZGluZyBhdCwgeXl5eS1tbS1kZAogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogYSByZXBvcnQgb2YgdGhlIGNvbXBhbnkncyBpbnNpZGVyIHRyYW5zYWN0aW9ucy90cmFkaW5nIGluZm9ybWF0aW9uIGluIHRoZSBwYXN0IDMwIGRheXMKICAgICAgICAiIiIKCiAgICAgICAgZGF0YV90cmFucyA9IGludGVyZmFjZS5nZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfdHJhbnNhY3Rpb25zKAogICAgICAgICAgICB0aWNrZXIsIGN1cnJfZGF0ZSwgMzAKICAgICAgICApCgogICAgICAgIHJldHVybiBkYXRhX3RyYW5zCgogICAgQHN0YXRpY21ldGhvZAogICAgQHRvb2wKICAgIGRlZiBnZXRfc2ltZmluX2JhbGFuY2Vfc2hlZXQoCiAgICAgICAgdGlja2VyOiBBbm5vdGF0ZWRbc3RyLCAidGlja2VyIHN5bWJvbCJdLAogICAgICAgIGZyZXE6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLAogICAgICAgICAgICAicmVwb3J0aW5nIGZyZXF1ZW5jeSBvZiB0aGUgY29tcGFueSdzIGZpbmFuY2lhbCBoaXN0b3J5OiBhbm51YWwvcXVhcnRlcmx5IiwKICAgICAgICBdLAogICAgICAgIGN1cnJfZGF0ZTogQW5ub3RhdGVkW3N0ciwgImN1cnJlbnQgZGF0ZSB5b3UgYXJlIHRyYWRpbmcgYXQsIHl5eXktbW0tZGQiXSwKICAgICk6CiAgICAgICAgIiIiCiAgICAgICAgUmV0cmlldmUgdGhlIG1vc3QgcmVjZW50IGJhbGFuY2Ugc2hlZXQgb2YgYSBjb21wYW55CiAgICAgICAgQXJnczoKICAgICAgICAgICAgdGlja2VyIChzdHIpOiB0aWNrZXIgc3ltYm9sIG9mIHRoZSBjb21wYW55CiAgICAgICAgICAgIGZyZXEgKHN0cik6IHJlcG9ydGluZyBmcmVxdWVuY3kgb2YgdGhlIGNvbXBhbnkncyBmaW5hbmNpYWwgaGlzdG9yeTogYW5udWFsIC8gcXVhcnRlcmx5CiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogY3VycmVudCBkYXRlIHlvdSBhcmUgdHJhZGluZyBhdCwgeXl5eS1tbS1kZAogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogYSByZXBvcnQgb2YgdGhlIGNvbXBhbnkncyBtb3N0IHJlY2VudCBiYWxhbmNlIHNoZWV0CiAgICAgICAgIiIiCgogICAgICAgIGRhdGFfYmFsYW5jZV9zaGVldCA9IGludGVyZmFjZS5nZXRfc2ltZmluX2JhbGFuY2Vfc2hlZXQodGlja2VyLCBmcmVxLCBjdXJyX2RhdGUpCgogICAgICAgIHJldHVybiBkYXRhX2JhbGFuY2Vfc2hlZXQKCiAgICBAc3RhdGljbWV0aG9kCiAgICBAdG9vbAogICAgZGVmIGdldF9zaW1maW5fY2FzaGZsb3coCiAgICAgICAgdGlja2VyOiBBbm5vdGF0ZWRbc3RyLCAidGlja2VyIHN5bWJvbCJdLAogICAgICAgIGZyZXE6IEFubm90YXRlZFsKICAgICAgICAgICAgc3RyLAogICAgICAgICAgICAicmVwb3J0aW5nIGZyZXF1ZW5jeSBvZiB0aGUgY29tcGFueSdzIGZpbmFuY2lhbCBoaXN0b3J5OiBhbm51YWwvcXVhcnRlcmx5IiwKICAgICAgICBdLAogICAgICAgIGN1cnJfZGF0ZTogQW5ub3RhdGVkW3N0ciwgImN1cnJlbnQgZGF0ZSB5b3UgYXJlIHRyYWRpbmcgYXQsIHl5eXktbW0tZGQiXSwKICAgICk6CiAgICAgICAgIiIiCiAgICAgICAgUmV0cmlldmUgdGhlIG1vc3QgcmVjZW50IGNhc2ggZmxvdyBzdGF0ZW1lbnQgb2YgYSBjb21wYW55CiAgICAgICAgQXJnczoKICAgICAgICAgICAgdGlja2VyIChzdHIpOiB0aWNrZXIgc3ltYm9sIG9mIHRoZSBjb21wYW55CiAgICAgICAgICAgIGZyZXEgKHN0cik6IHJlcG9ydGluZyBmcmVxdWVuY3kgb2YgdGhlIGNvbXBhbnkncyBmaW5hbmNpYWwgaGlzdG9yeTogYW5udWFsIC8gcXVhcnRlcmx5CiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogY3VycmVudCBkYXRlIHlvdSBhcmUgdHJhZGluZyBhdCwgeXl5eS1tbS1kZAogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgICAgICBzdHI6IGEgcmVwb3J0IG9mIHRoZSBjb21wYW55J3MgbW9zdCByZWNlbnQgY2FzaCBmbG93IHN0YXRlbWVudAogICAgICAgICIiIgoKICAgICAgICBkYXRhX2Nhc2hmbG93ID0gaW50ZXJmYWNlLmdldF9zaW1maW5fY2FzaGZsb3codGlja2VyLCBmcmVxLCBjdXJyX2RhdGUpCgogICAgICAgIHJldHVybiBkYXRhX2Nhc2hmbG93CgogICAgQHN0YXRpY21ldGhvZAogICAgQHRvb2wKICAgIGRlZiBnZXRfc2ltZmluX2luY29tZV9zdG10KAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkW3N0ciwgInRpY2tlciBzeW1ib2wiXSwKICAgICAgICBmcmVxOiBBbm5vdGF0ZWRbCiAgICAgICAgICAgIHN0ciwKICAgICAgICAgICAgInJlcG9ydGluZyBmcmVxdWVuY3kgb2YgdGhlIGNvbXBhbnkncyBmaW5hbmNpYWwgaGlzdG9yeTogYW5udWFsL3F1YXJ0ZXJseSIsCiAgICAgICAgXSwKICAgICAgICBjdXJyX2RhdGU6IEFubm90YXRlZFtzdHIsICJjdXJyZW50IGRhdGUgeW91IGFyZSB0cmFkaW5nIGF0LCB5eXl5LW1tLWRkIl0sCiAgICApOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIHRoZSBtb3N0IHJlY2VudCBpbmNvbWUgc3RhdGVtZW50IG9mIGEgY29tcGFueQogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHRpY2tlciAoc3RyKTogdGlja2VyIHN5bWJvbCBvZiB0aGUgY29tcGFueQogICAgICAgICAgICBmcmVxIChzdHIpOiByZXBvcnRpbmcgZnJlcXVlbmN5IG9mIHRoZSBjb21wYW55J3MgZmluYW5jaWFsIGhpc3Rvcnk6IGFubnVhbCAvIHF1YXJ0ZXJseQogICAgICAgICAgICBjdXJyX2RhdGUgKHN0cik6IGN1cnJlbnQgZGF0ZSB5b3UgYXJlIHRyYWRpbmcgYXQsIHl5eXktbW0tZGQKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICAgICAgc3RyOiBhIHJlcG9ydCBvZiB0aGUgY29tcGFueSdzIG1vc3QgcmVjZW50IGluY29tZSBzdGF0ZW1lbnQKICAgICAgICAiIiIKCiAgICAgICAgZGF0YV9pbmNvbWVfc3RtdCA9IGludGVyZmFjZS5nZXRfc2ltZmluX2luY29tZV9zdGF0ZW1lbnRzKAogICAgICAgICAgICB0aWNrZXIsIGZyZXEsIGN1cnJfZGF0ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIGRhdGFfaW5jb21lX3N0bXQKCiAgICBAc3RhdGljbWV0aG9kCiAgICBAdG9vbAogICAgZGVmIGdldF9nb29nbGVfbmV3cygKICAgICAgICBxdWVyeTogQW5ub3RhdGVkW3N0ciwgIlF1ZXJ5IHRvIHNlYXJjaCB3aXRoIl0sCiAgICAgICAgY3Vycl9kYXRlOiBBbm5vdGF0ZWRbc3RyLCAiQ3VyciBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0Il0sCiAgICApOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIHRoZSBsYXRlc3QgbmV3cyBmcm9tIEdvb2dsZSBOZXdzIGJhc2VkIG9uIGEgcXVlcnkgYW5kIGRhdGUgcmFuZ2UuCiAgICAgICAgQXJnczoKICAgICAgICAgICAgcXVlcnkgKHN0cik6IFF1ZXJ5IHRvIHNlYXJjaCB3aXRoCiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogQ3VycmVudCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0CiAgICAgICAgICAgIGxvb2tfYmFja19kYXlzIChpbnQpOiBIb3cgbWFueSBkYXlzIHRvIGxvb2sgYmFjawogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogQSBmb3JtYXR0ZWQgc3RyaW5nIGNvbnRhaW5pbmcgdGhlIGxhdGVzdCBuZXdzIGZyb20gR29vZ2xlIE5ld3MgYmFzZWQgb24gdGhlIHF1ZXJ5IGFuZCBkYXRlIHJhbmdlLgogICAgICAgICIiIgoKICAgICAgICBnb29nbGVfbmV3c19yZXN1bHRzID0gaW50ZXJmYWNlLmdldF9nb29nbGVfbmV3cyhxdWVyeSwgY3Vycl9kYXRlLCA3KQoKICAgICAgICByZXR1cm4gZ29vZ2xlX25ld3NfcmVzdWx0cwoKICAgIEBzdGF0aWNtZXRob2QKICAgIEB0b29sCiAgICBkZWYgZ2V0X3N0b2NrX25ld3Nfb3BlbmFpKAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkW3N0ciwgInRoZSBjb21wYW55J3MgdGlja2VyIl0sCiAgICAgICAgY3Vycl9kYXRlOiBBbm5vdGF0ZWRbc3RyLCAiQ3VycmVudCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0Il0sCiAgICApOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIHRoZSBsYXRlc3QgbmV3cyBhYm91dCBhIGdpdmVuIHN0b2NrIGJ5IHVzaW5nIE9wZW5BSSdzIG5ld3MgQVBJLgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIHRpY2tlciAoc3RyKTogVGlja2VyIG9mIGEgY29tcGFueS4gZS5nLiBBQVBMLCBUU00KICAgICAgICAgICAgY3Vycl9kYXRlIChzdHIpOiBDdXJyZW50IGRhdGUgaW4geXl5eS1tbS1kZCBmb3JtYXQKICAgICAgICBSZXR1cm5zOgogICAgICAgICAgICBzdHI6IEEgZm9ybWF0dGVkIHN0cmluZyBjb250YWluaW5nIHRoZSBsYXRlc3QgbmV3cyBhYm91dCB0aGUgY29tcGFueSBvbiB0aGUgZ2l2ZW4gZGF0ZS4KICAgICAgICAiIiIKCiAgICAgICAgb3BlbmFpX25ld3NfcmVzdWx0cyA9IGludGVyZmFjZS5nZXRfc3RvY2tfbmV3c19vcGVuYWkodGlja2VyLCBjdXJyX2RhdGUpCgogICAgICAgIHJldHVybiBvcGVuYWlfbmV3c19yZXN1bHRzCgogICAgQHN0YXRpY21ldGhvZAogICAgQHRvb2wKICAgIGRlZiBnZXRfZ2xvYmFsX25ld3Nfb3BlbmFpKAogICAgICAgIGN1cnJfZGF0ZTogQW5ub3RhdGVkW3N0ciwgIkN1cnJlbnQgZGF0ZSBpbiB5eXl5LW1tLWRkIGZvcm1hdCJdLAogICAgKToKICAgICAgICAiIiIKICAgICAgICBSZXRyaWV2ZSB0aGUgbGF0ZXN0IG1hY3JvZWNvbm9taWNzIG5ld3Mgb24gYSBnaXZlbiBkYXRlIHVzaW5nIE9wZW5BSSdzIG1hY3JvZWNvbm9taWNzIG5ld3MgQVBJLgogICAgICAgIEFyZ3M6CiAgICAgICAgICAgIGN1cnJfZGF0ZSAoc3RyKTogQ3VycmVudCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0CiAgICAgICAgUmV0dXJuczoKICAgICAgICAgICAgc3RyOiBBIGZvcm1hdHRlZCBzdHJpbmcgY29udGFpbmluZyB0aGUgbGF0ZXN0IG1hY3JvZWNvbm9taWMgbmV3cyBvbiB0aGUgZ2l2ZW4gZGF0ZS4KICAgICAgICAiIiIKCiAgICAgICAgb3BlbmFpX25ld3NfcmVzdWx0cyA9IGludGVyZmFjZS5nZXRfZ2xvYmFsX25ld3Nfb3BlbmFpKGN1cnJfZGF0ZSkKCiAgICAgICAgcmV0dXJuIG9wZW5haV9uZXdzX3Jlc3VsdHMKCiAgICBAc3RhdGljbWV0aG9kCiAgICBAdG9vbAogICAgZGVmIGdldF9mdW5kYW1lbnRhbHNfb3BlbmFpKAogICAgICAgIHRpY2tlcjogQW5ub3RhdGVkW3N0ciwgInRoZSBjb21wYW55J3MgdGlja2VyIl0sCiAgICAgICAgY3Vycl9kYXRlOiBBbm5vdGF0ZWRbc3RyLCAiQ3VycmVudCBkYXRlIGluIHl5eXktbW0tZGQgZm9ybWF0Il0sCiAgICApOgogICAgICAgICIiIgogICAgICAgIFJldHJpZXZlIHRoZSBsYXRlc3QgZnVuZGFtZW50YWwgaW5mb3JtYXRpb24gYWJvdXQgYSBnaXZlbiBzdG9jayBvbiBhIGdpdmVuIGRhdGUgYnkgdXNpbmcgT3BlbkFJJ3MgbmV3cyBBUEkuCiAgICAgICAgQXJnczoKICAgICAgICAgICAgdGlja2VyIChzdHIpOiBUaWNrZXIgb2YgYSBjb21wYW55LiBlLmcuIEFBUEwsIFRTTQogICAgICAgICAgICBjdXJyX2RhdGUgKHN0cik6IEN1cnJlbnQgZGF0ZSBpbiB5eXl5LW1tLWRkIGZvcm1hdAogICAgICAgIFJldHVybnM6CiAgICAgICAgICAgIHN0cjogQSBmb3JtYXR0ZWQgc3RyaW5nIGNvbnRhaW5pbmcgdGhlIGxhdGVzdCBmdW5kYW1lbnRhbCBpbmZvcm1hdGlvbiBhYm91dCB0aGUgY29tcGFueSBvbiB0aGUgZ2l2ZW4gZGF0ZS4KICAgICAgICAiIiIKCiAgICAgICAgb3BlbmFpX2Z1bmRhbWVudGFsc19yZXN1bHRzID0gaW50ZXJmYWNlLmdldF9mdW5kYW1lbnRhbHNfb3BlbmFpKAogICAgICAgICAgICB0aWNrZXIsIGN1cnJfZGF0ZQogICAgICAgICkKCiAgICAgICAgcmV0dXJuIG9wZW5haV9mdW5kYW1lbnRhbHNfcmVzdWx0cwoNCg==
+﻿from langchain_core.messages import BaseMessage, HumanMessage, ToolMessage, AIMessage
+from typing import List
+from typing import Annotated
+from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+from langchain_core.messages import RemoveMessage
+from langchain_core.tools import tool
+from datetime import date, timedelta, datetime
+import functools
+import pandas as pd
+import os
+from dateutil.relativedelta import relativedelta
+from langchain_openai import ChatOpenAI
+import tradingagents.dataflows.interface as interface
+from tradingagents.default_config import DEFAULT_CONFIG
+from langchain_core.messages import HumanMessage
+
+
+def create_msg_delete():
+    def delete_messages(state):
+        """Clear messages and add placeholder for Anthropic compatibility"""
+        messages = state["messages"]
+        
+        # Remove all messages
+        removal_operations = [RemoveMessage(id=m.id) for m in messages]
+        
+        # Add a minimal placeholder message
+        placeholder = HumanMessage(content="Continue")
+        
+        return {"messages": removal_operations + [placeholder]}
+    
+    return delete_messages
+
+
+class Toolkit:
+    _config = DEFAULT_CONFIG.copy()
+
+    @classmethod
+    def update_config(cls, config):
+        """Update the class-level configuration."""
+        cls._config.update(config)
+
+    @property
+    def config(self):
+        """Access the configuration."""
+        return self._config
+
+    def __init__(self, config=None):
+        if config:
+            self.update_config(config)
+
+    @staticmethod
+    @tool
+    def get_reddit_news(
+        curr_date: Annotated[str, "Date you want to get news for in yyyy-mm-dd format"],
+    ) -> str:
+        """
+        Retrieve global news from Reddit within a specified time frame.
+        Args:
+            curr_date (str): Date you want to get news for in yyyy-mm-dd format
+        Returns:
+            str: A formatted dataframe containing the latest global news from Reddit in the specified time frame.
+        """
+        
+        global_news_result = interface.get_reddit_global_news(curr_date, 7, 5)
+
+        return global_news_result
+
+    @staticmethod
+    @tool
+    def get_finnhub_news(
+        ticker: Annotated[
+            str,
+            "Search query of a company, e.g. 'AAPL, TSM, etc.",
+        ],
+        start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+        end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+    ):
+        """
+        Retrieve the latest news about a given stock from Finnhub within a date range
+        Args:
+            ticker (str): Ticker of a company. e.g. AAPL, TSM
+            start_date (str): Start date in yyyy-mm-dd format
+            end_date (str): End date in yyyy-mm-dd format
+        Returns:
+            str: A formatted dataframe containing news about the company within the date range from start_date to end_date
+        """
+
+        end_date_str = end_date
+
+        end_date = datetime.strptime(end_date, "%Y-%m-%d")
+        start_date = datetime.strptime(start_date, "%Y-%m-%d")
+        look_back_days = (end_date - start_date).days
+
+        finnhub_news_result = interface.get_finnhub_news(
+            ticker, end_date_str, look_back_days
+        )
+
+        return finnhub_news_result
+
+    @staticmethod
+    @tool
+    def get_reddit_stock_info(
+        ticker: Annotated[
+            str,
+            "Ticker of a company. e.g. AAPL, TSM",
+        ],
+        curr_date: Annotated[str, "Current date you want to get news for"],
+    ) -> str:
+        """
+        Retrieve the latest news about a given stock from Reddit, given the current date.
+        Args:
+            ticker (str): Ticker of a company. e.g. AAPL, TSM
+            curr_date (str): current date in yyyy-mm-dd format to get news for
+        Returns:
+            str: A formatted dataframe containing the latest news about the company on the given date
+        """
+
+        stock_news_results = interface.get_reddit_company_news(ticker, curr_date, 7, 5)
+
+        return stock_news_results
+
+    @staticmethod
+    @tool
+    def get_YFin_data(
+        symbol: Annotated[str, "ticker symbol of the company"],
+        start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+        end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+    ) -> str:
+        """
+        Retrieve the stock price data for a given ticker symbol from Yahoo Finance.
+        Args:
+            symbol (str): Ticker symbol of the company, e.g. AAPL, TSM
+            start_date (str): Start date in yyyy-mm-dd format
+            end_date (str): End date in yyyy-mm-dd format
+        Returns:
+            str: A formatted dataframe containing the stock price data for the specified ticker symbol in the specified date range.
+        """
+
+        result_data = interface.get_YFin_data(symbol, start_date, end_date)
+
+        return result_data
+
+    @staticmethod
+    @tool
+    def get_YFin_data_online(
+        symbol: Annotated[str, "ticker symbol of the company"],
+        start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
+        end_date: Annotated[str, "End date in yyyy-mm-dd format"],
+    ) -> str:
+        """
+        Retrieve the stock price data for a given ticker symbol from Yahoo Finance.
+        Args:
+            symbol (str): Ticker symbol of the company, e.g. AAPL, TSM
+            start_date (str): Start date in yyyy-mm-dd format
+            end_date (str): End date in yyyy-mm-dd format
+        Returns:
+            str: A formatted dataframe containing the stock price data for the specified ticker symbol in the specified date range.
+        """
+
+        result_data = interface.get_YFin_data_online(symbol, start_date, end_date)
+
+        return result_data
+
+    @staticmethod
+    @tool
+    def get_stockstats_indicators_report(
+        symbol: Annotated[str, "ticker symbol of the company"],
+        indicator: Annotated[
+            str, "technical indicator to get the analysis and report of"
+        ],
+        curr_date: Annotated[
+            str, "The current trading date you are trading on, YYYY-mm-dd"
+        ],
+        look_back_days: Annotated[int, "how many days to look back"] = 30,
+    ) -> str:
+        """
+        Retrieve stock stats indicators for a given ticker symbol and indicator.
+        Args:
+            symbol (str): Ticker symbol of the company, e.g. AAPL, TSM
+            indicator (str): Technical indicator to get the analysis and report of
+            curr_date (str): The current trading date you are trading on, YYYY-mm-dd
+            look_back_days (int): How many days to look back, default is 30
+        Returns:
+            str: A formatted dataframe containing the stock stats indicators for the specified ticker symbol and indicator.
+        """
+
+        result_stockstats = interface.get_stock_stats_indicators_window(
+            symbol, indicator, curr_date, look_back_days, False
+        )
+
+        return result_stockstats
+
+    @staticmethod
+    @tool
+    def get_stockstats_indicators_report_online(
+        symbol: Annotated[str, "ticker symbol of the company"],
+        indicator: Annotated[
+            str, "technical indicator to get the analysis and report of"
+        ],
+        curr_date: Annotated[
+            str, "The current trading date you are trading on, YYYY-mm-dd"
+        ],
+        look_back_days: Annotated[int, "how many days to look back"] = 30,
+    ) -> str:
+        """
+        Retrieve stock stats indicators for a given ticker symbol and indicator.
+        Args:
+            symbol (str): Ticker symbol of the company, e.g. AAPL, TSM
+            indicator (str): Technical indicator to get the analysis and report of
+            curr_date (str): The current trading date you are trading on, YYYY-mm-dd
+            look_back_days (int): How many days to look back, default is 30
+        Returns:
+            str: A formatted dataframe containing the stock stats indicators for the specified ticker symbol and indicator.
+        """
+
+        result_stockstats = interface.get_stock_stats_indicators_window(
+            symbol, indicator, curr_date, look_back_days, True
+        )
+
+        return result_stockstats
+
+    @staticmethod
+    @tool
+    def get_finnhub_company_insider_sentiment(
+        ticker: Annotated[str, "ticker symbol for the company"],
+        curr_date: Annotated[
+            str,
+            "current date of you are trading at, yyyy-mm-dd",
+        ],
+    ):
+        """
+        Retrieve insider sentiment information about a company (retrieved from public SEC information) for the past 30 days
+        Args:
+            ticker (str): ticker symbol of the company
+            curr_date (str): current date you are trading at, yyyy-mm-dd
+        Returns:
+            str: a report of the sentiment in the past 30 days starting at curr_date
+        """
+
+        data_sentiment = interface.get_finnhub_company_insider_sentiment(
+            ticker, curr_date, 30
+        )
+
+        return data_sentiment
+
+    @staticmethod
+    @tool
+    def get_finnhub_company_insider_transactions(
+        ticker: Annotated[str, "ticker symbol"],
+        curr_date: Annotated[
+            str,
+            "current date you are trading at, yyyy-mm-dd",
+        ],
+    ):
+        """
+        Retrieve insider transaction information about a company (retrieved from public SEC information) for the past 30 days
+        Args:
+            ticker (str): ticker symbol of the company
+            curr_date (str): current date you are trading at, yyyy-mm-dd
+        Returns:
+            str: a report of the company's insider transactions/trading information in the past 30 days
+        """
+
+        data_trans = interface.get_finnhub_company_insider_transactions(
+            ticker, curr_date, 30
+        )
+
+        return data_trans
+
+    @staticmethod
+    @tool
+    def get_simfin_balance_sheet(
+        ticker: Annotated[str, "ticker symbol"],
+        freq: Annotated[
+            str,
+            "reporting frequency of the company's financial history: annual/quarterly",
+        ],
+        curr_date: Annotated[str, "current date you are trading at, yyyy-mm-dd"],
+    ):
+        """
+        Retrieve the most recent balance sheet of a company
+        Args:
+            ticker (str): ticker symbol of the company
+            freq (str): reporting frequency of the company's financial history: annual / quarterly
+            curr_date (str): current date you are trading at, yyyy-mm-dd
+        Returns:
+            str: a report of the company's most recent balance sheet
+        """
+
+        data_balance_sheet = interface.get_simfin_balance_sheet(ticker, freq, curr_date)
+
+        return data_balance_sheet
+
+    @staticmethod
+    @tool
+    def get_simfin_cashflow(
+        ticker: Annotated[str, "ticker symbol"],
+        freq: Annotated[
+            str,
+            "reporting frequency of the company's financial history: annual/quarterly",
+        ],
+        curr_date: Annotated[str, "current date you are trading at, yyyy-mm-dd"],
+    ):
+        """
+        Retrieve the most recent cash flow statement of a company
+        Args:
+            ticker (str): ticker symbol of the company
+            freq (str): reporting frequency of the company's financial history: annual / quarterly
+            curr_date (str): current date you are trading at, yyyy-mm-dd
+        Returns:
+                str: a report of the company's most recent cash flow statement
+        """
+
+        data_cashflow = interface.get_simfin_cashflow(ticker, freq, curr_date)
+
+        return data_cashflow
+
+    @staticmethod
+    @tool
+    def get_simfin_income_stmt(
+        ticker: Annotated[str, "ticker symbol"],
+        freq: Annotated[
+            str,
+            "reporting frequency of the company's financial history: annual/quarterly",
+        ],
+        curr_date: Annotated[str, "current date you are trading at, yyyy-mm-dd"],
+    ):
+        """
+        Retrieve the most recent income statement of a company
+        Args:
+            ticker (str): ticker symbol of the company
+            freq (str): reporting frequency of the company's financial history: annual / quarterly
+            curr_date (str): current date you are trading at, yyyy-mm-dd
+        Returns:
+                str: a report of the company's most recent income statement
+        """
+
+        data_income_stmt = interface.get_simfin_income_statements(
+            ticker, freq, curr_date
+        )
+
+        return data_income_stmt
+
+    @staticmethod
+    @tool
+    def get_google_news(
+        query: Annotated[str, "Query to search with"],
+        curr_date: Annotated[str, "Curr date in yyyy-mm-dd format"],
+    ):
+        """
+        Retrieve the latest news from Google News based on a query and date range.
+        Args:
+            query (str): Query to search with
+            curr_date (str): Current date in yyyy-mm-dd format
+            look_back_days (int): How many days to look back
+        Returns:
+            str: A formatted string containing the latest news from Google News based on the query and date range.
+        """
+
+        google_news_results = interface.get_google_news(query, curr_date, 7)
+
+        return google_news_results
+
+    @staticmethod
+    @tool
+    def get_stock_news_openai(
+        ticker: Annotated[str, "the company's ticker"],
+        curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
+    ):
+        """
+        Retrieve the latest news about a given stock by using OpenAI's news API.
+        Args:
+            ticker (str): Ticker of a company. e.g. AAPL, TSM
+            curr_date (str): Current date in yyyy-mm-dd format
+        Returns:
+            str: A formatted string containing the latest news about the company on the given date.
+        """
+
+        openai_news_results = interface.get_stock_news_openai(ticker, curr_date)
+
+        return openai_news_results
+
+    @staticmethod
+    @tool
+    def get_global_news_openai(
+        curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
+    ):
+        """
+        Retrieve the latest macroeconomics news on a given date using OpenAI's macroeconomics news API.
+        Args:
+            curr_date (str): Current date in yyyy-mm-dd format
+        Returns:
+            str: A formatted string containing the latest macroeconomic news on the given date.
+        """
+
+        openai_news_results = interface.get_global_news_openai(curr_date)
+
+        return openai_news_results
+
+    @staticmethod
+    @tool
+    def get_fundamentals_openai(
+        ticker: Annotated[str, "the company's ticker"],
+        curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
+    ):
+        """
+        Retrieve the latest fundamental information about a given stock on a given date by using OpenAI's news API.
+        Args:
+            ticker (str): Ticker of a company. e.g. AAPL, TSM
+            curr_date (str): Current date in yyyy-mm-dd format
+        Returns:
+            str: A formatted string containing the latest fundamental information about the company on the given date.
+        """
+
+        openai_fundamentals_results = interface.get_fundamentals_openai(
+            ticker, curr_date
+        )
+
+        return openai_fundamentals_results
+

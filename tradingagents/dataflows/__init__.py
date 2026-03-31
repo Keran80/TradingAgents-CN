@@ -1,1 +1,116 @@
-77u/IyDmlbDmja7mtYHmqKHlnZcg4oCUIOaUr+aMgemAmui+vuS/oShURFgpICsgQWtTaGFyZSDlj4zmlbDmja7mupAKZnJvbSAuZmlubmh1Yl91dGlscyBpbXBvcnQgZ2V0X2RhdGFfaW5fcmFuZ2UKZnJvbSAuZ29vZ2xlbmV3c191dGlscyBpbXBvcnQgZ2V0TmV3c0RhdGEKIyBBa1NoYXJlIOaVsOaNrua6kO+8iOS/neeVmeWFvOWuue+8iQpmcm9tIC5ha3NoYXJlX3N0b2NrX3V0aWxzIGltcG9ydCBBa1NoYXJlVXRpbHMsIGFrcwojIOmAmui+vuS/oShURFgp5pWw5o2u5rqQCmZyb20gLnRkeF91dGlscyBpbXBvcnQgVGR4U3RvY2tVdGlscywgdGR4LCBnZXRfc3RvY2tfZGF0YSBhcyB0ZHhfZ2V0X3N0b2NrX2RhdGEKZnJvbSAudGR4X3V0aWxzIGltcG9ydCBnZXRfcmVhbHRpbWVfcXVvdGVzIGFzIHRkeF9nZXRfcmVhbHRpbWVfcXVvdGVzCmZyb20gLnRkeF91dGlscyBpbXBvcnQgZ2V0X2ZpbmFuY2VfaW5mbyBhcyB0ZHhfZ2V0X2ZpbmFuY2VfaW5mbwojIOaVsOaNrua6kOi3r+eUse+8iOiHquWKqOmAieaLqSBURFgg5oiWIEFrU2hhcmXvvIkKZnJvbSAuZGF0YV9zb3VyY2UgaW1wb3J0IGdldF9kYXRhX3NvdXJjZSwgc2V0X2RhdGFfc291cmNlLCBnZXRfY3VycmVudF9zb3VyY2VfbmFtZQpmcm9tIC5yZWRkaXRfdXRpbHMgaW1wb3J0IGZldGNoX3RvcF9mcm9tX2NhdGVnb3J5CmZyb20gLnN0b2Nrc3RhdHNfdXRpbHMgaW1wb3J0IFN0b2Nrc3RhdHNVdGlscwojIEHogqHlhajpnaLpgILphY3mqKHlnZcKZnJvbSAuYXN0b2NrX3V0aWxzIGltcG9ydCBBU3RvY2tEYXRhLCBnZXRfc3RvY2tfcmVhbHRpbWVfcXVvdGUsIGdldF9zdG9ja19kYWlseQpmcm9tIC5hc3RvY2tfdXRpbHMgaW1wb3J0IGdldF9zdG9ja19uZXdzLCBnZXRfbW9uZXlmbG93X2hzZ3QsIGdldF9zdG9ja190b3BfbGlzdApmcm9tIC5hc3RvY2tfdXRpbHMgaW1wb3J0IGdldF9zdG9ja190b3BfaW5zdCwgZ2V0X21hcmdpbl9kZXRhaWwsIGdldF9pbmRleF9kYWlseQpmcm9tIC5hc3RvY2tfdGVjaG5pY2FsIGltcG9ydCBBU3RvY2tUZWNobmljYWwsIGdldF9zdG9ja190ZWNobmljYWxfaW5kaWNhdG9ycwojIEHogqHmlrDpl7vlkozmg4Xnu6rliIbmnpDmqKHlnZcKZnJvbSAuYXN0b2NrX3NlbnRpbWVudCBpbXBvcnQgQVN0b2NrTmV3cywgQVN0b2NrU2VudGltZW50LCBBU3RvY2tBbmFseXN0CmZyb20gLmFzdG9ja19zZW50aW1lbnQgaW1wb3J0IGdldF9uZXdzX2FsbCwgZ2V0X3NlbnRpbWVudF9hbGwsIGdldF9zdG9ja19zZW50aW1lbnRfc3VtbWFyeQojIOe8k+WtmOaooeWdlwpmcm9tIC5jYWNoZSBpbXBvcnQgY2FjaGVkLCByZXRyeSwgY2xlYXJfY2FjaGUsIGdldF9jYWNoZSwgc2V0X2NhY2hlCmZyb20gLmNhY2hlIGltcG9ydCBSYXRlTGltaXRlciwgZ2V0X3JhdGVfbGltaXRlciwgcmF0ZV9saW1pdAoKIyDkv53nlZkgeWZpbmFuY2Ug5a+85YWl5Lul5aSH5ZCO55So77yI5Y+v6YCJ77yJCnRyeToKICAgIGltcG9ydCB5ZmluYW5jZSBhcyB5ZgogICAgWUZJTkFOQ0VfQVZBSUxBQkxFID0gVHJ1ZQpleGNlcHQgSW1wb3J0RXJyb3I6CiAgICBZRklOQU5DRV9BVkFJTEFCTEUgPSBGYWxzZQoKZnJvbSAuaW50ZXJmYWNlIGltcG9ydCAoCiAgICAjIE5ld3MgYW5kIHNlbnRpbWVudCBmdW5jdGlvbnMKICAgIGdldF9maW5uaHViX25ld3MsCiAgICBnZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfc2VudGltZW50LAogICAgZ2V0X2Zpbm5odWJfY29tcGFueV9pbnNpZGVyX3RyYW5zYWN0aW9ucywKICAgIGdldF9nb29nbGVfbmV3cywKICAgIGdldF9yZWRkaXRfZ2xvYmFsX25ld3MsCiAgICBnZXRfcmVkZGl0X2NvbXBhbnlfbmV3cywKICAgICMgRmluYW5jaWFsIHN0YXRlbWVudHMgZnVuY3Rpb25zCiAgICBnZXRfc2ltZmluX2JhbGFuY2Vfc2hlZXQsCiAgICBnZXRfc2ltZmluX2Nhc2hmbG93LAogICAgZ2V0X3NpbWZpbl9pbmNvbWVfc3RhdGVtZW50cywKICAgICMgVGVjaG5pY2FsIGFuYWx5c2lzIGZ1bmN0aW9ucwogICAgZ2V0X3N0b2NrX3N0YXRzX2luZGljYXRvcnNfd2luZG93LAogICAgZ2V0X3N0b2Nrc3RhdHNfaW5kaWNhdG9yLAogICAgIyBNYXJrZXQgZGF0YSBmdW5jdGlvbnMKICAgIGdldF9ZRmluX2RhdGFfd2luZG93LAogICAgZ2V0X1lGaW5fZGF0YSwKICAgIGdldF9ZRmluX2RhdGFfb25saW5lLCAgIyDmlrDlop7vvJrkvb/nlKggQWtTaGFyZSDnmoTlnKjnur/mlbDmja7ojrflj5YKKQoKCl9fYWxsX18gPSBbCiAgICAjIE5ld3MgYW5kIHNlbnRpbWVudCBmdW5jdGlvbnMKICAgICJnZXRfZmlubmh1Yl9uZXdzIiwKICAgICJnZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfc2VudGltZW50IiwKICAgICJnZXRfZmlubmh1Yl9jb21wYW55X2luc2lkZXJfdHJhbnNhY3Rpb25zIiwKICAgICJnZXRfZ29vZ2xlX25ld3MiLAogICAgImdldF9yZWRkaXRfZ2xvYmFsX25ld3MiLAogICAgImdldF9yZWRkaXRfY29tcGFueV9uZXdzIiwKICAgICMgRmluYW5jaWFsIHN0YXRlbWVudHMgZnVuY3Rpb25zCiAgICAiZ2V0X3NpbWZpbl9iYWxhbmNlX3NoZWV0IiwKICAgICJnZXRfc2ltZmluX2Nhc2hmbG93IiwKICAgICJnZXRfc2ltZmluX2luY29tZV9zdGF0ZW1lbnRzIiwKICAgICMgVGVjaG5pY2FsIGFuYWx5c2lzIGZ1bmN0aW9ucwogICAgImdldF9zdG9ja19zdGF0c19pbmRpY2F0b3JzX3dpbmRvdyIsCiAgICAiZ2V0X3N0b2Nrc3RhdHNfaW5kaWNhdG9yIiwKICAgICMgTWFya2V0IGRhdGEgZnVuY3Rpb25zCiAgICAiZ2V0X1lGaW5fZGF0YV93aW5kb3ciLAogICAgImdldF9ZRmluX2RhdGEiLAogICAgImdldF9ZRmluX2RhdGFfb25saW5lIiwKICAgICMgQWtTaGFyZSB1dGlsaXRpZXMKICAgICJBa1NoYXJlVXRpbHMiLAogICAgImFrcyIsCiAgICAjIOmAmui+vuS/oShURFgp5pWw5o2u5rqQCiAgICAiVGR4U3RvY2tVdGlscyIsCiAgICAidGR4IiwKICAgICJ0ZHhfZ2V0X3N0b2NrX2RhdGEiLAogICAgInRkeF9nZXRfcmVhbHRpbWVfcXVvdGVzIiwKICAgICJ0ZHhfZ2V0X2ZpbmFuY2VfaW5mbyIsCiAgICAjIOaVsOaNrua6kOi3r+eUsQogICAgImdldF9kYXRhX3NvdXJjZSIsCiAgICAic2V0X2RhdGFfc291cmNlIiwKICAgICJnZXRfY3VycmVudF9zb3VyY2VfbmFtZSIsCiAgICAjIEHogqHlhajpnaLpgILphY3mqKHlnZcKICAgICJBU3RvY2tEYXRhIiwKICAgICJBU3RvY2tUZWNobmljYWwiLAogICAgImdldF9zdG9ja19yZWFsdGltZV9xdW90ZSIsCiAgICAiZ2V0X3N0b2NrX2RhaWx5IiwKICAgICJnZXRfc3RvY2tfbmV3cyIsCiAgICAiZ2V0X21vbmV5Zmxvd19oc2d0IiwKICAgICJnZXRfc3RvY2tfdG9wX2xpc3QiLAogICAgImdldF9zdG9ja190b3BfaW5zdCIsCiAgICAiZ2V0X21hcmdpbl9kZXRhaWwiLAogICAgImdldF9pbmRleF9kYWlseSIsCiAgICAiZ2V0X3N0b2NrX3RlY2huaWNhbF9pbmRpY2F0b3JzIiwKICAgICMgQeiCoeaWsOmXu+WSjOaDhee7quWIhuaekOaooeWdlwogICAgIkFTdG9ja05ld3MiLAogICAgIkFTdG9ja1NlbnRpbWVudCIsCiAgICAiQVN0b2NrQW5hbHlzdCIsCiAgICAiZ2V0X25ld3NfYWxsIiwKICAgICJnZXRfc2VudGltZW50X2FsbCIsCiAgICAiZ2V0X3N0b2NrX3NlbnRpbWVudF9zdW1tYXJ5IiwKICAgICMgQ2FjaGUgdXRpbGl0aWVzCiAgICAiY2FjaGVkIiwKICAgICJyZXRyeSIsCiAgICAiY2xlYXJfY2FjaGUiLAogICAgImdldF9jYWNoZSIsCiAgICAic2V0X2NhY2hlIiwKICAgICMgUmF0ZSBsaW1pdGVyCiAgICAiUmF0ZUxpbWl0ZXIiLAogICAgImdldF9yYXRlX2xpbWl0ZXIiLAogICAgInJhdGVfbGltaXQiLApdCg==
+﻿# 数据流模块 — 支持通达信(TDX) + AkShare 双数据源
+from .finnhub_utils import get_data_in_range
+from .googlenews_utils import getNewsData
+# AkShare 数据源（保留兼容）
+from .akshare_stock_utils import AkShareUtils, aks
+# 通达信(TDX)数据源
+from .tdx_utils import TdxStockUtils, tdx, get_stock_data as tdx_get_stock_data
+from .tdx_utils import get_realtime_quotes as tdx_get_realtime_quotes
+from .tdx_utils import get_finance_info as tdx_get_finance_info
+# 数据源路由（自动选择 TDX 或 AkShare）
+from .data_source import get_data_source, set_data_source, get_current_source_name
+from .reddit_utils import fetch_top_from_category
+from .stockstats_utils import StockstatsUtils
+# A股全面适配模块
+from .astock_utils import AStockData, get_stock_realtime_quote, get_stock_daily
+from .astock_utils import get_stock_news, get_moneyflow_hsgt, get_stock_top_list
+from .astock_utils import get_stock_top_inst, get_margin_detail, get_index_daily
+from .astock_technical import AStockTechnical, get_stock_technical_indicators
+# A股新闻和情绪分析模块
+from .astock_sentiment import AStockNews, AStockSentiment, AStockAnalyst
+from .astock_sentiment import get_news_all, get_sentiment_all, get_stock_sentiment_summary
+# 缓存模块
+from .cache import cached, retry, clear_cache, get_cache, set_cache
+from .cache import RateLimiter, get_rate_limiter, rate_limit
+
+# 保留 yfinance 导入以备后用（可选）
+try:
+    import yfinance as yf
+    YFINANCE_AVAILABLE = True
+except ImportError:
+    YFINANCE_AVAILABLE = False
+
+from .interface import (
+    # News and sentiment functions
+    get_finnhub_news,
+    get_finnhub_company_insider_sentiment,
+    get_finnhub_company_insider_transactions,
+    get_google_news,
+    get_reddit_global_news,
+    get_reddit_company_news,
+    # Financial statements functions
+    get_simfin_balance_sheet,
+    get_simfin_cashflow,
+    get_simfin_income_statements,
+    # Technical analysis functions
+    get_stock_stats_indicators_window,
+    get_stockstats_indicator,
+    # Market data functions
+    get_YFin_data_window,
+    get_YFin_data,
+    get_YFin_data_online,  # 新增：使用 AkShare 的在线数据获取
+)
+
+
+__all__ = [
+    # News and sentiment functions
+    "get_finnhub_news",
+    "get_finnhub_company_insider_sentiment",
+    "get_finnhub_company_insider_transactions",
+    "get_google_news",
+    "get_reddit_global_news",
+    "get_reddit_company_news",
+    # Financial statements functions
+    "get_simfin_balance_sheet",
+    "get_simfin_cashflow",
+    "get_simfin_income_statements",
+    # Technical analysis functions
+    "get_stock_stats_indicators_window",
+    "get_stockstats_indicator",
+    # Market data functions
+    "get_YFin_data_window",
+    "get_YFin_data",
+    "get_YFin_data_online",
+    # AkShare utilities
+    "AkShareUtils",
+    "aks",
+    # 通达信(TDX)数据源
+    "TdxStockUtils",
+    "tdx",
+    "tdx_get_stock_data",
+    "tdx_get_realtime_quotes",
+    "tdx_get_finance_info",
+    # 数据源路由
+    "get_data_source",
+    "set_data_source",
+    "get_current_source_name",
+    # A股全面适配模块
+    "AStockData",
+    "AStockTechnical",
+    "get_stock_realtime_quote",
+    "get_stock_daily",
+    "get_stock_news",
+    "get_moneyflow_hsgt",
+    "get_stock_top_list",
+    "get_stock_top_inst",
+    "get_margin_detail",
+    "get_index_daily",
+    "get_stock_technical_indicators",
+    # A股新闻和情绪分析模块
+    "AStockNews",
+    "AStockSentiment",
+    "AStockAnalyst",
+    "get_news_all",
+    "get_sentiment_all",
+    "get_stock_sentiment_summary",
+    # Cache utilities
+    "cached",
+    "retry",
+    "clear_cache",
+    "get_cache",
+    "set_cache",
+    # Rate limiter
+    "RateLimiter",
+    "get_rate_limiter",
+    "rate_limit",
+]

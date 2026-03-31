@@ -1,1 +1,144 @@
-IyAtKi0gY29kaW5nOiB1dGYtOCAtKi0NCiIiIg0K5pWw5o2u5rqQ6Lev55Sx5bGCDQrmoLnmja7phY3nva7oh6rliqjpgInmi6npgJrovr7kv6EoVERYKSDmiJYgQWtTaGFyZSDmlbDmja7mupANCg0K5L2/55So5pa55byP77yaDQogICAgZnJvbSB0cmFkaW5nYWdlbnRzLmRhdGFmbG93cy5kYXRhX3NvdXJjZSBpbXBvcnQgZ2V0X2RhdGFfc291cmNlDQogICAgZHMgPSBnZXRfZGF0YV9zb3VyY2UoKSAgICAgICAgICAjIOiOt+WPluW9k+WJjeaVsOaNrua6kA0KICAgIGRmID0gZHMuZ2V0X3N0b2NrX2RhdGEoIjAwMDAwMSIsICIyMDI0LTAxLTAxIiwgIjIwMjQtMTItMzEiKQ0KDQrphY3nva7mlrnlvI/vvIguZW52IOaIliBzZXRfY29uZmln77yJ77yaDQogICAgVFJBRElOR0FHRU5UU19EQVRBX1NPVVJDRT10ZHggICAgICAgIyDlvLrliLbkvb/nlKjpgJrovr7kv6ENCiAgICBUUkFESU5HQUdFTlRTX0RBVEFfU09VUkNFPWFrc2hhcmUgICAjIOW8uuWItuS9v+eUqCBBa1NoYXJlDQogICAgVFJBRElOR0FHRU5UU19EQVRBX1NPVVJDRT1hdXRvICAgICAgIyDoh6rliqjvvIjkvJjlhYhURFjvvIzlpLHotKXlm57pgIBBa1NoYXJl77yJDQoiIiINCg0KaW1wb3J0IGxvZ2dpbmcNCmZyb20gdHlwaW5nIGltcG9ydCBPcHRpb25hbA0KDQpsb2dnZXIgPSBsb2dnaW5nLmdldExvZ2dlcihfX25hbWVfXykNCg0KIyDlvZPliY3mtLvot4PmlbDmja7mupDlrp7kvosNCl9jdXJyZW50X3NvdXJjZSA9IE5vbmUNCl9jdXJyZW50X3NvdXJjZV9uYW1lID0gTm9uZQ0KDQoNCmRlZiBnZXRfZGF0YV9zb3VyY2Uoc291cmNlOiBPcHRpb25hbFtzdHJdID0gTm9uZSk6DQogICAgIiIiDQogICAg6I635Y+W5pWw5o2u5rqQ5a6e5L6LDQoNCiAgICBBcmdzOg0KICAgICAgICBzb3VyY2U6IOaVsOaNrua6kOWQjeensCAidGR4Ii8iYWtzaGFyZSIvImF1dG8i77yMTm9uZSDml7bku47phY3nva7or7vlj5YNCg0KICAgIFJldHVybnM6DQogICAgICAgIOaVsOaNrua6kOW3peWFt+exu+WunuS+i++8iFRkeFN0b2NrVXRpbHMg5oiWIEFrU2hhcmVVdGlscyDlhbzlrrnmjqXlj6PvvIkNCiAgICAiIiINCiAgICBnbG9iYWwgX2N1cnJlbnRfc291cmNlLCBfY3VycmVudF9zb3VyY2VfbmFtZQ0KDQogICAgIyDnoa7lrprnm67moIfmlbDmja7mupANCiAgICB0YXJnZXQgPSBfcmVzb2x2ZV9zb3VyY2Uoc291cmNlKQ0KDQogICAgIyDlpoLmnpzlt7LmnInnm7jlkIzmlbDmja7mupDvvIznm7TmjqXov5Tlm54NCiAgICBpZiBfY3VycmVudF9zb3VyY2UgaXMgbm90IE5vbmUgYW5kIF9jdXJyZW50X3NvdXJjZV9uYW1lID09IHRhcmdldDoNCiAgICAgICAgcmV0dXJuIF9jdXJyZW50X3NvdXJjZQ0KDQogICAgIyDliJvlu7rmlrDmlbDmja7mupANCiAgICBfY3VycmVudF9zb3VyY2UgPSBfY3JlYXRlX3NvdXJjZSh0YXJnZXQpDQogICAgX2N1cnJlbnRfc291cmNlX25hbWUgPSB0YXJnZXQNCiAgICByZXR1cm4gX2N1cnJlbnRfc291cmNlDQoNCg0KZGVmIF9yZXNvbHZlX3NvdXJjZShzb3VyY2U6IE9wdGlvbmFsW3N0cl0pIC0+IHN0cjoNCiAgICAiIiLop6PmnpDmlbDmja7mupDlkI3np7AiIiINCiAgICBpZiBzb3VyY2UgaXMgbm90IE5vbmU6DQogICAgICAgIHJldHVybiBzb3VyY2UubG93ZXIoKQ0KDQogICAgIyDku47phY3nva7or7vlj5YNCiAgICB0cnk6DQogICAgICAgIGZyb20gLmNvbmZpZyBpbXBvcnQgZ2V0X2NvbmZpZw0KICAgICAgICBjZmcgPSBnZXRfY29uZmlnKCkNCiAgICAgICAgcmV0dXJuIGNmZy5nZXQoImRhdGFfc291cmNlIiwgImF1dG8iKS5sb3dlcigpDQogICAgZXhjZXB0IEV4Y2VwdGlvbjoNCiAgICAgICAgcmV0dXJuICJhdXRvIg0KDQoNCmRlZiBfY3JlYXRlX3NvdXJjZShuYW1lOiBzdHIpOg0KICAgICIiIuWIm+W7uuaVsOaNrua6kOWunuS+iyIiIg0KICAgIGdsb2JhbCBfY3VycmVudF9zb3VyY2VfbmFtZQ0KICAgIGlmIG5hbWUgPT0gInRkeCI6DQogICAgICAgIHNyYyA9IF90cnlfdGR4KCkNCiAgICAgICAgaWYgc3JjIGlzIE5vbmU6DQogICAgICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoIuaMh+WumuS6hiBURFgg5L2G5peg5rOV6L+e5o6l6YCa6L6+5L+h5pyN5Yqh5ZmoIikNCiAgICAgICAgX2N1cnJlbnRfc291cmNlX25hbWUgPSAiVERYICjpgJrovr7kv6EpIg0KICAgICAgICByZXR1cm4gc3JjDQogICAgZWxpZiBuYW1lID09ICJha3NoYXJlIjoNCiAgICAgICAgc3JjID0gX3RyeV9ha3NoYXJlKCkNCiAgICAgICAgX2N1cnJlbnRfc291cmNlX25hbWUgPSAiQWtTaGFyZSINCiAgICAgICAgcmV0dXJuIHNyYw0KICAgIGVsc2U6DQogICAgICAgICMgYXV0b++8muS8mOWFiCBURFjvvIzlpLHotKXlm57pgIAgQWtTaGFyZQ0KICAgICAgICB0ZHggPSBfdHJ5X3RkeCgpDQogICAgICAgIGlmIHRkeCBpcyBub3QgTm9uZToNCiAgICAgICAgICAgIF9jdXJyZW50X3NvdXJjZV9uYW1lID0gIlREWCAo6YCa6L6+5L+hKSINCiAgICAgICAgICAgIHJldHVybiB0ZHgNCiAgICAgICAgbG9nZ2VyLndhcm5pbmcoIltEYXRhU291cmNlXSBURFgg5LiN5Y+v55So77yM5Zue6YCA5YiwIEFrU2hhcmUiKQ0KICAgICAgICBzcmMgPSBfdHJ5X2Frc2hhcmUoKQ0KICAgICAgICBfY3VycmVudF9zb3VyY2VfbmFtZSA9ICJBa1NoYXJlIg0KICAgICAgICByZXR1cm4gc3JjDQoNCg0KZGVmIF90cnlfdGR4KCk6DQogICAgIiIi5bCd6K+V5Yid5aeL5YyW6YCa6L6+5L+h5pWw5o2u5rqQIiIiDQogICAgdHJ5Og0KICAgICAgICBmcm9tIC50ZHhfdXRpbHMgaW1wb3J0IFRkeFN0b2NrVXRpbHMsIF9wb29sDQogICAgICAgICMg6aqM6K+B6L+e5o6lDQogICAgICAgIGFwaSA9IF9wb29sLmdldF9hcGkoKQ0KICAgICAgICBpZiBhcGkgaXMgTm9uZToNCiAgICAgICAgICAgIHJhaXNlIENvbm5lY3Rpb25FcnJvcigi5peg5rOV6L+e5o6l6YCa6L6+5L+h5pyN5Yqh5ZmoIikNCiAgICAgICAgbG9nZ2VyLmluZm8oIltEYXRhU291cmNlXSDkvb/nlKjmlbDmja7mupA6IOmAmui+vuS/oSAoVERYKSIpDQogICAgICAgIHJldHVybiBUZHhTdG9ja1V0aWxzKCkNCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgIGxvZ2dlci5kZWJ1ZyhmIltEYXRhU291cmNlXSBURFgg5Yid5aeL5YyW5aSx6LSlOiB7ZX0iKQ0KICAgICAgICByZXR1cm4gTm9uZQ0KDQoNCmRlZiBfdHJ5X2Frc2hhcmUoKToNCiAgICAiIiLlsJ3or5XliJ3lp4vljJYgQWtTaGFyZSDmlbDmja7mupAiIiINCiAgICB0cnk6DQogICAgICAgIGZyb20gLmFrc2hhcmVfc3RvY2tfdXRpbHMgaW1wb3J0IEFrU2hhcmVVdGlscw0KICAgICAgICBsb2dnZXIuaW5mbygiW0RhdGFTb3VyY2VdIOS9v+eUqOaVsOaNrua6kDogQWtTaGFyZSIpDQogICAgICAgIHJldHVybiBBa1NoYXJlVXRpbHMoKQ0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgbG9nZ2VyLmVycm9yKGYiW0RhdGFTb3VyY2VdIEFrU2hhcmUg5Lmf5LiN5Y+v55SoOiB7ZX0iKQ0KICAgICAgICByYWlzZSBSdW50aW1lRXJyb3IoIuaJgOacieaVsOaNrua6kOWdh+S4jeWPr+eUqO+8jOivt+ajgOafpeeOr+WigyIpDQoNCg0KZGVmIHNldF9kYXRhX3NvdXJjZShzb3VyY2U6IHN0cikgLT4gTm9uZToNCiAgICAiIiINCiAgICDmiYvliqjliIfmjaLmlbDmja7mupANCg0KICAgIEFyZ3M6DQogICAgICAgIHNvdXJjZTogInRkeCIgfCAiYWtzaGFyZSIgfCAiYXV0byINCg0KICAgIEV4YW1wbGU6DQogICAgICAgIGZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MuZGF0YV9zb3VyY2UgaW1wb3J0IHNldF9kYXRhX3NvdXJjZQ0KICAgICAgICBzZXRfZGF0YV9zb3VyY2UoInRkeCIpICAgICMg5YiH5o2i5Yiw6YCa6L6+5L+hDQogICAgICAgIHNldF9kYXRhX3NvdXJjZSgiYWtzaGFyZSIpICAjIOWIh+aNouWIsCBBa1NoYXJlDQogICAgIiIiDQogICAgZ2xvYmFsIF9jdXJyZW50X3NvdXJjZSwgX2N1cnJlbnRfc291cmNlX25hbWUNCiAgICBfY3VycmVudF9zb3VyY2UgPSBfY3JlYXRlX3NvdXJjZShzb3VyY2UubG93ZXIoKSkNCiAgICBfY3VycmVudF9zb3VyY2VfbmFtZSA9IHNvdXJjZS5sb3dlcigpDQogICAgbG9nZ2VyLmluZm8oZiJbRGF0YVNvdXJjZV0g5bey5YiH5o2i5YiwOiB7c291cmNlfSIpDQoNCg0KZGVmIGdldF9jdXJyZW50X3NvdXJjZV9uYW1lKCkgLT4gc3RyOg0KICAgICIiIui/lOWbnuW9k+WJjeaVsOaNrua6kOWQjeensCIiIg0KICAgIHJldHVybiBfY3VycmVudF9zb3VyY2VfbmFtZSBvciAi5pyq5Yid5aeL5YyWIg0KDQoNCmRlZiByZXNldF9kYXRhX3NvdXJjZSgpIC0+IE5vbmU6DQogICAgIiIi6YeN572u5pWw5o2u5rqQ77yI5LiL5qyh6LCD55So5pe26YeN5paw5Yid5aeL5YyW77yJIiIiDQogICAgZ2xvYmFsIF9jdXJyZW50X3NvdXJjZSwgX2N1cnJlbnRfc291cmNlX25hbWUNCiAgICBfY3VycmVudF9zb3VyY2UgPSBOb25lDQogICAgX2N1cnJlbnRfc291cmNlX25hbWUgPSBOb25lDQo=
+# -*- coding: utf-8 -*-
+"""
+数据源路由层
+根据配置自动选择通达信(TDX) 或 AkShare 数据源
+
+使用方式：
+    from tradingagents.dataflows.data_source import get_data_source
+    ds = get_data_source()          # 获取当前数据源
+    df = ds.get_stock_data("000001", "2024-01-01", "2024-12-31")
+
+配置方式（.env 或 set_config）：
+    TRADINGAGENTS_DATA_SOURCE=tdx       # 强制使用通达信
+    TRADINGAGENTS_DATA_SOURCE=akshare   # 强制使用 AkShare
+    TRADINGAGENTS_DATA_SOURCE=auto      # 自动（优先TDX，失败回退AkShare）
+"""
+
+import logging
+from typing import Optional
+
+logger = logging.getLogger(__name__)
+
+# 当前活跃数据源实例
+_current_source = None
+_current_source_name = None
+
+
+def get_data_source(source: Optional[str] = None):
+    """
+    获取数据源实例
+
+    Args:
+        source: 数据源名称 "tdx"/"akshare"/"auto"，None 时从配置读取
+
+    Returns:
+        数据源工具类实例（TdxStockUtils 或 AkShareUtils 兼容接口）
+    """
+    global _current_source, _current_source_name
+
+    # 确定目标数据源
+    target = _resolve_source(source)
+
+    # 如果已有相同数据源，直接返回
+    if _current_source is not None and _current_source_name == target:
+        return _current_source
+
+    # 创建新数据源
+    _current_source = _create_source(target)
+    _current_source_name = target
+    return _current_source
+
+
+def _resolve_source(source: Optional[str]) -> str:
+    """解析数据源名称"""
+    if source is not None:
+        return source.lower()
+
+    # 从配置读取
+    try:
+        from .config import get_config
+        cfg = get_config()
+        return cfg.get("data_source", "auto").lower()
+    except Exception:
+        return "auto"
+
+
+def _create_source(name: str):
+    """创建数据源实例"""
+    global _current_source_name
+    if name == "tdx":
+        src = _try_tdx()
+        if src is None:
+            raise RuntimeError("指定了 TDX 但无法连接通达信服务器")
+        _current_source_name = "TDX (通达信)"
+        return src
+    elif name == "akshare":
+        src = _try_akshare()
+        _current_source_name = "AkShare"
+        return src
+    else:
+        # auto：优先 TDX，失败回退 AkShare
+        tdx = _try_tdx()
+        if tdx is not None:
+            _current_source_name = "TDX (通达信)"
+            return tdx
+        logger.warning("[DataSource] TDX 不可用，回退到 AkShare")
+        src = _try_akshare()
+        _current_source_name = "AkShare"
+        return src
+
+
+def _try_tdx():
+    """尝试初始化通达信数据源"""
+    try:
+        from .tdx_utils import TdxStockUtils, _pool
+        # 验证连接
+        api = _pool.get_api()
+        if api is None:
+            raise ConnectionError("无法连接通达信服务器")
+        logger.info("[DataSource] 使用数据源: 通达信 (TDX)")
+        return TdxStockUtils()
+    except Exception as e:
+        logger.debug(f"[DataSource] TDX 初始化失败: {e}")
+        return None
+
+
+def _try_akshare():
+    """尝试初始化 AkShare 数据源"""
+    try:
+        from .akshare_stock_utils import AkShareUtils
+        logger.info("[DataSource] 使用数据源: AkShare")
+        return AkShareUtils()
+    except Exception as e:
+        logger.error(f"[DataSource] AkShare 也不可用: {e}")
+        raise RuntimeError("所有数据源均不可用，请检查环境")
+
+
+def set_data_source(source: str) -> None:
+    """
+    手动切换数据源
+
+    Args:
+        source: "tdx" | "akshare" | "auto"
+
+    Example:
+        from tradingagents.dataflows.data_source import set_data_source
+        set_data_source("tdx")    # 切换到通达信
+        set_data_source("akshare")  # 切换到 AkShare
+    """
+    global _current_source, _current_source_name
+    _current_source = _create_source(source.lower())
+    _current_source_name = source.lower()
+    logger.info(f"[DataSource] 已切换到: {source}")
+
+
+def get_current_source_name() -> str:
+    """返回当前数据源名称"""
+    return _current_source_name or "未初始化"
+
+
+def reset_data_source() -> None:
+    """重置数据源（下次调用时重新初始化）"""
+    global _current_source, _current_source_name
+    _current_source = None
+    _current_source_name = None

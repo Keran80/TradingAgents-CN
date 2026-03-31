@@ -1,1 +1,61 @@
-77u/ZnJvbSBsYW5nY2hhaW5fY29yZS5wcm9tcHRzIGltcG9ydCBDaGF0UHJvbXB0VGVtcGxhdGUsIE1lc3NhZ2VzUGxhY2Vob2xkZXIKaW1wb3J0IHRpbWUKaW1wb3J0IGpzb24KCgpkZWYgY3JlYXRlX25ld3NfYW5hbHlzdChsbG0sIHRvb2xraXQpOgogICAgZGVmIG5ld3NfYW5hbHlzdF9ub2RlKHN0YXRlKToKICAgICAgICBjdXJyZW50X2RhdGUgPSBzdGF0ZVsidHJhZGVfZGF0ZSJdCiAgICAgICAgdGlja2VyID0gc3RhdGVbImNvbXBhbnlfb2ZfaW50ZXJlc3QiXQoKICAgICAgICBpZiB0b29sa2l0LmNvbmZpZ1sib25saW5lX3Rvb2xzIl06CiAgICAgICAgICAgIHRvb2xzID0gW3Rvb2xraXQuZ2V0X2dsb2JhbF9uZXdzX29wZW5haSwgdG9vbGtpdC5nZXRfZ29vZ2xlX25ld3NdCiAgICAgICAgZWxzZToKICAgICAgICAgICAgdG9vbHMgPSBbCiAgICAgICAgICAgICAgICB0b29sa2l0LmdldF9maW5uaHViX25ld3MsCiAgICAgICAgICAgICAgICB0b29sa2l0LmdldF9yZWRkaXRfbmV3cywKICAgICAgICAgICAgICAgIHRvb2xraXQuZ2V0X2dvb2dsZV9uZXdzLAogICAgICAgICAgICBdCgogICAgICAgIHN5c3RlbV9tZXNzYWdlID0gKAogICAgICAgICAgICAiWW91IGFyZSBhIG5ld3MgcmVzZWFyY2hlciB0YXNrZWQgd2l0aCBhbmFseXppbmcgcmVjZW50IG5ld3MgYW5kIHRyZW5kcyBvdmVyIHRoZSBwYXN0IHdlZWsuIFBsZWFzZSB3cml0ZSBhIGNvbXByZWhlbnNpdmUgcmVwb3J0IG9mIHRoZSBjdXJyZW50IHN0YXRlIG9mIHRoZSB3b3JsZCB0aGF0IGlzIHJlbGV2YW50IGZvciB0cmFkaW5nIGFuZCBtYWNyb2Vjb25vbWljcy4gTG9vayBhdCBuZXdzIGZyb20gRU9ESEQsIGFuZCBmaW5uaHViIHRvIGJlIGNvbXByZWhlbnNpdmUuIERvIG5vdCBzaW1wbHkgc3RhdGUgdGhlIHRyZW5kcyBhcmUgbWl4ZWQsIHByb3ZpZGUgZGV0YWlsZWQgYW5kIGZpbmVncmFpbmVkIGFuYWx5c2lzIGFuZCBpbnNpZ2h0cyB0aGF0IG1heSBoZWxwIHRyYWRlcnMgbWFrZSBkZWNpc2lvbnMuIgogICAgICAgICAgICArICIiIiBNYWtlIHN1cmUgdG8gYXBwZW5kIGEgTWFrcmRvd24gdGFibGUgYXQgdGhlIGVuZCBvZiB0aGUgcmVwb3J0IHRvIG9yZ2FuaXplIGtleSBwb2ludHMgaW4gdGhlIHJlcG9ydCwgb3JnYW5pemVkIGFuZCBlYXN5IHRvIHJlYWQuIiIiCiAgICAgICAgKQoKICAgICAgICBwcm9tcHQgPSBDaGF0UHJvbXB0VGVtcGxhdGUuZnJvbV9tZXNzYWdlcygKICAgICAgICAgICAgWwogICAgICAgICAgICAgICAgKAogICAgICAgICAgICAgICAgICAgICJzeXN0ZW0iLAogICAgICAgICAgICAgICAgICAgICJZb3UgYXJlIGEgaGVscGZ1bCBBSSBhc3Npc3RhbnQsIGNvbGxhYm9yYXRpbmcgd2l0aCBvdGhlciBhc3Npc3RhbnRzLiIKICAgICAgICAgICAgICAgICAgICAiIFVzZSB0aGUgcHJvdmlkZWQgdG9vbHMgdG8gcHJvZ3Jlc3MgdG93YXJkcyBhbnN3ZXJpbmcgdGhlIHF1ZXN0aW9uLiIKICAgICAgICAgICAgICAgICAgICAiIElmIHlvdSBhcmUgdW5hYmxlIHRvIGZ1bGx5IGFuc3dlciwgdGhhdCdzIE9LOyBhbm90aGVyIGFzc2lzdGFudCB3aXRoIGRpZmZlcmVudCB0b29scyIKICAgICAgICAgICAgICAgICAgICAiIHdpbGwgaGVscCB3aGVyZSB5b3UgbGVmdCBvZmYuIEV4ZWN1dGUgd2hhdCB5b3UgY2FuIHRvIG1ha2UgcHJvZ3Jlc3MuIgogICAgICAgICAgICAgICAgICAgICIgSWYgeW91IG9yIGFueSBvdGhlciBhc3Npc3RhbnQgaGFzIHRoZSBGSU5BTCBUUkFOU0FDVElPTiBQUk9QT1NBTDogKipCVVkvSE9MRC9TRUxMKiogb3IgZGVsaXZlcmFibGUsIgogICAgICAgICAgICAgICAgICAgICIgcHJlZml4IHlvdXIgcmVzcG9uc2Ugd2l0aCBGSU5BTCBUUkFOU0FDVElPTiBQUk9QT1NBTDogKipCVVkvSE9MRC9TRUxMKiogc28gdGhlIHRlYW0ga25vd3MgdG8gc3RvcC4iCiAgICAgICAgICAgICAgICAgICAgIiBZb3UgaGF2ZSBhY2Nlc3MgdG8gdGhlIGZvbGxvd2luZyB0b29sczoge3Rvb2xfbmFtZXN9Llxue3N5c3RlbV9tZXNzYWdlfSIKICAgICAgICAgICAgICAgICAgICAiRm9yIHlvdXIgcmVmZXJlbmNlLCB0aGUgY3VycmVudCBkYXRlIGlzIHtjdXJyZW50X2RhdGV9LiBXZSBhcmUgbG9va2luZyBhdCB0aGUgY29tcGFueSB7dGlja2VyfSIsCiAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgTWVzc2FnZXNQbGFjZWhvbGRlcih2YXJpYWJsZV9uYW1lPSJtZXNzYWdlcyIpLAogICAgICAgICAgICBdCiAgICAgICAgKQoKICAgICAgICBwcm9tcHQgPSBwcm9tcHQucGFydGlhbChzeXN0ZW1fbWVzc2FnZT1zeXN0ZW1fbWVzc2FnZSkKICAgICAgICBwcm9tcHQgPSBwcm9tcHQucGFydGlhbCh0b29sX25hbWVzPSIsICIuam9pbihbdG9vbC5uYW1lIGZvciB0b29sIGluIHRvb2xzXSkpCiAgICAgICAgcHJvbXB0ID0gcHJvbXB0LnBhcnRpYWwoY3VycmVudF9kYXRlPWN1cnJlbnRfZGF0ZSkKICAgICAgICBwcm9tcHQgPSBwcm9tcHQucGFydGlhbCh0aWNrZXI9dGlja2VyKQoKICAgICAgICBjaGFpbiA9IHByb21wdCB8IGxsbS5iaW5kX3Rvb2xzKHRvb2xzKQogICAgICAgIHJlc3VsdCA9IGNoYWluLmludm9rZShzdGF0ZVsibWVzc2FnZXMiXSkKCiAgICAgICAgcmVwb3J0ID0gIiIKCiAgICAgICAgaWYgbGVuKHJlc3VsdC50b29sX2NhbGxzKSA9PSAwOgogICAgICAgICAgICByZXBvcnQgPSByZXN1bHQuY29udGVudAoKICAgICAgICByZXR1cm4gewogICAgICAgICAgICAibWVzc2FnZXMiOiBbcmVzdWx0XSwKICAgICAgICAgICAgIm5ld3NfcmVwb3J0IjogcmVwb3J0LAogICAgICAgIH0KCiAgICByZXR1cm4gbmV3c19hbmFseXN0X25vZGUKDQo=
+﻿from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
+import time
+import json
+
+
+def create_news_analyst(llm, toolkit):
+    def news_analyst_node(state):
+        current_date = state["trade_date"]
+        ticker = state["company_of_interest"]
+
+        if toolkit.config["online_tools"]:
+            tools = [toolkit.get_global_news_openai, toolkit.get_google_news]
+        else:
+            tools = [
+                toolkit.get_finnhub_news,
+                toolkit.get_reddit_news,
+                toolkit.get_google_news,
+            ]
+
+        system_message = (
+            "You are a news researcher tasked with analyzing recent news and trends over the past week. Please write a comprehensive report of the current state of the world that is relevant for trading and macroeconomics. Look at news from EODHD, and finnhub to be comprehensive. Do not simply state the trends are mixed, provide detailed and finegrained analysis and insights that may help traders make decisions."
+            + """ Make sure to append a Makrdown table at the end of the report to organize key points in the report, organized and easy to read."""
+        )
+
+        prompt = ChatPromptTemplate.from_messages(
+            [
+                (
+                    "system",
+                    "You are a helpful AI assistant, collaborating with other assistants."
+                    " Use the provided tools to progress towards answering the question."
+                    " If you are unable to fully answer, that's OK; another assistant with different tools"
+                    " will help where you left off. Execute what you can to make progress."
+                    " If you or any other assistant has the FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** or deliverable,"
+                    " prefix your response with FINAL TRANSACTION PROPOSAL: **BUY/HOLD/SELL** so the team knows to stop."
+                    " You have access to the following tools: {tool_names}.\n{system_message}"
+                    "For your reference, the current date is {current_date}. We are looking at the company {ticker}",
+                ),
+                MessagesPlaceholder(variable_name="messages"),
+            ]
+        )
+
+        prompt = prompt.partial(system_message=system_message)
+        prompt = prompt.partial(tool_names=", ".join([tool.name for tool in tools]))
+        prompt = prompt.partial(current_date=current_date)
+        prompt = prompt.partial(ticker=ticker)
+
+        chain = prompt | llm.bind_tools(tools)
+        result = chain.invoke(state["messages"])
+
+        report = ""
+
+        if len(result.tool_calls) == 0:
+            report = result.content
+
+        return {
+            "messages": [result],
+            "news_report": report,
+        }
+
+    return news_analyst_node
+

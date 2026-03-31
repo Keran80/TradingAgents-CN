@@ -1,1 +1,196 @@
-IyEvdXNyL2Jpbi9lbnYgcHl0aG9uDQojIC0qLSBjb2Rpbmc6IHV0Zi04IC0qLQ0KIiIiDQrpgJrovr7kv6HmlbDmja7mjqXlj6PmtYvor5XohJrmnKwNCui/kOihjOaWueW8jzogcHl0aG9uIHRlc3RfdGR4LnB5DQoiIiINCg0KaW1wb3J0IHN5cw0KaW1wb3J0IG9zDQpzeXMucGF0aC5pbnNlcnQoMCwgb3MucGF0aC5kaXJuYW1lKG9zLnBhdGguYWJzcGF0aChfX2ZpbGVfXykpKQ0KDQppbXBvcnQgbG9nZ2luZw0KbG9nZ2luZy5iYXNpY0NvbmZpZyhsZXZlbD1sb2dnaW5nLklORk8sIGZvcm1hdD0nJShsZXZlbG5hbWUpczogJShtZXNzYWdlKXMnKQ0KDQpkZWYgdGVzdF90ZHhfY29ubmVjdGlvbigpOg0KICAgICIiIua1i+ivlemAmui+vuS/oeacjeWKoeWZqOi/nuaOpSIiIg0KICAgIHByaW50KCJcbiIgKyAiPSIqNjApDQogICAgcHJpbnQoIvCflIwg5rWL6K+VMTog6YCa6L6+5L+h5pyN5Yqh5Zmo6L+e5o6lIikNCiAgICBwcmludCgiPSIqNjApDQogICAgdHJ5Og0KICAgICAgICBmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzLnRkeF91dGlscyBpbXBvcnQgX3Bvb2wNCiAgICAgICAgYXBpID0gX3Bvb2wuZ2V0X2FwaSgpDQogICAgICAgIHNlcnZlciA9IF9wb29sLl9zZXJ2ZXINCiAgICAgICAgcHJpbnQoZiLinIUg6L+e5o6l5oiQ5YqfOiB7c2VydmVyWzBdfTp7c2VydmVyWzFdfSIpDQogICAgICAgIHJldHVybiBUcnVlDQogICAgZXhjZXB0IEV4Y2VwdGlvbiBhcyBlOg0KICAgICAgICBwcmludChmIuKdjCDov57mjqXlpLHotKU6IHtlfSIpDQogICAgICAgIHJldHVybiBGYWxzZQ0KDQoNCmRlZiB0ZXN0X3N0b2NrX2RhdGEoKToNCiAgICAiIiLmtYvor5XogqHnpajml6Xnur/mlbDmja7ojrflj5YiIiINCiAgICBwcmludCgiXG4iICsgIj0iKjYwKQ0KICAgIHByaW50KCLwn5OKIOa1i+ivlTI6IOiCoeelqOaXpee6v+aVsOaNru+8iDAwMDAwMSDlubPlronpk7booYzvvIkiKQ0KICAgIHByaW50KCI9Iio2MCkNCiAgICB0cnk6DQogICAgICAgIGZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MudGR4X3V0aWxzIGltcG9ydCBnZXRfc3RvY2tfZGF0YQ0KICAgICAgICBkZiA9IGdldF9zdG9ja19kYXRhKCIwMDAwMDEiLCAiMjAyNi0wMy0wMSIsICIyMDI2LTAzLTI5IikNCiAgICAgICAgaWYgZGYuZW1wdHk6DQogICAgICAgICAgICBwcmludCgi4pqg77iPIOaVsOaNruS4uuepuiIpDQogICAgICAgICAgICByZXR1cm4gRmFsc2UNCiAgICAgICAgcHJpbnQoZiLinIUg6I635Y+W5oiQ5Yqf77yM5YWxIHtsZW4oZGYpfSDmnaHorrDlvZUiKQ0KICAgICAgICBwcmludChkZi50YWlsKDMpLnRvX3N0cmluZygpKQ0KICAgICAgICByZXR1cm4gVHJ1ZQ0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgcHJpbnQoZiLinYwg5aSx6LSlOiB7ZX0iKQ0KICAgICAgICByZXR1cm4gRmFsc2UNCg0KDQpkZWYgdGVzdF9yZWFsdGltZV9xdW90ZXMoKToNCiAgICAiIiLmtYvor5Xlrp7ml7booYzmg4UiIiINCiAgICBwcmludCgiXG4iICsgIj0iKjYwKQ0KICAgIHByaW50KCLimqEg5rWL6K+VMzog5a6e5pe26KGM5oOF77yI5aSa6IKh77yJIikNCiAgICBwcmludCgiPSIqNjApDQogICAgdHJ5Og0KICAgICAgICBmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzLnRkeF91dGlscyBpbXBvcnQgZ2V0X3JlYWx0aW1lX3F1b3Rlcw0KICAgICAgICBzeW1ib2xzID0gWyIwMDAwMDEiLCAiNjAwMDAwIiwgIjAwMDg1OCIsICIzMDA3NTAiLCAiMDAwMDAyIl0NCiAgICAgICAgZGYgPSBnZXRfcmVhbHRpbWVfcXVvdGVzKHN5bWJvbHMpDQogICAgICAgIGlmIGRmLmVtcHR5Og0KICAgICAgICAgICAgcHJpbnQoIuKaoO+4jyDmlbDmja7kuLrnqboiKQ0KICAgICAgICAgICAgcmV0dXJuIEZhbHNlDQogICAgICAgIGNvbHMgPSBbIm1hcmtldCIsICJjb2RlIiwgInByaWNlIiwgIm9wZW4iLCAiaGlnaCIsICJsb3ciLCAidm9sIiwgImFtb3VudCJdDQogICAgICAgIHByaW50KGYi4pyFIOiOt+WPluaIkOWKn++8jOWFsSB7bGVuKGRmKX0g5Y+q6IKh56WoIikNCiAgICAgICAgcHJpbnQoZGZbW2MgZm9yIGMgaW4gY29scyBpZiBjIGluIGRmLmNvbHVtbnNdXS50b19zdHJpbmcoKSkNCiAgICAgICAgcmV0dXJuIFRydWUNCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgIHByaW50KGYi4p2MIOWksei0pToge2V9IikNCiAgICAgICAgcmV0dXJuIEZhbHNlDQoNCg0KZGVmIHRlc3RfZmluYW5jZV9pbmZvKCk6DQogICAgIiIi5rWL6K+V6LSi5Yqh5L+h5oGvIiIiDQogICAgcHJpbnQoIlxuIiArICI9Iio2MCkNCiAgICBwcmludCgi8J+SsCDmtYvor5U0OiDotKLliqHkv6Hmga/vvIgwMDAwMDEg5bmz5a6J6ZO26KGM77yJIikNCiAgICBwcmludCgiPSIqNjApDQogICAgdHJ5Og0KICAgICAgICBmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzLnRkeF91dGlscyBpbXBvcnQgZ2V0X2ZpbmFuY2VfaW5mbw0KICAgICAgICBpbmZvID0gZ2V0X2ZpbmFuY2VfaW5mbygiMDAwMDAxIikNCiAgICAgICAgaWYgbm90IGluZm86DQogICAgICAgICAgICBwcmludCgi4pqg77iPIOaVsOaNruS4uuepuiIpDQogICAgICAgICAgICByZXR1cm4gRmFsc2UNCiAgICAgICAgcHJpbnQoZiLinIUg6I635Y+W5oiQ5YqfIikNCiAgICAgICAgZm9yIGssIHYgaW4gaW5mby5pdGVtcygpOg0KICAgICAgICAgICAgaWYgayAhPSAic3ltYm9sIjoNCiAgICAgICAgICAgICAgICBwcmludChmIiAge2s6MzBzfToge3Z9IikNCiAgICAgICAgcmV0dXJuIFRydWUNCiAgICBleGNlcHQgRXhjZXB0aW9uIGFzIGU6DQogICAgICAgIHByaW50KGYi4p2MIOWksei0pToge2V9IikNCiAgICAgICAgcmV0dXJuIEZhbHNlDQoNCg0KZGVmIHRlc3RfbWludXRlX2RhdGEoKToNCiAgICAiIiLmtYvor5XliIbpkp/nur/mlbDmja4iIiINCiAgICBwcmludCgiXG4iICsgIj0iKjYwKQ0KICAgIHByaW50KCLij7HvuI8gIOa1i+ivlTU6IOWIhumSn+e6v+aVsOaNru+8iDAwMDAwMe+8jDXliIbpkp/vvIkiKQ0KICAgIHByaW50KCI9Iio2MCkNCiAgICB0cnk6DQogICAgICAgIGZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MudGR4X3V0aWxzIGltcG9ydCBnZXRfc3RvY2tfYmFycw0KICAgICAgICBmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZSwgdGltZWRlbHRhDQogICAgICAgIGVuZCA9IGRhdGV0aW1lLm5vdygpLnN0cmZ0aW1lKCIlWS0lbS0lZCIpDQogICAgICAgIHN0YXJ0ID0gKGRhdGV0aW1lLm5vdygpIC0gdGltZWRlbHRhKGRheXM9MykpLnN0cmZ0aW1lKCIlWS0lbS0lZCIpDQogICAgICAgIGRmID0gZ2V0X3N0b2NrX2JhcnMoIjAwMDAwMSIsIHN0YXJ0LCBlbmQsIGtfdHlwZT0iNW1pbiIpDQogICAgICAgIGlmIGRmLmVtcHR5Og0KICAgICAgICAgICAgcHJpbnQoIuKaoO+4jyDmlbDmja7kuLrnqbrvvIjpnZ7kuqTmmJPml7bpl7Tlj6/og73kuLrnqbrvvIkiKQ0KICAgICAgICAgICAgcmV0dXJuIFRydWUNCiAgICAgICAgcHJpbnQoZiLinIUg6I635Y+W5oiQ5Yqf77yM5YWxIHtsZW4oZGYpfSDmnaHorrDlvZUiKQ0KICAgICAgICBwcmludChkZi50YWlsKDMpLnRvX3N0cmluZygpKQ0KICAgICAgICByZXR1cm4gVHJ1ZQ0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgcHJpbnQoZiLinYwg5aSx6LSlOiB7ZX0iKQ0KICAgICAgICByZXR1cm4gRmFsc2UNCg0KDQpkZWYgdGVzdF9kYXRhX3NvdXJjZV9yb3V0ZXIoKToNCiAgICAiIiLmtYvor5XmlbDmja7mupDot6/nlLHvvIhhdXRvIOaooeW8j++8iSIiIg0KICAgIHByaW50KCJcbiIgKyAiPSIqNjApDQogICAgcHJpbnQoIvCflIQg5rWL6K+VNjog5pWw5o2u5rqQ6Lev55Sx77yIYXV0byDmqKHlvI/vvIkiKQ0KICAgIHByaW50KCI9Iio2MCkNCiAgICB0cnk6DQogICAgICAgIGZyb20gdHJhZGluZ2FnZW50cy5kYXRhZmxvd3MuZGF0YV9zb3VyY2UgaW1wb3J0IGdldF9kYXRhX3NvdXJjZSwgZ2V0X2N1cnJlbnRfc291cmNlX25hbWUNCiAgICAgICAgZHMgPSBnZXRfZGF0YV9zb3VyY2UoImF1dG8iKQ0KICAgICAgICBzb3VyY2VfbmFtZSA9IGdldF9jdXJyZW50X3NvdXJjZV9uYW1lKCkNCiAgICAgICAgcHJpbnQoZiLinIUg5b2T5YmN5pWw5o2u5rqQOiB7c291cmNlX25hbWV9IikNCiAgICAgICAgcHJpbnQoZiIgICDmlbDmja7mupDnsbvlnos6IHt0eXBlKGRzKS5fX25hbWVfX30iKQ0KDQogICAgICAgICMg5rWL6K+V6YCa6L+H6Lev55Sx6I635Y+W5pWw5o2uDQogICAgICAgIGRmID0gZHMuZ2V0X3N0b2NrX2RhdGEoIjYwMDUxOSIsICIyMDI2LTAzLTAxIiwgIjIwMjYtMDMtMjkiKQ0KICAgICAgICBpZiBub3QgZGYuZW1wdHk6DQogICAgICAgICAgICBwcmludChmIuKchSDpgJrov4fot6/nlLHojrflj5YgNjAwNTE5IOi0teW3nuiMheWPsOaVsOaNrjoge2xlbihkZil9IOadoSIpDQogICAgICAgICAgICBwcmludChkZi50YWlsKDIpLnRvX3N0cmluZygpKQ0KICAgICAgICByZXR1cm4gVHJ1ZQ0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgcHJpbnQoZiLinYwg5aSx6LSlOiB7ZX0iKQ0KICAgICAgICByZXR1cm4gRmFsc2UNCg0KDQpkZWYgdGVzdF9pbnRlcmZhY2VfaW50ZWdyYXRpb24oKToNCiAgICAiIiLmtYvor5XkuI4gVHJhZGluZ0FnZW50cyBpbnRlcmZhY2Ug55qE6ZuG5oiQIiIiDQogICAgcHJpbnQoIlxuIiArICI9Iio2MCkNCiAgICBwcmludCgi8J+kliDmtYvor5U3OiBpbnRlcmZhY2UucHkg6ZuG5oiQ5rWL6K+VIikNCiAgICBwcmludCgiPSIqNjApDQogICAgdHJ5Og0KICAgICAgICBmcm9tIHRyYWRpbmdhZ2VudHMuZGF0YWZsb3dzLmludGVyZmFjZSBpbXBvcnQgZ2V0X1lGaW5fZGF0YV9vbmxpbmUNCiAgICAgICAgcmVzdWx0ID0gZ2V0X1lGaW5fZGF0YV9vbmxpbmUoIjAwMDAwMSIsICIyMDI2LTAzLTAxIiwgIjIwMjYtMDMtMTAiKQ0KICAgICAgICBpZiAiTm8gZGF0YSIgaW4gcmVzdWx0Og0KICAgICAgICAgICAgcHJpbnQoZiLimqDvuI8g5peg5pWw5o2uOiB7cmVzdWx0fSIpDQogICAgICAgICAgICByZXR1cm4gRmFsc2UNCiAgICAgICAgbGluZXMgPSByZXN1bHQuc3RyaXAoKS5zcGxpdCgiXG4iKQ0KICAgICAgICBwcmludChmIuKchSDpm4bmiJDmiJDlip/vvIzov5Tlm54ge2xlbihsaW5lcyl9IOihjOaVsOaNriIpDQogICAgICAgIGZvciBsaW5lIGluIGxpbmVzWzo2XToNCiAgICAgICAgICAgIHByaW50KGYiICB7bGluZX0iKQ0KICAgICAgICByZXR1cm4gVHJ1ZQ0KICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZToNCiAgICAgICAgcHJpbnQoZiLinYwg5aSx6LSlOiB7ZX0iKQ0KICAgICAgICBpbXBvcnQgdHJhY2ViYWNrDQogICAgICAgIHRyYWNlYmFjay5wcmludF9leGMoKQ0KICAgICAgICByZXR1cm4gRmFsc2UNCg0KDQpkZWYgbWFpbigpOg0KICAgIHByaW50KCJcbiIgKyAiPSIqNjApDQogICAgcHJpbnQoIiAgVHJhZGluZ0FnZW50cy1DTiDpgJrovr7kv6HmjqXlj6PmtYvor5UiKQ0KICAgIHByaW50KCI9Iio2MCkNCg0KICAgIHRlc3RzID0gWw0KICAgICAgICAoIuacjeWKoeWZqOi/nuaOpSIsICAgICAgdGVzdF90ZHhfY29ubmVjdGlvbiksDQogICAgICAgICgi6IKh56Wo5pel57q/5pWw5o2uIiwgICAgdGVzdF9zdG9ja19kYXRhKSwNCiAgICAgICAgKCLlrp7ml7booYzmg4UiLCAgICAgICAgdGVzdF9yZWFsdGltZV9xdW90ZXMpLA0KICAgICAgICAoIui0ouWKoeS/oeaBryIsICAgICAgICB0ZXN0X2ZpbmFuY2VfaW5mbyksDQogICAgICAgICgi5YiG6ZKf57q/5pWw5o2uIiwgICAgICB0ZXN0X21pbnV0ZV9kYXRhKSwNCiAgICAgICAgKCLmlbDmja7mupDot6/nlLEiLCAgICAgIHRlc3RfZGF0YV9zb3VyY2Vfcm91dGVyKSwNCiAgICAgICAgKCJpbnRlcmZhY2Ug6ZuG5oiQIiwgdGVzdF9pbnRlcmZhY2VfaW50ZWdyYXRpb24pLA0KICAgIF0NCg0KICAgIHJlc3VsdHMgPSBbXQ0KICAgIGZvciBuYW1lLCBmdW5jIGluIHRlc3RzOg0KICAgICAgICBvayA9IGZ1bmMoKQ0KICAgICAgICByZXN1bHRzLmFwcGVuZCgobmFtZSwgb2spKQ0KDQogICAgcHJpbnQoIlxuIiArICI9Iio2MCkNCiAgICBwcmludCgi8J+TiyDmtYvor5XmsYfmgLsiKQ0KICAgIHByaW50KCI9Iio2MCkNCiAgICBwYXNzZWQgPSBzdW0oMSBmb3IgXywgb2sgaW4gcmVzdWx0cyBpZiBvaykNCiAgICBmb3IgbmFtZSwgb2sgaW4gcmVzdWx0czoNCiAgICAgICAgc3RhdHVzID0gIuKchSBQQVNTIiBpZiBvayBlbHNlICLinYwgRkFJTCINCiAgICAgICAgcHJpbnQoZiIgIHtzdGF0dXN9ICB7bmFtZX0iKQ0KICAgIHByaW50KGYiXG7mgLvorqE6IHtwYXNzZWR9L3tsZW4ocmVzdWx0cyl9IOmAmui/hyIpDQoNCiAgICBpZiBwYXNzZWQgPT0gbGVuKHJlc3VsdHMpOg0KICAgICAgICBwcmludCgiXG7wn46JIOaJgOaciea1i+ivlemAmui/h++8gemAmui+vuS/oeaVsOaNrua6kOW3suWwsee7quOAgiIpDQogICAgZWxzZToNCiAgICAgICAgcHJpbnQoIlxu4pqg77iPIOmDqOWIhua1i+ivleWksei0pe+8jOivt+ajgOafpee9kee7nOWSjOS+nei1luOAgiIpDQoNCg0KaWYgX19uYW1lX18gPT0gIl9fbWFpbl9fIjoNCiAgICBtYWluKCkNCg==
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+"""
+通达信数据接口测试脚本
+运行方式: python test_tdx.py
+"""
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
+import logging
+logging.basicConfig(level=logging.INFO, format='%(levelname)s: %(message)s')
+
+def test_tdx_connection():
+    """测试通达信服务器连接"""
+    print("\n" + "="*60)
+    print("🔌 测试1: 通达信服务器连接")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.tdx_utils import _pool
+        api = _pool.get_api()
+        server = _pool._server
+        print(f"✅ 连接成功: {server[0]}:{server[1]}")
+        return True
+    except Exception as e:
+        print(f"❌ 连接失败: {e}")
+        return False
+
+
+def test_stock_data():
+    """测试股票日线数据获取"""
+    print("\n" + "="*60)
+    print("📊 测试2: 股票日线数据（000001 平安银行）")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.tdx_utils import get_stock_data
+        df = get_stock_data("000001", "2026-03-01", "2026-03-29")
+        if df.empty:
+            print("⚠️ 数据为空")
+            return False
+        print(f"✅ 获取成功，共 {len(df)} 条记录")
+        print(df.tail(3).to_string())
+        return True
+    except Exception as e:
+        print(f"❌ 失败: {e}")
+        return False
+
+
+def test_realtime_quotes():
+    """测试实时行情"""
+    print("\n" + "="*60)
+    print("⚡ 测试3: 实时行情（多股）")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.tdx_utils import get_realtime_quotes
+        symbols = ["000001", "600000", "000858", "300750", "000002"]
+        df = get_realtime_quotes(symbols)
+        if df.empty:
+            print("⚠️ 数据为空")
+            return False
+        cols = ["market", "code", "price", "open", "high", "low", "vol", "amount"]
+        print(f"✅ 获取成功，共 {len(df)} 只股票")
+        print(df[[c for c in cols if c in df.columns]].to_string())
+        return True
+    except Exception as e:
+        print(f"❌ 失败: {e}")
+        return False
+
+
+def test_finance_info():
+    """测试财务信息"""
+    print("\n" + "="*60)
+    print("💰 测试4: 财务信息（000001 平安银行）")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.tdx_utils import get_finance_info
+        info = get_finance_info("000001")
+        if not info:
+            print("⚠️ 数据为空")
+            return False
+        print(f"✅ 获取成功")
+        for k, v in info.items():
+            if k != "symbol":
+                print(f"  {k:30s}: {v}")
+        return True
+    except Exception as e:
+        print(f"❌ 失败: {e}")
+        return False
+
+
+def test_minute_data():
+    """测试分钟线数据"""
+    print("\n" + "="*60)
+    print("⏱️  测试5: 分钟线数据（000001，5分钟）")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.tdx_utils import get_stock_bars
+        from datetime import datetime, timedelta
+        end = datetime.now().strftime("%Y-%m-%d")
+        start = (datetime.now() - timedelta(days=3)).strftime("%Y-%m-%d")
+        df = get_stock_bars("000001", start, end, k_type="5min")
+        if df.empty:
+            print("⚠️ 数据为空（非交易时间可能为空）")
+            return True
+        print(f"✅ 获取成功，共 {len(df)} 条记录")
+        print(df.tail(3).to_string())
+        return True
+    except Exception as e:
+        print(f"❌ 失败: {e}")
+        return False
+
+
+def test_data_source_router():
+    """测试数据源路由（auto 模式）"""
+    print("\n" + "="*60)
+    print("🔄 测试6: 数据源路由（auto 模式）")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.data_source import get_data_source, get_current_source_name
+        ds = get_data_source("auto")
+        source_name = get_current_source_name()
+        print(f"✅ 当前数据源: {source_name}")
+        print(f"   数据源类型: {type(ds).__name__}")
+
+        # 测试通过路由获取数据
+        df = ds.get_stock_data("600519", "2026-03-01", "2026-03-29")
+        if not df.empty:
+            print(f"✅ 通过路由获取 600519 贵州茅台数据: {len(df)} 条")
+            print(df.tail(2).to_string())
+        return True
+    except Exception as e:
+        print(f"❌ 失败: {e}")
+        return False
+
+
+def test_interface_integration():
+    """测试与 TradingAgents interface 的集成"""
+    print("\n" + "="*60)
+    print("🤖 测试7: interface.py 集成测试")
+    print("="*60)
+    try:
+        from tradingagents.dataflows.interface import get_YFin_data_online
+        result = get_YFin_data_online("000001", "2026-03-01", "2026-03-10")
+        if "No data" in result:
+            print(f"⚠️ 无数据: {result}")
+            return False
+        lines = result.strip().split("\n")
+        print(f"✅ 集成成功，返回 {len(lines)} 行数据")
+        for line in lines[:6]:
+            print(f"  {line}")
+        return True
+    except Exception as e:
+        print(f"❌ 失败: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
+
+
+def main():
+    print("\n" + "="*60)
+    print("  TradingAgents-CN 通达信接口测试")
+    print("="*60)
+
+    tests = [
+        ("服务器连接",      test_tdx_connection),
+        ("股票日线数据",    test_stock_data),
+        ("实时行情",        test_realtime_quotes),
+        ("财务信息",        test_finance_info),
+        ("分钟线数据",      test_minute_data),
+        ("数据源路由",      test_data_source_router),
+        ("interface 集成", test_interface_integration),
+    ]
+
+    results = []
+    for name, func in tests:
+        ok = func()
+        results.append((name, ok))
+
+    print("\n" + "="*60)
+    print("📋 测试汇总")
+    print("="*60)
+    passed = sum(1 for _, ok in results if ok)
+    for name, ok in results:
+        status = "✅ PASS" if ok else "❌ FAIL"
+        print(f"  {status}  {name}")
+    print(f"\n总计: {passed}/{len(results)} 通过")
+
+    if passed == len(results):
+        print("\n🎉 所有测试通过！通达信数据源已就绪。")
+    else:
+        print("\n⚠️ 部分测试失败，请检查网络和依赖。")
+
+
+if __name__ == "__main__":
+    main()

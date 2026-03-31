@@ -1,1 +1,35 @@
-77u/aW1wb3J0IHRyYWRpbmdhZ2VudHMuZGVmYXVsdF9jb25maWcgYXMgZGVmYXVsdF9jb25maWcKZnJvbSB0eXBpbmcgaW1wb3J0IERpY3QsIE9wdGlvbmFsCgojIFVzZSBkZWZhdWx0IGNvbmZpZyBidXQgYWxsb3cgaXQgdG8gYmUgb3ZlcnJpZGRlbgpfY29uZmlnOiBPcHRpb25hbFtEaWN0XSA9IE5vbmUKREFUQV9ESVI6IE9wdGlvbmFsW3N0cl0gPSBOb25lCgoKZGVmIGluaXRpYWxpemVfY29uZmlnKCk6CiAgICAiIiJJbml0aWFsaXplIHRoZSBjb25maWd1cmF0aW9uIHdpdGggZGVmYXVsdCB2YWx1ZXMuIiIiCiAgICBnbG9iYWwgX2NvbmZpZywgREFUQV9ESVIKICAgIGlmIF9jb25maWcgaXMgTm9uZToKICAgICAgICBfY29uZmlnID0gZGVmYXVsdF9jb25maWcuREVGQVVMVF9DT05GSUcuY29weSgpCiAgICAgICAgREFUQV9ESVIgPSBfY29uZmlnWyJkYXRhX2RpciJdCgoKZGVmIHNldF9jb25maWcoY29uZmlnOiBEaWN0KToKICAgICIiIlVwZGF0ZSB0aGUgY29uZmlndXJhdGlvbiB3aXRoIGN1c3RvbSB2YWx1ZXMuIiIiCiAgICBnbG9iYWwgX2NvbmZpZywgREFUQV9ESVIKICAgIGlmIF9jb25maWcgaXMgTm9uZToKICAgICAgICBfY29uZmlnID0gZGVmYXVsdF9jb25maWcuREVGQVVMVF9DT05GSUcuY29weSgpCiAgICBfY29uZmlnLnVwZGF0ZShjb25maWcpCiAgICBEQVRBX0RJUiA9IF9jb25maWdbImRhdGFfZGlyIl0KCgpkZWYgZ2V0X2NvbmZpZygpIC0+IERpY3Q6CiAgICAiIiJHZXQgdGhlIGN1cnJlbnQgY29uZmlndXJhdGlvbi4iIiIKICAgIGlmIF9jb25maWcgaXMgTm9uZToKICAgICAgICBpbml0aWFsaXplX2NvbmZpZygpCiAgICByZXR1cm4gX2NvbmZpZy5jb3B5KCkKCgojIEluaXRpYWxpemUgd2l0aCBkZWZhdWx0IGNvbmZpZwppbml0aWFsaXplX2NvbmZpZygpCg0K
+﻿import tradingagents.default_config as default_config
+from typing import Dict, Optional
+
+# Use default config but allow it to be overridden
+_config: Optional[Dict] = None
+DATA_DIR: Optional[str] = None
+
+
+def initialize_config():
+    """Initialize the configuration with default values."""
+    global _config, DATA_DIR
+    if _config is None:
+        _config = default_config.DEFAULT_CONFIG.copy()
+        DATA_DIR = _config["data_dir"]
+
+
+def set_config(config: Dict):
+    """Update the configuration with custom values."""
+    global _config, DATA_DIR
+    if _config is None:
+        _config = default_config.DEFAULT_CONFIG.copy()
+    _config.update(config)
+    DATA_DIR = _config["data_dir"]
+
+
+def get_config() -> Dict:
+    """Get the current configuration."""
+    if _config is None:
+        initialize_config()
+    return _config.copy()
+
+
+# Initialize with default config
+initialize_config()
+

@@ -1,1 +1,44 @@
-77u/IiIiClNldHVwIHNjcmlwdCBmb3IgdGhlIFRyYWRpbmdBZ2VudHMgcGFja2FnZS4KIiIiCgpmcm9tIHNldHVwdG9vbHMgaW1wb3J0IHNldHVwLCBmaW5kX3BhY2thZ2VzCgpzZXR1cCgKICAgIG5hbWU9InRyYWRpbmdhZ2VudHMiLAogICAgdmVyc2lvbj0iMC4xLjAiLAogICAgZGVzY3JpcHRpb249Ik11bHRpLUFnZW50cyBMTE0gRmluYW5jaWFsIFRyYWRpbmcgRnJhbWV3b3JrIiwKICAgIGF1dGhvcj0iVHJhZGluZ0FnZW50cyBUZWFtIiwKICAgIGF1dGhvcl9lbWFpbD0ieWlqaWEueGlhb0Bjcy51Y2xhLmVkdSIsCiAgICB1cmw9Imh0dHBzOi8vZ2l0aHViLmNvbS9UYXVyaWNSZXNlYXJjaCIsCiAgICBwYWNrYWdlcz1maW5kX3BhY2thZ2VzKCksCiAgICBpbnN0YWxsX3JlcXVpcmVzPVsKICAgICAgICAibGFuZ2NoYWluPj0wLjEuMCIsCiAgICAgICAgImxhbmdjaGFpbi1vcGVuYWk+PTAuMC4yIiwKICAgICAgICAibGFuZ2NoYWluLWV4cGVyaW1lbnRhbD49MC4wLjQwIiwKICAgICAgICAibGFuZ2dyYXBoPj0wLjAuMjAiLAogICAgICAgICJudW1weT49MS4yNC4wIiwKICAgICAgICAicGFuZGFzPj0yLjAuMCIsCiAgICAgICAgInByYXc+PTcuNy4wIiwKICAgICAgICAic3RvY2tzdGF0cz49MC41LjQiLAogICAgICAgICJ5ZmluYW5jZT49MC4yLjMxIiwKICAgICAgICAidHlwZXI+PTAuOS4wIiwKICAgICAgICAicmljaD49MTMuMC4wIiwKICAgICAgICAicXVlc3Rpb25hcnk+PTIuMC4xIiwKICAgIF0sCiAgICBweXRob25fcmVxdWlyZXM9Ij49My4xMCIsCiAgICBlbnRyeV9wb2ludHM9ewogICAgICAgICJjb25zb2xlX3NjcmlwdHMiOiBbCiAgICAgICAgICAgICJ0cmFkaW5nYWdlbnRzPWNsaS5tYWluOmFwcCIsCiAgICAgICAgXSwKICAgIH0sCiAgICBjbGFzc2lmaWVycz1bCiAgICAgICAgIkRldmVsb3BtZW50IFN0YXR1cyA6OiAzIC0gQWxwaGEiLAogICAgICAgICJJbnRlbmRlZCBBdWRpZW5jZSA6OiBGaW5hbmNpYWwgYW5kIFRyYWRpbmcgSW5kdXN0cnkiLAogICAgICAgICJMaWNlbnNlIDo6IE9TSSBBcHByb3ZlZCA6OiBBcGFjaGUgU29mdHdhcmUgTGljZW5zZSIsCiAgICAgICAgIlByb2dyYW1taW5nIExhbmd1YWdlIDo6IFB5dGhvbiA6OiAzIiwKICAgICAgICAiUHJvZ3JhbW1pbmcgTGFuZ3VhZ2UgOjogUHl0aG9uIDo6IDMuMTAiLAogICAgICAgICJUb3BpYyA6OiBPZmZpY2UvQnVzaW5lc3MgOjogRmluYW5jaWFsIDo6IEludmVzdG1lbnQiLAogICAgXSwKKQoNCg==
+﻿"""
+Setup script for the TradingAgents package.
+"""
+
+from setuptools import setup, find_packages
+
+setup(
+    name="tradingagents",
+    version="0.1.0",
+    description="Multi-Agents LLM Financial Trading Framework",
+    author="TradingAgents Team",
+    author_email="yijia.xiao@cs.ucla.edu",
+    url="https://github.com/TauricResearch",
+    packages=find_packages(),
+    install_requires=[
+        "langchain>=0.1.0",
+        "langchain-openai>=0.0.2",
+        "langchain-experimental>=0.0.40",
+        "langgraph>=0.0.20",
+        "numpy>=1.24.0",
+        "pandas>=2.0.0",
+        "praw>=7.7.0",
+        "stockstats>=0.5.4",
+        "yfinance>=0.2.31",
+        "typer>=0.9.0",
+        "rich>=13.0.0",
+        "questionary>=2.0.1",
+    ],
+    python_requires=">=3.10",
+    entry_points={
+        "console_scripts": [
+            "tradingagents=cli.main:app",
+        ],
+    },
+    classifiers=[
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Financial and Trading Industry",
+        "License :: OSI Approved :: Apache Software License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.10",
+        "Topic :: Office/Business :: Financial :: Investment",
+    ],
+)
+
