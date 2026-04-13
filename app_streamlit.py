@@ -13,7 +13,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 # 导入数据获取模块
-from tradingagents.dataflows import akshare_utils as aks
+from tradingagents.dataflows import sina_utils as aks
 
 # 页面配置
 st.set_page_config(
@@ -285,7 +285,7 @@ if df_daily is not None and not df_daily.empty:
         st.subheader("🤖 AI 分析结论")
         
         # 分析结论输入区域（允许用户粘贴AI分析结果）
-        with st.expander("📝 粘贴/编辑 AI 分析结论", expanded=True):
+        with st.expander("📝 粘贴/编辑 AI 分析结论", expanded=False):
             analysis_text = st.text_area(
                 "分析结论",
                 value="""1. 基本面：银行业整体受益于金融政策支持，基本面正面
@@ -295,8 +295,6 @@ if df_daily is not None and not df_daily.empty:
                 height=150
             )
         
-        # 解析分析结论并显示
-        st.markdown("#### 📊 分析结论")
         
         # 解析每行
         lines = analysis_text.strip().split('\n')
