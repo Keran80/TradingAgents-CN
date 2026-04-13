@@ -1,0 +1,510 @@
+#!/usr/bin/env python3
+"""
+AI 事件调度器
+第1周开发任务：事件引擎优化
+"""
+
+import asyncio
+import heapq
+from datetime import datetime, timedelta
+from tradingagents.event_engine import Event, EventEngine as IntelligentEventEngine
+from tradingagents.event_engine import Event  # noqa
+from typing import Dict, List, Any, Optional, Callable  # noqa
+from dataclasses import dataclass, field  # noqa
+from enum import Enum  # noqa
+import json
+
+# 导入基础事件引擎
+import sys
+sys.path.append('../../src')
+# 修复导入路径
+# from events.intelligent_event_engine import IntelligentEventEngine, Event  # noqa
+
+class EventPriority(Enum):
+    """事件优先级枚举"""
+    CRITICAL = 0      # 关键事件：系统错误、风险预警
+    HIGH = 1          # 高优先级：交易执行、实时数据
+    MEDIUM = 2        # 中优先级：分析任务、报告生成
+    LOW = 3           # 低优先级：日志记录、数据备份
+    BACKGROUND = 4    # 后台任务：数据清理、缓存更新
+
+@dataclass(order=True)
+class ScheduledEvent:
+    """调度事件"""
+    priority: int
+    scheduled_time: datetime
+    event: Event = field(compare=False)
+    callback: Optional[Callable] = field(compare=False, default=None)
+    retry_count: int = field(compare=False, default=0)
+    max_retries: int = field(compare=False, default=3)
+    
+    def __post_init__(self):
+        # 确保优先级是整数
+        if isinstance(self.priority, EventPriority):
+            self.priority = self.priority.value
+
+class AIEventScheduler:
+    """AI 事件调度器"""
+    
+    def __init__(self, event_engine: IntelligentEventEngine):
+        self.event_engine = event_engine
+        self.scheduled_events: List[ScheduledEvent] = []
+        self.running = False
+        self.ai_model = None  # AI 模型实例（预留）
+        self.scheduling_history: List[Dict[str, Any]] = []
+        self.metrics = {
+            "events_scheduled": 0,
+            "events_executed": 0,
+            "events_failed": 0,
+            "events_retried": 0,
+            "avg_scheduling_time": 0.0,
+            "total_scheduling_time": 0.0
+        }
+        
+    async def start(self):
+        """启动调度器"""
+        self.running = True
+        print("🤖 AI 事件调度器启动")
+        
+        # 启动调度循环
+        asyncio.create_task(self._scheduling_loop())
+        
+    async def stop(self):
+        """停止调度器"""
+        self.running = False
+        print("🤖 AI 事件调度器停止")
+        
+    async def schedule_event(self, event: Event, delay_seconds: float = 0, 
+                           priority: EventPriority = EventPriority.MEDIUM,
+                           callback: Optional[Callable] = None,
+                           max_retries: int = 3):
+        """调度事件"""
+        scheduled_time = datetime.now() + timedelta(seconds=delay_seconds)
+        
+        scheduled_event = ScheduledEvent(
+            priority=priority.value,
+            scheduled_time=scheduled_time,
+            event=event,
+            callback=callback,
+            max_retries=max_retries
+        )
+        
+        heapq.heappush(self.scheduled_events, scheduled_event)
+        
+        # 记录调度历史
+        self.scheduling_history.append({
+            "event_type": event.type,
+            "scheduled_time": scheduled_time.isoformat(),
+            "priority": priority.name,
+            "delay_seconds": delay_seconds,
+            "data": event.data
+        })
+        
+        self.metrics["events_scheduled"] += 1
+        
+        print(f"📅 事件调度: {event.type} 优先级={priority.name} 延迟={delay_seconds}s")
+        
+        return scheduled_event
+        
+    async def schedule_recurring_event(self, event: Event, interval_seconds: float,
+                                     priority: EventPriority = EventPriority.MEDIUM,
+                                     max_occurrences: Optional[int] = None):
+        """调度重复事件"""
+        async def recurring_callback():
+            # 执行事件
+            await self.event_engine.put_event(event)
+            
+            # 如果还有剩余次数，重新调度
+            nonlocal occurrence_count
+            occurrence_count += 1
+            
+            if max_occurrences is None or occurrence_count < max_occurrences:
+                await self.schedule_event(
+                    event=event,
+                    delay_seconds=interval_seconds,
+                    priority=priority,
+                    callback=recurring_callback
+                )
+                
+        occurrence_count = 0
+        
+        # 首次调度
+        await self.schedule_event(
+            event=event,
+            delay_seconds=interval_seconds,
+            priority=priority,
+            callback=recurring_callback
+        )
+        
+        print(f"🔄 重复事件调度: {event.type} 间隔={interval_seconds}s 最大次数={max_occurrences or '无限'}")
+        
+    async def schedule_based_on_ai(self, event: Event, context: Dict[str, Any]):
+        """基于 AI 决策调度事件"""
+        # 这里可以集成 AI 模型来决定调度参数
+        ai_decision = await self._ai_analyze_context(context)
+        
+        # 使用 AI 建议的参数
+        delay = ai_decision.get("suggested_delay", 0)
+        priority_value = ai_decision.get("suggested_priority", EventPriority.MEDIUM.value)
+        
+        # 将数值转换为 EventPriority
+        priority = EventPriority(priority_value) if priority_value in [p.value for p in EventPriority] else EventPriority.MEDIUM
+        
+        scheduled_event = await self.schedule_event(
+            event=event,
+            delay_seconds=delay,
+            priority=priority,
+            callback=ai_decision.get("callback")
+        )
+        
+        # 记录 AI 决策
+        scheduled_event.event.data["ai_decision"] = ai_decision
+        
+        print(f"🧠 AI 调度: {event.type} 延迟={delay}s 优先级={priority.name}")
+        
+        return scheduled_event
+        
+    async def _ai_analyze_context(self, context: Dict[str, Any]) -> Dict[str, Any]:
+        """AI 分析上下文（模拟实现）"""
+        # 这里可以集成实际的 AI 模型
+        # 当前使用模拟逻辑
+        
+        event_type = context.get("event_type", "")
+        market_condition = context.get("market_condition", "normal")
+        system_load = context.get("system_load", 0.5)
+        
+        # 模拟 AI 决策逻辑
+        if event_type == "trade_execution":
+            if market_condition == "volatile":
+                suggested_delay = 0  # 立即执行
+                suggested_priority = EventPriority.CRITICAL.value
+            else:
+                suggested_delay = 1  # 1秒延迟
+                suggested_priority = EventPriority.HIGH.value
+                
+        elif event_type == "data_analysis":
+            if system_load > 0.8:
+                suggested_delay = 30  # 高负载时延迟
+                suggested_priority = EventPriority.LOW.value
+            else:
+                suggested_delay = 5
+                suggested_priority = EventPriority.MEDIUM.value
+                
+        elif event_type == "report_generation":
+            suggested_delay = 60  # 后台任务
+            suggested_priority = EventPriority.BACKGROUND.value
+            
+        else:
+            suggested_delay = 0
+            suggested_priority = EventPriority.MEDIUM.value
+            
+        return {
+            "suggested_delay": suggested_delay,
+            "suggested_priority": suggested_priority,
+            "analysis_reason": f"基于事件类型={event_type}, 市场状况={market_condition}, 系统负载={system_load}",
+            "confidence": 0.85,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+    async def _scheduling_loop(self):
+        """调度循环"""
+        while self.running:
+            now = datetime.now()
+            
+            # 检查并执行到期的调度事件
+            while self.scheduled_events and self.scheduled_events[0].scheduled_time <= now:
+                scheduled_event = heapq.heappop(self.scheduled_events)
+                
+                try:
+                    start_time = datetime.now()
+                    
+                    # 执行事件
+                    await self.event_engine.put_event(scheduled_event.event)
+                    
+                    # 如果有回调，执行回调
+                    if scheduled_event.callback:
+                        if asyncio.iscoroutinefunction(scheduled_event.callback):
+                            await scheduled_event.callback()
+                        else:
+                            scheduled_event.callback()
+                    
+                    execution_time = (datetime.now() - start_time).total_seconds()
+                    
+                    # 更新指标
+                    self.metrics["events_executed"] += 1
+                    self.metrics["total_scheduling_time"] += execution_time
+                    self.metrics["avg_scheduling_time"] = (
+                        self.metrics["total_scheduling_time"] / self.metrics["events_executed"]
+                    )
+                    
+                    print(f"✅ 事件执行: {scheduled_event.event.type} 执行时间={execution_time:.3f}s")
+                    
+                except Exception as e:
+                    print(f"❌ 事件执行失败: {scheduled_event.event.type} 错误={e}")
+                    
+                    # 重试逻辑
+                    if scheduled_event.retry_count < scheduled_event.max_retries:
+                        scheduled_event.retry_count += 1
+                        scheduled_event.scheduled_time = now + timedelta(seconds=2 ** scheduled_event.retry_count)  # 指数退避
+                        heapq.heappush(self.scheduled_events, scheduled_event)
+                        
+                        self.metrics["events_retried"] += 1
+                        print(f"🔄 事件重试: {scheduled_event.event.type} 重试次数={scheduled_event.retry_count}")
+                    else:
+                        self.metrics["events_failed"] += 1
+                        print(f"💀 事件放弃: {scheduled_event.event.type} 达到最大重试次数")
+            
+            # 等待下一轮检查
+            await asyncio.sleep(0.1)
+            
+    def get_scheduled_events(self) -> List[Dict[str, Any]]:
+        """获取所有调度事件"""
+        return [
+            {
+                "event_type": se.event.type,
+                "scheduled_time": se.scheduled_time.isoformat(),
+                "priority": EventPriority(se.priority).name,
+                "retry_count": se.retry_count,
+                "max_retries": se.max_retries
+            }
+            for se in sorted(self.scheduled_events, key=lambda x: x.scheduled_time)
+        ]
+        
+    def get_metrics(self) -> Dict[str, Any]:
+        """获取调度器指标"""
+        return {
+            **self.metrics,
+            "current_time": datetime.now().isoformat(),
+            "pending_events": len(self.scheduled_events),
+            "history_size": len(self.scheduling_history)
+        }
+
+class EventTracer:
+    """事件溯源器"""
+    
+    def __init__(self):
+        self.event_history: List[Dict[str, Any]] = []
+        self.correlation_map: Dict[str, List[str]] = {}  # 事件ID -> 相关事件ID列表
+        self.max_history = 1000
+        
+    def trace_event(self, event: Event, handler: Optional[str] = None, 
+                   result: Optional[Any] = None, error: Optional[str] = None):
+        """追踪事件"""
+        trace_entry = {
+            "event_id": id(event),
+            "event_type": event.type,
+            "timestamp": datetime.now().isoformat(),
+            "data": event.data,
+            "priority": event.priority,
+            "handler": handler,
+            "result": result,
+            "error": error,
+            "correlation_id": event.data.get("correlation_id") if event.data else None
+        }
+        
+        self.event_history.append(trace_entry)
+        
+        # 维护历史大小
+        if len(self.event_history) > self.max_history:
+            self.event_history = self.event_history[-self.max_history:]
+            
+        # 更新关联映射
+        correlation_id = trace_entry["correlation_id"]
+        if correlation_id:
+            if correlation_id not in self.correlation_map:
+                self.correlation_map[correlation_id] = []
+            self.correlation_map[correlation_id].append(str(id(event)))
+            
+        return trace_entry
+        
+    def get_event_trace(self, event_id: int) -> Optional[Dict[str, Any]]:
+        """获取事件追踪信息"""
+        for entry in self.event_history:
+            if entry["event_id"] == event_id:
+                return entry
+        return None
+        
+    def get_correlated_events(self, correlation_id: str) -> List[Dict[str, Any]]:
+        """获取关联事件"""
+        event_ids = self.correlation_map.get(correlation_id, [])
+        return [self.get_event_trace(int(eid)) for eid in event_ids if self.get_event_trace(int(eid))]
+        
+    def analyze_event_flow(self, start_time: Optional[datetime] = None, 
+                          end_time: Optional[datetime] = None) -> Dict[str, Any]:
+        """分析事件流"""
+        if start_time is None:
+            start_time = datetime.now() - timedelta(hours=1)
+        if end_time is None:
+            end_time = datetime.now()
+            
+        filtered_events = [
+            entry for entry in self.event_history
+            if start_time <= datetime.fromisoformat(entry["timestamp"]) <= end_time
+        ]
+        
+        if not filtered_events:
+            return {"error": "指定时间段内无事件"}
+            
+        # 统计信息
+        event_types = {}
+        handlers = {}
+        errors = 0
+        
+        for entry in filtered_events:
+            # 事件类型统计
+            event_type = entry["event_type"]
+            event_types[event_type] = event_types.get(event_type, 0) + 1
+            
+            # 处理器统计
+            handler = entry["handler"]
+            if handler:
+                handlers[handler] = handlers.get(handler, 0) + 1
+                
+            # 错误统计
+            if entry["error"]:
+                errors += 1
+                
+        # 计算性能指标
+        total_events = len(filtered_events)
+        success_rate = (total_events - errors) / total_events if total_events > 0 else 0
+        
+        return {
+            "time_range": {
+                "start": start_time.isoformat(),
+                "end": end_time.isoformat()
+            },
+            "total_events": total_events,
+            "event_types": event_types,
+            "handlers": handlers,
+            "errors": errors,
+            "success_rate": success_rate,
+            "sample_events": filtered_events[:10]  # 返回前10个事件作为样本
+        }
+
+# ==================== 演示函数 ====================
+
+async def demo_ai_scheduler():
+    """演示 AI 调度器功能"""
+    print("=" * 70)
+    print("🤖 第1周开发：AI 事件调度器演示")
+    print("=" * 70)
+    
+    # 1. 创建事件引擎
+    event_engine = IntelligentEventEngine()
+    
+    # 2. 创建 AI 调度器
+    ai_scheduler = AIEventScheduler(event_engine)
+    
+    # 3. 创建事件溯源器
+    event_tracer = EventTracer()
+    
+    print("1. 🔧 初始化事件系统...")
+    
+    # 4. 注册事件处理器
+    async def trade_execution_handler(event: Event):
+        """交易执行处理器"""
+        trace = event_tracer.trace_event(event, handler="trade_execution_handler")
+        
+        data = event.data
+        print(f"   💸 交易执行: {data.get('action')} {data.get('symbol')} @ {data.get('price')}")
+        
+        # 模拟执行结果
+        result = {
+            "order_id": f"ORD_{int(datetime.now().timestamp())}",
+            "status": "executed",
+            "executed_price": data.get("price"),
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        trace["result"] = result
+        return result
+        
+    async def data_analysis_handler(event: Event):
+        """数据分析处理器"""
+        trace = event_tracer.trace_event(event, handler="data_analysis_handler")
+        
+        data = event.data
+        print(f"   📊 数据分析: {data.get('symbol')} 数据点={data.get('data_points', 0)}")
+        
+        # 模拟分析结果
+        result = {
+            "analysis_type": data.get("analysis_type", "technical"),
+            "symbol": data.get("symbol"),
+            "recommendation": "BUY" if data.get("price", 0) < 150 else "HOLD",
+            "confidence": 0.75,
+            "timestamp": datetime.now().isoformat()
+        }
+        
+        trace["result"] = result
+        return result
+        
+    async def report_generation_handler(event: Event):
+        """报告生成处理器"""
+        trace = event_tracer.trace_event(event, handler="report_generation_handler")
+        
+        data = event.data
+        print(f"   📋 报告生成: {data.get('report_type')} 报告")
+        
+        # 模拟报告生成
+        result = {
+            "report_id": f"REP_{int(datetime.now().timestamp())}",
+            "report_type": data.get("report_type"),
+            "generated_at": datetime.now().isoformat(),
+            "size_kb": 125,
+            "download_url": f"/reports/{int(datetime.now().timestamp())}.pdf"
+        }
+        
+        trace["result"] = result
+        return result
+        
+    # 注册处理器
+    event_engine.register_handler("trade_execution", trade_execution_handler)
+    event_engine.register_handler("data_analysis", data_analysis_handler)
+    event_engine.register_handler("report_generation", report_generation_handler)
+    
+    print("2. 🚀 启动事件引擎和 AI 调度器...")
+    
+    # 启动事件引擎
+    await event_engine.start()
+    
+    # 启动 AI 调度器
+    await ai_scheduler.start()
+    
+    print("3. 📅 演示事件调度功能...")
+    print("-" * 40)
+    
+    # 5. 调度各种事件
+    # 立即执行的事件
+    immediate_event = Event(
+        type="trade_execution",
+        data={
+            "action": "BUY",
+            "symbol": "AAPL",
+            "price": 152.30,
+            "quantity": 100,
+        }
+    )
+    
+    # 调度到5秒后执行
+    scheduled_event = ScheduledEvent(
+        event=immediate_event,
+        scheduled_time=datetime.now() + timedelta(seconds=5),
+        priority=EventPriority.HIGH
+    )
+    await ai_scheduler.schedule_event(scheduled_event)
+    
+    print("✅ 事件调度演示完成")
+    print("-" * 40)
+    
+    # 6. 运行一段时间后停止
+    print("4. ⏳ 运行10秒后停止...")
+    await asyncio.sleep(10)
+    
+    print("5. 🛑 停止事件引擎和调度器...")
+    await ai_scheduler.stop()
+    await event_engine.stop()
+    
+    print("✅ AI 事件调度器演示完成！")
+
+if __name__ == "__main__":
+    asyncio.run(demo_ai_event_scheduler())

@@ -14,6 +14,11 @@ from typing import Dict, Any, List, Optional
 from dataclasses import dataclass, field, asdict
 from enum import Enum
 
+# 导入 Dashboard 组件
+from .heatmap import HeatmapGenerator, PortfolioHeatmap
+from .charts import ChartGenerator
+from .metrics import MetricsCalculator
+
 app = Flask(__name__)
 app.config['SECRET_KEY'] = 'tradingagents-secret'
 socketio = SocketIO(app, cors_allowed_origins="*", async_mode='threading')
