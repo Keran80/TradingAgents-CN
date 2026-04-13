@@ -43,12 +43,16 @@ STOCK_CODES = {
 # 选择模式：下拉选择 或 手动输入
 input_mode = st.sidebar.radio("输入模式", ["选择股票", "输入代码"])
 
+
+# 初始化 stock_name（全局）
+stock_name = "股票"
 if input_mode == "选择股票":
     selected_stock = st.sidebar.selectbox(
         "选择股票",
         list(STOCK_CODES.keys())
     )
     ticker = STOCK_CODES[selected_stock]
+    stock_name = selected_stock
 else:
     # 手动输入股票代码
     ticker_input = st.sidebar.text_input("输入股票代码", placeholder="如: 000001, 600519")
@@ -285,14 +289,19 @@ if df_daily is not None and not df_daily.empty:
         st.subheader("🤖 AI 分析结论")
         
         # 分析结论输入区域（允许用户粘贴AI分析结果）
+        # 根据股票动态生成默认分析结论
+        default_analysis = f"""1. 基本面：请分析 {stock_name} 的基本面情况
+2. 技术面：请分析技术走势、支撑位和压力位
+3. 资金面：请分析主力资金流向
+4. 综合建议：请给出投资建议"""
+
+        # 分析结论输入区域（允许用户粘贴 AI 分析结果）
         with st.expander("📝 粘贴/编辑 AI 分析结论", expanded=False):
             analysis_text = st.text_area(
                 "分析结论",
-                value="""1. 基本面：银行业整体受益于金融政策支持，基本面正面
-2. 技术面：呈上升趋势，支撑位 10.50 元，压力位 11.50 元
-3. 资金面：主力资金持续流入
-4. 综合建议：买入""",
-                height=150
+                value=default_analysis,
+                height=150,
+                help=f"可根据 AI 分析结果粘贴或修改结论，当前股票：{stock_name}"
             )
         
         
