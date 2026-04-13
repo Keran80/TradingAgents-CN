@@ -6,6 +6,12 @@ TradingAgents 可视化界面
     streamlit run app_streamlit.py
 """
 import streamlit as st
+
+# 初始化 session_state 用于跟踪股票变化
+if 'current_stock' not in st.session_state:
+    st.session_state.current_stock = "股票"
+if 'stock_changed' not in st.session_state:
+    st.session_state.stock_changed = False
 import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
@@ -297,12 +303,26 @@ if df_daily is not None and not df_daily.empty:
 
         # 分析结论输入区域（允许用户粘贴 AI 分析结果）
         with st.expander("📝 粘贴/编辑 AI 分析结论", expanded=False):
-            analysis_text = st.text_area(
-                "分析结论",
-                value=default_analysis,
-                height=150,
-                help=f"可根据 AI 分析结果粘贴或修改结论，当前股票：{stock_name}"
-            )
+            # 如果股票变化了，清空之前的分析结论
+            if st.session_state.get('stock_changed', False):
+                # 重置分析结论为新的默认值
+                analysis_text = st.text_area(
+                    "分析结论",
+                    value=default_analysis,
+                    height=150,
+                    help=f"股票已切换为 {stock_name}，请重新分析",
+                    key=f"analysis_{stock_name}"  # 使用唯一的 key 强制刷新
+                )
+                # 重置变化标志
+                st.session_state.stock_changed = False
+            else:
+                analysis_text = st.text_area(
+                    "分析结论",
+                    value=default_analysis,
+                    height=150,
+                    help=f"可根据 AI 分析结果粘贴或修改结论，当前股票：{stock_name}",
+                    key=f"analysis_{stock_name}"  # 使用唯一的 key
+                )
         
         
         # 解析每行
