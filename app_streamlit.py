@@ -195,7 +195,7 @@ if df_daily is not None and not df_daily.empty:
             template="plotly_dark"
         )
         
-        st.plotly_chart(fig, use_container_width=True)
+        st.plotly_chart(fig, width="stretch")
         
         # 成交量图
         st.subheader("📉 成交量")
@@ -218,7 +218,7 @@ if df_daily is not None and not df_daily.empty:
             yaxis_title="成交量"
         )
         
-        st.plotly_chart(fig_vol, use_container_width=True)
+        st.plotly_chart(fig_vol, width="stretch")
         
         # 技术指标
         st.markdown("---")
@@ -277,7 +277,7 @@ if df_daily is not None and not df_daily.empty:
             yaxis_title="RSI"
         )
         
-        st.plotly_chart(fig_rsi, use_container_width=True)
+        st.plotly_chart(fig_rsi, width="stretch")
         
         # MACD 图
         fig_macd = make_subplots(rows=2, cols=1, shared_xaxes=True, vertical_spacing=0.05, 
@@ -298,7 +298,7 @@ if df_daily is not None and not df_daily.empty:
         
         fig_macd.update_layout(height=350, template="plotly_dark", showlegend=True)
         
-        st.plotly_chart(fig_macd, use_container_width=True)
+        st.plotly_chart(fig_macd, width="stretch")
         
         # AI 分析结论显示区域
         st.markdown("---")
@@ -317,7 +317,7 @@ if df_daily is not None and not df_daily.empty:
         
         with col2:
             st.markdown("**⚡**")
-            generate_ai = st.button("生成 AI 分析", type="primary", use_container_width=True)
+            generate_ai = st.button("生成 AI 分析", type="primary", width="stretch")
         
         # 根据股票动态生成默认分析结论
         default_analysis = f"""1. 基本面：请分析 {stock_name} 的基本面情况
@@ -434,7 +434,7 @@ if df_daily is not None and not df_daily.empty:
         
         st.dataframe(
             df_plot[['日期', '开盘', '收盘', '最高', '最低', '成交量']].tail(20),
-            use_container_width=True
+            width="stretch"
         )
         
 else:
