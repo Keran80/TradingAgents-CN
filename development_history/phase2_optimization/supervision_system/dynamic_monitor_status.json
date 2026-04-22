@@ -1,0 +1,12 @@
+{
+  "optimization_name": "动态监控间隔优化",
+  "implementation_time": "2026-04-10 09:34:48",
+  "monitor_interval_minutes": 45,
+  "previous_interval": 30,
+  "improvement_percentage": "-50%",
+  "next_check_time": "2026-04-10 10:19:48",
+  "status": "active",
+  "configuration_file": "/tmp/CODING_agent/smart_monitor_config.json",
+  "engine_script": "/tmp/CODING_agent/smart_monitor_engine.py",
+  "scheduler_script": "/tmp/CODING_agent/dynamic_monitor_scheduler.sh"
+}

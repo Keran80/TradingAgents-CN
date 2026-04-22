@@ -1,0 +1,20 @@
+{
+  "api": {
+    "api_key": "your_api_key_here",
+    "base_url": "https://api.example.com",
+    "timeout": 30
+  },
+  "database": {
+    "url": "sqlite:///trading.db",
+    "pool_size": 10
+  },
+  "strategy": {
+    "default_strategy": "momentum",
+    "initial_capital": 100000.0,
+    "max_position_size": 0.1
+  },
+  "log": {
+    "level": "INFO",
+    "file": "trading.log"
+  }
+}

@@ -137,3 +137,4 @@ __all__ = [
     "RPCClient",
     "RPCServer",
 ]
+from .error_handling import TradingException, DataException, APIException

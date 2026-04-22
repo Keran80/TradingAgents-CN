@@ -1,0 +1,60 @@
+{
+  "futures_data_source": {
+    "name": "期货数据源适配器配置",
+    "version": "1.0",
+    "created": "2026-04-10T06:55:17.013789",
+    "data_sources": {
+      "commodity_futures": {
+        "enabled": true,
+        "api_endpoint": "https://api.example.com/commodity-futures/v1",
+        "rate_limit_per_minute": 80,
+        "cache_ttl_seconds": 300,
+        "supported_contracts": [
+          "主力合约",
+          "连续合约",
+          "季月合约"
+        ]
+      },
+      "financial_futures": {
+        "enabled": true,
+        "api_endpoint": "https://api.example.com/financial-futures/v1",
+        "rate_limit_per_minute": 60,
+        "cache_ttl_seconds": 300,
+        "supported_contracts": [
+          "当月合约",
+          "下月合约",
+          "当季合约",
+          "下季合约"
+        ]
+      },
+      "energy_futures": {
+        "enabled": true,
+        "api_endpoint": "https://api.example.com/energy-futures/v1",
+        "rate_limit_per_minute": 50,
+        "cache_ttl_seconds": 300,
+        "supported_contracts": [
+          "主力合约",
+          "次主力合约"
+        ]
+      }
+    },
+    "performance": {
+      "timeout_seconds": 30,
+      "retry_attempts": 3,
+      "retry_delay_seconds": 1,
+      "max_concurrent_requests": 8,
+      "market_depth_levels": 10
+    },
+    "cache": {
+      "enabled": true,
+      "max_size_mb": 100,
+      "default_ttl_seconds": 3600,
+      "market_depth_ttl_seconds": 10
+    },
+    "logging": {
+      "level": "INFO",
+      "file": "/tmp/futures_data_source.log",
+      "max_size_mb": 10
+    }
+  }
+}

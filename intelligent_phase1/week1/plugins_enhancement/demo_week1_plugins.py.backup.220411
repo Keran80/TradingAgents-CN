@@ -1,0 +1,414 @@
+#!/usr/bin/env python3
+"""
+第1周开发任务演示：智能插件系统完善
+"""
+
+import asyncio
+import sys
+from pathlib import Path  # noqa
+
+# 添加项目路径
+project_root = Path(__file__).parent.parent.parent
+sys.path.append(str(project_root / 'src'))
+
+from plugins.intelligent_plugin_system import IntelligentPluginSystem, plugin  # noqa
+
+# ==================== 第1周新增插件类型 ====================
+
+@plugin
+class TechnicalIndicatorPlugin:
+    """技术指标插件"""
+    
+    def __init__(self):
+        self.name = "technical_indicators"
+        self.version = "1.0.0"
+        self.description = "计算各种技术指标的插件"
+        
+    async def calculate_rsi(self, prices: list, period: int = 14) -> list:
+        """计算RSI指标"""
+        if len(prices) < period + 1:
+            return []
+            
+        deltas = [prices[i] - prices[i-1] for i in range(1, len(prices))]
+        gains = [delta if delta > 0 else 0 for delta in deltas]
+        losses = [-delta if delta < 0 else 0 for delta in deltas]
+        
+        avg_gain = sum(gains[:period]) / period
+        avg_loss = sum(losses[:period]) / period
+        
+        rsi_values = []
+        for i in range(period, len(prices)):
+            if i > period:
+                avg_gain = (avg_gain * (period - 1) + gains[i-1]) / period
+                avg_loss = (avg_loss * (period - 1) + losses[i-1]) / period
+                
+            if avg_loss == 0:
+                rsi = 100
+            else:
+                rs = avg_gain / avg_loss
+                rsi = 100 - (100 / (1 + rs))
+                
+            rsi_values.append(rsi)
+            
+        return rsi_values
+        
+    async def calculate_macd(self, prices: list, fast: int = 12, slow: int = 26, signal: int = 9) -> dict:
+        """计算MACD指标"""
+        if len(prices) < slow:
+            return {}
+            
+        # 计算EMA
+        def calculate_ema(data, period):
+            multiplier = 2 / (period + 1)
+            ema = [data[0]]
+            for price in data[1:]:
+                ema.append((price - ema[-1]) * multiplier + ema[-1])
+            return ema
+            
+        ema_fast = calculate_ema(prices, fast)
+        ema_slow = calculate_ema(prices, slow)
+        
+        # 计算MACD线
+        macd_line = [fast - slow for fast, slow in zip(ema_fast, ema_slow)]
+        
+        # 计算信号线
+        signal_line = calculate_ema(macd_line, signal)
+        
+        # 计算柱状图
+        histogram = [macd - signal for macd, signal in zip(macd_line, signal_line)]
+        
+        return {
+            "macd_line": macd_line[-1] if macd_line else 0,
+            "signal_line": signal_line[-1] if signal_line else 0,
+            "histogram": histogram[-1] if histogram else 0,
+            "values": {
+                "macd_line": macd_line[-10:] if len(macd_line) >= 10 else macd_line,
+                "signal_line": signal_line[-10:] if len(signal_line) >= 10 else signal_line
+            }
+        }
+        
+    async def calculate_bollinger_bands(self, prices: list, period: int = 20, std_dev: float = 2.0) -> dict:
+        """计算布林带"""
+        if len(prices) < period:
+            return {}
+            
+        import numpy as np
+        
+        prices_array = np.array(prices)
+        sma = np.mean(prices_array[-period:])
+        std = np.std(prices_array[-period:])
+        
+        upper_band = sma + (std_dev * std)
+        lower_band = sma - (std_dev * std)
+        
+        return {
+            "sma": float(sma),
+            "upper_band": float(upper_band),
+            "lower_band": float(lower_band),
+            "current_price": float(prices[-1]),
+            "band_width": float(upper_band - lower_band),
+            "percent_b": float((prices[-1] - lower_band) / (upper_band - lower_band)) if upper_band != lower_band else 0.5
+        }
+
+@plugin
+class PortfolioOptimizationPlugin:
+    """投资组合优化插件"""
+    
+    def __init__(self):
+        self.name = "portfolio_optimization"
+        self.version = "1.0.0"
+        self.description = "现代投资组合理论优化插件"
+        
+    async def calculate_efficient_frontier(self, returns: dict, risk_free_rate: float = 0.02) -> dict:
+        """计算有效前沿"""
+        import numpy as np
+        
+        symbols = list(returns.keys())
+        n_assets = len(symbols)
+        
+        # 计算预期收益和协方差矩阵
+        expected_returns = np.array([np.mean(returns[sym]) for sym in symbols])
+        cov_matrix = np.cov([returns[sym] for sym in symbols])
+        
+        # 生成随机权重
+        n_portfolios = 10000
+        results = []
+        
+        for _ in range(n_portfolios):
+            weights = np.random.random(n_assets)
+            weights /= np.sum(weights)
+            
+            portfolio_return = np.sum(weights * expected_returns)
+            portfolio_volatility = np.sqrt(np.dot(weights.T, np.dot(cov_matrix, weights)))
+            sharpe_ratio = (portfolio_return - risk_free_rate) / portfolio_volatility
+            
+            results.append({
+                "weights": {sym: float(w) for sym, w in zip(symbols, weights)},
+                "return": float(portfolio_return),
+                "volatility": float(portfolio_volatility),
+                "sharpe_ratio": float(sharpe_ratio)
+            })
+            
+        # 找到最优组合
+        max_sharpe = max(results, key=lambda x: x["sharpe_ratio"])
+        min_volatility = min(results, key=lambda x: x["volatility"])
+        
+        return {
+            "efficient_frontier": results[:100],  # 只返回前100个
+            "max_sharpe_portfolio": max_sharpe,
+            "min_volatility_portfolio": min_volatility,
+            "statistics": {
+                "n_assets": n_assets,
+                "expected_returns": {sym: float(er) for sym, er in zip(symbols, expected_returns)},
+                "risk_free_rate": risk_free_rate
+            }
+        }
+        
+    async def optimize_portfolio(self, returns: dict, constraints: dict = None) -> dict:
+        """优化投资组合"""
+        import numpy as np
+        
+        symbols = list(returns.keys())
+        n_assets = len(symbols)
+        
+        # 默认约束
+        if constraints is None:
+            constraints = {
+                "min_weight": 0.0,
+                "max_weight": 1.0,
+                "target_return": None,
+                "max_volatility": None
+            }
+            
+        # 计算预期收益和协方差
+        expected_returns = np.array([np.mean(returns[sym]) for sym in symbols])
+        cov_matrix = np.cov([returns[sym] for sym in symbols])
+        
+        # 简单优化：最大化夏普比率
+        from scipy.optimize import minimize
+        
+        def negative_sharpe(weights, expected_returns, cov_matrix, risk_free_rate=0.02):
+            portfolio_return = np.sum(weights * expected_returns)
+            portfolio_volatility = np.sqrt(np.dot(weights.T, np.dot(cov_matrix, weights)))
+            sharpe = (portfolio_return - risk_free_rate) / portfolio_volatility
+            return -sharpe
+            
+        # 约束条件
+        constraints_list = [
+            {'type': 'eq', 'fun': lambda w: np.sum(w) - 1}  # 权重和为1
+        ]
+        
+        bounds = [(constraints["min_weight"], constraints["max_weight"]) for _ in range(n_assets)]
+        
+        # 初始权重
+        initial_weights = np.ones(n_assets) / n_assets
+        
+        # 优化
+        result = minimize(
+            negative_sharpe,
+            initial_weights,
+            args=(expected_returns, cov_matrix),
+            method='SLSQP',
+            bounds=bounds,
+            constraints=constraints_list
+        )
+        
+        if result.success:
+            optimal_weights = result.x
+            portfolio_return = np.sum(optimal_weights * expected_returns)
+            portfolio_volatility = np.sqrt(np.dot(optimal_weights.T, np.dot(cov_matrix, optimal_weights)))
+            sharpe_ratio = (portfolio_return - 0.02) / portfolio_volatility
+            
+            return {
+                "success": True,
+                "optimal_weights": {sym: float(w) for sym, w in zip(symbols, optimal_weights)},
+                "expected_return": float(portfolio_return),
+                "expected_volatility": float(portfolio_volatility),
+                "sharpe_ratio": float(sharpe_ratio),
+                "constraints_used": constraints
+            }
+        else:
+            return {
+                "success": False,
+                "message": result.message,
+                "optimal_weights": {sym: 1.0/n_assets for sym in symbols},  # 等权重作为备选
+                "constraints_used": constraints
+            }
+
+@plugin
+class NewsSentimentPlugin:
+    """新闻情感分析插件"""
+    
+    def __init__(self):
+        self.name = "news_sentiment"
+        self.version = "1.0.0"
+        self.description = "新闻情感分析和事件检测插件"
+        
+    async def analyze_sentiment(self, news_text: str) -> dict:
+        """分析新闻情感"""
+        # 简化情感分析
+        positive_words = ["涨", "利好", "增长", "突破", "创新高", "看好", "推荐", "买入"]
+        negative_words = ["跌", "利空", "下跌", "跌破", "创新低", "看空", "卖出", "警告"]
+        
+        text_lower = news_text.lower()
+        
+        positive_count = sum(1 for word in positive_words if word in text_lower)
+        negative_count = sum(1 for word in negative_words if word in text_lower)
+        
+        total = positive_count + negative_count
+        if total > 0:
+            sentiment_score = (positive_count - negative_count) / total
+        else:
+            sentiment_score = 0
+            
+        # 判断情感
+        if sentiment_score > 0.3:
+            sentiment = "积极"
+        elif sentiment_score < -0.3:
+            sentiment = "消极"
+        else:
+            sentiment = "中性"
+            
+        return {
+            "sentiment": sentiment,
+            "sentiment_score": sentiment_score,
+            "positive_words": positive_count,
+            "negative_words": negative_count,
+            "total_words": len(news_text.split()),
+            "analysis": f"情感分析: {sentiment} (得分: {sentiment_score:.2f})"
+        }
+        
+    async def detect_market_events(self, news_items: list) -> dict:
+        """检测市场事件"""
+        events = []
+        
+        event_keywords = {
+            "earnings_report": ["财报", "业绩", "盈利", "收入"],
+            "merger_acquisition": ["并购", "收购", "合并", "重组"],
+            "regulatory_change": ["监管", "政策", "法规", "规定"],
+            "product_launch": ["发布", "推出", "上市", "新品"],
+            "leadership_change": ["CEO", "总裁", "董事长", "离职", "任命"]
+        }
+        
+        for news in news_items:
+            text = news.get("text", "").lower()
+            title = news.get("title", "").lower()
+            full_text = f"{title} {text}"
+            
+            detected_events = []
+            for event_type, keywords in event_keywords.items():
+                if any(keyword in full_text for keyword in keywords):
+                    detected_events.append(event_type)
+                    
+            if detected_events:
+                events.append({
+                    "title": news.get("title", ""),
+                    "source": news.get("source", "unknown"),
+                    "timestamp": news.get("timestamp", ""),
+                    "events": detected_events,
+                    "impact": "high" if len(detected_events) > 1 else "medium"
+                })
+                
+        return {
+            "total_news": len(news_items),
+            "events_detected": len(events),
+            "events": events,
+            "summary": f"分析 {len(news_items)} 条新闻，检测到 {len(events)} 个市场事件"
+        }
+
+# ==================== 演示函数 ====================
+
+async def demo_week1_plugins():
+    """演示第1周新增插件功能"""
+    print("=" * 70)
+    print("🧩 第1周开发：智能插件系统完善演示")
+    print("=" * 70)
+    
+    # 1. 创建插件系统
+    plugin_system = IntelligentPluginSystem()
+    
+    print("1. 🔧 创建插件系统并注册第1周新增插件...")
+    
+    # 2. 创建并注册第1周新增插件
+    tech_indicator_plugin = TechnicalIndicatorPlugin()
+    portfolio_plugin = PortfolioOptimizationPlugin()
+    news_plugin = NewsSentimentPlugin()
+    
+    plugin_system.register_plugin("technical_indicators", tech_indicator_plugin)
+    plugin_system.register_plugin("portfolio_optimization", portfolio_plugin)
+    plugin_system.register_plugin("news_sentiment", news_plugin)
+    
+    print(f"   ✅ 注册完成，插件列表: {plugin_system.list_plugins()}")
+    print()
+    
+    # 3. 演示技术指标插件
+    print("2. 📈 技术指标插件演示...")
+    print("-" * 40)
+    
+    # 生成模拟价格数据
+    import random
+    prices = [100 + random.uniform(-5, 5) for _ in range(100)]
+    
+    tech_plugin = plugin_system.get_plugin("technical_indicators")
+    if tech_plugin:
+        # 计算RSI
+        rsi_values = await tech_plugin.calculate_rsi(prices)
+        print(f"   📊 RSI计算: 最后5个值: {rsi_values[-5:] if len(rsi_values) >= 5 else rsi_values}")
+        
+        # 计算MACD
+        macd_result = await tech_plugin.calculate_macd(prices)
+        print(f"   📈 MACD计算:")
+        print(f"      当前MACD线: {macd_result.get('macd_line', 0):.4f}")
+        print(f"      当前信号线: {macd_result.get('signal_line', 0):.4f}")
+        print(f"      当前柱状图: {macd_result.get('histogram', 0):.4f}")
+        
+        # 计算布林带
+        bb_result = await tech_plugin.calculate_bollinger_bands(prices[-30:])  # 使用最近30个价格
+        print(f"   📉 布林带计算:")
+        print(f"      当前价格: {bb_result.get('current_price', 0):.2f}")
+        print(f"      中轨(SMA): {bb_result.get('sma', 0):.2f}")
+        print(f"      上轨: {bb_result.get('upper_band', 0):.2f}")
+        print(f"      下轨: {bb_result.get('lower_band', 0):.2f}")
+        print(f"      带宽: {bb_result.get('band_width', 0):.2f}")
+        print(f"      %B指标: {bb_result.get('percent_b', 0):.2f}")
+    
+    print()
+    
+    # 4. 演示投资组合优化插件
+    print("3. 🎯 投资组合优化插件演示...")
+    print("-" * 40)
+    
+    # 生成模拟收益数据
+    symbols = ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA"]
+    returns_data = {}
+    for symbol in symbols:
+        # 生成12个月的模拟月收益
+        monthly_returns = [random.uniform(-0.1, 0.15) for _ in range(12)]
+        returns_data[symbol] = monthly_returns
+    
+    portfolio_plugin_instance = plugin_system.get_plugin("portfolio_optimization")
+    if portfolio_plugin_instance:
+        # 计算有效前沿
+        frontier_result = await portfolio_plugin_instance.calculate_efficient_frontier(returns_data)
+        print(f"   📊 有效前沿计算完成:")
+        print(f"      资产数量: {frontier_result['statistics']['n_assets']}")
+        
+        max_sharpe = frontier_result["max_sharpe_portfolio"]
+        min_vol = frontier_result["min_volatility_portfolio"]
+        
+        print(f"   🏆 最大夏普比率组合:")
+        print(f"      预期收益: {max_sharpe['return']:.2%}")
+        print(f"      预期波动: {max_sharpe['volatility']:.2%}")
+        print(f"      夏普比率: {max_sharpe['sharpe_ratio']:.2f}")
+        print(f"      权重分配: {max_sharpe['weights']}")
+        
+        print(f"   🛡️ 最小波动组合:")
+        print(f"      预期收益: {min_vol['return']:.2%}")
+        print(f"      预期波动: {min_vol['volatility']:.2%}")
+        print(f"      夏普比率: {min_vol['sharpe_ratio']:.2f}")
+        
+        # 优化投资组合
+        constraints = {
+            "min_weight": 0.05,  # 最小权重5%
+            "max_weight": 0.40,  # 最大权重40%
+            "target_return": 0.10,  # 目标年化

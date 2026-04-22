@@ -1,0 +1,373 @@
+        # 根据具体风险指标添加建议
+        for metric in metrics:
+            if metric.severity in [RiskLevel.CRITICAL, RiskLevel.HIGH]:
+                if metric.name == "最大回撤":
+                    recommendations.append(f"📉 {metric.name} 过高 ({metric.value:.2%})，建议设置止损")
+                elif metric.name == "在险价值(VaR-95%)":
+                    recommendations.append(f"💰 {metric.name} 突破阈值 ({metric.value:.2%})，减少风险敞口")
+                elif metric.name == "集中度风险":
+                    recommendations.append(f"🎯 {metric.name} 过高 ({metric.value:.2%})，分散投资")
+                elif metric.name == "杠杆风险":
+                    recommendations.append(f"⚖️  {metric.name} 过高 ({metric.value:.2f})，降低杠杆")
+        
+        # 去重
+        recommendations = list(dict.fromkeys(recommendations))
+        
+        return recommendations[:5]  # 只返回前5条建议
+    
+    async def assess_portfolio_risk(self, portfolio_data: Dict[str, Any]) -> PortfolioRisk:
+        """
+        评估投资组合风险
+        
+        Args:
+            portfolio_data: 投资组合数据
+            
+        Returns:
+            投资组合风险评估
+        """
+        portfolio_id = portfolio_data.get("portfolio_id", f"portfolio_{len(self.risk_history)}")
+        
+        logger.info(f"🔍 评估投资组合 {portfolio_id} 的风险...")
+        
+        # 计算风险指标
+        metrics = self.calculate_metrics(portfolio_data)
+        
+        # 计算总体风险等级
+        overall_risk = self.calculate_overall_risk(metrics)
+        
+        # 生成建议
+        recommendations = self.generate_recommendations(metrics, overall_risk)
+        
+        # 创建风险评估
+        risk_assessment = PortfolioRisk(
+            portfolio_id=portfolio_id,
+            metrics=metrics,
+            overall_risk=overall_risk,
+            timestamp=datetime.now(),
+            recommendations=recommendations,
+            metadata={
+                "assessment_method": "comprehensive_risk_analysis",
+                "metrics_count": len(metrics),
+                "breached_metrics": len([m for m in metrics if m.is_breached]),
+                "data_sources": list(portfolio_data.keys())
+            }
+        )
+        
+        # 保存到历史
+        self.risk_history.append(risk_assessment)
+        
+        # 检查是否需要告警
+        if self.config["enable_alerts"]:
+            await self._check_and_create_alerts(risk_assessment)
+        
+        logger.info(f"✅ 风险评估完成: {overall_risk.value}")
+        
+        return risk_assessment
+    
+    async def _check_and_create_alerts(self, risk_assessment: PortfolioRisk):
+        """检查并创建告警"""
+        for metric in risk_assessment.metrics:
+            if metric.severity in [RiskLevel.CRITICAL, RiskLevel.HIGH]:
+                # 检查冷却时间
+                alert_key = f"{risk_assessment.portfolio_id}:{metric.name}"
+                last_alert_time = self.alert_cooldowns.get(alert_key)
+                
+                if last_alert_time:
+                    time_since_last = (datetime.now() - last_alert_time).total_seconds()
+                    if time_since_last < self.config["alert_cooldown"]:
+                        continue  # 还在冷却期
+                
+                # 创建告警
+                alert_id = f"alert_{len(self.alerts)}_{datetime.now().strftime('%Y%m%d%H%M%S')}"
+                
+                if metric.severity == RiskLevel.CRITICAL:
+                    message = f"🚨 关键风险告警: {metric.name} = {metric.value:.2%} (阈值: {metric.threshold:.2%})"
+                    action_required = True
+                else:  # HIGH
+                    message = f"⚠️  高风险告警: {metric.name} = {metric.value:.2%} (阈值: {metric.threshold:.2%})"
+                    action_required = True
+                
+                alert = RiskAlert(
+                    alert_id=alert_id,
+                    portfolio_id=risk_assessment.portfolio_id,
+                    metric_name=metric.name,
+                    metric_value=metric.value,
+                    threshold=metric.threshold,
+                    severity=metric.severity,
+                    timestamp=datetime.now(),
+                    message=message,
+                    action_required=action_required
+                )
+                
+                self.alerts.append(alert)
+                self.alert_cooldowns[alert_key] = datetime.now()
+                
+                # 发送告警
+                await self._send_alert(alert)
+    
+    async def _send_alert(self, alert: RiskAlert):
+        """发送告警"""
+        channels = self.config.get("alert_channels", ["log", "console"])
+        
+        for channel in channels:
+            if channel == "log":
+                if alert.severity == RiskLevel.CRITICAL:
+                    logger.critical(alert.message)
+                else:
+                    logger.warning(alert.message)
+            
+            elif channel == "console":
+                print(f"\n{'='*60}")
+                print(f"📢 风险告警 ({alert.severity.value}):")
+                print(f"   投资组合: {alert.portfolio_id}")
+                print(f"   指标: {alert.metric_name}")
+                print(f"   值: {alert.metric_value:.2%}")
+                print(f"   阈值: {alert.threshold:.2%}")
+                print(f"   时间: {alert.timestamp.strftime('%Y-%m-%d %H:%M:%S')}")
+                print(f"   消息: {alert.message}")
+                if alert.action_required:
+                    print(f"   🚨 需要立即行动!")
+                print(f"{'='*60}\n")
+            
+            # 这里可以添加其他告警通道，如email、webhook等
+    
+    async def start_monitoring(self, portfolio_data_provider, interval: Optional[int] = None):
+        """
+        开始持续监控
+        
+        Args:
+            portfolio_data_provider: 投资组合数据提供函数
+            interval: 监控间隔(秒)
+        """
+        if self.monitoring:
+            logger.warning("⚠️  监控已经在运行")
+            return
+        
+        self.monitoring = True
+        monitoring_interval = interval or self.config["monitoring_interval"]
+        
+        logger.info(f"🔍 开始风险监控，间隔: {monitoring_interval}秒")
+        
+        self.monitoring_task = asyncio.create_task(
+            self._monitoring_loop(portfolio_data_provider, monitoring_interval)
+        )
+    
+    async def _monitoring_loop(self, portfolio_data_provider, interval: int):
+        """监控循环"""
+        while self.monitoring:
+            try:
+                # 获取投资组合数据
+                portfolio_data = await portfolio_data_provider()
+                
+                if portfolio_data:
+                    # 评估风险
+                    risk_assessment = await self.assess_portfolio_risk(portfolio_data)
+                    
+                    # 记录监控结果
+                    summary = risk_assessment.get_summary()
+                    if summary["has_critical_risk"]:
+                        logger.critical(f"🚨 监控发现关键风险: {summary}")
+                    elif summary["has_high_risk"]:
+                        logger.warning(f"⚠️  监控发现高风险: {summary}")
+                    else:
+                        logger.debug(f"📊 监控正常: {summary}")
+                
+                # 等待下一个监控周期
+                await asyncio.sleep(interval)
+                
+            except Exception as e:
+                logger.error(f"❌ 监控循环错误: {e}")
+                await asyncio.sleep(interval)  # 继续尝试
+    
+    async def stop_monitoring(self):
+        """停止监控"""
+        if not self.monitoring:
+            return
+        
+        self.monitoring = False
+        
+        if self.monitoring_task:
+            self.monitoring_task.cancel()
+            try:
+                await self.monitoring_task
+            except asyncio.CancelledError:
+                pass
+        
+        logger.info("🛑 风险监控已停止")
+    
+    def get_risk_history(self, limit: int = 10) -> List[PortfolioRisk]:
+        """获取风险历史"""
+        return self.risk_history[-limit:] if self.risk_history else []
+    
+    def get_active_alerts(self) -> List[RiskAlert]:
+        """获取活跃告警"""
+        return [alert for alert in self.alerts if not alert.acknowledged]
+    
+    def acknowledge_alert(self, alert_id: str):
+        """确认告警"""
+        for alert in self.alerts:
+            if alert.alert_id == alert_id:
+                alert.acknowledged = True
+                logger.info(f"✅ 告警 {alert_id} 已确认")
+                return
+        
+        logger.warning(f"⚠️  未找到告警 {alert_id}")
+    
+    def get_risk_summary(self) -> Dict[str, Any]:
+        """获取风险摘要"""
+        if not self.risk_history:
+            return {"status": "no_data", "message": "暂无风险评估数据"}
+        
+        latest_risk = self.risk_history[-1]
+        active_alerts = self.get_active_alerts()
+        
+        return {
+            "latest_assessment": latest_risk.get_summary(),
+            "active_alerts": len(active_alerts),
+            "total_assessments": len(self.risk_history),
+            "monitoring_status": "active" if self.monitoring else "inactive",
+            "config_summary": {
+                "thresholds_count": len([k for k in self.config.keys() if "threshold" in k]),
+                "alert_channels": self.config.get("alert_channels", []),
+                "monitoring_interval": self.config.get("monitoring_interval")
+            }
+        }
+
+# 示例使用
+async def example_portfolio_data_provider():
+    """示例投资组合数据提供函数"""
+    # 模拟投资组合数据
+    np.random.seed(42)
+    
+    # 模拟收益率数据
+    n_days = 100
+    returns = np.random.randn(n_days) * 0.02  # 2% daily volatility
+    
+    # 添加一些负收益以测试风险
+    returns[:10] = np.random.randn(10) * 0.05 - 0.03
+    
+    # 模拟持仓数据
+    positions = [
+        {"symbol": "AAPL", "weight": 0.4, "value": 40000},
+        {"symbol": "GOOGL", "weight": 0.3, "value": 30000},
+        {"symbol": "MSFT", "weight": 0.2, "value": 20000},
+        {"symbol": "AMZN", "weight": 0.1, "value": 10000}
+    ]
+    
+    # 模拟相关性矩阵
+    n_assets = 4
+    correlation_matrix = np.eye(n_assets)
+    correlation_matrix[0, 1] = correlation_matrix[1, 0] = 0.6
+    correlation_matrix[0, 2] = correlation_matrix[2, 0] = 0.4
+    correlation_matrix[1, 2] = correlation_matrix[2, 1] = 0.5
+    
+    return {
+        "portfolio_id": "demo_portfolio_001",
+        "returns": returns.tolist(),
+        "positions": positions,
+        "correlation_matrix": correlation_matrix.tolist(),
+        "liquidity_metrics": {
+            "avg_bid_ask_spread": 0.015,  # 1.5%
+            "volume_ratio": 0.8
+        },
+        "leverage": 1.5,
+        "margin_usage": 0.65,
+        "stress_test_results": {
+            "2008_crisis": -0.25,  # -25%
+            "2020_covid": -0.18,   # -18%
+            "flash_crash": -0.12   # -12%
+        }
+    }
+
+async def example_usage():
+    """示例用法"""
+    print("🚀 高级风险监控器示例")
+    print("=" * 60)
+    
+    # 创建风险监控器
+    monitor = AdvancedRiskMonitor()
+    
+    # 获取示例投资组合数据
+    print("📊 获取投资组合数据...")
+    portfolio_data = await example_portfolio_data_provider()
+    
+    # 评估风险
+    print("🔍 评估投资组合风险...")
+    risk_assessment = await monitor.assess_portfolio_risk(portfolio_data)
+    
+    # 显示风险评估结果
+    print("\n📈 风险评估结果:")
+    print("=" * 60)
+    print(f"投资组合: {risk_assessment.portfolio_id}")
+    print(f"总体风险: {risk_assessment.overall_risk.value.upper()}")
+    print(f"评估时间: {risk_assessment.timestamp.strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"指标数量: {len(risk_assessment.metrics)}")
+    
+    # 显示风险指标
+    print("\n📊 风险指标:")
+    print("-" * 60)
+    print(f"{'指标':<25} {'值':<12} {'阈值':<12} {'状态':<10} {'严重度':<10}")
+    print("-" * 60)
+    
+    for metric in risk_assessment.metrics:
+        status = "⚠️ 突破" if metric.is_breached else "✅ 正常"
+        print(f"{metric.name:<25} {metric.value:<12.2%} {metric.threshold:<12.2%} {status:<10} {metric.severity.value:<10}")
+    
+    print("-" * 60)
+    
+    # 显示建议
+    print("\n💡 风险建议:")
+    for i, recommendation in enumerate(risk_assessment.recommendations, 1):
+        print(f"  {i}. {recommendation}")
+    
+    # 显示风险摘要
+    print("\n📋 风险摘要:")
+    risk_summary = monitor.get_risk_summary()
+    print(f"  活跃告警: {risk_summary['active_alerts']}")
+    print(f"  总评估次数: {risk_summary['total_assessments']}")
+    print(f"  监控状态: {risk_summary['monitoring_status']}")
+    
+    # 显示活跃告警
+    active_alerts = monitor.get_active_alerts()
+    if active_alerts:
+        print("\n🚨 活跃告警:")
+        for alert in active_alerts:
+            print(f"  • {alert.message}")
+            print(f"    时间: {alert.timestamp.strftime('%H:%M:%S')}")
+            print(f"    需要行动: {'是' if alert.action_required else '否'}")
+    
+    # 测试监控功能
+    print("\n🔍 测试监控功能...")
+    
+    async def simple_data_provider():
+        """简单数据提供函数"""
+        data = await example_portfolio_data_provider()
+        # 修改一些数据以触发告警
+        data["returns"][-1] = -0.08  # 最后一天-8%收益
+        return data
+    
+    # 启动监控
+    await monitor.start_monitoring(simple_data_provider, interval=5)
+    
+    print("监控已启动，等待10秒收集数据...")
+    await asyncio.sleep(10)
+    
+    # 停止监控
+    await monitor.stop_monitoring()
+    
+    # 显示监控结果
+    print("\n📊 监控结果:")
+    latest_history = monitor.get_risk_history(limit=3)
+    for i, assessment in enumerate(latest_history, 1):
+        summary = assessment.get_summary()
+        print(f"  评估{i}: {summary['overall_risk']}, 突破指标: {summary['breached_metrics']}")
+    
+    # 确认所有告警
+    for alert in monitor.get_active_alerts():
+        monitor.acknowledge_alert(alert.alert_id)
+    
+    print(f"\n✅ 示例完成！共进行 {len(monitor.risk_history)} 次风险评估")
+
+if __name__ == "__main__":
+    # 运行示例
+    asyncio.run(example_usage())

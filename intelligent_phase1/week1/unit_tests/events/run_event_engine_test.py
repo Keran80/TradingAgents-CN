@@ -1,0 +1,254 @@
+#!/usr/bin/env python3
+"""
+运行事件引擎单元测试
+"""
+
+import asyncio
+import sys
+import os
+
+async def run_tests():
+    """运行测试"""
+    # 添加事件引擎路径
+    event_engine_file = "/tmp/TradingAgents-CN/intelligent_phase1/week1/events_optimization/optimized_event_engine.py"
+    event_engine_dir = os.path.dirname(event_engine_file)
+    
+    print(f"🔍 事件引擎文件: {event_engine_file}")
+    print(f"🔍 事件引擎目录: {event_engine_dir}")
+    
+    if os.path.exists(event_engine_file):
+        print("✅ 找到事件引擎文件")
+        
+        # 将事件引擎目录添加到Python路径
+        sys.path.insert(0, event_engine_dir)
+        
+        try:
+            # 动态导入
+            import importlib.util
+            spec = importlib.util.spec_from_file_location("optimized_event_engine", event_engine_file)
+            module = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(module)
+            
+            OptimizedEventEngine = module.OptimizedEventEngine
+            EventPriority = module.EventPriority
+            OptimizedEvent = module.OptimizedEvent
+            EnhancedEventTracer = module.EnhancedEventTracer
+            RateLimiter = module.RateLimiter
+            
+            print("✅ 成功导入事件引擎模块")
+            
+            # ==================== 测试函数 ====================
+            
+            async def simple_event_handler(data: dict, event: OptimizedEvent) -> dict:
+                """简单事件处理器"""
+                await asyncio.sleep(0.01)  # 模拟处理时间
+                return {"processed": True, "data": data, "handler": "simple"}
+            
+            async def error_event_handler(data: dict, event: OptimizedEvent) -> dict:
+                """错误事件处理器"""
+                raise ValueError("测试错误")
+            
+            def error_callback(event: OptimizedEvent, error: Exception, handler_name: str):
+                """错误回调函数"""
+                print(f"   ⚠️ 错误回调: {event.event_type} - {error}")
+            
+            # ==================== 运行测试 ====================
+            
+            print("\n🧪 开始运行事件引擎测试...")
+            print("=" * 60)
+            
+            tests_passed = 0
+            tests_failed = 0
+            
+            # 测试1: 创建事件引擎
+            try:
+                engine = OptimizedEventEngine(max_queue_size=1000, worker_count=2)
+                print("✅ 测试1: 创建事件引擎 - 通过")
+                tests_passed += 1
+            except Exception as e:
+                print(f"❌ 测试1: 创建事件引擎 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试2: 注册事件处理器
+            try:
+                engine.register_handler("test_event", simple_event_handler)
+                print("✅ 测试2: 注册事件处理器 - 通过")
+                tests_passed += 1
+            except Exception as e:
+                print(f"❌ 测试2: 注册事件处理器 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试3: 注册错误处理器
+            try:
+                engine.register_error_handler(error_callback)
+                print("✅ 测试3: 注册错误处理器 - 通过")
+                tests_passed += 1
+            except Exception as e:
+                print(f"❌ 测试3: 注册错误处理器 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试4: 启动事件引擎
+            try:
+                await engine.start()
+                print("✅ 测试4: 启动事件引擎 - 通过")
+                tests_passed += 1
+            except Exception as e:
+                print(f"❌ 测试4: 启动事件引擎 - 失败: {e}")
+                tests_failed += 1
+            
+            # 等待引擎启动
+            await asyncio.sleep(0.1)
+            
+            # 测试5: 放入正常事件
+            try:
+                success = await engine.put_event(
+                    event_type="test_event",
+                    data={"test": "data"},
+                    priority=EventPriority.MEDIUM,
+                    source="test",
+                    correlation_id="test_corr_001"
+                )
+                if success:
+                    print("✅ 测试5: 放入正常事件 - 通过")
+                    tests_passed += 1
+                else:
+                    print("❌ 测试5: 放入正常事件 - 失败 (返回False)")
+                    tests_failed += 1
+            except Exception as e:
+                print(f"❌ 测试5: 放入正常事件 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试6: 放入错误事件
+            try:
+                engine.register_handler("error_event", error_event_handler)
+                success = await engine.put_event(
+                    event_type="error_event",
+                    data={"error": "test"},
+                    priority=EventPriority.MEDIUM
+                )
+                if success:
+                    print("✅ 测试6: 放入错误事件 - 通过")
+                    tests_passed += 1
+                else:
+                    print("❌ 测试6: 放入错误事件 - 失败 (返回False)")
+                    tests_failed += 1
+            except Exception as e:
+                print(f"❌ 测试6: 放入错误事件 - 失败: {e}")
+                tests_failed += 1
+            
+            # 等待事件处理
+            await asyncio.sleep(0.5)
+            
+            # 测试7: 获取引擎指标
+            try:
+                metrics = engine.get_metrics()
+                if isinstance(metrics, dict) and "status" in metrics:
+                    print("✅ 测试7: 获取引擎指标 - 通过")
+                    tests_passed += 1
+                else:
+                    print(f"❌ 测试7: 获取引擎指标 - 失败 (无效指标: {metrics})")
+                    tests_failed += 1
+            except Exception as e:
+                print(f"❌ 测试7: 获取引擎指标 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试8: 测试限流器
+            try:
+                rate_limiter = RateLimiter()
+                rate_limiter.set_limit("test_event", max_requests=2, window_seconds=1)
+                
+                # 第一次应该通过
+                result1 = rate_limiter.check_limit("test_event")
+                # 第二次应该通过
+                result2 = rate_limiter.check_limit("test_event")
+                # 第三次应该失败（超过限制）
+                result3 = rate_limiter.check_limit("test_event")
+                
+                if result1 and result2 and not result3:
+                    print("✅ 测试8: 测试限流器 - 通过")
+                    tests_passed += 1
+                else:
+                    print(f"❌ 测试8: 测试限流器 - 失败 (结果: {result1}, {result2}, {result3})")
+                    tests_failed += 1
+            except Exception as e:
+                print(f"❌ 测试8: 测试限流器 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试9: 测试事件溯源器
+            try:
+                tracer = EnhancedEventTracer(max_traces=10)
+                
+                # 创建测试事件
+                test_event = OptimizedEvent(
+                    priority=EventPriority.MEDIUM.value,
+                    timestamp=time.time(),
+                    sequence=1,
+                    event_type="test_trace",
+                    data={"trace": "test"}
+                )
+                
+                # 追踪事件
+                trace_id = tracer.trace_event(test_event, action="test")
+                
+                # 获取追踪
+                trace = tracer.get_trace(trace_id)
+                
+                if trace and trace["event_type"] == "test_trace":
+                    print("✅ 测试9: 测试事件溯源器 - 通过")
+                    tests_passed += 1
+                else:
+                    print(f"❌ 测试9: 测试事件溯源器 - 失败 (追踪: {trace})")
+                    tests_failed += 1
+            except Exception as e:
+                print(f"❌ 测试9: 测试事件溯源器 - 失败: {e}")
+                tests_failed += 1
+            
+            # 测试10: 停止事件引擎
+            try:
+                await engine.stop(timeout=1.0)
+                print("✅ 测试10: 停止事件引擎 - 通过")
+                tests_passed += 1
+            except Exception as e:
+                print(f"❌ 测试10: 停止事件引擎 - 失败: {e}")
+                tests_failed += 1
+            
+            print("=" * 60)
+            print(f"📊 测试结果:")
+            print(f"   总测试数: {tests_passed + tests_failed}")
+            print(f"   通过测试: {tests_passed}")
+            print(f"   失败测试: {tests_failed}")
+            print(f"   通过率: {tests_passed/(tests_passed+tests_failed)*100:.1f}%")
+            
+            # 显示详细指标（如果测试7通过）
+            if tests_passed >= 7:  # 确保引擎已启动和停止
+                print(f"\n📈 事件引擎指标:")
+                for key, value in metrics.items():
+                    if isinstance(value, (int, float, str, bool)):
+                        print(f"   {key}: {value}")
+            
+            if tests_failed == 0:
+                print("\n🎉 所有测试通过！")
+            else:
+                print("\n⚠️ 有测试失败，需要检查")
+            
+        except Exception as e:
+            print(f"❌ 导入或测试失败: {e}")
+            import traceback
+            traceback.print_exc()
+            
+    else:
+        print("❌ 未找到事件引擎文件")
+        
+        # 列出目录内容
+        print("\n📁 目录内容:")
+        base_dir = "/tmp/TradingAgents-CN/intelligent_phase1/week1/events_optimization"
+        if os.path.exists(base_dir):
+            for item in os.listdir(base_dir):
+                print(f"   {item}")
+        else:
+            print(f"   目录不存在: {base_dir}")
+
+# 运行测试
+if __name__ == "__main__":
+    import time
+    asyncio.run(run_tests())

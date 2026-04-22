@@ -1,0 +1,37 @@
+[
+  {
+    "file": "tradingagents/strategies/builder/builder.py",
+    "lines": 1269,
+    "classes": 3,
+    "functions": 25,
+    "split_modules": 4
+  },
+  {
+    "file": "tradingagents/dataflows/interface.py",
+    "lines": 864,
+    "classes": 0,
+    "functions": 17,
+    "split_modules": 2
+  },
+  {
+    "file": "tradingagents/strategies/builder/components.py",
+    "lines": 860,
+    "classes": 24,
+    "functions": 61,
+    "split_modules": 2
+  },
+  {
+    "file": "tradingagents/dashboard/__init__.py",
+    "lines": 854,
+    "classes": 6,
+    "functions": 12,
+    "split_modules": 2
+  },
+  {
+    "file": "tradingagents/dataflows/tdx_utils.py",
+    "lines": 757,
+    "classes": 2,
+    "functions": 38,
+    "split_modules": 2
+  }
+]

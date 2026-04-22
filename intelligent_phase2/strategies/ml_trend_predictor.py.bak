@@ -1,0 +1,183 @@
+        tasks = []
+        for symbol in symbols:
+            if symbol in feature_data:
+                tasks.append(self.predict(feature_data[symbol], symbol))
+            else:
+                logger.warning(f"⚠️  {symbol} 的特征数据缺失")
+        
+        results = await asyncio.gather(*tasks, return_exceptions=True)
+        
+        # 处理结果
+        valid_results = []
+        for i, result in enumerate(results):
+            if isinstance(result, TrendPrediction):
+                valid_results.append(result)
+            elif isinstance(result, Exception):
+                logger.error(f"❌ 预测 {symbols[i]} 异常: {result}")
+                # 创建失败结果
+                valid_results.append(TrendPrediction(
+                    symbol=symbols[i],
+                    prediction=0.0,
+                    confidence=0.0,
+                    features_used=[],
+                    prediction_time=datetime.now(),
+                    horizon_days=5,
+                    model_type=self.model_type
+                ))
+        
+        success_count = sum(1 for r in valid_results if r.confidence > 0)
+        logger.info(f"✅ 批量预测完成，成功: {success_count}/{len(symbols)}")
+        
+        return valid_results
+    
+    def get_training_metrics(self) -> Dict[str, Any]:
+        """获取训练指标"""
+        return self.training_metrics
+    
+    def save_model(self, filepath: str):
+        """保存模型"""
+        if not self.trained:
+            logger.warning("⚠️ 模型未训练，无法保存")
+            return
+        
+        import joblib
+        try:
+            model_data = {
+                'model': self.model,
+                'scaler': self.scaler,
+                'feature_names': self.feature_names,
+                'model_type': self.model_type,
+                'config': self.config,
+                'training_metrics': self.training_metrics,
+                'last_training_time': self.last_training_time
+            }
+            joblib.dump(model_data, filepath)
+            logger.info(f"💾 模型已保存到: {filepath}")
+        except Exception as e:
+            logger.error(f"❌ 保存模型失败: {e}")
+    
+    def load_model(self, filepath: str):
+        """加载模型"""
+        import joblib
+        try:
+            model_data = joblib.load(filepath)
+            self.model = model_data['model']
+            self.scaler = model_data['scaler']
+            self.feature_names = model_data['feature_names']
+            self.model_type = model_data['model_type']
+            self.config = model_data['config']
+            self.training_metrics = model_data['training_metrics']
+            self.last_training_time = model_data['last_training_time']
+            self.trained = True
+            logger.info(f"📂 模型已从 {filepath} 加载")
+        except Exception as e:
+            logger.error(f"❌ 加载模型失败: {e}")
+
+# 示例使用
+async def example_usage():
+    """示例用法"""
+    print("🚀 ML趋势预测策略示例")
+    print("=" * 50)
+    
+    # 创建预测器
+    predictor = MLTrendPredictor(model_type="random_forest")
+    
+    # 模拟历史数据
+    print("生成模拟历史数据...")
+    np.random.seed(42)
+    dates = pd.date_range(end=datetime.now(), periods=200, freq='D')
+    
+    # 创建有趋势的模拟数据
+    trend = np.linspace(0, 0.5, 200)  # 上升趋势
+    noise = np.random.randn(200) * 0.02
+    prices = 100 * (1 + trend + noise.cumsum() / 100)
+    
+    historical_data = pd.DataFrame({
+        'open': prices * (1 + np.random.randn(200) * 0.01),
+        'high': prices * (1 + np.random.rand(200) * 0.03),
+        'low': prices * (1 - np.random.rand(200) * 0.03),
+        'close': prices,
+        'volume': np.random.randint(1000, 10000, 200)
+    }, index=dates)
+    
+    print(f"历史数据形状: {historical_data.shape}")
+    print(f"价格范围: {historical_data['close'].min():.2f} - {historical_data['close'].max():.2f}")
+    
+    # 准备特征
+    features = await predictor.prepare_features(historical_data)
+    
+    if features.empty:
+        print("❌ 特征准备失败")
+        return
+    
+    print(f"特征数据形状: {features.shape}")
+    print(f"特征列: {', '.join(features.columns.tolist()[:10])}...")
+    
+    # 训练模型
+    await predictor.train(features)
+    
+    # 获取训练指标
+    metrics = predictor.get_training_metrics()
+    print(f"\n📊 训练指标:")
+    print(f"  训练集R²: {metrics.get('train_r2', 0):.4f}")
+    print(f"  测试集R²: {metrics.get('test_r2', 0):.4f}")
+    print(f"  交叉验证R²: {metrics.get('cv_mean_r2', 0):.4f}")
+    
+    # 模拟当前特征（使用最后一天的数据）
+    last_features = {}
+    for feature in predictor.feature_names:
+        if feature in features.columns:
+            last_features[feature] = features[feature].iloc[-1]
+    
+    print(f"\n🔍 使用 {len(last_features)} 个特征进行预测")
+    
+    # 进行预测
+    prediction = await predictor.predict(last_features, "AAPL")
+    
+    # 输出结果
+    print("\n📈 预测结果:")
+    print(f"股票: {prediction.symbol}")
+    print(f"预测变化: {prediction.prediction:+.2%}")
+    print(f"置信度: {prediction.confidence:.2%}")
+    print(f"建议操作: {prediction.get_action()}")
+    print(f"风险等级: {prediction.get_risk_level()}")
+    print(f"模型类型: {prediction.model_type}")
+    print(f"预测时间: {prediction.prediction_time.strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    if prediction.features_used:
+        print(f"使用特征: {', '.join(prediction.features_used[:5])}...")
+    
+    # 批量预测示例
+    print("\n🧪 批量预测示例...")
+    symbols = ["AAPL", "GOOGL", "MSFT", "AMZN", "TSLA"]
+    
+    # 为每个股票生成稍微不同的特征
+    feature_data = {}
+    for i, symbol in enumerate(symbols):
+        symbol_features = last_features.copy()
+        # 添加一些随机变化
+        for key in symbol_features:
+            if np.random.random() > 0.7:
+                symbol_features[key] *= np.random.uniform(0.9, 1.1)
+        feature_data[symbol] = symbol_features
+    
+    batch_results = await predictor.batch_predict(symbols, feature_data)
+    
+    print("\n📊 批量预测结果:")
+    print("=" * 60)
+    print(f"{'股票':<8} {'操作':<12} {'预测变化':<12} {'置信度':<12} {'风险等级':<10}")
+    print("-" * 60)
+    
+    for result in batch_results:
+        print(f"{result.symbol:<8} {result.get_action():<12} {result.prediction:+.2%} {'':<4} {result.confidence:.2%} {'':<4} {result.get_risk_level():<10}")
+    
+    print("=" * 60)
+    
+    # 保存模型
+    predictor.save_model("/tmp/ml_trend_predictor_model.joblib")
+    
+    print("\n✅ 示例完成！")
+
+if __name__ == "__main__":
+    # 运行示例
+    asyncio.run(example_usage())

@@ -1,0 +1,43 @@
+{
+  "stock_data_source": {
+    "name": "股票数据源适配器配置",
+    "version": "1.0",
+    "created": "2026-04-10T02:59:48.664597",
+    "data_sources": {
+      "a_share": {
+        "enabled": true,
+        "api_endpoint": "https://api.example.com/a-share/v1",
+        "rate_limit_per_minute": 100,
+        "cache_ttl_seconds": 300
+      },
+      "hk_stock": {
+        "enabled": true,
+        "api_endpoint": "https://api.example.com/hk-stock/v1",
+        "rate_limit_per_minute": 50,
+        "cache_ttl_seconds": 300
+      },
+      "us_stock": {
+        "enabled": true,
+        "api_endpoint": "https://api.example.com/us-stock/v1",
+        "rate_limit_per_minute": 200,
+        "cache_ttl_seconds": 300
+      }
+    },
+    "performance": {
+      "timeout_seconds": 30,
+      "retry_attempts": 3,
+      "retry_delay_seconds": 1,
+      "max_concurrent_requests": 10
+    },
+    "cache": {
+      "enabled": true,
+      "max_size_mb": 100,
+      "default_ttl_seconds": 3600
+    },
+    "logging": {
+      "level": "INFO",
+      "file": "/tmp/stock_data_source.log",
+      "max_size_mb": 10
+    }
+  }
+}
