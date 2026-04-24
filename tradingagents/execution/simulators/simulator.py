@@ -11,9 +11,12 @@ SimulatorBroker - 模拟交易券商
 """
 
 from datetime import datetime
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 import threading
 import time
+import logging
+
+logger = logging.getLogger(__name__)
 
 from ..broker import (
     BrokerInterface, Order, OrderType, OrderSide,
@@ -297,12 +300,12 @@ class SimulatorBroker(BrokerInterface):
         """查询成交记录"""
         return self.order_manager.get_trades(order_id)
 
-    def get_positions(self) -> List[Dict[str, any]]:
+    def get_positions(self) -> List[Dict[str, Any]]:
         """查询持仓"""
         positions = self.portfolio.get_all_positions()
         return [p.to_dict() for p in positions]
 
-    def get_account(self) -> Dict[str, any]:
+    def get_account(self) -> Dict[str, Any]:
         """查询账户信息"""
         return self.account.to_dict()
 
@@ -353,7 +356,7 @@ class SimulatorBroker(BrokerInterface):
             try:
                 self._process_matches()
             except Exception as e:
-                print(f"Match loop error: {e}")
+                logger.error(f"Match loop error: {e}", exc_info=True)
             time.sleep(0.1)  # 100ms 撮合一次
 
     def _process_matches(self):

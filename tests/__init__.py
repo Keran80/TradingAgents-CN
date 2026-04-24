@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """
-TradingAgents-CN测试包
+单元测试包 - TradingAgents-CN
 """

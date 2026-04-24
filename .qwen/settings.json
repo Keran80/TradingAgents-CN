@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(wc *)",
+      "Bash(xargs *)",
+      "Bash(mv *)",
+      "Bash(do *)",
+      "Bash(done)",
+      "Bash(echo *)",
+      "Bash(find *)",
+      "Bash(pytest *)",
+      "Bash(base64 *)",
+      "Bash(grep *)"
+    ]
+  },
+  "$version": 3
+}

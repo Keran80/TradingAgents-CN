@@ -17,8 +17,14 @@ from tradingagents.dataflows import akshare_utils as ak
 from openai import OpenAI
 
 # 配置智谱AI
+api_key = os.getenv("OPENAI_API_KEY") or os.getenv("ZHIPU_API_KEY")
+if not api_key:
+    raise ValueError(
+        "未配置 API Key，请在 .env 文件中设置 OPENAI_API_KEY 或 ZHIPU_API_KEY"
+    )
+
 client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY", "5c9b4291a94540878c8fab0cddc8bc71.IlLUPbvGtiW32isQ"),
+    api_key=api_key,
     base_url=os.getenv("BACKEND_URL", "https://open.bigmodel.cn/api/paas/v4")
 )
 

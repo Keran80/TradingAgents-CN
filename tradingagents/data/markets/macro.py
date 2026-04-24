@@ -60,7 +60,7 @@ class MacroData:
             # 尝试多种GDP接口
             try:
                 df = ak.gdp_china()
-            except:
+            except Exception:
                 df = ak.macro_china_gdp()
             return df
         except Exception as e:
@@ -72,7 +72,7 @@ class MacroData:
         try:
             try:
                 df = ak.cpi_china()
-            except:
+            except Exception:
                 df = ak.macro_china_cpi()
             return df
         except Exception as e:
@@ -84,7 +84,7 @@ class MacroData:
         try:
             try:
                 df = ak.pmi_china()
-            except:
+            except Exception:
                 df = ak.macro_china_pmi()
             return df
         except Exception as e:
@@ -96,7 +96,7 @@ class MacroData:
         try:
             try:
                 df = ak.m2_china()
-            except:
+            except Exception:
                 df = ak.macro_china_m2()
             return df
         except Exception as e:

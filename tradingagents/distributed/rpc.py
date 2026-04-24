@@ -309,7 +309,7 @@ class RPCClient:
                 # 检查连接是否有效
                 if not reader.at_eof():
                     return (reader, writer)
-            except:
+            except Exception:
                 pass
         
         # 建立新连接
@@ -392,7 +392,7 @@ class RPCClient:
                 if server in self._connections:
                     try:
                         self._connections[server][1].close()
-                    except:
+                    except Exception:
                         pass
                     del self._connections[server]
             

@@ -357,7 +357,7 @@ class RiskManager(BaseAgent):
                     try:
                         score = float(line.split("0.")[1].split(")")[0]) / 10
                         return score
-                    except:
+                    except Exception:
                         pass
         
         # 默认中等风险
@@ -414,12 +414,12 @@ class RiskAssessmentEngine:
                 if "目标价" in line:
                     try:
                         context["target_price"] = float(line.split("：")[-1].replace("元", ""))
-                    except:
+                    except Exception:
                         pass
                 if "止损" in line:
                     try:
                         context["stop_loss"] = float(line.split("：")[-1].replace("元", ""))
-                    except:
+                    except Exception:
                         pass
         
         return await self.run(context)

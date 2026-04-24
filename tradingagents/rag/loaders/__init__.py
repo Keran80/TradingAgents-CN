@@ -129,7 +129,7 @@ class PdfLoader(BaseLoader):
                 import pdfplumber
                 with pdfplumber.open(source) as pdf:
                     return len(pdf.pages)
-        except:
+        except Exception:
             return 0
 
 

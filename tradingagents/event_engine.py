@@ -43,12 +43,12 @@ class EventType(Enum):
 @dataclass
 class Event:
     """事件基类"""
-    timestamp: datetime = field(default_factory=datetime.now)
+    timestamp: Optional[datetime] = field(default_factory=datetime.now)
     event_type: EventType = EventType.CUSTOM
     source: str = ""  # 事件来源标识
 
     def __post_init__(self):
-        if not isinstance(self.timestamp, datetime):
+        if self.timestamp is None or not isinstance(self.timestamp, datetime):
             self.timestamp = datetime.now()
 
 
@@ -298,14 +298,14 @@ class EventEngine:
         """
         self.async_mode = async_mode
         self.queue: queue.Queue = queue.Queue()
-        self.handlers: Dict[Type[Event], List[Callable]] = defaultdict(list)
+        self.handlers: Dict[Type[Event], List[Callable[[Event], None]]] = defaultdict(list)
         self.running = False
         self.thread: Optional[threading.Thread] = None
         self._lock = threading.Lock()
 
         logger.info(f"EventEngine initialized (async={async_mode})")
 
-    def register(self, event_type: Type[Event], handler: Callable) -> None:
+    def register(self, event_type: Type[Event], handler: Callable[[Event], None]) -> None:
         """
         注册事件处理器
 
@@ -317,7 +317,7 @@ class EventEngine:
             self.handlers[event_type].append(handler)
             logger.debug(f"Registered handler for {event_type.__name__}: {handler.__name__}")
 
-    def unregister(self, event_type: Type[Event], handler: Callable) -> None:
+    def unregister(self, event_type: Type[Event], handler: Callable[[Event], None]) -> None:
         """
         注销事件处理器
 
@@ -440,7 +440,7 @@ class EventBus:
     _instance: Optional[EventBus] = None
     _lock = threading.Lock()
 
-    def __new__(cls):
+    def __new__(cls) -> "EventBus":
         if cls._instance is None:
             with cls._lock:
                 if cls._instance is None:
@@ -455,11 +455,11 @@ class EventBus:
         self.engine = EventEngine(async_mode=False)
         logger.info("EventBus initialized (singleton)")
 
-    def register(self, event_type: Type[Event], handler: Callable) -> None:
+    def register(self, event_type: Type[Event], handler: Callable[[Event], None]) -> None:
         """注册事件处理器"""
         self.engine.register(event_type, handler)
 
-    def unregister(self, event_type: Type[Event], handler: Callable) -> None:
+    def unregister(self, event_type: Type[Event], handler: Callable[[Event], None]) -> None:
         """注销事件处理器"""
         self.engine.unregister(event_type, handler)
 

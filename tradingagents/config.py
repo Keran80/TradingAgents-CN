@@ -26,6 +26,16 @@ class APISettings:
             base_url=os.getenv("TRADING_API_URL", "https://api.example.com")
         )
 
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> "APISettings":
+        return cls(
+            api_key=data.get("api_key", ""),
+            api_secret=data.get("api_secret", ""),
+            base_url=data.get("base_url", "https://api.example.com"),
+            timeout=data.get("timeout", 30),
+            retry_count=data.get("retry_count", 3)
+        )
+
 
 @dataclass
 class DatabaseSettings:
@@ -39,6 +49,14 @@ class DatabaseSettings:
         return cls(
             url=os.getenv("DATABASE_URL", "sqlite:///trading.db"),
             pool_size=int(os.getenv("DB_POOL_SIZE", "10"))
+        )
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> "DatabaseSettings":
+        return cls(
+            url=data.get("url", "sqlite:///trading.db"),
+            pool_size=data.get("pool_size", 10),
+            echo=data.get("echo", False)
         )
 
 
@@ -62,7 +80,15 @@ class LogSettings:
     level: str = "INFO"
     file: Optional[str] = "trading.log"
     format: str = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
-    
+
+    @classmethod
+    def from_dict(cls, data: Dict[str, Any]) -> "LogSettings":
+        return cls(
+            level=data.get("level", "INFO"),
+            file=data.get("file", "trading.log"),
+            format=data.get("format", "%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+        )
+
     @classmethod
     def from_env(cls) -> "LogSettings":
         return cls(
@@ -101,12 +127,40 @@ class Settings:
                     settings.database = DatabaseSettings.from_dict(config['database'])
                 if 'strategy' in config:
                     settings.strategy = StrategySettings.from_dict(config['strategy'])
-        
-        # 从环境变量加载 (覆盖配置文件)
-        settings.api = APISettings.from_env()
-        settings.database = DatabaseSettings.from_env()
-        settings.log = LogSettings.from_env()
-        
+                if 'log' in config:
+                    settings.log = LogSettings.from_dict(config['log'])
+
+        # 环境变量选择性覆盖 (仅当环境变量有值时)
+        env_api_key = os.getenv("TRADING_API_KEY")
+        env_api_secret = os.getenv("TRADING_API_SECRET")
+        env_api_url = os.getenv("TRADING_API_URL")
+        if env_api_key or env_api_secret or env_api_url:
+            settings.api = APISettings(
+                api_key=env_api_key or settings.api.api_key,
+                api_secret=env_api_secret or settings.api.api_secret,
+                base_url=env_api_url or settings.api.base_url,
+                timeout=settings.api.timeout,
+                retry_count=settings.api.retry_count
+            )
+
+        env_db_url = os.getenv("DATABASE_URL")
+        env_db_pool = os.getenv("DB_POOL_SIZE")
+        if env_db_url or env_db_pool:
+            settings.database = DatabaseSettings(
+                url=env_db_url or settings.database.url,
+                pool_size=int(env_db_pool) if env_db_pool else settings.database.pool_size,
+                echo=settings.database.echo
+            )
+
+        env_log_level = os.getenv("LOG_LEVEL")
+        env_log_file = os.getenv("LOG_FILE")
+        if env_log_level or env_log_file:
+            settings.log = LogSettings(
+                level=env_log_level or settings.log.level,
+                file=env_log_file if env_log_file is not None else settings.log.file,
+                format=settings.log.format
+            )
+
         return settings
     
     def save(self, config_file: str) -> None:

@@ -1,0 +1,60 @@
+﻿# -*- coding: utf-8 -*-
+"""
+数据接口模块 - 兼容性层
+
+本文件保留原始接口签名，所有函数从 interface/ 子模块导入。
+确保向后兼容，原有导入路径不受影响。
+
+原文件：865 行
+拆分后：按功能拆分为 interface/ 目录下的多个子模块
+"""
+
+from typing import Annotated, Dict
+
+# 从子模块导入所有函数，保持向后兼容
+from .interface import (
+    # Finnhub
+    get_finnhub_news,
+    get_finnhub_company_insider_sentiment,
+    get_finnhub_company_insider_transactions,
+    # Simfin
+    get_simfin_balance_sheet,
+    get_simfin_cashflow,
+    get_simfin_income_statements,
+    # Google News
+    get_google_news,
+    # Reddit
+    get_reddit_global_news,
+    get_reddit_company_news,
+    # YFinance
+    get_YFin_data_window,
+    get_YFin_data_online,
+    get_YFin_data,
+    # StockStats
+    get_stock_stats_indicators_window,
+    get_stockstats_indicator,
+    # OpenAI
+    get_stock_news_openai,
+    get_global_news_openai,
+    get_fundamentals_openai,
+)
+
+__all__ = [
+    "get_finnhub_news",
+    "get_finnhub_company_insider_sentiment",
+    "get_finnhub_company_insider_transactions",
+    "get_simfin_balance_sheet",
+    "get_simfin_cashflow",
+    "get_simfin_income_statements",
+    "get_google_news",
+    "get_reddit_global_news",
+    "get_reddit_company_news",
+    "get_YFin_data_window",
+    "get_YFin_data_online",
+    "get_YFin_data",
+    "get_stock_stats_indicators_window",
+    "get_stockstats_indicator",
+    "get_stock_news_openai",
+    "get_global_news_openai",
+    "get_fundamentals_openai",
+]

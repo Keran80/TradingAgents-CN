@@ -146,16 +146,16 @@ class FactorTree:
                 child_val = self._evaluate_node(node[2], data)
                 try:
                     return OPERATORS[op](child_val)
-                except:
+                except Exception:
                     return np.zeros_like(child_val)
-            
+
             elif node[0] == 'binary':
                 op = node[1]
                 left_val = self._evaluate_node(node[2], data)
                 right_val = self._evaluate_node(node[3], data)
                 try:
                     return OPERATORS[op](left_val, right_val)
-                except:
+                except Exception:
                     return np.zeros_like(left_val)
         
         return np.zeros(1)
@@ -261,7 +261,7 @@ class AlphaGFN:
                             score = 0
                     else:
                         score = 0
-                except:
+                except Exception:
                     score = 0
                 
                 scores.append(score)
@@ -311,10 +311,10 @@ class AlphaGFN:
         
         if len(alpha) != len(target):
             return 0
-        
+
         try:
             return np.corrcoef(alpha.flatten(), target.flatten())[0, 1]
-        except:
+        except Exception:
             return 0
     
     def _calculate_drawdown_ratio(self, alpha: np.ndarray) -> float:

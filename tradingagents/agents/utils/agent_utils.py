@@ -1,5 +1,5 @@
-﻿from langchain_core.messages import BaseMessage, HumanMessage, ToolMessage, AIMessage
-from typing import List
+from langchain_core.messages import BaseMessage, HumanMessage, ToolMessage, AIMessage
+from typing import List, Dict, Any, Optional
 from typing import Annotated
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain_core.messages import RemoveMessage
@@ -15,19 +15,78 @@ from tradingagents.default_config import DEFAULT_CONFIG
 from langchain_core.messages import HumanMessage
 
 
-def create_msg_delete():
-    def delete_messages(state):
+def build_context_situation(
+    state: Dict[str, Any],
+    reports: Optional[List[str]] = None
+) -> str:
+    """
+    构建当前局势上下文字符串
+    
+    从state中提取各类报告，拼接为完整的上下文字符串
+    
+    Args:
+        state: LangGraph状态字典
+        reports: 可选，要包含的报告类型列表，默认为标准报告类型
+        
+    Returns:
+        str: 拼接后的上下文字符串
+    """
+    if reports is None:
+        reports = ["market_report", "sentiment_report", "news_report", "fundamentals_report"]
+    
+    report_mapping = {
+        "market_report": state.get("market_report", ""),
+        "sentiment_report": state.get("sentiment_report", ""),
+        "news_report": state.get("news_report", ""),
+        "fundamentals_report": state.get("fundamentals_report", ""),
+        "investment_plan": state.get("investment_plan", ""),
+        "market_report": state.get("market_report", ""),
+    }
+    
+    parts = []
+    for report_type in reports:
+        content = report_mapping.get(report_type, state.get(report_type, ""))
+        if content:
+            parts.append(content)
+    
+    return "\n\n".join(parts)
+
+
+def format_memories(
+    memories: List[Dict[str, Any]],
+    field: str = "recommendation"
+) -> str:
+    """
+    格式化记忆列表为字符串
+    
+    Args:
+        memories: 记忆列表
+        field: 要提取的字段，默认为 "recommendation"
+        
+    Returns:
+        str: 格式化后的记忆字符串
+    """
+    parts = []
+    for i, rec in enumerate(memories, 1):
+        if field in rec:
+            parts.append(rec[field])
+    
+    return "\n\n".join(parts)
+
+
+def create_msg_delete() -> Callable:
+    def delete_messages(state: Dict[str, Any]) -> Dict[str, Any]:
         """Clear messages and add placeholder for Anthropic compatibility"""
         messages = state["messages"]
-        
+
         # Remove all messages
         removal_operations = [RemoveMessage(id=m.id) for m in messages]
-        
+
         # Add a minimal placeholder message
         placeholder = HumanMessage(content="Continue")
-        
+
         return {"messages": removal_operations + [placeholder]}
-    
+
     return delete_messages
 
 
@@ -35,16 +94,16 @@ class Toolkit:
     _config = DEFAULT_CONFIG.copy()
 
     @classmethod
-    def update_config(cls, config):
+    def update_config(cls, config: Dict[str, Any]) -> None:
         """Update the class-level configuration."""
         cls._config.update(config)
 
     @property
-    def config(self):
+    def config(self) -> Dict[str, Any]:
         """Access the configuration."""
         return self._config
 
-    def __init__(self, config=None):
+    def __init__(self, config: Optional[Dict[str, Any]] = None):
         if config:
             self.update_config(config)
 
@@ -74,7 +133,7 @@ class Toolkit:
         ],
         start_date: Annotated[str, "Start date in yyyy-mm-dd format"],
         end_date: Annotated[str, "End date in yyyy-mm-dd format"],
-    ):
+    ) -> str:
         """
         Retrieve the latest news about a given stock from Finnhub within a date range
         Args:
@@ -227,7 +286,7 @@ class Toolkit:
             str,
             "current date of you are trading at, yyyy-mm-dd",
         ],
-    ):
+    ) -> str:
         """
         Retrieve insider sentiment information about a company (retrieved from public SEC information) for the past 30 days
         Args:
@@ -251,7 +310,7 @@ class Toolkit:
             str,
             "current date you are trading at, yyyy-mm-dd",
         ],
-    ):
+    ) -> str:
         """
         Retrieve insider transaction information about a company (retrieved from public SEC information) for the past 30 days
         Args:
@@ -276,7 +335,7 @@ class Toolkit:
             "reporting frequency of the company's financial history: annual/quarterly",
         ],
         curr_date: Annotated[str, "current date you are trading at, yyyy-mm-dd"],
-    ):
+    ) -> str:
         """
         Retrieve the most recent balance sheet of a company
         Args:
@@ -300,7 +359,7 @@ class Toolkit:
             "reporting frequency of the company's financial history: annual/quarterly",
         ],
         curr_date: Annotated[str, "current date you are trading at, yyyy-mm-dd"],
-    ):
+    ) -> str:
         """
         Retrieve the most recent cash flow statement of a company
         Args:
@@ -324,7 +383,7 @@ class Toolkit:
             "reporting frequency of the company's financial history: annual/quarterly",
         ],
         curr_date: Annotated[str, "current date you are trading at, yyyy-mm-dd"],
-    ):
+    ) -> str:
         """
         Retrieve the most recent income statement of a company
         Args:
@@ -346,7 +405,7 @@ class Toolkit:
     def get_google_news(
         query: Annotated[str, "Query to search with"],
         curr_date: Annotated[str, "Curr date in yyyy-mm-dd format"],
-    ):
+    ) -> str:
         """
         Retrieve the latest news from Google News based on a query and date range.
         Args:
@@ -366,7 +425,7 @@ class Toolkit:
     def get_stock_news_openai(
         ticker: Annotated[str, "the company's ticker"],
         curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
-    ):
+    ) -> str:
         """
         Retrieve the latest news about a given stock by using OpenAI's news API.
         Args:
@@ -384,7 +443,7 @@ class Toolkit:
     @tool
     def get_global_news_openai(
         curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
-    ):
+    ) -> str:
         """
         Retrieve the latest macroeconomics news on a given date using OpenAI's macroeconomics news API.
         Args:
@@ -402,7 +461,7 @@ class Toolkit:
     def get_fundamentals_openai(
         ticker: Annotated[str, "the company's ticker"],
         curr_date: Annotated[str, "Current date in yyyy-mm-dd format"],
-    ):
+    ) -> str:
         """
         Retrieve the latest fundamental information about a given stock on a given date by using OpenAI's news API.
         Args:

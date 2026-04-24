@@ -10,8 +10,8 @@ import os
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
-# 项目路径
-PROJECT_ROOT = Path("c:/Users/13905/WorkBuddy/Claw/TradingAgents-CN")
+# 项目根目录 - 自动检测
+PROJECT_ROOT = Path(__file__).resolve().parent
 OPTIMIZATION_DIR = PROJECT_ROOT / "optimization_tasks"
 
 # 任务定义

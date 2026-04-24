@@ -306,7 +306,7 @@ class PerformanceAnalyzer:
                 buy_date = pd.to_datetime(buy_trade.timestamp)
                 sell_date = pd.to_datetime(sell_trade.timestamp)
                 holding_days.append((sell_date - buy_date).days)
-            except:
+            except Exception:
                 pass
                 
         total = winning + losing

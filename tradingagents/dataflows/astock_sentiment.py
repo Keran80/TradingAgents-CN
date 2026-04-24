@@ -481,15 +481,15 @@ def get_stock_sentiment_summary(ticker: str) -> Dict:
         df = AStockAnalyst.get_资金流向(ticker)
         if not df.empty:
             result['fund_flow'] = df.to_dict('records')[0] if len(df) > 0 else {}
-    except:
+    except Exception:
         pass
-    
+
     # 机构评级
     try:
         df = AStockAnalyst.get_机构评级(ticker)
         if not df.empty:
             result['analyst'] = df.to_dict('records')[0] if len(df) > 0 else {}
-    except:
+    except Exception:
         pass
     
     return result
